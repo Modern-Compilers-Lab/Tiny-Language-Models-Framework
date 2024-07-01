@@ -3,7 +3,7 @@
 This repository contains the implementation and resources for the Tiny Language Models Framework project. In this project, we developed small-scale language models to facilitate detailed research into various aspects of large language models (LLMs), particularly in the domain of code.
 
 <p align="center">
-  <img src="https://github.com/Modern-Compilers-Lab/Tiny-Language-Models-Framework/assets/86785811/946011ac-90ca-454f-baeb-d74b09a1721c" width="1000" >
+  <img src="https://github.com/Modern-Compilers-Lab/Tiny-Language-Models-Framework/assets/86785811/946011ac-90ca-454f-baeb-d74b09a1721c" width="500" >
 </p>
 
 ## Project Structure
