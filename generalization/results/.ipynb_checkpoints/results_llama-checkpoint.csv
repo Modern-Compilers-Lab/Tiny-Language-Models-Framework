@@ -1,0 +1,47 @@
+Prompt,Real_Results,Generated_Results
+"b = 7
+e = 2
+e = 1
+d = 8
+print(b - b)
+# output
+",0.0,0.0
+"a = 7
+c = 0
+a = 1
+for a in range(8, 10) :
+	print(c)
+# output
+",0.0,0.0
+"e = 7
+d = 1
+c = 8
+b = 1
+b = (b / d)-(b * 2)/(2 * d)*(b / c)/(e + 0)-(c + 8)
+if not (b == 9) or (e < 3) or (c > b) and ( d == b) :
+	print(c - e)
+elif (not c < 0) :
+	print(d - b)
+else :
+	print(b)
+# output
+",1.0,7.0
+"d = 2
+d = 0
+d = 6
+if d != 0 :
+	print(d)
+elif not d != d :
+	print(d)
+else :
+	print(d)
+# output
+",6.0,6.0
+"e = 6
+d = 4
+e = 0
+b = d / 8
+for d in range(8, 5) :
+	print(d + 3)
+# output
+",0.0,0.0
