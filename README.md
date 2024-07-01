@@ -113,4 +113,4 @@ To see a demonstration of the model's capabilities, open the generalization/demo
 This project is licensed under the MIT License.
 
 #  Acknowledgements
-Special thanks to all contributors and the community for their support and contribution
+This work was supported in part through the NYU IT High Performance Computing resources, services, and staff expertise.
