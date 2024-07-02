@@ -37,7 +37,11 @@ This repository contains the implementation and resources for the Tiny Language 
 
 - `demonstration.ipynb` : Jupyter notebook demonstrating the usage of the models and scripts.
 
-- `eval.py` : Script to evaluate the trained models.
+- `code_execution.py` : Script to evaluate the trained models on the code execution task.
+  
+- `token-level_code_completion.py` : Script to evaluate the trained models on the token-level code completion task.
+
+- `line-level_code_completion.py` : Script to evaluate the trained models on the line-level code completion task.
 
 - `model.py` : Contains the model architecture and related functions.
 
