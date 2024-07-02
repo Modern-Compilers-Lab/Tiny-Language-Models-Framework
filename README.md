@@ -110,7 +110,7 @@ python finetune.py  --train_dataset_path data/tokenized_train --val_dataset_path
 Evaluate the fine-tuned Code LLaMa model by running:
 
 ```bash
-python evaluate.py --checkpoint_dir models/code-llama-finetuned-level1 --test_file data/test.txt --output_file results/result_llama.txt --csv_file results/results_llama.csv 
+python code_execution.py --checkpoint_dir models/code-llama-finetuned-level1 --test_file data/test.txt --output_file results/result_llama.txt --csv_file results/results_llama.csv 
 ```
 
 #### Demonstration
