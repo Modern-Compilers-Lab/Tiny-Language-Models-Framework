@@ -67,14 +67,14 @@ cd data/
 python tinypy_generator.py --num_programs 1000 --level 1.1 --filename sample_data.txt --deduplicate
 ```
 
+This generation command is just an example to get you started. If you want to train your own model, you'll likely need to generate significantly more data. 
+
 ### Data Preparation
-Prepare the data by running:
+Prepare (Tokenize and split) the data by running:
 
 ```bash
 python prepare.py
 ```
-
-This generation command is just an example to get you started. If you want to train your own model, you'll likely need to generate significantly more data. 
 
 ### Training
 Train the model using the following command:
