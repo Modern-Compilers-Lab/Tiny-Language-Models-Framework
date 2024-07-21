@@ -116,6 +116,11 @@ python code_execution.py --checkpoint_dir models/code-llama-finetuned-level1 --t
 #### Demonstration
 To see a demonstration of the model's capabilities, open the generalization/demonstration.ipynb notebook and follow the instructions within.
 
+# Contact
+
+- **Kamel Yamani**: [mky2023@nyu.edu](mailto:mky2023@nyu.edu)
+- **Marwa Naïr**: [mn3620@nyu.edu](mailto:mn3620@nyu.edu)
+
 
 # License
 This project is licensed under the MIT License.
