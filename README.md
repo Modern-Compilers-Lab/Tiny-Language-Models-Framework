@@ -52,6 +52,7 @@ We've also prepared a [TinyLM Starter Notebook on Kaggle](https://www.kaggle.com
 - `train.py` : Script to train the models.
 
 ## Requirements
+We've used Python 3.11.7.
 
 To install the required packages, you can use the following:
 
@@ -72,7 +73,7 @@ python tinypy_generator.py --num_programs 1000 --level 1.1 --filename sample_dat
 This generation command is just an example to get you started. If you want to train your own model, you'll likely need to generate significantly more data. 
 
 ### Data Preparation
-Prepare (Tokenize and split) the data by running:
+Prepare (tokenize and split) the data by running:
 
 ```bash
 python prepare.py
