@@ -1,10 +1,12 @@
 # Tiny Language Models Framework
 
-This repository contains the implementation and resources for the Tiny Language Models Framework project. In this project, we developed small-scale language models to facilitate detailed research into various aspects of large language models (LLMs), particularly in the domain of code.
+This repository contains the implementation and resources for the Tiny Language Models Framework project. In this project, we developed small-scale language models to facilitate detailed research into various aspects of large language models (LLMs), particularly in the domain of code. 
 
 <p align="center">
   <img src="https://github.com/Modern-Compilers-Lab/Tiny-Language-Models-Framework/assets/86785811/946011ac-90ca-454f-baeb-d74b09a1721c" width="500" >
 </p>
+
+We've also prepared a [TinyLM Starter Notebook on Kaggle](https://www.kaggle.com/code/nairmarwa/tinylm-starter-notebook). This notebook is designed to help you get started quickly with our project. It guides you through training a tiny language model from scratch using our dataset and evaluating its performance on code execution tasks.
 
 ## Project Structure
 
