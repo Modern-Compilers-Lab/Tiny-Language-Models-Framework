@@ -8,5 +8,4 @@ transformers==4.30.2
 datasets==2.18.0
 psutil==5.9.8
 argparse==1.1
-pickle==0.7.5
 peft @ git+https://github.com/huggingface/peft.git@e536616888d51b453ed354a6f1e243fecb02ea08
