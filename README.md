@@ -95,6 +95,18 @@ Evaluate the trained model on code execution by running:
 python code_execution.py --dataset_dir data --model_name arithmetics_level1_696K
 ```
 
+Evaluate the trained model on token-level code completion by running:
+
+```bash
+python token-level_code_completion.py --dataset_dir data --model_name arithmetics_level1_696K
+```
+
+Evaluate the trained model on line-level code completion by running:
+
+```bash
+python line-level_code_completion.py --dataset_dir data --model_name arithmetics_level1_696K
+```
+
 ### Demonstration
 To see a demonstration of the model's capabilities, open the demonstration.ipynb notebook and follow the instructions within.
 
@@ -113,7 +125,7 @@ python finetune.py  --train_dataset_path data/tokenized_train --val_dataset_path
 Evaluate the fine-tuned Code LLaMa model by running:
 
 ```bash
-python code_execution.py --checkpoint_dir models/code-llama-finetuned-level1 --test_file data/test.txt --output_file results/result_llama.txt --csv_file results/results_llama.csv 
+python evaluate.py --checkpoint_dir models/code-llama-finetuned-level1 --test_file data/test.txt --output_file results/result_llama.txt --csv_file results/results_llama.csv 
 ```
 
 #### Demonstration
