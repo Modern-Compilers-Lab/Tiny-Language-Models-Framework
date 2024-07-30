@@ -89,10 +89,10 @@ python train.py --batch_size 64 --max_iters 35000 --learning_rate 0.01 --miles 0
 ```
 
 ### Evaluation
-Evaluate the trained model by running:
+Evaluate the trained model on code execution by running:
 
 ```bash
-python eval.py --dataset_dir data --model_name arithmetics_level1_696K
+python code_execution.py --dataset_dir data --model_name arithmetics_level1_696K
 ```
 
 ### Demonstration
