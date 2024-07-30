@@ -318,9 +318,9 @@ class CodeGenerator:
 
 def main():
     parser = argparse.ArgumentParser(description='Generate and write programs based on a specified level. ')
-    parser.add_argument('--num_programs', type=int, default=3000000, help='Number of programs to generate and write (default is 1000)')
-    parser.add_argument('--level', default="3.1", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
-    parser.add_argument('--filename', default='3.1.txt', help='Name of the file to write the programs (default is data.txt)')
+    parser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate and write (default is 1000)')
+    parser.add_argument('--level', default="ALL", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
+    parser.add_argument('--filename', default='data.txt', help='Name of the file to write the programs (default is data.txt)')
     parser.add_argument('--deduplicate', action='store_true', default=True, help='Perform deduplication of generated programs (default is True)a')
 
     args = parser.parse_args()
