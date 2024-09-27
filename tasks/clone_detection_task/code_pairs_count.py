@@ -3,7 +3,7 @@ clone_1_count = 0
 clone_0_count = 0
 
 # Open and read the text file
-with open("code_snippets_pairs.txt", "r") as file:
+with open("tasks/clone_detection_task/code_snippets_pairs.txt", "r") as file:
     lines = file.readlines()
     
     # Loop through lines and count occurrences of 'is clone' values
