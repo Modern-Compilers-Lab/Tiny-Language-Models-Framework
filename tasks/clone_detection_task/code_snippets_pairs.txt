@@ -1,0 +1,4072 @@
+# snippet 1
+y = 4
+y = 9
+m = y * y
+print(m)
+# snippet 2
+c = 10
+print(c * c)
+# is clone
+1
+
+# snippet 1
+x = 0
+h = 18
+print(h)
+# snippet 2
+i = 7
+print(i)
+# is clone
+1
+
+# snippet 1
+x = 0
+h = 18
+print(h)
+# snippet 2
+x = 7
+m = 8
+g = 5
+a = 13
+m = 0 + 10
+print(m)
+# is clone
+1
+
+# snippet 1
+i = 7
+print(i)
+# snippet 2
+x = 7
+m = 8
+g = 5
+a = 13
+m = 0 + 10
+print(m)
+# is clone
+1
+
+# snippet 1
+t = 11
+s = 2
+b = 4
+b = 1
+k = (14 * s)
+print(s * 1)
+# snippet 2
+m = 17
+y = 14
+print(m)
+# is clone
+1
+
+# snippet 1
+t = 11
+s = 2
+b = 4
+b = 1
+k = (14 * s)
+print(s * 1)
+# snippet 2
+s = 17
+u = 14
+x = 10
+print(u)
+# is clone
+1
+
+# snippet 1
+m = 17
+y = 14
+print(m)
+# snippet 2
+s = 17
+u = 14
+x = 10
+print(u)
+# is clone
+1
+
+# snippet 1
+k = 6
+o = 16
+print(k)
+# snippet 2
+i = 13
+v = 10
+m = 8
+w = (0 + m)*(10 * i)
+print(i * 1)
+# is clone
+1
+
+# snippet 1
+k = 6
+o = 16
+print(k)
+# snippet 2
+p = 19
+t = 12
+z = 14
+f = 15
+print(f)
+# is clone
+1
+
+# snippet 1
+i = 13
+v = 10
+m = 8
+w = (0 + m)*(10 * i)
+print(i * 1)
+# snippet 2
+p = 19
+t = 12
+z = 14
+f = 15
+print(f)
+# is clone
+1
+
+# snippet 1
+n = 9
+f = 3
+x = 1 - 12
+print(x)
+# snippet 2
+h = 10
+print(h)
+# is clone
+1
+
+# snippet 1
+n = 9
+f = 3
+x = 1 - 12
+print(x)
+# snippet 2
+g = 18
+print(g)
+# is clone
+1
+
+# snippet 1
+h = 10
+print(h)
+# snippet 2
+g = 18
+print(g)
+# is clone
+1
+
+# snippet 1
+i = 2
+print(i)
+# snippet 2
+n = 18
+print(n)
+# is clone
+1
+
+# snippet 1
+i = 2
+print(i)
+# snippet 2
+k = 16
+i = 2
+print(i)
+# is clone
+1
+
+# snippet 1
+n = 18
+print(n)
+# snippet 2
+k = 16
+i = 2
+print(i)
+# is clone
+1
+
+# snippet 1
+n = 19
+i = 6
+print(i)
+# snippet 2
+l = 19
+z = 12
+print(z)
+# is clone
+1
+
+# snippet 1
+n = 19
+i = 6
+print(i)
+# snippet 2
+c = 1
+h = 3
+d = 10
+f = 18
+print(c)
+# is clone
+1
+
+# snippet 1
+l = 19
+z = 12
+print(z)
+# snippet 2
+c = 1
+h = 3
+d = 10
+f = 18
+print(c)
+# is clone
+1
+
+# snippet 1
+d = 8
+n = 12
+print(d)
+# snippet 2
+r = 17
+x = 10
+t = 11
+print(t)
+# is clone
+1
+
+# snippet 1
+d = 8
+n = 12
+print(d)
+# snippet 2
+o = 2
+q = 13
+print(q)
+# is clone
+1
+
+# snippet 1
+r = 17
+x = 10
+t = 11
+print(t)
+# snippet 2
+o = 2
+q = 13
+print(q)
+# is clone
+1
+
+# snippet 1
+x = 15
+l = 12
+a = 13 / 8
+print(a)
+# snippet 2
+d = 2
+print(d)
+# is clone
+1
+
+# snippet 1
+x = 15
+l = 12
+a = 13 / 8
+print(a)
+# snippet 2
+r = 19
+print(r)
+# is clone
+1
+
+# snippet 1
+d = 2
+print(d)
+# snippet 2
+r = 19
+print(r)
+# is clone
+1
+
+# snippet 1
+z = 10
+f = 14
+p = 19
+b = 2 * z
+print(f - 3)
+# snippet 2
+h = 5
+a = 1
+w = 13
+z = 15
+j = w - z
+print(h - 3)
+# is clone
+1
+
+# snippet 1
+e = 18
+b = 7 / e
+print(e - e)
+# snippet 2
+p = 10
+o = 13
+a = o + 17
+print(o - o)
+# is clone
+1
+
+# snippet 1
+e = 18
+b = 7 / e
+print(e - e)
+# snippet 2
+w = 9
+print(w - w)
+# is clone
+1
+
+# snippet 1
+p = 10
+o = 13
+a = o + 17
+print(o - o)
+# snippet 2
+w = 9
+print(w - w)
+# is clone
+1
+
+# snippet 1
+q = 15
+h = 6
+b = h * q
+print(h - h)
+# snippet 2
+l = 18
+t = (l - 12)/(3 / l)*(12 + l)+(l * l)-(l + 7)
+print(l - l)
+# is clone
+1
+
+# snippet 1
+q = 15
+h = 6
+b = h * q
+print(h - h)
+# snippet 2
+z = 12
+e = (z - z)
+print(e)
+# is clone
+1
+
+# snippet 1
+l = 18
+t = (l - 12)/(3 / l)*(12 + l)+(l * l)-(l + 7)
+print(l - l)
+# snippet 2
+z = 12
+e = (z - z)
+print(e)
+# is clone
+1
+
+# snippet 1
+d = 9
+n = (11 - d)*(17 / d)/(d - d)/(2 - d)*(d / d)
+print(d - 18)
+# snippet 2
+o = 19
+print(o - 18)
+# is clone
+1
+
+# snippet 1
+a = 1
+i = a - a
+print(a / 15)
+# snippet 2
+a = 18
+e = (9 / a)/(7 - a)
+print(a / 15)
+# is clone
+1
+
+# snippet 1
+a = 1
+i = a - a
+print(a / 15)
+# snippet 2
+d = 17
+print(d / 15)
+# is clone
+1
+
+# snippet 1
+a = 18
+e = (9 / a)/(7 - a)
+print(a / 15)
+# snippet 2
+d = 17
+print(d / 15)
+# is clone
+1
+
+# snippet 1
+q = 2
+l = 12 - q
+print(q * 14)
+# snippet 2
+l = 4
+g = (14 * l)
+print(g)
+# is clone
+1
+
+# snippet 1
+m = 8
+print(m / 14)
+# snippet 2
+a = 17
+print(a / 14)
+# is clone
+1
+
+# snippet 1
+q = 15
+i = q / q
+print(q / q)
+# snippet 2
+l = 5
+h = (13 + l)/(l / 11)-(11 - 14)*(l - l)
+print(l / l)
+# is clone
+1
+
+# snippet 1
+q = 15
+i = q / q
+print(q / q)
+# snippet 2
+v = 11
+y = (13 + 8)
+print(v / v)
+# is clone
+1
+
+# snippet 1
+l = 5
+h = (13 + l)/(l / 11)-(11 - 14)*(l - l)
+print(l / l)
+# snippet 2
+v = 11
+y = (13 + 8)
+print(v / v)
+# is clone
+1
+
+# snippet 1
+x = 16
+u = 18
+g = u / u
+print(x / x)
+# snippet 2
+e = 0
+d = 12
+y = 12
+b = (14 / 9)/(y * 12)
+print(d / d)
+# is clone
+1
+
+# snippet 1
+x = 16
+u = 18
+g = u / u
+print(x / x)
+# snippet 2
+h = 4
+print(h / h)
+# is clone
+1
+
+# snippet 1
+e = 0
+d = 12
+y = 12
+b = (14 / 9)/(y * 12)
+print(d / d)
+# snippet 2
+h = 4
+print(h / h)
+# is clone
+1
+
+# snippet 1
+i = 5
+p = 2
+q = i - p
+print(q)
+# snippet 2
+t = 17
+p = 10
+q = 4
+b = (p - t)
+print(b)
+# is clone
+1
+
+# snippet 1
+o = 14
+f = 9
+v = 4
+v = 4
+j = (v - o)
+print(v / 16)
+# snippet 2
+s = 8
+d = 5 - s
+print(s / 16)
+# is clone
+1
+
+# snippet 1
+f = 13
+y = f * f
+print(f + f)
+# snippet 2
+k = 18
+s = 7
+j = (k / s)-(s * 3)/(3 + k)*(k + 15)*(s - 11)
+print(s + s)
+# is clone
+1
+
+# snippet 1
+f = 13
+y = f * f
+print(f + f)
+# snippet 2
+f = 1
+x = (f + f)
+print(x)
+# is clone
+1
+
+# snippet 1
+k = 18
+s = 7
+j = (k / s)-(s * 3)/(3 + k)*(k + 15)*(s - 11)
+print(s + s)
+# snippet 2
+f = 1
+x = (f + f)
+print(x)
+# is clone
+1
+
+# snippet 1
+l = 9
+h = 4 + l
+print(h)
+# snippet 2
+g = 4
+c = 9
+g = 13
+g = 12
+v = (17 + g)-(g - 5)
+print(g + 4)
+# is clone
+1
+
+# snippet 1
+e = 5
+n = 16 / e
+print(e * 16)
+# snippet 2
+a = 13
+n = 13
+p = 1
+a = p * 16
+print(a)
+# is clone
+1
+
+# snippet 1
+y = 4
+y = 9
+m = y * y
+print(m)
+# snippet 2
+x = 0
+h = 18
+print(h)
+# is clone
+0
+
+# snippet 1
+y = 4
+y = 9
+m = y * y
+print(m)
+# snippet 2
+i = 7
+print(i)
+# is clone
+0
+
+# snippet 1
+c = 10
+print(c * c)
+# snippet 2
+x = 0
+h = 18
+print(h)
+# is clone
+0
+
+# snippet 1
+c = 10
+print(c * c)
+# snippet 2
+i = 7
+print(i)
+# is clone
+0
+
+# snippet 1
+x = 7
+m = 8
+g = 5
+a = 13
+m = 0 + 10
+print(m)
+# snippet 2
+z = 10
+f = 14
+p = 19
+b = 2 * z
+print(f - 3)
+# is clone
+0
+
+# snippet 1
+x = 7
+m = 8
+g = 5
+a = 13
+m = 0 + 10
+print(m)
+# snippet 2
+h = 5
+a = 1
+w = 13
+z = 15
+j = w - z
+print(h - 3)
+# is clone
+0
+
+# snippet 1
+t = 11
+s = 2
+b = 4
+b = 1
+k = (14 * s)
+print(s * 1)
+# snippet 2
+z = 10
+f = 14
+p = 19
+b = 2 * z
+print(f - 3)
+# is clone
+0
+
+# snippet 1
+t = 11
+s = 2
+b = 4
+b = 1
+k = (14 * s)
+print(s * 1)
+# snippet 2
+h = 5
+a = 1
+w = 13
+z = 15
+j = w - z
+print(h - 3)
+# is clone
+0
+
+# snippet 1
+m = 17
+y = 14
+print(m)
+# snippet 2
+e = 18
+b = 7 / e
+print(e - e)
+# is clone
+0
+
+# snippet 1
+m = 17
+y = 14
+print(m)
+# snippet 2
+p = 10
+o = 13
+a = o + 17
+print(o - o)
+# is clone
+0
+
+# snippet 1
+s = 17
+u = 14
+x = 10
+print(u)
+# snippet 2
+e = 18
+b = 7 / e
+print(e - e)
+# is clone
+0
+
+# snippet 1
+s = 17
+u = 14
+x = 10
+print(u)
+# snippet 2
+p = 10
+o = 13
+a = o + 17
+print(o - o)
+# is clone
+0
+
+# snippet 1
+k = 6
+o = 16
+print(k)
+# snippet 2
+w = 9
+print(w - w)
+# is clone
+0
+
+# snippet 1
+k = 6
+o = 16
+print(k)
+# snippet 2
+q = 15
+h = 6
+b = h * q
+print(h - h)
+# is clone
+0
+
+# snippet 1
+i = 13
+v = 10
+m = 8
+w = (0 + m)*(10 * i)
+print(i * 1)
+# snippet 2
+w = 9
+print(w - w)
+# is clone
+0
+
+# snippet 1
+i = 13
+v = 10
+m = 8
+w = (0 + m)*(10 * i)
+print(i * 1)
+# snippet 2
+q = 15
+h = 6
+b = h * q
+print(h - h)
+# is clone
+0
+
+# snippet 1
+p = 19
+t = 12
+z = 14
+f = 15
+print(f)
+# snippet 2
+l = 18
+t = (l - 12)/(3 / l)*(12 + l)+(l * l)-(l + 7)
+print(l - l)
+# is clone
+0
+
+# snippet 1
+p = 19
+t = 12
+z = 14
+f = 15
+print(f)
+# snippet 2
+z = 12
+e = (z - z)
+print(e)
+# is clone
+0
+
+# snippet 1
+n = 9
+f = 3
+x = 1 - 12
+print(x)
+# snippet 2
+l = 18
+t = (l - 12)/(3 / l)*(12 + l)+(l * l)-(l + 7)
+print(l - l)
+# is clone
+0
+
+# snippet 1
+n = 9
+f = 3
+x = 1 - 12
+print(x)
+# snippet 2
+z = 12
+e = (z - z)
+print(e)
+# is clone
+0
+
+# snippet 1
+h = 10
+print(h)
+# snippet 2
+b = 10
+print(b - b)
+# is clone
+0
+
+# snippet 1
+g = 18
+print(g)
+# snippet 2
+b = 10
+print(b - b)
+# is clone
+0
+
+# snippet 1
+h = 10
+print(h)
+# snippet 2
+d = 9
+n = (11 - d)*(17 / d)/(d - d)/(2 - d)*(d / d)
+print(d - 18)
+# is clone
+0
+
+# snippet 1
+g = 18
+print(g)
+# snippet 2
+d = 9
+n = (11 - d)*(17 / d)/(d - d)/(2 - d)*(d / d)
+print(d - 18)
+# is clone
+0
+
+# snippet 1
+i = 2
+print(i)
+# snippet 2
+o = 19
+print(o - 18)
+# is clone
+0
+
+# snippet 1
+n = 18
+print(n)
+# snippet 2
+o = 19
+print(o - 18)
+# is clone
+0
+
+# snippet 1
+i = 2
+print(i)
+# snippet 2
+a = 1
+i = a - a
+print(a / 15)
+# is clone
+0
+
+# snippet 1
+n = 18
+print(n)
+# snippet 2
+a = 1
+i = a - a
+print(a / 15)
+# is clone
+0
+
+# snippet 1
+k = 16
+i = 2
+print(i)
+# snippet 2
+a = 18
+e = (9 / a)/(7 - a)
+print(a / 15)
+# is clone
+0
+
+# snippet 1
+k = 16
+i = 2
+print(i)
+# snippet 2
+d = 17
+print(d / 15)
+# is clone
+0
+
+# snippet 1
+n = 19
+i = 6
+print(i)
+# snippet 2
+a = 18
+e = (9 / a)/(7 - a)
+print(a / 15)
+# is clone
+0
+
+# snippet 1
+n = 19
+i = 6
+print(i)
+# snippet 2
+d = 17
+print(d / 15)
+# is clone
+0
+
+# snippet 1
+l = 19
+z = 12
+print(z)
+# snippet 2
+q = 2
+l = 12 - q
+print(q * 14)
+# is clone
+0
+
+# snippet 1
+l = 19
+z = 12
+print(z)
+# snippet 2
+l = 4
+g = (14 * l)
+print(g)
+# is clone
+0
+
+# snippet 1
+c = 1
+h = 3
+d = 10
+f = 18
+print(c)
+# snippet 2
+q = 2
+l = 12 - q
+print(q * 14)
+# is clone
+0
+
+# snippet 1
+c = 1
+h = 3
+d = 10
+f = 18
+print(c)
+# snippet 2
+l = 4
+g = (14 * l)
+print(g)
+# is clone
+0
+
+# snippet 1
+d = 8
+n = 12
+print(d)
+# snippet 2
+m = 8
+print(m / 14)
+# is clone
+0
+
+# snippet 1
+d = 8
+n = 12
+print(d)
+# snippet 2
+a = 17
+print(a / 14)
+# is clone
+0
+
+# snippet 1
+r = 17
+x = 10
+t = 11
+print(t)
+# snippet 2
+m = 8
+print(m / 14)
+# is clone
+0
+
+# snippet 1
+r = 17
+x = 10
+t = 11
+print(t)
+# snippet 2
+a = 17
+print(a / 14)
+# is clone
+0
+
+# snippet 1
+o = 2
+q = 13
+print(q)
+# snippet 2
+q = 15
+i = q / q
+print(q / q)
+# is clone
+0
+
+# snippet 1
+o = 2
+q = 13
+print(q)
+# snippet 2
+l = 5
+h = (13 + l)/(l / 11)-(11 - 14)*(l - l)
+print(l / l)
+# is clone
+0
+
+# snippet 1
+x = 15
+l = 12
+a = 13 / 8
+print(a)
+# snippet 2
+q = 15
+i = q / q
+print(q / q)
+# is clone
+0
+
+# snippet 1
+x = 15
+l = 12
+a = 13 / 8
+print(a)
+# snippet 2
+l = 5
+h = (13 + l)/(l / 11)-(11 - 14)*(l - l)
+print(l / l)
+# is clone
+0
+
+# snippet 1
+d = 2
+print(d)
+# snippet 2
+v = 11
+y = (13 + 8)
+print(v / v)
+# is clone
+0
+
+# snippet 1
+d = 2
+print(d)
+# snippet 2
+x = 16
+u = 18
+g = u / u
+print(x / x)
+# is clone
+0
+
+# snippet 1
+r = 19
+print(r)
+# snippet 2
+v = 11
+y = (13 + 8)
+print(v / v)
+# is clone
+0
+
+# snippet 1
+r = 19
+print(r)
+# snippet 2
+x = 16
+u = 18
+g = u / u
+print(x / x)
+# is clone
+0
+
+# snippet 1
+e = 0
+d = 12
+y = 12
+b = (14 / 9)/(y * 12)
+print(d / d)
+# snippet 2
+i = 5
+p = 2
+q = i - p
+print(q)
+# is clone
+0
+
+# snippet 1
+e = 0
+d = 12
+y = 12
+b = (14 / 9)/(y * 12)
+print(d / d)
+# snippet 2
+t = 17
+p = 10
+q = 4
+b = (p - t)
+print(b)
+# is clone
+0
+
+# snippet 1
+h = 4
+print(h / h)
+# snippet 2
+i = 5
+p = 2
+q = i - p
+print(q)
+# is clone
+0
+
+# snippet 1
+h = 4
+print(h / h)
+# snippet 2
+t = 17
+p = 10
+q = 4
+b = (p - t)
+print(b)
+# is clone
+0
+
+# snippet 1
+o = 14
+f = 9
+v = 4
+v = 4
+j = (v - o)
+print(v / 16)
+# snippet 2
+f = 13
+y = f * f
+print(f + f)
+# is clone
+0
+
+# snippet 1
+o = 14
+f = 9
+v = 4
+v = 4
+j = (v - o)
+print(v / 16)
+# snippet 2
+k = 18
+s = 7
+j = (k / s)-(s * 3)/(3 + k)*(k + 15)*(s - 11)
+print(s + s)
+# is clone
+0
+
+# snippet 1
+s = 8
+d = 5 - s
+print(s / 16)
+# snippet 2
+f = 13
+y = f * f
+print(f + f)
+# is clone
+0
+
+# snippet 1
+s = 8
+d = 5 - s
+print(s / 16)
+# snippet 2
+k = 18
+s = 7
+j = (k / s)-(s * 3)/(3 + k)*(k + 15)*(s - 11)
+print(s + s)
+# is clone
+0
+
+# snippet 1
+f = 1
+x = (f + f)
+print(x)
+# snippet 2
+l = 9
+h = 4 + l
+print(h)
+# is clone
+0
+
+# snippet 1
+f = 1
+x = (f + f)
+print(x)
+# snippet 2
+g = 4
+c = 9
+g = 13
+g = 12
+v = (17 + g)-(g - 5)
+print(g + 4)
+# is clone
+0
+
+# snippet 1
+d = 15
+m = d + d
+print(m)
+# snippet 2
+l = 9
+h = 4 + l
+print(h)
+# is clone
+0
+
+# snippet 1
+d = 15
+m = d + d
+print(m)
+# snippet 2
+g = 4
+c = 9
+g = 13
+g = 12
+v = (17 + g)-(g - 5)
+print(g + 4)
+# is clone
+0
+
+# snippet 1
+r = 0
+j = r - r
+if (not r <= r) :
+	print(r - 18)
+elif not (not r != r) or (r <= r) :
+	print(j)
+else :
+	print(j)
+# snippet 2
+a = 7
+d = a / 9
+if not (a >= a) :
+	print(a + 14)
+else :
+	print(a * 0)
+# is clone
+1
+
+# snippet 1
+r = 0
+j = r - r
+if (not r <= r) :
+	print(r - 18)
+elif not (not r != r) or (r <= r) :
+	print(j)
+else :
+	print(j)
+# snippet 2
+x = 3
+z = x - x
+if ( x >= x) :
+	print(z)
+# is clone
+1
+
+# snippet 1
+a = 7
+d = a / 9
+if not (a >= a) :
+	print(a + 14)
+else :
+	print(a * 0)
+# snippet 2
+x = 3
+z = x - x
+if ( x >= x) :
+	print(z)
+# is clone
+1
+
+# snippet 1
+i = 7
+u = 1 + 7
+if not (i == i) or (i != i) or (i >= i) :
+	print(u)
+else :
+	print(i / i)
+# snippet 2
+z = 2
+j = 1
+if not (z != z) :
+	print(z)
+elif not (j <= 3) :
+	print(j)
+else :
+	print(j)
+# is clone
+1
+
+# snippet 1
+i = 7
+u = 1 + 7
+if not (i == i) or (i != i) or (i >= i) :
+	print(u)
+else :
+	print(i / i)
+# snippet 2
+j = 18
+if (j >= j) :
+	print(j)
+# is clone
+1
+
+# snippet 1
+z = 2
+j = 1
+if not (z != z) :
+	print(z)
+elif not (j <= 3) :
+	print(j)
+else :
+	print(j)
+# snippet 2
+j = 18
+if (j >= j) :
+	print(j)
+# is clone
+1
+
+# snippet 1
+o = 11
+if (not o == 14) and (o > 16) :
+	print(o)
+else :
+	print(o)
+# snippet 2
+f = 11
+n = 7
+v = 3 * 11
+if (not f == f) :
+	print(v)
+elif (n < n) and (n < 13) :
+	print(n / 1)
+else :
+	print(v)
+# is clone
+1
+
+# snippet 1
+o = 11
+if (not o == 14) and (o > 16) :
+	print(o)
+else :
+	print(o)
+# snippet 2
+v = 9
+if (v <= v) :
+	print(v)
+# is clone
+1
+
+# snippet 1
+f = 11
+n = 7
+v = 3 * 11
+if (not f == f) :
+	print(v)
+elif (n < n) and (n < 13) :
+	print(n / 1)
+else :
+	print(v)
+# snippet 2
+v = 9
+if (v <= v) :
+	print(v)
+# is clone
+1
+
+# snippet 1
+f = 9
+r = 18
+if (r > 14) or (r >= 16) and (not f >= f) :
+	print(r)
+else :
+	print(f * 1)
+# snippet 2
+f = 7
+m = 0
+if (m != m) and (f == f) :
+	print(f - 2)
+else :
+	print(m)
+# is clone
+1
+
+# snippet 1
+f = 9
+r = 18
+if (r > 14) or (r >= 16) and (not f >= f) :
+	print(r)
+else :
+	print(f * 1)
+# snippet 2
+t = 1
+o = (0 - 12)
+if (not t >= t) :
+	print(t * 0)
+else :
+	print(o)
+# is clone
+1
+
+# snippet 1
+f = 7
+m = 0
+if (m != m) and (f == f) :
+	print(f - 2)
+else :
+	print(m)
+# snippet 2
+t = 1
+o = (0 - 12)
+if (not t >= t) :
+	print(t * 0)
+else :
+	print(o)
+# is clone
+1
+
+# snippet 1
+j = 10
+y = 16 + 13
+if (j != j) or (not j < j) :
+	print(y)
+# snippet 2
+t = 11
+f = 18 + 9
+if ( t <= t) :
+	print(f)
+elif (not t == 7) :
+	print(f)
+else :
+	print(f)
+# is clone
+1
+
+# snippet 1
+j = 10
+y = 16 + 13
+if (j != j) or (not j < j) :
+	print(y)
+# snippet 2
+p = 11
+d = p + 12
+if ( p > p) :
+	print(d)
+elif not (not p != p) and (p >= p) :
+	print(d)
+else :
+	print(p - 0)
+# is clone
+1
+
+# snippet 1
+t = 11
+f = 18 + 9
+if ( t <= t) :
+	print(f)
+elif (not t == 7) :
+	print(f)
+else :
+	print(f)
+# snippet 2
+p = 11
+d = p + 12
+if ( p > p) :
+	print(d)
+elif not (not p != p) and (p >= p) :
+	print(d)
+else :
+	print(p - 0)
+# is clone
+1
+
+# snippet 1
+e = 14
+o = 10
+l = 15
+r = 14
+z = (r / r)
+if (not o == o) and (o == 2) :
+	print(z)
+# snippet 2
+r = 9
+u = 18
+t = 14
+v = 3
+e = 4
+c = 2
+w = (v + v)/(c * 8)-(u + 0)+(3 + r)-(c / c)
+if (c < c) and (r <= t) :
+	print(w)
+# is clone
+1
+
+# snippet 1
+e = 14
+o = 10
+l = 15
+r = 14
+z = (r / r)
+if (not o == o) and (o == 2) :
+	print(z)
+# snippet 2
+j = 5
+p = 16
+t = (13 / p)+(11 - p)+(7 + p)
+if not (p >= p) :
+	print(p - 11)
+# is clone
+1
+
+# snippet 1
+r = 9
+u = 18
+t = 14
+v = 3
+e = 4
+c = 2
+w = (v + v)/(c * 8)-(u + 0)+(3 + r)-(c / c)
+if (c < c) and (r <= t) :
+	print(w)
+# snippet 2
+j = 5
+p = 16
+t = (13 / p)+(11 - p)+(7 + p)
+if not (p >= p) :
+	print(p - 11)
+# is clone
+1
+
+# snippet 1
+t = 10
+if ( t <= t) or (not t < 1) :
+	print(t * t)
+# snippet 2
+s = 0
+a = s * s
+if not ( s >= s) and (not s <= s) :
+	print(s * 7)
+elif not (s == 13) or (s != 16) or (s != 7) and (not s == 18) and (not s >= s) :
+	print(a)
+else :
+	print(s * 4)
+# is clone
+1
+
+# snippet 1
+t = 10
+if ( t <= t) or (not t < 1) :
+	print(t * t)
+# snippet 2
+d = 4
+v = 7
+q = 13 + v
+if not (v != 19) and (d >= v) and (not d <= v) :
+	print(q)
+else :
+	print(v * v)
+# is clone
+1
+
+# snippet 1
+s = 0
+a = s * s
+if not ( s >= s) and (not s <= s) :
+	print(s * 7)
+elif not (s == 13) or (s != 16) or (s != 7) and (not s == 18) and (not s >= s) :
+	print(a)
+else :
+	print(s * 4)
+# snippet 2
+d = 4
+v = 7
+q = 13 + v
+if not (v != 19) and (d >= v) and (not d <= v) :
+	print(q)
+else :
+	print(v * v)
+# is clone
+1
+
+# snippet 1
+s = 4
+m = (16 * s)*(8 - s)
+if not (s <= s) :
+	print(m)
+else :
+	print(s + s)
+# snippet 2
+j = 6
+t = j + j
+if not (not j >= j) :
+	print(t)
+else :
+	print(t)
+# is clone
+1
+
+# snippet 1
+r = 0
+j = r - r
+if (not r <= r) :
+	print(r - 18)
+elif not (not r != r) or (r <= r) :
+	print(j)
+else :
+	print(j)
+# snippet 2
+i = 7
+u = 1 + 7
+if not (i == i) or (i != i) or (i >= i) :
+	print(u)
+else :
+	print(i / i)
+# is clone
+0
+
+# snippet 1
+r = 0
+j = r - r
+if (not r <= r) :
+	print(r - 18)
+elif not (not r != r) or (r <= r) :
+	print(j)
+else :
+	print(j)
+# snippet 2
+z = 2
+j = 1
+if not (z != z) :
+	print(z)
+elif not (j <= 3) :
+	print(j)
+else :
+	print(j)
+# is clone
+0
+
+# snippet 1
+a = 7
+d = a / 9
+if not (a >= a) :
+	print(a + 14)
+else :
+	print(a * 0)
+# snippet 2
+i = 7
+u = 1 + 7
+if not (i == i) or (i != i) or (i >= i) :
+	print(u)
+else :
+	print(i / i)
+# is clone
+0
+
+# snippet 1
+a = 7
+d = a / 9
+if not (a >= a) :
+	print(a + 14)
+else :
+	print(a * 0)
+# snippet 2
+z = 2
+j = 1
+if not (z != z) :
+	print(z)
+elif not (j <= 3) :
+	print(j)
+else :
+	print(j)
+# is clone
+0
+
+# snippet 1
+x = 3
+z = x - x
+if ( x >= x) :
+	print(z)
+# snippet 2
+j = 18
+if (j >= j) :
+	print(j)
+# is clone
+0
+
+# snippet 1
+x = 3
+z = x - x
+if ( x >= x) :
+	print(z)
+# snippet 2
+o = 11
+if (not o == 14) and (o > 16) :
+	print(o)
+else :
+	print(o)
+# is clone
+0
+
+# snippet 1
+j = 18
+if (j >= j) :
+	print(j)
+# snippet 2
+e = 14
+o = 10
+l = 15
+r = 14
+z = (r / r)
+if (not o == o) and (o == 2) :
+	print(z)
+# is clone
+0
+
+# snippet 1
+o = 11
+if (not o == 14) and (o > 16) :
+	print(o)
+else :
+	print(o)
+# snippet 2
+e = 14
+o = 10
+l = 15
+r = 14
+z = (r / r)
+if (not o == o) and (o == 2) :
+	print(z)
+# is clone
+0
+
+# snippet 1
+f = 11
+n = 7
+v = 3 * 11
+if (not f == f) :
+	print(v)
+elif (n < n) and (n < 13) :
+	print(n / 1)
+else :
+	print(v)
+# snippet 2
+r = 9
+u = 18
+t = 14
+v = 3
+e = 4
+c = 2
+w = (v + v)/(c * 8)-(u + 0)+(3 + r)-(c / c)
+if (c < c) and (r <= t) :
+	print(w)
+# is clone
+0
+
+# snippet 1
+f = 11
+n = 7
+v = 3 * 11
+if (not f == f) :
+	print(v)
+elif (n < n) and (n < 13) :
+	print(n / 1)
+else :
+	print(v)
+# snippet 2
+j = 5
+p = 16
+t = (13 / p)+(11 - p)+(7 + p)
+if not (p >= p) :
+	print(p - 11)
+# is clone
+0
+
+# snippet 1
+v = 9
+if (v <= v) :
+	print(v)
+# snippet 2
+r = 9
+u = 18
+t = 14
+v = 3
+e = 4
+c = 2
+w = (v + v)/(c * 8)-(u + 0)+(3 + r)-(c / c)
+if (c < c) and (r <= t) :
+	print(w)
+# is clone
+0
+
+# snippet 1
+v = 9
+if (v <= v) :
+	print(v)
+# snippet 2
+j = 5
+p = 16
+t = (13 / p)+(11 - p)+(7 + p)
+if not (p >= p) :
+	print(p - 11)
+# is clone
+0
+
+# snippet 1
+f = 9
+r = 18
+if (r > 14) or (r >= 16) and (not f >= f) :
+	print(r)
+else :
+	print(f * 1)
+# snippet 2
+h = 9
+z = 4
+b = 16
+a = (z + z)
+if not ( h <= h) :
+	print(a)
+# is clone
+0
+
+# snippet 1
+f = 7
+m = 0
+if (m != m) and (f == f) :
+	print(f - 2)
+else :
+	print(m)
+# snippet 2
+h = 9
+z = 4
+b = 16
+a = (z + z)
+if not ( h <= h) :
+	print(a)
+# is clone
+0
+
+# snippet 1
+f = 9
+r = 18
+if (r > 14) or (r >= 16) and (not f >= f) :
+	print(r)
+else :
+	print(f * 1)
+# snippet 2
+t = 10
+if ( t <= t) or (not t < 1) :
+	print(t * t)
+# is clone
+0
+
+# snippet 1
+f = 7
+m = 0
+if (m != m) and (f == f) :
+	print(f - 2)
+else :
+	print(m)
+# snippet 2
+t = 10
+if ( t <= t) or (not t < 1) :
+	print(t * t)
+# is clone
+0
+
+# snippet 1
+t = 1
+o = (0 - 12)
+if (not t >= t) :
+	print(t * 0)
+else :
+	print(o)
+# snippet 2
+s = 0
+a = s * s
+if not ( s >= s) and (not s <= s) :
+	print(s * 7)
+elif not (s == 13) or (s != 16) or (s != 7) and (not s == 18) and (not s >= s) :
+	print(a)
+else :
+	print(s * 4)
+# is clone
+0
+
+# snippet 1
+t = 1
+o = (0 - 12)
+if (not t >= t) :
+	print(t * 0)
+else :
+	print(o)
+# snippet 2
+d = 4
+v = 7
+q = 13 + v
+if not (v != 19) and (d >= v) and (not d <= v) :
+	print(q)
+else :
+	print(v * v)
+# is clone
+0
+
+# snippet 1
+j = 10
+y = 16 + 13
+if (j != j) or (not j < j) :
+	print(y)
+# snippet 2
+s = 0
+a = s * s
+if not ( s >= s) and (not s <= s) :
+	print(s * 7)
+elif not (s == 13) or (s != 16) or (s != 7) and (not s == 18) and (not s >= s) :
+	print(a)
+else :
+	print(s * 4)
+# is clone
+0
+
+# snippet 1
+j = 10
+y = 16 + 13
+if (j != j) or (not j < j) :
+	print(y)
+# snippet 2
+d = 4
+v = 7
+q = 13 + v
+if not (v != 19) and (d >= v) and (not d <= v) :
+	print(q)
+else :
+	print(v * v)
+# is clone
+0
+
+# snippet 1
+t = 11
+f = 18 + 9
+if ( t <= t) :
+	print(f)
+elif (not t == 7) :
+	print(f)
+else :
+	print(f)
+# snippet 2
+s = 4
+m = (16 * s)*(8 - s)
+if not (s <= s) :
+	print(m)
+else :
+	print(s + s)
+# is clone
+0
+
+# snippet 1
+t = 11
+f = 18 + 9
+if ( t <= t) :
+	print(f)
+elif (not t == 7) :
+	print(f)
+else :
+	print(f)
+# snippet 2
+j = 6
+t = j + j
+if not (not j >= j) :
+	print(t)
+else :
+	print(t)
+# is clone
+0
+
+# snippet 1
+p = 11
+d = p + 12
+if ( p > p) :
+	print(d)
+elif not (not p != p) and (p >= p) :
+	print(d)
+else :
+	print(p - 0)
+# snippet 2
+s = 4
+m = (16 * s)*(8 - s)
+if not (s <= s) :
+	print(m)
+else :
+	print(s + s)
+# is clone
+0
+
+# snippet 1
+p = 11
+d = p + 12
+if ( p > p) :
+	print(d)
+elif not (not p != p) and (p >= p) :
+	print(d)
+else :
+	print(p - 0)
+# snippet 2
+j = 6
+t = j + j
+if not (not j >= j) :
+	print(t)
+else :
+	print(t)
+# is clone
+0
+
+# snippet 1
+q = 19
+for q in range(2, 5, 2) :
+	print(q)
+# snippet 2
+r = 5
+i = (r - r)/(r + r)*(14 / r)/(10 - 18)
+for r in range(4, 7, 2) :
+	print(r - 2)
+# is clone
+1
+
+# snippet 1
+q = 19
+for q in range(2, 5, 2) :
+	print(q)
+# snippet 2
+i = 10
+for i in range(2, 5, 2) :
+	print(i)
+# is clone
+1
+
+# snippet 1
+r = 5
+i = (r - r)/(r + r)*(14 / r)/(10 - 18)
+for r in range(4, 7, 2) :
+	print(r - 2)
+# snippet 2
+i = 10
+for i in range(2, 5, 2) :
+	print(i)
+# is clone
+1
+
+# snippet 1
+x = 16
+p = 15
+r = 5
+for p in range(6, 11, 2) :
+	print(r)
+# snippet 2
+d = 14
+j = 14
+k = 6
+for d in range(15, 20, 2) :
+	print(j)
+# is clone
+1
+
+# snippet 1
+x = 16
+p = 15
+r = 5
+for p in range(6, 11, 2) :
+	print(r)
+# snippet 2
+y = 14
+k = 9
+h = 9
+for y in range(14, 19, 2) :
+	print(k)
+# is clone
+1
+
+# snippet 1
+d = 14
+j = 14
+k = 6
+for d in range(15, 20, 2) :
+	print(j)
+# snippet 2
+y = 14
+k = 9
+h = 9
+for y in range(14, 19, 2) :
+	print(k)
+# is clone
+1
+
+# snippet 1
+r = 8
+z = 1
+q = 19 * 15
+for r in range(10, 15) :
+	print(q)
+# snippet 2
+s = 7
+z = 8
+for s in range(1, 6) :
+	print(z)
+# is clone
+1
+
+# snippet 1
+r = 8
+z = 1
+q = 19 * 15
+for r in range(10, 15) :
+	print(q)
+# snippet 2
+v = 13
+p = 12
+n = 3
+q = 10
+s = 9
+for p in range(11, 16) :
+	print(q)
+# is clone
+1
+
+# snippet 1
+s = 7
+z = 8
+for s in range(1, 6) :
+	print(z)
+# snippet 2
+v = 13
+p = 12
+n = 3
+q = 10
+s = 9
+for p in range(11, 16) :
+	print(q)
+# is clone
+1
+
+# snippet 1
+h = 15
+r = 13 / 19
+for h in range(1, 6) :
+	print(r)
+# snippet 2
+e = 4
+l = 17
+a = 8
+x = 11 * 10
+for e in range(4, 9) :
+	print(x)
+# is clone
+1
+
+# snippet 1
+t = 11
+t = (6 + t)/(12 * 14)
+for t in range(6, 7) :
+	print(t * t)
+# snippet 2
+h = 19
+for h in range(6, 7, 2) :
+	print(h * h)
+# is clone
+1
+
+# snippet 1
+t = 1
+x = 4 + 4
+for t in range(2, 3, 1) :
+	print(x)
+# snippet 2
+w = 12
+x = 11
+for w in range(9, 10) :
+	print(x)
+# is clone
+1
+
+# snippet 1
+t = 1
+x = 4 + 4
+for t in range(2, 3, 1) :
+	print(x)
+# snippet 2
+g = 18
+i = 5
+i = 16 / 17
+for g in range(8, 9, 1) :
+	print(i)
+# is clone
+1
+
+# snippet 1
+w = 12
+x = 11
+for w in range(9, 10) :
+	print(x)
+# snippet 2
+g = 18
+i = 5
+i = 16 / 17
+for g in range(8, 9, 1) :
+	print(i)
+# is clone
+1
+
+# snippet 1
+s = 12
+u = 1
+k = 1
+for u in range(2, 3) :
+	print(k)
+# snippet 2
+n = 8
+t = 18
+m = 4
+for n in range(3, 4) :
+	print(t)
+# is clone
+1
+
+# snippet 1
+s = 12
+u = 1
+k = 1
+for u in range(2, 3) :
+	print(k)
+# snippet 2
+n = 6
+r = 19
+h = 5
+h = 10
+e = 0
+for e in range(12, 13) :
+	print(h)
+# is clone
+1
+
+# snippet 1
+n = 8
+t = 18
+m = 4
+for n in range(3, 4) :
+	print(t)
+# snippet 2
+n = 6
+r = 19
+h = 5
+h = 10
+e = 0
+for e in range(12, 13) :
+	print(h)
+# is clone
+1
+
+# snippet 1
+d = 5
+x = 7 / 19
+for d in range(6, 7) :
+	print(x)
+# snippet 2
+l = 1
+g = 11
+p = 9
+for g in range(12, 13) :
+	print(l)
+# is clone
+1
+
+# snippet 1
+k = 7
+i = (k / 11)/(k - k)
+for k in range(13, 18, 2) :
+	print(i)
+# snippet 2
+o = 13
+o = 5
+r = (o + 5)/(1 + o)/(o - o)*(o + 5)-(o * o)+(13 * o)-(10 + o)
+for o in range(13, 16, 2) :
+	print(r)
+# is clone
+1
+
+# snippet 1
+w = 19
+s = (w - w)
+for w in range(3, 4) :
+	print(s)
+# snippet 2
+h = 18
+n = h - h
+for h in range(4, 5, 1) :
+	print(n)
+# is clone
+1
+
+# snippet 1
+w = 19
+s = (w - w)
+for w in range(3, 4) :
+	print(s)
+# snippet 2
+q = 1
+q = 9 + 3
+for q in range(10, 11, 2) :
+	print(q - q)
+# is clone
+1
+
+# snippet 1
+h = 18
+n = h - h
+for h in range(4, 5, 1) :
+	print(n)
+# snippet 2
+q = 1
+q = 9 + 3
+for q in range(10, 11, 2) :
+	print(q - q)
+# is clone
+1
+
+# snippet 1
+e = 3
+for e in range(4, 5) :
+	print(e)
+# snippet 2
+d = 7
+u = 14
+v = 3
+for d in range(4, 5) :
+	print(d)
+# is clone
+1
+
+# snippet 1
+r = 17
+x = 10
+c = 19
+for x in range(16, 21, 3) :
+	print(c)
+# snippet 2
+z = 9
+h = 19 - 8
+for z in range(5, 10, 3) :
+	print(h)
+# is clone
+1
+
+# snippet 1
+r = 17
+x = 10
+c = 19
+for x in range(16, 21, 3) :
+	print(c)
+# snippet 2
+o = 3
+v = 9
+o = 14
+v = 14
+for o in range(7, 10, 2) :
+	print(v)
+# is clone
+1
+
+# snippet 1
+z = 9
+h = 19 - 8
+for z in range(5, 10, 3) :
+	print(h)
+# snippet 2
+o = 3
+v = 9
+o = 14
+v = 14
+for o in range(7, 10, 2) :
+	print(v)
+# is clone
+1
+
+# snippet 1
+p = 18
+m = 17
+c = 15
+u = 14
+u = 7 + 5
+for m in range(2, 5, 2) :
+	print(u)
+# snippet 2
+v = 18
+j = 6
+for v in range(14, 17, 2) :
+	print(j)
+# is clone
+1
+
+# snippet 1
+p = 18
+m = 17
+c = 15
+u = 14
+u = 7 + 5
+for m in range(2, 5, 2) :
+	print(u)
+# snippet 2
+y = 6
+f = 17
+h = 14 + 19
+for f in range(10, 13, 2) :
+	print(h)
+# is clone
+1
+
+# snippet 1
+v = 18
+j = 6
+for v in range(14, 17, 2) :
+	print(j)
+# snippet 2
+y = 6
+f = 17
+h = 14 + 19
+for f in range(10, 13, 2) :
+	print(h)
+# is clone
+1
+
+# snippet 1
+d = 16
+l = 6
+j = 17
+l = 3
+l = 0
+f = d * d
+for j in range(9, 14, 3) :
+	print(f)
+# snippet 2
+z = 11
+w = z * z
+for z in range(18, 23, 3) :
+	print(w)
+# is clone
+1
+
+# snippet 1
+h = 12
+for h in range(2, 7, 3) :
+	print(h)
+# snippet 2
+s = 12
+x = 4
+y = (3 - 12)
+for x in range(14, 19, 3) :
+	print(x - 12)
+# is clone
+1
+
+# snippet 1
+g = 11
+w = 17
+c = 12
+l = g / w
+for w in range(14, 19) :
+	print(l)
+# snippet 2
+y = 17
+z = 18
+e = 11
+d = 12 + 0
+for z in range(16, 21) :
+	print(y / e)
+# is clone
+1
+
+# snippet 1
+k = 6
+n = 1
+c = (n / n)
+for k in range(11, 16) :
+	print(c)
+# snippet 2
+q = 6
+v = q / q
+for q in range(7, 12) :
+	print(v)
+# is clone
+1
+
+# snippet 1
+q = 19
+for q in range(2, 5, 2) :
+	print(q)
+# snippet 2
+x = 16
+p = 15
+r = 5
+for p in range(6, 11, 2) :
+	print(r)
+# is clone
+0
+
+# snippet 1
+q = 19
+for q in range(2, 5, 2) :
+	print(q)
+# snippet 2
+d = 14
+j = 14
+k = 6
+for d in range(15, 20, 2) :
+	print(j)
+# is clone
+0
+
+# snippet 1
+r = 5
+i = (r - r)/(r + r)*(14 / r)/(10 - 18)
+for r in range(4, 7, 2) :
+	print(r - 2)
+# snippet 2
+x = 16
+p = 15
+r = 5
+for p in range(6, 11, 2) :
+	print(r)
+# is clone
+0
+
+# snippet 1
+r = 5
+i = (r - r)/(r + r)*(14 / r)/(10 - 18)
+for r in range(4, 7, 2) :
+	print(r - 2)
+# snippet 2
+d = 14
+j = 14
+k = 6
+for d in range(15, 20, 2) :
+	print(j)
+# is clone
+0
+
+# snippet 1
+i = 10
+for i in range(2, 5, 2) :
+	print(i)
+# snippet 2
+y = 14
+k = 9
+h = 9
+for y in range(14, 19, 2) :
+	print(k)
+# is clone
+0
+
+# snippet 1
+i = 10
+for i in range(2, 5, 2) :
+	print(i)
+# snippet 2
+o = 16
+s = (12 + 8)
+for o in range(10, 13) :
+	print(s)
+# is clone
+0
+
+# snippet 1
+y = 14
+k = 9
+h = 9
+for y in range(14, 19, 2) :
+	print(k)
+# snippet 2
+r = 8
+z = 1
+q = 19 * 15
+for r in range(10, 15) :
+	print(q)
+# is clone
+0
+
+# snippet 1
+o = 16
+s = (12 + 8)
+for o in range(10, 13) :
+	print(s)
+# snippet 2
+r = 8
+z = 1
+q = 19 * 15
+for r in range(10, 15) :
+	print(q)
+# is clone
+0
+
+# snippet 1
+s = 7
+z = 8
+for s in range(1, 6) :
+	print(z)
+# snippet 2
+t = 11
+t = (6 + t)/(12 * 14)
+for t in range(6, 7) :
+	print(t * t)
+# is clone
+0
+
+# snippet 1
+s = 7
+z = 8
+for s in range(1, 6) :
+	print(z)
+# snippet 2
+h = 19
+for h in range(6, 7, 2) :
+	print(h * h)
+# is clone
+0
+
+# snippet 1
+v = 13
+p = 12
+n = 3
+q = 10
+s = 9
+for p in range(11, 16) :
+	print(q)
+# snippet 2
+t = 11
+t = (6 + t)/(12 * 14)
+for t in range(6, 7) :
+	print(t * t)
+# is clone
+0
+
+# snippet 1
+v = 13
+p = 12
+n = 3
+q = 10
+s = 9
+for p in range(11, 16) :
+	print(q)
+# snippet 2
+h = 19
+for h in range(6, 7, 2) :
+	print(h * h)
+# is clone
+0
+
+# snippet 1
+h = 15
+r = 13 / 19
+for h in range(1, 6) :
+	print(r)
+# snippet 2
+t = 1
+x = 4 + 4
+for t in range(2, 3, 1) :
+	print(x)
+# is clone
+0
+
+# snippet 1
+h = 15
+r = 13 / 19
+for h in range(1, 6) :
+	print(r)
+# snippet 2
+w = 12
+x = 11
+for w in range(9, 10) :
+	print(x)
+# is clone
+0
+
+# snippet 1
+e = 4
+l = 17
+a = 8
+x = 11 * 10
+for e in range(4, 9) :
+	print(x)
+# snippet 2
+t = 1
+x = 4 + 4
+for t in range(2, 3, 1) :
+	print(x)
+# is clone
+0
+
+# snippet 1
+e = 4
+l = 17
+a = 8
+x = 11 * 10
+for e in range(4, 9) :
+	print(x)
+# snippet 2
+w = 12
+x = 11
+for w in range(9, 10) :
+	print(x)
+# is clone
+0
+
+# snippet 1
+g = 18
+i = 5
+i = 16 / 17
+for g in range(8, 9, 1) :
+	print(i)
+# snippet 2
+k = 7
+i = (k / 11)/(k - k)
+for k in range(13, 18, 2) :
+	print(i)
+# is clone
+0
+
+# snippet 1
+g = 18
+i = 5
+i = 16 / 17
+for g in range(8, 9, 1) :
+	print(i)
+# snippet 2
+o = 13
+o = 5
+r = (o + 5)/(1 + o)/(o - o)*(o + 5)-(o * o)+(13 * o)-(10 + o)
+for o in range(13, 16, 2) :
+	print(r)
+# is clone
+0
+
+# snippet 1
+s = 12
+u = 1
+k = 1
+for u in range(2, 3) :
+	print(k)
+# snippet 2
+k = 7
+i = (k / 11)/(k - k)
+for k in range(13, 18, 2) :
+	print(i)
+# is clone
+0
+
+# snippet 1
+s = 12
+u = 1
+k = 1
+for u in range(2, 3) :
+	print(k)
+# snippet 2
+o = 13
+o = 5
+r = (o + 5)/(1 + o)/(o - o)*(o + 5)-(o * o)+(13 * o)-(10 + o)
+for o in range(13, 16, 2) :
+	print(r)
+# is clone
+0
+
+# snippet 1
+n = 8
+t = 18
+m = 4
+for n in range(3, 4) :
+	print(t)
+# snippet 2
+w = 19
+s = (w - w)
+for w in range(3, 4) :
+	print(s)
+# is clone
+0
+
+# snippet 1
+n = 8
+t = 18
+m = 4
+for n in range(3, 4) :
+	print(t)
+# snippet 2
+h = 18
+n = h - h
+for h in range(4, 5, 1) :
+	print(n)
+# is clone
+0
+
+# snippet 1
+n = 6
+r = 19
+h = 5
+h = 10
+e = 0
+for e in range(12, 13) :
+	print(h)
+# snippet 2
+w = 19
+s = (w - w)
+for w in range(3, 4) :
+	print(s)
+# is clone
+0
+
+# snippet 1
+n = 6
+r = 19
+h = 5
+h = 10
+e = 0
+for e in range(12, 13) :
+	print(h)
+# snippet 2
+h = 18
+n = h - h
+for h in range(4, 5, 1) :
+	print(n)
+# is clone
+0
+
+# snippet 1
+d = 5
+x = 7 / 19
+for d in range(6, 7) :
+	print(x)
+# snippet 2
+q = 1
+q = 9 + 3
+for q in range(10, 11, 2) :
+	print(q - q)
+# is clone
+0
+
+# snippet 1
+d = 5
+x = 7 / 19
+for d in range(6, 7) :
+	print(x)
+# snippet 2
+s = 1
+v = 1
+m = 8
+i = (m / 7)
+for s in range(18, 19, 1) :
+	print(s - s)
+# is clone
+0
+
+# snippet 1
+l = 1
+g = 11
+p = 9
+for g in range(12, 13) :
+	print(l)
+# snippet 2
+q = 1
+q = 9 + 3
+for q in range(10, 11, 2) :
+	print(q - q)
+# is clone
+0
+
+# snippet 1
+l = 1
+g = 11
+p = 9
+for g in range(12, 13) :
+	print(l)
+# snippet 2
+s = 1
+v = 1
+m = 8
+i = (m / 7)
+for s in range(18, 19, 1) :
+	print(s - s)
+# is clone
+0
+
+# snippet 1
+e = 3
+for e in range(4, 5) :
+	print(e)
+# snippet 2
+r = 17
+x = 10
+c = 19
+for x in range(16, 21, 3) :
+	print(c)
+# is clone
+0
+
+# snippet 1
+e = 3
+for e in range(4, 5) :
+	print(e)
+# snippet 2
+z = 9
+h = 19 - 8
+for z in range(5, 10, 3) :
+	print(h)
+# is clone
+0
+
+# snippet 1
+d = 7
+u = 14
+v = 3
+for d in range(4, 5) :
+	print(d)
+# snippet 2
+r = 17
+x = 10
+c = 19
+for x in range(16, 21, 3) :
+	print(c)
+# is clone
+0
+
+# snippet 1
+d = 7
+u = 14
+v = 3
+for d in range(4, 5) :
+	print(d)
+# snippet 2
+z = 9
+h = 19 - 8
+for z in range(5, 10, 3) :
+	print(h)
+# is clone
+0
+
+# snippet 1
+o = 3
+v = 9
+o = 14
+v = 14
+for o in range(7, 10, 2) :
+	print(v)
+# snippet 2
+d = 16
+l = 6
+j = 17
+l = 3
+l = 0
+f = d * d
+for j in range(9, 14, 3) :
+	print(f)
+# is clone
+0
+
+# snippet 1
+o = 3
+v = 9
+o = 14
+v = 14
+for o in range(7, 10, 2) :
+	print(v)
+# snippet 2
+z = 11
+w = z * z
+for z in range(18, 23, 3) :
+	print(w)
+# is clone
+0
+
+# snippet 1
+p = 18
+m = 17
+c = 15
+u = 14
+u = 7 + 5
+for m in range(2, 5, 2) :
+	print(u)
+# snippet 2
+d = 16
+l = 6
+j = 17
+l = 3
+l = 0
+f = d * d
+for j in range(9, 14, 3) :
+	print(f)
+# is clone
+0
+
+# snippet 1
+p = 18
+m = 17
+c = 15
+u = 14
+u = 7 + 5
+for m in range(2, 5, 2) :
+	print(u)
+# snippet 2
+z = 11
+w = z * z
+for z in range(18, 23, 3) :
+	print(w)
+# is clone
+0
+
+# snippet 1
+v = 18
+j = 6
+for v in range(14, 17, 2) :
+	print(j)
+# snippet 2
+h = 12
+for h in range(2, 7, 3) :
+	print(h)
+# is clone
+0
+
+# snippet 1
+v = 18
+j = 6
+for v in range(14, 17, 2) :
+	print(j)
+# snippet 2
+s = 12
+x = 4
+y = (3 - 12)
+for x in range(14, 19, 3) :
+	print(x - 12)
+# is clone
+0
+
+# snippet 1
+y = 6
+f = 17
+h = 14 + 19
+for f in range(10, 13, 2) :
+	print(h)
+# snippet 2
+h = 12
+for h in range(2, 7, 3) :
+	print(h)
+# is clone
+0
+
+# snippet 1
+y = 6
+f = 17
+h = 14 + 19
+for f in range(10, 13, 2) :
+	print(h)
+# snippet 2
+s = 12
+x = 4
+y = (3 - 12)
+for x in range(14, 19, 3) :
+	print(x - 12)
+# is clone
+0
+
+# snippet 1
+g = 11
+w = 17
+c = 12
+l = g / w
+for w in range(14, 19) :
+	print(l)
+# snippet 2
+k = 6
+n = 1
+c = (n / n)
+for k in range(11, 16) :
+	print(c)
+# is clone
+0
+
+# snippet 1
+g = 11
+w = 17
+c = 12
+l = g / w
+for w in range(14, 19) :
+	print(l)
+# snippet 2
+q = 6
+v = q / q
+for q in range(7, 12) :
+	print(v)
+# is clone
+0
+
+# snippet 1
+y = 17
+z = 18
+e = 11
+d = 12 + 0
+for z in range(16, 21) :
+	print(y / e)
+# snippet 2
+k = 6
+n = 1
+c = (n / n)
+for k in range(11, 16) :
+	print(c)
+# is clone
+0
+
+# snippet 1
+y = 17
+z = 18
+e = 11
+d = 12 + 0
+for z in range(16, 21) :
+	print(y / e)
+# snippet 2
+q = 6
+v = q / q
+for q in range(7, 12) :
+	print(v)
+# is clone
+0
+
+# snippet 1
+k = 17
+e = 8
+while e < 13 :
+	print(k)
+	e = e + 3
+# snippet 2
+y = 7
+a = 16
+while y <= 12 :
+	print(a)
+	y = y + 3
+# is clone
+1
+
+# snippet 1
+y = 3
+n = 14
+while y >= 0 :
+	print(y)
+	y = y - 2
+# snippet 2
+t = 2
+while t > -1 :
+	print(t)
+	t = t - 2
+# is clone
+1
+
+# snippet 1
+r = 6
+while r > 1 :
+	print(r)
+	r = r - 3
+# snippet 2
+z = 7
+while z >= 2 :
+	print(z)
+	z = z - 3
+# is clone
+1
+
+# snippet 1
+e = 13
+l = 14
+while e >= 12 :
+	print(l)
+	e = e - 2
+# snippet 2
+f = 1
+j = 14
+while j > 11 :
+	print(f)
+	j = j - 2
+# is clone
+1
+
+# snippet 1
+x = 2
+e = 16
+f = 9
+while f > 8 :
+	print(f)
+	f = f - 2
+# snippet 2
+v = 11
+while v > 8 :
+	print(v)
+	v = v - 2
+# is clone
+1
+
+# snippet 1
+w = 6
+q = 10
+v = 8
+while q <= 11 :
+	print(w)
+	q = q + 2
+# snippet 2
+l = 2
+s = 4
+w = 6
+while w <= 11 :
+	print(l)
+	w = w + 2
+# is clone
+1
+
+# snippet 1
+z = 18
+while z < 21 :
+	print(z)
+	z = z + 2
+# snippet 2
+s = 19
+while s <= 20 :
+	print(s)
+	s = s + 2
+# is clone
+1
+
+# snippet 1
+p = 12
+while p < 13 :
+	print(p)
+	p = p + 1
+# snippet 2
+e = 12
+while e < 13 :
+	print(e)
+	e = e + 1
+# is clone
+1
+
+# snippet 1
+k = 0
+r = 4
+b = 2
+while b < 7 :
+	print(b)
+	b = b + 3
+# snippet 2
+p = 1
+y = 8
+while p <= 6 :
+	print(p)
+	p = p + 3
+# is clone
+1
+
+# snippet 1
+h = 0
+h = 11
+z = 16
+while z > 11 :
+	print(z)
+	z = z - 2
+# snippet 2
+k = 17
+while k >= 12 :
+	print(k)
+	k = k - 2
+# is clone
+1
+
+# snippet 1
+d = 18
+i = 7
+s = 3
+while d >= 15 :
+	print(d)
+	d = d - 2
+# snippet 2
+y = 16
+while y >= 15 :
+	print(y)
+	y = y - 2
+# is clone
+1
+
+# snippet 1
+j = 15
+o = 9
+while o >= 8 :
+	print(j)
+	o = o - 2
+# snippet 2
+r = 15
+c = 12
+t = 16
+while c > 7 :
+	print(r)
+	c = c - 2
+# is clone
+1
+
+# snippet 1
+c = 15
+o = 1
+while c > 10 :
+	print(o)
+	c = c - 2
+# snippet 2
+p = 11
+d = 7
+while p > 10 :
+	print(d)
+	p = p - 2
+# is clone
+1
+
+# snippet 1
+c = 15
+o = 1
+while c > 10 :
+	print(o)
+	c = c - 2
+# snippet 2
+a = 4
+v = 16
+b = 14
+while v >= 11 :
+	print(b)
+	v = v - 2
+# is clone
+1
+
+# snippet 1
+p = 11
+d = 7
+while p > 10 :
+	print(d)
+	p = p - 2
+# snippet 2
+a = 4
+v = 16
+b = 14
+while v >= 11 :
+	print(b)
+	v = v - 2
+# is clone
+1
+
+# snippet 1
+t = 0
+t = 12
+p = 8
+while p > 5 :
+	print(p)
+	p = p - 2
+# snippet 2
+l = 2
+a = 13
+l = 8
+while l > 5 :
+	print(l)
+	l = l - 2
+# is clone
+1
+
+# snippet 1
+y = 4
+e = 17
+while y <= 7 :
+	print(e)
+	y = y + 2
+# snippet 2
+w = 7
+l = 10
+o = 19
+while w < 8 :
+	print(o)
+	w = w + 2
+# is clone
+1
+
+# snippet 1
+y = 4
+e = 17
+while y <= 7 :
+	print(e)
+	y = y + 2
+# snippet 2
+l = 0
+f = 3
+while f < 8 :
+	print(l)
+	f = f + 2
+# is clone
+1
+
+# snippet 1
+w = 7
+l = 10
+o = 19
+while w < 8 :
+	print(o)
+	w = w + 2
+# snippet 2
+l = 0
+f = 3
+while f < 8 :
+	print(l)
+	f = f + 2
+# is clone
+1
+
+# snippet 1
+y = 3
+l = 18
+p = 8
+while p < 11 :
+	print(p)
+	p = p + 2
+# snippet 2
+b = 9
+while b <= 10 :
+	print(b)
+	b = b + 2
+# is clone
+1
+
+# snippet 1
+o = 10
+l = 11
+r = 13
+while l > 6 :
+	print(r)
+	l = l - 3
+# snippet 2
+i = 11
+a = 14
+while i > 6 :
+	print(a)
+	i = i - 3
+# is clone
+1
+
+# snippet 1
+k = 17
+e = 8
+while e < 13 :
+	print(k)
+	e = e + 3
+# snippet 2
+y = 3
+n = 14
+while y >= 0 :
+	print(y)
+	y = y - 2
+# is clone
+0
+
+# snippet 1
+k = 17
+e = 8
+while e < 13 :
+	print(k)
+	e = e + 3
+# snippet 2
+t = 2
+while t > -1 :
+	print(t)
+	t = t - 2
+# is clone
+0
+
+# snippet 1
+y = 7
+a = 16
+while y <= 12 :
+	print(a)
+	y = y + 3
+# snippet 2
+y = 3
+n = 14
+while y >= 0 :
+	print(y)
+	y = y - 2
+# is clone
+0
+
+# snippet 1
+y = 7
+a = 16
+while y <= 12 :
+	print(a)
+	y = y + 3
+# snippet 2
+t = 2
+while t > -1 :
+	print(t)
+	t = t - 2
+# is clone
+0
+
+# snippet 1
+r = 6
+while r > 1 :
+	print(r)
+	r = r - 3
+# snippet 2
+e = 13
+l = 14
+while e >= 12 :
+	print(l)
+	e = e - 2
+# is clone
+0
+
+# snippet 1
+r = 6
+while r > 1 :
+	print(r)
+	r = r - 3
+# snippet 2
+f = 1
+j = 14
+while j > 11 :
+	print(f)
+	j = j - 2
+# is clone
+0
+
+# snippet 1
+z = 7
+while z >= 2 :
+	print(z)
+	z = z - 3
+# snippet 2
+e = 13
+l = 14
+while e >= 12 :
+	print(l)
+	e = e - 2
+# is clone
+0
+
+# snippet 1
+z = 7
+while z >= 2 :
+	print(z)
+	z = z - 3
+# snippet 2
+f = 1
+j = 14
+while j > 11 :
+	print(f)
+	j = j - 2
+# is clone
+0
+
+# snippet 1
+x = 2
+e = 16
+f = 9
+while f > 8 :
+	print(f)
+	f = f - 2
+# snippet 2
+w = 6
+q = 10
+v = 8
+while q <= 11 :
+	print(w)
+	q = q + 2
+# is clone
+0
+
+# snippet 1
+x = 2
+e = 16
+f = 9
+while f > 8 :
+	print(f)
+	f = f - 2
+# snippet 2
+l = 2
+s = 4
+w = 6
+while w <= 11 :
+	print(l)
+	w = w + 2
+# is clone
+0
+
+# snippet 1
+v = 11
+while v > 8 :
+	print(v)
+	v = v - 2
+# snippet 2
+w = 6
+q = 10
+v = 8
+while q <= 11 :
+	print(w)
+	q = q + 2
+# is clone
+0
+
+# snippet 1
+v = 11
+while v > 8 :
+	print(v)
+	v = v - 2
+# snippet 2
+l = 2
+s = 4
+w = 6
+while w <= 11 :
+	print(l)
+	w = w + 2
+# is clone
+0
+
+# snippet 1
+z = 18
+while z < 21 :
+	print(z)
+	z = z + 2
+# snippet 2
+p = 12
+while p < 13 :
+	print(p)
+	p = p + 1
+# is clone
+0
+
+# snippet 1
+z = 18
+while z < 21 :
+	print(z)
+	z = z + 2
+# snippet 2
+e = 12
+while e < 13 :
+	print(e)
+	e = e + 1
+# is clone
+0
+
+# snippet 1
+s = 19
+while s <= 20 :
+	print(s)
+	s = s + 2
+# snippet 2
+p = 12
+while p < 13 :
+	print(p)
+	p = p + 1
+# is clone
+0
+
+# snippet 1
+s = 19
+while s <= 20 :
+	print(s)
+	s = s + 2
+# snippet 2
+e = 12
+while e < 13 :
+	print(e)
+	e = e + 1
+# is clone
+0
+
+# snippet 1
+k = 0
+r = 4
+b = 2
+while b < 7 :
+	print(b)
+	b = b + 3
+# snippet 2
+h = 0
+h = 11
+z = 16
+while z > 11 :
+	print(z)
+	z = z - 2
+# is clone
+0
+
+# snippet 1
+k = 0
+r = 4
+b = 2
+while b < 7 :
+	print(b)
+	b = b + 3
+# snippet 2
+k = 17
+while k >= 12 :
+	print(k)
+	k = k - 2
+# is clone
+0
+
+# snippet 1
+p = 1
+y = 8
+while p <= 6 :
+	print(p)
+	p = p + 3
+# snippet 2
+h = 0
+h = 11
+z = 16
+while z > 11 :
+	print(z)
+	z = z - 2
+# is clone
+0
+
+# snippet 1
+p = 1
+y = 8
+while p <= 6 :
+	print(p)
+	p = p + 3
+# snippet 2
+k = 17
+while k >= 12 :
+	print(k)
+	k = k - 2
+# is clone
+0
+
+# snippet 1
+d = 18
+i = 7
+s = 3
+while d >= 15 :
+	print(d)
+	d = d - 2
+# snippet 2
+j = 15
+o = 9
+while o >= 8 :
+	print(j)
+	o = o - 2
+# is clone
+0
+
+# snippet 1
+d = 18
+i = 7
+s = 3
+while d >= 15 :
+	print(d)
+	d = d - 2
+# snippet 2
+r = 15
+c = 12
+t = 16
+while c > 7 :
+	print(r)
+	c = c - 2
+# is clone
+0
+
+# snippet 1
+y = 16
+while y >= 15 :
+	print(y)
+	y = y - 2
+# snippet 2
+j = 15
+o = 9
+while o >= 8 :
+	print(j)
+	o = o - 2
+# is clone
+0
+
+# snippet 1
+y = 16
+while y >= 15 :
+	print(y)
+	y = y - 2
+# snippet 2
+r = 15
+c = 12
+t = 16
+while c > 7 :
+	print(r)
+	c = c - 2
+# is clone
+0
+
+# snippet 1
+c = 15
+o = 1
+while c > 10 :
+	print(o)
+	c = c - 2
+# snippet 2
+t = 0
+t = 12
+p = 8
+while p > 5 :
+	print(p)
+	p = p - 2
+# is clone
+0
+
+# snippet 1
+c = 15
+o = 1
+while c > 10 :
+	print(o)
+	c = c - 2
+# snippet 2
+l = 2
+a = 13
+l = 8
+while l > 5 :
+	print(l)
+	l = l - 2
+# is clone
+0
+
+# snippet 1
+p = 11
+d = 7
+while p > 10 :
+	print(d)
+	p = p - 2
+# snippet 2
+t = 0
+t = 12
+p = 8
+while p > 5 :
+	print(p)
+	p = p - 2
+# is clone
+0
+
+# snippet 1
+p = 11
+d = 7
+while p > 10 :
+	print(d)
+	p = p - 2
+# snippet 2
+l = 2
+a = 13
+l = 8
+while l > 5 :
+	print(l)
+	l = l - 2
+# is clone
+0
+
+# snippet 1
+a = 4
+v = 16
+b = 14
+while v >= 11 :
+	print(b)
+	v = v - 2
+# snippet 2
+y = 4
+e = 17
+while y <= 7 :
+	print(e)
+	y = y + 2
+# is clone
+0
+
+# snippet 1
+a = 4
+v = 16
+b = 14
+while v >= 11 :
+	print(b)
+	v = v - 2
+# snippet 2
+w = 7
+l = 10
+o = 19
+while w < 8 :
+	print(o)
+	w = w + 2
+# is clone
+0
+
+# snippet 1
+w = 14
+k = 13
+while w >= 11 :
+	print(k)
+	w = w - 2
+# snippet 2
+y = 4
+e = 17
+while y <= 7 :
+	print(e)
+	y = y + 2
+# is clone
+0
+
+# snippet 1
+w = 14
+k = 13
+while w >= 11 :
+	print(k)
+	w = w - 2
+# snippet 2
+w = 7
+l = 10
+o = 19
+while w < 8 :
+	print(o)
+	w = w + 2
+# is clone
+0
+
+# snippet 1
+l = 0
+f = 3
+while f < 8 :
+	print(l)
+	f = f + 2
+# snippet 2
+y = 3
+l = 18
+p = 8
+while p < 11 :
+	print(p)
+	p = p + 2
+# is clone
+0
+
+# snippet 1
+l = 0
+f = 3
+while f < 8 :
+	print(l)
+	f = f + 2
+# snippet 2
+b = 9
+while b <= 10 :
+	print(b)
+	b = b + 2
+# is clone
+0
+
+# snippet 1
+y = 3
+l = 18
+p = 8
+while p < 11 :
+	print(p)
+	p = p + 2
+# snippet 2
+o = 10
+l = 11
+r = 13
+while l > 6 :
+	print(r)
+	l = l - 3
+# is clone
+0
+
+# snippet 1
+b = 9
+while b <= 10 :
+	print(b)
+	b = b + 2
+# snippet 2
+o = 10
+l = 11
+r = 13
+while l > 6 :
+	print(r)
+	l = l - 3
+# is clone
+0
+
