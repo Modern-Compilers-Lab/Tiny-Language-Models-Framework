@@ -2,9 +2,16 @@ import os
 import pickle
 import requests
 import numpy as np
+import argparse
 
-# change the file name which contains the entire dataset, so that it can be fragmented later on to : train, eval and test data
-input_file_path = os.path.join(os.path.dirname(__file__),  'fileNameHere.txt' )
+parser = argparse.ArgumentParser()
+parser.add_argument('--data_file', type=str, default='./data/finetuning_data.txt')
+parser.add_argument('--output_dir', type=str, default='./data')
+args = parser.parse_args()
+
+input_file_path = args.data_file
+output_dir = args.output_dir
+os.makedirs(output_dir, exist_ok=True)
 
 with open(input_file_path, 'r') as f:
     data = f.read()
@@ -32,7 +39,7 @@ meta = {
     'itos': itos,
     'stoi': stoi,
 }
-with open(f'meta.pkl', 'wb') as f:
+with open( os.path.join(output_dir, 'meta.pkl'), 'wb') as f:
     pickle.dump(meta, f)
 
 
@@ -56,11 +63,11 @@ test_data = "\n\n".join(test_examples)
 
 
 # Save train, val, and test sets to separate files
-with open(os.path.join(os.path.dirname(__file__), 'train.txt'), 'w') as f:
+with open(os.path.join(output_dir, 'train.txt'), 'w') as f:
     f.write(train_data)
-with open(os.path.join(os.path.dirname(__file__), 'val.txt'), 'w') as f:
+with open(os.path.join(output_dir, 'val.txt'), 'w') as f:
     f.write(val_data)
-with open(os.path.join(os.path.dirname(__file__), 'test.txt'), 'w') as f:
+with open(os.path.join(output_dir, 'test.txt'), 'w') as f:
     f.write(test_data)
 
 
@@ -78,7 +85,7 @@ print(f"test has {len(test_ids):,} tokens for {len(test_examples):,} examples\n"
 train_ids = np.array(train_ids, dtype=np.uint16)
 val_ids = np.array(val_ids, dtype=np.uint16)
 test_ids = np.array(test_ids, dtype=np.uint16)
-train_ids.tofile(os.path.join(os.path.dirname(__file__), 'train.bin'))
-val_ids.tofile(os.path.join(os.path.dirname(__file__),   'val.bin'))
-test_ids.tofile(os.path.join(os.path.dirname(__file__), 'test.bin'))
+train_ids.tofile(os.path.join(output_dir, 'train.bin'))
+val_ids.tofile(os.path.join(output_dir,   'val.bin'))
+test_ids.tofile(os.path.join(output_dir, 'test.bin'))
 
