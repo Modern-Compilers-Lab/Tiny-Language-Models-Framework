@@ -1,0 +1,19 @@
+[neptune] [info   ] Neptune initialized. Open in the app: https://app.neptune.ai/younes-boukacem-workspace/tiny-lm-full-random-mode/e/IMG1-74
+Traceback (most recent call last):
+  File "/scratch/yb2618/tiny-lm-full-random-mode/ae-5/model-training-atmpt-1.py", line 408, in <module>
+    torch.save(model.state_dict(), f"{DIR}checkpoints/checkpoint_iter{iter+1}_epoch{epoch:.2f}_{date_hour}.pth")
+  File "/scratch/yb2618/envs/tinylm/lib/python3.11/site-packages/torch/serialization.py", line 651, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yb2618/envs/tinylm/lib/python3.11/site-packages/torch/serialization.py", line 525, in _open_zipfile_writer
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yb2618/envs/tinylm/lib/python3.11/site-packages/torch/serialization.py", line 496, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Parent directory /scratch/yb2618/tiny-lm-full-random-mode/ae-5/checkpoints does not exist.
+[neptune] [info   ] Shutting down background jobs, please wait a moment...
+[neptune] [info   ] Done!
+[neptune] [info   ] Waiting for the remaining 168 operations to synchronize with Neptune. Do not kill this process.
+[neptune] [info   ] All 168 operations synced, thanks for waiting!
+[neptune] [info   ] Explore the metadata in the Neptune app: https://app.neptune.ai/younes-boukacem-workspace/tiny-lm-full-random-mode/e/IMG1-74/metadata
