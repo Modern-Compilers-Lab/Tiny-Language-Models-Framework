@@ -1,0 +1,40 @@
+
+Saving the numpy random state:
+	--> saving it
+	--> freeing its memory
+
+Loading the dataset:
+
+Get all the unique characters that occur in this text:
+	--> all the unique characters: '\t\n !#%()*+,-./0123456789:<=>abcdefghijklmnopqrstuvwxyz'
+	--> vocab size: 54
+
+Create a mapping from characters to integers:
+
+Save the meta information as well, to help us encode/decode later:
+	--> freeing its memory
+
+Split by examples using \n\n:
+	--> splitting
+	--> freeing data memory
+	--> total number of examples: 12,000,000
+
+
+Shuffle the examples adn split into train, test and val:
+	--> shuffling
+	--> freeing examples memory
+
+Join the examples back into strings:
+
+Save train, val, and test sets to separate files:
+
+We define the encoding function:
+
+Encode both to integers:
+	--> encoding train_data
+	--> encoding val_data
+	--> train has 2,193,497,505 tokens for 9,600,000 examples
+	--> val has 273,765,818 tokens for 1,200,000 examples
+
+Export to bin files
+:
