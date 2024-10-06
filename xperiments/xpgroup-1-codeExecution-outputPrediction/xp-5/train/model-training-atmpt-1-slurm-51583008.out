@@ -1,0 +1,6 @@
+[neptune] [info   ] Neptune initialized. Open in the app: https://app.neptune.ai/younes-boukacem-workspace/tiny-lm-full-random-mode/e/IMG1-75
+[neptune] [info   ] Shutting down background jobs, please wait a moment...
+[neptune] [info   ] Done!
+[neptune] [info   ] Waiting for the remaining 4 operations to synchronize with Neptune. Do not kill this process.
+[neptune] [info   ] All 4 operations synced, thanks for waiting!
+[neptune] [info   ] Explore the metadata in the Neptune app: https://app.neptune.ai/younes-boukacem-workspace/tiny-lm-full-random-mode/e/IMG1-75/metadata
