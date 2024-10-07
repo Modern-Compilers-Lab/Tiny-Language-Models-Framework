@@ -141,7 +141,6 @@ if __name__ == "__main__":
 		# creating the id for the new xp
 		max_id = -float("inf")
 		for xp in glob.glob(xpgroup+"/*"):
-			print(xp)
 			if max_id < (id := int(xp.split("/")[-1].split("-")[1])):
 				max_id = id
 		if max_id == -float("inf"): max_id = 0
