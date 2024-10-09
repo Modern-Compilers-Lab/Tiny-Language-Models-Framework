@@ -2,11 +2,17 @@ import os
 import pickle
 import requests
 import numpy as np
+import argparse
 
 from io import StringIO
 from contextlib import redirect_stdout
 
-input_file_path = os.path.join(os.path.dirname(__file__),  'output_data.txt' )
+parser = argparse.ArgumentParser(description='Prepare (tokenize and split) a dataset')
+parser.add_argument('--original_dataset', default='output_data.txt', help='Name of file containing original dataset')
+args = parser.parse_args()
+data_file_name = args.input_file_name
+
+input_file_path = os.path.join(os.path.dirname(__file__),  data_file_name)
 
 with open(input_file_path, 'r') as f:
     data = f.read()
