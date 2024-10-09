@@ -25,7 +25,7 @@ python old_generator.py --num_programs 1000 --level ALL --filename output_data.t
 python prepare.py
 ```
 
-This should generate the following files: `train.txt`, `test.txt`, `val.bin`, `train.bin`, `test.bin`, `val.bin`, `meta.pkl`.
+This should generate the following files: `train.txt`, `test.txt`, `val.bin`, `train.bin`, `test.bin`, `val.bin`, and `meta.pkl`.
 
 ## Contact
-- **Omar Farouk Zouak**: [omar.zouak@ensia.edu.dz](omar.zouak@ensia.edu.dz)
+- **Omar Farouk Zouak**: [omar.zouak@ensia.edu.dz](mailto:omar.zouak@ensia.edu.dz)
