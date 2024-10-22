@@ -18,7 +18,7 @@ cfg_rules = {
     "DIGIT": [str(i) for i in range(256)],
 
     # Operators
-    "ARITHMETIC_OPERATOR": ["+", "-"],
+    "ARITHMETIC_OPERATOR": ["+", "-", "/", "*", "%"],
     "RELATIONAL_OPERATOR": ["<", ">", "<=", ">=", "!=", "=="],
     "LOGICAL_OPERATOR_INFIX": ["and", "or"],
     "LOGICAL_OPERATOR_PREFIX": ["not"],

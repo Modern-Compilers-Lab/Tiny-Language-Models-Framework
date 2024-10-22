@@ -1,0 +1,48 @@
+|ITERS: 4 / 4 | COMP: 100.00% | RATE: 0.00 it./s | SPD: 223.0159 s/it.| ERT: (0, 0, 0, 0)                                                                                                               
+|ITERS: 1 / 1 | COMP: 100.00% | RATE: 0.01 it./s | SPD: 119.9956 s/it.| ERT: (0, 0, 0, 0)                                                                                                               
+
+Saving the data-preping-numpy-random state:
+	--> saving it
+	--> freeing its memory
+
+Loading the dataset:
+
+Get all the unique characters that occur in this text:
+	--> all the unique characters: '\t\n !#%()*+,-./0123456789:<=>abcdefghijklmnopqrstuvwxyz'
+	--> vocab size: 54
+
+Create a mapping from characters to integers:
+
+Save the meta information as well, to help us encode/decode later:
+	--> freeing its memory
+
+Split by examples using \n\n:
+	--> splitting
+	--> freeing data memory
+	--> total number of examples: 30,000,000
+
+
+Creating the train.txt, val.txt and test.txt:
+	--> shuffling examples
+	--> creating the train_examples
+	--> train_examples has 24000000 examples
+	--> creating the train_data
+	--> train_data has 4104541271 tokens
+	--> writing the train_data to train.txt
+	--> creating the val_examples
+	--> val_examples has 3000000 examples
+	--> creating the val_data
+	--> val_data has 513127924 tokens
+	--> writing the val_data to val.txt
+	--> creating the test_examples
+	--> test_examples has 3000000 examples
+	--> creating the test_data
+	--> test_data has 513012693 tokens
+	--> writing the test_data to test.txt
+	--> freeing examples memory
+
+We define the encoding function:
+
+Reading and encoding train.txt directly to binary:
+
+Reading and encoding val.txt directly to binary:
