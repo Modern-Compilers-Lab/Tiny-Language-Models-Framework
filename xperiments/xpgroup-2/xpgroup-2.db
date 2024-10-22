@@ -1,5 +1,6 @@
-last-xp-id: 3
+last-xp-id: 4
 xps:
   xp-2-1: 8-AttentionHeads 8-Blocks
   xp-2-2: BaseModel BaseDataset 6-AttentionHeads 6-Blocks
   xp-2-3: RMSNorm
+  xp-2-4: ActivationFunctions SiLU
