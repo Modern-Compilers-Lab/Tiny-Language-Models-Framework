@@ -1,3 +1,4 @@
-last-xpgroup-id: 1
+last-xpgroup-id: 2
 xpgroups:
   xpgroup-1: CodeExecution OutputPrediction XG-1
+  xpgroup-2: BaseModel ArchitectureChanges XG-2
