@@ -1,4 +1,5 @@
-last-xp-id: 2
+last-xp-id: 3
 xps:
   xp-2-1: 8-AttentionHeads 8-Blocks
   xp-2-2: BaseModel BaseDataset 6-AttentionHeads 6-Blocks
+  xp-2-3: RMSNorm
