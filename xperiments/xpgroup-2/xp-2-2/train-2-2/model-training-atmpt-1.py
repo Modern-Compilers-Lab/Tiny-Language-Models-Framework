@@ -88,9 +88,9 @@ log(f"device set to {device}.")
 ## Setting arch-hyperparams for the GPT model
 log("Setting arch-hyperparams for the GPT model")
 run["arch-hyperparams/block_size"] = block_size = 256  # Maximum context length
-run["arch-hyperparams/n_embd"] = n_embd = 648	  # Embedding dimension
-run["arch-hyperparams/n_head"] = n_head = 8		# Number of attention heads
-run["arch-hyperparams/n_layer"] = n_layer = 8	   # Number of transformer blocks
+run["arch-hyperparams/n_embd"] = n_embd = 642	  # Embedding dimension
+run["arch-hyperparams/n_head"] = n_head = 6		# Number of attention heads
+run["arch-hyperparams/n_layer"] = n_layer = 6	   # Number of transformer blocks
 
 # Loading the training and evaluation data
 log("Loading the training and evaluation data")
