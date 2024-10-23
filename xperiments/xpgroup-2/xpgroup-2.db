@@ -1,6 +1,7 @@
-last-xp-id: 4
+last-xp-id: 5
 xps:
-  xp-2-1: 8-AttentionHeads 8-Blocks
-  xp-2-2: BaseModel BaseDataset 6-AttentionHeads 6-Blocks
-  xp-2-3: RMSNorm
+  xp-2-1: BaseModel BaseDataset 6-AttentionHeads 6-Blocks
+  xp-2-2: 8-AttentionHeads 8-Blocks
+  xp-2-3: Normalization RMSNorm
   xp-2-4: ActivationFunctions SiLU
+  xp-2-5: ActivationFunctions SwiGLU
