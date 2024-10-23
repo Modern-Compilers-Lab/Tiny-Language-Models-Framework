@@ -129,6 +129,21 @@ compile = False # requires PyTorch 2.0
 ## Defining the model and utilities
 log("Defining the model and utilities")
 log("The model")
+
+class SwiGLU(nn.Module):
+    
+    def __init__(self, w1, w2, w3) -> None:
+        super().__init__()
+        self.w1 = w1
+        self.w2 = w2
+        self.w3 = w3
+    
+    def forward(self, x):
+        x1 = F.linear(x, self.w1.weight)
+        x2 = F.linear(x, self.w2.weight)
+        hidden = F.silu(x1) * x2
+        return F.linear(hidden, self.w3.weight)
+	
 class LayerNorm(nn.Module):
 	""" LayerNorm but with an optional bias. PyTorch doesn't support simply bias=False """
 
@@ -183,7 +198,7 @@ class FeedForward(nn.Module):
 		super().__init__()
 		self.net = nn.Sequential(
 			nn.Linear(n_embd, 4 * n_embd, bias=False),
-			nn.GELU(),
+			SwiGLU(),
 			nn.Linear( 4 * n_embd, n_embd, bias=False),
 			nn.Dropout(dropout),
 		)
