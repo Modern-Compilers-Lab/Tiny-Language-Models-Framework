@@ -1,6 +1,6 @@
 # Model training
-DDIR = "../../../../datasets/dataset-5-FullRandom-30MSnippets-2Depth-1Subblocks-WithDivisionMultiplicationModulo/datapreps/dataprep-1-80Train10Val10Test-CharacterLevelTokenization/data/"
-deviceid = 7
+DDIR = "/data/yb2618/Tiny-Language-Models-Framework/datasets/dataset-5/datapreps-5/dataprep-5-1/data-dp-5-1/"
+deviceid = 6
 
 ## Logging boilerplate
 log_file = open("model-training-atmpt-1.log", "w")
@@ -62,7 +62,7 @@ run = neptune.init_run(
 	project="younes-boukacem-workspace/Tiny-Language-Models-Framework",
 	api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJiZGFmNDg2Yy01MzRkLTQwNGMtYmZmMy1hYzM0Y2NkY2QyNmMifQ==",
 	capture_hardware_metrics = False,
-	custom_run_id = "XP-2-1"
+	custom_run_id = "XP-2-6"
 )
 # First attempt so we log the runid
 log("saving the runid")
@@ -112,7 +112,7 @@ log(f"took {convert_seconds(after - before)}")
 log("Setting train-hyperparams and util variables")
 run["train-hyperparams/batch_size"] = batch_size = 64   # Batch size for training
 run["train-hyperparams/dropout"] = dropout = 0	   # Dropout rate
-run["train-hyperparams/max_pseudo_epochs"] = max_pseudo_epochs = 3
+run["train-hyperparams/max_pseudo_epochs"] = max_pseudo_epochs = 1
 run["train-hyperparams/learning_rate"] = learning_rate = 1e-3 # Initial Learning rate value
 run["train-hyperparams/max_degradations"] = max_degradations = -1 # number of consecutive degradations on val loss before stoping the training
 eval_interval = 5000 # Evaluation interval
@@ -131,18 +131,19 @@ log("Defining the model and utilities")
 log("The model")
 
 class SwiGLU(nn.Module):
-    
-    def __init__(self, w1, w2, w3) -> None:
+    def __init__(self, size: int, hidden_multiplier: int = 4) -> None:
         super().__init__()
-        self.w1 = w1
-        self.w2 = w2
-        self.w3 = w3
+        hidden_size = size * hidden_multiplier
+        self.w1 = nn.Linear(size, hidden_size)
+        self.w2 = nn.Linear(size, hidden_size)
+        self.w3 = nn.Linear(hidden_size, size)
     
     def forward(self, x):
-        x1 = F.linear(x, self.w1.weight)
-        x2 = F.linear(x, self.w2.weight)
+        # Get input shape and reshape if needed
+        x1 = self.w1(x)
+        x2 = self.w2(x)
         hidden = F.silu(x1) * x2
-        return F.linear(hidden, self.w3.weight)
+        return self.w3(hidden)
 	
 class LayerNorm(nn.Module):
 	""" LayerNorm but with an optional bias. PyTorch doesn't support simply bias=False """
@@ -197,11 +198,9 @@ class FeedForward(nn.Module):
 	def __init__(self, n_embd):
 		super().__init__()
 		self.net = nn.Sequential(
-			nn.Linear(n_embd, 4 * n_embd, bias=False),
-			SwiGLU(),
-			nn.Linear( 4 * n_embd, n_embd, bias=False),
-			nn.Dropout(dropout),
-		)
+            SwiGLU(n_embd),  # SwiGLU handles the dimension scaling internally
+            nn.Dropout(dropout),
+        )
 
 	def forward(self, x):
 		return self.net(x)
