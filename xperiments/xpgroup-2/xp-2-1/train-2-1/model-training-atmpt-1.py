@@ -1,6 +1,6 @@
 # Model training
-DDIR = "../../../../datasets/dataset-5-FullRandom-30MSnippets-2Depth-1Subblocks-WithDivisionMultiplicationModulo/datapreps/dataprep-1-80Train10Val10Test-CharacterLevelTokenization/data/"
-deviceid = 7
+DDIR = "/data/yb2618/Tiny-Language-Models-Framework/datasets/dataset-5/datapreps-5/dataprep-5-1/data-dp-5-1/"
+deviceid = 0
 
 ## Logging boilerplate
 log_file = open("model-training-atmpt-1.log", "w")
@@ -112,7 +112,7 @@ log(f"took {convert_seconds(after - before)}")
 log("Setting train-hyperparams and util variables")
 run["train-hyperparams/batch_size"] = batch_size = 64   # Batch size for training
 run["train-hyperparams/dropout"] = dropout = 0	   # Dropout rate
-run["train-hyperparams/max_pseudo_epochs"] = max_pseudo_epochs = 3
+run["train-hyperparams/max_pseudo_epochs"] = max_pseudo_epochs = 1
 run["train-hyperparams/learning_rate"] = learning_rate = 1e-3 # Initial Learning rate value
 run["train-hyperparams/max_degradations"] = max_degradations = -1 # number of consecutive degradations on val loss before stoping the training
 eval_interval = 5000 # Evaluation interval
