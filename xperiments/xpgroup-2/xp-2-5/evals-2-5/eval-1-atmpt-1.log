@@ -1,0 +1,20 @@
+|ITERS: 10960 / 3000000 | COMP: 0.37% | RATE: 2.67 it./s | SPD: 0.3743 s/it.| ERT: (12, 22, 47, 15) |                                                                                                   
+|hard-accuracy: 61.42% | soft-accuracy: 0.20% |                                                                                                                                                         
+
+Imports:
+
+Set the device to GPU if available, otherwise CPU:
+
+Loading the encode and decode functions and setting the vocab_size from the meta object:
+
+Redefining the model of the training:
+
+Loading the model:
+
+Creating and loading the model:
+
+Reading the test data:
+
+Splitting the test data into examples:
+
+Sequential Evaluation loop:
