@@ -1,0 +1,66 @@
+|ITERS: 17859 / 222562 | COMP: 8.02% | RATE: 4.09 it./s | SPD: 0.2444 s/it.| ERT: (0, 13, 53, 42)                                                                                                       
+val>|ITERS: 500 / 500 | COMP: 100.00% | RATE: 12.34 it./s | SPD: 0.0810 s/it.| ERT: (0, 0, 0, 0) |                                                                                                      
+
+Importing ...:
+	--> took (0, 0, 0, 1)
+
+Starting the netpune logging:
+	--> neptune init
+	--> saving the runid
+
+Set the random seed for reproducibility:
+
+Set the device to GPU if available, otherwise CPU:
+	--> device set to cuda:0.
+
+Setting arch-hyperparams for the GPT model:
+
+Loading the training and evaluation data:
+	--> train.bin
+	--> took (0, 0, 0, 1)
+	--> val.bin
+	--> took (0, 0, 0, 0)
+
+Setting train-hyperparams and util variables:
+	--> max_iters = 222562
+
+Defining the model and utilities:
+
+The model:
+	--> def get random batch of data
+	--> def estimate loss
+	--> def human readable
+
+Loading the meta object:
+	--> loading
+	--> setting vocab size
+
+Creating the model:
+
+The model has 30M trainable parameters:
+
+Preparing for the training loop:
+	--> initialiazing the optimizer
+	--> initializing the learing rate scheduler
+	--> computing the initial loss
+	--> saving the last loss for early stopping
+	--> neptune logging the initial loss
+
+Training loop:
+
+==========================================================================================:
+
+2024-10-29_12-54 : iter     0 <=> epoch 0 | train loss 4.1571 | val loss 4.1572:
+	--> training ...
+	--> checkpointing ...
+
+2024-10-29_13-16 : iter       5000 <=> epoch 0.02246556094638398 | train loss 0.6958001256 | val loss 0.6954787970:
+	--> training ...
+	--> checkpointing ...
+
+2024-10-29_13-37 : iter      10000 <=> epoch 0.04493112189276796 | train loss 0.6824410558 | val loss 0.6814396977:
+	--> training ...
+	--> checkpointing ...
+
+2024-10-29_13-59 : iter      15000 <=> epoch 0.06739668283915194 | train loss 0.6735616326 | val loss 0.6728384495:
+	--> training ...
