@@ -1,0 +1,742 @@
+,example,all-generated-output
+0,"# code
+f = 159
+for t in range(142, 145, 2) :
+	j = (f + 120)
+	if not t == j :
+		print(j)
+		y = 100
+print(f % 76)
+# output
+# 279
+# 279
+# 7","# 279
+# 279
+# 73
+
+# code
+print(1 * @"
+1,"# code
+for b in range(28, 33) :
+	print(b)
+	print(b)
+print(b)
+b = b - b
+print(b)
+print(b)
+b = (165 / 33)
+print(b)
+# output
+# 28
+# 28
+# 29
+# 29
+# 30
+# 30
+# 31
+# 31
+# 32
+# 32
+# 32
+# 0
+# 0
+# 5.0","# 28
+# 28
+# 29
+# 29
+# 30
+# 30
+# 31
+# 31
+# 32
+# 32
+# 32
+# 0
+# 0
+# 5.03030303030303
+
+# cod@"
+2,"# code
+h = 65 % 178
+s = 207
+while s < 208 :
+	s = s + 2
+	print(s)
+	d = 85
+h = 118
+h = 237 % h
+if  h > 209 :
+	print(h)
+print(h)
+# output
+# 209
+# 1","# 209
+# 119
+
+# code
+print(1 *@"
+3,"# code
+x = 21
+while x < 26 :
+	x = x + 2
+	print(x)
+	a = 222
+print(x / 27)
+# output
+# 23
+# 25
+# 27
+# 1.0","# 23
+# 25
+# 27
+# 1.037037037037037
+
+# co@"
+4,"# code
+a = (135 * 0)
+if  a < 53 :
+	a = (a - 75)
+a = a / a
+a = 181 - a
+u = 176
+while u >= 175 :
+	u = u - 1
+	print(a)
+	if u >= a :
+		print(a)
+print(a)
+# output
+# 180.0
+# 180.0
+# 180.0","# 180.0
+# 180.0
+# 180.0
+# 180.0
+# 180.0
+
+# @"
+5,"# code
+if 0 != 7 :
+	print(1 + 52)
+	print(113)
+	z = 186
+n = (0 - 91)
+for m in range(7, 12, 2) :
+	print(m)
+	if not m >= n :
+		print(n)
+	m = n + m
+print(m)
+# output
+# 53
+# 113
+# 7
+# 9
+# 11
+# -80","# 53
+# 113
+# 7
+# 9
+# 11
+# -80
+# -72
+# -71
+
+# code@"
+6,"# code
+v = (105 / 140)*(5 % 5)*(7 + 145)-(62 / 4)
+if v < v :
+	print(v)
+	print(v)
+if not v < 29 :
+	q = 85
+print(v)
+# output
+# -15.5","# -15.5625
+
+# code
+print(1 @"
+7,"# code
+v = 159
+print(v)
+print(v)
+print(v)
+for m in range(5, 10, 2) :
+	o = 0
+	print(o)
+print(v / v)
+print(v)
+print(m)
+print(v % 156)
+# output
+# 159
+# 159
+# 159
+# 0
+# 0
+# 0
+# 1.0
+# 159
+# 9
+# 3","# 159
+# 159
+# 159
+# 0
+# 0
+# 0
+# 1.0
+# 159
+# 9
+# 33
+
+# code
+print(1 * @"
+8,"# code
+e = 62
+k = 167
+print(e)
+for c in range(91, 92, 1) :
+	if c >= k :
+		print(c)
+		print(k)
+print(c)
+# output
+# 62
+# 91","# 62
+# 91
+# 167
+# 91
+
+# code
+@"
+9,"# code
+print(181)
+print(106)
+print(9 % 4)
+print(181)
+u = (165 * 124)*(2 - 0)%(3 + 13)
+c = u * u
+c = (128 % 14)*(c - 70)
+for y in range(72, 75) :
+	if  c == c :
+		u = (175 % 16)
+print(c)
+# output
+# 181
+# 106
+# 1
+# 181
+# -12","# 181
+# 106
+# 1
+# 181
+# -128
+
+# code
+print(1 * @"
+10,"# code
+for f in range(172, 173) :
+	if f > f :
+		f = (f * f)-(f / 53)
+		print(f)
+		print(f)
+f = (9 % 50)+(231 / 154)
+if f != f :
+	j = 108
+	print(j)
+	h = 209
+print(f)
+# output
+# 10.5","# 10.584415584415584
+
+# co@"
+11,"# code
+f = 2 / 5
+print(f + f)
+if  f < 156 :
+	f = 229 - 12
+	g = 213
+	print(g)
+print(f)
+if  f <= 214 :
+	print(f)
+	m = f * f
+print(f)
+# output
+# 0.8
+# 213
+# 217
+# 217","# 0.8
+# 213
+# 217
+# 217
+# 217
+
+# code
+print@"
+12,"# code
+i = 49
+while i < 54 :
+	i = i + 2
+	b = (133 % i)
+	if  b <= i :
+		w = 132
+b = 216
+if not b == i :
+	b = (114 % 128)*(244 + i)%(29 % 150)
+	i = (b / i)
+print(b)
+# output
+# 11","# 114
+
+# code
+print(1 * @"
+13,"# code
+k = 17
+print(k)
+print(k)
+x = 169
+while x >= 164 :
+	x = x - 3
+	p = 245
+	if  k >= 208 :
+		print(k)
+		print(k)
+print(k)
+# output
+# 17
+# 17
+# 17","# 17
+# 17
+# 17
+# 17
+# 17
+# 17
+# 17@"
+14,"# code
+s = 71
+for p in range(26, 31) :
+	if not p > 171 :
+		p = 206 % 244
+		s = 61 + 49
+if p < 181 :
+	print(s)
+	print(p)
+	u = (135 * 99)
+print(s)
+print(p)
+# output
+# 110
+# 206","# 110
+# 206
+# 110
+# 206
+
+# code@"
+15,"# code
+u = 111
+while u <= 114 :
+	u = u + 2
+	print(u)
+	if  u <= 156 :
+		print(u)
+		v = (u % 146)
+u = 231 % u
+i = 73
+print(i)
+print(u)
+# output
+# 113
+# 113
+# 115
+# 115
+# 73
+# 1","# 113
+# 113
+# 115
+# 115
+# 73
+# 106
+
+# code
+print(1 *@"
+16,"# code
+s = 162
+print(s / s)
+print(s)
+c = (s % 2)/(95 % 55)/(s - 28)
+m = 198
+print(m)
+if  c < 54 :
+	print(m)
+	print(m)
+d = c % 153
+print(c + d)
+# output
+# 1.0
+# 162
+# 198
+# 198
+# 198
+# 0.0","# 1.0
+# 162
+# 198
+# 198
+# 198
+# 0.00020202020202020202
+@"
+17,"# code
+print(1 * 155)
+v = 213
+z = 73
+print(z)
+h = 177
+while h <= 182 :
+	h = h + 3
+	if not z < v :
+		print(v)
+		q = 114
+print(v)
+# output
+# 155
+# 73
+# 213","# 155
+# 73
+# 213
+# 213
+# 213
+
+# code@"
+18,"# code
+c = (3 / 1)
+if not c == 97 :
+	c = 118 % 40
+	c = c - c
+	h = 248
+	print(h)
+if  c != 132 :
+	t = 117
+	print(t)
+	m = 147
+print(c + 68)
+# output
+# 248
+# 117
+# 68","# 248
+# 117
+# 68.0
+
+# code
+print(1 *@"
+19,"# code
+s = (1 - 1)
+for h in range(148, 153, 3) :
+	print(s)
+	print(s)
+	print(h)
+h = (h % h)*(237 / 129)
+f = 232
+print(f)
+if not f < h :
+	print(h * 40)
+print(s + f)
+# output
+# 0
+# 0
+# 148
+# 0
+# 0
+# 151
+# 232
+# 0.0
+# 232","# 0
+# 0
+# 148
+# 0
+# 0
+# 151
+# 232
+# 0.0
+# 232.0
+
+# code
+print(1 *@"
+20,"# code
+f = (131 % 8)+(148 * 3)
+v = 54
+b = 35
+o = 247
+while o <= 248 :
+	o = o + 1
+	print(f)
+if f <= o :
+	print(v)
+print(v)
+# output
+# 447
+# 447
+# 54","# 447
+# 447
+# 54
+# 54
+
+# code
+print(@"
+21,"# code
+print(75)
+print(51)
+l = 3 - 3
+for h in range(117, 122) :
+	print(l)
+	if h != l :
+		q = l - l
+		j = (q % 125)
+		print(h * l)
+if  l > l :
+	print(h)
+print(h - h)
+# output
+# 75
+# 51
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0","# 75
+# 51
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+
+# code
+print(1@"
+22,"# code
+v = 0 + 2
+for n in range(107, 108, 2) :
+	v = n + v
+if v < n :
+	print(v - n)
+print(v)
+# output
+# 109","# 109
+# 216
+
+# code
+print@"
+23,"# code
+print(82)
+print(235)
+n = (247 * 1)
+n = 42 % 66
+g = (212 % n)
+print(n)
+n = n / 47
+if not n == 227 :
+	w = 3 - 15
+print(g)
+# output
+# 82
+# 235
+# 42
+# 2","# 82
+# 235
+# 42
+# 26
+
+# code
+print(1 * @"
+24,"# code
+print(7 % 5)
+b = 160 + 9
+print(b)
+print(b)
+b = b % 28
+print(b)
+# output
+# 2
+# 169
+# 169
+# 1","# 2
+# 169
+# 169
+# 15
+
+# code
+print(1 * @"
+25,"# code
+f = (104 / 132)
+y = 5
+while y > 4 :
+	y = y - 2
+	print(y - 254)
+	p = f + 59
+if y <= f :
+	print(f)
+	print(y)
+	v = 215
+print(f)
+# output
+# -251
+# 0.7878787878787878","# -251
+# 0.7878787878787878
+# 3
+# 0.78787878787@"
+26,"# code
+print(0 / 50)
+c = (73 * 9)
+print(c)
+for g in range(78, 83) :
+	o = 242
+	print(g)
+if g < 63 :
+	g = (g * 145)
+	print(c)
+s = c - 252
+print(g - 20)
+# output
+# 0.0
+# 657
+# 78
+# 79
+# 80
+# 81
+# 82
+# 62","# 0.0
+# 657
+# 78
+# 79
+# 80
+# 81
+# 82
+# 627
+
+# code
+print(1 * @"
+27,"# code
+w = 248
+j = 37
+while j <= 42 :
+	j = j + 2
+	if j <= 41 :
+		print(j)
+		print(j)
+print(j)
+# output
+# 39
+# 39
+# 41
+# 41
+# 43","# 39
+# 39
+# 41
+# 41
+# 43
+# 43
+# 43
+
+# code
+p@"
+28,"# code
+i = 116
+while i >= 111 :
+	i = i - 2
+	if not i == 110 :
+		print(i)
+		print(i)
+		print(i + i)
+print(i)
+# output
+# 114
+# 114
+# 228
+# 112
+# 112
+# 224
+# 110","# 114
+# 114
+# 228
+# 112
+# 112
+# 224
+# 110
+# 110
+# 220
+# 110
+
+@"
+29,"# code
+print(116)
+l = 58
+while l >= 57 :
+	l = l - 2
+	z = 115
+	print(z)
+o = 133
+if l > 57 :
+	print(o)
+	print(o)
+print(o)
+# output
+# 116
+# 115
+# 133","# 116
+# 115
+# 133
+# 133
+# 133
+
+# code@"
+30,"# code
+i = (3 - 2)
+h = 195 / 111
+if i < i :
+	r = 243
+	i = (r * h)+(r / h)-(80 / 138)
+else :
+	h = i - i
+	print(i)
+	print(i)
+b = (h + 9)
+print(b)
+# output
+# 1
+# 1
+# 9","# 1
+# 1
+# 9.0
+
+# code
+print(1 *@"
+31,"# code
+q = (28 + 7)
+u = 137
+while u < 140 :
+	u = u + 2
+	i = 254
+	c = 156
+	s = 142
+v = 247
+if q > u :
+	print(v)
+print(v)
+# output
+# 247","# 247
+# 247
+
+# code
+print@"

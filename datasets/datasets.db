@@ -1,5 +1,12 @@
-last-dataset-id: 3
+last-dataset-id: 7
 datasets:
-  dataset-1: NoOverflowControl RandomGenerator 200MSnippets MaxDepth2 MaxSubBlocks2 MinLength2 MaxLength10 WithHardArithmeticOps
+  dataset-1: NoOverflowControl RandomGenerator 200MSnippets MaxDepth2 MaxSubBlocks2
+    MinLength2 MaxLength10 WithHardArithmeticOps
   dataset-2: NoOverflowControl FullRandom 30MSnipppets 2Depth 1Subblocks NoDivisionMultiplicationModulo
   dataset-3: NoOverflowControl FullRandom 30MSnippets 2Depth 1Subblocks WithDivisionMultiplicationModulo
+  dataset-4: OverflowControl 30MSnippets MaxOverflow10000 WithHardArithmeticOps ClassicCodePattern
+  dataset-5: OverflowControl 30MSnippets MaxValOverflow1000 30MSnippets WithHardArithmeticOps
+    ClassicCodePattern
+  dataset-6: 30MCodeSnippets ClassicalCodePattern OveflowControl MaxOverflowControl-1000
+    NoExpressionsInsidePrints
+  dataset-7: ClassicalCodePattern NoForLoops NoExpressionsInsidePrints LongCodes SimpleArithmeticExpressions SimpleLogicalExpressions

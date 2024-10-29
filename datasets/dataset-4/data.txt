@@ -1,0 +1,16343 @@
+# code
+n = 3 % 3
+k = 225
+while k < 228 :
+	k = k + 2
+	print(n)
+	o = 148 / 62
+print(k - 81)
+# output
+# 0
+# 0
+# 148
+
+# code
+l = 221
+while l < 226 :
+	l = l + 3
+	print(l)
+	print(l)
+if not l == 143 :
+	print(l)
+	print(l)
+l = 35 + 166
+n = 190
+print(l)
+# output
+# 224
+# 224
+# 227
+# 227
+# 227
+# 227
+# 201
+
+# code
+print(255)
+p = 20
+if p != p :
+	v = (48 - 237)/(p - 193)%(p + p)
+	print(p + 227)
+print(p)
+# output
+# 255
+# 20
+
+# code
+d = (3 - 159)
+m = 135
+while m >= 130 :
+	m = m - 3
+	h = 25
+	d = (166 / 187)
+m = (d + 179)
+v = 243
+print(d)
+print(m % 107)
+print(m / m)
+# output
+# 0.8877005347593583
+# 72.88770053475935
+# 1.0
+
+# code
+l = 106
+h = 252
+h = 44 % h
+print(l / 8)
+w = 84
+e = 124
+print(e)
+# output
+# 13.25
+# 124
+
+# code
+u = 156
+while u < 161 :
+	u = u + 3
+	if u >= u :
+		i = 31
+print(u)
+# output
+# 162
+
+# code
+t = (22 - 3)
+if t < 253 :
+	e = t + 93
+	n = 175
+	print(n)
+print(t + 227)
+# output
+# 175
+# 246
+
+# code
+u = (0 + 6)+(2 + 1)-(251 / 155)
+if u > 227 :
+	u = u % 61
+m = 155
+while m <= 158 :
+	m = m + 2
+	z = 50
+print(m)
+# output
+# 159
+
+# code
+j = 24
+n = 14
+print(n + n)
+print(n * 131)
+print(j)
+j = (156 / 180)+(j / 4)/(245 - 85)+(118 - 191)
+print(j)
+n = j / 222
+q = 88
+while q < 93 :
+	q = q + 3
+	print(j)
+print(n % 136)
+# output
+# 28
+# 1834
+# 24
+# -72.09583333333333
+# -72.09583333333333
+# -72.09583333333333
+# 135.675243993994
+
+# code
+print(168)
+r = 7 % 2
+u = 85
+while u <= 88 :
+	u = u + 2
+	l = (243 * 91)/(u - r)%(58 - u)
+	print(r)
+	r = 70 / 242
+print(r)
+print(r)
+print(u)
+# output
+# 168
+# 1
+# 0.2892561983471074
+# 0.2892561983471074
+# 0.2892561983471074
+# 89
+
+# code
+j = 4 + 4
+w = 129
+while w >= 128 :
+	w = w - 2
+	print(j)
+	print(j)
+print(w * j)
+if j <= 119 :
+	print(j)
+q = 254
+print(j)
+# output
+# 8
+# 8
+# 1016
+# 8
+# 8
+
+# code
+y = 204
+while y > 203 :
+	y = y - 1
+	if y != y :
+		u = 232 % y
+		u = (y * u)/(y % y)/(y % y)
+		u = (u / u)%(38 * u)+(164 + 218)+(y / u)
+		print(u)
+print(y)
+# output
+# 203
+
+# code
+a = 195
+while a <= 196 :
+	a = a + 2
+	i = a - a
+	i = i + i
+print(a)
+# output
+# 197
+
+# code
+if not 1 == 162 :
+	q = 201
+u = 21
+while u >= 16 :
+	u = u - 2
+	print(u % 240)
+	a = (u - u)%(44 % u)
+	a = 119 + 83
+f = 29 + u
+print(u)
+print(u)
+# output
+# 19
+# 17
+# 15
+# 15
+# 15
+
+# code
+n = 137
+print(n)
+for z in range(112, 113) :
+	print(z)
+	print(n + 113)
+	print(z)
+	if z < 224 :
+		print(z)
+		n = (n - n)
+		print(n)
+print(z % 235)
+# output
+# 137
+# 112
+# 250
+# 112
+# 112
+# 0
+# 112
+
+# code
+print(238)
+for x in range(11, 12) :
+	print(x)
+x = x + x
+print(x % 79)
+x = (154 % 32)/(x - 186)-(x / x)+(x % 214)
+x = (x % x)*(x % x)
+if  x >= 24 :
+	print(x)
+	t = 206
+print(x)
+# output
+# 238
+# 11
+# 22
+# 0.0
+
+# code
+c = (106 * 1)%(7 / 4)
+print(c / c)
+for u in range(152, 157) :
+	print(u)
+	if not u > 84 :
+		print(u)
+		k = 232 - c
+print(u % 137)
+# output
+# 1.0
+# 152
+# 153
+# 154
+# 155
+# 156
+# 19
+
+# code
+for g in range(11, 16) :
+	j = g % g
+	print(g)
+	v = (g * j)
+print(g)
+u = (30 - g)
+print(g)
+print(u)
+if u >= u :
+	g = u - u
+print(g)
+# output
+# 11
+# 12
+# 13
+# 14
+# 15
+# 15
+# 15
+# 15
+# 0
+
+# code
+for b in range(76, 77, 1) :
+	c = 123
+	b = c + 221
+	print(c)
+j = b / b
+o = 110
+print(b)
+# output
+# 123
+# 344
+
+# code
+l = 2 - 178
+l = (159 - 88)
+for j in range(198, 201, 2) :
+	print(j)
+	k = (l - 201)/(206 + l)
+l = (l / 92)
+print(l)
+s = 170
+print(l)
+l = 148
+print(l)
+# output
+# 198
+# 200
+# 0.7717391304347826
+# 0.7717391304347826
+# 148
+
+# code
+t = 138
+while t <= 143 :
+	t = t + 3
+	if t == t :
+		b = 9 % t
+		y = 172
+print(t)
+# output
+# 144
+
+# code
+f = 71
+while f <= 74 :
+	f = f + 2
+	w = f + 215
+	print(w)
+print(f)
+b = 107
+r = 103
+i = 220
+print(i)
+print(r % 213)
+# output
+# 288
+# 290
+# 75
+# 220
+# 103
+
+# code
+y = 95
+while y < 100 :
+	y = y + 2
+	if y <= y :
+		d = 78
+print(y)
+# output
+# 101
+
+# code
+v = 66 + 11
+o = (56 % v)/(36 + 26)+(v % v)
+print(v)
+v = o + 88
+o = (127 + v)*(v / 155)+(77 - v)*(84 / v)/(234 + 154)*(v * v)/(v / 112)+(104 + 37)/(59 + 205)
+for x in range(42, 47, 3) :
+	v = (o / o)/(o % 208)/(v * v)-(139 - o)
+	w = 182
+print(o * x)
+x = (90 / 101)
+print(x)
+# output
+# 77
+# -7391.385731101782
+# 0.8910891089108911
+
+# code
+for u in range(193, 196) :
+	u = (34 % 37)+(u / 34)+(99 % 226)+(73 % u)*(244 % u)%(u + 152)
+	print(u)
+print(u)
+y = 160
+print(u)
+# output
+# 411.6764705882353
+# 328.70588235294116
+# 245.73529411764707
+# 245.73529411764707
+# 245.73529411764707
+
+# code
+z = 202 - 224
+r = 13
+u = 224
+while u <= 229 :
+	u = u + 3
+	print(u / z)
+	print(u % 47)
+z = u / 44
+if  r != 198 :
+	o = (36 * r)/(65 + 203)
+print(u)
+# output
+# -10.318181818181818
+# 39
+# -10.454545454545455
+# 42
+# 230
+
+# code
+t = (2 - 92)
+print(t * t)
+n = 31
+j = (205 / t)
+t = 120
+while t < 123 :
+	t = t + 2
+	print(t)
+	print(n)
+k = (t + t)
+print(t - j)
+# output
+# 8100
+# 122
+# 31
+# 124
+# 31
+# 126.27777777777777
+
+# code
+a = 148
+while a >= 145 :
+	a = a - 2
+	r = (246 + 59)
+	print(r + 152)
+print(a)
+# output
+# 457
+# 457
+# 144
+
+# code
+p = 8
+while p <= 9 :
+	p = p + 1
+	if  p != 60 :
+		print(p)
+		print(p)
+		print(p)
+print(p % 170)
+# output
+# 9
+# 9
+# 9
+# 10
+# 10
+# 10
+# 10
+
+# code
+k = (3 % 209)
+if k >= k :
+	print(k)
+print(k)
+k = (119 * k)-(208 / k)
+g = 40
+while g > 35 :
+	g = g - 2
+	t = 53
+print(k)
+print(k * 100)
+# output
+# 3
+# 3
+# 287.6666666666667
+# 28766.666666666668
+
+# code
+a = 144
+while a <= 147 :
+	a = a + 2
+	print(a % a)
+	z = 74
+	w = (z - 133)
+if  a > a :
+	print(a)
+	q = 192
+print(a)
+print(a + a)
+# output
+# 0
+# 0
+# 148
+# 296
+
+# code
+o = 14
+i = 108
+while i <= 109 :
+	i = i + 1
+	if  o <= o :
+		print(o % i)
+		print(i)
+		c = o - 28
+	o = i % 54
+	if  o > 130 :
+		w = (o % 208)/(111 + i)%(247 % 7)
+print(o)
+# output
+# 14
+# 109
+# 1
+# 110
+# 2
+
+# code
+r = 222
+b = 217
+h = 193
+while h <= 198 :
+	h = h + 2
+	b = 176 % h
+	print(b)
+	m = (b / 115)%(b % h)
+	f = (b + 241)
+print(r)
+# output
+# 176
+# 176
+# 176
+# 222
+
+# code
+print(176)
+for e in range(204, 209, 3) :
+	e = (e % e)%(141 - 51)
+	if  e == 55 :
+		e = (e / 173)
+		print(e)
+print(e)
+print(e)
+print(e)
+# output
+# 176
+# 0
+# 0
+# 0
+
+# code
+r = 145
+if  r == r :
+	print(r)
+	e = 4
+p = 168
+while p <= 173 :
+	p = p + 2
+	print(p)
+print(p)
+h = 188
+print(p / r)
+# output
+# 145
+# 170
+# 172
+# 174
+# 174
+# 1.2
+
+# code
+for g in range(132, 137, 2) :
+	p = 107
+print(g - g)
+print(g - 231)
+print(g)
+f = 18 - 165
+print(f)
+# output
+# 0
+# -95
+# 136
+# -147
+
+# code
+f = 4 * 66
+if  f > f :
+	n = 96
+	print(f + 4)
+	f = 90 - f
+print(f)
+# output
+# 264
+
+# code
+h = (179 % 198)
+v = 165
+while v > 164 :
+	v = v - 2
+	b = 83
+	print(b)
+print(h)
+h = (v * 23)*(h % h)/(175 / v)/(171 * h)
+j = 79 % 166
+print(h)
+print(j)
+# output
+# 83
+# 179
+# 0.0
+# 79
+
+# code
+print(74)
+print(34)
+print(6)
+y = 52
+while y < 57 :
+	y = y + 3
+	print(y)
+	print(y + y)
+print(y)
+print(y)
+# output
+# 74
+# 34
+# 6
+# 55
+# 110
+# 58
+# 116
+# 58
+# 58
+
+# code
+h = 182
+print(h)
+print(h * h)
+print(h)
+for c in range(223, 228) :
+	t = 118
+	t = 108
+h = 253 - 227
+print(c)
+print(c)
+print(h)
+# output
+# 182
+# 33124
+# 182
+# 227
+# 227
+# 26
+
+# code
+print(8 / 4)
+l = 9 + 8
+b = 186
+if b == 19 :
+	print(l)
+print(l)
+# output
+# 2.0
+# 17
+
+# code
+print(33)
+x = (25 % 5)+(7 % 7)
+x = 125
+h = (x + x)
+q = 105
+while q <= 106 :
+	q = q + 1
+	w = 226
+	print(w * 110)
+	print(x + 142)
+print(q)
+# output
+# 33
+# 24860
+# 267
+# 24860
+# 267
+# 107
+
+# code
+e = 224
+while e > 223 :
+	e = e - 1
+	if e <= 223 :
+		print(e)
+	if e != e :
+		x = 103 - e
+		x = e % 134
+		print(e)
+		x = (41 * 146)
+print(e)
+# output
+# 223
+# 223
+
+# code
+z = 147
+while z < 148 :
+	z = z + 1
+	n = 105 % z
+	x = 175
+	print(z)
+	l = (17 / 5)+(n % 5)
+z = 48
+if z < z :
+	print(z + z)
+print(z)
+# output
+# 148
+# 48
+
+# code
+t = 156
+while t > 155 :
+	t = t - 1
+	print(t)
+m = (48 - t)
+x = 211
+m = (21 - 59)
+print(m)
+if not m != m :
+	print(x / 60)
+print(m)
+# output
+# 155
+# -38
+# 3.5166666666666666
+# -38
+
+# code
+h = 143
+while h >= 138 :
+	h = h - 3
+	y = 154
+	w = 3
+	r = 243
+print(h * h)
+# output
+# 18769
+
+# code
+for f in range(168, 169, 2) :
+	print(f)
+r = 168
+if not f <= 247 :
+	p = (r * 190)/(221 + 247)
+	print(p)
+	print(f)
+print(r)
+r = 203 - r
+print(r)
+# output
+# 168
+# 168
+# 35
+
+# code
+for z in range(71, 72) :
+	print(z)
+r = (z - z)+(z + z)+(z % z)
+r = 108 / r
+print(z)
+print(r)
+# output
+# 71
+# 71
+# 0.7605633802816901
+
+# code
+c = (2 * 0)
+print(c)
+print(c)
+if c >= c :
+	print(c)
+v = 26
+v = 160 / v
+print(v)
+# output
+# 0
+# 0
+# 0
+# 6.153846153846154
+
+# code
+t = 152
+if  t == 62 :
+	print(t)
+	print(t)
+	t = 158 + 76
+l = t % t
+print(l)
+# output
+# 0
+
+# code
+o = 184
+o = 211
+q = o / o
+if o != 5 :
+	print(q)
+	i = 99
+t = 164
+while t >= 161 :
+	t = t - 2
+	q = (184 - t)
+print(o)
+# output
+# 1.0
+# 211
+
+# code
+print(250)
+for f in range(147, 148, 1) :
+	if f == f :
+		f = 160 - f
+		t = (f * 1)%(f - 89)+(f / 139)
+		g = 244
+if  f > f :
+	print(f)
+	h = 25
+	print(h)
+print(f)
+# output
+# 250
+# 13
+
+# code
+print(99)
+m = 76
+print(m)
+d = 89
+while d > 84 :
+	d = d - 3
+	m = (37 % m)
+	t = 64
+print(m)
+# output
+# 99
+# 76
+# 0
+
+# code
+print(100)
+print(1 + 212)
+y = 173
+while y > 170 :
+	y = y - 2
+	print(y)
+print(y)
+# output
+# 100
+# 213
+# 171
+# 169
+# 169
+
+# code
+j = 226
+while j > 221 :
+	j = j - 3
+	print(j)
+j = j + j
+print(j * j)
+j = (113 % j)/(j - 109)
+print(j * 39)
+print(j + j)
+k = 85
+print(j / j)
+# output
+# 223
+# 220
+# 193600
+# 13.314199395770393
+# 0.6827794561933535
+# 1.0
+
+# code
+for h in range(76, 77, 2) :
+	g = 103
+	if  g <= 111 :
+		y = (h + 125)
+	o = 240 + h
+if  h > 162 :
+	s = (56 * 161)
+print(h)
+# output
+# 76
+
+# code
+s = 118
+while s >= 117 :
+	s = s - 2
+	if not s == 209 :
+		print(s + 46)
+		h = 185 % s
+print(s - 237)
+# output
+# 162
+# -121
+
+# code
+print(205)
+l = 222
+while l <= 223 :
+	l = l + 2
+	print(l - 3)
+l = 44 / l
+print(l)
+# output
+# 205
+# 221
+# 0.19642857142857142
+
+# code
+print(20)
+b = 204
+d = 183
+if  b <= 61 :
+	print(b + 98)
+	y = 93
+	m = 198
+	print(m)
+	print(b)
+else :
+	print(b)
+print(b)
+# output
+# 20
+# 204
+# 204
+
+# code
+print(77)
+for p in range(198, 199) :
+	u = 144
+	p = 35 + 65
+	print(p)
+print(p)
+# output
+# 77
+# 100
+# 100
+
+# code
+d = (3 * 4)
+if  d < 244 :
+	d = d - 108
+	print(d)
+	x = 203
+d = 197
+while d < 200 :
+	d = d + 2
+	print(d)
+	a = 112
+print(d)
+# output
+# -96
+# 199
+# 201
+# 201
+
+# code
+w = 35
+while w < 40 :
+	w = w + 3
+	if w != 169 :
+		print(w)
+		j = 11
+	z = 115 - w
+w = w + w
+print(w)
+print(w)
+print(w + w)
+# output
+# 38
+# 41
+# 82
+# 82
+# 164
+
+# code
+q = (223 + 2)%(58 - 233)
+s = 8
+print(s % 52)
+p = (62 - 217)
+print(s)
+print(q + 242)
+if q == q :
+	print(s)
+else :
+	print(q)
+print(q)
+# output
+# 8
+# 8
+# 117
+# 8
+# -125
+
+# code
+f = 32
+while f < 35 :
+	f = f + 2
+	if  f == f :
+		print(f)
+		print(f)
+print(f / 83)
+f = (131 / f)%(f - 231)/(44 + f)*(210 - 60)
+j = 176
+print(f)
+print(f)
+# output
+# 34
+# 34
+# 36
+# 36
+# 0.43373493975903615
+# -358.80208333333337
+# -358.80208333333337
+
+# code
+for u in range(73, 74, 1) :
+	u = u / 50
+	print(u)
+if not u <= u :
+	u = 78
+	print(u)
+q = 176
+u = u * 236
+print(q / 91)
+# output
+# 1.46
+# 1.934065934065934
+
+# code
+print(209)
+print(236)
+if not 0 > 233 :
+	s = 156
+k = 187
+while k <= 190 :
+	k = k + 2
+	print(k % k)
+	e = 143 % 251
+e = 110
+print(k)
+# output
+# 209
+# 236
+# 0
+# 0
+# 191
+
+# code
+print(49)
+h = 205
+print(h)
+j = 218
+q = 10
+i = 36
+while i >= 33 :
+	i = i - 2
+	if not h == 213 :
+		j = (j / 64)%(243 / 99)
+print(q * 210)
+# output
+# 49
+# 205
+# 2100
+
+# code
+y = 175
+while y > 172 :
+	y = y - 2
+	i = (y + 76)
+	if i == i :
+		i = i % i
+		l = y + 30
+	print(i)
+b = (y / y)/(255 - y)
+print(b * b)
+print(b)
+# output
+# 0
+# 0
+# 0.00014172335600907027
+# 0.011904761904761904
+
+# code
+m = 14
+e = 160
+while e <= 165 :
+	e = e + 3
+	print(m)
+	print(e % 206)
+	if m < 206 :
+		print(m)
+		print(m)
+print(e)
+# output
+# 14
+# 163
+# 14
+# 14
+# 14
+# 166
+# 14
+# 14
+# 166
+
+# code
+print(0 + 7)
+e = 249
+while e >= 248 :
+	e = e - 2
+	print(e)
+	print(e)
+	s = 112
+print(e)
+e = e + e
+print(e + 88)
+print(e)
+# output
+# 7
+# 247
+# 247
+# 247
+# 582
+# 494
+
+# code
+q = 105
+while q <= 108 :
+	q = q + 2
+	h = 26 / 104
+	u = 115
+q = (q + q)/(78 % q)
+print(q - 37)
+print(q)
+print(q)
+# output
+# -34.205128205128204
+# 2.7948717948717947
+# 2.7948717948717947
+
+# code
+v = (137 + 4)
+print(v)
+d = 253
+while d >= 252 :
+	d = d - 1
+	s = 1
+	v = 77
+	print(s)
+	b = 103
+if not d > v :
+	d = 90 * v
+print(d + d)
+# output
+# 141
+# 1
+# 1
+# 502
+
+# code
+d = 4 + 245
+i = 102
+while i <= 103 :
+	i = i + 1
+	if  d == i :
+		j = 31
+		d = (90 % i)%(i - 219)
+	d = i + i
+	print(d)
+g = 199
+print(d)
+# output
+# 206
+# 208
+# 208
+
+# code
+g = 118
+print(g / g)
+if g >= g :
+	print(g)
+	print(g - g)
+g = g + 4
+if g > g :
+	h = (89 * 237)/(g * 15)-(g % 207)%(g * g)/(g + g)*(g + 92)-(62 / g)/(g - 173)
+g = (18 - g)
+f = g / g
+print(g)
+# output
+# 1.0
+# 118
+# 0
+# -104
+
+# code
+r = 250
+while r < 255 :
+	r = r + 2
+	s = 159
+	print(s)
+	if s > 90 :
+		print(s)
+		print(s)
+if not r > 207 :
+	print(r % r)
+print(r)
+# output
+# 159
+# 159
+# 159
+# 159
+# 159
+# 159
+# 159
+# 159
+# 159
+# 256
+
+# code
+for a in range(123, 124, 1) :
+	a = 81 - a
+	print(a - 51)
+a = 198 + a
+a = (a + a)/(a + a)
+print(a)
+print(a)
+print(a)
+print(a)
+c = (62 / a)
+print(a + 234)
+# output
+# -93
+# 1.0
+# 1.0
+# 1.0
+# 1.0
+# 235.0
+
+# code
+w = (78 - 1)-(100 % 1)
+m = 69
+while m <= 70 :
+	m = m + 2
+	print(w)
+	print(m)
+m = (m / m)%(255 / 207)
+print(w / m)
+print(w)
+print(w)
+# output
+# 77
+# 71
+# 77.0
+# 77
+# 77
+
+# code
+a = 178
+print(a)
+k = 101
+while k <= 104 :
+	k = k + 2
+	v = (160 / 94)
+	v = 28 / a
+print(a)
+k = 197 % 138
+print(a)
+print(k / k)
+# output
+# 178
+# 178
+# 178
+# 1.0
+
+# code
+n = 118
+while n < 119 :
+	n = n + 2
+	print(n)
+	i = n % 251
+print(n)
+# output
+# 120
+# 120
+
+# code
+w = 9 + 0
+p = 171
+while p < 172 :
+	p = p + 1
+	w = 190 / w
+	w = 8 - 25
+	print(w)
+	if  w > p :
+		print(w)
+print(p / w)
+# output
+# -17
+# -10.117647058823529
+
+# code
+print(138)
+s = 224
+d = 216
+while d < 221 :
+	d = d + 3
+	j = d + 139
+	print(j)
+print(d)
+print(s)
+print(d)
+print(d)
+# output
+# 138
+# 358
+# 361
+# 222
+# 224
+# 222
+# 222
+
+# code
+if 5 < 2 :
+	u = (6 % 5)
+	print(u)
+	print(u)
+	print(u)
+e = 214
+while e > 213 :
+	e = e - 2
+	t = 119
+	print(t)
+print(e)
+# output
+# 119
+# 212
+
+# code
+w = 167 % 1
+w = 216 + w
+for g in range(111, 116, 3) :
+	i = 2
+	g = (111 - i)
+	if i != 39 :
+		print(g % w)
+		w = 179 % 126
+print(g)
+# output
+# 109
+# 3
+# 109
+
+# code
+print(221)
+i = 94
+while i <= 95 :
+	i = i + 2
+	print(i)
+i = (i + i)
+i = (79 / 40)
+if not i < i :
+	i = i - 226
+	o = i + 249
+print(i / i)
+# output
+# 221
+# 96
+# 1.0
+
+# code
+for e in range(248, 249) :
+	if not e < e :
+		l = 39
+		print(l)
+if  e >= 79 :
+	print(e)
+l = 184
+print(e)
+print(l)
+e = (e + 81)-(71 - 144)-(48 % e)%(e / 125)
+print(e)
+# output
+# 39
+# 248
+# 248
+# 184
+# 401.616
+
+# code
+for n in range(84, 85, 1) :
+	print(n)
+	print(n - 50)
+	print(n)
+n = (170 - 212)
+p = n / n
+n = n % p
+print(n)
+# output
+# 84
+# 34
+# 84
+# 0.0
+
+# code
+print(9 * 14)
+print(148)
+e = 43
+e = 67
+while e < 68 :
+	e = e + 1
+	if  e == e :
+		print(e - e)
+		print(e / e)
+print(e % 227)
+print(e)
+# output
+# 126
+# 148
+# 0
+# 1.0
+# 68
+# 68
+
+# code
+j = 36
+while j >= 33 :
+	j = j - 2
+	print(j + j)
+	f = (j % 117)/(j * j)%(j / j)-(56 + j)-(j % 117)
+	print(j)
+print(j)
+# output
+# 68
+# 34
+# 64
+# 32
+# 32
+
+# code
+z = 96 + 2
+print(z)
+print(z)
+z = 219 + z
+z = 209 % z
+if z == z :
+	x = 9
+	print(z)
+	print(z)
+	w = 192
+print(z % z)
+# output
+# 98
+# 98
+# 209
+# 209
+# 0
+
+# code
+n = 152
+while n < 157 :
+	n = n + 3
+	e = 172
+print(n % n)
+z = 246
+j = (44 / 194)
+print(z)
+b = 58
+print(j)
+# output
+# 0
+# 246
+# 0.2268041237113402
+
+# code
+x = 193
+while x <= 196 :
+	x = x + 2
+	m = x + 193
+	p = (200 - 138)
+print(x)
+# output
+# 197
+
+# code
+f = (5 * 2)/(49 + 4)
+j = 44
+while j > 43 :
+	j = j - 1
+	f = 40 + 99
+	v = 26
+print(f)
+# output
+# 139
+
+# code
+print(151)
+if not 8 <= 104 :
+	a = (246 / 2)-(0 + 11)+(137 % 210)+(3 - 9)+(1 / 186)%(4 + 11)-(65 - 1)
+	print(a)
+print(118)
+print(114)
+f = 142
+for o in range(15, 18) :
+	if not o != o :
+		o = (22 + 245)
+print(f)
+# output
+# 151
+# 118
+# 114
+# 142
+
+# code
+v = 141 / 4
+if not v >= 83 :
+	v = 184 % v
+	v = 172 / 226
+	print(v)
+v = (37 - v)
+d = 13
+while d >= 8 :
+	d = d - 3
+	if not d == d :
+		print(v + d)
+print(v % v)
+# output
+# 0.7610619469026548
+# 0.0
+
+# code
+c = 74
+print(c)
+c = (c % 181)-(5 / c)
+k = (104 + c)
+k = (109 / c)
+c = 104
+while c > 99 :
+	c = c - 3
+	print(c)
+	print(k)
+print(k)
+# output
+# 74
+# 101
+# 1.4743191372692377
+# 98
+# 1.4743191372692377
+# 1.4743191372692377
+
+# code
+d = 95 / 1
+d = d + 78
+k = 104
+while k <= 109 :
+	k = k + 3
+	print(d)
+	print(d)
+	print(k % k)
+print(d)
+# output
+# 173.0
+# 173.0
+# 0
+# 173.0
+# 173.0
+# 0
+# 173.0
+
+# code
+print(194)
+q = 201
+while q >= 196 :
+	q = q - 3
+	if q >= 116 :
+		print(q)
+		l = 244 + q
+	if not q >= q :
+		g = 172
+l = 193
+print(l)
+# output
+# 194
+# 198
+# 195
+# 193
+
+# code
+m = 50
+if m < 189 :
+	print(m + 238)
+	print(m)
+	print(m / m)
+print(m)
+print(m - 252)
+if not m == 61 :
+	m = m - m
+	h = (m * m)-(13 * m)
+print(m * m)
+# output
+# 288
+# 50
+# 1.0
+# 50
+# -202
+# 0
+
+# code
+c = 152
+while c > 147 :
+	c = c - 2
+	if  c > 26 :
+		print(c - c)
+c = (168 - 180)
+if c == 148 :
+	print(c - 195)
+print(c)
+print(c)
+print(c * 21)
+# output
+# 0
+# 0
+# 0
+# -12
+# -12
+# -252
+
+# code
+print(203)
+if 4 > 52 :
+	s = 226
+	c = 156
+	print(c)
+	print(c / c)
+if 2 == 70 :
+	v = 107 - 69
+print(197)
+k = 52
+print(k)
+# output
+# 203
+# 197
+# 52
+
+# code
+j = 173
+j = 130
+while j >= 125 :
+	j = j - 2
+	print(j)
+	print(j)
+print(j)
+print(j)
+if  j >= 249 :
+	b = 215
+print(j % j)
+# output
+# 128
+# 128
+# 126
+# 126
+# 124
+# 124
+# 124
+# 124
+# 0
+
+# code
+t = 228
+print(t)
+t = t % 117
+e = t + t
+e = (168 - 164)
+print(e + 91)
+# output
+# 228
+# 95
+
+# code
+b = 181
+while b > 180 :
+	b = b - 2
+	o = b % 112
+if b < b :
+	print(b % b)
+	b = 23 % b
+a = (b - 97)
+t = 4
+print(b)
+print(b)
+# output
+# 179
+# 179
+
+# code
+z = (7 - 4)
+w = 110
+while w <= 111 :
+	w = w + 2
+	if not z <= z :
+		z = 57 + 55
+		print(z)
+print(z)
+# output
+# 3
+
+# code
+k = 214
+while k >= 209 :
+	k = k - 2
+	print(k)
+	w = 187 - k
+	if not k > w :
+		q = k / w
+k = (k - k)
+j = 176
+if k != k :
+	k = (k / 214)+(72 / 190)/(j * 159)%(41 % j)+(k % 124)%(10 + k)
+print(k)
+# output
+# 212
+# 210
+# 208
+# 0
+
+# code
+for p in range(176, 177, 1) :
+	print(p)
+	print(p)
+if p >= p :
+	print(p)
+	print(p)
+	d = 140
+	print(d)
+p = (p - p)/(p % 84)
+print(p * p)
+print(p)
+# output
+# 176
+# 176
+# 176
+# 176
+# 140
+# 0.0
+# 0.0
+
+# code
+s = 36 - 5
+print(s)
+for d in range(250, 251) :
+	print(d)
+	p = (209 + d)
+	print(d % p)
+	if not s >= s :
+		s = d % 224
+print(d)
+# output
+# 31
+# 250
+# 250
+# 250
+
+# code
+d = 225
+d = (d + 170)%(156 / 247)+(d / d)
+w = 148
+l = 242
+print(d)
+h = 93
+while h > 90 :
+	h = h - 2
+	print(h - d)
+	print(w)
+print(l)
+# output
+# 1.263157894736864
+# 89.73684210526314
+# 148
+# 87.73684210526314
+# 148
+# 242
+
+# code
+i = 25
+while i < 30 :
+	i = i + 3
+	if not i < i :
+		d = (90 - i)
+print(i)
+# output
+# 31
+
+# code
+for r in range(114, 117, 2) :
+	r = (r / 48)+(r % 157)-(26 / r)
+	print(r)
+	t = 18
+	if t > 204 :
+		d = r + 214
+		print(t)
+print(r)
+# output
+# 116.1469298245614
+# 118.1925287356322
+# 118.1925287356322
+
+# code
+s = 51
+print(s)
+v = 200
+while v <= 201 :
+	v = v + 1
+	s = 205
+	s = v / v
+print(v)
+print(s)
+print(v)
+print(s * s)
+# output
+# 51
+# 202
+# 1.0
+# 202
+# 1.0
+
+# code
+print(2 + 1)
+m = 46
+print(m)
+for f in range(165, 166) :
+	f = 231
+	x = (255 - f)
+if m == 232 :
+	print(f)
+	f = 14 + f
+u = 160
+print(u)
+# output
+# 3
+# 46
+# 160
+
+# code
+k = (108 % 8)*(0 * 0)
+if  k > k :
+	k = 195 + 164
+	print(k)
+e = 134
+while e < 139 :
+	e = e + 2
+	print(k)
+print(k)
+print(e)
+print(e)
+# output
+# 0
+# 0
+# 0
+# 0
+# 140
+# 140
+
+# code
+for h in range(40, 45) :
+	if  h == 174 :
+		n = 92
+		print(h * 217)
+h = (h + h)
+print(h)
+# output
+# 88
+
+# code
+d = 190
+print(d % 108)
+if  d == 109 :
+	print(d)
+	print(d)
+print(d)
+# output
+# 82
+# 190
+
+# code
+print(164)
+for y in range(98, 103) :
+	i = y - y
+	i = y * i
+if y < 53 :
+	y = (53 + y)/(y + y)
+	print(y)
+	print(y)
+print(y)
+d = (y / y)
+print(d)
+# output
+# 164
+# 102
+# 1.0
+
+# code
+print(76)
+s = 140
+j = 98
+while j > 93 :
+	j = j - 3
+	if s <= j :
+		print(s)
+	print(s)
+print(j)
+# output
+# 76
+# 140
+# 140
+# 92
+
+# code
+b = 152
+b = (b - 242)
+b = 11 + 194
+f = 57
+while f > 56 :
+	f = f - 2
+	if not b >= b :
+		print(b)
+		b = (150 - 253)+(b + 165)
+if not b > 49 :
+	j = 166
+print(b)
+# output
+# 205
+
+# code
+print(223)
+t = 43
+while t > 42 :
+	t = t - 2
+	l = (59 / 100)
+	if l <= 102 :
+		print(l + l)
+		r = 70
+		print(t)
+i = 8
+print(t)
+# output
+# 223
+# 1.18
+# 41
+# 41
+
+# code
+b = 45
+while b < 48 :
+	b = b + 2
+	f = b + 89
+	print(b)
+q = 183
+print(q)
+print(b)
+# output
+# 47
+# 49
+# 183
+# 49
+
+# code
+z = 128
+while z >= 123 :
+	z = z - 3
+	print(z)
+	n = (230 % 246)
+	if not n < n :
+		print(n)
+print(z)
+z = (201 + z)/(z / z)+(z / 115)
+print(z)
+print(z)
+# output
+# 125
+# 230
+# 122
+# 230
+# 122
+# 324.0608695652174
+# 324.0608695652174
+
+# code
+print(52)
+b = 186
+while b > 185 :
+	b = b - 2
+	if b <= b :
+		l = 29 % b
+		p = (1 % 57)*(159 - b)
+print(b)
+# output
+# 52
+# 184
+
+# code
+t = 0 * 63
+print(t)
+print(t)
+k = (72 + t)
+print(k)
+j = 237
+h = 157
+while h <= 158 :
+	h = h + 1
+	print(j / 126)
+print(h)
+# output
+# 0
+# 0
+# 72
+# 1.880952380952381
+# 1.880952380952381
+# 159
+
+# code
+v = 93 - 51
+z = 252
+while z < 255 :
+	z = z + 2
+	l = z + z
+	if  l == 244 :
+		print(v)
+		p = 172
+v = 143 / 228
+y = 236
+print(v - 110)
+# output
+# -109.37280701754386
+
+# code
+print(5 * 237)
+t = 187
+while t >= 184 :
+	t = t - 2
+	if t <= 85 :
+		print(t)
+t = 11 * 20
+print(t * 139)
+t = (245 - t)
+print(t)
+print(t)
+# output
+# 1185
+# 30580
+# 25
+# 25
+
+# code
+for z in range(202, 203, 1) :
+	z = (z % 46)
+	print(z)
+z = 115 + z
+if  z != z :
+	z = z * 52
+	print(z)
+	print(z)
+print(z)
+z = z % 188
+print(z + 115)
+# output
+# 18
+# 133
+# 248
+
+# code
+i = 38
+i = 252
+while i < 253 :
+	i = i + 2
+	u = 124
+	if not i < 86 :
+		u = 23 + 34
+		print(i)
+		g = (150 + 104)+(82 / u)
+print(i)
+# output
+# 254
+# 254
+
+# code
+for b in range(56, 57) :
+	b = (201 - 111)/(b * 198)+(120 - 135)
+b = 99 + 71
+e = 220
+print(e)
+e = (e / b)+(150 - 65)/(37 % b)
+if e == 127 :
+	print(e)
+	b = (249 - e)/(96 / 30)
+	e = (37 % b)-(e * b)
+print(e)
+# output
+# 220
+# 3.5914149443561207
+
+# code
+for a in range(202, 205, 2) :
+	print(a)
+a = (194 + a)
+print(a)
+print(a)
+k = 72
+print(k)
+v = 66
+a = (19 + 160)
+print(a)
+print(k)
+# output
+# 202
+# 204
+# 398
+# 398
+# 72
+# 179
+# 72
+
+# code
+print(37)
+p = 130
+while p > 125 :
+	p = p - 2
+	print(p)
+	print(p - 85)
+print(p)
+if not p < 71 :
+	print(p)
+	print(p % p)
+print(p)
+# output
+# 37
+# 128
+# 43
+# 126
+# 41
+# 124
+# 39
+# 124
+# 124
+# 0
+# 124
+
+# code
+if 8 == 36 :
+	print(0 * 6)
+	u = 141
+	l = 87
+f = 164
+while f > 163 :
+	f = f - 2
+	h = f / f
+print(f)
+# output
+# 162
+
+# code
+print(235)
+if 8 > 36 :
+	d = (0 * 98)%(157 - 1)
+	print(d)
+	print(d % d)
+	i = 90
+if not 1 <= 244 :
+	print(23)
+	print(2 / 98)
+	print(141)
+print(125)
+# output
+# 235
+# 125
+
+# code
+t = 255
+while t >= 250 :
+	t = t - 3
+	d = (t % t)
+	if d == d :
+		print(d)
+		d = 17 + t
+print(t + t)
+print(t / t)
+# output
+# 0
+# 0
+# 498
+# 1.0
+
+# code
+v = 40
+while v < 45 :
+	v = v + 3
+	p = 129
+if  v >= v :
+	v = (v % 238)
+print(v)
+# output
+# 46
+
+# code
+b = 140
+while b <= 141 :
+	b = b + 1
+	if  b == b :
+		j = 215
+print(b - 58)
+# output
+# 84
+
+# code
+for a in range(222, 225) :
+	print(a)
+	a = (33 - a)/(168 + 154)/(212 * a)
+	a = a - 198
+	e = 177
+print(a + a)
+# output
+# 222
+# 223
+# 224
+# -396.0000249817934
+
+# code
+g = 9 - 2
+print(g)
+g = (g - 139)
+g = (g - 117)
+print(g)
+for e in range(217, 218, 2) :
+	t = 32
+	print(t)
+	print(g - 130)
+f = 36 % 143
+print(g / g)
+# output
+# 7
+# -249
+# 32
+# -379
+# 1.0
+
+# code
+h = 74
+if h < h :
+	h = (33 - 122)
+print(h / 74)
+w = 83
+while w > 82 :
+	w = w - 1
+	f = h % w
+	o = 179 + 159
+print(w / 186)
+# output
+# 1.0
+# 0.44086021505376344
+
+# code
+if not 5 <= 2 :
+	a = 16
+for g in range(118, 123) :
+	print(g / g)
+	print(g)
+g = g % g
+print(g + g)
+print(g)
+print(g)
+print(g - g)
+print(g)
+# output
+# 1.0
+# 118
+# 1.0
+# 119
+# 1.0
+# 120
+# 1.0
+# 121
+# 1.0
+# 122
+# 0
+# 0
+# 0
+# 0
+# 0
+
+# code
+if not 2 != 22 :
+	print(2 + 185)
+	print(75)
+	j = 2 * 4
+	print(j)
+j = 22
+while j < 23 :
+	j = j + 2
+	b = 24 + j
+print(j)
+# output
+# 24
+
+# code
+r = 5 - 4
+for j in range(60, 63, 2) :
+	print(j)
+if  r <= j :
+	print(r)
+r = j / 40
+print(r)
+# output
+# 60
+# 62
+# 1
+# 1.55
+
+# code
+t = 149
+t = (27 / t)%(126 - 150)
+for w in range(191, 196) :
+	print(w)
+	q = 167
+if not t == t :
+	l = (224 / t)-(39 * t)*(62 * 161)-(37 % 72)/(65 * 172)
+print(t)
+print(t)
+print(t)
+# output
+# 191
+# 192
+# 193
+# 194
+# 195
+# -23.818791946308725
+# -23.818791946308725
+# -23.818791946308725
+
+# code
+if not 2 == 158 :
+	b = (1 * 2)/(103 - 9)
+	print(b)
+	print(b)
+print(31)
+c = 145
+c = (238 / 240)*(101 / 138)
+f = 160
+s = 153
+a = 123
+while a >= 122 :
+	a = a - 1
+	f = (s * a)%(s / f)
+print(a)
+# output
+# 0.02127659574468085
+# 0.02127659574468085
+# 31
+# 121
+
+# code
+print(80)
+print(20)
+k = (0 % 9)
+print(k % 174)
+if k == k :
+	print(k)
+for w in range(253, 254, 2) :
+	c = w / 250
+i = 189
+print(k)
+print(i)
+# output
+# 80
+# 20
+# 0
+# 0
+# 0
+# 189
+
+# code
+if  0 > 67 :
+	print(181)
+	j = 3 % 7
+	q = (168 * j)
+elif not 7 <= 4 :
+	print(4)
+	a = 1 + 1
+	c = 2
+a = 231
+l = 60
+print(a)
+# output
+# 4
+# 231
+
+# code
+f = (3 % 192)
+print(f)
+if not f < f :
+	g = 72
+	print(g)
+	print(g)
+n = 187
+while n < 192 :
+	n = n + 3
+	print(n)
+print(f)
+# output
+# 3
+# 72
+# 72
+# 190
+# 193
+# 3
+
+# code
+if 9 >= 193 :
+	f = 1 - 3
+	print(f)
+i = 2 + 232
+if  i < 48 :
+	print(i)
+	print(i)
+	s = 8
+print(i / i)
+print(i)
+# output
+# 1.0
+# 234
+
+# code
+l = 2 / 220
+print(l)
+l = (l % l)
+print(l)
+e = l % 79
+print(l)
+# output
+# 0.00909090909090909
+# 0.0
+# 0.0
+
+# code
+f = (7 % 1)/(1 * 65)-(22 / 108)/(5 + 4)/(75 - 251)
+if not f != 178 :
+	f = f * f
+	print(f)
+	f = 207
+	n = (87 + 205)
+u = 168
+while u < 171 :
+	u = u + 2
+	print(u)
+print(f)
+# output
+# 170
+# 172
+# 0.00012860082304526747
+
+# code
+print(161)
+m = 0 / 3
+m = (230 / 131)/(170 / 45)*(44 * m)
+t = 229
+while t <= 234 :
+	t = t + 2
+	if m == 7 :
+		print(m)
+		m = (245 + 60)%(t % 138)
+		c = 68 * 242
+print(m)
+# output
+# 161
+# 0.0
+
+# code
+d = (8 + 2)+(8 / 2)%(156 * 5)
+if d >= 114 :
+	print(d)
+	d = (52 % d)
+z = 120
+while z >= 115 :
+	z = z - 3
+	d = d + 48
+print(d * 199)
+# output
+# 21890.0
+
+# code
+p = 227 / 1
+p = (p - 13)
+print(p)
+p = 216 % 87
+print(p)
+f = 160
+while f > 157 :
+	f = f - 2
+	print(f * 212)
+p = f + 129
+print(p * p)
+# output
+# 214.0
+# 42
+# 33496
+# 33072
+# 81225
+
+# code
+r = 1 % 1
+r = (40 + r)
+print(r)
+print(r)
+if r == r :
+	v = 41
+	m = (77 + r)*(111 / r)%(109 * 19)*(200 / 146)
+print(r)
+for g in range(137, 140, 2) :
+	m = (217 % g)
+print(r)
+# output
+# 40
+# 40
+# 40
+# 40
+
+# code
+f = 4 % 27
+for i in range(28, 33) :
+	r = 83
+k = 103
+print(f)
+print(k + k)
+# output
+# 4
+# 206
+
+# code
+c = 107
+f = (c + 11)
+u = 150
+while u < 151 :
+	u = u + 1
+	if not u >= 78 :
+		y = 26 + c
+	elif f == c :
+		t = 226
+		print(t)
+print(u)
+# output
+# 151
+
+# code
+d = 64
+while d <= 69 :
+	d = d + 3
+	v = (d / 89)
+	print(d)
+print(d)
+print(d)
+# output
+# 67
+# 70
+# 70
+# 70
+
+# code
+q = 4
+print(q)
+print(q)
+q = 64
+while q > 63 :
+	q = q - 1
+	j = 222
+	if not q < q :
+		print(j)
+		j = (83 / q)%(212 % q)
+print(q + q)
+# output
+# 4
+# 4
+# 222
+# 126
+
+# code
+print(1 * 95)
+for n in range(229, 234, 3) :
+	print(n)
+print(n / n)
+if  n != 243 :
+	i = 132
+print(n)
+# output
+# 95
+# 229
+# 232
+# 1.0
+# 232
+
+# code
+c = 66
+while c >= 65 :
+	c = c - 2
+	print(c)
+	x = (27 % c)-(c + 192)%(134 + 101)
+print(c / 181)
+# output
+# 64
+# 0.35359116022099446
+
+# code
+if not 6 > 25 :
+	u = 214 + 209
+	print(u + u)
+	q = 128
+print(82)
+print(206)
+q = (57 / 5)-(8 % 5)
+l = 105
+while l >= 104 :
+	l = l - 1
+	p = (l + q)
+print(l)
+# output
+# 846
+# 82
+# 206
+# 103
+
+# code
+print(148)
+if not 1 < 26 :
+	p = 63
+d = (227 / 76)
+if d != d :
+	print(d)
+d = d - d
+m = (d - d)
+print(m)
+print(d)
+print(d)
+# output
+# 148
+# 0.0
+# 0.0
+# 0.0
+
+# code
+b = (84 / 9)
+b = 159
+while b > 154 :
+	b = b - 2
+	print(b)
+	a = 165 + 133
+if  b <= b :
+	b = (b - b)-(b + b)/(33 - b)%(139 - b)+(b - 126)
+n = (161 + b)
+print(b / b)
+# output
+# 157
+# 155
+# 153
+# 1.0
+
+# code
+print(148)
+print(146)
+print(8 + 5)
+print(158)
+t = (1 + 3)
+print(t)
+# output
+# 148
+# 146
+# 13
+# 158
+# 4
+
+# code
+for m in range(175, 176) :
+	r = 115
+	print(r)
+	print(m)
+	if  m != m :
+		print(r * m)
+print(m)
+# output
+# 115
+# 175
+# 175
+
+# code
+s = 77
+while s <= 82 :
+	s = s + 3
+	print(s)
+	i = 171 / 224
+print(s)
+print(s)
+print(s)
+# output
+# 80
+# 83
+# 83
+# 83
+# 83
+
+# code
+print(8 + 1)
+print(34)
+print(1 * 3)
+if 1 > 1 :
+	z = 58 % 7
+elif 7 > 5 :
+	print(229)
+print(199)
+# output
+# 9
+# 34
+# 3
+# 229
+# 199
+
+# code
+b = 109
+for d in range(174, 179, 2) :
+	print(d - 137)
+	b = b / 83
+print(d % 242)
+m = d + 24
+print(m - 114)
+if b >= m :
+	print(b + 112)
+	b = m * 75
+print(m)
+# output
+# 37
+# 39
+# 41
+# 178
+# 88
+# 202
+
+# code
+p = 9 + 6
+t = 58
+b = 190
+while b <= 191 :
+	b = b + 1
+	p = 93
+	print(p % 4)
+print(t)
+i = (146 + 58)/(b % p)/(179 + p)
+print(p)
+print(p)
+# output
+# 1
+# 1
+# 58
+# 93
+# 93
+
+# code
+b = 214
+while b > 209 :
+	b = b - 2
+	print(b / 172)
+	print(b)
+	if  b > b :
+		u = b / b
+		u = 49 * 134
+		print(u)
+print(b)
+# output
+# 1.2325581395348837
+# 212
+# 1.2209302325581395
+# 210
+# 1.2093023255813953
+# 208
+# 208
+
+# code
+i = 208
+if not i >= i :
+	print(i)
+b = 194
+while b < 195 :
+	b = b + 1
+	n = 168
+	i = i + 1
+print(i)
+print(i / b)
+print(i * i)
+# output
+# 209
+# 1.0717948717948718
+# 43681
+
+# code
+c = 55 - 87
+c = 239 / c
+c = 226 - c
+o = 158
+while o >= 153 :
+	o = o - 3
+	if c >= 140 :
+		z = 139
+o = c % 145
+print(o)
+print(c / 232)
+# output
+# 88.46875
+# 1.0063308189655173
+
+# code
+n = 37
+f = 104
+i = 19
+g = n % 250
+u = n + 190
+w = 217
+while w >= 216 :
+	w = w - 1
+	print(g - n)
+	if not f <= w :
+		c = 108
+print(i - 87)
+# output
+# 0
+# 0
+# -68
+
+# code
+for o in range(213, 218, 2) :
+	p = 39
+o = 18 - 122
+o = (164 + o)
+p = 210
+print(o)
+# output
+# 60
+
+# code
+print(109)
+if 5 <= 116 :
+	d = 150
+	a = 24
+else :
+	print(116)
+	u = 7 % 1
+k = (7 % 9)-(157 / 7)-(1 + 0)%(61 / 85)-(6 - 2)%(197 * 1)-(7 % 1)-(166 % 2)-(129 / 6)/(138 - 2)-(183 - 2)
+k = (240 % 245)%(k + k)
+h = 51
+print(h)
+# output
+# 109
+# 51
+
+# code
+print(83)
+t = 54
+while t < 55 :
+	t = t + 2
+	z = (85 / 86)
+	print(z)
+	print(t)
+k = t + 50
+print(k % t)
+if not k != 8 :
+	print(k)
+print(k)
+# output
+# 83
+# 0.9883720930232558
+# 56
+# 50
+# 106
+
+# code
+k = 7
+print(k)
+if  k > k :
+	k = (k - k)
+	d = 58
+else :
+	print(k)
+	k = (176 / k)
+o = k - k
+t = 132 + o
+print(t + 48)
+# output
+# 7
+# 7
+# 180.0
+
+# code
+w = 61
+while w < 66 :
+	w = w + 2
+	print(w + 240)
+	if  w != w :
+		f = (w - w)
+if w < w :
+	print(w)
+	t = 226
+u = (247 % w)%(176 - 99)
+print(u)
+# output
+# 303
+# 305
+# 307
+# 46
+
+# code
+if 5 < 1 :
+	a = (79 * 7)
+for c in range(28, 29, 1) :
+	t = 47
+	w = 135
+	if w == 53 :
+		print(c)
+print(c)
+# output
+# 28
+
+# code
+n = (130 - 255)
+f = 128
+if not n <= 168 :
+	s = 42
+	print(n)
+print(n)
+# output
+# -125
+
+# code
+s = 6
+m = 19
+while m > 16 :
+	m = m - 2
+	print(s)
+print(m + 133)
+# output
+# 6
+# 6
+# 148
+
+# code
+b = 140 + 217
+print(b)
+b = 101 + b
+z = 224 / b
+print(b)
+q = (z - b)
+i = 168 - 215
+if b < q :
+	print(b)
+	print(q)
+print(b + b)
+# output
+# 357
+# 458
+# 916
+
+# code
+print(193)
+i = (121 + 8)
+e = 91
+while e < 92 :
+	e = e + 2
+	print(e)
+	i = (243 / e)
+	t = 113
+print(i)
+# output
+# 193
+# 93
+# 2.6129032258064515
+
+# code
+l = 111
+while l < 112 :
+	l = l + 1
+	if  l <= l :
+		print(l - l)
+if l != l :
+	l = (l % 96)+(l * 21)+(169 + l)
+print(l)
+l = 77 / l
+print(l)
+# output
+# 0
+# 112
+# 0.6875
+
+# code
+for k in range(20, 23, 2) :
+	if k >= k :
+		print(k % k)
+		o = (k + k)/(122 + k)
+	print(k + k)
+k = (k / 17)
+print(k)
+p = 221
+p = (182 - 114)
+if k <= p :
+	print(p)
+print(k * p)
+# output
+# 0
+# 40
+# 0
+# 44
+# 1.2941176470588236
+# 68
+# 88.0
+
+# code
+v = (111 * 2)*(4 % 3)
+j = 208
+x = 63
+while x <= 68 :
+	x = x + 2
+	if not x == 96 :
+		c = j % 92
+		y = 142
+print(x)
+# output
+# 69
+
+# code
+h = (118 - 10)
+a = 224
+while a > 219 :
+	a = a - 2
+	print(h)
+	x = 66
+n = 158 % 158
+print(a)
+if n == h :
+	f = 109
+print(h)
+# output
+# 108
+# 108
+# 108
+# 218
+# 108
+
+# code
+b = (5 + 2)
+v = 74
+while v >= 69 :
+	v = v - 3
+	print(b)
+	c = 49
+	p = 155
+	print(p / c)
+	b = (c * p)/(62 * p)
+print(v)
+# output
+# 7
+# 3.163265306122449
+# 0.7903225806451613
+# 3.163265306122449
+# 68
+
+# code
+d = (6 - 3)
+d = d % 84
+w = 243
+z = 18
+d = 76 / z
+if  w != 140 :
+	print(d)
+	i = 242
+elif d >= 66 :
+	print(d + 156)
+print(d)
+# output
+# 4.222222222222222
+# 4.222222222222222
+
+# code
+m = 5 / 4
+print(m)
+m = 230 / 50
+u = 94
+print(u)
+for s in range(170, 171, 2) :
+	m = m % m
+	if u > 67 :
+		g = 183
+		c = 251
+print(u)
+# output
+# 1.25
+# 94
+# 94
+
+# code
+b = 198
+f = 66
+while f > 65 :
+	f = f - 2
+	r = 203 % 239
+x = (137 % b)-(60 % f)
+b = 250 % x
+print(x)
+b = x - f
+print(x)
+print(x + f)
+# output
+# 77
+# 77
+# 141
+
+# code
+v = (6 - 2)%(121 / 4)/(1 - 239)
+if not v == v :
+	g = 157
+	print(g)
+	print(g)
+if v <= v :
+	v = (v % v)
+print(v)
+# output
+# -0.0
+
+# code
+l = 75
+q = 17
+c = 242
+while c >= 237 :
+	c = c - 3
+	q = 0 - l
+print(l)
+print(c)
+# output
+# 75
+# 236
+
+# code
+f = 45
+while f >= 42 :
+	f = f - 2
+	print(f)
+	print(f)
+	print(f)
+	print(f)
+print(f)
+b = 7
+if  f < b :
+	print(b * f)
+print(f - f)
+# output
+# 43
+# 43
+# 43
+# 43
+# 41
+# 41
+# 41
+# 41
+# 41
+# 0
+
+# code
+c = (2 - 182)
+c = (c / c)
+print(c)
+s = 172
+while s <= 177 :
+	s = s + 2
+	print(c / s)
+	if  s < 56 :
+		l = 87
+print(s / 153)
+# output
+# 1.0
+# 0.005747126436781609
+# 0.005681818181818182
+# 0.0056179775280898875
+# 1.1633986928104576
+
+# code
+w = 185
+print(w)
+if w < 166 :
+	w = 16 / w
+	j = w + 90
+	w = w * j
+print(w)
+j = 160
+while j > 155 :
+	j = j - 2
+	print(j)
+print(w)
+# output
+# 185
+# 185
+# 158
+# 156
+# 154
+# 185
+
+# code
+print(239)
+b = 86 / 6
+j = 39
+while j < 44 :
+	j = j + 3
+	if not j == 84 :
+		g = 202
+		m = 0 - j
+		g = j + b
+print(j)
+print(j)
+# output
+# 239
+# 45
+# 45
+
+# code
+r = 240
+while r <= 243 :
+	r = r + 2
+	d = (r / 255)
+	if  d == 97 :
+		i = 243
+		q = (d * i)-(162 - i)/(107 % d)+(i * d)
+		q = 83 + i
+		print(r)
+		print(r * 232)
+print(r * 246)
+# output
+# 60024
+
+# code
+k = 215
+while k <= 216 :
+	k = k + 2
+	if  k == k :
+		y = (15 + 50)
+		v = 36
+u = 176
+print(u)
+a = 161
+print(k)
+print(a)
+# output
+# 176
+# 217
+# 161
+
+# code
+i = 1 / 1
+v = (93 / 178)+(i - 239)
+u = 33
+while u < 38 :
+	u = u + 3
+	print(u)
+	if v >= 235 :
+		i = v * 209
+		v = 51 % i
+print(i)
+# output
+# 36
+# 39
+# 1.0
+
+# code
+z = 238
+while z < 243 :
+	z = z + 3
+	print(z)
+	if z > 8 :
+		print(z)
+		f = (202 - z)
+	print(z)
+if not z > 204 :
+	print(z)
+print(z % 181)
+# output
+# 241
+# 241
+# 241
+# 244
+# 244
+# 244
+# 63
+
+# code
+print(1 / 2)
+if 2 < 1 :
+	o = 0 - 84
+	o = 216 % o
+	print(o)
+	print(o)
+print(2 % 226)
+# output
+# 0.5
+# 2
+
+# code
+for x in range(163, 166, 2) :
+	print(x)
+	s = 192
+	print(x - s)
+	if x >= s :
+		u = 207
+print(x)
+if not x >= 31 :
+	l = (121 / 49)%(x * x)
+	print(l + l)
+print(x)
+# output
+# 163
+# -29
+# 165
+# -27
+# 165
+# 165
+
+# code
+print(55)
+for t in range(242, 243, 2) :
+	k = 38
+if  t == t :
+	print(t + 244)
+	print(t)
+print(t + 162)
+# output
+# 55
+# 486
+# 242
+# 404
+
+# code
+c = 55
+print(c)
+s = 194
+x = 156
+while x > 151 :
+	x = x - 3
+	print(c)
+if x <= c :
+	x = 74 - 132
+print(s)
+# output
+# 55
+# 55
+# 55
+# 194
+
+# code
+print(86)
+h = 105
+while h > 104 :
+	h = h - 2
+	print(h)
+print(h + 72)
+# output
+# 86
+# 103
+# 175
+
+# code
+w = (5 % 253)*(8 % 1)
+q = 116
+while q >= 111 :
+	q = q - 3
+	w = (q + 1)*(227 / q)/(248 + 117)
+	print(q)
+	w = q + 73
+print(q)
+# output
+# 113
+# 110
+# 110
+
+# code
+for n in range(164, 167) :
+	g = 5
+	print(n)
+	print(n / 253)
+print(n)
+print(n)
+# output
+# 164
+# 0.6482213438735178
+# 165
+# 0.6521739130434783
+# 166
+# 0.6561264822134387
+# 166
+# 166
+
+# code
+b = 1 % 9
+for h in range(79, 80, 1) :
+	print(b)
+	y = 215
+print(h)
+print(b)
+# output
+# 1
+# 79
+# 1
+
+# code
+print(8 + 9)
+for e in range(17, 22) :
+	if  e != e :
+		print(e)
+		print(e)
+d = 47
+print(d + 234)
+if d == d :
+	print(e % 253)
+print(d / 99)
+print(d)
+# output
+# 17
+# 281
+# 21
+# 0.47474747474747475
+# 47
+
+# code
+u = 54
+while u <= 59 :
+	u = u + 2
+	d = 123
+	print(u)
+	q = 197
+print(u)
+h = (172 + 119)%(u * 119)
+o = 152
+print(h)
+print(u)
+# output
+# 56
+# 58
+# 60
+# 60
+# 291
+# 60
+
+# code
+g = 42
+while g >= 41 :
+	g = g - 1
+	print(g)
+	if g >= g :
+		print(g)
+	o = 143
+print(g)
+# output
+# 41
+# 41
+# 40
+# 40
+# 40
+
+# code
+p = 86 % 2
+print(p)
+s = (p % 152)
+s = 132 + p
+k = 131
+while k <= 134 :
+	k = k + 2
+	print(k)
+w = 51
+print(w)
+print(p)
+# output
+# 0
+# 133
+# 135
+# 51
+# 0
+
+# code
+print(78)
+print(197)
+for s in range(140, 141, 1) :
+	if s >= s :
+		p = 250
+		print(s / p)
+print(s)
+print(s)
+if not s >= s :
+	l = 124
+print(s - 49)
+# output
+# 78
+# 197
+# 0.56
+# 140
+# 140
+# 91
+
+# code
+o = 77
+while o < 82 :
+	o = o + 2
+	if o >= 141 :
+		z = 125
+	if  o == o :
+		z = 214 + 142
+		v = 68
+print(o)
+print(o - 114)
+print(o)
+# output
+# 83
+# -31
+# 83
+
+# code
+h = 57
+print(h)
+h = (h + 74)
+r = (88 % 68)%(h % 72)
+print(h)
+print(r)
+print(h)
+# output
+# 57
+# 131
+# 20
+# 131
+
+# code
+print(1 * 1)
+if 9 <= 108 :
+	print(8 - 213)
+	c = (203 % 119)-(226 * 8)/(167 - 3)+(97 - 4)
+	u = 62
+print(149)
+# output
+# 1
+# -205
+# 149
+
+# code
+t = 30 % 3
+q = 51
+while q < 52 :
+	q = q + 2
+	print(q)
+	print(t)
+	print(t)
+k = 80 + 121
+print(t)
+q = 139 + t
+print(q)
+# output
+# 53
+# 0
+# 0
+# 0
+# 139
+
+# code
+b = 34
+while b > 29 :
+	b = b - 2
+	print(b)
+	print(b)
+print(b * b)
+# output
+# 32
+# 32
+# 30
+# 30
+# 28
+# 28
+# 784
+
+# code
+w = 146
+while w >= 145 :
+	w = w - 1
+	j = 249
+	print(j)
+print(w)
+print(w)
+print(w)
+print(w % w)
+print(w)
+# output
+# 249
+# 249
+# 144
+# 144
+# 144
+# 0
+# 144
+
+# code
+f = 59
+if  f == 159 :
+	print(f)
+	f = (f - f)-(238 + f)
+	print(f)
+	s = 163
+i = 41 + f
+print(i)
+k = 179
+o = 10
+while o >= 5 :
+	o = o - 3
+	q = 89
+print(f)
+# output
+# 100
+# 59
+
+# code
+for c in range(124, 129) :
+	f = 128
+	if f < f :
+		l = 244
+		print(l)
+		t = 139 * f
+	print(c / 162)
+print(c)
+z = 244
+w = (131 % 194)
+print(c)
+# output
+# 0.7654320987654321
+# 0.7716049382716049
+# 0.7777777777777778
+# 0.7839506172839507
+# 0.7901234567901234
+# 128
+# 128
+
+# code
+print(8 - 104)
+n = 163
+for p in range(90, 95, 3) :
+	n = (136 - 78)
+	j = (n - n)+(220 / p)
+print(p)
+# output
+# -96
+# 93
+
+# code
+s = (240 * 31)%(7 % 216)+(189 + 2)+(53 / 2)
+print(s)
+s = s - s
+f = s * 233
+for y in range(30, 33, 2) :
+	s = y - f
+	print(s)
+	print(s * f)
+	print(s)
+	f = 139 % y
+print(s - s)
+# output
+# 223.5
+# 30.0
+# 0.0
+# 30.0
+# 13
+# 247
+# 13
+# 0
+
+# code
+o = 193
+while o < 198 :
+	o = o + 3
+	print(o)
+	print(o)
+	print(o)
+	v = (o * o)%(o * o)
+	l = (250 / 179)
+if not o > 29 :
+	print(o * o)
+print(o)
+# output
+# 196
+# 196
+# 196
+# 199
+# 199
+# 199
+# 199
+
+# code
+n = 151 * 2
+n = (n + 125)
+n = (198 + n)*(n / n)
+n = 1 % n
+print(n)
+print(n + 239)
+# output
+# 1.0
+# 240.0
+
+# code
+t = 193
+a = 12
+while a >= 11 :
+	a = a - 1
+	t = (53 - 54)
+	print(t)
+print(a)
+t = t % 112
+print(a)
+print(t)
+# output
+# -1
+# -1
+# 10
+# 10
+# 111
+
+# code
+c = (81 % 1)
+a = 148
+while a >= 145 :
+	a = a - 2
+	z = 117
+if a > c :
+	m = (a - c)
+print(c % 116)
+# output
+# 0
+
+# code
+for t in range(255, 260, 2) :
+	if not t != 28 :
+		e = 190
+	if not t == t :
+		y = 148
+		t = (y % t)*(t / 62)
+		t = t - t
+		x = 252
+print(t - t)
+print(t)
+print(t)
+# output
+# 0
+# 259
+# 259
+
+# code
+t = 49
+while t < 54 :
+	t = t + 2
+	print(t)
+	y = 136 - t
+	if y < y :
+		y = 246 - 195
+		print(t)
+		a = 86 + 233
+		e = 133
+print(t % t)
+# output
+# 51
+# 53
+# 55
+# 0
+
+# code
+s = 24
+while s >= 19 :
+	s = s - 3
+	print(s)
+	print(s)
+	o = 141
+	print(s)
+if s != 40 :
+	f = 172 / 149
+s = (s * s)
+print(s)
+# output
+# 21
+# 21
+# 21
+# 18
+# 18
+# 18
+# 324
+
+# code
+s = 109
+while s >= 104 :
+	s = s - 3
+	h = 175
+	if h != 45 :
+		h = 32 % s
+		h = 199 - 65
+s = (s + 87)%(s / s)
+print(s / 179)
+# output
+# 0.0
+
+# code
+s = 237
+while s >= 236 :
+	s = s - 1
+	if s < s :
+		print(s / s)
+	print(s - 39)
+	if not s < 125 :
+		e = 78
+		w = 236
+print(s)
+print(s % 122)
+# output
+# 197
+# 196
+# 235
+# 113
+
+# code
+for c in range(251, 252, 2) :
+	c = 215 + c
+	c = (154 - c)
+b = c - 102
+e = 48 - c
+f = 190
+print(c * f)
+# output
+# -59280
+
+# code
+if 7 == 188 :
+	s = 64 - 234
+i = 23
+while i >= 22 :
+	i = i - 2
+	if i < i :
+		l = (i - 104)
+		l = l * l
+		n = 10
+x = i % 108
+print(x)
+# output
+# 21
+
+# code
+e = 125
+while e <= 130 :
+	e = e + 3
+	if e == 225 :
+		print(e)
+print(e)
+# output
+# 131
+
+# code
+u = (5 / 1)
+if u >= u :
+	print(u)
+elif u <= 250 :
+	u = 4 % 93
+print(u % u)
+print(u)
+# output
+# 5.0
+# 0.0
+# 5.0
+
+# code
+print(209)
+if not 1 > 165 :
+	f = (4 / 1)
+	print(f * f)
+print(38)
+print(7)
+print(160)
+# output
+# 209
+# 16.0
+# 38
+# 7
+# 160
+
+# code
+c = 124
+while c <= 125 :
+	c = c + 2
+	i = (c + c)
+	p = 64
+	j = 240
+print(c)
+print(c)
+print(c / c)
+print(c)
+print(c)
+# output
+# 126
+# 126
+# 1.0
+# 126
+# 126
+
+# code
+print(130)
+if  5 <= 204 :
+	print(235)
+	h = 44 % 242
+	print(h)
+print(190)
+# output
+# 130
+# 235
+# 44
+# 190
+
+# code
+if not 1 <= 0 :
+	print(226)
+	m = 153
+elif 0 == 8 :
+	n = 189
+print(13)
+print(33)
+w = 54
+print(w)
+b = 252
+print(b)
+# output
+# 226
+# 13
+# 33
+# 54
+# 252
+
+# code
+l = 94
+while l > 93 :
+	l = l - 2
+	i = 166
+	g = (l % l)
+	h = (163 - g)
+c = 234
+l = l % c
+h = 68
+if  c <= 42 :
+	print(l)
+print(c)
+# output
+# 234
+
+# code
+for t in range(47, 48, 2) :
+	print(t % t)
+print(t)
+if t == 61 :
+	print(t)
+print(t)
+t = (147 + t)
+print(t % t)
+y = 175
+y = (33 * 48)/(t % 176)%(t * t)
+print(t)
+# output
+# 0
+# 47
+# 47
+# 0
+# 194
+
+# code
+s = 130
+while s >= 125 :
+	s = s - 2
+	print(s)
+if s != s :
+	s = 30 - s
+	print(s + 71)
+s = (204 + 201)+(217 * 237)%(15 % s)*(s - 241)
+k = 193
+b = 83
+print(k)
+# output
+# 128
+# 126
+# 124
+# 193
+
+# code
+for s in range(242, 243) :
+	if  s > s :
+		t = 255 - s
+		q = 153 * t
+		t = (83 - 104)*(230 - s)-(42 + 114)
+		print(t - 172)
+		s = q + t
+		k = 72
+s = (86 + 243)
+e = 183
+print(s)
+# output
+# 329
+
+# code
+t = 83
+while t <= 84 :
+	t = t + 1
+	print(t)
+	o = 7
+q = t + 170
+j = 17
+print(q)
+print(t)
+print(t)
+# output
+# 84
+# 85
+# 255
+# 85
+# 85
+
+# code
+print(203)
+s = 6 - 87
+if not s > 188 :
+	print(s)
+	e = 102 / s
+print(s)
+print(s)
+n = 146
+while n < 147 :
+	n = n + 1
+	s = n / n
+print(s)
+# output
+# 203
+# -81
+# -81
+# -81
+# 1.0
+
+# code
+f = 163
+while f >= 162 :
+	f = f - 2
+	i = 16
+	a = (1 - 50)/(191 + 30)
+g = 117
+f = 54 % 202
+if  f > f :
+	print(g)
+print(f * 24)
+# output
+# 1296
+
+# code
+p = 240 * 2
+d = 129
+while d < 130 :
+	d = d + 2
+	print(d)
+	print(d)
+print(p)
+u = 249
+if p < 26 :
+	j = 199
+print(p)
+# output
+# 131
+# 131
+# 480
+# 480
+
+# code
+if 2 < 1 :
+	print(202)
+	h = (54 / 4)+(6 % 9)*(5 - 1)
+elif 8 == 3 :
+	d = 143 + 227
+	i = 225
+	print(i * d)
+print(93)
+print(250)
+# output
+# 93
+# 250
+
+# code
+a = 6
+while a < 11 :
+	a = a + 2
+	c = a + 231
+	o = 140
+print(a)
+# output
+# 12
+
+# code
+for f in range(130, 135, 3) :
+	f = (140 / f)*(f - f)
+h = 134
+print(f + 234)
+if  f == h :
+	f = f - h
+	x = 144
+print(f)
+# output
+# 234.0
+# 0.0
+
+# code
+q = 178
+d = q / q
+print(q)
+d = 200
+q = 89 % d
+v = 19
+if d == q :
+	b = v * q
+print(d)
+# output
+# 178
+# 200
+
+# code
+n = (27 / 150)/(8 * 1)
+o = 220
+print(n)
+v = 168
+while v >= 165 :
+	v = v - 2
+	y = 25
+	print(n)
+	o = 200 % 114
+	n = (v / 158)
+print(o)
+# output
+# 0.0225
+# 0.0225
+# 1.0506329113924051
+# 86
+
+# code
+if not 1 == 97 :
+	print(9 % 52)
+	print(165)
+h = 198
+while h > 193 :
+	h = h - 3
+	if h == 211 :
+		print(h)
+		print(h)
+print(h / 182)
+print(h)
+# output
+# 9
+# 165
+# 1.054945054945055
+# 192
+
+# code
+f = (124 - 248)
+u = 252
+d = 167
+while d > 166 :
+	d = d - 1
+	print(f)
+	print(f)
+print(d)
+# output
+# -124
+# -124
+# 166
+
+# code
+print(192)
+print(177)
+t = 2
+q = 221
+while q > 218 :
+	q = q - 2
+	r = 199
+	print(r)
+q = (218 / t)%(q - 99)
+e = 147
+print(q * t)
+# output
+# 192
+# 177
+# 199
+# 199
+# 218.0
+
+# code
+print(108)
+i = 2 + 34
+print(i)
+u = 63
+while u <= 66 :
+	u = u + 2
+	print(u)
+	i = i % 40
+i = 123
+u = i - 21
+print(u % 106)
+# output
+# 108
+# 36
+# 65
+# 67
+# 102
+
+# code
+if 1 != 240 :
+	print(116)
+	print(7)
+	s = 16
+	k = 217 + s
+print(94)
+print(4 * 14)
+print(158)
+m = 124 / 1
+m = 193 % 109
+print(m)
+# output
+# 116
+# 7
+# 94
+# 56
+# 158
+# 84
+
+# code
+f = 106
+print(f)
+g = 147
+f = (g / g)
+r = 151
+while r < 156 :
+	r = r + 3
+	g = f - 122
+	print(r)
+	print(g * f)
+print(g)
+# output
+# 106
+# 154
+# -121.0
+# 157
+# -121.0
+# -121.0
+
+# code
+t = 21
+while t >= 16 :
+	t = t - 3
+	w = (t % t)
+	print(w)
+p = 233
+print(t)
+print(p / 53)
+# output
+# 0
+# 0
+# 15
+# 4.39622641509434
+
+# code
+j = 18
+while j >= 15 :
+	j = j - 2
+	print(j)
+	print(j)
+print(j)
+# output
+# 16
+# 16
+# 14
+# 14
+# 14
+
+# code
+u = 4
+while u >= 1 :
+	u = u - 2
+	j = u * u
+print(u - u)
+print(u - u)
+k = u - 38
+if k < 35 :
+	u = 212 * u
+	print(k)
+print(u)
+# output
+# 0
+# 0
+# -38
+# 0
+
+# code
+j = 99
+while j < 100 :
+	j = j + 2
+	print(j)
+	a = (j % 71)
+	print(a)
+print(j)
+p = 177
+print(j)
+# output
+# 101
+# 30
+# 101
+# 101
+
+# code
+z = (134 % 6)
+if not z >= z :
+	s = z / 234
+	u = 4 * 235
+	print(z)
+for n in range(152, 153) :
+	m = z + n
+	k = 77 / 39
+n = (z - n)
+print(n - 213)
+# output
+# -363
+
+# code
+s = 84
+while s >= 79 :
+	s = s - 2
+	l = 167
+v = 76
+if  v == s :
+	v = 84 + v
+k = v / s
+print(v - 141)
+print(v)
+print(s)
+# output
+# -65
+# 76
+# 78
+
+# code
+print(202)
+b = 96
+while b >= 95 :
+	b = b - 1
+	p = (b - 164)
+	n = 44
+if b < b :
+	e = (220 + 217)-(90 % b)%(b % 191)
+	print(b)
+b = (142 / b)-(b + b)%(206 / b)
+print(b)
+# output
+# 202
+# -0.21276595744681326
+
+# code
+print(71)
+o = 241
+o = 171 / 219
+i = 41
+w = 251
+while w < 256 :
+	w = w + 3
+	o = (154 * i)*(i % 83)*(i - i)
+	print(o)
+print(o)
+# output
+# 71
+# 0
+# 0
+# 0
+
+# code
+w = 51
+while w > 50 :
+	w = w - 2
+	y = (234 - w)-(50 + w)
+	y = y + 19
+	print(y)
+print(w % w)
+# output
+# 105
+# 0
+
+# code
+g = 1 + 165
+a = 106
+while a >= 105 :
+	a = a - 1
+	m = 50
+	i = 91
+g = 6 - g
+b = 159
+print(g)
+print(a - a)
+print(b - 27)
+# output
+# -160
+# 0
+# 132
+
+# code
+d = 128 / 234
+print(d)
+d = (89 - 67)
+print(d)
+x = 99
+while x <= 100 :
+	x = x + 1
+	d = 162 / x
+	d = (d - 176)-(103 / d)%(d / 44)
+l = (d - x)
+print(l)
+# output
+# 0.5470085470085471
+# 22
+# -275.4172194997277
+
+# code
+print(186)
+print(241)
+m = 111
+while m < 116 :
+	m = m + 3
+	g = 147
+if  m >= m :
+	a = 221
+	print(m)
+print(m % 184)
+print(m)
+# output
+# 186
+# 241
+# 117
+# 117
+# 117
+
+# code
+i = 217
+while i >= 216 :
+	i = i - 2
+	if i < 79 :
+		l = 118
+i = i - 91
+v = 180
+i = i % i
+i = (150 + i)
+print(i / i)
+print(i)
+# output
+# 1.0
+# 150
+
+# code
+if 2 > 120 :
+	j = 48
+	print(j - 4)
+	print(j)
+else :
+	print(188)
+v = (237 % 7)
+z = 205 / 41
+print(z)
+# output
+# 188
+# 5.0
+
+# code
+print(3 % 53)
+t = 193
+while t > 188 :
+	t = t - 3
+	u = 185
+print(t)
+print(t)
+# output
+# 3
+# 187
+# 187
+
+# code
+for z in range(76, 81) :
+	print(z + z)
+	z = 229 / z
+z = (69 + 120)
+l = (z * 79)/(87 * z)
+n = 231
+y = 245
+n = 244
+print(n)
+print(l)
+# output
+# 152
+# 154
+# 156
+# 158
+# 160
+# 244
+# 0.9080459770114943
+
+# code
+a = 25
+while a > 20 :
+	a = a - 2
+	print(a)
+a = (a - 151)-(234 / 62)/(116 + 222)%(a / 164)
+u = (a - 115)+(a + a)-(a - a)
+a = (a % 47)%(212 / a)
+u = 155
+n = 96
+s = 235
+print(a)
+# output
+# 23
+# 21
+# 19
+# -0.6467147911793978
+
+# code
+p = 6 * 2
+i = 109
+while i >= 108 :
+	i = i - 2
+	p = (47 + p)%(p * 56)
+	p = (235 % 206)+(p % 204)*(p % p)*(p * 211)
+	print(p / 179)
+print(p)
+m = (152 % p)-(i * 223)%(i + i)-(p / 208)/(p * 151)
+print(m)
+# output
+# 0.16201117318435754
+# 29
+# -100.0000318390219
+
+# code
+t = 72
+v = 174
+while v < 177 :
+	v = v + 2
+	w = (54 * 254)%(t - 0)
+	e = 23
+	f = 254
+print(t)
+o = 139
+print(t)
+print(t)
+# output
+# 72
+# 72
+# 72
+
+# code
+for x in range(98, 99, 2) :
+	k = 243
+	x = (222 + 128)+(k / 73)*(k / 17)
+if x != 79 :
+	print(x * x)
+	x = (52 / x)
+	x = 128 * x
+x = x + x
+z = 52 % x
+g = x % x
+print(z)
+# output
+# 158071.2788489696
+# 18.517581105758218
+
+# code
+print(159)
+g = 60
+while g <= 65 :
+	g = g + 3
+	print(g)
+z = g + 92
+print(g)
+g = (g - g)+(81 - 129)
+print(z)
+print(g)
+print(z * 160)
+# output
+# 159
+# 63
+# 66
+# 66
+# 158
+# -48
+# 25280
+
+# code
+x = 22
+while x <= 23 :
+	x = x + 1
+	print(x / x)
+	print(x * x)
+	v = (x / x)+(188 / 245)
+print(x)
+print(x)
+print(x - 85)
+# output
+# 1.0
+# 529
+# 1.0
+# 576
+# 24
+# 24
+# -61
+
+# code
+for x in range(62, 63) :
+	if x < x :
+		print(x)
+		print(x)
+		x = x % 146
+if  x > x :
+	q = 254
+	o = 161
+	y = 39 / 63
+x = x - x
+print(x)
+# output
+# 0
+
+# code
+for w in range(162, 165) :
+	print(w - w)
+	if w >= 0 :
+		w = w + 57
+		d = 254
+print(w % w)
+# output
+# 0
+# 0
+# 0
+# 0
+
+# code
+for y in range(142, 145) :
+	if not y >= y :
+		y = 192 + y
+		print(y)
+		print(y)
+	else :
+		print(y)
+print(y % 88)
+# output
+# 142
+# 143
+# 144
+# 56
+
+# code
+x = (57 * 1)*(8 * 161)%(2 - 1)/(172 + 5)
+for w in range(199, 200, 2) :
+	d = 209
+print(x / 133)
+if  x == w :
+	v = x % x
+	print(w / x)
+print(x)
+x = 3 - 100
+print(w + x)
+# output
+# 0.0
+# 0.0
+# 102
+
+# code
+v = 40
+while v > 37 :
+	v = v - 2
+	t = 239 + v
+	print(v)
+if v < v :
+	o = 2 * 69
+	print(v)
+	l = 244
+	print(o)
+print(v)
+# output
+# 38
+# 36
+# 36
+
+# code
+n = 1 * 9
+c = 171
+while c >= 170 :
+	c = c - 2
+	if  c <= 144 :
+		g = (c + 82)
+print(c)
+# output
+# 169
+
+# code
+e = 137
+print(e)
+print(e)
+print(e * e)
+e = (35 / e)-(e - e)
+print(e)
+o = 170 + e
+print(o)
+print(o + 105)
+b = 78 * e
+print(o * 114)
+# output
+# 137
+# 137
+# 18769
+# 0.25547445255474455
+# 170.25547445255475
+# 275.2554744525547
+# 19409.12408759124
+
+# code
+h = 126
+k = 109
+print(k % h)
+for z in range(162, 167) :
+	d = 171
+	if z > h :
+		y = 91
+print(h)
+# output
+# 109
+# 126
+
+# code
+if 2 != 6 :
+	u = 254
+	print(u - u)
+	z = 74
+r = 63
+z = (r + 159)
+m = 74
+z = 13
+print(r)
+m = (223 % z)-(198 - 241)
+print(m)
+# output
+# 0
+# 63
+# 45
+
+# code
+f = (0 * 4)%(25 % 6)/(80 * 4)
+f = f - f
+for v in range(160, 163) :
+	v = (f % 15)
+	v = 3
+	if f <= v :
+		q = v * 197
+		v = v + q
+		g = 106 + 168
+f = 50 * f
+print(v)
+# output
+# 594
+
+# code
+x = 146
+while x < 151 :
+	x = x + 3
+	if x == x :
+		print(x * 159)
+print(x - x)
+print(x % x)
+# output
+# 23691
+# 24168
+# 0
+# 0
+
+# code
+for y in range(32, 37, 2) :
+	print(y)
+	y = 26
+print(y)
+h = (26 % y)%(210 - y)
+print(h)
+h = y * y
+print(y)
+if h > h :
+	j = 212
+print(h % 212)
+# output
+# 32
+# 34
+# 36
+# 26
+# 0
+# 26
+# 40
+
+# code
+u = 1 % 195
+u = 127
+while u > 126 :
+	u = u - 1
+	print(u + u)
+	b = (u - 46)
+	print(u + 211)
+if not u < u :
+	print(u)
+print(u)
+print(u)
+# output
+# 252
+# 337
+# 126
+# 126
+# 126
+
+# code
+print(7)
+for x in range(210, 213, 2) :
+	l = 253
+print(x)
+x = 242 + x
+if x == x :
+	f = (x % x)/(185 - x)%(x / 79)%(x / x)
+	u = 131
+r = x + x
+x = 39
+print(x)
+# output
+# 7
+# 212
+# 39
+
+# code
+h = 77
+d = 154
+while d <= 157 :
+	d = d + 2
+	print(d)
+print(h * 152)
+# output
+# 156
+# 158
+# 11704
+
+# code
+t = 67
+print(t)
+z = 50
+while z < 55 :
+	z = z + 2
+	t = (z - z)
+o = 223
+t = t - o
+z = 185
+if  t == 159 :
+	s = 245
+print(z - 76)
+# output
+# 67
+# 109
+
+# code
+for q in range(78, 81, 2) :
+	k = 154
+	print(q + 115)
+f = 201
+q = (f / q)
+if f > 98 :
+	p = q % q
+print(q)
+# output
+# 193
+# 195
+# 2.5125
+
+# code
+p = 101
+p = 86 + p
+if  p >= 134 :
+	p = (57 + 143)+(249 % 61)
+	p = p - p
+elif  p == 84 :
+	y = 254
+	x = p + p
+print(p)
+d = 57
+print(p / 165)
+# output
+# 0
+# 0.0
+
+# code
+for q in range(174, 175) :
+	q = 144 / q
+print(q)
+q = q % q
+print(q)
+if q < 207 :
+	q = 253 - 193
+	print(q % q)
+print(q)
+# output
+# 0.8275862068965517
+# 0.0
+# 0
+# 60
+
+# code
+print(152)
+w = 167
+print(w)
+t = 93
+for d in range(85, 90, 3) :
+	print(w)
+print(t)
+print(d)
+l = 128
+print(d - t)
+# output
+# 152
+# 167
+# 167
+# 167
+# 93
+# 88
+# -5
+
+# code
+s = 84
+while s >= 83 :
+	s = s - 1
+	print(s)
+	p = (98 % s)-(s * 9)
+s = (s - s)*(83 - 210)
+print(s)
+print(s)
+l = 15
+x = s - 148
+print(l)
+# output
+# 83
+# 82
+# 0
+# 0
+# 15
+
+# code
+print(13)
+o = 173
+while o <= 174 :
+	o = o + 1
+	if  o != o :
+		print(o)
+print(o)
+# output
+# 13
+# 175
+
+# code
+u = 52
+q = 242
+print(u)
+for t in range(3, 4) :
+	z = 39
+	print(t)
+print(q)
+if  t == q :
+	k = 245
+print(t)
+# output
+# 52
+# 3
+# 242
+# 3
+
+# code
+g = 22
+g = (g + g)*(g + g)/(g * 163)%(g * 229)
+g = 129 + 78
+c = 13
+while c < 16 :
+	c = c + 2
+	if g < 50 :
+		z = 154
+		g = (46 % 93)
+		z = 208
+print(c + g)
+# output
+# 224
+
+# code
+print(2 - 3)
+if not 3 > 6 :
+	c = (1 * 85)/(104 % 145)
+	print(c)
+	y = c - 24
+y = 7 * 3
+g = 148
+while g < 149 :
+	g = g + 1
+	print(g / 30)
+print(g)
+# output
+# -1
+# 0.8173076923076923
+# 4.966666666666667
+# 149
+
+# code
+g = 122
+g = (g + 192)-(211 / 227)/(g / g)%(73 / g)
+g = 99 + 152
+g = (73 + g)
+print(g)
+t = 148
+u = (g % g)%(g * 237)
+print(g % 203)
+m = 254
+while m <= 255 :
+	m = m + 2
+	print(u)
+print(g)
+# output
+# 324
+# 121
+# 0
+# 324
+
+# code
+print(163)
+print(58)
+n = 99
+print(n + n)
+print(n + 43)
+print(n + 160)
+for m in range(25, 28, 2) :
+	n = m % m
+print(m)
+# output
+# 163
+# 58
+# 198
+# 142
+# 259
+# 27
+
+# code
+for v in range(185, 186) :
+	print(v)
+print(v)
+v = (v - 116)
+print(v)
+if v <= 48 :
+	print(v)
+p = 159
+y = 250
+print(v % 165)
+print(v)
+# output
+# 185
+# 185
+# 69
+# 69
+# 69
+
+# code
+s = 6 - 222
+if s < s :
+	print(s)
+if  s == s :
+	a = (55 - 67)
+	print(s * 174)
+k = 145
+q = 25
+print(q)
+# output
+# -37584
+# 25
+
+# code
+if 5 > 181 :
+	print(76)
+	f = (231 * 1)
+b = 123 + 252
+y = 218
+while y > 213 :
+	y = y - 2
+	s = 207
+print(b)
+# output
+# 375
+
+# code
+q = 19
+j = 220
+while j < 221 :
+	j = j + 1
+	p = 9
+print(q / 41)
+s = 141
+s = s - j
+print(s)
+s = (q / 145)+(164 / s)+(j % 201)
+print(s)
+# output
+# 0.4634146341463415
+# -80
+# 18.08103448275862
+
+# code
+f = 21
+while f < 22 :
+	f = f + 1
+	c = (138 / 157)-(94 / f)
+f = (217 % f)
+print(f)
+# output
+# 19
+
+# code
+y = 6 - 3
+y = (213 - y)/(242 + y)
+p = 239
+while p < 244 :
+	p = p + 2
+	y = (y * y)/(245 / p)
+	f = (89 - 89)
+	print(y)
+	n = (141 / 102)
+q = 213
+print(y)
+# output
+# 0.7226988754685547
+# 0.5180300428516482
+# 0.2683551252968805
+# 0.2683551252968805
+
+# code
+t = 214 + 9
+o = 163
+while o >= 160 :
+	o = o - 2
+	print(t / t)
+	print(o % 85)
+	print(o)
+if o > 59 :
+	t = (t % t)/(184 + o)
+	print(t)
+print(o * 221)
+# output
+# 1.0
+# 76
+# 161
+# 1.0
+# 74
+# 159
+# 0.0
+# 35139
+
+# code
+print(4 - 110)
+if 7 <= 4 :
+	h = 227 - 108
+	print(h * 52)
+	h = h - h
+	h = h % 238
+	h = (h / h)
+n = 178 / 21
+z = 210
+for v in range(59, 64, 2) :
+	print(z)
+print(v)
+# output
+# -106
+# 210
+# 210
+# 210
+# 63
+
+# code
+print(2 / 1)
+d = (6 - 4)%(230 * 9)*(4 / 129)%(244 % 8)
+m = 158
+while m < 163 :
+	m = m + 2
+	if m > d :
+		print(m - d)
+		d = m - d
+	if  d <= d :
+		print(d)
+print(m)
+# output
+# 2.0
+# 159.93798449612405
+# 159.93798449612405
+# 2.062015503875955
+# 2.062015503875955
+# 161.93798449612405
+# 161.93798449612405
+# 164
+
+# code
+f = 170
+while f < 171 :
+	f = f + 1
+	print(f + 169)
+	print(f - f)
+print(f + 104)
+x = f % f
+print(x)
+print(f % 217)
+# output
+# 340
+# 0
+# 275
+# 0
+# 171
+
+# code
+t = 47
+while t > 46 :
+	t = t - 1
+	g = t + 101
+	print(t)
+t = (t - 167)+(152 / 131)
+print(t)
+print(t % 202)
+# output
+# 46
+# -119.83969465648855
+# 82.16030534351145
+
+# code
+b = 128
+f = 246
+while f >= 241 :
+	f = f - 3
+	print(b / 6)
+	print(f)
+	if b >= 2 :
+		print(f)
+print(f)
+# output
+# 21.333333333333332
+# 243
+# 243
+# 21.333333333333332
+# 240
+# 240
+# 240
+
+# code
+z = (8 / 3)
+j = 13
+while j < 18 :
+	j = j + 3
+	m = j - 24
+	x = (j / 198)%(150 - z)+(m * j)/(j * m)
+print(z)
+# output
+# 2.6666666666666665
+
+# code
+print(1 % 1)
+print(0 * 52)
+print(174)
+x = 157
+while x > 152 :
+	x = x - 2
+	b = 46
+print(x / 68)
+# output
+# 0
+# 0
+# 174
+# 2.2205882352941178
+
+# code
+print(221)
+if not 8 <= 2 :
+	print(1 * 80)
+for s in range(12, 17) :
+	f = 55
+	if f <= 250 :
+		n = 158
+	print(s + f)
+	i = (20 % 118)
+	x = 36
+print(s)
+# output
+# 221
+# 80
+# 67
+# 68
+# 69
+# 70
+# 71
+# 16
+
+# code
+print(63)
+if 2 != 56 :
+	g = 86
+print(14)
+x = 138
+print(x * 132)
+# output
+# 63
+# 14
+# 18216
+
+# code
+h = (51 + 1)
+h = 223 - h
+h = (h % h)%(h % 132)
+print(h)
+j = 21
+h = j - h
+s = 122
+while s < 125 :
+	s = s + 2
+	if  h < 231 :
+		b = 43
+print(h)
+# output
+# 0
+# 21
+
+# code
+h = (118 % 2)
+k = 51
+while k < 52 :
+	k = k + 2
+	print(k)
+print(h)
+# output
+# 53
+# 0
+
+# code
+for b in range(162, 163, 1) :
+	e = 32
+	t = e % e
+x = (b + b)+(137 % 87)
+print(b)
+print(x)
+z = 29
+print(b)
+print(b / z)
+print(b)
+print(z + 13)
+# output
+# 162
+# 374
+# 162
+# 5.586206896551724
+# 162
+# 42
+
+# code
+for c in range(242, 243) :
+	e = 108
+	print(c % c)
+	print(e)
+c = (29 % c)
+print(c)
+print(c)
+# output
+# 0
+# 108
+# 29
+# 29
+
+# code
+d = 7 % 6
+d = 120 + d
+for m in range(4, 9, 2) :
+	q = (m / d)
+	print(d / d)
+print(d)
+# output
+# 1.0
+# 1.0
+# 1.0
+# 121
+
+# code
+print(2)
+k = 74
+while k > 69 :
+	k = k - 3
+	o = 214 / 224
+	print(k)
+	print(k)
+print(k / k)
+print(k)
+# output
+# 2
+# 71
+# 71
+# 68
+# 68
+# 1.0
+# 68
+
+# code
+q = 0
+while q >= -5 :
+	q = q - 2
+	print(q)
+print(q)
+print(q % 49)
+if not q > q :
+	print(q + q)
+	print(q)
+print(q)
+# output
+# -2
+# -4
+# -6
+# -6
+# 43
+# -12
+# -6
+# -6
+
+# code
+print(114)
+print(3 - 1)
+y = 2 / 30
+print(y % 200)
+print(y)
+if y != y :
+	g = (112 - 82)
+print(y - 88)
+# output
+# 114
+# 2
+# 0.06666666666666667
+# 0.06666666666666667
+# -87.93333333333334
+
+# code
+p = 1 - 204
+x = 211
+while x >= 206 :
+	x = x - 3
+	z = 165
+	print(x)
+print(p + x)
+# output
+# 208
+# 205
+# 2
+
+# code
+for x in range(7, 12) :
+	x = x % x
+	if x >= x :
+		m = (119 / 97)/(x + 45)
+print(x + x)
+print(x)
+print(x)
+# output
+# 0
+# 0
+# 0
+
+# code
+w = 166
+print(w)
+print(w)
+r = 113
+while r <= 116 :
+	r = r + 2
+	print(r)
+	print(w)
+w = 167 + 160
+if not w >= w :
+	w = (w / 176)-(r % r)-(202 - w)*(r * r)/(w / 60)
+print(r)
+# output
+# 166
+# 166
+# 115
+# 166
+# 117
+# 166
+# 117
+
+# code
+print(6)
+print(29)
+m = (2 + 2)%(6 + 7)+(41 + 1)
+n = 147
+while n > 144 :
+	n = n - 2
+	u = 104
+	if not n < 34 :
+		b = m / 9
+o = 7
+print(o)
+# output
+# 6
+# 29
+# 7
+
+# code
+g = (197 + 6)
+if g > 246 :
+	g = g % g
+	u = 3
+print(g)
+if not g > g :
+	g = (g - 168)*(g / g)
+	d = 43
+	print(g / 79)
+y = (48 / 32)-(g + 116)-(g / g)%(115 - 228)-(89 + 251)
+print(y)
+# output
+# 203
+# 0.4430379746835443
+# -377.5
+
+# code
+print(8 / 49)
+if  2 >= 4 :
+	d = 57 % 222
+	print(d)
+	print(d)
+	d = 55 * 117
+print(242)
+# output
+# 0.16326530612244897
+# 242
+
+# code
+h = (152 % 2)
+for t in range(52, 57) :
+	print(t)
+	v = h / 153
+if t > t :
+	q = (h + h)-(h - 213)%(h * 99)
+	print(t)
+print(h * 108)
+# output
+# 52
+# 53
+# 54
+# 55
+# 56
+# 0
+
+# code
+o = (1 - 101)
+if  o <= 178 :
+	o = (o - o)
+	d = 11
+else :
+	print(o % o)
+	o = (o * o)
+	c = (o + 143)
+o = o + 224
+o = 62 + 5
+print(o)
+# output
+# 67
+
+# code
+a = 93
+print(a - a)
+if not a >= 238 :
+	print(a)
+print(a)
+if not a > 106 :
+	print(a)
+	a = (a + a)
+print(a)
+# output
+# 0
+# 93
+# 93
+# 93
+# 186
+
+# code
+o = 208
+while o < 213 :
+	o = o + 3
+	if  o <= 185 :
+		print(o)
+		print(o)
+print(o)
+# output
+# 214
+
+# code
+n = 164
+while n >= 159 :
+	n = n - 3
+	print(n)
+n = (n - 42)
+if n < n :
+	l = 230
+print(n)
+# output
+# 161
+# 158
+# 116
+
+# code
+print(7 / 5)
+if 1 >= 12 :
+	t = 203 % 6
+	e = 196 % 163
+	print(e + e)
+print(35)
+# output
+# 1.4
+# 35
+
+# code
+h = 47
+while h <= 48 :
+	h = h + 2
+	print(h)
+	print(h)
+if h == 27 :
+	s = 145
+	h = (114 + h)
+	print(s + 98)
+	s = 150 + h
+print(h)
+# output
+# 49
+# 49
+# 49
+
+# code
+if 7 == 9 :
+	print(151)
+for y in range(71, 76, 2) :
+	u = 228
+	print(y)
+print(y)
+k = 175
+print(k)
+# output
+# 71
+# 73
+# 75
+# 75
+# 175
+
+# code
+k = 227
+while k <= 230 :
+	k = k + 2
+	if k != 69 :
+		print(k)
+	v = (124 / 185)
+	v = 168 + 76
+	print(v)
+if not k <= k :
+	print(k)
+print(k - 145)
+# output
+# 229
+# 244
+# 231
+# 244
+# 86
+
+# code
+k = 211
+while k > 210 :
+	k = k - 2
+	print(k)
+print(k * k)
+print(k)
+if not k < k :
+	k = (k - k)
+	g = 231
+	d = 88 / 229
+print(k)
+# output
+# 209
+# 43681
+# 209
+# 0
+
+# code
+print(72)
+g = 46
+while g < 47 :
+	g = g + 2
+	print(g)
+print(g)
+# output
+# 72
+# 48
+# 48
+
+# code
+if not 3 == 4 :
+	j = 202
+	print(j)
+	r = j + 66
+	f = 102
+else :
+	print(35)
+	print(236)
+print(21)
+# output
+# 202
+# 21
+
+# code
+k = 4 * 121
+w = k % 23
+if w != w :
+	print(k)
+	print(w)
+	w = 197 * k
+	k = w - k
+print(w)
+# output
+# 1
+
+# code
+if 2 < 9 :
+	r = 1 * 5
+r = 96
+while r > 93 :
+	r = r - 2
+	c = (r - 101)
+	if r != c :
+		print(r)
+w = 177 / r
+print(r)
+print(r)
+# output
+# 94
+# 92
+# 92
+# 92
+
+# code
+x = 14
+while x <= 15 :
+	x = x + 2
+	print(x % x)
+	g = 83
+print(x)
+# output
+# 0
+# 16
+
+# code
+r = 15
+while r > 10 :
+	r = r - 2
+	i = r + 103
+print(r)
+h = 224
+print(h)
+if r < 167 :
+	r = (121 / 161)-(14 - 89)
+	print(r)
+print(h)
+# output
+# 9
+# 224
+# 75.75155279503106
+# 224
+
+# code
+g = (92 * 9)
+print(g)
+if g != g :
+	g = g - g
+	o = 168
+elif  g == 153 :
+	b = g + 67
+	print(b)
+print(g / g)
+# output
+# 828
+# 1.0
+
+# code
+p = 103
+n = (11 + p)
+for z in range(54, 55) :
+	print(n)
+	n = z / n
+	v = 30
+	d = 233
+print(n - z)
+# output
+# 114
+# -53.526315789473685
+
+# code
+print(246)
+print(1 * 2)
+print(75)
+t = (9 / 168)
+f = 150
+while f >= 147 :
+	f = f - 2
+	print(f)
+	print(f)
+print(t)
+# output
+# 246
+# 2
+# 75
+# 148
+# 148
+# 146
+# 146
+# 0.05357142857142857
+
+# code
+print(117)
+print(159)
+print(1 % 2)
+j = 96
+while j < 97 :
+	j = j + 1
+	print(j % j)
+print(j)
+# output
+# 117
+# 159
+# 1
+# 0
+# 97
+
+# code
+c = (7 + 48)
+for m in range(89, 94, 2) :
+	print(c)
+	c = c / m
+	print(c)
+print(m)
+# output
+# 55
+# 0.6179775280898876
+# 0.6179775280898876
+# 0.006790961847141622
+# 0.006790961847141622
+# 7.302109513055508e-05
+# 93
+
+# code
+print(77)
+print(228)
+w = 0 % 4
+if not w >= 41 :
+	n = 107
+	p = 221
+	d = (68 / n)
+	print(w)
+print(w)
+# output
+# 77
+# 228
+# 0
+# 0
+
+# code
+l = (0 - 148)
+b = 102
+while b <= 103 :
+	b = b + 1
+	e = 108
+	if not b != 86 :
+		c = 191
+	if e == l :
+		print(l)
+		print(e)
+print(b)
+# output
+# 104
+
+# code
+if not 2 >= 1 :
+	print(184)
+p = 237 % 184
+print(p)
+p = (p - p)+(p - p)
+print(p)
+e = p + p
+print(p * p)
+# output
+# 53
+# 0
+# 0
+
+# code
+print(13)
+if 2 >= 8 :
+	z = (202 % 49)%(189 * 100)
+	print(z)
+	k = 211
+	h = (z % 3)
+print(233)
+r = 139
+print(r)
+# output
+# 13
+# 233
+# 139
+
+# code
+o = 108
+while o >= 105 :
+	o = o - 2
+	print(o)
+	if o >= 67 :
+		f = (137 / 114)
+print(o)
+# output
+# 106
+# 104
+# 104
+
+# code
+n = 50
+while n <= 55 :
+	n = n + 2
+	if not n != 51 :
+		s = 226
+		print(n * n)
+		print(s)
+		s = s / n
+if n > n :
+	n = (n % 18)/(n / n)%(193 * n)-(n % 124)/(n + 86)+(n / n)+(229 % 159)*(123 % 1)/(154 * n)
+print(n)
+# output
+# 56
+
+# code
+d = (167 - 2)-(32 - 138)
+z = 246
+while z >= 243 :
+	z = z - 2
+	print(d + z)
+print(d)
+print(z % d)
+# output
+# 515
+# 513
+# 271
+# 242
+
+# code
+t = 245
+s = t - 25
+if not s >= s :
+	t = (s * 72)+(215 % 36)
+	d = t / t
+print(t)
+for e in range(35, 40, 3) :
+	s = (194 + 45)
+	print(s)
+	s = 18 % 231
+print(t)
+# output
+# 245
+# 239
+# 239
+# 245
+
+# code
+if  5 >= 56 :
+	r = (60 - 3)%(57 / 150)+(158 - 2)%(227 * 69)
+l = 241
+if not l < l :
+	print(l)
+	print(l * l)
+	print(l)
+print(l)
+# output
+# 241
+# 58081
+# 241
+# 241
+
+# code
+print(231)
+for y in range(199, 202) :
+	y = y % 4
+u = 39
+print(u - 33)
+print(y - 63)
+# output
+# 231
+# 6
+# -62
+
+# code
+e = 150
+while e > 149 :
+	e = e - 2
+	t = (20 - 125)
+	t = (e / t)/(e - 147)
+print(e / e)
+# output
+# 1.0
+
+# code
+if not 0 >= 113 :
+	y = 176 - 6
+	s = 137
+r = (203 * 4)
+if not r > r :
+	print(r)
+	print(r * 240)
+	print(r)
+print(r % r)
+# output
+# 812
+# 194880
+# 812
+# 0
+
+# code
+print(211)
+for w in range(102, 105, 2) :
+	w = (207 % 11)
+w = (238 - w)%(235 % w)
+print(w)
+b = w * w
+d = w + 42
+if d <= 206 :
+	w = (221 / 2)*(b - b)
+print(w)
+# output
+# 211
+# 0
+# 0.0
+
+# code
+if not 9 < 4 :
+	print(204)
+	print(49)
+print(147)
+g = (6 - 5)
+f = (21 * g)
+l = 113 * g
+r = 111
+while r <= 112 :
+	r = r + 1
+	f = f - g
+print(r)
+# output
+# 204
+# 49
+# 147
+# 113
+
+# code
+if 5 <= 1 :
+	v = 44
+	v = 246 - v
+s = (5 / 168)
+print(s)
+s = 223
+while s < 228 :
+	s = s + 3
+	print(s)
+print(s)
+print(s)
+# output
+# 0.02976190476190476
+# 226
+# 229
+# 229
+# 229
+
+# code
+z = 124
+while z < 125 :
+	z = z + 1
+	if not z != z :
+		t = 64 + 141
+print(z / z)
+# output
+# 1.0
+
+# code
+r = 83
+for t in range(11, 14, 2) :
+	if  t != 17 :
+		k = 64 / r
+		print(k + 234)
+print(r)
+# output
+# 234.7710843373494
+# 234.7710843373494
+# 83
+
+# code
+a = 112 % 4
+y = 97
+while y >= 92 :
+	y = y - 2
+	q = 64
+	q = (y / 124)
+	if a >= y :
+		a = q * 234
+o = 1
+print(o)
+print(o)
+# output
+# 1
+# 1
+
+# code
+d = 164
+d = 86
+while d > 85 :
+	d = d - 2
+	r = (d - d)*(d * d)-(d * d)%(d + d)
+	k = 251
+	print(d)
+	k = (175 / k)
+if d == 52 :
+	d = (60 / 50)*(69 * d)
+print(d * 25)
+# output
+# 84
+# 2100
+
+# code
+for y in range(218, 223, 2) :
+	i = 133 / 61
+	y = i - y
+print(y)
+print(y)
+q = 35
+print(q)
+q = y % q
+print(q)
+q = 33 / 17
+print(q)
+# output
+# -219.81967213114754
+# -219.81967213114754
+# 35
+# 25.18032786885246
+# 1.9411764705882353
+
+# code
+print(2 / 137)
+i = 215
+while i > 210 :
+	i = i - 2
+	print(i)
+	print(i)
+	y = (230 + 251)
+i = (63 - i)/(158 / 172)
+print(i + 6)
+# output
+# 0.014598540145985401
+# 213
+# 213
+# 211
+# 211
+# 209
+# 209
+# -152.9367088607595
+
+# code
+y = 234
+print(y)
+q = 156
+while q < 161 :
+	q = q + 2
+	print(q)
+	print(q)
+q = y + 191
+print(y)
+y = q + q
+print(q)
+# output
+# 234
+# 158
+# 158
+# 160
+# 160
+# 162
+# 162
+# 234
+# 425
+
+# code
+print(4 % 3)
+r = 152
+while r < 153 :
+	r = r + 2
+	s = 222
+	m = 163
+	if  m == r :
+		print(s)
+		print(s)
+r = (r % r)/(r + r)
+print(r - r)
+# output
+# 1
+# 0.0
+
+# code
+for v in range(93, 94) :
+	print(v)
+	print(v)
+	print(v)
+	p = 151
+	print(v - p)
+	print(p - v)
+v = (148 / v)-(72 % v)
+print(v * v)
+print(v - v)
+# output
+# 93
+# 93
+# 93
+# -58
+# 58
+# 4957.371256792692
+# 0.0
+
+# code
+print(168)
+print(44)
+e = 102
+if e >= e :
+	print(e)
+	print(e)
+	e = 150 + e
+print(e)
+print(e)
+e = (171 - e)
+print(e)
+# output
+# 168
+# 44
+# 102
+# 102
+# 252
+# 252
+# -81
+
+# code
+e = 64
+while e < 69 :
+	e = e + 2
+	g = 168
+	print(g - 125)
+	a = 195 + e
+e = e / e
+l = 6
+e = 187 % 195
+print(e)
+print(e)
+# output
+# 43
+# 43
+# 43
+# 187
+# 187
+
+# code
+print(98)
+h = (190 - 240)
+e = 250
+y = 225
+h = 245 / h
+o = 60 - e
+if o > h :
+	print(e)
+print(e)
+# output
+# 98
+# 250
+
+# code
+p = 19
+m = 224
+while m > 223 :
+	m = m - 1
+	o = 174
+print(p + m)
+# output
+# 242
+
+# code
+for n in range(110, 115) :
+	n = n - n
+	print(n)
+v = 126
+if  v < v :
+	o = 193
+	x = 182
+o = 32
+print(v)
+print(v)
+print(n * o)
+# output
+# 0
+# 0
+# 0
+# 0
+# 0
+# 126
+# 126
+# 0
+
+# code
+o = 71
+while o <= 72 :
+	o = o + 2
+	g = 151 - 216
+	if not o != g :
+		print(g)
+		print(g % 231)
+if  o == 226 :
+	print(o + 173)
+	print(o * 124)
+print(o * o)
+# output
+# 5329
+
+# code
+y = 23 * 3
+if y < 94 :
+	y = (209 / 155)*(y - y)+(3 + y)
+	print(y)
+	print(y)
+if  y < y :
+	l = 15
+	p = (156 / y)
+print(y)
+s = 178
+print(y)
+# output
+# 72.0
+# 72.0
+# 72.0
+# 72.0
+
+# code
+print(37)
+q = 192
+g = 139
+while g <= 140 :
+	g = g + 2
+	print(g)
+q = (188 / g)
+d = 99
+print(g)
+# output
+# 37
+# 141
+# 141
+
+# code
+v = 21
+while v <= 26 :
+	v = v + 2
+	print(v)
+	print(v)
+if v < v :
+	print(v - 86)
+print(v)
+# output
+# 23
+# 23
+# 25
+# 25
+# 27
+# 27
+# 27
+
+# code
+a = 11 % 1
+for y in range(10, 11, 2) :
+	w = (19 - 86)
+y = 176 % 135
+y = 226 - 77
+a = 158 - 141
+print(y)
+y = (y + 101)/(95 / a)-(a * 34)
+if a < a :
+	l = 94
+print(y)
+# output
+# 149
+# -533.2631578947369
+
+# code
+v = 197
+while v >= 192 :
+	v = v - 2
+	print(v)
+	print(v)
+	print(v)
+if  v > 104 :
+	print(v)
+print(v)
+# output
+# 195
+# 195
+# 195
+# 193
+# 193
+# 193
+# 191
+# 191
+# 191
+# 191
+# 191
+
+# code
+print(241)
+j = 76
+if  j == 152 :
+	print(j)
+	m = (220 * 181)+(j + 24)/(30 + 167)
+elif  j <= j :
+	j = 38 + 124
+	a = 175
+	s = 31
+print(j)
+# output
+# 241
+# 162
+
+# code
+for n in range(103, 108) :
+	a = 170
+	r = 173
+	if not r == 254 :
+		y = n % r
+		print(a)
+		print(a)
+print(n)
+# output
+# 170
+# 170
+# 170
+# 170
+# 170
+# 170
+# 170
+# 170
+# 170
+# 170
+# 107
+
+# code
+u = 202
+while u < 203 :
+	u = u + 2
+	p = 193
+	print(p)
+print(u)
+# output
+# 193
+# 204
+
+# code
+i = 1 + 49
+a = 55
+while a > 54 :
+	a = a - 2
+	print(a / 16)
+	print(a)
+	print(a * i)
+print(i)
+m = (156 + 36)
+print(a)
+# output
+# 3.3125
+# 53
+# 2650
+# 50
+# 53
+
+# code
+k = 6 + 47
+if k < 244 :
+	print(k)
+for j in range(109, 112) :
+	print(j)
+	print(j)
+print(j)
+# output
+# 53
+# 109
+# 109
+# 110
+# 110
+# 111
+# 111
+# 111
+
+# code
+for e in range(156, 157, 1) :
+	e = (197 * 91)/(24 % e)
+	print(e)
+e = 122 / 66
+print(e % e)
+print(e)
+e = e * 19
+print(e / e)
+n = 176 - 105
+print(n)
+print(n)
+# output
+# 746.9583333333334
+# 0.0
+# 1.8484848484848484
+# 1.0
+# 71
+# 71
+
+# code
+i = 234
+while i > 233 :
+	i = i - 2
+	if  i <= 127 :
+		print(i)
+		print(i)
+	n = (i % i)
+	print(i)
+i = (106 + 26)
+m = 113
+print(i)
+# output
+# 232
+# 132
+
+# code
+for f in range(28, 29) :
+	f = f + 173
+f = 246 + 25
+if not f > 226 :
+	print(f)
+	s = 189
+	print(f * f)
+f = 161 / f
+print(f)
+print(f * f)
+# output
+# 0.5940959409594095
+# 0.35294998706444625
+
+# code
+print(88)
+if 5 >= 1 :
+	print(248)
+	p = (17 * 5)
+print(15)
+x = 177
+x = (x - x)
+b = 12
+while b > 11 :
+	b = b - 1
+	x = 151 + 101
+print(x)
+# output
+# 88
+# 248
+# 15
+# 252
+
+# code
+d = 176
+while d >= 173 :
+	d = d - 2
+	print(d - 198)
+d = (d + d)+(d + 86)
+print(d)
+# output
+# -24
+# -26
+# 602
+
+# code
+a = 160 * 3
+y = a - 215
+if not y != 94 :
+	y = 184 / 54
+	print(y)
+	v = (a % 128)
+if y != 62 :
+	h = 237
+	a = (h % a)
+print(y)
+print(a)
+# output
+# 265
+# 237
+
+# code
+print(105)
+if 2 >= 0 :
+	print(112)
+	l = (160 + 140)
+	n = (8 + l)
+print(177)
+# output
+# 105
+# 112
+# 177
+
+# code
+v = 156
+while v < 157 :
+	v = v + 1
+	print(v)
+print(v + v)
+v = (v / v)
+print(v)
+# output
+# 157
+# 314
+# 1.0
+
+# code
+for f in range(217, 220, 2) :
+	n = 157
+if not f <= f :
+	q = (107 / f)%(247 % 52)+(150 % f)*(f - f)/(209 / 23)
+	f = 48
+print(f)
+# output
+# 219
+
+# code
+i = 7 % 48
+q = 131
+while q < 136 :
+	q = q + 2
+	d = 79
+print(i % 184)
+q = (226 / i)%(173 % q)
+print(q)
+k = q / 202
+print(q)
+print(q - q)
+# output
+# 7
+# 32.285714285714285
+# 32.285714285714285
+# 0.0
+
+# code
+t = 150
+while t >= 149 :
+	t = t - 1
+	print(t)
+	print(t)
+	k = 220
+print(t)
+# output
+# 149
+# 149
+# 148
+# 148
+# 148
+
+# code
+b = 38
+while b > 33 :
+	b = b - 2
+	h = 111
+	print(b)
+print(b)
+# output
+# 36
+# 34
+# 32
+# 32
+
+# code
+b = 66
+while b < 67 :
+	b = b + 1
+	if  b == 136 :
+		p = 5
+		u = (212 / 144)*(69 % p)*(213 % 45)
+		p = 231 * 66
+k = (b / 152)/(0 - b)*(b / 5)+(237 - b)
+print(b)
+# output
+# 67
+
+# code
+s = 150
+while s < 153 :
+	s = s + 2
+	u = (243 / 88)
+n = 107
+print(n)
+print(s)
+print(n)
+# output
+# 107
+# 154
+# 107
+
+# code
+c = 79
+for q in range(87, 92, 3) :
+	print(c)
+	print(c)
+	c = q / q
+print(c)
+print(c)
+print(q)
+print(q)
+if q > 139 :
+	print(c)
+print(c)
+# output
+# 79
+# 79
+# 1.0
+# 1.0
+# 1.0
+# 1.0
+# 90
+# 90
+# 1.0
+
+# code
+v = 1 / 4
+g = 99
+j = g / 86
+g = v % 106
+d = v * g
+d = (j * 77)
+if not d >= 70 :
+	i = d * 227
+	print(i)
+	print(i)
+print(v)
+# output
+# 0.25
+
+# code
+x = 249
+b = 146
+while b < 149 :
+	b = b + 2
+	g = 104
+	x = (x / 32)%(103 / 79)%(b + b)
+	if x < 125 :
+		x = g - 8
+		print(x % 186)
+print(b + 124)
+# output
+# 96
+# 96
+# 274
+
+# code
+print(9)
+print(162)
+print(236)
+p = 148
+q = 250
+w = 50
+print(q)
+# output
+# 9
+# 162
+# 236
+# 250
+
+# code
+x = 84
+x = (x / 117)+(167 - x)*(130 / x)*(x / x)%(x / x)/(41 * x)
+x = 67 - 108
+w = 106
+while w >= 105 :
+	w = w - 2
+	p = (x - w)%(x + x)
+	print(w)
+	x = (x + 99)
+print(x)
+print(w)
+# output
+# 104
+# 58
+# 104
+
+# code
+a = 227
+while a < 232 :
+	a = a + 2
+	print(a)
+	s = 51
+	if not a == 131 :
+		print(s + s)
+j = 105
+j = (j + 145)
+if j == j :
+	j = (j % j)
+print(j - j)
+# output
+# 229
+# 102
+# 231
+# 102
+# 233
+# 102
+# 0
+
+# code
+print(5 + 146)
+print(248)
+m = (5 - 8)
+if m != 91 :
+	m = 146 - 206
+elif not m <= m :
+	print(m)
+print(m)
+# output
+# 151
+# 248
+# -60
+
+# code
+print(195)
+if not 6 <= 0 :
+	z = 162 / 60
+i = (2 * 96)/(99 / 2)
+for a in range(29, 32) :
+	y = 229
+print(i)
+# output
+# 195
+# 3.878787878787879
+
+# code
+for b in range(50, 53) :
+	b = b + 198
+if b >= 49 :
+	print(b)
+b = b % 156
+q = 50
+print(b)
+print(b)
+n = 34
+print(b)
+print(b % b)
+# output
+# 250
+# 94
+# 94
+# 94
+# 0
+
+# code
+o = 84
+t = 123
+t = (o * 8)
+if o > 247 :
+	p = 70
+print(t)
+r = 245
+while r < 248 :
+	r = r + 2
+	l = 208
+print(r)
+# output
+# 672
+# 249
+
+# code
+q = 47
+while q > 42 :
+	q = q - 3
+	if q > q :
+		print(q - q)
+		z = 24
+		print(q)
+		print(q)
+if q < q :
+	q = (q * q)
+print(q)
+# output
+# 41
+
+# code
+if 1 < 203 :
+	c = (1 + 192)
+for p in range(187, 192, 2) :
+	print(p)
+u = 190
+f = 76
+f = 4 + 120
+v = 41
+print(u)
+# output
+# 187
+# 189
+# 191
+# 190
+
+# code
+print(200)
+for u in range(163, 168, 2) :
+	g = 161
+i = 175
+print(i)
+if u != i :
+	print(i)
+i = 235
+print(i)
+k = 199
+print(i)
+# output
+# 200
+# 175
+# 175
+# 235
+# 235
+
+# code
+print(136)
+w = 115
+while w >= 114 :
+	w = w - 1
+	print(w)
+	print(w - 24)
+	u = (204 - 152)
+	print(u)
+w = (247 / 241)
+print(w)
+print(w)
+# output
+# 136
+# 114
+# 90
+# 52
+# 113
+# 89
+# 52
+# 1.0248962655601659
+# 1.0248962655601659
+
+# code
+x = 155 + 34
+x = (251 / 55)-(x % 121)
+l = 90
+while l > 85 :
+	l = l - 3
+	x = 143 / x
+	x = (178 - 58)
+	print(x % 215)
+print(x)
+print(x / 104)
+print(x)
+# output
+# 120
+# 120
+# 120
+# 1.1538461538461537
+# 120
+
+# code
+b = 4
+while b <= 7 :
+	b = b + 2
+	print(b * 192)
+b = b / 48
+if b >= b :
+	print(b)
+	m = 200
+	print(b)
+b = b / 65
+print(b)
+# output
+# 1152
+# 1536
+# 0.16666666666666666
+# 0.16666666666666666
+# 0.002564102564102564
+
+# code
+z = 178
+while z < 179 :
+	z = z + 2
+	o = 217
+	v = (244 / 144)*(122 + z)
+print(z)
+# output
+# 180
+
+# code
+print(17)
+print(50)
+o = 214
+while o < 219 :
+	o = o + 2
+	print(o - o)
+	q = (o / o)*(o % o)/(238 - 252)+(44 % o)+(125 / o)
+i = (251 + o)/(166 - 130)
+o = (180 - 50)*(27 % i)-(102 - 241)+(150 - 60)
+if o >= 140 :
+	print(o / o)
+print(i * 6)
+# output
+# 17
+# 50
+# 0
+# 0
+# 0
+# 1.0
+# 78.5
+
+# code
+for h in range(119, 122) :
+	if h == h :
+		print(h + 203)
+		h = 110 % 11
+		y = (246 % 151)-(h % 24)
+a = 252
+a = 254 - h
+if a == 232 :
+	j = 95
+	print(a + a)
+print(a)
+# output
+# 322
+# 323
+# 324
+# 254
+
+# code
+u = 57
+u = (u + 117)
+for b in range(193, 196, 2) :
+	o = (39 + u)
+	h = 138
+print(u)
+# output
+# 174
+
+# code
+print(11)
+j = 192 / 184
+h = 9
+o = 5
+for s in range(120, 123) :
+	print(h % o)
+g = (j - 25)/(3 / 19)
+e = 87 - 101
+print(h % s)
+# output
+# 11
+# 4
+# 4
+# 4
+# 9
+
+# code
+a = 81
+while a <= 82 :
+	a = a + 1
+	print(a)
+print(a)
+a = 110 / a
+a = (a / a)
+if a < 235 :
+	o = 197
+	print(o)
+print(a)
+# output
+# 82
+# 83
+# 83
+# 197
+# 1.0
+
+# code
+u = 8 / 2
+u = 234
+if  u > u :
+	l = 110
+	u = l / l
+print(u)
+print(u)
+# output
+# 234
+# 234
+
+# code
+y = 110
+while y < 113 :
+	y = y + 2
+	r = (92 - 180)
+print(y)
+y = y / y
+if y == y :
+	d = (y + 113)
+u = 136
+print(y)
+print(y / 98)
+# output
+# 114
+# 1.0
+# 0.01020408163265306
+
+# code
+print(1 % 12)
+print(89)
+for q in range(215, 220, 2) :
+	print(q / 42)
+	print(q)
+print(q)
+z = 90
+if z != 149 :
+	c = 169
+print(z / z)
+print(q % z)
+# output
+# 1
+# 89
+# 5.119047619047619
+# 215
+# 5.166666666666667
+# 217
+# 5.214285714285714
+# 219
+# 219
+# 1.0
+# 39
+
+# code
+d = 6
+print(d)
+m = 89
+a = 182
+while a >= 177 :
+	a = a - 2
+	m = m - a
+	print(d)
+print(m)
+# output
+# 6
+# 6
+# 6
+# 6
+# -445
+
+# code
+print(2 + 179)
+z = 104
+while z > 99 :
+	z = z - 2
+	print(z)
+	print(z)
+	m = z / z
+c = 228
+n = 110
+if n != 230 :
+	h = 152 - 208
+print(n)
+# output
+# 181
+# 102
+# 102
+# 100
+# 100
+# 98
+# 98
+# 110
+
+# code
+o = 9 % 227
+j = 75
+d = 140
+d = j / 7
+j = j / 248
+if j >= 158 :
+	print(d)
+print(j)
+# output
+# 0.3024193548387097
+
+# code
+f = 63
+r = 128
+while r > 123 :
+	r = r - 3
+	z = 195
+	z = (92 / f)
+print(f)
+print(r)
+print(f)
+# output
+# 63
+# 122
+# 63
+
+# code
+if 6 == 9 :
+	o = (133 / 6)-(204 % 241)
+print(0 / 161)
+n = 1 + 211
+print(n)
+n = 35
+while n <= 36 :
+	n = n + 1
+	y = (12 * n)+(156 % n)-(66 % 187)
+n = (137 + 217)
+print(n * n)
+# output
+# 0.0
+# 212
+# 125316
+
+# code
+c = 72
+while c > 71 :
+	c = c - 2
+	print(c)
+l = 195
+g = 162
+if not l < 156 :
+	print(g)
+	print(l - c)
+print(g)
+# output
+# 70
+# 162
+# 125
+# 162
+
+# code
+o = 244
+t = 44
+a = 131
+while a <= 132 :
+	a = a + 2
+	x = 86
+	x = o - a
+v = 120
+o = v % v
+print(a - o)
+# output
+# 133
+
+# code
+if 1 <= 25 :
+	x = 170
+print(4 + 5)
+for x in range(86, 87, 2) :
+	w = 76 % 228
+	w = (x + 110)+(w - x)*(153 % x)-(x - 169)/(w + 197)/(137 / x)
+	print(w)
+g = 58
+print(x)
+print(x + 142)
+# output
+# 9
+# -473.8091494879816
+# 86
+# 228
+
+# code
+y = 2 + 6
+y = y + y
+y = y % 218
+z = 23
+while z >= 20 :
+	z = z - 2
+	a = 2 * 77
+	print(z)
+a = 33
+print(z)
+print(y)
+# output
+# 21
+# 19
+# 19
+# 16
+
+# code
+print(188)
+n = 255
+while n >= 250 :
+	n = n - 2
+	k = 111 - 33
+	print(n)
+r = n / 101
+z = 178
+print(z)
+print(n)
+print(n)
+# output
+# 188
+# 253
+# 251
+# 249
+# 178
+# 249
+# 249
+
+# code
+z = 124
+print(z)
+m = 209
+while m > 208 :
+	m = m - 1
+	w = 8
+	if w >= 255 :
+		print(z - 206)
+		print(m)
+	if m < z :
+		print(w - 233)
+print(z)
+# output
+# 124
+# 124
+
+# code
+c = 107
+while c >= 102 :
+	c = c - 2
+	t = (c + 169)
+	print(t)
+print(c)
+c = (201 % 38)
+t = 68
+t = t - 113
+print(c * c)
+# output
+# 274
+# 272
+# 270
+# 101
+# 121
+
+# code
+for g in range(186, 191, 2) :
+	print(g)
+	print(g)
+f = 37
+x = 247
+print(x / 80)
+# output
+# 186
+# 186
+# 188
+# 188
+# 190
+# 190
+# 3.0875
+
+# code
+o = 112
+while o < 113 :
+	o = o + 2
+	print(o - o)
+	w = 238
+print(o)
+# output
+# 0
+# 114
+
+# code
+n = 53
+while n < 56 :
+	n = n + 2
+	b = 137
+print(n)
+print(n)
+# output
+# 57
+# 57
+
+# code
+print(5 / 145)
+k = 200
+k = 109
+while k >= 106 :
+	k = k - 2
+	if k != k :
+		o = 12
+		print(k)
+		print(o)
+		t = 133
+print(k)
+# output
+# 0.034482758620689655
+# 105
+
+# code
+r = 165
+v = 190
+while v >= 187 :
+	v = v - 2
+	r = 199 % 250
+	y = 115
+	print(v)
+print(v / v)
+# output
+# 188
+# 186
+# 1.0
+
+# code
+h = 47
+print(h)
+for i in range(48, 53) :
+	print(i)
+print(i)
+i = h * 13
+o = 224
+g = 29
+print(i)
+print(i * i)
+print(i % o)
+# output
+# 47
+# 48
+# 49
+# 50
+# 51
+# 52
+# 52
+# 611
+# 373321
+# 163
+
+# code
+z = 1 + 0
+b = 191
+if z < z :
+	b = (b + 228)
+	print(b)
+print(b % 95)
+print(z + z)
+print(z)
+h = 91
+z = (h - 82)
+print(z % 198)
+# output
+# 1
+# 2
+# 1
+# 9
+
+# code
+print(237)
+if  8 != 3 :
+	print(239)
+print(2 - 2)
+print(8)
+print(189)
+w = 133
+for z in range(224, 229) :
+	print(z)
+print(w)
+print(z)
+# output
+# 237
+# 239
+# 0
+# 8
+# 189
+# 224
+# 225
+# 226
+# 227
+# 228
+# 133
+# 228
+
+# code
+p = 19
+w = 142
+while w <= 147 :
+	w = w + 3
+	print(w - w)
+	print(w)
+if w > 206 :
+	p = w / p
+	l = 57 + 129
+f = (161 % p)
+print(p)
+# output
+# 0
+# 145
+# 0
+# 148
+# 19
+
+# code
+print(1 * 3)
+g = (9 * 1)
+for g in range(183, 188) :
+	if  g > g :
+		g = g % 181
+print(g * g)
+# output
+# 3
+# 34969
+
+# code
+n = 145
+while n > 140 :
+	n = n - 2
+	if not n > n :
+		print(n)
+		y = 240
+		x = 217
+t = (37 + n)
+print(n)
+# output
+# 143
+# 141
+# 139
+# 139
+
+# code
+print(215)
+print(69)
+g = 7 - 2
+g = (71 % 101)
+b = 203
+if b < b :
+	b = 152 % b
+a = 209
+while a <= 214 :
+	a = a + 3
+	print(g)
+print(g)
+# output
+# 215
+# 69
+# 71
+# 71
+# 71
+
+# code
+r = 149
+print(r % 237)
+r = (r - 140)
+print(r * 114)
+k = 18
+while k < 19 :
+	k = k + 2
+	print(k)
+	print(k)
+k = k - 112
+print(k)
+# output
+# 149
+# 1026
+# 20
+# 20
+# -92
+
+# code
+c = 251
+while c <= 256 :
+	c = c + 3
+	print(c)
+	n = (c % 229)
+	print(c)
+	if c != c :
+		print(n)
+		u = 46
+		a = 239 + 91
+print(c)
+# output
+# 254
+# 254
+# 257
+# 257
+# 257
+
+# code
+print(216)
+for y in range(234, 239, 2) :
+	y = 234 + y
+	if  y < 64 :
+		y = (175 - y)
+	else :
+		print(y + 143)
+		print(y * y)
+print(y)
+print(y)
+# output
+# 216
+# 611
+# 219024
+# 613
+# 220900
+# 615
+# 222784
+# 472
+# 472
+
+# code
+t = 15
+i = 117
+i = (i % t)
+print(t)
+e = 209
+while e > 204 :
+	e = e - 3
+	t = (3 - 6)+(114 / e)
+print(t)
+# output
+# 15
+# -2.438423645320197
+
+# code
+r = 127
+while r <= 128 :
+	r = r + 1
+	print(r)
+if not r > 146 :
+	print(r / r)
+print(r)
+print(r)
+# output
+# 128
+# 129
+# 1.0
+# 129
+# 129
+
+# code
+for u in range(88, 93) :
+	print(u % 19)
+	print(u)
+	print(u)
+u = (192 / u)/(u * u)*(u * u)
+print(u)
+# output
+# 12
+# 88
+# 88
+# 13
+# 89
+# 89
+# 14
+# 90
+# 90
+# 15
+# 91
+# 91
+# 16
+# 92
+# 92
+# 2.0869565217391304
+
+# code
+print(47)
+if 8 == 3 :
+	print(1 + 2)
+print(198)
+if  3 > 9 :
+	s = 7 + 9
+print(6 * 79)
+# output
+# 47
+# 198
+# 474
+
+# code
+print(206)
+if 4 >= 171 :
+	print(4 - 6)
+	h = 0 * 193
+	print(h)
+v = (5 % 19)
+q = 208
+if not v < 96 :
+	i = 41
+	i = 129
+print(q)
+# output
+# 206
+# 208
+
+# code
+w = 72
+while w > 67 :
+	w = w - 3
+	t = (w + 154)
+	f = 93
+	print(f)
+print(w)
+# output
+# 93
+# 93
+# 66
+
+# code
+e = 70 / 2
+l = 202
+print(l)
+if not l == l :
+	print(l)
+	print(e + 220)
+v = 107
+while v > 106 :
+	v = v - 1
+	print(e)
+print(e)
+# output
+# 202
+# 35.0
+# 35.0
+
+# code
+print(233)
+d = (0 + 158)/(30 - 8)
+d = (d - d)*(d * d)/(236 * 141)-(195 + d)
+c = 94
+p = (143 / d)
+if not p <= 148 :
+	c = (255 / 244)
+print(d)
+# output
+# 233
+# -202.1818181818182
+
+# code
+print(51)
+b = 6 - 9
+b = (171 * b)
+x = 123
+s = 111
+p = 18
+while p <= 21 :
+	p = p + 2
+	print(b / 21)
+r = 136
+print(b / s)
+# output
+# 51
+# -24.428571428571427
+# -24.428571428571427
+# -4.621621621621622
+
+# code
+w = (4 + 2)
+e = 93
+while e <= 94 :
+	e = e + 1
+	o = w * w
+if e >= 171 :
+	o = 134 - w
+	e = (246 / o)
+	print(o)
+print(e)
+# output
+# 95
+
+# code
+x = 174
+f = 23 - x
+x = 18 - f
+o = 123
+while o >= 118 :
+	o = o - 2
+	r = 182
+	c = 245
+	print(x + f)
+	print(x - x)
+print(o)
+# output
+# 18
+# 0
+# 18
+# 0
+# 18
+# 0
+# 117
+
+# code
+j = 131
+e = 125
+while e < 130 :
+	e = e + 2
+	print(j)
+print(e + e)
+# output
+# 131
+# 131
+# 131
+# 262
+
+# code
+print(47)
+print(27)
+l = 215
+while l > 210 :
+	l = l - 3
+	if not l == 35 :
+		print(l)
+		w = (28 - 27)
+		s = 72
+		m = 206
+print(l)
+# output
+# 47
+# 27
+# 212
+# 209
+# 209
+
+# code
+print(0 / 162)
+print(40)
+print(8 + 70)
+c = 87
+print(c)
+o = 63
+while o <= 66 :
+	o = o + 2
+	c = 185 % o
+q = 5
+print(q - q)
+# output
+# 0.0
+# 40
+# 78
+# 87
+# 0
+
+# code
+for v in range(202, 207) :
+	v = 200 + 2
+	print(v + 89)
+	if not v > v :
+		print(v)
+		c = 141 - v
+print(v)
+# output
+# 291
+# 202
+# 291
+# 202
+# 291
+# 202
+# 291
+# 202
+# 291
+# 202
+# 202
+
+# code
+print(220)
+for e in range(49, 50, 1) :
+	i = 67
+if e <= e :
+	x = 149 - e
+z = 84
+print(e)
+print(e)
+# output
+# 220
+# 49
+# 49
+
+# code
+for e in range(79, 80) :
+	print(e / e)
+	print(e)
+	print(e)
+e = e / 153
+print(e * 156)
+# output
+# 1.0
+# 79
+# 79
+# 80.54901960784315
+
+# code
+j = 3 + 122
+print(j)
+if not j <= 116 :
+	b = 170
+	print(j)
+	a = (75 % b)
+	b = j / a
+d = j / 225
+a = 241
+while a <= 242 :
+	a = a + 2
+	r = 165 / a
+print(d)
+# output
+# 125
+# 125
+# 0.5555555555555556
+
+# code
+h = (108 - 2)-(182 + 152)+(6 % 4)*(228 - 64)
+h = (h % h)*(73 % 126)*(h - 109)
+h = h + 87
+z = 23
+while z <= 26 :
+	z = z + 2
+	if h == 14 :
+		a = 218
+print(h)
+# output
+# 87
+
+# code
+print(241)
+print(51)
+print(201)
+if 2 > 1 :
+	y = (7 + 6)/(1 % 144)%(40 - 8)
+	w = 101
+j = (127 - 252)
+print(j + 43)
+# output
+# 241
+# 51
+# 201
+# -82
+
+# code
+print(1 + 161)
+print(253)
+print(9 - 5)
+s = (1 * 8)-(239 % 247)
+print(s)
+s = 245
+while s <= 248 :
+	s = s + 2
+	print(s)
+	c = s / 151
+print(s * s)
+# output
+# 162
+# 253
+# 4
+# -231
+# 247
+# 249
+# 62001
+
+# code
+print(13)
+g = 0
+while g > -5 :
+	g = g - 2
+	print(g % g)
+	p = 125
+	if  g >= p :
+		print(p)
+print(g)
+# output
+# 13
+# 0
+# 0
+# 0
+# -6
+
+# code
+m = 208 / 194
+m = (m % m)%(182 / 123)
+s = 25
+print(s)
+for t in range(247, 252) :
+	print(s)
+	t = t + 233
+	x = 156
+print(m * t)
+# output
+# 25
+# 25
+# 25
+# 25
+# 25
+# 25
+# 0.0
+
+# code
+k = 115
+while k < 116 :
+	k = k + 2
+	j = (82 / 33)
+	h = (246 / 68)
+print(k)
+# output
+# 117
+
+# code
+d = 192
+while d < 193 :
+	d = d + 1
+	print(d)
+	print(d)
+	e = (d + 40)%(246 + d)%(240 - 231)
+print(d * 110)
+# output
+# 193
+# 193
+# 21230
+
+# code
+w = 149
+print(w / 109)
+e = 160
+while e < 161 :
+	e = e + 2
+	print(w)
+	u = 157
+	print(w)
+	r = 50
+print(e)
+# output
+# 1.3669724770642202
+# 149
+# 149
+# 162
+
+# code
+print(85)
+u = 120
+while u < 123 :
+	u = u + 2
+	print(u)
+	print(u)
+print(u)
+print(u % 172)
+print(u)
+u = u - u
+print(u + 234)
+# output
+# 85
+# 122
+# 122
+# 124
+# 124
+# 124
+# 124
+# 124
+# 234
+
+# code
+if 4 != 125 :
+	g = 114
+	q = 209
+print(3 - 7)
+for j in range(113, 118, 2) :
+	print(j)
+	t = 161
+j = (j + 205)%(j * 113)
+k = 186
+print(j)
+print(j - j)
+# output
+# -4
+# 113
+# 115
+# 117
+# 322
+# 0
+
+# code
+b = 1 % 40
+print(b)
+print(b)
+t = 173
+l = 84
+print(l)
+b = (l + b)%(229 + 104)-(l % 246)
+t = (107 % 119)
+s = 46
+while s < 47 :
+	s = s + 1
+	print(t)
+print(s)
+# output
+# 1
+# 1
+# 84
+# 107
+# 47
+
+# code
+u = (0 * 184)
+if  u == u :
+	print(u)
+	u = 205 * u
+	l = 182
+elif u != u :
+	z = (u / 250)-(216 % 79)
+print(u + 34)
+# output
+# 0
+# 34
+
+# code
+j = (125 + 14)
+print(j)
+print(j)
+print(j)
+y = 200
+while y < 205 :
+	y = y + 3
+	x = 96 / 255
+	print(y)
+	print(x)
+print(j)
+# output
+# 139
+# 139
+# 139
+# 203
+# 0.3764705882352941
+# 206
+# 0.3764705882352941
+# 139
+
+# code
+t = 89
+while t > 84 :
+	t = t - 2
+	print(t / 112)
+if not t == t :
+	print(t)
+	e = 3
+	q = 250
+print(t)
+print(t % t)
+# output
+# 0.7767857142857143
+# 0.7589285714285714
+# 0.7410714285714286
+# 83
+# 0
+
+# code
+k = 6 * 9
+print(k)
+if not k < k :
+	print(k)
+	print(k)
+	k = 221 % 108
+else :
+	print(k)
+	print(k)
+print(k)
+# output
+# 54
+# 54
+# 54
+# 5
+
+# code
+print(144)
+print(91)
+print(137)
+for n in range(120, 121, 2) :
+	print(n)
+	s = 122
+print(n)
+# output
+# 144
+# 91
+# 137
+# 120
+# 120
+
+# code
+c = 137
+while c >= 136 :
+	c = c - 2
+	if  c == c :
+		g = c - 62
+		x = 163
+print(c)
+# output
+# 135
+
+# code
+print(0)
+print(224)
+o = 21
+while o < 24 :
+	o = o + 2
+	e = 58 - 89
+	p = e % 90
+print(o)
+# output
+# 0
+# 224
+# 25
+
+# code
+l = 33
+while l < 38 :
+	l = l + 2
+	m = l / l
+l = (115 + l)
+print(l)
+# output
+# 154
+
+# code
+print(39)
+for d in range(27, 28, 1) :
+	i = 31 - d
+	print(i)
+d = 140 + d
+n = 226 % 178
+print(d)
+if  n < n :
+	s = (185 * 155)
+print(n)
+# output
+# 39
+# 4
+# 167
+# 48
+
+# code
+if 3 != 5 :
+	print(138)
+h = 207
+while h < 208 :
+	h = h + 2
+	m = h % h
+	m = (2 + h)
+	if not h == m :
+		j = 247
+y = (h % h)
+print(h)
+# output
+# 138
+# 209
+
+# code
+o = (5 * 3)/(9 + 2)
+for z in range(236, 237) :
+	if z != 142 :
+		print(o)
+		o = o % 144
+		e = (z / z)%(o * o)
+		z = (212 - o)%(88 * 191)+(e - e)
+o = (z - 30)%(225 - 36)
+t = (120 + 110)
+print(o - o)
+print(o)
+# output
+# 1.3636363636363635
+# 0.0
+# 180.63636363636363
+
+# code
+print(1 + 155)
+print(2 / 3)
+f = 129
+while f >= 128 :
+	f = f - 2
+	if f < 71 :
+		v = (f * f)+(f % 12)
+if  f < f :
+	print(f)
+f = (96 / 1)
+print(f)
+# output
+# 156
+# 0.6666666666666666
+# 96.0
+
+# code
+n = (5 / 62)
+print(n)
+t = (182 - 115)
+a = 50
+while a <= 55 :
+	a = a + 3
+	print(n)
+	v = (n - a)
+t = t + 39
+if  n < 166 :
+	print(t)
+print(t)
+# output
+# 0.08064516129032258
+# 0.08064516129032258
+# 0.08064516129032258
+# 106
+# 106
+
+# code
+print(32)
+print(198)
+if not 8 > 195 :
+	print(115)
+	print(109)
+	v = (169 + 2)
+print(185)
+p = 198
+t = 100
+while t <= 103 :
+	t = t + 2
+	p = 77
+print(t)
+# output
+# 32
+# 198
+# 115
+# 109
+# 185
+# 104
+
+# code
+print(17)
+print(38)
+g = 90
+while g <= 95 :
+	g = g + 2
+	print(g)
+	k = 236
+	print(g)
+print(g)
+q = (233 / 123)
+print(q)
+# output
+# 17
+# 38
+# 92
+# 92
+# 94
+# 94
+# 96
+# 96
+# 96
+# 1.8943089430894309
+
+# code
+print(134)
+for e in range(255, 258, 2) :
+	e = (e / e)
+	if e <= 137 :
+		e = 251 / e
+		k = 42 - 63
+	if not e != 208 :
+		print(e)
+	e = e / e
+j = 16
+print(e)
+# output
+# 134
+# 1.0
+
+# code
+q = 203
+w = 238
+while w <= 241 :
+	w = w + 2
+	i = 2
+	e = 65
+	q = w + i
+print(w)
+# output
+# 242
+
+# code
+n = 1 / 220
+n = (n / 118)+(n + n)/(106 / 79)+(n - 204)/(n + n)%(n % 218)
+t = 45
+while t < 46 :
+	t = t + 1
+	y = 71
+	print(n / y)
+print(n)
+print(n)
+# output
+# 0.00015998979601582902
+# 0.01135927551712386
+# 0.01135927551712386
+
+# code
+if 5 != 64 :
+	print(4 * 5)
+print(228)
+r = 27
+print(r)
+o = (r % 108)
+o = 129
+while o <= 130 :
+	o = o + 2
+	r = (r / o)+(26 * 242)*(9 / o)
+print(r)
+# output
+# 20
+# 228
+# 27
+# 432.4809160305344
+
+# code
+if  1 > 135 :
+	w = (241 + 0)
+	print(w)
+for o in range(9, 14) :
+	print(o)
+print(o / o)
+print(o)
+print(o)
+# output
+# 9
+# 10
+# 11
+# 12
+# 13
+# 1.0
+# 13
+# 13
+
+# code
+if not 5 > 7 :
+	print(208)
+	print(180)
+w = 137
+while w <= 140 :
+	w = w + 2
+	print(w)
+t = 48
+j = 114
+print(w)
+print(t)
+# output
+# 208
+# 180
+# 139
+# 141
+# 141
+# 48
+
+# code
+g = 39
+while g < 42 :
+	g = g + 2
+	f = 42 + g
+	print(g + 201)
+if  g == g :
+	i = 47
+print(g)
+# output
+# 242
+# 244
+# 43
+
+# code
+l = 77
+while l > 76 :
+	l = l - 2
+	d = 35
+	d = (d - d)
+if l <= 114 :
+	print(l)
+print(l)
+# output
+# 75
+# 75
+
+# code
+s = 8 + 2
+if not s <= s :
+	print(s / 151)
+	s = (s / 50)*(s - 117)
+x = 114
+while x >= 109 :
+	x = x - 3
+	print(x - s)
+	g = 226
+print(x)
+print(x)
+# output
+# 101
+# 98
+# 108
+# 108
+
+# code
+for u in range(109, 112, 2) :
+	print(u)
+	u = (u % u)-(252 / u)
+	i = 136
+	t = 47
+u = u + u
+u = 180 + 77
+u = u - 49
+print(u)
+# output
+# 109
+# 111
+# 208
+
+# code
+if not 5 != 1 :
+	print(147)
+	d = 120
+print(217)
+for z in range(131, 132, 2) :
+	if z == 24 :
+		z = 13
+print(z)
+print(z * z)
+# output
+# 217
+# 131
+# 17161
+
+# code
+i = 47
+print(i)
+print(i)
+print(i)
+i = 230 + i
+if  i <= i :
+	print(i)
+else :
+	print(i)
+i = (242 / 40)
+print(i)
+# output
+# 47
+# 47
+# 47
+# 277
+# 6.05
+
+# code
+o = 9
+while o < 14 :
+	o = o + 2
+	if o > o :
+		k = o % 229
+		h = 215
+		x = 197
+		print(x)
+o = (o - o)
+print(o)
+# output
+# 0
+
+# code
+l = 254
+while l > 251 :
+	l = l - 2
+	print(l + l)
+	v = 251
+	v = (v - l)/(130 - v)
+	v = (v - 227)
+print(l)
+l = (153 + 99)
+u = 83
+print(l)
+# output
+# 504
+# 500
+# 250
+# 252
+
+# code
+for c in range(210, 215) :
+	r = 99
+	if c == 20 :
+		z = r * r
+		print(z)
+print(c)
+# output
+# 214
+
+# code
+print(74)
+print(45)
+q = 205
+k = 176
+while k < 179 :
+	k = k + 2
+	print(q)
+print(k / k)
+# output
+# 74
+# 45
+# 205
+# 205
+# 1.0
+
+# code
+w = 16
+while w >= 11 :
+	w = w - 2
+	if w == 228 :
+		print(w - 11)
+print(w)
+# output
+# 10
+
+# code
+e = 204
+while e >= 203 :
+	e = e - 2
+	r = e % 1
+	print(r)
+	o = (15 / e)
+print(e)
+# output
+# 0
+# 202
+
+# code
+if 2 < 73 :
+	i = 7
+	q = 204
+s = 55
+while s <= 60 :
+	s = s + 2
+	g = 50
+	d = 107 / 61
+	print(g)
+print(s)
+print(s)
+# output
+# 50
+# 50
+# 50
+# 61
+# 61
+
+# code
+if not 4 <= 34 :
+	print(126)
+	print(145)
+b = 4 % 212
+for z in range(109, 112) :
+	print(z / 88)
+	r = 243
+	print(r)
+print(b)
+b = z / 63
+print(z * 52)
+# output
+# 1.2386363636363635
+# 243
+# 1.25
+# 243
+# 1.2613636363636365
+# 243
+# 4
+# 5772
+
+# code
+print(74)
+if not 7 != 2 :
+	print(142)
+	print(120)
+	b = 150 + 182
+	b = (b % b)-(124 % 93)*(102 - 23)
+s = 213
+while s < 214 :
+	s = s + 2
+	z = 127
+print(s)
+# output
+# 74
+# 215
+
+# code
+z = 127
+while z <= 128 :
+	z = z + 1
+	c = 146
+	c = (c - z)
+if not z >= 84 :
+	e = z % z
+print(z)
+# output
+# 129
+
+# code
+print(23)
+t = 70
+while t < 75 :
+	t = t + 3
+	g = (39 % 209)/(t - 123)-(204 - 225)
+print(t)
+# output
+# 23
+# 76
+
+# code
+r = 79
+while r < 84 :
+	r = r + 3
+	if r != r :
+		print(r - r)
+		print(r)
+		print(r)
+print(r)
+# output
+# 85
+
+# code
+for k in range(56, 57) :
+	print(k % 127)
+print(k)
+print(k)
+k = (241 * 24)/(162 % 172)
+print(k)
+print(k + k)
+print(k)
+m = 34
+if k >= 56 :
+	i = (m * k)*(m + 149)
+print(m - k)
+# output
+# 56
+# 56
+# 56
+# 35.7037037037037
+# 71.4074074074074
+# 35.7037037037037
+# -1.7037037037037024
+
+# code
+u = 141
+while u > 136 :
+	u = u - 2
+	b = 107
+	print(u)
+print(u)
+print(u * u)
+print(u)
+if u != 208 :
+	j = 64 % u
+print(u)
+# output
+# 139
+# 137
+# 135
+# 135
+# 18225
+# 135
+# 135
+
+# code
+y = 195
+while y > 190 :
+	y = y - 2
+	r = (y + 45)
+	if r <= y :
+		print(y)
+		r = (r * 13)
+d = 39
+if d < 207 :
+	print(d)
+print(d)
+# output
+# 39
+# 39
+
+# code
+if  1 == 58 :
+	g = 227
+	f = (83 + 190)%(187 % 222)
+	g = 109 / f
+else :
+	print(6 + 107)
+	z = 91 - 2
+print(5 % 8)
+w = (7 + 3)-(2 * 1)
+w = (185 / w)%(w + w)
+print(w)
+# output
+# 113
+# 5
+# 7.125
+
+# code
+z = 196
+if not z == z :
+	y = 36
+	k = (y * 125)%(y / 136)
+	print(z % 180)
+else :
+	z = (40 + 150)
+	print(z)
+print(z + 68)
+z = (14 - 117)
+print(z)
+# output
+# 190
+# 258
+# -103
+
+# code
+l = 165
+b = 219
+while b < 224 :
+	b = b + 2
+	print(b - b)
+	e = 77
+print(b)
+if not b >= l :
+	b = l + 133
+print(b)
+print(l)
+# output
+# 0
+# 0
+# 0
+# 225
+# 225
+# 165
+
+# code
+z = 28
+while z <= 29 :
+	z = z + 2
+	e = (z + z)
+if not z <= 37 :
+	o = (z / z)*(z * 247)%(z * z)
+	print(o)
+	l = 112
+z = 245 - z
+print(z)
+# output
+# 215
+
+# code
+q = 27
+while q <= 32 :
+	q = q + 3
+	o = 185
+	print(q)
+	print(q)
+	j = (q * q)%(27 / 232)*(1 / 107)+(92 + q)
+print(q % q)
+print(q)
+if q <= q :
+	q = 116 + 91
+print(q)
+# output
+# 30
+# 30
+# 33
+# 33
+# 0
+# 33
+# 207
+
+# code
+if  9 != 22 :
+	w = 77 * 8
+for k in range(97, 100, 2) :
+	print(k)
+print(k)
+print(k - 183)
+# output
+# 97
+# 99
+# 99
+# -84
+
+# code
+if  2 > 3 :
+	e = (1 / 1)*(1 + 8)+(172 * 1)%(2 + 3)-(95 % 1)
+y = 222
+while y <= 223 :
+	y = y + 2
+	print(y % y)
+	h = (144 % y)
+print(y)
+# output
+# 0
+# 224
+
+# code
+d = 214
+print(d)
+q = (45 % d)
+r = 217
+v = 22 / d
+for x in range(24, 29) :
+	print(v)
+	w = 239
+	p = 125
+print(q)
+# output
+# 214
+# 0.102803738317757
+# 0.102803738317757
+# 0.102803738317757
+# 0.102803738317757
+# 0.102803738317757
+# 45
+
+# code
+print(49)
+n = (229 * 2)/(4 * 4)
+if not n == 95 :
+	l = 88
+	print(n)
+for v in range(95, 96) :
+	if n >= n :
+		n = (n - 7)
+		print(n * n)
+print(n)
+print(n)
+# output
+# 49
+# 28.625
+# 467.640625
+# 21.625
+# 21.625
+
+# code
+c = 231
+print(c)
+i = 110
+while i >= 105 :
+	i = i - 2
+	if  i > i :
+		print(c)
+	print(c)
+	p = (i + 97)
+m = 242 / 53
+print(m)
+# output
+# 231
+# 231
+# 231
+# 231
+# 4.566037735849057
+
+# code
+o = 4 % 1
+l = 215 - 210
+if o == 28 :
+	print(o)
+elif l == l :
+	print(o - 162)
+print(o - o)
+# output
+# -162
+# 0
+
+# code
+if 2 < 40 :
+	print(121)
+	h = 127
+	m = 67
+	k = 114
+v = 2 - 211
+e = v + 36
+n = 235
+while n > 234 :
+	n = n - 1
+	print(e % 102)
+print(e)
+# output
+# 121
+# 31
+# -173
+
+# code
+print(9 * 0)
+print(3 % 136)
+c = 75
+while c <= 80 :
+	c = c + 2
+	print(c)
+	l = (10 / 75)/(77 * c)
+print(c)
+print(c)
+# output
+# 0
+# 3
+# 77
+# 79
+# 81
+# 81
+# 81
+
+# code
+print(3 / 3)
+j = 239
+while j >= 234 :
+	j = j - 2
+	g = 173
+j = (143 - 62)
+if  j > j :
+	j = (33 + j)/(j + 17)
+print(j)
+j = (34 % j)-(108 / j)*(113 / j)
+print(j % 243)
+# output
+# 1.0
+# 81
+# 32.13991769547325
+
+# code
+a = 34
+while a <= 35 :
+	a = a + 2
+	e = 179
+	print(e)
+	print(e)
+	print(a)
+	if a == 59 :
+		z = 187
+		z = 7 + e
+print(a)
+# output
+# 179
+# 179
+# 36
+# 36
+
+# code
+z = (160 * 1)
+print(z)
+for i in range(219, 224, 3) :
+	print(z)
+	e = 193
+print(z)
+if z == 127 :
+	o = 179
+v = 113
+t = (i / v)%(169 - z)-(z % v)/(i + 41)
+print(t)
+# output
+# 160
+# 160
+# 160
+# 160
+# 1.7858945455769035
+
+# code
+p = 28
+while p < 33 :
+	p = p + 2
+	a = (p / 216)
+	a = a + p
+print(p)
+# output
+# 34
+
+# code
+l = 166
+s = 3
+a = 56
+while a < 57 :
+	a = a + 2
+	g = 18 - 176
+l = a - 243
+print(a)
+i = 51
+print(i)
+print(a - 59)
+# output
+# 58
+# 51
+# -1
+
+# code
+if 2 <= 86 :
+	print(153)
+	s = 20 - 4
+	print(s % s)
+	x = 231
+print(87)
+# output
+# 153
+# 0
+# 87
+
+# code
+x = 150
+while x >= 145 :
+	x = x - 3
+	f = 117
+v = 34
+n = 189
+v = (v - 183)
+print(v)
+print(v - v)
+print(v)
+# output
+# -149
+# 0
+# -149
+
+# code
+g = 148
+x = 160
+for f in range(29, 34, 3) :
+	if  g >= x :
+		u = f / x
+		print(u)
+		print(x / 190)
+	g = x - g
+g = x + x
+f = f % x
+print(f)
+# output
+# 32
+
+# code
+for h in range(178, 179, 1) :
+	print(h)
+	print(h + 211)
+	print(h * 230)
+	i = 27
+print(h / h)
+# output
+# 178
+# 389
+# 40940
+# 1.0
+
+# code
+q = 138
+while q > 135 :
+	q = q - 2
+	print(q - 170)
+	e = 222
+	u = (29 / 201)
+print(q % 126)
+# output
+# -34
+# -36
+# 8
+
+# code
+u = 9 + 1
+print(u)
+print(u - u)
+v = 57
+print(u)
+v = 1
+while v < 6 :
+	v = v + 2
+	print(u + u)
+	print(v)
+print(v)
+# output
+# 10
+# 0
+# 10
+# 20
+# 3
+# 20
+# 5
+# 20
+# 7
+# 7
+
+# code
+y = 162
+while y < 167 :
+	y = y + 3
+	print(y)
+	w = y % y
+	f = 196
+n = 57
+print(n)
+# output
+# 165
+# 168
+# 57
+
+# code
+i = (7 + 9)+(102 % 3)
+if i > i :
+	print(i)
+	print(i)
+	print(i)
+	i = 132 + i
+j = 178
+print(i * j)
+print(j)
+print(i)
+print(j)
+# output
+# 2848
+# 178
+# 16
+# 178
+
+# code
+print(6 % 2)
+l = 114 + 1
+l = 233 + l
+if not l < 36 :
+	print(l)
+print(l)
+# output
+# 0
+# 348
+# 348
+
+# code
+print(180)
+x = 239
+while x >= 238 :
+	x = x - 1
+	if not x <= 142 :
+		print(x - 6)
+		z = x + x
+		print(z)
+d = 207
+print(d)
+print(x)
+# output
+# 180
+# 232
+# 476
+# 231
+# 474
+# 207
+# 237
+
+# code
+if  7 == 30 :
+	print(2 - 6)
+for p in range(15, 20, 2) :
+	e = (p % p)
+	if p == 3 :
+		k = (35 - e)
+		i = 184
+		e = (82 + 181)
+		print(i)
+f = 163
+print(f)
+# output
+# 163
+
+# code
+print(200)
+for h in range(57, 58) :
+	print(h)
+	print(h)
+	h = (h / 61)%(h / h)
+print(h)
+print(h + h)
+q = h / h
+print(q)
+s = 136 + h
+print(h)
+# output
+# 200
+# 57
+# 57
+# 0.9344262295081968
+# 1.8688524590163935
+# 1.0
+# 0.9344262295081968
+
+# code
+r = 245
+if r >= r :
+	r = 82 % 138
+	z = (r / 135)
+r = r / 129
+print(r - 89)
+print(r + 41)
+l = 55
+l = 100
+while l >= 97 :
+	l = l - 2
+	print(l)
+print(l)
+# output
+# -88.36434108527132
+# 41.63565891472868
+# 98
+# 96
+# 96
+
+# code
+o = 233
+while o > 228 :
+	o = o - 3
+	print(o)
+	f = (o - o)
+l = 96
+print(l)
+# output
+# 230
+# 227
+# 96
+
+# code
+if  7 >= 154 :
+	b = 254
+	b = b * 119
+	print(b)
+print(141)
+print(8 * 132)
+if not 8 >= 4 :
+	u = 65
+	u = u - u
+	c = 42
+print(211)
+# output
+# 141
+# 1056
+# 211
+
+# code
+if not 0 > 5 :
+	print(153)
+	print(192)
+print(88)
+h = 71 + 207
+print(h)
+# output
+# 153
+# 192
+# 88
+# 278
+
+# code
+o = 8 % 69
+y = 235
+for j in range(37, 38) :
+	print(o)
+	i = 72
+d = 87 % y
+print(d)
+e = 181
+print(d - 0)
+print(e)
+print(o)
+# output
+# 8
+# 87
+# 87
+# 181
+# 8
+
+# code
+k = (189 + 158)-(7 * 16)
+k = 193 % 85
+k = k / 65
+for c in range(143, 148) :
+	print(k)
+c = k + 93
+f = k / 20
+print(k)
+# output
+# 0.35384615384615387
+# 0.35384615384615387
+# 0.35384615384615387
+# 0.35384615384615387
+# 0.35384615384615387
+# 0.35384615384615387
+
+# code
+print(7 - 3)
+v = 108
+v = 232 + v
+print(v)
+b = 46
+while b < 47 :
+	b = b + 1
+	v = 213 + 231
+	print(b)
+v = 113 - b
+print(b)
+# output
+# 4
+# 340
+# 47
+# 47
+
+# code
+l = 85
+while l <= 90 :
+	l = l + 2
+	if  l == l :
+		m = (117 + l)
+		print(l)
+t = 133
+if not l != 236 :
+	print(l)
+print(l)
+print(l)
+# output
+# 87
+# 89
+# 91
+# 91
+# 91
+
+# code
+t = 86
+while t > 83 :
+	t = t - 2
+	if t != t :
+		q = (169 + 173)
+		print(t)
+		print(q)
+		print(q - t)
+m = 101
+t = m + t
+print(t)
+# output
+# 183
+
+# code
+c = 130
+v = 91
+while v >= 90 :
+	v = v - 2
+	if  c == v :
+		print(c)
+v = (89 + v)
+k = 92
+print(c)
+# output
+# 130
+
+# code
+print(3 + 5)
+print(253)
+y = 96
+while y > 91 :
+	y = y - 2
+	print(y)
+print(y)
+# output
+# 8
+# 253
+# 94
+# 92
+# 90
+# 90
+
+# code
+if 5 < 3 :
+	z = 176 + 63
+	i = 185
+print(219)
+print(5 / 221)
+for a in range(90, 91, 2) :
+	print(a)
+print(a)
+a = a / a
+w = a - a
+print(a * a)
+# output
+# 219
+# 0.02262443438914027
+# 90
+# 90
+# 1.0
+
+# code
+x = 117
+while x > 112 :
+	x = x - 3
+	a = (x - 27)%(17 % x)
+	u = 13
+	if  x != a :
+		u = 242 / 34
+print(x % 87)
+# output
+# 24
+
+# code
+print(60)
+if not 1 != 7 :
+	a = 9 - 4
+elif 8 == 6 :
+	d = 111
+	print(d)
+print(41)
+d = 128 % 6
+print(d % d)
+# output
+# 60
+# 41
+# 0
+
+# code
+r = 82 - 219
+if r < r :
+	print(r)
+	w = (r - 232)+(183 - r)+(135 + 196)-(r + 137)
+r = 54 + 251
+print(r)
+# output
+# 305
+
+# code
+print(71)
+u = (9 * 192)/(2 + 5)
+w = 66
+p = 9
+while p > 4 :
+	p = p - 3
+	print(p)
+	u = p % 110
+z = 132
+z = (37 - 175)+(230 / p)
+print(w)
+# output
+# 71
+# 6
+# 3
+# 66
+
+# code
+q = 22
+while q > 21 :
+	q = q - 1
+	y = 180
+	print(y)
+	if y <= 135 :
+		h = 77
+print(q / 193)
+# output
+# 180
+# 0.10880829015544041
+
+# code
+r = 10
+while r < 15 :
+	r = r + 3
+	d = 206
+	i = (53 - 206)
+r = (228 - r)
+r = (88 - 133)
+w = (r + 60)+(224 - 29)
+i = 159
+if r != 86 :
+	z = 237
+print(w)
+# output
+# 210
+
+# code
+p = 19
+while p <= 24 :
+	p = p + 3
+	print(p)
+	f = (p / 205)+(26 * p)/(195 / p)
+p = (128 / p)/(110 % 165)
+print(p)
+print(p + 250)
+# output
+# 22
+# 25
+# 0.04654545454545455
+# 250.04654545454545
+
+# code
+print(2 / 198)
+s = 169 + 73
+q = 102
+while q <= 105 :
+	q = q + 2
+	print(s)
+	print(q)
+print(s)
+if s < 75 :
+	b = 132
+print(s / s)
+# output
+# 0.010101010101010102
+# 242
+# 104
+# 242
+# 106
+# 242
+# 1.0
+
+# code
+for k in range(169, 170) :
+	print(k)
+	q = 55 + 223
+if k > k :
+	y = 5
+print(k)
+# output
+# 169
+# 169
+
+# code
+if 5 != 2 :
+	print(2 / 62)
+	k = 175
+	k = (74 / k)
+	r = 202
+else :
+	r = (152 + 6)%(8 / 1)
+	print(r * 153)
+p = 244
+print(p - p)
+print(p + p)
+# output
+# 0.03225806451612903
+# 0
+# 488
+
+# code
+print(175)
+a = 98
+while a >= 97 :
+	a = a - 1
+	u = a + a
+	print(a)
+print(a)
+# output
+# 175
+# 97
+# 96
+# 96
+
+# code
+print(193)
+e = 156
+while e >= 151 :
+	e = e - 3
+	print(e)
+	o = 245
+	v = 155
+if e >= e :
+	print(e)
+print(e)
+# output
+# 193
+# 153
+# 150
+# 150
+# 150
+
+# code
+b = (198 / 45)*(82 - 0)/(5 - 46)
+print(b)
+i = (34 % b)
+print(i)
+if b <= i :
+	b = (i * i)
+print(b)
+# output
+# -8.8
+# -1.2000000000000028
+# 1.4400000000000068
+
+# code
+g = 129
+i = 87
+while i > 86 :
+	i = i - 2
+	if not i > 58 :
+		d = 142
+	else :
+		m = 205 - i
+		y = (58 % 141)
+		b = 139
+print(g)
+# output
+# 129
+
+# code
+print(7 % 2)
+l = 242 * 0
+print(l)
+a = 72
+while a < 73 :
+	a = a + 2
+	print(a)
+	print(l)
+print(a)
+# output
+# 1
+# 0
+# 74
+# 0
+# 74
+
+# code
+print(2 % 168)
+z = 51
+while z >= 46 :
+	z = z - 3
+	print(z * 243)
+	f = 245 % 163
+	if z >= 44 :
+		print(f)
+print(z)
+print(z)
+print(z)
+# output
+# 2
+# 11664
+# 82
+# 10935
+# 82
+# 45
+# 45
+# 45
+
+# code
+print(114)
+if not 2 >= 126 :
+	u = 210
+l = 162
+a = 1
+while a < 4 :
+	a = a + 2
+	if not a > l :
+		b = 107
+	l = (204 % 126)
+print(l * 24)
+# output
+# 114
+# 1872
+
+# code
+z = 253 * 1
+z = (163 - 118)
+if z != 229 :
+	z = 51 - 218
+	print(z)
+a = 217
+while a < 220 :
+	a = a + 2
+	e = (60 + z)%(6 + 119)
+	i = 166 + 42
+print(z)
+# output
+# -167
+# -167
+
+# code
+for k in range(224, 225) :
+	u = 204
+	print(k % 145)
+	print(u)
+	u = k % 149
+s = (246 / k)/(219 * k)*(158 % 101)
+m = 212
+print(m)
+# output
+# 79
+# 204
+# 212
+
+# code
+p = 2 / 228
+if not p != p :
+	p = (p + p)
+u = 13
+while u > 10 :
+	u = u - 2
+	print(u % 101)
+	print(u)
+	print(u / 142)
+	n = 33
+print(p)
+# output
+# 11
+# 11
+# 0.07746478873239436
+# 9
+# 9
+# 0.06338028169014084
+# 0.017543859649122806
+
+# code
+y = 103
+while y < 108 :
+	y = y + 2
+	f = (154 - y)*(y / y)
+	f = f - y
+print(y + 175)
+y = y - y
+print(y)
+h = 122
+if  y >= y :
+	print(y)
+print(y % 208)
+# output
+# 284
+# 0
+# 0
+# 0
+
+# code
+c = 68 + 4
+b = (145 % c)
+c = (32 * b)
+if  c < 144 :
+	c = 116 - 230
+	d = 30
+print(b)
+# output
+# 1
+
+# code
+for n in range(109, 114, 2) :
+	print(n)
+	print(n % 87)
+n = n - 59
+if n != 38 :
+	e = 67
+	n = 44 - e
+	n = n % 3
+n = (n - n)%(235 - n)
+print(n)
+# output
+# 109
+# 22
+# 111
+# 24
+# 113
+# 26
+# 0
+
+# code
+l = 175
+while l >= 170 :
+	l = l - 2
+	m = (173 / 44)
+	print(m)
+	m = 35 - 8
+	m = 138 / 227
+if l == l :
+	print(l)
+	print(l - l)
+print(l + l)
+# output
+# 3.9318181818181817
+# 3.9318181818181817
+# 3.9318181818181817
+# 169
+# 0
+# 338
+
+# code
+v = 250
+while v <= 251 :
+	v = v + 2
+	w = 114
+v = 128 - v
+print(v)
+if  v == v :
+	m = 35
+	print(m)
+	m = (42 % 116)
+print(v + 131)
+# output
+# -124
+# 35
+# 7
+
+# code
+h = 252
+t = 86
+for e in range(85, 86) :
+	if e == t :
+		print(t)
+		print(t - 236)
+		n = 105
+	d = 100
+h = h + 219
+print(e / h)
+# output
+# 0.18046709129511676
+
+# code
+for m in range(165, 166, 2) :
+	print(m)
+if not m >= 22 :
+	print(m)
+	print(m + 104)
+	m = (m - m)
+m = (m % 218)
+a = 119
+print(m)
+print(m)
+print(m)
+# output
+# 165
+# 165
+# 165
+# 165
+
+# code
+s = 47
+for f in range(18, 23) :
+	n = 67
+	n = f * f
+if s != 83 :
+	k = 25
+print(f)
+s = s / f
+s = (86 / s)+(187 / s)+(s % f)
+print(s)
+print(s)
+# output
+# 22
+# 129.92359767891682
+# 129.92359767891682
+
+# code
+u = 78
+while u < 83 :
+	u = u + 3
+	if  u == 178 :
+		r = 89
+		x = 211
+		print(u % 203)
+		x = 255 - 36
+print(u)
+# output
+# 84
+
+# code
+print(3 - 166)
+for r in range(40, 43) :
+	y = (r % r)
+	g = (r + r)/(124 - y)
+	o = (88 - 251)
+	c = (g % r)*(99 - 58)*(g - 23)-(210 + y)/(o + 234)
+print(r)
+# output
+# -163
+# 42
+
+# code
+for e in range(15, 16) :
+	r = e - 216
+	print(r)
+	k = 159
+	if  e == 95 :
+		print(e)
+		k = (e * 240)
+		w = (k - 36)
+		print(k)
+		print(w)
+print(e)
+# output
+# -201
+# 15
+
+# code
+print(1 % 8)
+if 6 == 7 :
+	print(245)
+	print(0 * 155)
+	d = 222
+for r in range(7, 12, 2) :
+	print(r / r)
+t = 227
+print(r)
+# output
+# 1
+# 1.0
+# 1.0
+# 1.0
+# 11
+
+# code
+p = 143
+while p <= 148 :
+	p = p + 2
+	r = 88
+	if p < p :
+		print(p)
+	a = 94
+print(p)
+if p >= p :
+	z = 132
+print(p)
+# output
+# 149
+# 149
+
+# code
+print(146)
+if  3 != 5 :
+	x = 4 * 4
+	t = 245
+u = 203
+while u > 202 :
+	u = u - 1
+	y = u - 50
+	p = 21
+print(u)
+# output
+# 146
+# 202
+
+# code
+print(7)
+if not 6 < 3 :
+	print(8)
+	a = (1 + 0)*(24 * 2)-(0 * 159)%(1 / 184)
+l = (0 + 6)
+if  l > 33 :
+	print(l)
+	t = 8
+print(l)
+v = 191
+print(v)
+# output
+# 7
+# 8
+# 6
+# 191
+
+# code
+if not 6 < 0 :
+	print(9 / 3)
+	print(4 * 1)
+m = 4
+while m < 5 :
+	m = m + 2
+	w = (m % m)
+print(m)
+# output
+# 3.0
+# 4
+# 6
+
+# code
+e = 200
+n = 143
+while n <= 148 :
+	n = n + 2
+	y = 255
+print(n + n)
+# output
+# 298
+
+# code
+print(148)
+for q in range(25, 26, 1) :
+	q = (210 + 119)
+	q = (q / q)
+	q = (117 - 61)
+print(q)
+# output
+# 148
+# 56
+
+# code
+v = 151
+while v < 154 :
+	v = v + 2
+	m = v / v
+if  v >= v :
+	print(v)
+	v = v % v
+v = v * v
+print(v)
+v = 191 - v
+print(v)
+# output
+# 155
+# 0
+# 191
+
+# code
+w = 5 - 58
+if not w >= w :
+	print(w * 69)
+	r = 180 - 169
+print(w)
+z = (70 / w)
+v = 122
+while v > 121 :
+	v = v - 2
+	print(z)
+print(z + 211)
+# output
+# -53
+# -1.320754716981132
+# 209.67924528301887
+
+# code
+d = 237
+while d > 236 :
+	d = d - 1
+	if d == d :
+		print(d)
+		print(d)
+d = 56 - d
+print(d % d)
+# output
+# 236
+# 236
+# 0
+
+# code
+print(144)
+y = (32 / 2)
+h = 85
+while h < 88 :
+	h = h + 2
+	t = 242
+print(y)
+# output
+# 144
+# 16.0
+
+# code
+for b in range(90, 91, 1) :
+	print(b)
+	print(b)
+	print(b)
+b = (b / b)+(101 / b)
+y = 52
+print(y)
+p = 66
+if  b <= p :
+	print(p)
+print(p)
+# output
+# 90
+# 90
+# 90
+# 52
+# 66
+# 66
+
+# code
+z = 185
+while z >= 184 :
+	z = z - 2
+	print(z)
+	print(z)
+if not z >= 27 :
+	z = z * z
+	print(z)
+print(z / z)
+# output
+# 183
+# 183
+# 1.0
+
+# code
+for r in range(29, 30, 1) :
+	print(r % 94)
+	l = 149
+	print(l)
+if  r < r :
+	d = 214
+	i = 208
+e = r % r
+e = 211 + r
+print(r)
+print(r)
+# output
+# 29
+# 149
+# 29
+# 29
+
+# code
+for m in range(74, 77, 2) :
+	print(m)
+q = 198
+print(m)
+print(q)
+if not q != q :
+	print(q)
+	k = 233
+	print(m)
+print(q)
+print(q)
+# output
+# 74
+# 76
+# 76
+# 198
+# 198
+# 76
+# 198
+# 198
+
+# code
+p = 203
+while p <= 204 :
+	p = p + 2
+	if not p >= 84 :
+		print(p)
+print(p % 125)
+# output
+# 80
+
+# code
+p = (78 - 2)/(214 * 2)-(6 % 243)
+l = 187
+while l > 184 :
+	l = l - 2
+	print(l)
+if not l < l :
+	l = (p * 41)
+	u = 61
+	print(p)
+m = 231
+print(m)
+# output
+# 185
+# 183
+# -5.822429906542056
+# 231
+
+# code
+for p in range(9, 10) :
+	print(p)
+print(p)
+e = 102
+v = 69
+print(e)
+v = 16 - 4
+v = (e / p)
+print(p)
+print(p / v)
+print(v + 54)
+# output
+# 9
+# 9
+# 102
+# 9
+# 0.7941176470588235
+# 65.33333333333333
+
+# code
+print(154)
+y = 83
+for k in range(32, 33) :
+	print(k)
+	y = (k / 6)-(k - k)%(54 * y)
+	y = 93 - 95
+print(k)
+# output
+# 154
+# 32
+# 32
+
+# code
+if  2 < 189 :
+	n = 248
+	print(n % 23)
+	print(n)
+for z in range(246, 251, 2) :
+	z = z - z
+print(z * 222)
+# output
+# 18
+# 248
+# 0
+
+# code
+print(64)
+e = 96
+while e >= 95 :
+	e = e - 1
+	if e > e :
+		r = 208 - 94
+		r = (207 + r)%(212 * r)+(49 / e)
+		a = 122
+	h = (e % e)%(80 / e)
+print(e * 251)
+# output
+# 64
+# 23594
+
+# code
+print(1 % 2)
+z = 4 / 3
+z = (z * z)-(z / z)
+o = 25
+while o >= 24 :
+	o = o - 1
+	l = 19
+	print(z % 113)
+	print(l)
+print(z)
+# output
+# 1
+# 0.7777777777777777
+# 19
+# 0.7777777777777777
+# 19
+# 0.7777777777777777
+
+# code
+print(131)
+for y in range(101, 106, 3) :
+	y = (15 % y)
+y = y / 216
+print(y)
+n = 223
+print(y)
+print(y)
+print(n)
+if n >= y :
+	print(n)
+print(y + n)
+# output
+# 131
+# 0.06944444444444445
+# 0.06944444444444445
+# 0.06944444444444445
+# 223
+# 223
+# 223.06944444444446
+
+# code
+i = 175
+i = i - 34
+print(i)
+print(i)
+b = i - 186
+print(i)
+w = (141 % 188)
+print(i)
+if b > 107 :
+	print(i)
+print(b)
+# output
+# 141
+# 141
+# 141
+# 141
+# -45
+
+# code
+u = 251
+while u < 256 :
+	u = u + 2
+	print(u)
+	b = 214
+	print(b)
+	if not u > b :
+		v = 169 / 166
+		x = (134 - 125)/(119 - 46)
+		print(u)
+print(u / u)
+# output
+# 253
+# 214
+# 255
+# 214
+# 257
+# 214
+# 1.0
+
+# code
+d = 36
+while d <= 41 :
+	d = d + 3
+	if d > 51 :
+		print(d % d)
+if d != 52 :
+	v = d % d
+	print(v)
+x = 246
+print(d)
+# output
+# 0
+# 42
+
+# code
+if not 8 > 7 :
+	b = 165 + 2
+	k = 83
+	k = 255 + 236
+if 3 >= 4 :
+	print(74)
+	print(49)
+print(154)
+# output
+# 154
+
+# code
+p = 134
+while p <= 135 :
+	p = p + 2
+	print(p % p)
+print(p)
+print(p)
+print(p)
+print(p)
+# output
+# 0
+# 136
+# 136
+# 136
+# 136
+
+# code
+y = 131
+while y > 126 :
+	y = y - 2
+	o = (180 / y)
+j = 4
+print(j)
+# output
+# 4
+
+# code
+if  3 > 188 :
+	print(9 + 1)
+	e = 210
+m = 142
+while m > 139 :
+	m = m - 2
+	print(m)
+	v = 54
+	n = 39
+	print(v)
+print(m)
+# output
+# 140
+# 54
+# 138
+# 54
+# 138
+
+# code
+y = 49
+while y > 48 :
+	y = y - 1
+	n = 255 - y
+if y < 139 :
+	s = 180
+	y = 181 / s
+	z = 75
+print(y)
+# output
+# 1.0055555555555555
+
+# code
+print(51)
+z = 212
+l = 78
+if z >= l :
+	m = z / l
+t = 10
+t = (t - 152)
+print(t)
+t = (t % t)
+print(z)
+print(z)
+# output
+# 51
+# -142
+# 212
+# 212
+
+# code
+d = 170
+while d >= 165 :
+	d = d - 2
+	r = (245 % 8)%(86 % d)/(d / d)
+	r = d / d
+	print(r)
+if  d < d :
+	d = (d + d)/(138 - d)+(202 / 153)
+d = d / d
+d = 64 - d
+print(d)
+# output
+# 1.0
+# 1.0
+# 1.0
+# 63.0
+
+# code
+print(2 - 196)
+y = 162
+while y > 157 :
+	y = y - 3
+	print(y)
+	j = 192
+l = 166
+if not l != l :
+	print(y)
+	print(y)
+print(l)
+# output
+# -194
+# 159
+# 156
+# 156
+# 156
+# 166
+
+# code
+l = 94
+print(l)
+j = 168
+l = (0 * 97)
+i = 22
+while i < 25 :
+	i = i + 2
+	j = j / j
+	print(j)
+if i == 170 :
+	i = l * 3
+print(l)
+# output
+# 94
+# 1.0
+# 1.0
+# 0
+
+# code
+for r in range(121, 122) :
+	print(r)
+	print(r)
+	if r <= 169 :
+		print(r + 158)
+		print(r)
+print(r)
+# output
+# 121
+# 121
+# 279
+# 121
+# 121
+
+# code
+i = 165
+while i > 162 :
+	i = i - 2
+	p = 119 - 155
+l = (i % i)
+i = (241 % 11)
+print(i * 189)
+x = 51
+if i > l :
+	print(i)
+print(x)
+# output
+# 1890
+# 10
+# 51
+
+# code
+if not 8 != 244 :
+	l = (1 / 7)%(86 % 5)
+	l = (215 / l)*(l * 71)
+	print(l - l)
+else :
+	print(111)
+print(123)
+print(72)
+h = 172
+e = 27
+print(e * 92)
+# output
+# 111
+# 123
+# 72
+# 2484
+
+# code
+e = 241
+while e > 238 :
+	e = e - 2
+	r = 170
+	y = 214 - r
+	g = 64
+	m = 122 + 136
+	print(r)
+print(e)
+print(e)
+print(e)
+# output
+# 170
+# 170
+# 237
+# 237
+# 237
+
+# code
+for m in range(145, 150, 3) :
+	print(m % m)
+n = m / 99
+n = 10 + 34
+if not m >= 66 :
+	print(m)
+	n = 195 * 168
+	m = n * 73
+	m = (n % m)
+print(n)
+print(m)
+# output
+# 0
+# 0
+# 44
+# 148
+
+# code
+print(2)
+b = 85
+while b <= 90 :
+	b = b + 3
+	if b != 136 :
+		print(b)
+		q = b / b
+		q = q - 145
+	print(b + b)
+print(b)
+# output
+# 2
+# 88
+# 176
+# 91
+# 182
+# 91
+
+# code
+for o in range(229, 230) :
+	print(o)
+print(o % 67)
+t = o + 170
+y = 191
+print(y)
+print(o + 81)
+if y > 172 :
+	print(y)
+t = (135 - o)
+print(o / t)
+# output
+# 229
+# 28
+# 191
+# 310
+# 191
+# -2.4361702127659575
+
+# code
+print(1 - 0)
+p = 247
+u = 5
+v = 242
+p = (u % 215)
+u = 97 % p
+q = 173
+while q >= 168 :
+	q = q - 2
+	u = (u / 148)
+print(p)
+# output
+# 1
+# 5
+
+# code
+k = 253
+while k < 254 :
+	k = k + 1
+	d = (k - 44)/(k / k)+(17 / k)-(k / k)-(194 / 121)+(k % k)*(108 * 173)
+	if  k != 134 :
+		i = 245
+		print(k)
+		print(d)
+		print(k * 177)
+		e = 249
+print(k)
+# output
+# 254
+# 207.4636233487343
+# 44958
+# 254
+
+# code
+if  2 >= 108 :
+	print(19)
+	print(211)
+print(4 + 2)
+o = 0 - 2
+print(o)
+u = 162
+while u > 159 :
+	u = u - 2
+	if u <= o :
+		o = 245 + u
+print(u)
+# output
+# 6
+# -2
+# 158
+
+# code
+print(15)
+for m in range(212, 213, 1) :
+	if m < m :
+		s = 208
+		print(s)
+print(m)
+print(m)
+if m <= 236 :
+	m = (128 + 244)-(m % 107)-(20 / m)%(134 * m)/(m / 53)/(m * m)/(m / 100)
+	m = (99 + 200)-(m / m)
+print(m % 200)
+# output
+# 15
+# 212
+# 212
+# 98.0
+
+# code
+print(2 * 88)
+for p in range(223, 224) :
+	print(p)
+	p = p + 151
+r = 228
+print(p)
+print(p)
+c = (16 * r)*(250 / 213)%(p - r)
+if  c < c :
+	print(c * 136)
+print(p)
+# output
+# 176
+# 223
+# 374
+# 374
+# 374
+
+# code
+q = (170 - 234)
+q = q + q
+h = 120
+while h <= 125 :
+	h = h + 3
+	print(h)
+	q = q / q
+	q = (q / q)/(131 * q)
+	q = (43 * q)
+	print(q)
+print(q)
+# output
+# 123
+# 0.3282442748091603
+# 126
+# 0.3282442748091603
+# 0.3282442748091603
+
+# code
+l = 213
+while l > 208 :
+	l = l - 3
+	print(l)
+r = 85
+x = (l + 106)+(131 + 229)
+q = 116
+print(l / 242)
+# output
+# 210
+# 207
+# 0.8553719008264463
+
+# code
+x = (22 % 149)-(11 % 6)*(2 + 2)
+x = 105
+while x <= 108 :
+	x = x + 2
+	o = 208
+print(x)
+# output
+# 109
+
+# code
+if not 1 >= 192 :
+	print(5)
+print(58)
+for d in range(11, 16, 2) :
+	d = 37 / 31
+	print(d)
+o = 158 + 3
+print(d - 101)
+e = (o * 11)*(169 / 248)%(o % 21)
+print(e)
+print(d)
+# output
+# 5
+# 58
+# 1.1935483870967742
+# 1.1935483870967742
+# 1.1935483870967742
+# -99.80645161290323
+# 2.8508064516129252
+# 1.1935483870967742
+
+# code
+print(143)
+s = 82 + 45
+o = 230 - s
+z = 203
+while z < 206 :
+	z = z + 2
+	print(z)
+	s = s / 61
+	w = 55 - z
+u = z % 19
+print(z)
+# output
+# 143
+# 205
+# 207
+# 207
+
+# code
+for g in range(79, 82) :
+	print(g)
+print(g % 129)
+g = (g + g)
+g = 9 * 73
+j = 87
+if not g >= 246 :
+	print(g)
+i = 143
+print(g)
+print(g)
+# output
+# 79
+# 80
+# 81
+# 81
+# 657
+# 657
+
+# code
+c = 249
+while c > 246 :
+	c = c - 2
+	if c <= 240 :
+		g = 49
+print(c)
+# output
+# 245
+
+# code
+if  8 >= 1 :
+	print(112)
+	b = (180 / 81)
+if 5 > 188 :
+	print(1 - 106)
+	x = (5 / 5)
+print(160)
+# output
+# 112
+# 160
+
+# code
+print(2)
+y = 135
+while y <= 136 :
+	y = y + 2
+	f = 175 % 87
+	if not y > f :
+		print(f)
+print(y)
+# output
+# 2
+# 137
+
+# code
+if 2 > 1 :
+	print(63)
+	e = (140 - 26)/(61 % 127)%(148 / 31)/(159 - 130)
+	print(e)
+n = (31 - 5)
+n = 189
+while n < 190 :
+	n = n + 2
+	print(n)
+	print(n)
+print(n)
+# output
+# 63
+# 0.0644431882419446
+# 191
+# 191
+# 191
+
+# code
+y = 186
+while y <= 189 :
+	y = y + 2
+	print(y % y)
+	if y != 111 :
+		x = 182
+	f = 169 + y
+if not y <= y :
+	y = 166 % y
+	print(y / 132)
+print(y)
+# output
+# 0
+# 0
+# 190
+
+# code
+if not 4 < 183 :
+	b = 154 * 58
+	y = (b / 135)
+	v = 209
+	print(v)
+	y = (91 - 229)
+k = (2 - 2)
+f = 28
+while f > 25 :
+	f = f - 2
+	r = 184
+print(f)
+# output
+# 24
+
+# code
+print(3 - 0)
+print(7 - 47)
+d = 9 / 217
+for u in range(50, 51, 1) :
+	z = 137
+x = 128
+print(x)
+t = 193
+print(u)
+x = 191 - t
+print(x)
+# output
+# 3
+# -40
+# 128
+# 50
+# -2
+
+# code
+for a in range(51, 56, 2) :
+	print(a)
+	print(a + 143)
+	k = 253
+if  a == 227 :
+	print(a)
+print(a)
+print(a)
+# output
+# 51
+# 194
+# 53
+# 196
+# 55
+# 198
+# 55
+# 55
+
+# code
+if 7 != 2 :
+	a = 21
+	a = a % 239
+print(84)
+for s in range(18, 19, 2) :
+	if  s != s :
+		print(s - s)
+		s = 243 + 18
+		s = (s * 145)
+print(s)
+# output
+# 84
+# 18
+
+# code
+u = 167
+g = 95
+w = (u % 173)
+s = 117
+while s > 112 :
+	s = s - 3
+	print(w + 250)
+	if  g >= 227 :
+		f = s - u
+		k = 88
+print(u - g)
+# output
+# 417
+# 417
+# 72
+
+# code
+print(143)
+k = 139
+while k > 134 :
+	k = k - 3
+	e = k / 169
+print(k)
+j = 214
+print(k)
+k = k + j
+h = 232
+print(k * k)
+# output
+# 143
+# 133
+# 133
+# 120409
+
+# code
+print(17)
+k = 109 % 115
+n = 147
+if not k != 7 :
+	print(n)
+	k = k + n
+print(n)
+l = 121
+print(k * l)
+# output
+# 17
+# 147
+# 13189
+
+# code
+q = 185 - 9
+w = 81
+while w > 76 :
+	w = w - 3
+	print(w / 99)
+p = 222
+print(p - 211)
+a = 160 + q
+print(q)
+# output
+# 0.7878787878787878
+# 0.7575757575757576
+# 11
+# 176
+
+# code
+print(4 - 4)
+l = 33 + 92
+for z in range(236, 239, 2) :
+	if  l < z :
+		print(z + z)
+	z = l + z
+z = (170 - l)
+print(l % z)
+# output
+# 0
+# 472
+# 476
+# 35
+
+# code
+if  6 <= 5 :
+	print(198)
+	print(1 - 99)
+elif not 2 != 135 :
+	x = (1 * 8)
+	print(x)
+	print(x)
+print(3 / 2)
+# output
+# 1.5
+
+# code
+q = 232
+while q > 231 :
+	q = q - 1
+	print(q)
+	print(q)
+	g = q + 201
+	x = 39
+print(q)
+# output
+# 231
+# 231
+# 231
+
+# code
+s = 19 / 1
+print(s)
+i = 100
+while i <= 101 :
+	i = i + 1
+	print(i + 135)
+	if s <= 159 :
+		print(s + 42)
+		print(s % s)
+print(s)
+# output
+# 19.0
+# 236
+# 61.0
+# 0.0
+# 237
+# 61.0
+# 0.0
+# 19.0
+
+# code
+n = 167
+o = 30
+while o < 35 :
+	o = o + 3
+	print(o / o)
+	n = 167 + 212
+print(o)
+# output
+# 1.0
+# 1.0
+# 36
+
+# code
+d = 199
+a = 99
+while a >= 94 :
+	a = a - 2
+	print(d)
+w = 227 - d
+print(a * a)
+t = (204 / a)/(a * d)-(a + 140)
+x = 117
+d = 67
+print(d)
+# output
+# 199
+# 199
+# 199
+# 8649
+# 67
+
+# code
+print(124)
+print(1 / 1)
+u = 48
+while u < 53 :
+	u = u + 3
+	print(u)
+	print(u)
+	print(u)
+	if u > 209 :
+		b = 102 + 156
+print(u - 221)
+# output
+# 124
+# 1.0
+# 51
+# 51
+# 51
+# 54
+# 54
+# 54
+# -167
+
+# code
+l = 116
+while l <= 121 :
+	l = l + 2
+	if not l >= 30 :
+		print(l)
+		x = 180
+		x = (x - 122)*(20 / 153)%(l / l)
+r = (251 / 26)%(100 * 140)
+print(l)
+r = l / r
+print(r + l)
+# output
+# 122
+# 134.6374501992032
+
+# code
+print(50)
+x = (40 % 9)
+print(x + x)
+z = 82
+while z >= 81 :
+	z = z - 1
+	print(z)
+	r = 2
+if not z >= z :
+	o = 195 - z
+print(z)
+# output
+# 50
+# 8
+# 81
+# 80
+# 80
+
+# code
+print(3 * 1)
+w = 150
+while w >= 145 :
+	w = w - 3
+	y = 108 + w
+	y = (w / w)
+print(w)
+print(w)
+s = 170
+if not w <= s :
+	a = (s + 14)%(174 + w)
+print(s)
+# output
+# 3
+# 144
+# 144
+# 170
+
+# code
+e = (194 + 2)/(1 - 8)
+e = e / e
+print(e)
+if  e <= e :
+	k = 155 + 158
+	e = e / 106
+print(e / 13)
+if not e >= 231 :
+	e = e / 191
+print(e % e)
+# output
+# 1.0
+# 0.000725689404934688
+# 0.0
+
+# code
+q = (135 + 142)
+q = 228
+a = (q + 190)
+q = a + 77
+k = 143
+while k < 144 :
+	k = k + 2
+	if not a >= q :
+		print(k)
+	print(a)
+print(k / 101)
+# output
+# 145
+# 418
+# 1.4356435643564356
+
+# code
+if  0 <= 105 :
+	c = (7 / 8)
+	print(c)
+else :
+	print(180)
+	s = 2 / 215
+print(243)
+# output
+# 0.875
+# 243
+
+# code
+q = 189 % 225
+d = 69 % q
+q = (89 - d)%(156 * 162)
+q = 118
+for j in range(148, 151) :
+	if  d > q :
+		d = (158 * q)
+		b = (q * 147)+(92 - 3)/(j * d)+(d - 37)+(69 % 117)%(q - q)
+		m = 194
+		q = (j + d)
+print(q)
+# output
+# 118
+
+# code
+for k in range(242, 247) :
+	if k != 74 :
+		k = 56 / k
+	print(k / 37)
+	j = 94
+print(k % 228)
+# output
+# 0.00625418807236989
+# 0.006228450672895117
+# 0.006202924235711121
+# 0.006177606177606178
+# 0.006152493957372006
+# 0.22764227642276422
+
+# code
+e = 21
+e = 101 % 83
+t = 48
+while t < 53 :
+	t = t + 2
+	e = (247 + 160)
+if  e < e :
+	print(e)
+	t = (e * e)+(e + e)
+print(t - 136)
+# output
+# -82
+
+# code
+if  0 == 83 :
+	p = 2 - 71
+	a = (p - 95)%(98 - p)
+if not 5 <= 2 :
+	print(226)
+print(15)
+# output
+# 226
+# 15
+
+# code
+print(203)
+i = 25
+while i >= 20 :
+	i = i - 2
+	print(i)
+	x = 78
+	x = 142 / 38
+	print(x)
+	print(i)
+	print(x)
+print(i)
+# output
+# 203
+# 23
+# 3.736842105263158
+# 23
+# 3.736842105263158
+# 21
+# 3.736842105263158
+# 21
+# 3.736842105263158
+# 19
+# 3.736842105263158
+# 19
+# 3.736842105263158
+# 19
+
+# code
+if not 2 != 2 :
+	print(229)
+	b = 219
+	r = (b / b)/(b + b)
+print(12)
+for d in range(190, 195) :
+	if  d == 168 :
+		t = 121
+print(d)
+print(d + d)
+# output
+# 229
+# 12
+# 194
+# 388
+
+# code
+for w in range(33, 34, 1) :
+	r = 125
+	r = (235 + 88)
+if  w == 54 :
+	n = 8
+print(w - 133)
+# output
+# -100
+
+# code
+print(185)
+s = 248
+a = 213
+while a >= 210 :
+	a = a - 2
+	print(a)
+print(s)
+print(s)
+print(a)
+if s >= s :
+	r = s + 85
+print(a)
+# output
+# 185
+# 211
+# 209
+# 248
+# 248
+# 209
+# 209
+
+# code
+c = 237
+while c >= 234 :
+	c = c - 2
+	print(c)
+	g = (c - 224)
+	s = 21
+print(c)
+print(c - 173)
+# output
+# 235
+# 233
+# 233
+# 60
+
+# code
+p = (1 / 5)*(63 + 6)
+print(p)
+if not p >= 250 :
+	print(p)
+	print(p)
+	print(p)
+else :
+	b = (p * 171)
+	b = (p + 64)
+	print(b)
+print(p / p)
+# output
+# 13.8
+# 13.8
+# 13.8
+# 13.8
+# 1.0
+
+# code
+print(229)
+for j in range(164, 169) :
+	print(j)
+	j = 47
+	if j != j :
+		print(j)
+		print(j)
+print(j)
+j = j / 22
+print(j)
+print(j * j)
+# output
+# 229
+# 164
+# 165
+# 166
+# 167
+# 168
+# 47
+# 2.1363636363636362
+# 4.564049586776859
+
+# code
+if 1 != 8 :
+	t = 139
+	print(t)
+	n = t / 107
+d = 1 % 8
+d = d / d
+l = 70
+while l < 71 :
+	l = l + 2
+	if  l != 221 :
+		d = (25 + 175)
+print(d)
+# output
+# 139
+# 200
+
+# code
+print(21)
+if 1 <= 9 :
+	print(30)
+	print(95)
+elif 1 != 197 :
+	w = (1 / 100)
+print(238)
+print(60)
+print(234)
+print(55)
+print(1 + 141)
+# output
+# 21
+# 30
+# 95
+# 238
+# 60
+# 234
+# 55
+# 142
+
+# code
+print(32)
+for t in range(48, 49) :
+	print(t + 221)
+	if t > 183 :
+		t = (132 * 173)
+		c = 124 * t
+		g = (c + 95)-(225 * 60)*(c + 32)
+		l = (45 * t)/(t - 87)%(c - t)%(g + c)/(127 - 103)*(g - g)
+print(t * t)
+if  t <= t :
+	t = (79 / 106)
+print(t)
+# output
+# 32
+# 269
+# 2304
+# 0.7452830188679245
+
+# code
+c = 59
+f = (c % 118)/(188 % 12)
+print(f)
+w = 204
+while w <= 205 :
+	w = w + 1
+	if c != w :
+		c = c / c
+print(f)
+# output
+# 7.375
+# 7.375
+
+# code
+f = 47
+f = (62 % 60)
+print(f)
+print(f)
+f = 181 / 137
+if  f == f :
+	print(f)
+print(f)
+# output
+# 2
+# 2
+# 1.3211678832116789
+# 1.3211678832116789
+
+# code
+o = 148 % 69
+for l in range(125, 130, 3) :
+	o = 223 - 166
+	print(l)
+o = (57 - o)
+print(o)
+# output
+# 125
+# 128
+# 0
+
+# code
+y = 1 + 5
+z = y / y
+print(z)
+print(z)
+print(y + y)
+if not y == y :
+	f = 254 % z
+	y = (y % y)/(44 / y)%(132 + 206)*(z / f)+(f + 210)
+print(y)
+# output
+# 1.0
+# 1.0
+# 12
+# 6
+
+# code
+if not 2 > 86 :
+	print(4)
+	print(253)
+g = 196 + 240
+print(g)
+print(g)
+v = 36
+n = 210
+print(n - v)
+# output
+# 4
+# 253
+# 436
+# 436
+# 174
+
+# code
+n = 33 % 8
+n = (n % 200)
+for a in range(16, 21) :
+	print(n)
+	if not n >= n :
+		a = 0 * 212
+if not n > 28 :
+	a = (n * 197)+(n % a)
+print(a * 210)
+g = 48 % 125
+print(a)
+# output
+# 1
+# 1
+# 1
+# 1
+# 1
+# 41580
+# 198
+
+# code
+q = 151
+while q <= 156 :
+	q = q + 2
+	if  q < q :
+		v = (q * 199)%(q / q)/(q + q)/(q % q)
+s = 204
+j = 198
+print(j)
+q = (170 % 219)
+print(j)
+# output
+# 198
+# 198
+
+# code
+print(123)
+print(165)
+q = 44
+while q >= 41 :
+	q = q - 2
+	if q > q :
+		y = 96
+print(q)
+# output
+# 123
+# 165
+# 40
+
+# code
+o = 182
+while o <= 187 :
+	o = o + 2
+	d = o - 67
+print(o)
+o = o - o
+o = 143 * o
+print(o)
+# output
+# 188
+# 0
+
+# code
+print(4)
+print(1 - 1)
+z = 59
+while z > 58 :
+	z = z - 2
+	if not z != z :
+		p = z + 145
+print(z)
+# output
+# 4
+# 0
+# 57
+
+# code
+print(2)
+print(3 / 148)
+e = (159 + 135)+(4 * 2)
+e = (233 / e)
+if e <= 74 :
+	print(e)
+print(e)
+# output
+# 2
+# 0.02027027027027027
+# 0.7715231788079471
+# 0.7715231788079471
+
+# code
+g = 249
+while g <= 254 :
+	g = g + 3
+	if g == 198 :
+		print(g)
+print(g)
+# output
+# 255
+
+# code
+if 7 != 25 :
+	i = 197 + 9
+o = 224
+while o >= 219 :
+	o = o - 3
+	print(o)
+	if  o < 1 :
+		t = 192 - 134
+		e = (t - o)*(170 / o)
+		print(e)
+print(o % 169)
+# output
+# 221
+# 218
+# 49
+
+# code
+i = 214 + 113
+i = (138 + 154)-(153 / i)
+print(i)
+print(i)
+i = 184 + i
+for f in range(199, 202, 2) :
+	print(i)
+if i > f :
+	b = 50
+	print(i)
+print(f)
+# output
+# 291.5321100917431
+# 291.5321100917431
+# 475.5321100917431
+# 475.5321100917431
+# 475.5321100917431
+# 201
+
+# code
+print(7 / 2)
+for l in range(231, 232) :
+	i = 43
+print(l % l)
+l = (41 + 185)/(l / 14)
+if l >= l :
+	l = 156 - 171
+l = (201 + 110)+(71 / 73)%(l * l)
+print(l)
+# output
+# 3.5
+# 0
+# 311.972602739726
+
+# code
+print(141)
+r = (2 % 8)*(1 + 11)/(9 + 35)*(1 * 4)
+h = 47
+while h < 52 :
+	h = h + 2
+	y = 246
+	if y == r :
+		print(h)
+	print(y)
+	if not h >= 184 :
+		print(r)
+print(r % h)
+# output
+# 141
+# 246
+# 2.1818181818181817
+# 246
+# 2.1818181818181817
+# 246
+# 2.1818181818181817
+# 2.1818181818181817
+
+# code
+if 8 > 140 :
+	print(97)
+elif  2 < 87 :
+	m = 1 - 3
+	m = 253
+print(193)
+# output
+# 193
+
+# code
+for e in range(234, 237) :
+	if  e != 234 :
+		f = 160
+print(e)
+print(e)
+e = 244 - 226
+if  e >= 113 :
+	print(e)
+	e = (121 % 57)
+	print(e)
+print(e)
+# output
+# 236
+# 236
+# 18
+
+# code
+t = 222
+b = 124
+while b < 125 :
+	b = b + 2
+	h = 70
+	print(b)
+	d = h % 43
+print(b)
+# output
+# 126
+# 126
+
+# code
+u = 1 * 0
+j = 236
+x = 37
+while x >= 34 :
+	x = x - 2
+	if  x > 182 :
+		j = 193 % 242
+		j = 236 / j
+		e = (116 + u)
+print(j)
+print(j)
+# output
+# 236
+# 236
+
+# code
+print(2 % 2)
+q = 235
+while q < 236 :
+	q = q + 2
+	f = 78
+	print(f / 154)
+b = 1
+print(q)
+b = (b * 49)
+q = (b / 26)
+print(q)
+# output
+# 0
+# 0.5064935064935064
+# 237
+# 1.8846153846153846
+
+# code
+v = 2
+while v < 3 :
+	v = v + 2
+	n = v % v
+print(v)
+if v <= v :
+	v = (194 + 37)*(v * 247)%(133 + v)
+print(v)
+# output
+# 4
+# 123
+
+# code
+z = (6 / 12)
+if  z < z :
+	print(z)
+	l = 108
+if  z >= 16 :
+	z = (z * z)-(z - 215)
+	z = z % 252
+r = 141
+print(r)
+v = (r - 161)
+print(v)
+# output
+# 141
+# -20
+
+# code
+f = 126
+u = 241
+f = 108 % 65
+if  u != f :
+	i = u % 249
+print(f)
+# output
+# 43
+
+# code
+e = 6 / 4
+for h in range(53, 54) :
+	print(h)
+	print(e)
+w = e - 101
+if not w <= w :
+	e = 170 / 66
+	r = e / 82
+	print(h / 73)
+	print(r)
+print(w)
+# output
+# 53
+# 1.5
+# -99.5
+
+# code
+d = 159
+for h in range(29, 34) :
+	print(d % d)
+	print(d)
+if h != 107 :
+	d = d + d
+	print(d)
+	print(h)
+	d = 40
+print(d * 14)
+print(h)
+# output
+# 0
+# 159
+# 0
+# 159
+# 0
+# 159
+# 0
+# 159
+# 0
+# 159
+# 318
+# 33
+# 560
+# 33
+
+# code
+print(32)
+print(135)
+z = 70
+while z <= 75 :
+	z = z + 3
+	if  z >= 175 :
+		u = 166 / 78
+		u = 2 * u
+		print(u)
+		u = u * z
+print(z - 57)
+# output
+# 32
+# 135
+# 19
+
+# code
+if 2 >= 6 :
+	z = 181 - 192
+	d = z * 58
+	print(d)
+	f = 237 * z
+print(1 / 1)
+print(142)
+f = 90
+t = 121
+while t < 126 :
+	t = t + 3
+	print(t)
+print(f)
+# output
+# 1.0
+# 142
+# 124
+# 127
+# 90
+
+# code
+t = (1 % 2)
+if t == 208 :
+	t = (211 - 26)
+	t = (t / 93)
+t = t % t
+t = (180 - t)
+print(t)
+# output
+# 180
+
+# code
+for n in range(30, 31) :
+	n = 77 - n
+	print(n + n)
+if n >= n :
+	print(n)
+	r = 4 - 41
+	print(n)
+print(n % 213)
+print(n / n)
+print(n)
+print(n % n)
+# output
+# 94
+# 47
+# 47
+# 47
+# 1.0
+# 47
+# 0
+
+# code
+m = (1 - 1)/(8 / 12)
+print(m)
+for e in range(219, 222, 2) :
+	y = 162 - e
+	if e > 184 :
+		print(y)
+print(e + 89)
+# output
+# 0.0
+# -57
+# -59
+# 310
+
+# code
+print(194)
+p = 0 % 164
+p = p / 81
+d = 21
+m = 195
+while m > 192 :
+	m = m - 2
+	if p == 44 :
+		print(p)
+print(m)
+# output
+# 194
+# 191
+
+# code
+if 3 <= 215 :
+	t = 118 - 0
+	s = 62
+h = 8 + 8
+h = 141 + 180
+print(h)
+o = 225
+g = 46
+for z in range(23, 26) :
+	f = 16
+print(g)
+# output
+# 321
+# 46
+
+# code
+o = 197
+while o <= 200 :
+	o = o + 2
+	if  o > 95 :
+		t = (o / o)
+		print(o)
+print(o)
+# output
+# 199
+# 201
+# 201
+
+# code
+print(246)
+e = 39
+while e > 34 :
+	e = e - 3
+	print(e)
+	h = (e % e)/(e / e)*(e + 60)+(e + 131)
+print(e)
+r = 16
+print(e)
+print(r - e)
+# output
+# 246
+# 36
+# 33
+# 33
+# 33
+# -17
+
+# code
+print(8 / 152)
+j = 73
+while j <= 74 :
+	j = j + 2
+	print(j + j)
+	a = 80
+print(j)
+# output
+# 0.05263157894736842
+# 150
+# 75
+
+# code
+x = (215 * 1)
+print(x)
+print(x)
+print(x)
+for r in range(35, 38, 2) :
+	k = 12 % 222
+r = (123 % 205)
+print(r + r)
+r = r / r
+if r >= 243 :
+	print(r)
+print(x)
+# output
+# 215
+# 215
+# 215
+# 246
+# 215
+
+# code
+d = 121 / 6
+for b in range(90, 91, 2) :
+	d = 100 + d
+	if d == b :
+		v = 226
+print(d)
+# output
+# 120.16666666666667
+
+# code
+for c in range(182, 185, 2) :
+	c = 216 - c
+c = c - 20
+c = c * c
+print(c)
+print(c - 111)
+# output
+# 144
+# 33
+
+# code
+print(132)
+for p in range(115, 116, 2) :
+	print(p)
+	print(p)
+	if  p == p :
+		print(p)
+print(p)
+# output
+# 132
+# 115
+# 115
+# 115
+# 115
+
+# code
+t = 251 - 185
+print(t / t)
+if not t > t :
+	print(t / t)
+	print(t)
+print(t)
+e = 47
+while e <= 52 :
+	e = e + 2
+	t = (191 / 123)
+print(e)
+# output
+# 1.0
+# 1.0
+# 66
+# 66
+# 53
+
+# code
+i = (1 % 219)
+if i <= 56 :
+	i = 209 - 172
+	print(i)
+	p = 48
+print(i)
+for o in range(205, 210) :
+	o = o + 43
+print(i)
+# output
+# 37
+# 37
+# 37
+
+# code
+for c in range(202, 205) :
+	c = (217 % c)-(143 - 133)*(c - 209)
+m = 178
+o = 6
+print(o)
+print(o)
+n = 142 / o
+print(o)
+# output
+# 6
+# 6
+# 6
+
+# code
+x = 80
+c = 240
+u = 144
+while u <= 145 :
+	u = u + 2
+	if not x == x :
+		print(u % 89)
+print(u - 240)
+# output
+# -94
+
+# code
+h = 85
+b = 100
+print(h)
+a = 63 / h
+print(a)
+print(b)
+q = 105
+if  h > a :
+	print(b)
+elif  b == 96 :
+	n = 55
+print(q)
+# output
+# 85
+# 0.7411764705882353
+# 100
+# 100
+# 105
+
+# code
+if  9 >= 1 :
+	v = 86
+	print(v)
+	print(v)
+if not 3 == 199 :
+	print(80)
+print(174)
+# output
+# 86
+# 86
+# 80
+# 174
+
+# code
+u = (250 / 3)
+f = 190
+d = 95
+while d > 94 :
+	d = d - 2
+	u = 121 / 216
+print(u)
+# output
+# 0.5601851851851852
+
+# code
+l = 101
+while l >= 96 :
+	l = l - 3
+	j = (206 / 56)/(227 + l)/(30 * 140)
+	if not j <= l :
+		j = 144 + l
+print(l)
+# output
+# 95
+
+# code
+l = 141
+print(l / 229)
+h = (231 + 29)+(44 + l)
+print(l / h)
+i = 216
+while i <= 217 :
+	i = i + 1
+	h = (17 + 122)
+	j = (250 / l)/(l % i)
+	print(h)
+print(l)
+# output
+# 0.6157205240174672
+# 0.31685393258426964
+# 139
+# 139
+# 141
+
+# code
+n = 180
+e = 108
+while e < 113 :
+	e = e + 3
+	print(n)
+	print(n)
+f = 151
+t = 188
+b = (184 % 12)*(54 - 66)
+print(t * n)
+print(e)
+# output
+# 180
+# 180
+# 180
+# 180
+# 33840
+# 114
+
+# code
+n = 107
+while n <= 108 :
+	n = n + 1
+	f = 99 + n
+	print(f)
+	print(f % 121)
+print(n)
+# output
+# 207
+# 86
+# 208
+# 87
+# 109
+
+# code
+for v in range(34, 35) :
+	v = 1 + v
+	print(v)
+v = (v / 170)
+if  v <= v :
+	print(v)
+	f = 86
+	f = 50 / f
+v = v % 51
+v = (v % v)
+print(v + 149)
+# output
+# 35
+# 0.20588235294117646
+# 149.0
+
+# code
+print(98)
+o = 198
+for q in range(199, 202) :
+	o = 235 + 156
+	print(o)
+	if not o != 199 :
+		o = (155 - 79)%(101 / o)%(o - o)-(o * q)
+		g = 185
+print(q + 186)
+# output
+# 98
+# 391
+# 391
+# 391
+# 387
+
+# code
+print(166)
+for u in range(54, 55, 1) :
+	print(u)
+	print(u)
+	l = (u / 249)/(u + 26)
+if  u != u :
+	print(u)
+x = u - 8
+x = (x + 205)
+d = 191
+print(x)
+# output
+# 166
+# 54
+# 54
+# 251
+
+# code
+print(9 * 225)
+for o in range(1, 2) :
+	print(o)
+w = 128
+y = 27
+v = 61
+p = 167
+print(p / p)
+# output
+# 2025
+# 1
+# 1.0
+
+# code
+e = 9 + 189
+print(e)
+if  e == 82 :
+	print(e * e)
+	e = e + 90
+	r = 48
+	r = e - e
+for e in range(168, 169) :
+	print(e)
+	r = (53 / 231)
+print(e)
+# output
+# 198
+# 168
+# 168
+
+# code
+print(3 * 1)
+if 2 < 203 :
+	print(1 / 1)
+	p = (157 / 84)
+s = (140 + 0)
+print(s + 77)
+# output
+# 3
+# 1.0
+# 217
+
+# code
+for g in range(197, 202) :
+	g = (g / g)
+	g = (g + 183)
+print(g)
+print(g)
+print(g)
+# output
+# 184.0
+# 184.0
+# 184.0
+
+# code
+print(209)
+h = 228
+print(h)
+n = 233
+while n < 234 :
+	n = n + 1
+	print(n)
+print(n)
+# output
+# 209
+# 228
+# 234
+# 234
+
+# code
+print(97)
+n = (2 + 8)%(34 % 143)/(92 / 1)
+l = 32
+k = 41
+while k > 40 :
+	k = k - 1
+	i = 80
+	print(l)
+	print(n)
+	print(l)
+print(k - n)
+# output
+# 97
+# 32
+# 0.10869565217391304
+# 32
+# 39.891304347826086
+
+# code
+f = (8 * 7)
+m = 79
+print(f)
+print(f)
+r = 161
+print(f - m)
+q = 54
+while q <= 57 :
+	q = q + 2
+	print(r / f)
+print(m)
+# output
+# 56
+# 56
+# -23
+# 2.875
+# 2.875
+# 79
+
+# code
+n = 68
+if n > n :
+	print(n * 169)
+	print(n)
+	y = 235 % n
+if  n > n :
+	n = (n + 209)
+	n = (n + 184)/(43 / 34)-(89 + 221)%(10 / n)/(n - n)
+print(n)
+k = 19
+print(n)
+# output
+# 68
+# 68
+
+# code
+print(7 - 5)
+i = (1 / 7)/(9 / 116)*(250 + 2)-(18 * 1)+(4 + 8)
+print(i)
+p = 144
+for w in range(6, 7, 1) :
+	print(i)
+	if i != 119 :
+		s = (28 % i)/(43 * 104)/(77 + 224)/(123 * 34)+(w - i)
+print(w)
+# output
+# 2
+# 458.0
+# 458.0
+# 6
+
+# code
+n = (2 % 9)/(9 * 45)*(8 % 206)
+d = 23
+while d >= 20 :
+	d = d - 2
+	n = n + d
+	print(n)
+print(d)
+print(n)
+# output
+# 21.039506172839506
+# 40.03950617283951
+# 19
+# 40.03950617283951
+
+# code
+print(198)
+print(60)
+if 2 != 244 :
+	m = 2 + 8
+	d = 195
+if  4 < 2 :
+	q = 2 - 1
+	y = q % q
+i = (37 + 42)
+print(i % i)
+# output
+# 198
+# 60
+# 0
+
+# code
+print(1 / 89)
+for t in range(29, 32, 2) :
+	a = 13
+	print(t)
+t = (50 / 26)
+print(t)
+print(t)
+print(t)
+# output
+# 0.011235955056179775
+# 29
+# 31
+# 1.9230769230769231
+# 1.9230769230769231
+# 1.9230769230769231
+
+# code
+b = 22 / 3
+v = (212 - 122)+(236 + 246)%(b % 39)
+v = b % 25
+print(v)
+r = 41
+r = 3 % 204
+y = 82
+while y >= 77 :
+	y = y - 3
+	r = 174
+print(v - 79)
+# output
+# 7.333333333333333
+# -71.66666666666667
+
+# code
+q = 220
+while q <= 223 :
+	q = q + 2
+	d = (q * 3)
+	d = 253
+	e = 236
+	if d == q :
+		print(d)
+		print(q)
+		print(d)
+print(q)
+# output
+# 224
+
+# code
+x = 53
+while x > 48 :
+	x = x - 2
+	z = 109
+	j = 94
+print(x - x)
+# output
+# 0
+
+# code
+q = 221
+q = q + q
+v = 112
+while v >= 111 :
+	v = v - 1
+	a = 111
+	print(q)
+	print(q)
+if q <= 215 :
+	print(v + v)
+print(v)
+# output
+# 442
+# 442
+# 442
+# 442
+# 110
+
+# code
+print(182)
+w = 86
+w = w + w
+c = 221
+if w >= w :
+	print(w)
+	f = 228 % 222
+print(c)
+# output
+# 182
+# 172
+# 221
+
+# code
+print(213)
+r = 195
+while r < 196 :
+	r = r + 1
+	d = 216
+if r >= 138 :
+	print(r)
+print(r)
+# output
+# 213
+# 196
+# 196
+
+# code
+e = 83 / 19
+n = 109
+while n > 108 :
+	n = n - 1
+	k = (176 + 111)
+	print(k)
+s = n % 79
+s = 37
+print(s)
+# output
+# 287
+# 37
+
+# code
+x = (233 + 1)
+h = 56
+while h >= 53 :
+	h = h - 2
+	r = 59 - h
+print(h)
+# output
+# 52
+
+# code
+t = 161
+if not t == t :
+	k = 213
+if  t == 8 :
+	print(t)
+print(t % t)
+# output
+# 0
+
+# code
+a = (5 - 222)
+for v in range(61, 64) :
+	print(a)
+	print(v)
+print(a)
+if not v >= a :
+	a = a / a
+m = 32
+print(v % m)
+m = a / v
+print(m % 211)
+# output
+# -217
+# 61
+# -217
+# 62
+# -217
+# 63
+# -217
+# 31
+# 207.55555555555554
+
+# code
+print(31)
+f = (193 / 203)+(2 + 150)
+print(f * f)
+t = f / f
+if not f != 188 :
+	e = 124
+	print(t)
+	t = 37 * 87
+	print(t)
+for s in range(5, 10, 2) :
+	a = 141 + 185
+print(f % 145)
+# output
+# 31
+# 23393.92853502876
+# 7.950738916256171
+
+# code
+y = 68
+while y <= 73 :
+	y = y + 3
+	m = (187 + y)
+	p = (m / 29)/(168 % 62)/(y % m)%(m * 185)%(y + 2)
+y = 51
+y = 196 % y
+n = 64
+print(y)
+print(y / 54)
+print(n)
+# output
+# 43
+# 0.7962962962962963
+# 64
+
+# code
+print(0 % 6)
+u = 9 * 96
+print(u / 161)
+for v in range(64, 67) :
+	print(u % 74)
+	s = 244
+	print(s)
+print(u * 253)
+print(u)
+# output
+# 0
+# 5.366459627329193
+# 50
+# 244
+# 50
+# 244
+# 50
+# 244
+# 218592
+# 864
+
+# code
+r = (1 * 151)
+print(r)
+s = 92
+while s >= 91 :
+	s = s - 2
+	print(s)
+	d = 121 / 65
+	d = (d - 138)+(56 + 249)
+print(s)
+print(r / s)
+# output
+# 151
+# 90
+# 90
+# 1.6777777777777778
+
+# code
+u = 5 - 9
+s = 197
+while s > 192 :
+	s = s - 2
+	print(s)
+	o = 62
+print(s)
+k = (s - 212)
+k = (s / 87)
+print(u)
+# output
+# 195
+# 193
+# 191
+# 191
+# -4
+
+# code
+u = 214
+while u < 219 :
+	u = u + 3
+	l = u % 235
+j = 112 % u
+print(j * u)
+# output
+# 24640
+
+# code
+k = (0 - 1)-(4 / 189)*(59 * 79)
+w = 205
+for s in range(224, 225) :
+	print(w)
+m = (s + k)
+w = w / 207
+print(w / 168)
+# output
+# 205
+# 0.005894870025304808
+
+# code
+if  5 >= 3 :
+	a = 188
+	a = (187 % a)
+l = 72
+a = 46
+while a < 51 :
+	a = a + 2
+	if not a == a :
+		l = a + 100
+	l = (24 / 171)
+print(l)
+# output
+# 0.14035087719298245
+
+# code
+print(6 * 91)
+print(224)
+z = 203
+while z > 202 :
+	z = z - 2
+	d = 68
+	print(z)
+print(z)
+# output
+# 546
+# 224
+# 201
+# 201
+
+# code
+t = 131
+while t >= 126 :
+	t = t - 2
+	if not t <= 173 :
+		print(t)
+		m = 21 * 147
+t = t + t
+if t != 93 :
+	print(t)
+	t = t / t
+print(t / t)
+# output
+# 250
+# 1.0
+
+# code
+print(1 % 138)
+print(57)
+print(4 + 4)
+if 2 == 2 :
+	print(129)
+print(1 * 61)
+print(165)
+print(6 + 49)
+# output
+# 1
+# 57
+# 8
+# 129
+# 61
+# 165
+# 55
+
+# code
+o = 80
+while o >= 77 :
+	o = o - 2
+	print(o - 174)
+	g = o - o
+	print(o)
+u = (40 / 203)
+k = 55
+k = (o + o)+(252 + u)%(o * 205)
+if o < 253 :
+	print(k)
+print(k)
+# output
+# -96
+# 78
+# -98
+# 76
+# 404.1970443349754
+# 404.1970443349754
+
+# code
+s = 241
+print(s)
+c = 172
+while c >= 167 :
+	c = c - 3
+	print(s)
+l = 64
+s = (83 - 12)
+z = (s + s)
+h = 142
+print(h)
+# output
+# 241
+# 241
+# 241
+# 142
+
+# code
+w = 50
+while w >= 45 :
+	w = w - 2
+	print(w)
+	if w > w :
+		u = 220
+		u = 145 + 145
+		print(w)
+		print(w + u)
+print(w)
+# output
+# 48
+# 46
+# 44
+# 44
+
+# code
+print(1 * 1)
+if 1 == 53 :
+	m = 220
+	j = 229
+	m = (119 - 197)
+k = 76
+while k <= 77 :
+	k = k + 2
+	print(k - 160)
+	print(k)
+print(k)
+# output
+# 1
+# -82
+# 78
+# 78
+
+# code
+if  6 >= 6 :
+	print(99)
+for j in range(182, 185) :
+	j = (230 + 71)%(36 % 118)%(126 - 147)
+	r = 96
+	p = 10
+	if not j == j :
+		q = 221
+		y = 38
+		print(r)
+print(j)
+# output
+# 99
+# -8
+
+# code
+v = 180
+z = 2
+while z < 3 :
+	z = z + 2
+	v = 232 + 225
+	if  v > 203 :
+		v = (v / 103)
+		print(v)
+		l = (v + z)+(z - 187)/(z * 215)/(z % v)-(v / 119)*(v % z)/(z * 110)
+a = 100
+print(a)
+# output
+# 4.436893203883495
+# 100
+
+# code
+if  7 <= 102 :
+	t = 78 % 65
+if  2 > 14 :
+	b = 119
+	y = (b - b)
+print(35)
+print(111)
+r = 5 % 1
+print(r / 33)
+print(r)
+# output
+# 35
+# 111
+# 0.0
+# 0
+
+# code
+for u in range(248, 251) :
+	e = 22
+	i = 117
+u = (u / u)*(u - 68)*(u / 213)
+u = (226 - u)
+if u > u :
+	u = (85 * 100)
+	print(u)
+	u = u / 196
+	print(u)
+print(u)
+# output
+# 12.384976525821571
+
+# code
+print(1 % 131)
+w = (30 + 3)
+print(w)
+print(w)
+p = 245
+while p >= 242 :
+	p = p - 2
+	print(p * w)
+print(w)
+# output
+# 1
+# 33
+# 33
+# 8019
+# 7953
+# 33
+
+# code
+f = 4
+m = 65
+while m >= 62 :
+	m = m - 2
+	l = (26 - 88)
+	print(f)
+	print(f)
+b = 129
+print(m)
+f = 62 % 124
+print(m)
+# output
+# 4
+# 4
+# 4
+# 4
+# 61
+# 61
+
+# code
+for t in range(80, 83, 2) :
+	print(t % 221)
+	c = 111
+	print(c)
+	q = 130 % 25
+print(t)
+print(t)
+w = 128
+print(t)
+print(w)
+print(t)
+# output
+# 80
+# 111
+# 82
+# 111
+# 82
+# 82
+# 82
+# 128
+# 82
+
+# code
+q = (133 % 2)
+d = 250
+print(q)
+z = 114
+print(d)
+for s in range(165, 166, 1) :
+	s = (d - d)
+	o = 58 + s
+print(s)
+p = (120 % 149)+(95 - 157)
+print(p)
+# output
+# 1
+# 250
+# 0
+# 58
+
+# code
+r = 57
+while r >= 52 :
+	r = r - 2
+	t = 253 - r
+	print(r)
+	if  t == t :
+		print(t)
+		print(r)
+print(r)
+x = (r / r)+(45 / r)
+print(r)
+# output
+# 55
+# 198
+# 55
+# 53
+# 200
+# 53
+# 51
+# 202
+# 51
+# 51
+# 51
+
+# code
+for z in range(137, 142, 2) :
+	z = 238 / 224
+	print(z)
+	if not z > 211 :
+		e = z - z
+print(z % z)
+# output
+# 1.0625
+# 1.0625
+# 1.0625
+# 0.0
+
+# code
+for g in range(8, 9, 1) :
+	if g < g :
+		print(g)
+		g = g % 24
+	f = g % 22
+	if  g > 40 :
+		e = (g - f)
+		print(g)
+		print(e / 66)
+		print(g)
+print(g / g)
+# output
+# 1.0
+
+# code
+z = 178
+print(z)
+print(z)
+e = 93
+while e > 90 :
+	e = e - 2
+	print(z)
+e = z / e
+l = (199 - z)%(e / z)*(61 % z)
+i = (186 % z)-(e % 68)
+print(z)
+# output
+# 178
+# 178
+# 178
+# 178
+# 178
+
+# code
+if 1 < 1 :
+	m = 54
+	n = (48 / 118)+(123 + m)
+g = 197
+while g < 198 :
+	g = g + 2
+	print(g)
+	print(g)
+h = (g - 99)
+print(h)
+# output
+# 199
+# 199
+# 100
+
+# code
+for e in range(21, 24) :
+	print(e / 227)
+	print(e)
+l = 103 - e
+print(l)
+if l > 138 :
+	l = (172 + l)
+	print(e * 61)
+print(l)
+# output
+# 0.09251101321585903
+# 21
+# 0.09691629955947137
+# 22
+# 0.1013215859030837
+# 23
+# 80
+# 80
+
+# code
+print(255)
+a = 148
+while a <= 151 :
+	a = a + 2
+	print(a * 16)
+print(a)
+# output
+# 255
+# 2400
+# 2432
+# 152
+
+# code
+if 7 != 1 :
+	w = 52
+	v = 2
+	print(w - v)
+l = 146
+n = 107
+w = 247
+while w <= 248 :
+	w = w + 2
+	if  l >= 18 :
+		print(w * 121)
+print(l)
+# output
+# 50
+# 30129
+# 146
+
+# code
+t = 73
+h = 29
+while h > 26 :
+	h = h - 2
+	u = 243
+l = 151
+print(t)
+h = (89 / 23)
+print(h + 132)
+# output
+# 73
+# 135.8695652173913
+
+# code
+c = 197 % 243
+p = 230
+while p <= 231 :
+	p = p + 1
+	if p >= c :
+		c = (c / c)
+		c = (p - 89)
+		print(c * p)
+		print(c)
+b = 216
+print(b)
+# output
+# 32802
+# 142
+# 33176
+# 143
+# 216
+
+# code
+for f in range(173, 176, 2) :
+	if  f >= 15 :
+		print(f)
+		print(f)
+		print(f)
+print(f)
+e = 66
+g = (e + f)
+print(f / e)
+# output
+# 173
+# 173
+# 173
+# 175
+# 175
+# 175
+# 175
+# 2.6515151515151514
+
+# code
+h = 14
+print(h)
+if h <= h :
+	print(h)
+d = h + 172
+print(d)
+b = 134
+while b < 137 :
+	b = b + 2
+	m = 50
+print(b)
+# output
+# 14
+# 14
+# 186
+# 138
+
+# code
+print(140)
+print(149)
+q = 92
+while q > 91 :
+	q = q - 2
+	d = 80
+	p = 175
+q = 89 / q
+if q >= 134 :
+	f = 44
+print(q)
+# output
+# 140
+# 149
+# 0.9888888888888889
+
+# code
+for h in range(200, 205, 2) :
+	if h >= 116 :
+		print(h)
+		print(h)
+		h = 157 - h
+		g = 107
+b = 23
+print(b)
+# output
+# 200
+# 200
+# 202
+# 202
+# 204
+# 204
+# 23
+
+# code
+print(165)
+for y in range(236, 237) :
+	y = y + 52
+	y = (y + y)
+print(y)
+print(y)
+e = 247
+print(y)
+t = 174
+n = 38
+print(t)
+# output
+# 165
+# 576
+# 576
+# 576
+# 174
+
+# code
+if not 1 >= 233 :
+	print(114)
+	print(35)
+	print(4)
+	u = 177
+k = (1 - 4)
+n = 45
+while n >= 44 :
+	n = n - 1
+	if  k == 190 :
+		k = (206 - 14)-(k * n)%(158 % 162)+(k + 147)
+print(k)
+# output
+# 114
+# 35
+# 4
+# -3
+
+# code
+x = 22
+while x <= 27 :
+	x = x + 2
+	k = 1
+	k = 44 / 147
+	d = 211
+	print(k)
+print(x)
+print(x)
+d = 102
+print(d)
+# output
+# 0.29931972789115646
+# 0.29931972789115646
+# 0.29931972789115646
+# 28
+# 28
+# 102
+
+# code
+l = 51
+o = 201
+while o > 196 :
+	o = o - 3
+	w = 70
+o = o - 90
+o = 13 % o
+print(l)
+print(l)
+print(l)
+print(o + 12)
+# output
+# 51
+# 51
+# 51
+# 25
+
+# code
+f = 211
+while f < 214 :
+	f = f + 2
+	q = 106
+	if not q <= 60 :
+		k = 169
+		g = k - k
+		print(q)
+print(f * 137)
+f = 31 % f
+print(f)
+# output
+# 106
+# 106
+# 29455
+# 31
+
+# code
+h = 212
+while h <= 217 :
+	h = h + 2
+	v = h / h
+	if h >= h :
+		t = 55
+p = 57
+print(h)
+# output
+# 218
+
+# code
+j = (112 % 2)%(243 - 0)%(1 * 235)%(5 + 242)-(84 - 1)
+for i in range(254, 255, 2) :
+	j = (j - i)
+	print(i)
+print(j)
+z = i + j
+print(j + 62)
+print(z)
+d = 128 + i
+d = 240 % 93
+print(d)
+# output
+# 254
+# -337
+# -275
+# -83
+# 54
+
+# code
+s = 4
+while s < 9 :
+	s = s + 3
+	print(s)
+x = 113
+j = 147
+print(s)
+# output
+# 7
+# 10
+# 10
+
+# code
+q = 249
+while q >= 244 :
+	q = q - 3
+	if q == 248 :
+		print(q)
+		print(q)
+w = 202
+print(q)
+if not q <= 165 :
+	n = 215
+print(w)
+# output
+# 243
+# 202
+
+# code
+w = 47 / 144
+h = 248
+y = 18
+while y > 15 :
+	y = y - 2
+	print(y)
+r = 105
+print(y)
+print(y)
+# output
+# 16
+# 14
+# 14
+# 14
+
+# code
+o = (82 % 52)
+z = 249
+while z < 250 :
+	z = z + 2
+	o = o % z
+	print(z)
+	print(z)
+print(o * 72)
+f = 103
+print(o)
+print(z)
+# output
+# 251
+# 251
+# 2160
+# 30
+# 251
+
+# code
+i = 71
+while i >= 66 :
+	i = i - 3
+	p = 24
+	a = (152 + i)
+	print(a / p)
+print(i)
+i = (118 - i)
+print(i)
+b = 226
+print(b)
+# output
+# 9.166666666666666
+# 9.041666666666666
+# 65
+# 53
+# 226
+
+# code
+f = 36
+while f > 31 :
+	f = f - 2
+	print(f)
+print(f)
+y = 180
+print(f)
+i = 133
+i = 155
+v = 112
+print(i)
+# output
+# 34
+# 32
+# 30
+# 30
+# 30
+# 155
+
+# code
+j = 132
+while j >= 131 :
+	j = j - 2
+	v = 191
+print(j % 66)
+if not j <= j :
+	print(j)
+	d = 199
+	print(j + 165)
+	j = (191 % d)*(j * 245)
+print(j + j)
+# output
+# 64
+# 260
+
+# code
+if 9 != 2 :
+	c = 209 / 154
+	print(c)
+	print(c)
+	q = 196
+for t in range(236, 237) :
+	t = (t - t)
+print(t)
+# output
+# 1.3571428571428572
+# 1.3571428571428572
+# 0
+
+# code
+h = 253
+h = 230 + h
+g = 211
+y = 75
+while y <= 76 :
+	y = y + 2
+	print(h)
+	print(h / h)
+	g = 21 / h
+g = y - h
+print(h)
+# output
+# 483
+# 1.0
+# 483
+
+# code
+f = 2 / 7
+w = 54
+while w > 51 :
+	w = w - 2
+	j = 231
+g = (f / 138)/(29 / w)-(181 + 159)
+w = f * w
+x = 217
+print(w * 60)
+print(x)
+# output
+# 857.1428571428571
+# 217
+
+# code
+if not 1 < 173 :
+	a = 125
+	a = (27 + 180)-(59 + a)
+for j in range(131, 132, 2) :
+	print(j)
+print(j + 119)
+# output
+# 131
+# 250
+
+# code
+print(21)
+print(2 % 3)
+r = 228
+while r >= 225 :
+	r = r - 2
+	m = (238 - 252)
+print(r)
+# output
+# 21
+# 2
+# 224
+
+# code
+print(145)
+for q in range(100, 101, 2) :
+	print(q)
+	print(q)
+	print(q)
+print(q % q)
+q = (150 + q)
+l = (q / 227)
+q = (10 * 118)*(l + q)/(213 + 42)%(l - 194)%(l / q)
+print(q)
+print(q * l)
+# output
+# 145
+# 100
+# 100
+# 100
+# 0
+# 0.003109613889728635
+# 0.003424684900582197
+
+# code
+print(26)
+u = 249 * 2
+print(u)
+h = 36 % u
+k = 254
+for w in range(46, 51) :
+	k = (h % 143)
+	print(w)
+	f = 90
+if not k > h :
+	s = 183
+print(k)
+# output
+# 26
+# 498
+# 46
+# 47
+# 48
+# 49
+# 50
+# 36
+
+# code
+if 2 == 2 :
+	l = (3 % 59)
+	l = l + 238
+	n = 224
+	print(l * 26)
+elif  2 == 252 :
+	c = 219
+print(227)
+# output
+# 6266
+# 227
+
+# code
+s = 34
+while s < 35 :
+	s = s + 1
+	p = 86
+	print(p / p)
+	w = 134
+if  s != s :
+	w = 173
+m = 215
+print(m)
+# output
+# 1.0
+# 215
+
+# code
+print(221)
+print(88)
+print(10)
+for e in range(236, 237) :
+	if e < e :
+		t = 161 / e
+print(e)
+b = 79
+if not b > e :
+	print(e)
+print(e % e)
+# output
+# 221
+# 88
+# 10
+# 236
+# 236
+# 0
+
+# code
+print(40)
+w = 41
+while w <= 46 :
+	w = w + 3
+	r = w / w
+	c = 240
+print(w)
+# output
+# 40
+# 47
+
+# code
+z = 142
+while z >= 137 :
+	z = z - 3
+	if not z < 78 :
+		print(z)
+		b = (51 / 90)*(195 - z)%(116 % z)
+print(z)
+# output
+# 139
+# 136
+# 136
+
+# code
+for b in range(30, 35) :
+	v = 115
+	print(b / b)
+	o = 24
+if b != 128 :
+	b = (b + b)
+print(b)
+q = b + b
+b = 244
+l = 28
+print(l * 235)
+# output
+# 1.0
+# 1.0
+# 1.0
+# 1.0
+# 1.0
+# 68
+# 6580
+
+# code
+for w in range(104, 105, 1) :
+	print(w)
+	w = (12 % 11)+(w - 80)
+if w == w :
+	o = 90
+print(w)
+# output
+# 104
+# 25
+
+# code
+s = 232
+while s < 237 :
+	s = s + 2
+	v = 172
+	v = v + 93
+k = 111
+k = s - s
+print(k)
+v = 156
+s = 154 % v
+print(s)
+# output
+# 0
+# 154
+
+# code
+print(194)
+if 2 < 119 :
+	print(186)
+	m = 18
+	o = (m * 4)%(163 - m)
+for a in range(98, 99, 2) :
+	print(a)
+	a = a + 211
+	if not a > a :
+		print(a)
+print(a)
+# output
+# 194
+# 186
+# 98
+# 309
+# 309
+
+# code
+d = 170
+while d < 175 :
+	d = d + 2
+	o = (d - d)
+	r = (o / 142)
+	if o >= 119 :
+		print(r)
+		print(d)
+	print(o)
+	u = (116 * o)
+print(d + 93)
+# output
+# 0
+# 0
+# 0
+# 269
+
+# code
+if 2 <= 1 :
+	print(58)
+	g = 1 % 2
+	print(g)
+	q = 25 % 140
+e = 209
+print(e)
+for r in range(129, 132, 2) :
+	e = (e % r)
+	print(e - r)
+print(r)
+# output
+# 209
+# -49
+# -51
+# 131
+
+# code
+g = 232
+while g < 235 :
+	g = g + 2
+	print(g)
+	print(g)
+	if g > 247 :
+		print(g + g)
+	print(g / g)
+	print(g + g)
+print(g)
+print(g)
+# output
+# 234
+# 234
+# 1.0
+# 468
+# 236
+# 236
+# 1.0
+# 472
+# 236
+# 236
+
+# code
+b = 200
+while b > 197 :
+	b = b - 2
+	i = (b % 137)-(236 % 74)
+	print(b)
+	print(i)
+i = (b * b)%(2 % 164)-(133 % b)*(b * b)%(b + 67)-(135 - b)%(72 + 14)
+print(b)
+print(i)
+# output
+# 198
+# 47
+# 196
+# 45
+# 196
+# -52
+
+# code
+for y in range(163, 166, 2) :
+	y = y / y
+	y = 194 + 199
+	print(y)
+s = y - 115
+if y <= y :
+	i = 4
+	i = 202 - i
+	print(i)
+print(s)
+# output
+# 393
+# 393
+# 198
+# 278
+
+# code
+if not 2 > 93 :
+	print(39)
+m = 187
+while m >= 184 :
+	m = m - 2
+	if not m == 46 :
+		p = 116
+		p = (p / 109)/(140 + 138)
+print(m)
+# output
+# 39
+# 183
+
+# code
+v = 96
+while v < 97 :
+	v = v + 1
+	t = 90
+	w = 187
+r = (v - 96)
+print(v)
+print(r - r)
+v = r * v
+x = (v % 241)
+print(x)
+# output
+# 97
+# 0
+# 97
+
+# code
+if 5 <= 194 :
+	print(7 / 3)
+	g = 5 % 8
+print(4 - 7)
+a = 8
+while a <= 13 :
+	a = a + 3
+	print(a)
+print(a % a)
+print(a)
+print(a)
+# output
+# 2.3333333333333335
+# -3
+# 11
+# 14
+# 0
+# 14
+# 14
+
+# code
+for m in range(12, 15, 2) :
+	if not m == m :
+		print(m)
+		m = 197 / m
+k = 206
+print(k + 115)
+if m < k :
+	z = 242 + k
+	print(z)
+print(k)
+# output
+# 321
+# 448
+# 206
+
+# code
+for y in range(10, 15, 3) :
+	m = 165
+y = (y - 88)
+y = (y / y)
+print(y)
+if y >= 46 :
+	y = (y % y)*(50 * 104)
+	t = (118 - 185)
+print(y / 149)
+# output
+# 1.0
+# 0.006711409395973154
+
+# code
+for i in range(123, 124, 1) :
+	if i != i :
+		i = i + 222
+		i = (i / i)
+		i = i / i
+		i = i * i
+		k = (223 - i)-(i * i)
+w = 118
+print(w)
+# output
+# 118
+
+# code
+if not 5 == 9 :
+	y = (167 % 11)%(2 % 252)-(7 + 58)/(4 - 129)
+	r = 231 % y
+l = (1 / 1)-(2 - 116)+(33 % 58)
+r = 5
+while r > 0 :
+	r = r - 2
+	i = (l % 188)
+print(l)
+# output
+# 148.0
+
+# code
+for j in range(71, 76) :
+	j = 93 % j
+	j = (143 + 154)-(j / 167)+(j + 135)%(j + j)
+	x = (j - 57)-(146 - j)%(j / 115)
+	print(j * j)
+	print(j)
+print(j)
+print(j)
+# output
+# 103599.17903115925
+# 321.8682634730539
+# 106846.77629172793
+# 326.874251497006
+# 110144.4933844885
+# 331.88023952095807
+# 89332.97701602783
+# 298.8862275449102
+# 93570.04754562733
+# 305.8922155688623
+# 305.8922155688623
+# 305.8922155688623
+
+# code
+z = 26 / 6
+s = 52
+while s <= 53 :
+	s = s + 2
+	x = 11
+	u = 138
+	if not u <= s :
+		print(x % 39)
+		j = 226
+		g = 117
+print(s)
+# output
+# 11
+# 54
+
+# code
+k = 7
+k = 181 / k
+k = 189 - 112
+if not k < 178 :
+	c = 98
+	c = (c % 102)
+print(k)
+print(k)
+# output
+# 77
+# 77
+
+# code
+c = 96
+t = 82
+while t < 87 :
+	t = t + 3
+	print(c)
+	c = t - t
+	k = 60
+	print(c)
+print(t % 132)
+if c <= 253 :
+	print(c)
+print(t)
+# output
+# 96
+# 0
+# 0
+# 0
+# 88
+# 0
+# 88
+
+# code
+for x in range(190, 193, 2) :
+	h = (158 + x)
+	x = (x % 12)
+if x >= 203 :
+	s = (183 + 152)
+print(x + x)
+# output
+# 0
+
+# code
+y = 238
+while y > 233 :
+	y = y - 2
+	print(y)
+	q = (129 + y)%(217 / 177)
+	print(y)
+	d = 132
+w = 41 % 237
+if y <= w :
+	print(w)
+print(y)
+# output
+# 236
+# 236
+# 234
+# 234
+# 232
+# 232
+# 232
+
+# code
+print(112)
+print(40)
+b = 68
+while b >= 63 :
+	b = b - 2
+	print(b)
+	print(b)
+print(b)
+# output
+# 112
+# 40
+# 66
+# 66
+# 64
+# 64
+# 62
+# 62
+# 62
+
+# code
+print(163)
+j = 197
+while j > 194 :
+	j = j - 2
+	print(j / 82)
+print(j)
+c = (244 + 29)/(118 % j)+(84 - 10)-(j + j)
+print(c)
+# output
+# 163
+# 2.3780487804878048
+# 2.3536585365853657
+# 193
+# -309.6864406779661
+
+# code
+w = 29
+while w > 28 :
+	w = w - 2
+	print(w)
+if w < 148 :
+	w = (80 / 34)
+	print(w)
+	w = 114 - 72
+print(w)
+print(w - w)
+print(w)
+# output
+# 27
+# 2.3529411764705883
+# 42
+# 0
+# 42
+
+# code
+print(190)
+if 1 != 76 :
+	print(7 / 75)
+	print(206)
+j = 218
+j = (j / 139)
+for v in range(151, 156) :
+	s = 9
+	if  v == 133 :
+		n = s - 206
+print(j)
+# output
+# 190
+# 0.09333333333333334
+# 206
+# 1.5683453237410072
+
+# code
+if  1 < 5 :
+	b = 153
+h = (58 / 8)%(161 * 83)/(0 + 217)-(212 / 174)
+d = 8
+while d < 13 :
+	d = d + 2
+	print(h)
+print(h)
+d = 221 + 211
+h = 86 / 240
+print(h)
+# output
+# -1.1849806663488534
+# -1.1849806663488534
+# -1.1849806663488534
+# -1.1849806663488534
+# 0.35833333333333334
+
+# code
+p = 25
+while p > 24 :
+	p = p - 2
+	print(p)
+if  p != 173 :
+	p = (80 + p)
+print(p)
+# output
+# 23
+# 103
+
+# code
+print(158)
+m = 39
+while m < 42 :
+	m = m + 2
+	if  m != m :
+		a = (123 - 138)
+		h = (99 % a)*(232 + a)*(a - m)+(m * m)+(205 * a)
+		l = (h - m)
+		b = 214
+if not m != m :
+	m = m - m
+print(m)
+# output
+# 158
+# 0
+
+# code
+if 5 > 76 :
+	print(153)
+	f = 143
+	b = 29
+	i = 162
+	y = 97 % 13
+print(1 + 124)
+if not 5 <= 6 :
+	print(5 % 1)
+	g = (167 + 21)/(70 + 6)
+print(2 - 1)
+# output
+# 125
+# 1
+
+# code
+p = (211 % 205)
+k = 227
+m = 209
+while m <= 210 :
+	m = m + 2
+	u = 246
+print(p)
+print(p)
+k = 110 / 46
+j = k + 4
+print(k)
+# output
+# 6
+# 6
+# 2.391304347826087
+
+# code
+l = 14
+while l >= 13 :
+	l = l - 1
+	if l < l :
+		b = (64 % l)
+		y = b * b
+print(l)
+h = (l + 110)-(l + l)
+g = 191
+r = 2
+print(r / 4)
+# output
+# 12
+# 0.5
+
+# code
+i = 236
+while i > 235 :
+	i = i - 1
+	n = 151
+print(i)
+if i < 29 :
+	q = 48
+	q = q % 51
+print(i * i)
+# output
+# 235
+# 55225
+
+# code
+if  0 <= 69 :
+	print(67)
+	print(68)
+	print(142)
+	print(198)
+elif  2 < 225 :
+	s = 22
+m = 46 * 5
+z = (105 / m)
+h = 196 % m
+print(h)
+# output
+# 67
+# 68
+# 142
+# 198
+# 196
+
+# code
+print(3 * 1)
+k = 174
+while k <= 177 :
+	k = k + 2
+	q = 211 + k
+	print(k)
+print(k)
+# output
+# 3
+# 176
+# 178
+# 178
+
+# code
+if  3 >= 23 :
+	l = 64
+	p = 72
+c = (0 - 5)
+if c != 167 :
+	b = (c / c)
+	f = 239
+print(c)
+# output
+# -5
+
+# code
+for l in range(194, 199, 3) :
+	print(l - l)
+	l = l - l
+	print(l)
+	print(l)
+	j = 46
+	a = 129
+r = 248
+print(l - r)
+print(r)
+print(l * l)
+# output
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# -248
+# 248
+# 0
+
+# code
+b = 4
+w = 139
+while w <= 140 :
+	w = w + 2
+	k = 234
+	m = w % 151
+w = (w - w)%(w - b)
+print(w)
+b = (244 * w)*(b - 142)
+o = (b + 136)-(b + b)+(207 + 122)+(w * 246)+(91 - w)
+print(w)
+# output
+# 0
+# 0
+
+# code
+if 4 <= 3 :
+	print(4)
+elif 1 > 23 :
+	print(7 + 5)
+	print(8 + 174)
+q = 131 / 3
+print(q % q)
+# output
+# 0.0
+
+# code
+print(40)
+print(177)
+print(10)
+l = 111
+m = 207
+while m >= 206 :
+	m = m - 2
+	l = (l % 132)
+	l = 160 + l
+print(m)
+print(l)
+# output
+# 40
+# 177
+# 10
+# 205
+# 271
+
+# code
+for a in range(121, 126) :
+	a = (157 % a)+(a % 248)%(a + a)%(a / 126)-(a / a)
+	if a > 188 :
+		a = 247 * 162
+		n = 167
+print(a)
+# output
+# 31.992063492063487
+
+# code
+for v in range(249, 250) :
+	v = (54 / 180)/(213 + 119)
+	v = (61 * v)-(v % v)*(211 + v)
+print(v)
+if v < v :
+	print(v)
+	m = 177
+print(v)
+print(v % 162)
+v = (v - 216)
+print(v)
+# output
+# 0.05512048192771084
+# 0.05512048192771084
+# 0.05512048192771084
+# -215.9448795180723
+
+# code
+print(230)
+print(49)
+g = 63
+while g > 58 :
+	g = g - 2
+	print(g)
+print(g)
+# output
+# 230
+# 49
+# 61
+# 59
+# 57
+# 57
+
+# code
+b = (140 / 61)
+m = 8
+t = 120
+while t > 117 :
+	t = t - 2
+	r = 78
+print(t)
+# output
+# 116
+
+# code
+j = (1 * 168)/(0 - 9)
+z = 126
+while z < 127 :
+	z = z + 2
+	print(j)
+	q = 56
+	j = q % 241
+	e = 208
+print(z)
+print(j)
+print(j)
+# output
+# -18.666666666666668
+# 128
+# 56
+# 56
+
+# code
+w = (180 * 0)*(4 * 2)
+e = 153
+while e < 158 :
+	e = e + 2
+	if w <= 36 :
+		s = 38
+		s = s % s
+		print(e)
+		b = 101
+if not e != 137 :
+	print(w - w)
+print(e)
+# output
+# 155
+# 157
+# 159
+# 159
+
+# code
+print(128)
+print(36)
+print(247)
+v = 221
+while v >= 220 :
+	v = v - 1
+	print(v)
+	print(v)
+	if v > 44 :
+		h = v + 168
+print(v)
+# output
+# 128
+# 36
+# 247
+# 220
+# 220
+# 219
+# 219
+# 219
+
+# code
+if 1 > 134 :
+	e = 87 + 1
+else :
+	j = (97 - 2)
+	print(j)
+	print(j * 83)
+	o = (j - j)*(j - 169)
+p = 78 % 2
+t = 216
+p = (93 + p)
+print(t)
+# output
+# 95
+# 7885
+# 216
+
+# code
+print(195)
+c = (1 / 31)*(86 * 6)
+for l in range(94, 99, 2) :
+	print(c)
+	v = (c % 252)*(c / 196)
+	print(c)
+	print(v)
+print(c)
+# output
+# 195
+# 16.64516129032258
+# 16.64516129032258
+# 1.4135785427594554
+# 16.64516129032258
+# 16.64516129032258
+# 1.4135785427594554
+# 16.64516129032258
+# 16.64516129032258
+# 1.4135785427594554
+# 16.64516129032258
+
+# code
+if  1 <= 4 :
+	print(234)
+	q = 34 % 5
+	q = 10 - q
+j = 113
+while j > 112 :
+	j = j - 2
+	print(j)
+	g = 37
+	print(j)
+print(j)
+# output
+# 234
+# 111
+# 111
+# 111
+
+# code
+print(109)
+print(160)
+z = 117
+w = 129
+h = 17
+while h > 12 :
+	h = h - 3
+	print(w + z)
+h = 104 / 185
+print(z * 51)
+print(w * 165)
+# output
+# 109
+# 160
+# 246
+# 246
+# 5967
+# 21285
+
+# code
+t = (93 * 5)/(255 / 109)
+y = 118
+t = (t - y)
+g = 71
+while g <= 74 :
+	g = g + 2
+	print(g)
+print(g)
+# output
+# 73
+# 75
+# 75
+
+# code
+if  1 != 195 :
+	i = (8 - 6)
+	i = i * i
+for c in range(240, 243) :
+	c = c / 40
+r = 138
+print(r)
+print(r)
+print(r)
+print(r)
+print(r)
+# output
+# 138
+# 138
+# 138
+# 138
+# 138
+
+# code
+o = 15 + 23
+b = 208
+while b > 203 :
+	b = b - 2
+	r = 144
+print(b)
+# output
+# 202
+
+# code
+print(208)
+if 0 > 159 :
+	print(65)
+	s = 3 - 175
+	x = (s % s)
+if  6 >= 74 :
+	j = 143 * 128
+	c = 10
+print(191)
+# output
+# 208
+# 191
+
+# code
+o = 14
+while o >= 13 :
+	o = o - 2
+	print(o)
+	d = 255
+	j = 92
+print(o)
+m = 226 - 80
+print(m)
+# output
+# 12
+# 12
+# 146
+
+# code
+u = 198 - 1
+u = 195
+while u < 198 :
+	u = u + 2
+	m = 182
+	if m < u :
+		o = 125 + u
+		print(o * 59)
+		print(u)
+	n = 172
+print(u)
+# output
+# 18998
+# 197
+# 19116
+# 199
+# 199
+
+# code
+if 1 == 6 :
+	k = (3 % 229)*(5 + 2)
+print(124)
+for b in range(21, 24) :
+	b = b * 35
+	print(b)
+	if  b >= b :
+		n = 72
+print(b)
+# output
+# 124
+# 735
+# 770
+# 805
+# 805
+
+# code
+t = (0 % 8)*(141 + 255)
+v = 91
+while v > 90 :
+	v = v - 2
+	t = (t * 10)-(127 + 99)
+	if t != t :
+		x = 168
+print(v)
+# output
+# 89
+
+# code
+w = 230
+print(w * w)
+p = 21
+c = 128
+while c <= 129 :
+	c = c + 2
+	print(p)
+	print(w)
+	m = 220
+	p = 77 - m
+print(c)
+# output
+# 52900
+# 21
+# 230
+# 130
+
+# code
+print(2 * 5)
+i = 31
+while i <= 34 :
+	i = i + 2
+	if not i < 206 :
+		q = (i % 9)
+	else :
+		y = (i + 59)+(226 - i)
+		print(y)
+	m = 50 - i
+print(i * i)
+# output
+# 10
+# 285
+# 285
+# 1225
+
+# code
+q = 6
+print(q)
+p = 189
+while p < 190 :
+	p = p + 2
+	print(q)
+q = (230 / q)
+print(q * q)
+# output
+# 6
+# 6
+# 1469.4444444444446
+
+# code
+j = (1 - 1)
+f = 192
+if  f == j :
+	r = 64
+	y = (21 - 69)
+print(j)
+# output
+# 0
+
+# code
+m = 4 - 5
+print(m)
+for d in range(184, 189) :
+	a = 158
+	a = (a - 214)
+	a = 130
+if  d <= 2 :
+	m = d + 92
+	print(d)
+print(d)
+# output
+# -1
+# 188
+
+# code
+s = 22
+while s > 21 :
+	s = s - 2
+	p = 178
+if s <= s :
+	print(s + 22)
+d = 22 - s
+r = (d % s)/(d * 191)
+print(s)
+print(r % 68)
+print(d)
+# output
+# 42
+# 20
+# 0.005235602094240838
+# 2
+
+# code
+print(188)
+for f in range(99, 104) :
+	print(f)
+	b = 41 / f
+	i = 192 % 38
+	print(i)
+r = (193 % f)+(f % f)*(204 - 253)
+u = 74
+f = u % f
+if not u <= u :
+	print(f * f)
+print(r)
+# output
+# 188
+# 99
+# 2
+# 100
+# 2
+# 101
+# 2
+# 102
+# 2
+# 103
+# 2
+# 90
+
+# code
+f = 225
+while f >= 222 :
+	f = f - 2
+	if f <= f :
+		print(f)
+print(f / f)
+# output
+# 223
+# 221
+# 1.0
+
+# code
+print(209)
+a = 5 * 9
+a = 227 / 194
+print(a + 212)
+if not a >= 144 :
+	print(a - a)
+u = 109
+while u > 104 :
+	u = u - 2
+	if a < 155 :
+		a = 166 - 155
+print(a)
+# output
+# 209
+# 213.1701030927835
+# 0.0
+# 11
+
+# code
+l = 251
+if l != l :
+	print(l)
+	l = (l % 17)
+print(l * l)
+l = 130
+while l >= 125 :
+	l = l - 2
+	print(l)
+	print(l / l)
+print(l)
+# output
+# 63001
+# 128
+# 1.0
+# 126
+# 1.0
+# 124
+# 1.0
+# 124
+
+# code
+for k in range(99, 100, 2) :
+	print(k)
+	k = k + k
+p = k / k
+l = 151
+d = 64 + 38
+z = 95
+print(d)
+# output
+# 99
+# 102
+
+# code
+c = 68 / 3
+c = c % c
+c = (241 * c)+(c * c)/(100 / 251)
+c = (115 + c)
+print(c * 135)
+k = 88
+while k < 89 :
+	k = k + 1
+	if k < 18 :
+		print(c)
+print(k)
+# output
+# 15525.0
+# 89
+
+# code
+print(6 - 54)
+if 5 >= 6 :
+	x = 141
+	print(x)
+else :
+	print(46)
+	print(34)
+print(80)
+# output
+# -48
+# 46
+# 34
+# 80
+
+# code
+s = 34
+while s >= 29 :
+	s = s - 2
+	print(s)
+	p = (161 % s)
+	p = (181 - p)
+t = 52
+l = 157
+print(s)
+# output
+# 32
+# 30
+# 28
+# 28
+
+# code
+o = 51
+h = 100
+while h > 99 :
+	h = h - 2
+	if h < o :
+		print(h)
+print(h + 28)
+# output
+# 126
+
+# code
+for y in range(120, 125) :
+	print(y)
+	print(y)
+	print(y)
+r = 212
+if  y < 126 :
+	p = (r - 54)
+	r = (105 % y)/(149 * r)/(187 * 77)/(y / 38)
+print(y)
+# output
+# 120
+# 120
+# 120
+# 121
+# 121
+# 121
+# 122
+# 122
+# 122
+# 123
+# 123
+# 123
+# 124
+# 124
+# 124
+# 124
+
+# code
+print(230)
+i = 128
+while i < 133 :
+	i = i + 2
+	s = 247
+	print(s)
+	if s <= i :
+		print(s)
+		y = (i - 126)%(194 / s)
+print(i - 221)
+# output
+# 230
+# 247
+# 247
+# 247
+# -87
+
+# code
+g = 52
+while g <= 53 :
+	g = g + 2
+	print(g)
+	if not g != 225 :
+		p = g + 125
+print(g)
+# output
+# 54
+# 54
+
+# code
+print(177)
+print(247)
+a = 66
+for d in range(117, 122, 3) :
+	d = a % a
+	print(d * 142)
+print(d % a)
+# output
+# 177
+# 247
+# 0
+# 0
+# 0
+
+# code
+print(3 * 187)
+e = (2 % 1)*(119 % 57)*(3 / 180)
+c = (e - e)
+n = 233
+while n <= 236 :
+	n = n + 2
+	if not c < 106 :
+		print(n / c)
+		c = (121 * n)+(n - n)*(138 + 238)
+		y = 85
+print(n)
+# output
+# 561
+# 237
+
+# code
+for q in range(206, 209, 2) :
+	i = 228
+	print(i)
+	if q >= i :
+		print(i)
+print(q / 197)
+# output
+# 228
+# 228
+# 1.0558375634517767
+
+# code
+j = 95
+while j > 90 :
+	j = j - 2
+	if j == 46 :
+		print(j % 183)
+print(j * 186)
+# output
+# 16554
+
+# code
+for w in range(213, 218) :
+	if w > w :
+		c = 131
+		w = (c % c)
+		print(w)
+print(w % 161)
+s = 42
+print(w / 180)
+# output
+# 56
+# 1.2055555555555555
+
+# code
+for k in range(197, 202, 2) :
+	q = (k / k)%(82 % k)-(90 - 7)
+	if q >= k :
+		h = (q * k)
+k = (71 / k)/(75 + k)/(117 % 169)%(14 + 151)
+e = 168
+print(k)
+if e == k :
+	k = (47 - k)
+	print(e)
+print(e % k)
+# output
+# 1.0938741200476005e-05
+# 1.3866009941324611e-06
+
+# code
+if  2 < 4 :
+	print(7)
+h = 205
+while h > 204 :
+	h = h - 2
+	if not h > 154 :
+		b = h % 17
+		y = 9
+		y = (b / 134)
+h = (h % 3)
+print(h)
+# output
+# 7
+# 2
+
+# code
+if 3 > 216 :
+	print(71)
+	s = 226
+else :
+	print(59)
+	print(1 % 142)
+	print(245)
+print(171)
+print(60)
+print(180)
+print(2 % 2)
+# output
+# 59
+# 1
+# 245
+# 171
+# 60
+# 180
+# 0
+
+# code
+x = 132
+while x < 133 :
+	x = x + 2
+	if x >= 123 :
+		print(x)
+print(x)
+# output
+# 134
+# 134
+
+# code
+print(15)
+h = 1 % 103
+print(h)
+x = 130
+while x > 125 :
+	x = x - 2
+	r = 225
+print(x)
+# output
+# 15
+# 1
+# 124
+
+# code
+print(241)
+e = 209
+i = 107
+while i < 110 :
+	i = i + 2
+	e = i / i
+	if not i == i :
+		e = i - 56
+print(i)
+# output
+# 241
+# 111
+
+# code
+if 6 >= 122 :
+	h = 192
+	j = 223
+print(17)
+q = 102
+while q < 107 :
+	q = q + 2
+	t = (35 + 51)/(q / q)/(88 + q)
+	if not q >= 132 :
+		m = (q + 234)
+print(q)
+# output
+# 17
+# 108
+
+# code
+s = 150 / 151
+f = 18
+while f > 13 :
+	f = f - 3
+	print(f)
+	j = 139
+	print(s)
+f = f % f
+print(f)
+# output
+# 15
+# 0.9933774834437086
+# 12
+# 0.9933774834437086
+# 0
+
+# code
+l = (4 / 2)
+y = (l / 23)
+print(l)
+p = 237
+while p <= 238 :
+	p = p + 2
+	print(p)
+	l = l + 105
+	print(l * 221)
+	l = (169 + 187)%(l % p)%(l / l)
+print(y)
+# output
+# 2.0
+# 239
+# 23647.0
+# 0.08695652173913043
+
+# code
+for d in range(248, 253, 2) :
+	d = (200 / d)%(d / d)+(140 - d)
+	print(d)
+	print(d)
+d = (d - 119)+(146 % d)
+print(d - 57)
+# output
+# -107.19354838709677
+# -107.19354838709677
+# -109.2
+# -109.2
+# -111.2063492063492
+# -111.2063492063492
+# -363.6190476190476
+
+# code
+f = 114
+while f <= 117 :
+	f = f + 2
+	k = 1
+	n = 254
+	print(k)
+p = 188
+q = (f / 246)+(p / 8)
+print(p)
+q = p + 1
+print(q)
+# output
+# 1
+# 1
+# 188
+# 189
+
+# code
+print(155)
+t = 18
+print(t)
+if t != t :
+	q = 63
+elif t < t :
+	t = (184 + t)*(106 % t)
+	t = (12 / t)
+t = t - 74
+print(t)
+print(t)
+# output
+# 155
+# 18
+# -56
+# -56
+
+# code
+for s in range(63, 66, 2) :
+	j = 40
+y = 106
+d = 249
+print(s)
+if s <= 77 :
+	d = y - 35
+q = (50 + 255)
+print(y)
+# output
+# 65
+# 106
+
+# code
+for g in range(163, 164) :
+	g = (g % g)-(g / g)
+	n = 162
+print(g / 226)
+e = 52
+e = 14 + g
+if e <= e :
+	e = e - g
+print(e)
+# output
+# -0.004424778761061947
+# 14.0
+
+# code
+for y in range(88, 89) :
+	y = (y - 188)
+	y = y * 9
+	if not y == 6 :
+		print(y)
+print(y)
+# output
+# -900
+# -900
+
+# code
+print(222)
+b = 85 - 0
+print(b)
+i = 45
+while i < 46 :
+	i = i + 2
+	print(b)
+	if i > 202 :
+		g = 39
+print(i)
+# output
+# 222
+# 85
+# 85
+# 47
+
+# code
+for j in range(255, 260, 2) :
+	if not j == 135 :
+		print(j)
+	print(j)
+if not j > 60 :
+	s = 143
+	j = (j + 123)/(40 % s)
+print(j)
+print(j)
+# output
+# 255
+# 255
+# 257
+# 257
+# 259
+# 259
+# 259
+# 259
+
+# code
+t = (73 % 8)
+i = t % t
+k = 142
+j = (t - i)+(t / 18)
+y = k - j
+print(j - 234)
+# output
+# -232.94444444444446
+
+# code
+y = 111
+while y > 110 :
+	y = y - 2
+	if y >= 85 :
+		i = 112
+print(y)
+# output
+# 109
+
+# code
+b = 153
+print(b)
+for i in range(198, 203) :
+	print(b)
+	print(b)
+print(i)
+# output
+# 153
+# 153
+# 153
+# 153
+# 153
+# 153
+# 153
+# 153
+# 153
+# 153
+# 153
+# 202
+
+# code
+m = (159 - 1)-(9 * 40)%(2 + 2)*(236 - 84)
+d = 120
+while d > 119 :
+	d = d - 2
+	print(d + m)
+	m = (102 % 178)
+	m = m % m
+	z = (m / 97)
+	print(d)
+if not m != 192 :
+	print(d)
+print(m - 23)
+# output
+# 276
+# 118
+# -23
+
+# code
+k = 2 / 2
+k = 6 - k
+if k <= k :
+	h = 123 + k
+	print(k)
+	print(h - 15)
+if k < 60 :
+	k = 31 * k
+	t = 225
+	print(k)
+print(k)
+# output
+# 5.0
+# 113.0
+# 155.0
+# 155.0
+
+# code
+y = 75
+while y <= 80 :
+	y = y + 2
+	f = 99 % y
+u = 123
+u = (80 + 38)
+print(u / 14)
+f = 151
+if not u > f :
+	print(y)
+print(f)
+# output
+# 8.428571428571429
+# 81
+# 151
+
+# code
+if  1 > 9 :
+	a = 237
+	l = 64
+	l = (117 * a)
+	v = 150
+g = 100
+while g > 99 :
+	g = g - 2
+	if g >= 132 :
+		print(g)
+print(g)
+# output
+# 98
+
+# code
+g = 38 / 195
+print(g - 204)
+print(g)
+for a in range(29, 30) :
+	a = g - 31
+	a = (95 + 46)
+h = 20
+print(g)
+# output
+# -203.8051282051282
+# 0.19487179487179487
+# 0.19487179487179487
+
+# code
+q = 44
+t = 139
+p = 227
+while p <= 230 :
+	p = p + 2
+	if p <= q :
+		print(q)
+		u = 247
+	elif not p >= 15 :
+		u = 109
+print(q)
+# output
+# 44
+
+# code
+h = 77
+while h < 82 :
+	h = h + 3
+	print(h)
+	if h != h :
+		l = 210
+		i = 38
+		i = (h / l)
+		l = 95 - 158
+print(h)
+# output
+# 80
+# 83
+# 83
+
+# code
+s = (121 % 2)
+if s < s :
+	s = (207 * s)-(124 + 19)
+	s = (s + 118)
+	s = 47
+	print(s)
+s = (121 / 246)
+print(s * s)
+y = 94
+if  s >= 240 :
+	print(s)
+print(y)
+# output
+# 0.24193601692114483
+# 94
+
+# code
+b = 73
+while b >= 72 :
+	b = b - 1
+	p = 123
+	l = 200
+	l = p / l
+q = 176
+if not q < b :
+	print(b + b)
+	n = 171 / b
+print(b / 179)
+# output
+# 142
+# 0.39664804469273746
+
+# code
+t = 146
+p = 14
+while p < 15 :
+	p = p + 2
+	t = (153 % 113)
+	j = 7
+t = t / p
+e = t / t
+x = 241
+if  e == 95 :
+	print(x)
+print(t)
+# output
+# 2.5
+
+# code
+e = 212
+v = 131
+while v <= 132 :
+	v = v + 1
+	u = 97
+	print(e)
+	print(u)
+print(e)
+v = 146 / 159
+print(v)
+# output
+# 212
+# 97
+# 212
+# 97
+# 212
+# 0.9182389937106918
+
+# code
+print(87)
+d = 207
+p = 136
+while p > 133 :
+	p = p - 2
+	s = 181
+	n = 159
+print(p)
+print(d)
+w = p + 82
+print(d * 227)
+# output
+# 87
+# 132
+# 207
+# 46989
+
+# code
+a = 197
+if  a != a :
+	print(a / a)
+	print(a)
+if not a < a :
+	a = 86 / 122
+	a = a * a
+print(a)
+# output
+# 0.4969094329481322
+
+# code
+t = 103 - 189
+print(t)
+print(t)
+for y in range(136, 137) :
+	r = 202
+print(t)
+# output
+# -86
+# -86
+# -86
+
+# code
+z = 7 + 48
+if z > z :
+	b = z + z
+if not z >= 74 :
+	print(z - 160)
+print(z)
+# output
+# -105
+# 55
+
+# code
+if 0 < 8 :
+	n = 195
+j = (3 + 4)%(3 % 6)
+l = 40
+a = 92
+t = 127
+a = 247
+while a < 252 :
+	a = a + 3
+	w = (40 - a)
+print(l)
+# output
+# 40
+
+# code
+print(49)
+for m in range(226, 231) :
+	print(m)
+l = 12
+print(m)
+print(m)
+# output
+# 49
+# 226
+# 227
+# 228
+# 229
+# 230
+# 230
+# 230
+
+# code
+for k in range(238, 239, 1) :
+	w = 217
+	k = (12 * 28)
+	w = 162
+v = 47 * 2
+print(k)
+# output
+# 336
+
+# code
+print(161)
+e = 109
+while e >= 104 :
+	e = e - 3
+	if  e == 68 :
+		v = (65 / e)*(94 - e)
+		j = (e / v)
+	if e == 213 :
+		v = (e * e)
+		i = 88 % 232
+print(e)
+# output
+# 161
+# 103
+
+# code
+print(17)
+m = 105
+while m <= 110 :
+	m = m + 3
+	print(m * m)
+print(m)
+# output
+# 17
+# 11664
+# 12321
+# 111
+
+# code
+p = (158 + 0)-(1 - 142)+(8 + 8)
+j = 149
+q = j - 43
+i = 117
+k = 236
+while k >= 231 :
+	k = k - 3
+	print(q / p)
+	print(j / 70)
+print(p)
+# output
+# 0.33650793650793653
+# 2.1285714285714286
+# 0.33650793650793653
+# 2.1285714285714286
+# 315
+
+# code
+u = 95
+f = 159
+if f > u :
+	print(f)
+z = 33
+while z <= 38 :
+	z = z + 3
+	print(z)
+	u = (80 + 78)
+f = (79 + z)/(z % 94)-(56 - u)-(239 / 175)+(f / 27)
+print(z)
+# output
+# 159
+# 36
+# 39
+# 39
+
+# code
+print(127)
+for z in range(180, 183) :
+	z = z % z
+print(z)
+if  z != 204 :
+	z = 4 + z
+q = 87
+z = (z * 169)-(q % 154)
+print(q / 174)
+d = 243
+print(z)
+# output
+# 127
+# 0
+# 0.5
+# 589
+
+# code
+w = 218
+while w <= 219 :
+	w = w + 1
+	if  w >= w :
+		print(w + 241)
+		z = (59 % 29)
+	elif w <= w :
+		print(w)
+		print(w / w)
+		print(w * w)
+print(w)
+# output
+# 460
+# 461
+# 220
+
+# code
+h = 192
+while h > 191 :
+	h = h - 2
+	u = 84
+print(h + h)
+print(h * h)
+# output
+# 380
+# 36100
+
+# code
+print(16)
+print(68)
+n = 195
+while n > 190 :
+	n = n - 2
+	l = 14
+print(n)
+# output
+# 16
+# 68
+# 189
+
+# code
+y = 62
+c = 104
+while c <= 105 :
+	c = c + 1
+	y = (c / 36)
+	h = 99
+	z = (121 % 13)*(y / 54)
+m = 114 / 90
+print(m)
+c = y - c
+print(c)
+# output
+# 1.2666666666666666
+# -103.05555555555556
+
+# code
+p = 237
+while p <= 238 :
+	p = p + 1
+	v = p + p
+print(p)
+if not p <= 240 :
+	b = 219
+w = 119
+w = (w % 61)-(p - 63)-(w + 37)
+print(p)
+print(p)
+# output
+# 239
+# 239
+# 239
+
+# code
+print(55)
+u = 3 * 3
+if u > 30 :
+	u = (u + u)
+o = 117
+while o < 122 :
+	o = o + 3
+	a = 22
+print(u)
+# output
+# 55
+# 9
+
+# code
+s = 108 / 222
+l = 186
+while l >= 181 :
+	l = l - 2
+	if s <= 154 :
+		o = 129
+		f = s / l
+	print(s)
+print(l % 204)
+print(s)
+print(l % 148)
+# output
+# 0.4864864864864865
+# 0.4864864864864865
+# 0.4864864864864865
+# 180
+# 0.4864864864864865
+# 32
+
+# code
+print(138)
+if  5 <= 1 :
+	r = (4 - 191)
+	b = 44
+print(112)
+j = 84
+while j <= 85 :
+	j = j + 2
+	if j > 116 :
+		u = 88 / j
+print(j)
+# output
+# 138
+# 112
+# 86
+
+# code
+if  5 >= 5 :
+	u = 8 * 47
+	q = 8
+elif  1 >= 2 :
+	print(181)
+	k = 76 % 8
+	print(k)
+	a = 73
+g = (99 % 199)
+print(g - g)
+# output
+# 0
+
+# code
+n = 8 + 216
+c = 194
+for h in range(219, 224, 2) :
+	if n >= 60 :
+		i = (h / 208)
+print(c / 218)
+# output
+# 0.8899082568807339
+
+# code
+f = 68 / 165
+if f > 54 :
+	f = (f - f)%(140 - 87)
+elif f == f :
+	f = 218 - f
+c = 162
+print(c / f)
+d = 131
+print(f - 34)
+c = 158 % d
+print(f)
+# output
+# 0.7445267673110133
+# 183.5878787878788
+# 217.5878787878788
+
+# code
+q = 88
+while q <= 91 :
+	q = q + 2
+	print(q + q)
+c = 124
+print(q)
+print(c)
+e = 100 % c
+h = 183
+print(e)
+print(q + q)
+# output
+# 180
+# 184
+# 92
+# 124
+# 100
+# 184
+
+# code
+a = 69
+while a >= 66 :
+	a = a - 2
+	if  a != 103 :
+		print(a)
+		print(a)
+		u = 103
+if not a >= a :
+	print(a)
+	s = 11
+print(a)
+# output
+# 67
+# 67
+# 65
+# 65
+# 65
+
+# code
+s = 122
+q = 215
+if  s <= 31 :
+	s = 249 % 69
+elif s <= 128 :
+	print(s)
+	s = (23 + 19)
+print(s)
+s = 179 / 177
+print(q)
+print(q)
+# output
+# 122
+# 42
+# 215
+# 215
+
+# code
+print(18)
+y = 214
+print(y)
+for z in range(148, 151) :
+	print(y)
+	m = 113 / 208
+print(y)
+# output
+# 18
+# 214
+# 214
+# 214
+# 214
+# 214
+
+# code
+print(164)
+print(1 - 1)
+print(36)
+e = 116
+e = (233 + e)*(e % e)
+e = (201 - 101)
+print(e)
+# output
+# 164
+# 0
+# 36
+# 100
+
+# code
+b = 157
+while b > 152 :
+	b = b - 2
+	if not b > b :
+		v = 39
+		v = (57 / b)
+		z = (228 + b)
+print(b * b)
+# output
+# 22801
+
+# code
+if 9 != 6 :
+	l = 220
+	g = 98
+m = 205
+print(m / 22)
+v = 9
+h = 24
+while h > 19 :
+	h = h - 3
+	if  v <= 206 :
+		print(v)
+print(h)
+# output
+# 9.318181818181818
+# 9
+# 9
+# 18
+
+# code
+for c in range(35, 40, 3) :
+	print(c)
+	j = 165 / 186
+	c = (c % c)
+	if j == 62 :
+		print(j - c)
+print(c)
+if c != c :
+	print(c)
+	c = c + c
+print(c * 243)
+# output
+# 35
+# 38
+# 0
+# 0
+
+# code
+print(236)
+z = (1 * 228)/(186 % 83)
+if not z != z :
+	f = (186 / 141)*(38 + z)
+	c = 30 - 229
+z = z / z
+print(z % z)
+# output
+# 236
+# 0.0
+
+# code
+for s in range(208, 213, 3) :
+	j = (s / s)*(226 + s)*(s - s)
+	j = s % 93
+	if j > 26 :
+		w = 132
+print(s)
+# output
+# 211
+
+# code
+y = 34
+while y <= 37 :
+	y = y + 2
+	print(y)
+	print(y + y)
+	x = 168
+if  y != 239 :
+	o = 10 + y
+y = (218 / 35)
+print(y)
+# output
+# 36
+# 72
+# 38
+# 76
+# 6.228571428571429
+
+# code
+y = 2 / 3
+n = 226 - y
+if not y >= 153 :
+	c = (105 / 215)*(229 / n)/(103 - n)+(y + 174)
+print(n)
+print(y)
+print(y)
+# output
+# 225.33333333333334
+# 0.6666666666666666
+# 0.6666666666666666
+
+# code
+print(95)
+q = 237
+while q >= 234 :
+	q = q - 2
+	if  q == q :
+		print(q % q)
+q = 123 - q
+q = (250 % 118)-(q + q)+(73 + 58)
+print(q)
+q = (67 / 100)/(186 + 24)
+print(q)
+# output
+# 95
+# 0
+# 0
+# 365
+# 0.0031904761904761906
+
+# code
+for m in range(43, 46, 2) :
+	r = 90
+	r = (51 % 134)+(r % m)-(m - r)
+	m = (251 - 117)
+t = 70 / 97
+l = 215
+a = 202
+e = 15 % 250
+print(a)
+if not t != 142 :
+	a = (198 * t)
+print(l - 93)
+# output
+# 202
+# 122
+
+# code
+r = 1 - 1
+b = 84
+while b <= 87 :
+	b = b + 2
+	r = (130 / 130)
+	t = 80
+print(r)
+# output
+# 1.0
+
+# code
+if 8 >= 2 :
+	print(237)
+	t = 145
+	print(t)
+for a in range(80, 85) :
+	n = 203
+	r = 131
+	n = 235 + 59
+f = 181
+print(f)
+print(f - f)
+# output
+# 237
+# 145
+# 181
+# 0
+
+# code
+b = 96
+while b < 99 :
+	b = b + 2
+	print(b)
+	print(b)
+print(b)
+b = 154 % b
+print(b)
+print(b + b)
+b = 123 / b
+print(b - b)
+# output
+# 98
+# 98
+# 100
+# 100
+# 100
+# 54
+# 108
+# 0.0
+
+# code
+v = 132
+for w in range(107, 110, 2) :
+	print(w)
+	print(v)
+	v = 101
+print(v)
+# output
+# 107
+# 132
+# 109
+# 101
+# 101
+
+# code
+if not 9 >= 6 :
+	z = 30 + 2
+if 8 < 0 :
+	print(0 % 193)
+	b = 94
+print(1 % 188)
+# output
+# 1
+
+# code
+for v in range(242, 243, 1) :
+	p = 23
+y = 90
+q = (v + 202)
+print(v)
+print(y)
+y = 151 / v
+print(y)
+print(y)
+# output
+# 242
+# 90
+# 0.6239669421487604
+# 0.6239669421487604
+
+# code
+print(171)
+if 3 > 1 :
+	f = (6 + 4)*(4 % 6)/(6 - 0)-(3 - 134)
+	f = f - f
+h = 179 % 4
+print(h)
+print(h % h)
+# output
+# 171
+# 3
+# 0
+
+# code
+m = 185
+for e in range(104, 105) :
+	n = (137 - e)
+m = (e - 55)-(m - e)
+e = 187 / 206
+print(m)
+if not m <= m :
+	x = 159
+	print(e / m)
+e = (e * e)%(e - m)/(e - 207)
+print(e)
+# output
+# -32
+# -0.003998408366139819
+
+# code
+m = 2 % 6
+u = 248
+while u >= 243 :
+	u = u - 2
+	print(u + m)
+	print(m)
+print(u)
+# output
+# 248
+# 2
+# 246
+# 2
+# 244
+# 2
+# 242
+
