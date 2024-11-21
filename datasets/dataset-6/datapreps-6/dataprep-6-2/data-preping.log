@@ -1,0 +1,30 @@
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+
+Initializing CodeLlama tokenizer:
+
+Vocabulary size: 32,016:
+
+Saving the data-preping-numpy-random state:
+	--> saving it
+	--> freeing its memory
+
+Loading the dataset:
+
+Save the meta information:
+	--> freeing its memory
+
+Split by examples using \n\n:
+	--> splitting
+	--> freeing data memory
+	--> total number of examples: 30,000,000
+
+
+Creating the train.txt, val.txt and test.txt:
+	--> shuffling examples
+	--> creating the train_examples
+	--> train_examples has 24000000 examples
+	--> creating the train_data
+	--> writing the train_data to train.txt
+
+Tokenizing and saving train data to binary:
