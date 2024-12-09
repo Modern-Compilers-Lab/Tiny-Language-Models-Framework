@@ -109,7 +109,8 @@ cfg_rules = {
 	# Temporary ...						 
 	"END" : [""]
 }
-pattern_vocabulary = {
+
+pattern_vocabulary = [
 	"INITIALIZATION",
     "SIMPLE_ASSIGNMENT",
     "ADVANCED_ASSIGNMENT",
@@ -121,38 +122,38 @@ pattern_vocabulary = {
     "FOR_HEADER",
 	"DISPLAY",
 	"ADVANCED_DISPLAY"
-}
+]
 
-loop_statements = {
+loop_statements = [
     "WHILE_LOOP_LESS",
 	"WHILE_LOOP_GREATER",
     "FOR_HEADER",
-}
+]
 
-conditional_statements = {
+conditional_statements = [
 	"SIMPLE_IF_STATEMENT",
     "SIMPLE_ELIF_STATEMENT",
-}
+]
 
-indentation_statements = {
+indentation_statements = [
     "WHILE_LOOP_LESS",
 	"WHILE_LOOP_GREATER",
     "FOR_HEADER",
 	"SIMPLE_IF_STATEMENT",
     "SIMPLE_ELIF_STATEMENT",
 	"ELSE_STATEMENT"
-}
+]
 
-non_indentation_statements = pattern_vocabulary - indentation_statements
+non_indentation_statements = [stm for stm in pattern_vocabulary if stm not in indentation_statements]
 
-variable_creation_statements = {
+variable_creation_statements = [
 	"INITIALIZATION",
     "SIMPLE_ASSIGNMENT",
     "ADVANCED_ASSIGNMENT",
 	"WHILE_LOOP_LESS",
 	"WHILE_LOOP_GREATER",
     "FOR_HEADER",
-}
+]
 
 pattern_vocab_for_regex = "|".join(pattern_vocabulary)
 
@@ -234,7 +235,8 @@ def generate_code(symbol, assigned_identifiers:list, x:float, for_init_step)->st
 	# If the symbol is an assigned variable, we try to write to an existing variable instead of creating new ones with a probability "x" times greater
 	if symbol == "A_VARIABLE":
 		# In case there are available readable and writable identifiers
-		if (read_write_vars := list(set(assigned_identifiers) & set(cfg_rules["VARIABLE"]))):
+		# if (read_write_vars := list(set(assigned_identifiers) & set(cfg_rules["VARIABLE"]))):
+		if (read_write_vars := [assigned_identifier for assigned_identifier in assigned_identifiers if assigned_identifier in cfg_rules["VARIABLE"]]):
 			alpha = len(assigned_identifiers) / len(cfg_rules["VARIABLE"])
 			p = ((1-alpha)*x - alpha)/((1-alpha)*(1+x))
 			# We return an existing read_write_var with the appropriate probability
@@ -251,7 +253,9 @@ def generate_code(symbol, assigned_identifiers:list, x:float, for_init_step)->st
 			return random.choice(cfg_rules["DIGIT"])
 	# If non of the above i.e. its a terminal (not a meta-terminal)
 	return symbol
-# Regular expressions
+
+
+## __Regular expressions__
 re_pattern_line_parser = re.compile("(\t*)("+pattern_vocab_for_regex+")(:[^,=]+=[^,=]+(?:,[^,=]+=[^,=]+)*$|$)")
 re_general_line_finder = re.compile(".+(?:\n|$)")
 re_while_identifier = re.compile(".*\nwhile ([a-z])")
@@ -271,9 +275,11 @@ def distribution_controller(min_init, # the minimum number of initializations to
 	
 	# Elif it's above max_length
 	if line_counter > max_length:
+
 		# If we can end the code here i.e. we aren't at the begining of an indentation block (for now the while loop is not considered ...)
 		if context_stack[-1]["nb_lines_in_block"] != 0:
 				return {"END":1.0}
+		
 		# Else we return a distribution over the statements which do not require an indentation
 		uniproba = 1/len(non_indentation_statements)
 		return {keyword : uniproba for keyword in non_indentation_statements} 
@@ -281,19 +287,21 @@ def distribution_controller(min_init, # the minimum number of initializations to
 	## In other cases i.e. min_init < line_counter <= max_length
 	
 	# We set the potential keywords
-	potential_keywords = set(pattern_vocabulary)
+	potential_keywords = list(pattern_vocabulary)
 
 	# In case we achieved max_depth or max_sub_blocks inside the current context we remove the indentation statements
 	if len(context_stack) - 1 >=  max_depth or context_stack[-1]["nb_sub_blocks"] >= max_sub_blocks:
-		potential_keywords.difference_update(indentation_statements)
+		# potential_keywords.difference_update(indentation_statements)
+		potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in indentation_statements]
 
 	# In case we are not in an If statement we remove the elif + else
 	elif not context_stack[-1]["if_statement"]:
-		potential_keywords.difference_update({"SIMPLE_ELIF_STATEMENT", "ELSE_STATEMENT"})
+		# potential_keywords.difference_update({"SIMPLE_ELIF_STATEMENT", "ELSE_STATEMENT"})
+		potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in {"SIMPLE_ELIF_STATEMENT", "ELSE_STATEMENT"}]
 	
 	# We add the END keyword if we are not at the begining of an indentation block
 	if context_stack[-1]["nb_lines_in_block"] != 0 and line_counter > min_length:
-		potential_keywords.add("END")
+		potential_keywords.append("END")
 
 	# We return a uniform distribution over the remaining keywords
 	uniproba = 1/len(potential_keywords)
@@ -308,6 +316,9 @@ def generate_random_code(min_init = 0,
 						 decay_factor = 0.5,
 						 x = 2
 						 ):
+	"""
+	Function that generates a random code snippet
+	"""
 	
 	# We create the code_lines list, the context_stack and initialize it
 	code_lines = list()
@@ -344,7 +355,7 @@ def generate_random_code(min_init = 0,
 		# We append the new_code_line to the code_lines (think about replacing this one with the random expression)
 		code_lines.append("\n".join([(len(context_stack)-1) * "\t" + new_code_line for new_code_line in new_code_line.split("\n")[:-1]])+"\n")
 		
-		## Update the context
+		## __Update the context__
 		
 		# Update the if statement state of the context
 		if new_pattern_line in conditional_statements:
@@ -352,7 +363,7 @@ def generate_random_code(min_init = 0,
 		else:
 			context_stack[-1]["if_statement"] = False
 		
-		# Update the number of sub loops in the context
+		# Update the number of sub_blocks in the context
 		if new_pattern_line in indentation_statements:
 			context_stack[-1]["nb_sub_blocks"] += 1
 		
@@ -361,7 +372,7 @@ def generate_random_code(min_init = 0,
 		context_stack[-1]["nb_lines_in_block"] += lines_to_add
 		line_counter += lines_to_add
 
-		# In case where we have to indent like for the for loop, while loop and conditionals
+		# If we have to indent like for the for loop, while loop and conditionals
 		if new_pattern_line in indentation_statements:
 			new_writable_variables = context_stack[-1]["writable_variables"]
 			
@@ -380,14 +391,12 @@ def generate_random_code(min_init = 0,
 				"nb_lines_in_block": 0,
 			})
 		
-		# Else in case where we might un-indent or stay
+		# Else in case where we may either un-indent or stay
 		else:
 			# In case we don't stay i.e. we un-indent, we pop the stack and update the number of lines for the just-before context
 			while len(context_stack)>1 and random.random() > decay_factor ** context_stack[-1]["nb_lines_in_block"]:
 				last_context = context_stack.pop()
 				context_stack[-1]["nb_lines_in_block"] += last_context["nb_lines_in_block"]
-			
-			# We compute the geometrically decreasing staying probability
 			
 	#>> END OF WHILE LOOP: while new_pattern_line != "END"
 	
@@ -421,8 +430,8 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state", help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs", default = 100000, help = "Number of programs to be generated")
-	parser.add_argument("--output_file", default = "./data.txt", help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs", default = 10000, help = "Number of programs to be generated")
+	parser.add_argument("--output_file", default = "./prg_testing/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout", default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file", default = "./log.txt", help = "The path to the logging file for monitoring progress")
 	parser.add_argument("--log_interval", default = 10000, help = "The number of code snippets generations before logging to the --log_file for monitoring progress")
