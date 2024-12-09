@@ -1,13 +1,13 @@
 ## Data preping (on Kindi)
 
 ## Imports
-from transformers import AutoTokenizer
 import pickle
 import numpy as np
 import gc
 import struct
 import time
 import math
+from tinypy_tokenizer import TinypyTokenizer
 
 ## Logging boilerplate
 log_file = open("data-preping.log", "w")
@@ -49,12 +49,6 @@ def convert_seconds(seconds:float):
 	return (days, hours, minutes, seconds)
 
 
-## Initialize CodeLlama tokenizer
-log("Initializing CodeLlama tokenizer")
-tokenizer = AutoTokenizer.from_pretrained("codellama/CodeLlama-7b-hf")
-vocab_size = tokenizer.vocab_size
-log(f"Vocabulary size: {vocab_size:,}")
-
 ## Saving the numpy random state
 log("Saving the data-preping-numpy-random state")
 log("saving it")
@@ -66,25 +60,12 @@ del np_random_state
 gc.collect()
 
 
+
+
 ## Loading the dataset
 log("Loading the dataset")
 with open("../../data-ds-6/data.txt", "r") as f:
 	data = f.read()
-
-
-## Save the meta information
-log("Save the meta information")
-meta = {
-    'vocab_size': vocab_size,
-    'tokenizer_name': "codellama/CodeLlama-7b-hf",
-}
-
-with open('data-dp-6-2/meta.pkl', 'wb') as f:
-    pickle.dump(meta, f)
-log("freeing its memory")
-del meta
-gc.collect()
-
 
 ## Split by examples using \n\n
 log("Split by examples using \\n\\n")
@@ -108,66 +89,45 @@ log(f"train_examples has {len(train_examples)} examples")
 log("creating the train_data")
 train_data = "\n\n".join(train_examples)
 del train_examples
-
 log("writing the train_data to train.txt")
 with open("data-dp-6-2/train.txt", 'w') as f:
 	f.write(train_data)
-
-# Tokenize and save train data to binary
-log("Tokenizing and saving train data to binary")
-tokens = tokenizer.encode(train_data)
 del train_data
-log(f"Encoded train data has {len(tokens)} tokens")
-with open("data-dp-6-2/train.bin", "wb") as f:
-    for token in tokens:
-        f.write(struct.pack('H', token))  # 'H' stands for unsigned short (2 bytes)
-del tokens
 
-# Process validation split
-log("Processing validation split")
+log("creating the val_examples")
 val_examples = examples[int(n*0.8):int(n*0.9)]
 log(f"val_examples has {len(val_examples)} examples")
+log("creating the val_data")
 val_data = "\n\n".join(val_examples)
 del val_examples
-log(f"val_data has {(val_tokens := len(val_data))} characters")
 log("writing the val_data to val.txt")
 with open("data-dp-6-2/val.txt", 'w') as f:
-    f.write(val_data)
-
-# Tokenize and save validation data to binary
-log("Tokenizing and saving validation data to binary")
-tokens = tokenizer.encode(val_data)
+	f.write(val_data)
 del val_data
-log(f"Encoded validation data has {len(tokens)} tokens")
-with open("data-dp-6-2/val.bin", "wb") as f:
-    for token in tokens:
-        f.write(struct.pack('H', token))  # 'H' stands for unsigned short (2 bytes)
-del tokens
 
-# Process test split
-log("Processing test split")
+log("creating the test_examples")
 test_examples = examples[int(n*0.9):]
 log(f"test_examples has {len(test_examples)} examples")
+log("creating the test_data")
 test_data = "\n\n".join(test_examples)
 del test_examples
-log(f"test_data has {len(test_data)} characters")
+log(f"test_data has {len(test_data)} tokens")
 log("writing the test_data to test.txt")
 with open("data-dp-6-2/test.txt", 'w') as f:
-    f.write(test_data)
-
-# Tokenize and save test data to binary
-log("Tokenizing and saving test data to binary")
-tokens = tokenizer.encode(test_data)
+	f.write(test_data)
 del test_data
-log(f"Encoded test data has {len(tokens)} tokens")
-with open("data-dp-6-2/test.bin", "wb") as f:
-    for token in tokens:
-        f.write(struct.pack('H', token))  # 'H' stands for unsigned short (2 bytes)
-del tokens
 
 log("freeing examples memory")
 del examples
 gc.collect()
 
-log("Data preparation complete!")
+# We create the TinypyTokenizer instance
+tpt = TinypyTokenizer()
+# We generate the tokenized file of train.txt
+log("We generate the tokenized file of train.txt")
+print(tpt.encode_to_file("data-dp-6-2/train.txt", "data-dp-6-2/train.bin"))
+
+log("We generate the tokenized file of val.txt")
+print(tpt.encode_to_file("data-dp-6-2/val.txt", "data-dp-6-2/val.bin"))
+
 log_file.close()

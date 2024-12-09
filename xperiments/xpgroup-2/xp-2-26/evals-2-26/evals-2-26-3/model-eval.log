@@ -1,0 +1,52 @@
+|ITERS: 30 / 30 | COMP: 100.00% | RATE: 0.44 it./s | SPD: 2.2679 s/it.| ERT: (0, 0, 0, 0) |                                                                                                             
+|hard-accuracy: 0.00% | soft-accuracy: 3.33% |                                                                                                                                                          
+
+Imports:
+
+Set the device to GPU if available, otherwise CPU:
+
+Loading the vocab_size:
+
+Redefining the model of the training:
+
+Loading the model:
+
+Creating and loading the model:
+
+Reading the test data:
+
+Splitting the test data into examples:
+
+Sequential Evaluation loop:
+	--> accuracy checkpoint ==> ITERS: 1 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 2 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 3 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 4 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 5 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 6 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 7 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 8 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 9 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 10 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 11 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 12 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 13 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 14 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 15 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 16 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 17 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 18 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 19 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 20 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 21 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 22 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 23 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 24 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 25 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 26 | hard-accuracy: 0.00% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 27 | hard-accuracy: 0.00% | soft-accuracy: 3.70% |
+	--> accuracy checkpoint ==> ITERS: 28 | hard-accuracy: 0.00% | soft-accuracy: 3.57% |
+	--> accuracy checkpoint ==> ITERS: 29 | hard-accuracy: 0.00% | soft-accuracy: 3.45% |
+	--> accuracy checkpoint ==> ITERS: 30 | hard-accuracy: 0.00% | soft-accuracy: 3.33% |
+
+Logging the metrics:

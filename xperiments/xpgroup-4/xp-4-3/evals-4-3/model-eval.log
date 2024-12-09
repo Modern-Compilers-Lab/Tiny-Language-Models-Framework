@@ -1,0 +1,39 @@
+|ITERS: 9715 / 250001 | COMP: 3.89% | RATE: 1.14 it./s | SPD: 0.8773 s/it.| ERT: (2, 10, 33, 23) |                                                                                                      
+|hard-accuracy: 94.09% | soft-accuracy: 0.08% |                                                                                                                                                         
+
+Imports:
+
+Set the device to GPU if available, otherwise CPU:
+
+Loading the vocab_size:
+
+Redefining the model of the training:
+
+Loading the model:
+
+Creating and loading the model:
+
+Reading the test data:
+
+Splitting the test data into examples:
+
+Sequential Evaluation loop:
+	--> accuracy checkpoint ==> ITERS: 500 | hard-accuracy: 93.60% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 1000 | hard-accuracy: 93.50% | soft-accuracy: 0.00% |
+	--> accuracy checkpoint ==> ITERS: 1500 | hard-accuracy: 94.20% | soft-accuracy: 0.07% |
+	--> accuracy checkpoint ==> ITERS: 2000 | hard-accuracy: 93.95% | soft-accuracy: 0.05% |
+	--> accuracy checkpoint ==> ITERS: 2500 | hard-accuracy: 94.04% | soft-accuracy: 0.08% |
+	--> accuracy checkpoint ==> ITERS: 3000 | hard-accuracy: 94.13% | soft-accuracy: 0.07% |
+	--> accuracy checkpoint ==> ITERS: 3500 | hard-accuracy: 94.23% | soft-accuracy: 0.06% |
+	--> accuracy checkpoint ==> ITERS: 4000 | hard-accuracy: 93.92% | soft-accuracy: 0.05% |
+	--> accuracy checkpoint ==> ITERS: 4500 | hard-accuracy: 93.96% | soft-accuracy: 0.07% |
+	--> accuracy checkpoint ==> ITERS: 5000 | hard-accuracy: 94.00% | soft-accuracy: 0.06% |
+	--> accuracy checkpoint ==> ITERS: 5500 | hard-accuracy: 94.16% | soft-accuracy: 0.07% |
+	--> accuracy checkpoint ==> ITERS: 6000 | hard-accuracy: 94.10% | soft-accuracy: 0.10% |
+	--> accuracy checkpoint ==> ITERS: 6500 | hard-accuracy: 93.92% | soft-accuracy: 0.09% |
+	--> accuracy checkpoint ==> ITERS: 7000 | hard-accuracy: 94.01% | soft-accuracy: 0.09% |
+	--> accuracy checkpoint ==> ITERS: 7500 | hard-accuracy: 94.08% | soft-accuracy: 0.09% |
+	--> accuracy checkpoint ==> ITERS: 8000 | hard-accuracy: 94.09% | soft-accuracy: 0.10% |
+	--> accuracy checkpoint ==> ITERS: 8500 | hard-accuracy: 94.08% | soft-accuracy: 0.09% |
+	--> accuracy checkpoint ==> ITERS: 9000 | hard-accuracy: 94.09% | soft-accuracy: 0.09% |
+	--> accuracy checkpoint ==> ITERS: 9500 | hard-accuracy: 94.11% | soft-accuracy: 0.08% |

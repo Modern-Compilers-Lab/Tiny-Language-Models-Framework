@@ -12,10 +12,10 @@ from pathlib import Path
 cfg_rules = {
     # Variables and digits
     "VARIABLE": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ],
-    "DIGIT": [str(i) for i in range(256)],
+    "DIGIT": [str(i) for i in range(100)],
 
     # Operators
-    "ARITHMETIC_OPERATOR": ["+", "-"],
+    "ARITHMETIC_OPERATOR": ["+", "-", "*", "/", "%"],
     "RELATIONAL_OPERATOR": ["<", ">", "<=", ">=", "!=", "=="],
     "LOGICAL_OPERATOR_INFIX": ["and", "or"],
     "LOGICAL_OPERATOR_PREFIX": ["not"],
@@ -35,7 +35,7 @@ cfg_rules = {
     "IF": ["if"],
     "ELIF": ["elif"],
     "ELSE": ["else"],
-    # "FOR": ["for"],
+    "FOR": ["for"],
     "IN": ["in"],
     "RANGE": ["range"],
     "WHILE": ["while"],
@@ -51,7 +51,7 @@ cfg_rules = {
     
 	# "ADVANCED_ASSIGNMENT": ["A_VARIABLE SPACE EQUALS SPACE SIMPLE_ARITHMETIC_EVALUATION NEW_LINE"],
     
-	"SIMPLE_ARITHMETIC_EVALUATION": ["SIMPLE_ARITHMETIC_EVALUATION ARITHMETIC_OPERATOR ENCLOSED_EXPRESSION", 
+	"SIMPLE_ARITHMETIC_EVALUATION": ["SIMPLE_ARITHMETIC_EVALUATION ARITHMETIC_OPERATOR ENCLOSED_EXPRESSION",
                                      "ENCLOSED_EXPRESSION",
                                     ],
 	
@@ -73,14 +73,15 @@ cfg_rules = {
                         "LOGICAL_OPERATOR_PREFIX SPACE ENCLOSED_CONDITION", 
                         "ENCLOSED_CONDITION"],
     "ENCLOSED_CONDITION": ["BRACKET_OPEN CONDITION BRACKET_CLOSE"],
-    "CONDITION": ["OPTIONAL_NOT CONDITION_EXPRESSION", "CONDITION_EXPRESSION"],
+    "CONDITION": [#"OPTIONAL_NOT CONDITION_EXPRESSION",
+				   "CONDITION_EXPRESSION"],
     "CONDITION_EXPRESSION": ["EXPRESSION_IDENTIFIER SPACE RELATIONAL_OPERATOR SPACE EXPRESSION_IDENTIFIER", 
                                 "EXPRESSION_IDENTIFIER SPACE RELATIONAL_OPERATOR SPACE DIGIT"],
     "OPTIONAL_NOT": ["LOGICAL_OPERATOR_PREFIX SPACE", "SPACE"], 
 
     # For loops
-    # "FOR_HEADER": ["FOR SPACE VARIABLE SPACE IN SPACE RANGE BRACKET_OPEN INITIAL COMMA SPACE FINAL COMMA SPACE STEP BRACKET_CLOSE SPACE COLON NEW_LINE", 
-                    # "FOR SPACE VARIABLE SPACE IN SPACE RANGE BRACKET_OPEN INITIAL COMMA SPACE FINAL BRACKET_CLOSE SPACE COLON NEW_LINE"],
+    "FOR_HEADER": [#"FOR SPACE VARIABLE SPACE IN SPACE RANGE BRACKET_OPEN INITIAL COMMA SPACE FINAL COMMA SPACE STEP BRACKET_CLOSE SPACE COLON NEW_LINE", 
+                    "FOR SPACE VARIABLE SPACE IN SPACE RANGE BRACKET_OPEN INITIAL COMMA SPACE FINAL BRACKET_CLOSE SPACE COLON NEW_LINE"],
     "INITIAL": ["DIGIT"],
 
     # "FOR_LOOP": ["FOR_HEADER NEW_LINE TAB_INDENT DISPLAY"],
@@ -117,14 +118,14 @@ pattern_vocabulary = {
     "ELSE_STATEMENT",
     "WHILE_LOOP_LESS",
 	"WHILE_LOOP_GREATER",
-    # "FOR_HEADER",
+    "FOR_HEADER",
 	"DISPLAY",
 }
 
 loop_statements = {
     "WHILE_LOOP_LESS",
 	"WHILE_LOOP_GREATER",
-    # "FOR_HEADER",
+    "FOR_HEADER",
 }
 
 conditional_statements = {
@@ -135,7 +136,7 @@ conditional_statements = {
 indentation_statements = {
     "WHILE_LOOP_LESS",
 	"WHILE_LOOP_GREATER",
-    # "FOR_HEADER",
+    "FOR_HEADER",
 	"SIMPLE_IF_STATEMENT",
     "SIMPLE_ELIF_STATEMENT",
 	"ELSE_STATEMENT"
@@ -149,7 +150,7 @@ variable_creation_statements = {
     # "ADVANCED_ASSIGNMENT",
 	"WHILE_LOOP_LESS",
 	"WHILE_LOOP_GREATER",
-    # "FOR_HEADER",
+    "FOR_HEADER",
 }
 
 pattern_vocab_for_regex = "|".join(pattern_vocabulary)
@@ -238,7 +239,7 @@ def generate_code(symbol, assigned_identifiers:list, x:float, for_init_step)->st
 			# We return an existing read_write_var with the appropriate probability
 			if random.random() < p:
 				return random.choice(read_write_vars)
-		# In case there is no read_write_var or the probability failed			
+		# In case there is no read_write_var or the probability failed
 		return random.choice(cfg_rules["VARIABLE"])
 	
 	# If DISPLAY_IDENTIFIER, fill it with either the last variable (if there was an ASSIGNEMENTS), or any randomly chosen variable 
@@ -303,10 +304,10 @@ def distribution_controller(authorized_statements,
 def generate_random_code(min_init = 2,
 						 max_depth = 2,
 						 max_sub_blocks = 2,
-						 min_length = 10,
-						 max_length = 20,
+						 min_length = 5,
+						 max_length = 15,
 						 decay_factor = 0.75,
-						 x = 2
+						 x = 4
 						):
 	
 	# We create the code_lines list, the context_stack and initialize it
@@ -394,6 +395,11 @@ def generate_random_code(min_init = 2,
 				while_control_variable = re_while_identifier.match(new_code_line).group(1)
 				new_writable_variables = list(new_writable_variables)
 				new_writable_variables.remove(while_control_variable)
+			elif new_pattern_line == "FOR_HEADER":
+				for_control_variable = new_code_line[4] # the control variable should be the character at index 4 of the new_code_line ...
+				new_writable_variables = list(new_writable_variables)
+				new_writable_variables.remove(for_control_variable)
+
 			
 			# We stack the new indentation level
 			context_stack.append({
@@ -448,7 +454,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state", help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs", default = 1000, help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs", default = 30_000_000, help = "Number of programs to be generated")
 	parser.add_argument("--output_file", default = "./data-ds-7/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout", default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file", default = "./log.txt", help = "The path to the logging file for monitoring progress")

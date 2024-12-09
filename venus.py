@@ -108,7 +108,6 @@ if __name__ == "__main__":
 					
 					run = neptune.init_run(
 						project = neptune_db["project"],
-						api_token = neptune_db["api-token"],
 						custom_run_id = f"XP-{xpgroup_id.split('-')[1]}-{xp_id.split('-')[2]}"
 					)
 					run["sys/tags"].clear()

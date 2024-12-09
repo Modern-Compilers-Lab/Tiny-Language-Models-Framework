@@ -1,0 +1,57 @@
+|ITERS: 9826 / 9826 | COMP: 100.00% | RATE: 2.68 it./s | SPD: 0.3724 s/it.| ERT: (0, 0, 0, 0)                                                                                                           
+val>|ITERS: 500 / 500 | COMP: 100.00% | RATE: 8.34 it./s | SPD: 0.1198 s/it.| ERT: (0, 0, 0, 0) |                                                                                                       
+
+Importing ...:
+	--> took (0, 0, 0, 1)
+
+Starting the netpune logging:
+	--> neptune init
+	--> saving the runid
+
+Set the random seed for reproducibility:
+
+Set the device to GPU if available, otherwise CPU:
+	--> device set to cuda:3.
+
+Setting arch-hyperparams for the GPT model:
+
+Loading the training and evaluation data:
+	--> train.bin
+	--> took (0, 0, 0, 0)
+	--> val.bin
+	--> took (0, 0, 0, 0)
+
+Setting train-hyperparams and util variables:
+	--> max_iters = 9826
+
+Defining the model and utilities:
+
+The model:
+	--> def get random batch of data
+	--> def estimate loss
+	--> def human readable
+
+Loading the vocab_size:
+	--> loading
+
+Creating the model:
+
+The model has 30M trainable parameters:
+
+Preparing for the training loop:
+	--> initialiazing the optimizer
+	--> initializing the learing rate scheduler
+	--> computing the initial loss
+	--> saving the last loss for early stopping
+	--> neptune logging the initial loss
+
+Training loop:
+
+==========================================================================================:
+
+2024-11-29_04-00 : iter     0 <=> epoch 0 | train loss 4.2922 | val loss 4.2928:
+	--> training ...
+	--> checkpointing ...
+
+2024-11-29_04-33 : iter       5000 <=> epoch 0.5088124458505578 | train loss 1.0714880228 | val loss 1.0722470284:
+	--> training ...
