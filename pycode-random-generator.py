@@ -16,10 +16,9 @@ max_depth 			= 2
 max_sub_blocks 		= 2
 min_length 			= 5
 max_length 			= 20
-decay_factor 		= 0.5
 x 					= 2
-# Must be strictly greater than 1
-unindentation_speed = 1.5
+# Must be >= 0
+unindentation_speed = 0.5
 
 # Some global variables
 context_stack 		= list()
@@ -243,10 +242,6 @@ def execute_gen_action (gen_action:str):
 			control_variable_initial_value = random.choice(DIGIT)
 			# Choose an identifier for the control variable
 			control_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
-			# Add the identifier to the list of new readable_variables
-			new_readable_variables = [control_variable_identifier]
-			# Update the current context readable_variables with the control_variable_identifier
-			context_stack[-1]['readable_variables'].append(control_variable_identifier)
 			# Create the initialization expression of the control variable
 			tabs = '	' * (len(context_stack)-1)
 			control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -257,7 +252,7 @@ def execute_gen_action (gen_action:str):
 			nb_iters = random.randint(a=1, b=20)
 			
 			# Choosing the update step
-			delta = random.choice((-1, 1)) * random.randint(a=1, b=5)
+			delta = (sign := random.choice((-1, 1))) * random.randint(a=1, b=5)
 			
 			# Choosing the update operator based on the sign of delta
 			update_operator = '+' if delta > 0 else '-'
@@ -269,10 +264,10 @@ def execute_gen_action (gen_action:str):
 			# We compute the border_value
 			if '=' in relational_operator:
 				border_range_one = control_variable_initial_value + (nb_iters-1) * delta
-				border_range_two = control_variable_initial_value + nb_iters * delta - 1
+				border_range_two = control_variable_initial_value + nb_iters * delta + sign
 				border_value = random.randint(min(border_range_one, border_range_two), max(border_range_one, border_range_two))
 			else:
-				border_range_one = control_variable_initial_value + (nb_iters-1) * delta + 1
+				border_range_one = control_variable_initial_value + (nb_iters-1) * delta + sign
 				border_range_two = control_variable_initial_value + nb_iters * delta
 				border_value = random.randint(min(border_range_one, border_range_two), max(border_range_one, border_range_two))
 			
@@ -281,10 +276,9 @@ def execute_gen_action (gen_action:str):
 			if random.random() < 0.5:
 				border_variable_defined = True
 				# Create the border_variable_identifier
-				border_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
-				new_readable_variables.append(border_variable_identifier)
-				# Update the current context stack with the border_variable_identifier
-				context_stack[-1]['readable_variables'].append(border_variable_identifier)
+				tmp_writable_variables = list(context_stack[-1]['writable_variables'])
+				tmp_writable_variables.remove(control_variable_identifier)
+				border_variable_identifier = random.choice(tmp_writable_variables)
 				# Create the border_variable_initialization_expression
 				border_variable_initialization_expression = f'{tabs}{border_variable_identifier} = {border_value}\n'
 				# Increment nb_new_lines
@@ -316,43 +310,60 @@ def execute_gen_action (gen_action:str):
 			nb_new_lines += 1
 
 			# __Create the expressions before the while loop (11 different possible scenarios implemented)__
+			
+			# Default value for the intermediate expressions
 			intermediate_expression_one = ''
 			intermediate_expression_two = ''
+			
+			# Create a list for the new_writable_variables
+			new_writable_variables = list(context_stack[-1]['writable_variables'])
+			
 			# In the first case we precede with the control_variable_initialization_expression and then the border_variable_initialization_expression
 			if not border_variable_defined or random.random() < 0.5:
 				first_expression, second_expression = (control_variable_initialization_expression, border_variable_initialization_expression)
 				
-				# Remove the control variable from the new_writable_variables
-				new_writable_variables = list(context_stack[-1]['writable_variables'])
-				try:
-					new_writable_variables.remove(control_variable_identifier)
-				except ValueError:
-					pass
-
+				# Remove the control variable from the new_writable_variables.
+				# No need to try-catch it since the control identifier was picked from the writable_variables
+				# of the current context. 
+				new_writable_variables.remove(control_variable_identifier)
+				
+				# Add the control variable to the readable variables if it is not already
+				if control_variable_identifier not in context_stack[-1]['readable_variables']:
+					context_stack[-1]['readable_variables'].append(control_variable_identifier)
+				
 				# Choose if we create an intermediate expression between the first and the second expressions
 				if random.random() < 0.5:
+					# Choose operand 1
 					operand1 = random.choice((
 						random.choice(context_stack[-1]['readable_variables']),
 						random.choice(DIGIT)
 						))
+					# Choose operand 2
 					operand2 = random.choice((
 						random.choice(context_stack[-1]['readable_variables']),
 						random.choice(DIGIT)
 						))
+					# Choose operator
 					operator = random.choice(ARITHMETIC_OPERATORS)
+					# Choose identifier
 					identifier = random.choice(new_writable_variables)
-					new_readable_variables.append(identifier)
+					# Add identifier to the readable variables of the current context if not already there
+					if identifier not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(identifier)
+					# Create the expression
 					intermediate_expression_one = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
 					
 					# Increment nb_new_lines
 					nb_new_lines += 1
 
-				# Remove the border_variable_identifier from the new_writable_variables If it exists
+				# If the border variable is defined
 				if border_variable_defined:
-					try:
-						new_writable_variables.remove(border_variable_identifier)
-					except ValueError:
-						pass
+					# Remove the border_variable_identifier from the new_writable_variables
+					new_writable_variables.remove(border_variable_identifier)
+					# Add it to the readable_variables of the current context if not already there
+					if border_variable_identifier not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(border_variable_identifier)
+				
 				# Choose if we create and intermediate expression between the second expression and the while expression
 				if random.random() < 0.5:
 					operand1 = random.choice((
@@ -365,7 +376,8 @@ def execute_gen_action (gen_action:str):
 						))
 					operator = random.choice(ARITHMETIC_OPERATORS)
 					identifier = random.choice(new_writable_variables)
-					new_readable_variables.append(identifier)
+					if identifier not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(identifier)
 					intermediate_expression_two = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
 					
 					# Increment nb_new_lines
@@ -375,13 +387,13 @@ def execute_gen_action (gen_action:str):
 			else:
 				first_expression, second_expression = (border_variable_initialization_expression, control_variable_initialization_expression)
 				
-				# Remove the control variable from the new_writable_variables
-				new_writable_variables = list(context_stack[-1]['writable_variables'])
-				try:
-					new_writable_variables.remove(border_variable_identifier)
-				except ValueError:
-					pass
+				# Remove the border variable from the new_writable_variables
+				new_writable_variables.remove(border_variable_identifier)
 
+				# Add the border variable to the readable variables of the current context
+				if border_variable_identifier not in context_stack[-1]['readable_variables']:
+					context_stack[-1]['readable_variables'].append(border_variable_identifier)
+				
 				# Choose if we create an intermediate expression between the first and the second expressions
 				if random.random() < 0.5:
 					operand1 = random.choice((
@@ -394,18 +406,21 @@ def execute_gen_action (gen_action:str):
 						))
 					operator = random.choice(ARITHMETIC_OPERATORS)
 					identifier = random.choice(new_writable_variables)
-					new_readable_variables.append(identifier)
+					# Add the border variable to the readable variables of the current context
+					if identifier not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(identifier)
 					intermediate_expression_one = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
 					
 					# Increment nb_new_lines
 					nb_new_lines += 1
 				
 				# Remove the control_variable_identifier from the new_writable_variables
-				try:
-					new_writable_variables.remove(control_variable_identifier)
-				except ValueError:
-					pass
-
+				new_writable_variables.remove(control_variable_identifier)
+				
+				# Add the control_variable_identifier to the readable variables of the current context
+				if control_variable_identifier not in context_stack[-1]['readable_variables']:
+					context_stack[-1]['readable_variables'].append(control_variable_identifier)
+				
 				# Choose if we create and intermediate expression between the second expression and the while expression
 				if random.random() < 0.5:
 					operand1 = random.choice((
@@ -418,7 +433,9 @@ def execute_gen_action (gen_action:str):
 						))
 					operator = random.choice(ARITHMETIC_OPERATORS)
 					identifier = random.choice(new_writable_variables)
-					new_readable_variables.append(identifier)
+					# Add the identifier to the readable variables of the current context
+					if identifier not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(identifier)
 					intermediate_expression_two = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'		
 					# Increment nb_new_lines
 					nb_new_lines += 1
@@ -426,7 +443,6 @@ def execute_gen_action (gen_action:str):
 			# __Updating the context_stack__
 
 			# Update the current context
-			context_stack[-1]['readable_variables'] = context_stack[-1]['readable_variables'] + [identifier for identifier in new_readable_variables if identifier not in context_stack[-1]['readable_variables']]
 			context_stack[-1]['nb_lines_in_block'] += nb_new_lines
 			context_stack[-1]['nb_while_loops'] += 1
 			context_stack[-1]['nb_blocks'] += 1
@@ -447,7 +463,6 @@ def execute_gen_action (gen_action:str):
 			})
 
 			# Append the code
-
 			code = code + f'{first_expression}{intermediate_expression_one}{second_expression}{intermediate_expression_two}{while_expression}'
 
 			# Updating the line_counter
@@ -459,6 +474,7 @@ def execute_gen_action (gen_action:str):
 			while_update_expression = context_stack[-1]['while_state']
 
 			# Update the current context
+			context_stack[-1]['if_state'] = False
 			context_stack[-1]['while_state'] = None
 			context_stack[-1]['nb_lines_in_block'] += 1
 
@@ -548,21 +564,31 @@ def queue_gen_actions():
 	
 	# Elif it's above max_length
 	if line_counter > max_length:
-
-		# If we can end the code here i.e. we aren't at the begining of an indentation block (for now the while loop is not considered ...)
-		if context_stack[-1]["nb_lines_in_block"] != 0:
-				context_stack[-1]['actions_queue'].append("END")
 		
-		# Else we return a distribution over the statements which do not require an indentation
-		keyword = random.choice(non_indentation_statements)
-		context_stack[-1]['actions_queue'].append(keyword)
+		# If we are at the indentation level 0 we can directly END the code
+		if len(context_stack) == 1:
+			context_stack[-1]['actions_queue'].append('END')
+		
+		# Else If we are in a while_state we generate the while update expression and unindent right after
+		elif context_stack[-1]['while_state']:
+			context_stack[-1]['actions_queue'].append('WHILE_UPDATE')
+			context_stack[-1]['actions_queue'].append('UNINDENT')
+		
+		# Else if we are in a block with at least one line of code, we directly unindent
+		elif context_stack[-1]["nb_lines_in_block"] != 0:
+				context_stack[-1]['actions_queue'].append("UNINDENT")
+		
+		# Else => we are in a block with no lines of code in it => we queue one none indentation statement
+		else:
+			keyword = random.choice(non_indentation_statements)
+			context_stack[-1]['actions_queue'].append(keyword)
 		
 		# Exit
 		return
 	
 	# Choose if we unindent. This can happen only if we are at some indentation level > 0 and there is at least one code line
 	# in the current block, with higher probability of unindenting the higher nb_lines_in_block
-	if len(context_stack) > 1 and random.random() > (1/unindentation_speed) ** context_stack[-1]['nb_lines_in_block']:
+	if len(context_stack) > 1 and random.random() > (1/(1+unindentation_speed)) ** context_stack[-1]['nb_lines_in_block']:
 		
 		# In case we are currently in a while loop and the update statement hasn't been generated yet
 		if context_stack[-1]['while_state']:
@@ -593,7 +619,7 @@ def queue_gen_actions():
 		potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in {"SIMPLE_ELIF_STATEMENT", "ELSE_STATEMENT"}]
 
 	# We add the END keyword if we are not at the begining of an indentation block
-	if context_stack[-1]["nb_lines_in_block"] != 0 and line_counter > min_length and not context_stack[-1]['while_state']:
+	if len(context_stack) == 1 and line_counter > min_length:
 		potential_keywords.append("END")
 
 	# We return a uniform distribution over the remaining keywords
@@ -664,7 +690,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state", default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs", default = 10, help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs", default = 1000, help = "Number of programs to be generated")
 	parser.add_argument("--output_file", default = "./prg_testing/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout", default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file", default = "./log.txt", help = "The path to the logging file for monitoring progress")
@@ -673,7 +699,7 @@ if __name__ == "__main__":
 	parser.add_argument("--max_deduplication_trials", default = 50, help = "The maximum number of consecutive trials when deduplication occurs")
 	parser.add_argument("--programs_separator", default = "", help = "String to put at the top of each code example (Defaults to empty string)")
 	parser.add_argument("--use_tqdm", help = "Whether or not to use tqdm for monitoring progress (set to True for true, False for anything else), defaults to True)")
-	parser.add_argument("--max_var_value", default = 10000, help = "The maximum value above which the absolute value of created variables must not go")
+	parser.add_argument("--max_var_value", default = 100000, help = "The maximum value above which the absolute value of created variables must not go")
 
 	args = parser.parse_args()
 
@@ -742,7 +768,7 @@ finally:
 		pbar = tqdm(desc="Generation", total=nb_programs)
 
 	# Launching the loop
-	while True or nb_generated_programs < nb_programs:
+	while nb_generated_programs < nb_programs:
 		
 		# Checking if it's log interval
 		if nb_generated_programs % log_interval == 0:
@@ -753,6 +779,7 @@ finally:
 		
 		# Generating the code
 		code = generate_random_code()
+		code = code.strip('\n')
 		
 		# In case of deduplicate
 		if deduplicate:
@@ -768,47 +795,44 @@ finally:
 				nb_deduplication_trials = 0
 				hashes.add(code_hash)
 		
-		nb_generated_programs += 1
-		f.write(f'PROGRAM # {nb_generated_programs}\n' + code+'\n')
-		
 		# preparing the execution environment
-	# 	indented = "\n".join([f"	{line}" for line in code.split("\n")])
-	# 	func = "def func():\n" + indented
-	# 	exec_env = func + exec_env_boilerplate
+		indented = "\n".join([f"	{line}" for line in code.split("\n")])
+		func = "def func():\n" + indented
+		exec_env = func + exec_env_boilerplate
 
-	# 	# Trying the execute the generated code
-	# 	sio = StringIO()
-	# 	try:
-	# 		with redirect_stdout(sio):
-	# 			# We execute the code in a controlled environment
-	# 			exec(exec_env, {
-	# 				"VariableValueOverflowError" : VariableValueOverflowError
-	# 			})
+		# Trying the execute the generated code
+		sio = StringIO()
+		try:
+			with redirect_stdout(sio):
+				# We execute the code in a controlled environment
+				exec(exec_env, {
+					"VariableValueOverflowError" : VariableValueOverflowError
+				})
 
-	# 		# Saving the code example with its output
-	# 		output = sio.getvalue()
-	# 		result = programs_separator + code + "# output\n# " + "\n# ".join(output.split("\n")[:-1])
-	# 		f.write(result + "\n\n")
-	# 		nb_generated_programs += 1
-			
-	# 		# If using tqdm ...
-	# 		if use_tqdm:
-	# 			pbar.update(1) 
+			# Saving the code example with its output
+			output = sio.getvalue()
+			# result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+			result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+			f.write(result + "\n\n")
+			nb_generated_programs += 1
+			# If using tqdm ...
+			if use_tqdm:
+				pbar.update(1) 
 
-	# 	except ZeroDivisionError:
-	# 		nb_zero_divisions += 1
-	# 	except VariableValueOverflowError as e:
-	# 		nb_var_value_overflows += 1
-	# 	except Exception as e:
-	# 		print("HELLO")
-	# 		print(e)
+		except ZeroDivisionError:
+			nb_zero_divisions += 1
+		except VariableValueOverflowError as e:
+			nb_var_value_overflows += 1
+		except Exception as e:
+			f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
+			break
 
 
-	# 	if use_tqdm:
-	# 		pbar.set_description(f"ZeroDiv : {nb_zero_divisions:,} | Overflows : {nb_var_value_overflows:,} |")
+		if use_tqdm:
+			pbar.set_description(f"ZeroDiv : {nb_zero_divisions:,} | Overflows : {nb_var_value_overflows:,} |")
 	
-	# print(f"percentage of zero divisions: {nb_zero_divisions/(nb_programs + nb_zero_divisions + nb_var_value_overflows) * 100:.2f}%")
-	# print(f"percentage of overflows: {nb_var_value_overflows/(nb_programs + nb_zero_divisions + nb_var_value_overflows) * 100:.2f}%")
+	print(f"percentage of zero divisions: {nb_zero_divisions/(nb_programs + nb_zero_divisions + nb_var_value_overflows) * 100:.2f}%")
+	print(f"percentage of overflows: {nb_var_value_overflows/(nb_programs + nb_zero_divisions + nb_var_value_overflows) * 100:.2f}%")
 
 	# Closing the logging and data output files
 	f_log_file.close()
