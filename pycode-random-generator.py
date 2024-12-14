@@ -72,7 +72,7 @@ variable_creation_statements = [
 ]
 
 # __FUNCTION__: EXECUTE_GEN_ACTION
-def execute_gen_action (gen_action:str):
+def execute_gen_action(gen_action:str):
 	global code
 	global line_counter
 	match gen_action:
@@ -601,35 +601,36 @@ def queue_gen_actions():
 		return
 	
 	# __In other cases__
-	
-	# We set the potential keywords
-	potential_keywords = list(pattern_vocabulary)
+	if True:
+		# We set the potential keywords
+		potential_keywords = list(pattern_vocabulary)
 
-	# Check for while_state
-	if context_stack[-1]['while_state']:
-		potential_keywords.append('WHILE_UPDATE')
-	
-	# In case we achieved max_depth or max_sub_blocks inside the current context we remove the indentation statements
-	# remove the indentation_statements from potential_keywords
-	if len(context_stack) - 1 >=  max_depth or context_stack[-1]["nb_blocks"] >= max_sub_blocks:
-		potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in indentation_statements]
+		# Check for while_state
+		if context_stack[-1]['while_state']:
+			potential_keywords.append('WHILE_UPDATE')
+		
+		# In case we achieved max_depth or max_sub_blocks inside the current context we remove the indentation statements
+		# remove the indentation_statements from potential_keywords
+		if len(context_stack) - 1 >=  max_depth or context_stack[-1]["nb_blocks"] >= max_sub_blocks:
+			potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in indentation_statements]
 
-	# Else If we are not in an If statement we remove the elif + else
-	elif not context_stack[-1]["if_state"]:
-		potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in {"SIMPLE_ELIF_STATEMENT", "ELSE_STATEMENT"}]
+		# Else If we are not in an If statement we remove the elif + else
+		elif not context_stack[-1]["if_state"]:
+			potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in {"SIMPLE_ELIF_STATEMENT", "ELSE_STATEMENT"}]
 
-	# We add the END keyword if we are not at the begining of an indentation block
-	if len(context_stack) == 1 and line_counter > min_length:
-		potential_keywords.append("END")
+		# We add the END keyword if we are not at the begining of an indentation block
+		if len(context_stack) == 1 and line_counter > min_length:
+			potential_keywords.append("END")
 
-	# We return a uniform distribution over the remaining keywords
-	keyword = random.choice(potential_keywords)
-	context_stack[-1]['actions_queue'].append(keyword)
-	
-	# Exit
-	return
+		# We return a uniform distribution over the remaining keywords
+		keyword = random.choice(potential_keywords)
+		context_stack[-1]['actions_queue'].append(keyword)
+		
+		# Exit
+		return
 
-# GENERATE_RANDOM_CODE
+
+# __FUNCTION__: GENERATE_RANDOM_CODE
 def generate_random_code():
 	"""
 	Generates a random code snippet by orchestrating the use of the 'distribution_conroller' and 'develop_code_line' functions
@@ -674,23 +675,23 @@ def generate_random_code():
 		while (len(context_stack[-1]['actions_queue']) != 0) and (gen_action := context_stack[-1]['actions_queue'].popleft()) != 'END':
 			execute_gen_action(gen_action)
 	
+	# Return the code
 	return code
 
 
-## Custom exception, raised when a variable's absolute value gets higher than max_val_value  
+# Custom exception, raised when a variable's absolute value gets higher than max_val_value  
 class VariableValueOverflowError(Exception):
 	def __init__(self, message):
 		super().__init__(message)
 
-# the execution environment boilerplate for controlling the overflow of computed variables
 
-
+# If the script is run as a standalone script
 if __name__ == "__main__":
 
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state", default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs", default = 1000, help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs", default = 100000, help = "Number of programs to be generated")
 	parser.add_argument("--output_file", default = "./prg_testing/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout", default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file", default = "./log.txt", help = "The path to the logging file for monitoring progress")
@@ -811,11 +812,14 @@ finally:
 
 			# Saving the code example with its output
 			output = sio.getvalue()
-			# result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
-			result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+			result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+			# result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
 			f.write(result + "\n\n")
+
+			# Update the number of generated programs
 			nb_generated_programs += 1
-			# If using tqdm ...
+
+			# Update tqdm if used
 			if use_tqdm:
 				pbar.update(1) 
 
@@ -824,9 +828,10 @@ finally:
 		except VariableValueOverflowError as e:
 			nb_var_value_overflows += 1
 		except Exception as e:
-			f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
+			print('Code Snippet Execution Error:', e)
+			with open('error_code.txt', 'w') as f:
+				f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
 			break
-
 
 		if use_tqdm:
 			pbar.set_description(f"ZeroDiv : {nb_zero_divisions:,} | Overflows : {nb_var_value_overflows:,} |")
