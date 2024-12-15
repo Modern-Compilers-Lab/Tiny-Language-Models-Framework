@@ -83,7 +83,10 @@ def execute_gen_action(gen_action:str):
 	match gen_action:
 
 		case 'UNINDENT':
-			context_stack.pop()
+			# Pop the previous context
+			previous_context = context_stack.pop()
+			# Updat the nb_lines_in_block of the current context
+			context_stack[-1]['nb_lines_in_block'] += previous_context['nb_lines_in_block']
 		
 		case 'INITIALIZATION':
 			
@@ -703,7 +706,7 @@ def generate_random_code():
 	return code
 
 
-# Custom exception, raised when a variable's absolute value gets higher than max_val_value  
+# Custom exception, raised when a variable's absolute value gets higher than max_val_value
 class VariableValueOverflowError(Exception):
 	def __init__(self, message):
 		super().__init__(message)
