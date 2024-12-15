@@ -251,24 +251,21 @@ def execute_gen_action(gen_action:str):
 		case 'WHILE_LOOP':
 
 			# Choose the update operator
-			update_operator = random.choice(ARITHMETIC_OPERATORS)
+			update_operator = random.choice(['+', '-', '//'])
 			
 			# Choose the relational operator
-			relational_operator = random.choice(RELATIONAL_OPERATORS)
+			relational_operator = random.choice(['>', '<', '>=', '<='])
 			
 			# Choose the control_variable_identifier
 			control_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
 			
 			# Initializing nb_new_lines to 2 since there is always the control_variable_initialization_expression and the while_expression
 			nb_new_lines = 2
-
-			# new_non_writable_variables
-			while_loop_variables_identifiers = [control_variable_identifier]
 			
 			# Create the reauired number of tabs for the current context
 			tabs = '	' * (len(context_stack)-1)
 			while_prologue_critical_expressions = []
-			while_prologue_critical_identifiers = []
+			while_prologue_critical_identifiers = [control_variable_identifier]
 
 			if update_operator == '+':
 				
@@ -322,12 +319,17 @@ def execute_gen_action(gen_action:str):
 					update_operand_term = update_operand_value
 				
 				# Create the control_variable_update_expression
-				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} + {update_operand_term}\n'
+				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} + {update_operand_term}\n'
 				
+				# Choose the number of iterations
+				nb_iters = random.randint(a=1, b=20)
+
 				# __Create the border__
 
-				# Choose a value for the border
-				border_value = random.randint(a=control_variable_initial_value, b=control_variable_initial_value + 20)
+				# Choose a value for the border corresponding to the number of iterations (give or take 1 iteration actually ...)
+				lower_bound = control_variable_initial_value + ((nb_iters-1) * update_operand_value)
+				upper_bound = control_variable_initial_value + (nb_iters * update_operand_value)
+				border_value = random.randint(a=lower_bound, b=upper_bound)
 				
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
@@ -345,100 +347,10 @@ def execute_gen_action(gen_action:str):
 					border_term = border_value
 				
 				# Create the while_expression
-				if operator in ['<', '<=']:
+				if relational_operator in ['<', '<=']:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
 				else:
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
-
-				# __Create the while_prologue__
-				
-				# Shuffle the while_prologue_critical_expressions
-				random.shuffle(while_prologue_critical_expressions)
-
-				# Initialize while_prologue to empty string
-				while_prologue = ''
-				
-				# Set the maximum number of intermediate expressions
-				nb_max_intermediate_expressions = 4
-				
-				# Set the new_writable_variables
-				new_writable_variables = list(context_stack[-1]['writable_variables'])
-				
-				# Iterate over the while_prologue_critical_expressions
-				for el in while_prologue_critical_expressions:
-					
-					# Append the critical expression to the while_prologue
-					while_prologue += el['inti_exp']
-					
-					# Remove the identifier from the new_writable_variables
-					new_writable_variables.remove(el['identifier'])
-					
-					# Add the identifier to the readable_variables of the current context if not already there
-					if el['identifier'] not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(el['identifier'])
-					
-					# Choose the number of intermediate expressions to put after this critical expression
-					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
-					
-					# Make sure to decrease the number of possible intermediate expressions for next time
-					nb_max_intermediate_expressions -= nb_intermediate_expressions
-
-					# Iterate over the number of intermediate expressions
-					for _ in range(nb_intermediate_expressions):
-						
-						# Choose operand 1
-						operand1 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operand 2
-						operand2 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operator
-						operator = random.choice(ARITHMETIC_OPERATORS)
-						
-						# Choose identifier from the new_writable_variables
-						identifier = random.choice(new_writable_variables)
-						
-						# Add identifier to readable_variables of current context if not already there
-						if identifier not in context_stack[-1]['readable_variables']:
-							context_stack[-1]['readable_variables'].append(identifier)
-						
-						# Create the intermediate expression
-						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
-						
-						# Append it to while_prologue
-						while_prologue += intermediate_expression
-					
-				# Append the while_prologue and the while_expression to the code
-				code = code + while_prologue + while_expression
-
-				# Update the line_counter
-				line_counter += nb_new_lines
-
-				# Update the current context
-				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
-				context_stack[-1]['nb_while_loops'] += 1
-				context_stack[-1]['nb_blocks'] += 1
-				context_stack[-1]['if_state'] = False
-
-				# Stack the new context
-				context_stack.append({
-					'nb_if_blocks': 0,
-					'nb_while_loops': 0,
-					'nb_for_loops': 0,
-					'nb_blocks': 0,
-					'if_state': False,
-					'while_state': control_variable_update_expression,
-					'readable_variables': list(context_stack[-1]['readable_variables']),
-					'writable_variables': new_writable_variables,
-					'nb_lines_in_block': 0,
-					'actions_queue': deque(),
-				})
 
 			elif update_operator == '-':
 				
@@ -492,12 +404,17 @@ def execute_gen_action(gen_action:str):
 					update_operand_term = update_operand_value
 
 				# Create the control_variable_update_expression
-				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} - {update_operand_term}\n'
+				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} - {update_operand_term}\n'
+
+				# Choose the number of iterations
+				nb_iters = random.randint(a=1, b=20)
 
 				# __Create the border__
 
-				# Choose a value for the border
-				border_value = random.randint(a=control_variable_initial_value, b=control_variable_initial_value - 20)
+				# Choose a value for the border corresponding to nb_iters (give or take 1 iteration actually ...)
+				lower_bound = control_variable_initial_value - ((nb_iters) * update_operand_value)
+				upper_bound = control_variable_initial_value - ((nb_iters-1) * update_operand_value)
+				border_value = random.randint(a=lower_bound, b=upper_bound)
 
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
@@ -515,100 +432,10 @@ def execute_gen_action(gen_action:str):
 					border_term = border_value
 
 				# Create the while_expression
-				if operator in ['<', '<=']:
+				if relational_operator in ['<', '<=']:
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
 				else:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
-
-				# __Create the while_prologue__
-				
-				# Shuffle the while_prologue_critical_expressions
-				random.shuffle(while_prologue_critical_expressions)
-
-				# Initialize while_prologue to empty string
-				while_prologue = ''
-				
-				# Set the maximum number of intermediate expressions
-				nb_max_intermediate_expressions = 4
-				
-				# Set the new_writable_variables
-				new_writable_variables = list(context_stack[-1]['writable_variables'])
-				
-				# Iterate over the while_prologue_critical_expressions
-				for el in while_prologue_critical_expressions:
-					
-					# Append the critical expression to the while_prologue
-					while_prologue += el['inti_exp']
-					
-					# Remove the identifier from the new_writable_variables
-					new_writable_variables.remove(el['identifier'])
-					
-					# Add the identifier to the readable_variables of the current context if not already there
-					if el['identifier'] not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(el['identifier'])
-					
-					# Choose the number of intermediate expressions to put after this critical expression
-					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
-					
-					# Make sure to decrease the number of possible intermediate expressions for next time
-					nb_max_intermediate_expressions -= nb_intermediate_expressions
-
-					# Iterate over the number of intermediate expressions
-					for _ in range(nb_intermediate_expressions):
-						
-						# Choose operand 1
-						operand1 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operand 2
-						operand2 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operator
-						operator = random.choice(ARITHMETIC_OPERATORS)
-						
-						# Choose identifier from the new_writable_variables
-						identifier = random.choice(new_writable_variables)
-						
-						# Add identifier to readable_variables of current context if not already there
-						if identifier not in context_stack[-1]['readable_variables']:
-							context_stack[-1]['readable_variables'].append(identifier)
-						
-						# Create the intermediate expression
-						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
-						
-						# Append it to while_prologue
-						while_prologue += intermediate_expression
-					
-				# Append the while_prologue and the while_expression to the code
-				code = code + while_prologue + while_expression
-
-				# Update the line_counter
-				line_counter += nb_new_lines
-
-				# Update the current context
-				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
-				context_stack[-1]['nb_while_loops'] += 1
-				context_stack[-1]['nb_blocks'] += 1
-				context_stack[-1]['if_state'] = False
-
-				# Stack the new context
-				context_stack.append({
-					'nb_if_blocks': 0,
-					'nb_while_loops': 0,
-					'nb_for_loops': 0,
-					'nb_blocks': 0,
-					'if_state': False,
-					'while_state': control_variable_update_expression,
-					'readable_variables': list(context_stack[-1]['readable_variables']),
-					'writable_variables': new_writable_variables,
-					'nb_lines_in_block': 0,
-					'actions_queue': deque(),
-				})
 			
 			elif update_operator == '/':
 				
@@ -662,7 +489,7 @@ def execute_gen_action(gen_action:str):
 					# Update the nb_new_lines
 					nb_new_lines += 1
 					
-					# Set the update operand term to the update operand identifier for the control variable update expression
+					# Set the update_operand_term to the update_operand_identifier for the control_variable_update_expression
 					update_operand_term = update_operand_identifier
 				
 				else:
@@ -671,12 +498,17 @@ def execute_gen_action(gen_action:str):
 					update_operand_term = update_operand_value
 				
 				# Create the control_variable_update_expression
-				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} / {update_operand_term}\n'
+				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} / {update_operand_term}\n'
 				
 				# __Create the border__
 
+				# Choosing the number of iterations
+				nb_iters = random.randint(a=1, b=10)
+
 				# Choose a value for the border
-				border_value = random.randint(a=1, b=control_variable_initial_value)
+				lower_bound = int(control_variable_initial_value / (update_operand_value ** nb_iters))
+				upper_bound = int(control_variable_initial_value / (update_operand_value ** (nb_iters-1)))
+				border_value = random.randint(a=lower_bound, b=upper_bound)
 				
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
@@ -692,102 +524,12 @@ def execute_gen_action(gen_action:str):
 					border_term = border_identifier
 				else:
 					border_term = border_value
-				
+
 				# Create the while_expression
-				if operator in ['<', '<=']:
+				if relational_operator in ['<', '<=']:
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
 				else:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
-
-				# __Create the while_prologue__
-				
-				# Shuffle the while_prologue_critical_expressions
-				random.shuffle(while_prologue_critical_expressions)
-
-				# Initialize while_prologue to empty string
-				while_prologue = ''
-				
-				# Set the maximum number of intermediate expressions
-				nb_max_intermediate_expressions = 4
-				
-				# Set the new_writable_variables
-				new_writable_variables = list(context_stack[-1]['writable_variables'])
-				
-				# Iterate over the while_prologue_critical_expressions
-				for el in while_prologue_critical_expressions:
-					
-					# Append the critical expression to the while_prologue
-					while_prologue += el['inti_exp']
-					
-					# Remove the identifier from the new_writable_variables
-					new_writable_variables.remove(el['identifier'])
-					
-					# Add the identifier to the readable_variables of the current context if not already there
-					if el['identifier'] not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(el['identifier'])
-					
-					# Choose the number of intermediate expressions to put after this critical expression
-					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
-					
-					# Make sure to decrease the number of possible intermediate expressions for next time
-					nb_max_intermediate_expressions -= nb_intermediate_expressions
-
-					# Iterate over the number of intermediate expressions
-					for _ in range(nb_intermediate_expressions):
-						
-						# Choose operand 1
-						operand1 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operand 2
-						operand2 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operator
-						operator = random.choice(ARITHMETIC_OPERATORS)
-						
-						# Choose identifier from the new_writable_variables
-						identifier = random.choice(new_writable_variables)
-						
-						# Add identifier to readable_variables of current context if not already there
-						if identifier not in context_stack[-1]['readable_variables']:
-							context_stack[-1]['readable_variables'].append(identifier)
-						
-						# Create the intermediate expression
-						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
-						
-						# Append it to while_prologue
-						while_prologue += intermediate_expression
-					
-				# Append the while_prologue and the while_expression to the code
-				code = code + while_prologue + while_expression
-
-				# Update the line_counter
-				line_counter += nb_new_lines
-
-				# Update the current context
-				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
-				context_stack[-1]['nb_while_loops'] += 1
-				context_stack[-1]['nb_blocks'] += 1
-				context_stack[-1]['if_state'] = False
-
-				# Stack the new context
-				context_stack.append({
-					'nb_if_blocks': 0,
-					'nb_while_loops': 0,
-					'nb_for_loops': 0,
-					'nb_blocks': 0,
-					'if_state': False,
-					'while_state': control_variable_update_expression,
-					'readable_variables': list(context_stack[-1]['readable_variables']),
-					'writable_variables': new_writable_variables,
-					'nb_lines_in_block': 0,
-					'actions_queue': deque(),
-				})
 
 			elif update_operator == '//':
 
@@ -850,12 +592,17 @@ def execute_gen_action(gen_action:str):
 					update_operand_term = update_operand_value
 				
 				# Create the control_variable_update_expression
-				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} // {update_operand_term}\n'
+				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} // {update_operand_term}\n'
 				
 				# __Create the border__
 
+				# Choose the number of iterations
+				nb_iters = random.randint(a=1, b=10)
+				
 				# Choose a value for the border
-				border_value = random.randint(a=0, b=control_variable_initial_value)
+				lower_bound = control_variable_initial_value // (update_operand_value ** nb_iters)
+				upper_bound = control_variable_initial_value // (update_operand_value ** (nb_iters-1))
+				border_value = random.randint(a=lower_bound, b=upper_bound)
 
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
@@ -873,100 +620,10 @@ def execute_gen_action(gen_action:str):
 					border_term = border_value
 				
 				# Create the while_expression
-				if operator in ['<', '<=']:
+				if relational_operator in ['<', '<=']:
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
 				else:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
-
-				# __Create the while_prologue__
-				
-				# Shuffle the while_prologue_critical_expressions
-				random.shuffle(while_prologue_critical_expressions)
-
-				# Initialize while_prologue to empty string
-				while_prologue = ''
-				
-				# Set the maximum number of intermediate expressions
-				nb_max_intermediate_expressions = 4
-				
-				# Set the new_writable_variables
-				new_writable_variables = list(context_stack[-1]['writable_variables'])
-				
-				# Iterate over the while_prologue_critical_expressions
-				for el in while_prologue_critical_expressions:
-					
-					# Append the critical expression to the while_prologue
-					while_prologue += el['inti_exp']
-					
-					# Remove the identifier from the new_writable_variables
-					new_writable_variables.remove(el['identifier'])
-					
-					# Add the identifier to the readable_variables of the current context if not already there
-					if el['identifier'] not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(el['identifier'])
-					
-					# Choose the number of intermediate expressions to put after this critical expression
-					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
-					
-					# Make sure to decrease the number of possible intermediate expressions for next time
-					nb_max_intermediate_expressions -= nb_intermediate_expressions
-
-					# Iterate over the number of intermediate expressions
-					for _ in range(nb_intermediate_expressions):
-						
-						# Choose operand 1
-						operand1 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operand 2
-						operand2 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operator
-						operator = random.choice(ARITHMETIC_OPERATORS)
-						
-						# Choose identifier from the new_writable_variables
-						identifier = random.choice(new_writable_variables)
-						
-						# Add identifier to readable_variables of current context if not already there
-						if identifier not in context_stack[-1]['readable_variables']:
-							context_stack[-1]['readable_variables'].append(identifier)
-						
-						# Create the intermediate expression
-						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
-						
-						# Append it to while_prologue
-						while_prologue += intermediate_expression
-					
-				# Append the while_prologue and the while_expression to the code
-				code = code + while_prologue + while_expression
-
-				# Update the line_counter
-				line_counter += nb_new_lines
-
-				# Update the current context
-				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
-				context_stack[-1]['nb_while_loops'] += 1
-				context_stack[-1]['nb_blocks'] += 1
-				context_stack[-1]['if_state'] = False
-
-				# Stack the new context
-				context_stack.append({
-					'nb_if_blocks': 0,
-					'nb_while_loops': 0,
-					'nb_for_loops': 0,
-					'nb_blocks': 0,
-					'if_state': False,
-					'while_state': control_variable_update_expression,
-					'readable_variables': list(context_stack[-1]['readable_variables']),
-					'writable_variables': new_writable_variables,
-					'nb_lines_in_block': 0,
-					'actions_queue': deque(),
-				})
 
 			elif update_operator == '*':
 								
@@ -1033,8 +690,13 @@ def execute_gen_action(gen_action:str):
 				
 				# __Create the border__
 
-				# Choose a value for the border
-				border_value = random.randint(a=control_variable_initial_value, b=control_variable_initial_value * 20)
+				# Choose the number if iterations
+				nb_iters = random.randint(a=1, b=10)
+
+				# Choose a value for the border corresponding to the number of iterations (give or take 1 iteration actually ...)
+				lower_bound = control_variable_initial_value * (update_operand_value ** (nb_iters-1))
+				upper_bound = control_variable_initial_value * (update_operand_value ** nb_iters)
+				border_value = random.randint(a=upper_bound, b=lower_bound)
 				
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
@@ -1056,96 +718,96 @@ def execute_gen_action(gen_action:str):
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
 				else:
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
-				
-				# __Create the while_prologue__
-				
-				# Shuffle the while_prologue_critical_expressions
-				random.shuffle(while_prologue_critical_expressions)
 
-				# Initialize while_prologue to empty string
-				while_prologue = ''
+			# __Create the while_prologue__
+			
+			# Shuffle the while_prologue_critical_expressions
+			random.shuffle(while_prologue_critical_expressions)
+
+			# Initialize while_prologue to empty string
+			while_prologue = ''
+			
+			# Set the maximum number of intermediate expressions
+			nb_max_intermediate_expressions = 4
+			
+			# Set the new_writable_variables
+			new_writable_variables = list(context_stack[-1]['writable_variables'])
+			
+			# Iterate over the while_prologue_critical_expressions
+			for el in while_prologue_critical_expressions:
 				
-				# Set the maximum number of intermediate expressions
-				nb_max_intermediate_expressions = 4
+				# Append the critical expression to the while_prologue
+				while_prologue += el['inti_exp']
 				
-				# Set the new_writable_variables
-				new_writable_variables = list(context_stack[-1]['writable_variables'])
+				# Remove the identifier from the new_writable_variables
+				new_writable_variables.remove(el['identifier'])
 				
-				# Iterate over the while_prologue_critical_expressions
-				for el in while_prologue_critical_expressions:
-					
-					# Append the critical expression to the while_prologue
-					while_prologue += el['inti_exp']
-					
-					# Remove the identifier from the new_writable_variables
-					new_writable_variables.remove(el['identifier'])
-					
-					# Add the identifier to the readable_variables of the current context if not already there
-					if el['identifier'] not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(el['identifier'])
-					
-					# Choose the number of intermediate expressions to put after this critical expression
-					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
-					
-					# Make sure to decrease the number of possible intermediate expressions for next time
-					nb_max_intermediate_expressions -= nb_intermediate_expressions
+				# Add the identifier to the readable_variables of the current context if not already there
+				if el['identifier'] not in context_stack[-1]['readable_variables']:
+					context_stack[-1]['readable_variables'].append(el['identifier'])
+				
+				# Choose the number of intermediate expressions to put after this critical expression
+				nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
+				
+				# Make sure to decrease the number of possible intermediate expressions for next time
+				nb_max_intermediate_expressions -= nb_intermediate_expressions
 
-					# Iterate over the number of intermediate expressions
-					for _ in range(nb_intermediate_expressions):
-						
-						# Choose operand 1
-						operand1 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operand 2
-						operand2 = random.choice((
-							random.choice(context_stack[-1]['readable_variables']),
-							random.choice(DIGIT)
-							))
-						
-						# Choose operator
-						operator = random.choice(ARITHMETIC_OPERATORS)
-						
-						# Choose identifier from the new_writable_variables
-						identifier = random.choice(new_writable_variables)
-						
-						# Add identifier to readable_variables of current context if not already there
-						if identifier not in context_stack[-1]['readable_variables']:
-							context_stack[-1]['readable_variables'].append(identifier)
-						
-						# Create the intermediate expression
-						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
-						
-						# Append it to while_prologue
-						while_prologue += intermediate_expression
+				# Iterate over the number of intermediate expressions
+				for _ in range(nb_intermediate_expressions):
 					
-				# Append the while_prologue and the while_expression to the code
-				code = code + while_prologue + while_expression
+					# Choose operand 1
+					operand1 = random.choice((
+						random.choice(context_stack[-1]['readable_variables']),
+						random.choice(DIGIT)
+						))
+					
+					# Choose operand 2
+					operand2 = random.choice((
+						random.choice(context_stack[-1]['readable_variables']),
+						random.choice(DIGIT)
+						))
+					
+					# Choose operator
+					operator = random.choice(ARITHMETIC_OPERATORS)
+					
+					# Choose identifier from the new_writable_variables
+					identifier = random.choice(new_writable_variables)
+					
+					# Add identifier to readable_variables of current context if not already there
+					if identifier not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(identifier)
+					
+					# Create the intermediate expression
+					intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+					
+					# Append it to while_prologue
+					while_prologue += intermediate_expression
+				
+			# Append the while_prologue and the while_expression to the code
+			code = code + while_prologue + while_expression
 
-				# Update the line_counter
-				line_counter += nb_new_lines
+			# Update the line_counter
+			line_counter += nb_new_lines
 
-				# Update the current context
-				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
-				context_stack[-1]['nb_while_loops'] += 1
-				context_stack[-1]['nb_blocks'] += 1
-				context_stack[-1]['if_state'] = False
+			# Update the current context
+			context_stack[-1]['nb_lines_in_block'] += nb_new_lines
+			context_stack[-1]['nb_while_loops'] += 1
+			context_stack[-1]['nb_blocks'] += 1
+			context_stack[-1]['if_state'] = False
 
-				# Stack the new context
-				context_stack.append({
-					'nb_if_blocks': 0,
-					'nb_while_loops': 0,
-					'nb_for_loops': 0,
-					'nb_blocks': 0,
-					'if_state': False,
-					'while_state': control_variable_update_expression,
-					'readable_variables': list(context_stack[-1]['readable_variables']),
-					'writable_variables': new_writable_variables,
-					'nb_lines_in_block': 0,
-					'actions_queue': deque(),
-				})
+			# Stack the new context
+			context_stack.append({
+				'nb_if_blocks': 0,
+				'nb_while_loops': 0,
+				'nb_for_loops': 0,
+				'nb_blocks': 0,
+				'if_state': False,
+				'while_state': control_variable_update_expression,
+				'readable_variables': list(context_stack[-1]['readable_variables']),
+				'writable_variables': new_writable_variables,
+				'nb_lines_in_block': 0,
+				'actions_queue': deque(),
+			})
 		
 		case 'WHILE_UPDATE':
 
@@ -1369,14 +1031,14 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state", default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs", default = 100000, help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs", default = 1000, help = "Number of programs to be generated")
 	parser.add_argument("--output_file", default = "./prg_testing/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout", default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file", default = "./log.txt", help = "The path to the logging file for monitoring progress")
 	parser.add_argument("--log_interval", default = 10000, help = "The number of code snippets generations before logging to the --log_file for monitoring progress")
 	parser.add_argument("--deduplicate", help = "Whether to perform deduplication of generated programs (set to True for true, False for anything else), defaults to True)")
 	parser.add_argument("--max_deduplication_trials", default = 50, help = "The maximum number of consecutive trials when deduplication occurs")
-	parser.add_argument("--programs_separator", default = "", help = "String to put at the top of each code example (Defaults to empty string)")
+	parser.add_argument("--programs_separator", default = "# code", help = "String to put at the top of each code example (Defaults to empty string)")
 	parser.add_argument("--use_tqdm", help = "Whether or not to use tqdm for monitoring progress (set to True for true, False for anything else), defaults to True)")
 	parser.add_argument("--max_var_value", default = 100000, help = "The maximum value above which the absolute value of created variables must not go")
 
@@ -1459,57 +1121,59 @@ finally:
 		# Generating the code
 		code = generate_random_code()
 		code = code.strip('\n')
-		
+
 		# In case of deduplicate
-		if deduplicate:
-			code_hash = hashlib.sha256(code.encode('utf-8')).hexdigest()
-			if code_hash in hashes:
-				nb_deduplication_trials += 1
-				if nb_deduplication_trials == max_deduplication_trials:
-					print("DEDUPLICATE PROBLEM ")
-					break
-				else:
-					continue
-			else:
-				nb_deduplication_trials = 0
-				hashes.add(code_hash)
+		# if deduplicate:
+		# 	code_hash = hashlib.sha256(code.encode('utf-8')).hexdigest()
+		# 	if code_hash in hashes:
+		# 		nb_deduplication_trials += 1
+		# 		if nb_deduplication_trials == max_deduplication_trials:
+		# 			print("DEDUPLICATE PROBLEM ")
+		# 			break
+		# 		else:
+		# 			continue
+		# 	else:
+		# 		nb_deduplication_trials = 0
+		# 		hashes.add(code_hash)
 		
 		# preparing the execution environment
 		indented = "\n".join([f"	{line}" for line in code.split("\n")])
 		func = "def func():\n" + indented
 		exec_env = func + exec_env_boilerplate
 
+		nb_generated_programs += 1
+		
 		# Trying the execute the generated code
-		sio = StringIO()
-		try:
-			with redirect_stdout(sio):
-				# We execute the code in a controlled environment
-				exec(exec_env, {
-					"VariableValueOverflowError" : VariableValueOverflowError
-				})
+		# sio = StringIO()
+		# try:
+		# 	with redirect_stdout(sio):
+		# 		# We execute the code in a controlled environment
+		# 		exec(exec_env, {
+		# 			"VariableValueOverflowError" : VariableValueOverflowError
+		# 		})
 
-			# Saving the code example with its output
-			output = sio.getvalue()
-			result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
-			# result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
-			f.write(result + "\n\n")
+		# 	# Saving the code example with its output
+		# 	output = sio.getvalue()
+		# 	result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+		# 	# result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+		# 	f.write(result + "\n\n")
 
-			# Update the number of generated programs
-			nb_generated_programs += 1
+		# 	# Update the number of generated programs
+		# 	nb_generated_programs += 1
 
-			# Update tqdm if used
-			if use_tqdm:
-				pbar.update(1) 
+		# 	# Update tqdm if used
+		# 	if use_tqdm:
+		# 		pbar.update(1) 
 
-		except ZeroDivisionError:
-			nb_zero_divisions += 1
-		except VariableValueOverflowError as e:
-			nb_var_value_overflows += 1
-		except Exception as e:
-			print('Code Snippet Execution Error:', e)
-			with open('error_code.txt', 'w') as f:
-				f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
-			break
+		# except ZeroDivisionError:
+		# 	nb_zero_divisions += 1
+		# except VariableValueOverflowError as e:
+		# 	nb_var_value_overflows += 1
+		# except Exception as e:
+		# 	print(f'Code Snippet Execution Error at {nb_generated_programs}:', e)
+		# 	with open('error_code.txt', 'w') as f:
+		# 		f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
+		# 	break
 
 		if use_tqdm:
 			pbar.set_description(f"ZeroDiv : {nb_zero_divisions:,} | Overflows : {nb_var_value_overflows:,} |")
