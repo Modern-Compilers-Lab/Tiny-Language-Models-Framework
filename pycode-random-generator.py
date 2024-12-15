@@ -1,26 +1,59 @@
-import random
-import re
-# from tqdm import tqdm
-from io import StringIO
-from contextlib import redirect_stdout
-import pickle
-import argparse
-import datetime
-import hashlib
-from pathlib import Path
-from collections import deque
+import 	random
+import 	pickle
+import 	argparse
+import 	datetime
+import 	hashlib
+from 	io 			import StringIO
+from 	contextlib 	import redirect_stdout
+from 	pathlib 	import Path
+from 	collections import deque
 
-# Some algorithm parameters
-min_init 			= 3
-max_depth 			= 2
-max_sub_blocks 		= 2
-min_length 			= 5
-max_length 			= 20
-x 					= 2
-# Must be >= 0
-unindentation_speed = 0.5
+# __PARAMETERS DASHBOARD__
 
-# Some global variables
+# GENERAL PARAMETERS
+MIN_INIT 					= 3
+MAX_DEPTH 					= 2
+MAX_SUB_BLOCKS 				= 2
+MIN_LENGTH 					= 5
+MAX_LENGTH 					= 20
+UNINDENTATION_SPEED 		= 0.5	# if <= 0, will never unindent after the first indentation encountered
+
+# WHILE LOOP PARAMETERS
+
+# WHILE_LOOP GENERAL PARAMETERS
+WHILE_LOOP_UPDATE_OPERATORS 	= ['+', '-', '//']
+WHILE_LOOP_RELATIONAL_OPERATORS = ['>', '<', '>=', '<=']
+NB_MAX_INTERMEDIATE_EXPRESSIONS = 4
+
+# WHILE LOOP PARAMETERS FOR ADD UPDATE OPERATOR
+WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_ADD_UPDATE_OPERATOR 		= [i for i in range(255+1)]
+WHILE_LOOP_UPDATE_OPERAND_FOR_ADD_UPDATE_OPERATOR 						= [i for i in range(1, 5+1)]
+WHILE_LOOP_NB_ITERS_FOR_ADD_UPDATE_OPERATOR								= [i for i in range(1, 20+1)]
+
+# WHILE LOOP PARAMETERS FOR SUB UPDATE OPERATOR
+WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_SUB_UPDATE_OPERATOR 		= [i for i in range(255+1)]
+WHILE_LOOP_UPDATE_OPERAND_FOR_SUB_UPDATE_OPERATOR 						= [i for i in range(1, 5+1)]
+WHILE_LOOP_NB_ITERS_FOR_SUB_UPDATE_OPERATOR								= [i for i in range(1, 20+1)]
+
+# WHILE LOOP PARAMETERS FOR DIV UPDATE OPERATOR
+WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_DIV_UPDATE_OPERATOR 		= [i for i in range(255+1)]
+WHILE_LOOP_UPDATE_OPERAND_FOR_DIV_UPDATE_OPERATOR 						= [i for i in range(2, 20+1)]
+WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_DIV_UPDATE_OPERATOR 				= [1 if i!= 10 else 5 for i in range(2, 20+1)]
+WHILE_LOOP_NB_ITERS_FOR_DIV_UPDATE_OPERATOR								= [i for i in range(1, 20+1)]
+
+# WHILE LOOP PARAMETER FOR FLOORDIV UPDATE OPERATOR
+WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_FLOORDIV_UPDATE_OPERATOR = [i for i in range(255+1)]
+WHILE_LOOP_UPDATE_OPERAND_FOR_FLOORDIV_UPDATE_OPERATOR 					= [i for i in range(2, 20+1)]
+WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_FLOORDIV_UPDATE_OPERATOR 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
+WHILE_LOOP_NB_ITERS_FOR_FLOORDIV_UPDATE_OPERATOR						= [i for i in range(1, 20+1)]
+
+# WHILE LOOP PARAMETERS FOR MUL UPDATE OPERATOR
+WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_MUL_UPDATE_OPERATOR 		= [i for i in range(255+1)]
+WHILE_LOOP_UPDATE_OPERAND_FOR_MUL_UPDATE_OPERATOR 						= [i for i in range(1, 10+1)]
+WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_MUL_UPDATE_OPERATOR				= [1 if i!= 10 else 5 for i in range(1, 10+1)]
+WHILE_LOOP_NB_ITERS_FOR_MUL_UPDATE_OPERATOR								= [i for i in range(1, 5+1)]
+
+# GLOBAL OPERATIONAL VARIABLES
 context_stack 		= list()
 line_counter 		= 1
 code 				= ''
@@ -38,14 +71,14 @@ pattern_vocabulary = [
     "SIMPLE_ELIF_STATEMENT",
     "ELSE_STATEMENT",
 	'WHILE_LOOP',
-    "FOR_LOOP",
+    # "FOR_LOOP",
 	"DISPLAY",
 	# "ADVANCED_DISPLAY"
 ]
 
 loop_statements = [
 	'WHILE_LOOP',
-    "FOR_LOOP",
+    # "FOR_LOOP",
 ]
 
 conditional_statements = [
@@ -55,7 +88,7 @@ conditional_statements = [
 
 indentation_statements = [
 	'WHILE_LOOP',
-    "FOR_LOOP",
+    # "FOR_LOOP",
 	"SIMPLE_IF_STATEMENT",
     "SIMPLE_ELIF_STATEMENT",
 	"ELSE_STATEMENT"
@@ -68,7 +101,7 @@ variable_creation_statements = [
     "SIMPLE_ASSIGNMENT",
     # "ADVANCED_ASSIGNMENT",
 	'WHILE_LOOP',
-    "FOR_LOOP",
+    # "FOR_LOOP",
 ]
 
 
@@ -183,7 +216,7 @@ def execute_gen_action(gen_action:str):
 				'nb_lines_in_block': 0,
 				'actions_queue': deque(),
 			})
-			
+
 		case 'SIMPLE_ELIF_STATEMENT':
 			operand1 = random.choice((
 				random.choice(context_stack[-1]['readable_variables']),
@@ -251,10 +284,10 @@ def execute_gen_action(gen_action:str):
 		case 'WHILE_LOOP':
 
 			# Choose the update operator
-			update_operator = random.choice(['+', '-', '//'])
+			update_operator = random.choice(WHILE_LOOP_UPDATE_OPERATORS)
 			
 			# Choose the relational operator
-			relational_operator = random.choice(['>', '<', '>=', '<='])
+			relational_operator = random.choice(WHILE_LOOP_RELATIONAL_OPERATORS)
 			
 			# Choose the control_variable_identifier
 			control_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
@@ -272,7 +305,7 @@ def execute_gen_action(gen_action:str):
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(DIGIT)
+				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_ADD_UPDATE_OPERATOR)
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -286,7 +319,7 @@ def execute_gen_action(gen_action:str):
 				# __Create the update_operand__
 				
 				# Create the update_operand_value
-				update_operand_value = random.randint(a=1, b=5)
+				update_operand_value = random.choice(WHILE_LOOP_UPDATE_OPERAND_FOR_ADD_UPDATE_OPERATOR)
 
 				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
@@ -322,7 +355,7 @@ def execute_gen_action(gen_action:str):
 				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} + {update_operand_term}\n'
 				
 				# Choose the number of iterations
-				nb_iters = random.randint(a=1, b=20)
+				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_ADD_UPDATE_OPERATOR)
 
 				# __Create the border__
 
@@ -357,7 +390,7 @@ def execute_gen_action(gen_action:str):
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(DIGIT)
+				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_SUB_UPDATE_OPERATOR)
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -371,7 +404,7 @@ def execute_gen_action(gen_action:str):
 				# __Create the update_operand__
 
 				# Create the update_operand_value
-				update_operand_value = random.randint(a=1, b=5)
+				update_operand_value = random.choice(WHILE_LOOP_UPDATE_OPERAND_FOR_SUB_UPDATE_OPERATOR)
 
 				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
@@ -407,7 +440,7 @@ def execute_gen_action(gen_action:str):
 				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} - {update_operand_term}\n'
 
 				# Choose the number of iterations
-				nb_iters = random.randint(a=1, b=20)
+				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_SUB_UPDATE_OPERATOR)
 
 				# __Create the border__
 
@@ -442,7 +475,7 @@ def execute_gen_action(gen_action:str):
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(DIGIT)
+				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_DIV_UPDATE_OPERATOR)
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -455,17 +488,12 @@ def execute_gen_action(gen_action:str):
 
 				# __Create the update_operand__
 				
-				# Create the possible values
-				max_operand_value = 20
-				min_operand_value = 2
-				possible_values = [i for i in range(min_operand_value, max_operand_value+1)]
-				
-				# Create the weights for random choice
-				# giving 5 times more weight to 10
-				weights = [1 if i!= 10 else 5 for i in range(max_operand_value-min_operand_value+1)]
-				
 				# Choosing the update operand value
-				update_operand_value = random.choices(population=possible_values, weights=weights, k=1)[0]
+				update_operand_value = random.choices(
+					population=WHILE_LOOP_UPDATE_OPERAND_FOR_DIV_UPDATE_OPERATOR,
+					weights=WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_DIV_UPDATE_OPERATOR,
+					k=1
+				)[0]
 
 				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
@@ -503,7 +531,7 @@ def execute_gen_action(gen_action:str):
 				# __Create the border__
 
 				# Choosing the number of iterations
-				nb_iters = random.randint(a=1, b=10)
+				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_DIV_UPDATE_OPERATOR)
 
 				# Choose a value for the border
 				lower_bound = int(control_variable_initial_value / (update_operand_value ** nb_iters))
@@ -536,7 +564,7 @@ def execute_gen_action(gen_action:str):
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(DIGIT)
+				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_FLOORDIV_UPDATE_OPERATOR)
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -549,17 +577,12 @@ def execute_gen_action(gen_action:str):
 
 				# __Create the update_operand__
 				
-				# Create the possible values
-				max_operand_value = 20
-				min_operand_value = 2
-				possible_values = [i for i in range(min_operand_value, max_operand_value+1)]
-				
-				# Create the weights for random choice
-				# giving 5 times more weight to 10
-				weights = [1 if i!= 10 else 5 for i in range(max_operand_value-min_operand_value+1)]
-				
 				# Choosing the update operand value
-				update_operand_value = random.choices(population=possible_values, weights=weights, k=1)[0]
+				update_operand_value = random.choices(
+					population=WHILE_LOOP_UPDATE_OPERAND_FOR_FLOORDIV_UPDATE_OPERATOR,
+					weights=WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_FLOORDIV_UPDATE_OPERATOR,
+					k=1
+				)[0]
 
 				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
@@ -597,13 +620,17 @@ def execute_gen_action(gen_action:str):
 				# __Create the border__
 
 				# Choose the number of iterations
-				nb_iters = random.randint(a=1, b=10)
+				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_FLOORDIV_UPDATE_OPERATOR)
 				
 				# Choose a value for the border
 				lower_bound = control_variable_initial_value // (update_operand_value ** nb_iters)
 				upper_bound = control_variable_initial_value // (update_operand_value ** (nb_iters-1))
 				border_value = random.randint(a=lower_bound, b=upper_bound)
-
+				
+				# If the border_value is 0, we make sure that the relational operator is strict to avoid infinit loops
+				if border_value == 0:
+					relational_operator = '<' if '<' in relational_operator else '>'
+				
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
 					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
@@ -630,7 +657,7 @@ def execute_gen_action(gen_action:str):
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(DIGIT)
+				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_MUL_UPDATE_OPERATOR)
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -642,18 +669,12 @@ def execute_gen_action(gen_action:str):
 				})
 
 				# __Create the update_operand__
-				
-				# Create the possible values
-				max_operand_value = 20
-				min_operand_value = 2
-				possible_values = [i for i in range(min_operand_value, max_operand_value+1)]
-				
-				# Create the weights for random choice
-				# giving 5 times more weight to 10
-				weights = [1 if i!= 10 else 5 for i in range(max_operand_value-min_operand_value+1)]
-				
 				# Choosing the update operand value
-				update_operand_value = random.choices(population=possible_values, weights=weights, k=1)[0]
+				update_operand_value = random.choices(
+					population=WHILE_LOOP_UPDATE_OPERAND_FOR_MUL_UPDATE_OPERATOR,
+					weights=WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_MUL_UPDATE_OPERATOR,
+					k=1
+				)[0]
 
 				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
@@ -728,7 +749,7 @@ def execute_gen_action(gen_action:str):
 			while_prologue = ''
 			
 			# Set the maximum number of intermediate expressions
-			nb_max_intermediate_expressions = 4
+			nb_max_intermediate_expressions = random.randint(a=0, b=NB_MAX_INTERMEDIATE_EXPRESSIONS)
 			
 			# Set the new_writable_variables
 			new_writable_variables = list(context_stack[-1]['writable_variables'])
@@ -754,6 +775,7 @@ def execute_gen_action(gen_action:str):
 
 				# Iterate over the number of intermediate expressions
 				for _ in range(nb_intermediate_expressions):
+					nb_new_lines += 1
 					
 					# Choose operand 1
 					operand1 = random.choice((
@@ -782,7 +804,7 @@ def execute_gen_action(gen_action:str):
 					
 					# Append it to while_prologue
 					while_prologue += intermediate_expression
-				
+
 			# Append the while_prologue and the while_expression to the code
 			code = code + while_prologue + while_expression
 
@@ -895,15 +917,15 @@ def execute_gen_action(gen_action:str):
 # __FUNCTION__: QUEUE_GEN_ACTIONS
 def queue_gen_actions():
 	
-	# If the line_counter is less the min_init we return an INITIALIZATION
-	if line_counter <= min_init:
+	# If the line_counter is less the MIN_INIT we return an INITIALIZATION
+	if line_counter <= MIN_INIT:
 		context_stack[-1]['actions_queue'].append("INITIALIZATION")
 		
 		# Exit
 		return
 	
-	# Elif it's above max_length
-	if line_counter > max_length:
+	# Elif it's above MAX_LENGTH
+	if line_counter > MAX_LENGTH:
 		
 		# If we are at the indentation level 0 we can directly END the code
 		if len(context_stack) == 1:
@@ -928,7 +950,7 @@ def queue_gen_actions():
 	
 	# Choose if we unindent. This can happen only if we are at some indentation level > 0 and there is at least one code line
 	# in the current block, with higher probability of unindenting the higher nb_lines_in_block
-	if len(context_stack) > 1 and random.random() > (1/(1+unindentation_speed)) ** context_stack[-1]['nb_lines_in_block']:
+	if len(context_stack) > 1 and random.random() > (1/(1+UNINDENTATION_SPEED)) ** context_stack[-1]['nb_lines_in_block']:
 		
 		# In case we are currently in a while loop and the update statement hasn't been generated yet
 		if context_stack[-1]['while_state']:
@@ -942,6 +964,7 @@ def queue_gen_actions():
 	
 	# __In other cases__
 	if True:
+
 		# We set the potential keywords
 		potential_keywords = list(pattern_vocabulary)
 
@@ -949,17 +972,17 @@ def queue_gen_actions():
 		if context_stack[-1]['while_state']:
 			potential_keywords.append('WHILE_UPDATE')
 		
-		# In case we achieved max_depth or max_sub_blocks inside the current context we remove the indentation statements
+		# In case we achieved MAX_DEPTH or MAX_SUB_BLOCKS inside the current context we remove the indentation statements
 		# remove the indentation_statements from potential_keywords
-		if len(context_stack) - 1 >=  max_depth or context_stack[-1]["nb_blocks"] >= max_sub_blocks:
+		if len(context_stack) - 1 >=  MAX_DEPTH or context_stack[-1]["nb_blocks"] >= MAX_SUB_BLOCKS:
 			potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in indentation_statements]
 		
 		# Else If we are not in an If statement we remove the elif + else
 		elif not context_stack[-1]["if_state"]:
 			potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in {"SIMPLE_ELIF_STATEMENT", "ELSE_STATEMENT"}]
 
-		# We add the END keyword if we are at indentation level 0 and the line_counter is above min_length
-		if len(context_stack) == 1 and line_counter > min_length:
+		# We add the END keyword if we are at indentation level 0 and the line_counter is above MIN_LENGTH
+		if len(context_stack) == 1 and line_counter > MIN_LENGTH:
 			potential_keywords.append("END")
 
 		# We choose a keyword randomly and queue it
@@ -1030,17 +1053,17 @@ if __name__ == "__main__":
 
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
-	parser.add_argument("--random_state", default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs", default = 1000, help = "Number of programs to be generated")
-	parser.add_argument("--output_file", default = "./prg_testing/data.txt", help = "Number of programs to be generated")
-	parser.add_argument("--timeout", default = 2, help = "Number of seconds to wait for a process to terminate")
-	parser.add_argument("--log_file", default = "./log.txt", help = "The path to the logging file for monitoring progress")
-	parser.add_argument("--log_interval", default = 10000, help = "The number of code snippets generations before logging to the --log_file for monitoring progress")
-	parser.add_argument("--deduplicate", help = "Whether to perform deduplication of generated programs (set to True for true, False for anything else), defaults to True)")
+	parser.add_argument("--random_state"			, default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
+	parser.add_argument("--nb_programs"				, default = 10000, help = "Number of programs to be generated")
+	parser.add_argument("--output_file"				, default = "./prg_testing/data.txt", help = "Number of programs to be generated")
+	parser.add_argument("--timeout"					, default = 2, help = "Number of seconds to wait for a process to terminate")
+	parser.add_argument("--log_file"				, default = "./log.txt", help = "The path to the logging file for monitoring progress")
+	parser.add_argument("--log_interval"			, default = 10000, help = "The number of code snippets generations before logging to the --log_file for monitoring progress")
+	parser.add_argument("--deduplicate"				, help = "Whether to perform deduplication of generated programs (set to True for true, False for anything else), defaults to True)")
 	parser.add_argument("--max_deduplication_trials", default = 50, help = "The maximum number of consecutive trials when deduplication occurs")
-	parser.add_argument("--programs_separator", default = "# code", help = "String to put at the top of each code example (Defaults to empty string)")
-	parser.add_argument("--use_tqdm", help = "Whether or not to use tqdm for monitoring progress (set to True for true, False for anything else), defaults to True)")
-	parser.add_argument("--max_var_value", default = 100000, help = "The maximum value above which the absolute value of created variables must not go")
+	parser.add_argument("--programs_separator"		, default = "# code", help = "String to put at the top of each code example (Defaults to empty string)")
+	parser.add_argument("--use_tqdm"				, default='true', help = "Whether or not to use tqdm for monitoring progress (set to True for true, False for anything else), defaults to True)")
+	parser.add_argument("--max_var_value"			, default = 100000, help = "The maximum value above which the absolute value of created variables must not go")
 
 	args = parser.parse_args()
 
@@ -1141,39 +1164,39 @@ finally:
 		func = "def func():\n" + indented
 		exec_env = func + exec_env_boilerplate
 
-		nb_generated_programs += 1
+		# nb_generated_programs += 1
 		
 		# Trying the execute the generated code
-		# sio = StringIO()
-		# try:
-		# 	with redirect_stdout(sio):
-		# 		# We execute the code in a controlled environment
-		# 		exec(exec_env, {
-		# 			"VariableValueOverflowError" : VariableValueOverflowError
-		# 		})
+		sio = StringIO()
+		try:
+			with redirect_stdout(sio):
+				# We execute the code in a controlled environment
+				exec(exec_env, {
+					"VariableValueOverflowError" : VariableValueOverflowError
+				})
 
-		# 	# Saving the code example with its output
-		# 	output = sio.getvalue()
-		# 	result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
-		# 	# result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
-		# 	f.write(result + "\n\n")
+			# Saving the code example with its output
+			output = sio.getvalue()
+			result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+			# result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+			f.write(result + "\n\n")
 
-		# 	# Update the number of generated programs
-		# 	nb_generated_programs += 1
+			# Update the number of generated programs
+			nb_generated_programs += 1
 
-		# 	# Update tqdm if used
-		# 	if use_tqdm:
-		# 		pbar.update(1) 
+			# Update tqdm if used
+			if use_tqdm:
+				pbar.update(1) 
 
-		# except ZeroDivisionError:
-		# 	nb_zero_divisions += 1
-		# except VariableValueOverflowError as e:
-		# 	nb_var_value_overflows += 1
-		# except Exception as e:
-		# 	print(f'Code Snippet Execution Error at {nb_generated_programs}:', e)
-		# 	with open('error_code.txt', 'w') as f:
-		# 		f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
-		# 	break
+		except ZeroDivisionError:
+			nb_zero_divisions += 1
+		except VariableValueOverflowError as e:
+			nb_var_value_overflows += 1
+		except Exception as e:
+			print(f'Code Snippet Execution Error at {nb_generated_programs}:', e)
+			with open('error_code.txt', 'w') as f:
+				f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
+			break
 
 		if use_tqdm:
 			pbar.set_description(f"ZeroDiv : {nb_zero_divisions:,} | Overflows : {nb_var_value_overflows:,} |")
