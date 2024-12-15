@@ -27,7 +27,7 @@ code 				= ''
 
 VARIABLES				= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ]
 DIGIT 					= [i for i in range(256)]
-ARITHMETIC_OPERATORS 	= ["+", "-", "/", "*", "%"]
+ARITHMETIC_OPERATORS 	= ["+", "-", "/", "*", "%", "//"]
 RELATIONAL_OPERATORS 	= ["<", ">", "<=", ">=", "!=", "=="]
 
 pattern_vocabulary = [
@@ -250,252 +250,903 @@ def execute_gen_action(gen_action:str):
 
 		case 'WHILE_LOOP':
 
-			# __Creating the control variable__
-
-			# Choose the initial value of the control variable
-			control_variable_initial_value = random.choice(DIGIT)
-			# Choose an identifier for the control variable
+			# Choose the update operator
+			update_operator = random.choice(ARITHMETIC_OPERATORS)
+			
+			# Choose the relational operator
+			relational_operator = random.choice(RELATIONAL_OPERATORS)
+			
+			# Choose the control_variable_identifier
 			control_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
-			# Create the initialization expression of the control variable
+			
+			# Initializing nb_new_lines to 2 since there is always the control_variable_initialization_expression and the while_expression
+			nb_new_lines = 2
+
+			# new_non_writable_variables
+			while_loop_variables_identifiers = [control_variable_identifier]
+			
+			# Create the reauired number of tabs for the current context
 			tabs = '	' * (len(context_stack)-1)
-			control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
-			# Initializing nb_mew_lines (to update the current context of the stack afterwards and the line_counter)
-			nb_new_lines = 1
+			while_prologue_critical_expressions = []
+			while_prologue_critical_identifiers = []
 
-			# Choosing the number of iterations between a and b (both included)
-			nb_iters = random.randint(a=1, b=20)
-			
-			# Choosing the update step : [-b, -a] U [a, b]
-			delta = (sign := random.choice((-1, 1))) * random.randint(a=1, b=5)
-			
-			# Choosing the update operator based on the sign of delta
-			update_operator = '+' if delta > 0 else '-'
-			update_expression = f'{control_variable_identifier} = {control_variable_identifier} {update_operator} {abs(delta)}\n'
-			
-			# Choosing a relational operator
-			relational_operator = random.choice(["<", ">", "<=", ">="])
-			
-			# We compute the border_value
-			if '=' in relational_operator:
-				border_range_one = control_variable_initial_value + (nb_iters-1) * delta
-				border_range_two = control_variable_initial_value + nb_iters * delta + sign
-				border_value = random.randint(min(border_range_one, border_range_two), max(border_range_one, border_range_two))
-			else:
-				border_range_one = control_variable_initial_value + (nb_iters-1) * delta + sign
-				border_range_two = control_variable_initial_value + nb_iters * delta
-				border_value = random.randint(min(border_range_one, border_range_two), max(border_range_one, border_range_two))
-			
-			# __Choose if we create a border variable to hold the border value__
-
-			if random.random() < 0.5:
-				border_variable_defined = True
-				# Create the border_variable_identifier, make sure it is not the same as the control_variable_identifier
-				tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var != control_variable_identifier]
-				border_variable_identifier = random.choice(tmp_writable_variables)
-				# Create the border_variable_initialization_expression
-				border_variable_initialization_expression = f'{tabs}{border_variable_identifier} = {border_value}\n'
-				# Increment nb_new_lines
-				nb_new_lines += 1
-				# Set the border term to be used in the while statement, to be the border_variable_identifier
-				border_term_for_while_statement = border_variable_identifier
-			
-			# Else, we directly use the border value in the while statement
-			else:
-				border_variable_defined = False
-				# Create an empty border_variable_initialization_expression
-				border_variable_initialization_expression = ''
-				# Set the border term to be used in the while statement, to be the border_value
-				border_term_for_while_statement = border_value
+			if update_operator == '+':
 				
-			# __Create the while expression__
+				# __Creating the control_variable__
 
-			if delta > 0:
-				if '<' in relational_operator:
-					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term_for_while_statement}:\n'
+				# Choosing the control variable initial value
+				control_variable_initial_value = random.choice(DIGIT)
+				
+				# Create the control variable initialization expression
+				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
+				
+				# Create the corresponding entry in the while prologue critical expressions
+				while_prologue_critical_expressions.append({
+					'inti_exp': control_variable_initialization_expression,
+					'identifier': control_variable_identifier,
+				})
+
+				# __Create the update_operand__
+				
+				# Create the update_operand_value
+				update_operand_value = random.randint(a=1, b=5)
+
+				# Choose if we store the update_operand in a variable
+				if random.random() < 0.5:
+					
+					# Choose the identifier for the update operand from the writable variables except the control_variable_identifier
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					update_operand_identifier = random.choice(tmp_writable_variables)
+					
+					# Create the update operand initialization expression
+					update_operand_initialization_expression = f'{tabs}{update_operand_identifier} = {update_operand_value}\n'
+					
+					# Update the while_prologue_critical_identifiers
+					while_prologue_critical_identifiers.append(update_operand_identifier)
+					
+					# Update the while_prologue_critical_expressions
+					while_prologue_critical_expressions.append({
+						'inti_exp': update_operand_initialization_expression,
+						'identifier': update_operand_identifier,
+					})
+					
+					# Update the nb_new_lines
+					nb_new_lines += 1
+					
+					# Set the update operand term to the update operand identifier for the control variable update expression
+					update_operand_term = update_operand_identifier
+				
 				else:
-					while_expression = f'{tabs}while {border_term_for_while_statement} {relational_operator} {control_variable_identifier}:\n'
-			else:
-				if '<' in relational_operator:
-					while_expression = f'{tabs}while {border_term_for_while_statement} {relational_operator} {control_variable_identifier}:\n'
+					
+					# Set the update operand term to the update operand value
+					update_operand_term = update_operand_value
+				
+				# Create the control_variable_update_expression
+				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} + {update_operand_term}\n'
+				
+				# __Create the border__
+
+				# Choose a value for the border
+				border_value = random.randint(a=control_variable_initial_value, b=control_variable_initial_value + 20)
+				
+				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
+				if random.random() < 0.5:
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					border_identifier = random.choice(tmp_writable_variables)
+					border_initialization_expression = f'{tabs}{border_identifier} = {border_value}\n'
+					while_prologue_critical_identifiers.append(border_identifier)
+					while_prologue_critical_expressions.append({
+						'inti_exp': border_initialization_expression,
+						'identifier': border_identifier,
+					})
+					nb_new_lines += 1
+					border_term = border_identifier
 				else:
-					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term_for_while_statement}:\n'
-			
-			# Increment nb_new_lines
-			nb_new_lines += 1
+					border_term = border_value
+				
+				# Create the while_expression
+				if operator in ['<', '<=']:
+					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
+				else:
+					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
 
-			# __Create the expressions before the while loop__
-			# 11 different possible scenarios implemented considering:
-			# 1. The order of the control_variable_initialization_expression and the border_variable_initialization_expression
-			# 2. The presence of intermediate expressions between the control_variable_initialization_expression, the border_variable_initialization_expression, and the while_expression
-			
-			# Default value for the intermediate expressions
-			intermediate_expression_one = ''
-			intermediate_expression_two = ''
-			
-			# Create a list for the new_writable_variables
-			new_writable_variables = list(context_stack[-1]['writable_variables'])
-			
-			# In the first case, either there is no border_variable_defined, or we start with the control_variable_initialization_expression
-			if not border_variable_defined or random.random() < 0.5:
-				first_expression, second_expression = (control_variable_initialization_expression, border_variable_initialization_expression)
+				# __Create the while_prologue__
 				
-				# Remove the control variable from the new_writable_variables.
-				# No need to try-catch it since the control identifier was picked from the writable_variables
-				# of the current context. 
-				new_writable_variables.remove(control_variable_identifier)
+				# Shuffle the while_prologue_critical_expressions
+				random.shuffle(while_prologue_critical_expressions)
+
+				# Initialize while_prologue to empty string
+				while_prologue = ''
 				
-				# Add the control variable to the readable variables if it is not already
-				if control_variable_identifier not in context_stack[-1]['readable_variables']:
-					context_stack[-1]['readable_variables'].append(control_variable_identifier)
+				# Set the maximum number of intermediate expressions
+				nb_max_intermediate_expressions = 4
 				
-				# Choose if we create an intermediate expression between the first and the second expressions
+				# Set the new_writable_variables
+				new_writable_variables = list(context_stack[-1]['writable_variables'])
+				
+				# Iterate over the while_prologue_critical_expressions
+				for el in while_prologue_critical_expressions:
+					
+					# Append the critical expression to the while_prologue
+					while_prologue += el['inti_exp']
+					
+					# Remove the identifier from the new_writable_variables
+					new_writable_variables.remove(el['identifier'])
+					
+					# Add the identifier to the readable_variables of the current context if not already there
+					if el['identifier'] not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(el['identifier'])
+					
+					# Choose the number of intermediate expressions to put after this critical expression
+					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
+					
+					# Make sure to decrease the number of possible intermediate expressions for next time
+					nb_max_intermediate_expressions -= nb_intermediate_expressions
+
+					# Iterate over the number of intermediate expressions
+					for _ in range(nb_intermediate_expressions):
+						
+						# Choose operand 1
+						operand1 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operand 2
+						operand2 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operator
+						operator = random.choice(ARITHMETIC_OPERATORS)
+						
+						# Choose identifier from the new_writable_variables
+						identifier = random.choice(new_writable_variables)
+						
+						# Add identifier to readable_variables of current context if not already there
+						if identifier not in context_stack[-1]['readable_variables']:
+							context_stack[-1]['readable_variables'].append(identifier)
+						
+						# Create the intermediate expression
+						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+						
+						# Append it to while_prologue
+						while_prologue += intermediate_expression
+					
+				# Append the while_prologue and the while_expression to the code
+				code = code + while_prologue + while_expression
+
+				# Update the line_counter
+				line_counter += nb_new_lines
+
+				# Update the current context
+				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
+				context_stack[-1]['nb_while_loops'] += 1
+				context_stack[-1]['nb_blocks'] += 1
+				context_stack[-1]['if_state'] = False
+
+				# Stack the new context
+				context_stack.append({
+					'nb_if_blocks': 0,
+					'nb_while_loops': 0,
+					'nb_for_loops': 0,
+					'nb_blocks': 0,
+					'if_state': False,
+					'while_state': control_variable_update_expression,
+					'readable_variables': list(context_stack[-1]['readable_variables']),
+					'writable_variables': new_writable_variables,
+					'nb_lines_in_block': 0,
+					'actions_queue': deque(),
+				})
+
+			elif update_operator == '-':
+				
+				# __Creating the control_variable__
+
+				# Choosing the control variable initial value
+				control_variable_initial_value = random.choice(DIGIT)
+				
+				# Create the control variable initialization expression
+				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
+
+				# Create the corresponding entry in the while prologue critical expressions
+				while_prologue_critical_expressions.append({
+					'inti_exp': control_variable_initialization_expression,
+					'identifier': control_variable_identifier,
+				})
+
+				# __Create the update_operand__
+
+				# Create the update_operand_value
+				update_operand_value = random.randint(a=1, b=5)
+
+				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
 					
-					# Choose operand 1
-					operand1 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
+					# Choose the identifier for the update operand from the writable variables except the control_variable_identifier
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					update_operand_identifier = random.choice(tmp_writable_variables)
 					
-					# Choose operand 2
-					operand2 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
+					# Create the update operand initialization expression
+					update_operand_initialization_expression = f'{tabs}{update_operand_identifier} = {update_operand_value}\n'
 					
-					# Choose operator
-					operator = random.choice(ARITHMETIC_OPERATORS)
+					# Update the while_prologue_critical_identifiers
+					while_prologue_critical_identifiers.append(update_operand_identifier)
 					
-					# Choose identifier among the new_writable_variables
-					identifier = random.choice(new_writable_variables)
+					# Update the while_prologue_critical_expressions
+					while_prologue_critical_expressions.append({
+						'inti_exp': update_operand_initialization_expression,
+						'identifier': update_operand_identifier,
+					})
 					
-					# Add identifier to the readable variables of the current context if not already there
-					if identifier not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(identifier)
-					
-					# Create the expression
-					intermediate_expression_one = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
-					
-					# Increment nb_new_lines
+					# Update the nb_new_lines
 					nb_new_lines += 1
-
-				# If the border variable is defined
-				if border_variable_defined:
 					
-					# Remove the border_variable_identifier from the new_writable_variables
-					new_writable_variables.remove(border_variable_identifier)
-					
-					# Add it to the readable_variables of the current context if not already there
-					if border_variable_identifier not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(border_variable_identifier)
+					# Set the update operand term to the update operand identifier for the control variable update expression
+					update_operand_term = update_operand_identifier
 				
-				# Choose if we create and intermediate expression between the second expression and the while expression
-				# follows the same structure as the previous case so no need to comment it
+				else:
+					
+					# Set the update operand term to the update operand value
+					update_operand_term = update_operand_value
+
+				# Create the control_variable_update_expression
+				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} - {update_operand_term}\n'
+
+				# __Create the border__
+
+				# Choose a value for the border
+				border_value = random.randint(a=control_variable_initial_value, b=control_variable_initial_value - 20)
+
+				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
-					operand1 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
-					operand2 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
-					operator = random.choice(ARITHMETIC_OPERATORS)
-					identifier = random.choice(new_writable_variables)
-					if identifier not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(identifier)
-					intermediate_expression_two = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
-					
-					# Increment nb_new_lines
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					border_identifier = random.choice(tmp_writable_variables)
+					border_initialization_expression = f'{tabs}{border_identifier} = {border_value}\n'
+					while_prologue_critical_identifiers.append(border_identifier)
+					while_prologue_critical_expressions.append({
+						'inti_exp': border_initialization_expression,
+						'identifier': border_identifier,
+					})
 					nb_new_lines += 1
+					border_term = border_identifier
+				else:
+					border_term = border_value
 
-			# In the second case, we start with the border_variable_initialization_expression and then the control_variable_initialization_expression
-			# In this case we are sure that the border variable is defined
-			else:
-				first_expression, second_expression = (border_variable_initialization_expression, control_variable_initialization_expression)
-				
-				# Remove the border variable from the new_writable_variables
-				new_writable_variables.remove(border_variable_identifier)
+				# Create the while_expression
+				if operator in ['<', '<=']:
+					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
+				else:
+					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
 
-				# Add the border variable to the readable variables of the current context
-				if border_variable_identifier not in context_stack[-1]['readable_variables']:
-					context_stack[-1]['readable_variables'].append(border_variable_identifier)
+				# __Create the while_prologue__
 				
-				# Choose if we create an intermediate expression between the first and the second expressions
-				# Again follows the same structure as the previous cases so no need to comment it
+				# Shuffle the while_prologue_critical_expressions
+				random.shuffle(while_prologue_critical_expressions)
+
+				# Initialize while_prologue to empty string
+				while_prologue = ''
+				
+				# Set the maximum number of intermediate expressions
+				nb_max_intermediate_expressions = 4
+				
+				# Set the new_writable_variables
+				new_writable_variables = list(context_stack[-1]['writable_variables'])
+				
+				# Iterate over the while_prologue_critical_expressions
+				for el in while_prologue_critical_expressions:
+					
+					# Append the critical expression to the while_prologue
+					while_prologue += el['inti_exp']
+					
+					# Remove the identifier from the new_writable_variables
+					new_writable_variables.remove(el['identifier'])
+					
+					# Add the identifier to the readable_variables of the current context if not already there
+					if el['identifier'] not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(el['identifier'])
+					
+					# Choose the number of intermediate expressions to put after this critical expression
+					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
+					
+					# Make sure to decrease the number of possible intermediate expressions for next time
+					nb_max_intermediate_expressions -= nb_intermediate_expressions
+
+					# Iterate over the number of intermediate expressions
+					for _ in range(nb_intermediate_expressions):
+						
+						# Choose operand 1
+						operand1 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operand 2
+						operand2 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operator
+						operator = random.choice(ARITHMETIC_OPERATORS)
+						
+						# Choose identifier from the new_writable_variables
+						identifier = random.choice(new_writable_variables)
+						
+						# Add identifier to readable_variables of current context if not already there
+						if identifier not in context_stack[-1]['readable_variables']:
+							context_stack[-1]['readable_variables'].append(identifier)
+						
+						# Create the intermediate expression
+						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+						
+						# Append it to while_prologue
+						while_prologue += intermediate_expression
+					
+				# Append the while_prologue and the while_expression to the code
+				code = code + while_prologue + while_expression
+
+				# Update the line_counter
+				line_counter += nb_new_lines
+
+				# Update the current context
+				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
+				context_stack[-1]['nb_while_loops'] += 1
+				context_stack[-1]['nb_blocks'] += 1
+				context_stack[-1]['if_state'] = False
+
+				# Stack the new context
+				context_stack.append({
+					'nb_if_blocks': 0,
+					'nb_while_loops': 0,
+					'nb_for_loops': 0,
+					'nb_blocks': 0,
+					'if_state': False,
+					'while_state': control_variable_update_expression,
+					'readable_variables': list(context_stack[-1]['readable_variables']),
+					'writable_variables': new_writable_variables,
+					'nb_lines_in_block': 0,
+					'actions_queue': deque(),
+				})
+			
+			elif update_operator == '/':
+				
+				# __Creating the control_variable__
+
+				# Choosing the control variable initial value
+				control_variable_initial_value = random.choice(DIGIT)
+				
+				# Create the control variable initialization expression
+				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
+				
+				# Create the corresponding entry in the while prologue critical expressions
+				while_prologue_critical_expressions.append({
+					'inti_exp': control_variable_initialization_expression,
+					'identifier': control_variable_identifier,
+				})
+
+				# __Create the update_operand__
+				
+				# Create the possible values
+				max_operand_value = 20
+				min_operand_value = 2
+				possible_values = [i for i in range(min_operand_value, max_operand_value+1)]
+				
+				# Create the weights for random choice
+				# giving 5 times more weight to 10
+				weights = [1 if i!= 10 else 5 for i in range(max_operand_value-min_operand_value+1)]
+				
+				# Choosing the update operand value
+				update_operand_value = random.choices(population=possible_values, weights=weights, k=1)[0]
+
+				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
-					operand1 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
-					operand2 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
-					operator = random.choice(ARITHMETIC_OPERATORS)
-					identifier = random.choice(new_writable_variables)
-					if identifier not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(identifier)
-					intermediate_expression_one = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
 					
-					# Increment nb_new_lines
+					# Choose the identifier for the update operand from the writable variables except the control_variable_identifier
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					update_operand_identifier = random.choice(tmp_writable_variables)
+					
+					# Create the update operand initialization expression
+					update_operand_initialization_expression = f'{tabs}{update_operand_identifier} = {update_operand_value}\n'
+					
+					# Update the while_prologue_critical_identifiers
+					while_prologue_critical_identifiers.append(update_operand_identifier)
+					
+					# Update the while_prologue_critical_expressions
+					while_prologue_critical_expressions.append({
+						'inti_exp': update_operand_initialization_expression,
+						'identifier': update_operand_identifier,
+					})
+					
+					# Update the nb_new_lines
 					nb_new_lines += 1
+					
+					# Set the update operand term to the update operand identifier for the control variable update expression
+					update_operand_term = update_operand_identifier
 				
-				# Remove the control_variable_identifier from the new_writable_variables
-				new_writable_variables.remove(control_variable_identifier)
+				else:
+					
+					# Set the update operand term to the update operand value
+					update_operand_term = update_operand_value
 				
-				# Add the control_variable_identifier to the readable variables of the current context
-				if control_variable_identifier not in context_stack[-1]['readable_variables']:
-					context_stack[-1]['readable_variables'].append(control_variable_identifier)
+				# Create the control_variable_update_expression
+				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} / {update_operand_term}\n'
 				
-				# Choose if we create and intermediate expression between the second expression and the while expression
-				# Again follows the same structure as the previous cases so no need to comment it
+				# __Create the border__
+
+				# Choose a value for the border
+				border_value = random.randint(a=1, b=control_variable_initial_value)
+				
+				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
-					operand1 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
-					operand2 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
-					operator = random.choice(ARITHMETIC_OPERATORS)
-					identifier = random.choice(new_writable_variables)
-					if identifier not in context_stack[-1]['readable_variables']:
-						context_stack[-1]['readable_variables'].append(identifier)
-					intermediate_expression_two = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'		
-					
-					# Increment nb_new_lines
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					border_identifier = random.choice(tmp_writable_variables)
+					border_initialization_expression = f'{tabs}{border_identifier} = {border_value}\n'
+					while_prologue_critical_identifiers.append(border_identifier)
+					while_prologue_critical_expressions.append({
+						'inti_exp': border_initialization_expression,
+						'identifier': border_identifier,
+					})
 					nb_new_lines += 1
+					border_term = border_identifier
+				else:
+					border_term = border_value
+				
+				# Create the while_expression
+				if operator in ['<', '<=']:
+					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
+				else:
+					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
 
-			# __Updating the context_stack__
+				# __Create the while_prologue__
+				
+				# Shuffle the while_prologue_critical_expressions
+				random.shuffle(while_prologue_critical_expressions)
 
-			# Update the current context
-			context_stack[-1]['nb_lines_in_block'] += nb_new_lines
-			context_stack[-1]['nb_while_loops'] += 1
-			context_stack[-1]['nb_blocks'] += 1
-			context_stack[-1]['if_state'] = False
+				# Initialize while_prologue to empty string
+				while_prologue = ''
+				
+				# Set the maximum number of intermediate expressions
+				nb_max_intermediate_expressions = 4
+				
+				# Set the new_writable_variables
+				new_writable_variables = list(context_stack[-1]['writable_variables'])
+				
+				# Iterate over the while_prologue_critical_expressions
+				for el in while_prologue_critical_expressions:
+					
+					# Append the critical expression to the while_prologue
+					while_prologue += el['inti_exp']
+					
+					# Remove the identifier from the new_writable_variables
+					new_writable_variables.remove(el['identifier'])
+					
+					# Add the identifier to the readable_variables of the current context if not already there
+					if el['identifier'] not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(el['identifier'])
+					
+					# Choose the number of intermediate expressions to put after this critical expression
+					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
+					
+					# Make sure to decrease the number of possible intermediate expressions for next time
+					nb_max_intermediate_expressions -= nb_intermediate_expressions
 
-			# Stack the new context
-			context_stack.append({
-				'nb_if_blocks': 0,
-				'nb_while_loops': 0,
-				'nb_for_loops': 0,
-				'nb_blocks': 0,
-				'if_state': False,
-				'while_state': update_expression,
-				'readable_variables': list(context_stack[-1]['readable_variables']),
-				'writable_variables': new_writable_variables,
-				'nb_lines_in_block': 0,
-				'actions_queue': deque(),
-			})
+					# Iterate over the number of intermediate expressions
+					for _ in range(nb_intermediate_expressions):
+						
+						# Choose operand 1
+						operand1 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operand 2
+						operand2 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operator
+						operator = random.choice(ARITHMETIC_OPERATORS)
+						
+						# Choose identifier from the new_writable_variables
+						identifier = random.choice(new_writable_variables)
+						
+						# Add identifier to readable_variables of current context if not already there
+						if identifier not in context_stack[-1]['readable_variables']:
+							context_stack[-1]['readable_variables'].append(identifier)
+						
+						# Create the intermediate expression
+						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+						
+						# Append it to while_prologue
+						while_prologue += intermediate_expression
+					
+				# Append the while_prologue and the while_expression to the code
+				code = code + while_prologue + while_expression
 
-			# Append the code
-			code = code + f'{first_expression}{intermediate_expression_one}{second_expression}{intermediate_expression_two}{while_expression}'
+				# Update the line_counter
+				line_counter += nb_new_lines
 
-			# Updating the line_counter
-			line_counter += nb_new_lines
+				# Update the current context
+				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
+				context_stack[-1]['nb_while_loops'] += 1
+				context_stack[-1]['nb_blocks'] += 1
+				context_stack[-1]['if_state'] = False
 
+				# Stack the new context
+				context_stack.append({
+					'nb_if_blocks': 0,
+					'nb_while_loops': 0,
+					'nb_for_loops': 0,
+					'nb_blocks': 0,
+					'if_state': False,
+					'while_state': control_variable_update_expression,
+					'readable_variables': list(context_stack[-1]['readable_variables']),
+					'writable_variables': new_writable_variables,
+					'nb_lines_in_block': 0,
+					'actions_queue': deque(),
+				})
+
+			elif update_operator == '//':
+
+				# __Creating the control_variable__
+
+				# Choosing the control variable initial value
+				control_variable_initial_value = random.choice(DIGIT)
+				
+				# Create the control variable initialization expression
+				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
+				
+				# Create the corresponding entry in the while prologue critical expressions
+				while_prologue_critical_expressions.append({
+					'inti_exp': control_variable_initialization_expression,
+					'identifier': control_variable_identifier,
+				})
+
+				# __Create the update_operand__
+				
+				# Create the possible values
+				max_operand_value = 20
+				min_operand_value = 2
+				possible_values = [i for i in range(min_operand_value, max_operand_value+1)]
+				
+				# Create the weights for random choice
+				# giving 5 times more weight to 10
+				weights = [1 if i!= 10 else 5 for i in range(max_operand_value-min_operand_value+1)]
+				
+				# Choosing the update operand value
+				update_operand_value = random.choices(population=possible_values, weights=weights, k=1)[0]
+
+				# Choose if we store the update_operand in a variable
+				if random.random() < 0.5:
+					
+					# Choose the identifier for the update operand from the writable variables except the control_variable_identifier
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					update_operand_identifier = random.choice(tmp_writable_variables)
+					
+					# Create the update operand initialization expression
+					update_operand_initialization_expression = f'{tabs}{update_operand_identifier} = {update_operand_value}\n'
+					
+					# Update the while_prologue_critical_identifiers
+					while_prologue_critical_identifiers.append(update_operand_identifier)
+					
+					# Update the while_prologue_critical_expressions
+					while_prologue_critical_expressions.append({
+						'inti_exp': update_operand_initialization_expression,
+						'identifier': update_operand_identifier,
+					})
+					
+					# Update the nb_new_lines
+					nb_new_lines += 1
+					
+					# Set the update operand term to the update operand identifier for the control variable update expression
+					update_operand_term = update_operand_identifier
+				
+				else:
+					
+					# Set the update operand term to the update operand value
+					update_operand_term = update_operand_value
+				
+				# Create the control_variable_update_expression
+				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} // {update_operand_term}\n'
+				
+				# __Create the border__
+
+				# Choose a value for the border
+				border_value = random.randint(a=0, b=control_variable_initial_value)
+
+				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
+				if random.random() < 0.5:
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					border_identifier = random.choice(tmp_writable_variables)
+					border_initialization_expression = f'{tabs}{border_identifier} = {border_value}\n'
+					while_prologue_critical_identifiers.append(border_identifier)
+					while_prologue_critical_expressions.append({
+						'inti_exp': border_initialization_expression,
+						'identifier': border_identifier,
+					})
+					nb_new_lines += 1
+					border_term = border_identifier
+				else:
+					border_term = border_value
+				
+				# Create the while_expression
+				if operator in ['<', '<=']:
+					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
+				else:
+					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
+
+				# __Create the while_prologue__
+				
+				# Shuffle the while_prologue_critical_expressions
+				random.shuffle(while_prologue_critical_expressions)
+
+				# Initialize while_prologue to empty string
+				while_prologue = ''
+				
+				# Set the maximum number of intermediate expressions
+				nb_max_intermediate_expressions = 4
+				
+				# Set the new_writable_variables
+				new_writable_variables = list(context_stack[-1]['writable_variables'])
+				
+				# Iterate over the while_prologue_critical_expressions
+				for el in while_prologue_critical_expressions:
+					
+					# Append the critical expression to the while_prologue
+					while_prologue += el['inti_exp']
+					
+					# Remove the identifier from the new_writable_variables
+					new_writable_variables.remove(el['identifier'])
+					
+					# Add the identifier to the readable_variables of the current context if not already there
+					if el['identifier'] not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(el['identifier'])
+					
+					# Choose the number of intermediate expressions to put after this critical expression
+					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
+					
+					# Make sure to decrease the number of possible intermediate expressions for next time
+					nb_max_intermediate_expressions -= nb_intermediate_expressions
+
+					# Iterate over the number of intermediate expressions
+					for _ in range(nb_intermediate_expressions):
+						
+						# Choose operand 1
+						operand1 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operand 2
+						operand2 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operator
+						operator = random.choice(ARITHMETIC_OPERATORS)
+						
+						# Choose identifier from the new_writable_variables
+						identifier = random.choice(new_writable_variables)
+						
+						# Add identifier to readable_variables of current context if not already there
+						if identifier not in context_stack[-1]['readable_variables']:
+							context_stack[-1]['readable_variables'].append(identifier)
+						
+						# Create the intermediate expression
+						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+						
+						# Append it to while_prologue
+						while_prologue += intermediate_expression
+					
+				# Append the while_prologue and the while_expression to the code
+				code = code + while_prologue + while_expression
+
+				# Update the line_counter
+				line_counter += nb_new_lines
+
+				# Update the current context
+				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
+				context_stack[-1]['nb_while_loops'] += 1
+				context_stack[-1]['nb_blocks'] += 1
+				context_stack[-1]['if_state'] = False
+
+				# Stack the new context
+				context_stack.append({
+					'nb_if_blocks': 0,
+					'nb_while_loops': 0,
+					'nb_for_loops': 0,
+					'nb_blocks': 0,
+					'if_state': False,
+					'while_state': control_variable_update_expression,
+					'readable_variables': list(context_stack[-1]['readable_variables']),
+					'writable_variables': new_writable_variables,
+					'nb_lines_in_block': 0,
+					'actions_queue': deque(),
+				})
+
+			elif update_operator == '*':
+								
+				# __Creating the control_variable__
+
+				# Choosing the control variable initial value
+				control_variable_initial_value = random.choice(DIGIT)
+				
+				# Create the control variable initialization expression
+				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
+				
+				# Create the corresponding entry in the while prologue critical expressions
+				while_prologue_critical_expressions.append({
+					'inti_exp': control_variable_initialization_expression,
+					'identifier': control_variable_identifier,
+				})
+
+				# __Create the update_operand__
+				
+				# Create the possible values
+				max_operand_value = 20
+				min_operand_value = 2
+				possible_values = [i for i in range(min_operand_value, max_operand_value+1)]
+				
+				# Create the weights for random choice
+				# giving 5 times more weight to 10
+				weights = [1 if i!= 10 else 5 for i in range(max_operand_value-min_operand_value+1)]
+				
+				# Choosing the update operand value
+				update_operand_value = random.choices(population=possible_values, weights=weights, k=1)[0]
+
+				# Choose if we store the update_operand in a variable
+				if random.random() < 0.5:
+					
+					# Choose the identifier for the update operand from the writable variables except the control_variable_identifier
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					update_operand_identifier = random.choice(tmp_writable_variables)
+					
+					# Create the update operand initialization expression
+					update_operand_initialization_expression = f'{tabs}{update_operand_identifier} = {update_operand_value}\n'
+					
+					# Update the while_prologue_critical_identifiers
+					while_prologue_critical_identifiers.append(update_operand_identifier)
+					
+					# Update the while_prologue_critical_expressions
+					while_prologue_critical_expressions.append({
+						'inti_exp': update_operand_initialization_expression,
+						'identifier': update_operand_identifier,
+					})
+					
+					# Update the nb_new_lines
+					nb_new_lines += 1
+					
+					# Set the update operand term to the update operand identifier for the control variable update expression
+					update_operand_term = update_operand_identifier
+				
+				else:
+					
+					# Set the update operand term to the update operand value
+					update_operand_term = update_operand_value
+				
+				# Create the control_variable_update_expression
+				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} * {update_operand_term}\n'
+				
+				# __Create the border__
+
+				# Choose a value for the border
+				border_value = random.randint(a=control_variable_initial_value, b=control_variable_initial_value * 20)
+				
+				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
+				if random.random() < 0.5:
+					tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var not in while_prologue_critical_identifiers]
+					border_identifier = random.choice(tmp_writable_variables)
+					border_initialization_expression = f'{tabs}{border_identifier} = {border_value}\n'
+					while_prologue_critical_identifiers.append(border_identifier)
+					while_prologue_critical_expressions.append({
+						'inti_exp': border_initialization_expression,
+						'identifier': border_identifier,
+					})
+					nb_new_lines += 1
+					border_term = border_identifier
+				else:
+					border_term = border_value
+				
+				# Create the while_expression
+				if operator in ['<', '<=']:
+					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
+				else:
+					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
+				
+				# __Create the while_prologue__
+				
+				# Shuffle the while_prologue_critical_expressions
+				random.shuffle(while_prologue_critical_expressions)
+
+				# Initialize while_prologue to empty string
+				while_prologue = ''
+				
+				# Set the maximum number of intermediate expressions
+				nb_max_intermediate_expressions = 4
+				
+				# Set the new_writable_variables
+				new_writable_variables = list(context_stack[-1]['writable_variables'])
+				
+				# Iterate over the while_prologue_critical_expressions
+				for el in while_prologue_critical_expressions:
+					
+					# Append the critical expression to the while_prologue
+					while_prologue += el['inti_exp']
+					
+					# Remove the identifier from the new_writable_variables
+					new_writable_variables.remove(el['identifier'])
+					
+					# Add the identifier to the readable_variables of the current context if not already there
+					if el['identifier'] not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(el['identifier'])
+					
+					# Choose the number of intermediate expressions to put after this critical expression
+					nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
+					
+					# Make sure to decrease the number of possible intermediate expressions for next time
+					nb_max_intermediate_expressions -= nb_intermediate_expressions
+
+					# Iterate over the number of intermediate expressions
+					for _ in range(nb_intermediate_expressions):
+						
+						# Choose operand 1
+						operand1 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operand 2
+						operand2 = random.choice((
+							random.choice(context_stack[-1]['readable_variables']),
+							random.choice(DIGIT)
+							))
+						
+						# Choose operator
+						operator = random.choice(ARITHMETIC_OPERATORS)
+						
+						# Choose identifier from the new_writable_variables
+						identifier = random.choice(new_writable_variables)
+						
+						# Add identifier to readable_variables of current context if not already there
+						if identifier not in context_stack[-1]['readable_variables']:
+							context_stack[-1]['readable_variables'].append(identifier)
+						
+						# Create the intermediate expression
+						intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+						
+						# Append it to while_prologue
+						while_prologue += intermediate_expression
+					
+				# Append the while_prologue and the while_expression to the code
+				code = code + while_prologue + while_expression
+
+				# Update the line_counter
+				line_counter += nb_new_lines
+
+				# Update the current context
+				context_stack[-1]['nb_lines_in_block'] += nb_new_lines
+				context_stack[-1]['nb_while_loops'] += 1
+				context_stack[-1]['nb_blocks'] += 1
+				context_stack[-1]['if_state'] = False
+
+				# Stack the new context
+				context_stack.append({
+					'nb_if_blocks': 0,
+					'nb_while_loops': 0,
+					'nb_for_loops': 0,
+					'nb_blocks': 0,
+					'if_state': False,
+					'while_state': control_variable_update_expression,
+					'readable_variables': list(context_stack[-1]['readable_variables']),
+					'writable_variables': new_writable_variables,
+					'nb_lines_in_block': 0,
+					'actions_queue': deque(),
+				})
+		
 		case 'WHILE_UPDATE':
 
 			# Retrieve the while_update_expression
