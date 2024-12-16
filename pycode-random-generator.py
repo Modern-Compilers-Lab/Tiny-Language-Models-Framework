@@ -3,7 +3,7 @@ import 	pickle
 import 	argparse
 import 	datetime
 import 	hashlib
-import math
+import 	math
 from 	io 			import StringIO
 from 	contextlib 	import redirect_stdout
 from 	pathlib 	import Path
@@ -18,6 +18,11 @@ MAX_SUB_BLOCKS 				= 2
 MIN_LENGTH 					= 5
 MAX_LENGTH 					= 20
 UNINDENTATION_SPEED 		= 0.5	# if <= 0, will never unindent after the first indentation encountered
+PRINT_NB_DECIMALS 			= 2
+
+# READ AND WRITE SECURITIES
+READ_SECURITY 				= True
+WRITE_SECURITY 				= True
 
 # WHILE LOOP PARAMETERS
 
@@ -66,9 +71,10 @@ WHILE_LOOP_MUL_UO_NB_ITERS									= [i for i in range(1, 5+1)]
 WHILE_LOOP_MUL_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # GLOBAL OPERATIONAL VARIABLES
-context_stack 		= list()
-line_counter 		= 1
-code 				= ''
+context_stack				= list()
+all_assigned_variables	 	= list()
+line_counter 				= 1
+code 						= ''
 
 VARIABLES				= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ]
 DIGIT 					= [i for i in range(256)]
@@ -77,10 +83,10 @@ RELATIONAL_OPERATORS 	= ["<", ">", "<=", ">=", "!=", "=="]
 
 pattern_vocabulary = [
 	"INITIALIZATION",
-    "SIMPLE_ASSIGNMENT",
-    # "ADVANCED_ASSIGNMENT",
-    "SIMPLE_IF_STATEMENT",
-    "SIMPLE_ELIF_STATEMENT",
+	"SIMPLE_ASSIGNMENT",
+	# "ADVANCED_ASSIGNMENT",
+	"SIMPLE_IF_STATEMENT",
+	"SIMPLE_ELIF_STATEMENT",
     "ELSE_STATEMENT",
 	'WHILE_LOOP',
     # "FOR_LOOP",
@@ -100,9 +106,9 @@ conditional_statements = [
 
 indentation_statements = [
 	'WHILE_LOOP',
-    # "FOR_LOOP",
+	# "FOR_LOOP",
 	"SIMPLE_IF_STATEMENT",
-    "SIMPLE_ELIF_STATEMENT",
+	"SIMPLE_ELIF_STATEMENT",
 	"ELSE_STATEMENT"
 ]
 
@@ -116,6 +122,15 @@ variable_creation_statements = [
     # "FOR_LOOP",
 ]
 
+# CUSTOM_PRINT
+import builtins
+original_print = builtins.print
+
+def custom_print(*args, **kwargs):
+	formatted_args = [f"{x:.{PRINT_NB_DECIMALS}f}" if isinstance(x, float) else x for x in args]
+	original_print(*formatted_args, **kwargs)
+
+builtins.print = custom_print
 
 # __FUNCTION__: EXECUTE_GEN_ACTION
 def execute_gen_action(gen_action:str):
@@ -136,6 +151,7 @@ def execute_gen_action(gen_action:str):
 		case 'INITIALIZATION':
 			
 			# Choose the identifier
+
 			identifier = random.choice(context_stack[-1]['writable_variables'])
 			
 			# Update the current context
@@ -152,35 +168,44 @@ def execute_gen_action(gen_action:str):
 			line_counter += 1
 
 		case 'SIMPLE_ASSIGNMENT':
-			# __Generate the expression elements__
-
-			# Choose the 'assigend to' identifier
-			identifier = random.choice(context_stack[-1]['writable_variables'])
 			
-			# Choose the first operand
-			operand1 = random.choice((
-				random.choice(context_stack[-1]['readable_variables']),
-				random.choice(DIGIT)
-				))
-			
-			# Choose the second operand
-			operand2 = random.choice((
-				random.choice(context_stack[-1]['readable_variables']),
-				random.choice(DIGIT)
-				))
+			# Select the readable_variables to choose from
+			readable_variables = context_stack[-1]['readable_variables']
+			if not READ_SECURITY:
+				readable_variables = all_assigned_variables
 
-			# Choose the operator
+			# Select the writable variables to choose from
+			writable_variables = context_stack[-1]['writable_variables']
+			if not WRITE_SECURITY:
+				writable_variables = all_assigned_variables
+
+			# Operand 1
+			operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+
+			# Operand 2
+			operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+
+			# Operator
 			operator = random.choice(ARITHMETIC_OPERATORS)
+
+			# Identifier
+			identifier = random.choice(writable_variables)
+
+			# Add the identifier to the readable_variables of current context if not already present
+			if identifier not in context_stack[-1]['readable_variables']:
+				context_stack[-1]['readable_variables'].append(identifier)
+			
+			# Add the identifier to the all_assigned_variables if not already present
+			if identifier not in all_assigned_variables:
+				all_assigned_variables.append(identifier)
+			
+			# Append the code
+			tabs = '	' * (len(context_stack)-1)
+			code = code + f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
 
 			# Update the current context
 			context_stack[-1]['if_state'] = False
 			context_stack[-1]['nb_lines_in_block'] += 1
-			if identifier not in context_stack[-1]['readable_variables']:
-				context_stack[-1]['readable_variables'].append(identifier) 
-
-			# Append the code
-			tabs = '	' * (len(context_stack)-1)
-			code = code + f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
 
 			# Update the line_counter
 			line_counter += 1
@@ -307,7 +332,7 @@ def execute_gen_action(gen_action:str):
 			# Initializing nb_new_lines to 2 since there is always the control_variable_initialization_expression and the while_expression
 			nb_new_lines = 2
 			
-			# Create the reauired number of tabs for the current context
+			# Create the required number of tabs for the current context
 			tabs = '	' * (len(context_stack)-1)
 			while_prologue_critical_expressions = []
 			while_prologue_critical_identifiers = [control_variable_identifier]
@@ -834,27 +859,35 @@ def execute_gen_action(gen_action:str):
 				for _ in range(nb_intermediate_expressions):
 					nb_new_lines += 1
 					
+					# Get the readable variables to choose from
+					readable_variables = context_stack[-1]['readable_variables']
+					if not READ_SECURITY:
+						readable_variables = all_assigned_variables
+					
+					# Get the writable_variables to choose from
+					writable_variables = new_writable_variables
+					if not WRITE_SECURITY:
+						writable_variables = all_assigned_variables
+
 					# Choose operand 1
-					operand1 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
+					operand1 = random.choice((readable_variables, random.choice(DIGIT)))
 					
 					# Choose operand 2
-					operand2 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
+					operand2 = random.choice((readable_variables, random.choice(DIGIT)))
 					
 					# Choose operator
 					operator = random.choice(ARITHMETIC_OPERATORS)
 					
 					# Choose identifier from the new_writable_variables
-					identifier = random.choice(new_writable_variables)
+					identifier = random.choice(writable_variables)
 					
 					# Add identifier to readable_variables of current context if not already there
 					if identifier not in context_stack[-1]['readable_variables']:
 						context_stack[-1]['readable_variables'].append(identifier)
+					
+					# Add identifier to all assigned variables if not already there
+					if identifier not in all_assigned_variables:
+						all_assigned_variables.append(identifier)
 					
 					# Create the intermediate expression
 					intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
@@ -889,6 +922,9 @@ def execute_gen_action(gen_action:str):
 			})
 		
 		case 'WHILE_UPDATE':
+			
+			# Initialize the nb_new_lines to 1 since there is always the while_update_expression
+			nb_new_lines = 1
 
 			# Calculate the number of tabs
 			tabs = '	' * (len(context_stack)-1)
@@ -903,6 +939,9 @@ def execute_gen_action(gen_action:str):
 
 			# Choose if we update the control variable through an intermediate variable
 			if random.random() < 0.5:
+				
+				# Increment nb_new_lines
+				nb_new_lines += 1
 
 				# Choose the identifier for the intermediate variable
 				intermediate_control_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
@@ -921,33 +960,56 @@ def execute_gen_action(gen_action:str):
 				while_control_variable_identifier = default_while_update_expression.split('=')[0].strip()
 				new_while_update_expression = f'{tabs}{while_control_variable_identifier} = {intermediate_control_variable_identifier}\n'
 				
-				# Add the new_while_update_expression to the while_update_code
-				while_update_code += new_while_update_expression
+				# Add the while_control_variable_identifier to the tmp_writable_variables since its end value is stored in the intermediate_control_variable_identifier
+				tmp_writable_variables.append(while_control_variable_identifier)
 				
-				# Choose a number of intermediate expressions and loop over it
-				nb_intermediate_expression = random.randint(a=1, b=NB_MAX_WHILE_LOOP_UPDATE_INTERMEDIATE_EXPRESSIONS)
-				for _ in range(nb_intermediate_expression):
+				# Choose a number of intermediate expressions
+				nb_intermediate_expressions = random.randint(a=1, b=NB_MAX_WHILE_LOOP_UPDATE_INTERMEDIATE_EXPRESSIONS)
+				
+				# Increment nb_new_lines with nb_intermediate_expressions
+				nb_new_lines += nb_intermediate_expressions
+
+				# Iterate over the number of intermediate expressions
+				for _ in range(nb_intermediate_expressions):
+					
+					# Select the readable variables to choose from
+					readable_variables = context_stack[-1]['readable_variables']
+					if not READ_SECURITY:
+						readable_variables = all_assigned_variables
+					
+					# Select the writable variables to choose from
+					writable_variables = tmp_writable_variables
+					if not WRITE_SECURITY:
+						writable_variables = all_assigned_variables
+					
 					# Choose operand 1
-					operand1 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
+					operand1 = random.choice((readable_variables, random.choice(DIGIT)))
+					
 					# Choose operand 2
-					operand2 = random.choice((
-						random.choice(context_stack[-1]['readable_variables']),
-						random.choice(DIGIT)
-						))
+					operand2 = random.choice((readable_variables, random.choice(DIGIT)))
+					
 					# Choose operator
 					operator = random.choice(ARITHMETIC_OPERATORS)
+					
 					# Choose identifier from the tmp_writable_variables
-					identifier = random.choice(tmp_writable_variables)
+					identifier = random.choice(writable_variables)
+					
 					# Add the identifier to the readable_variables of the current context if not already there
 					if identifier not in context_stack[-1]['readable_variables']:
 						context_stack[-1]['readable_variables'].append(identifier)
+					
+					# Add the identifier to all assigned variables if not already there
+					if identifier not in all_assigned_variables:
+						all_assigned_variables.append(identifier)
+
 					# Create the intermediate expression
 					intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+					
 					# Add it the the while_update_code
 					while_update_code = while_update_code + intermediate_expression
+				
+				# Add the new_while_update_expression to the while_update_code
+				while_update_code += new_while_update_expression
 			
 			# Else we just use the default_while_update_expression
 			else:
@@ -956,13 +1018,13 @@ def execute_gen_action(gen_action:str):
 			# Update the current context
 			context_stack[-1]['if_state'] = False
 			context_stack[-1]['while_state'] = None
-			context_stack[-1]['nb_lines_in_block'] += 1
+			context_stack[-1]['nb_lines_in_block'] += nb_new_lines
 
 			# Append the code
 			code = code + while_update_code
 
 			# Updating the line_counter
-			line_counter += 1
+			line_counter += nb_new_lines
 
 		case 'FOR_LOOP':
 			control_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
@@ -1010,14 +1072,18 @@ def execute_gen_action(gen_action:str):
 			line_counter += 1
 		
 		case 'DISPLAY':
-			
-			# Update the current context
-			context_stack[-1]['nb_lines_in_block'] += 1
-			context_stack[-1]['if_state'] = False
+			# Select the readable_variables to choose from
+			readable_variables = context_stack[-1]['readable_variables']
+			if not READ_SECURITY:
+				readable_variables = all_assigned_variables
 			
 			# Append the code
 			tabs = '	' * (len(context_stack)-1)
-			code = code + f'{tabs}print({random.choice(context_stack[-1]["readable_variables"])})\n'
+			code = code + f'{tabs}print({random.choice(readable_variables)})\n'
+
+			# Update the current context
+			context_stack[-1]['nb_lines_in_block'] += 1
+			context_stack[-1]['if_state'] = False
 
 			# Updating the line_counter
 			line_counter += 1
@@ -1163,6 +1229,7 @@ class VariableValueOverflowError(Exception):
 	def __init__(self, message):
 		super().__init__(message)
 
+import traceback
 
 # If the script is run as a standalone script
 if __name__ == "__main__":
@@ -1170,7 +1237,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state"			, default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs"				, default = 10000, help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs"				, default = 100000, help = "Number of programs to be generated")
 	parser.add_argument("--output_file"				, default = "./prg_testing/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout"					, default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file"				, default = "./log.txt", help = "The path to the logging file for monitoring progress")
@@ -1221,12 +1288,15 @@ def line_tracer(frame, event, arg):
 	if event == "exception" :
 		raise arg[0]
 	for var_value in frame.f_locals.values():
-		# print(type(var_value))
+		# if not(isinstance(var_value, (int, float))): continue
 		if var_value > {max_var_value} or var_value < -{max_var_value}:
 			raise VariableValueOverflowError("Variable Value Overflow")
 	return line_tracer
 
 def global_tracer(frame, event, arg):
+	func_name = frame.f_code.co_name
+	if func_name != 'func':
+		return None
 	return line_tracer
 
 settrace(global_tracer)
@@ -1259,6 +1329,7 @@ finally:
 		
 		# Generating the code
 		code = generate_random_code()
+		# code = 'a = 1.1234\nprint(a)'
 		code = code.strip('\n')
 
 		# In case of deduplicate
@@ -1285,7 +1356,6 @@ finally:
 		# Trying the execute the generated code
 		sio = StringIO()
 		try:
-			no_problem = 1
 			with redirect_stdout(sio):
 				# We execute the code in a controlled environment
 				exec(exec_env, {
@@ -1312,7 +1382,7 @@ finally:
 		except (Exception, KeyboardInterrupt) as e:
 			print(f'Code Snippet Execution Error at {nb_generated_programs}:', e)
 			with open('error_code.txt', 'w') as f:
-				f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
+				f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+exec_env)
 			break
 
 		if use_tqdm:
