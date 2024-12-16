@@ -3,6 +3,7 @@ import 	pickle
 import 	argparse
 import 	datetime
 import 	hashlib
+import math
 from 	io 			import StringIO
 from 	contextlib 	import redirect_stdout
 from 	pathlib 	import Path
@@ -21,37 +22,48 @@ UNINDENTATION_SPEED 		= 0.5	# if <= 0, will never unindent after the first inden
 # WHILE LOOP PARAMETERS
 
 # WHILE_LOOP GENERAL PARAMETERS
-WHILE_LOOP_UPDATE_OPERATORS 	= ['+', '-', '//']
+WHILE_LOOP_UPDATE_OPERATORS 	= ['+', '-', '//', '/', '*']
 WHILE_LOOP_RELATIONAL_OPERATORS = ['>', '<', '>=', '<=']
-NB_MAX_INTERMEDIATE_EXPRESSIONS = 4
+NB_MAX_WHILE_LOOP_PROLOGUE_INTERMEDIATE_EXPRESSIONS = 4
+NB_MAX_WHILE_LOOP_UPDATE_INTERMEDIATE_EXPRESSIONS = 2
 
 # WHILE LOOP PARAMETERS FOR ADD UPDATE OPERATOR
-WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_ADD_UPDATE_OPERATOR 		= [i for i in range(255+1)]
-WHILE_LOOP_UPDATE_OPERAND_FOR_ADD_UPDATE_OPERATOR 						= [i for i in range(1, 5+1)]
-WHILE_LOOP_NB_ITERS_FOR_ADD_UPDATE_OPERATOR								= [i for i in range(1, 20+1)]
+WHILE_LOOP_ADD_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(255+1)]
+WHILE_LOOP_ADD_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(255+1)]
+WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(1, 5+1)]
+WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 for i in range(1, 5+1)]
+WHILE_LOOP_ADD_UO_NB_ITERS									= [i for i in range(1, 20+1)]
 
 # WHILE LOOP PARAMETERS FOR SUB UPDATE OPERATOR
-WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_SUB_UPDATE_OPERATOR 		= [i for i in range(255+1)]
-WHILE_LOOP_UPDATE_OPERAND_FOR_SUB_UPDATE_OPERATOR 						= [i for i in range(1, 5+1)]
-WHILE_LOOP_NB_ITERS_FOR_SUB_UPDATE_OPERATOR								= [i for i in range(1, 20+1)]
+WHILE_LOOP_SUB_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(255+1)]
+WHILE_LOOP_SUB_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(255+1)]
+WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(1, 5+1)]
+WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 for i in range(1, 5+1)]
+WHILE_LOOP_SUB_UO_NB_ITERS									= [i for i in range(1, 20+1)]
 
 # WHILE LOOP PARAMETERS FOR DIV UPDATE OPERATOR
-WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_DIV_UPDATE_OPERATOR 		= [i for i in range(255+1)]
-WHILE_LOOP_UPDATE_OPERAND_FOR_DIV_UPDATE_OPERATOR 						= [i for i in range(2, 20+1)]
-WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_DIV_UPDATE_OPERATOR 				= [1 if i!= 10 else 5 for i in range(2, 20+1)]
-WHILE_LOOP_NB_ITERS_FOR_DIV_UPDATE_OPERATOR								= [i for i in range(1, 20+1)]
+WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
+WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(1, 255+1)]
+WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 20+1)]
+WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
+WHILE_LOOP_DIV_UO_NB_ITERS									= [i for i in range(1, 10+1)]
+WHILE_LOOP_DIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # WHILE LOOP PARAMETER FOR FLOORDIV UPDATE OPERATOR
-WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_FLOORDIV_UPDATE_OPERATOR = [i for i in range(255+1)]
-WHILE_LOOP_UPDATE_OPERAND_FOR_FLOORDIV_UPDATE_OPERATOR 					= [i for i in range(2, 20+1)]
-WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_FLOORDIV_UPDATE_OPERATOR 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
-WHILE_LOOP_NB_ITERS_FOR_FLOORDIV_UPDATE_OPERATOR						= [i for i in range(1, 20+1)]
+WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
+WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(1, 255+1)]
+WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 20+1)]
+WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
+WHILE_LOOP_FDIV_UO_NB_ITERS									= [i for i in range(1, 20+1)]
+WHILE_LOOP_FDIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # WHILE LOOP PARAMETERS FOR MUL UPDATE OPERATOR
-WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_MUL_UPDATE_OPERATOR 		= [i for i in range(255+1)]
-WHILE_LOOP_UPDATE_OPERAND_FOR_MUL_UPDATE_OPERATOR 						= [i for i in range(1, 10+1)]
-WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_MUL_UPDATE_OPERATOR				= [1 if i!= 10 else 5 for i in range(1, 10+1)]
-WHILE_LOOP_NB_ITERS_FOR_MUL_UPDATE_OPERATOR								= [i for i in range(1, 5+1)]
+WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
+WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS	= [1 for i in range(1, 255+1)]
+WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 10+1)]
+WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES_WEIGHTS				= [1 if i!= 10 else 5 for i in range(2, 10+1)]
+WHILE_LOOP_MUL_UO_NB_ITERS									= [i for i in range(1, 5+1)]
+WHILE_LOOP_MUL_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # GLOBAL OPERATIONAL VARIABLES
 context_stack 		= list()
@@ -300,12 +312,17 @@ def execute_gen_action(gen_action:str):
 			while_prologue_critical_expressions = []
 			while_prologue_critical_identifiers = [control_variable_identifier]
 
+			# ADD UPDATE OPERATOR
 			if update_operator == '+':
 				
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_ADD_UPDATE_OPERATOR)
+				control_variable_initial_value = random.choices(
+					population = WHILE_LOOP_ADD_UO_CONTROL_VARIABLE_INITIAL_VALUES,
+					weights = WHILE_LOOP_ADD_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS,
+					k = 1
+				)[0]
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -319,7 +336,11 @@ def execute_gen_action(gen_action:str):
 				# __Create the update_operand__
 				
 				# Create the update_operand_value
-				update_operand_value = random.choice(WHILE_LOOP_UPDATE_OPERAND_FOR_ADD_UPDATE_OPERATOR)
+				update_operand_value = random.choices(
+					population=WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES,
+					weights=WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES_WEIGHTS,
+					k=1
+				)[0]
 
 				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
@@ -355,7 +376,7 @@ def execute_gen_action(gen_action:str):
 				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} + {update_operand_term}\n'
 				
 				# Choose the number of iterations
-				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_ADD_UPDATE_OPERATOR)
+				nb_iters = random.choice(WHILE_LOOP_ADD_UO_NB_ITERS)
 
 				# __Create the border__
 
@@ -384,13 +405,18 @@ def execute_gen_action(gen_action:str):
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
 				else:
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
-
+			
+			# SUB UPDATE OPERATOR
 			elif update_operator == '-':
 				
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_SUB_UPDATE_OPERATOR)
+				control_variable_initial_value = random.choices(
+					population = WHILE_LOOP_SUB_UO_CONTROL_VARIABLE_INITIAL_VALUES,
+					weights = WHILE_LOOP_SUB_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS,
+					k = 1,
+				)[0]
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -404,7 +430,11 @@ def execute_gen_action(gen_action:str):
 				# __Create the update_operand__
 
 				# Create the update_operand_value
-				update_operand_value = random.choice(WHILE_LOOP_UPDATE_OPERAND_FOR_SUB_UPDATE_OPERATOR)
+				update_operand_value = random.choices(
+					population=WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES,
+					weights=WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES_WEIGHTS,
+					k=1
+				)[0]
 
 				# Choose if we store the update_operand in a variable
 				if random.random() < 0.5:
@@ -440,7 +470,7 @@ def execute_gen_action(gen_action:str):
 				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} - {update_operand_term}\n'
 
 				# Choose the number of iterations
-				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_SUB_UPDATE_OPERATOR)
+				nb_iters = random.choice(WHILE_LOOP_SUB_UO_NB_ITERS)
 
 				# __Create the border__
 
@@ -470,12 +500,17 @@ def execute_gen_action(gen_action:str):
 				else:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
 			
+			# DIV UPDATE OPERATOR
 			elif update_operator == '/':
 				
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_DIV_UPDATE_OPERATOR)
+				control_variable_initial_value = random.choices(
+					population=WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES,
+					weights=WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS,
+					k=1
+				)[0]
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -490,9 +525,9 @@ def execute_gen_action(gen_action:str):
 				
 				# Choosing the update operand value
 				update_operand_value = random.choices(
-					population=WHILE_LOOP_UPDATE_OPERAND_FOR_DIV_UPDATE_OPERATOR,
-					weights=WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_DIV_UPDATE_OPERATOR,
-					k=1
+					population = WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES,
+					weights = WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS,
+					k = 1
 				)[0]
 
 				# Choose if we store the update_operand in a variable
@@ -531,11 +566,15 @@ def execute_gen_action(gen_action:str):
 				# __Create the border__
 
 				# Choosing the number of iterations
-				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_DIV_UPDATE_OPERATOR)
+				nb_iters = random.choices(
+					population = WHILE_LOOP_DIV_UO_NB_ITERS,
+					weights = [math.exp(- WHILE_LOOP_DIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT * (1/control_variable_initial_value) * update_operand_value * i) for i in WHILE_LOOP_DIV_UO_NB_ITERS],
+					k = 1,
+				)[0]
 
 				# Choose a value for the border
-				lower_bound = int(control_variable_initial_value / (update_operand_value ** nb_iters))
-				upper_bound = int(control_variable_initial_value / (update_operand_value ** (nb_iters-1)))
+				lower_bound = max(int(control_variable_initial_value / (update_operand_value ** nb_iters)), 1)
+				upper_bound = max(int(control_variable_initial_value / (update_operand_value ** (nb_iters-1))), 1)
 				border_value = random.randint(a=lower_bound, b=upper_bound)
 				
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
@@ -558,13 +597,18 @@ def execute_gen_action(gen_action:str):
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
 				else:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
-
+			
+			# FDIV OPERATOR
 			elif update_operator == '//':
 
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_FLOORDIV_UPDATE_OPERATOR)
+				control_variable_initial_value = random.choices(
+					population = WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES,
+					weights = WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS,
+					k=1,
+				)[0]
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -579,9 +623,9 @@ def execute_gen_action(gen_action:str):
 				
 				# Choosing the update operand value
 				update_operand_value = random.choices(
-					population=WHILE_LOOP_UPDATE_OPERAND_FOR_FLOORDIV_UPDATE_OPERATOR,
-					weights=WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_FLOORDIV_UPDATE_OPERATOR,
-					k=1
+					population = WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES,
+					weights = WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS,
+					k=1,
 				)[0]
 
 				# Choose if we store the update_operand in a variable
@@ -620,7 +664,11 @@ def execute_gen_action(gen_action:str):
 				# __Create the border__
 
 				# Choose the number of iterations
-				nb_iters = random.choice(WHILE_LOOP_NB_ITERS_FOR_FLOORDIV_UPDATE_OPERATOR)
+				nb_iters = random.choices(
+					population = WHILE_LOOP_FDIV_UO_NB_ITERS,
+					weights = [math.exp(- WHILE_LOOP_FDIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT * (1/control_variable_initial_value) * update_operand_value * i) for i in WHILE_LOOP_FDIV_UO_NB_ITERS],
+					k = 1,
+				)[0]
 				
 				# Choose a value for the border
 				lower_bound = control_variable_initial_value // (update_operand_value ** nb_iters)
@@ -651,13 +699,18 @@ def execute_gen_action(gen_action:str):
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
 				else:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
-
+			
+			# MUL OPERATOR
 			elif update_operator == '*':
-								
+				
 				# __Creating the control_variable__
 
 				# Choosing the control variable initial value
-				control_variable_initial_value = random.choice(WHILE_LOOP_CONTROL_VARIABLE_INITIAL_VALUES_FOR_MUL_UPDATE_OPERATOR)
+				control_variable_initial_value = random.choices(
+					population = WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES,
+					weights = WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS,
+					k = 1,
+				)[0]
 				
 				# Create the control variable initialization expression
 				control_variable_initialization_expression = f'{tabs}{control_variable_identifier} = {control_variable_initial_value}\n'
@@ -671,9 +724,9 @@ def execute_gen_action(gen_action:str):
 				# __Create the update_operand__
 				# Choosing the update operand value
 				update_operand_value = random.choices(
-					population=WHILE_LOOP_UPDATE_OPERAND_FOR_MUL_UPDATE_OPERATOR,
-					weights=WHILE_LOOP_UPDATE_OPERAND_WEIGHTS_FOR_MUL_UPDATE_OPERATOR,
-					k=1
+					population = WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES,
+					weights = WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES_WEIGHTS,
+					k = 1,
 				)[0]
 
 				# Choose if we store the update_operand in a variable
@@ -707,17 +760,21 @@ def execute_gen_action(gen_action:str):
 					update_operand_term = update_operand_value
 				
 				# Create the control_variable_update_expression
-				control_variable_update_expression = f'{tabs}{control_variable_identifier} = {control_variable_identifier} * {update_operand_term}\n'
+				control_variable_update_expression = f'{control_variable_identifier} = {control_variable_identifier} * {update_operand_term}\n'
 				
 				# __Create the border__
 
 				# Choose the number if iterations
-				nb_iters = random.randint(a=1, b=10)
+				nb_iters = random.choices(
+					population = WHILE_LOOP_MUL_UO_NB_ITERS,
+					weights = [math.exp(- WHILE_LOOP_MUL_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT * control_variable_initial_value * update_operand_value * i) for i in WHILE_LOOP_MUL_UO_NB_ITERS],
+					k = 1,
+				)[0]
 
 				# Choose a value for the border corresponding to the number of iterations (give or take 1 iteration actually ...)
 				lower_bound = control_variable_initial_value * (update_operand_value ** (nb_iters-1))
 				upper_bound = control_variable_initial_value * (update_operand_value ** nb_iters)
-				border_value = random.randint(a=upper_bound, b=lower_bound)
+				border_value = random.randint(a=lower_bound, b=upper_bound)
 				
 				# Choose if we store the border in a variable, same structure as the update operand so no need to comment it
 				if random.random() < 0.5:
@@ -735,7 +792,7 @@ def execute_gen_action(gen_action:str):
 					border_term = border_value
 				
 				# Create the while_expression
-				if operator in ['<', '<=']:
+				if update_operator in ['<', '<=']:
 					while_expression = f'{tabs}while {control_variable_identifier} {relational_operator} {border_term}:\n'
 				else:
 					while_expression = f'{tabs}while {border_term} {relational_operator} {control_variable_identifier}:\n'
@@ -748,14 +805,14 @@ def execute_gen_action(gen_action:str):
 			# Initialize while_prologue to empty string
 			while_prologue = ''
 			
-			# Set the maximum number of intermediate expressions
-			nb_max_intermediate_expressions = random.randint(a=0, b=NB_MAX_INTERMEDIATE_EXPRESSIONS)
+			# Choose the number of intermediate expression to put in the prologue
+			nb_max_intermediate_expressions = random.randint(a=0, b=NB_MAX_WHILE_LOOP_PROLOGUE_INTERMEDIATE_EXPRESSIONS)
 			
 			# Set the new_writable_variables
 			new_writable_variables = list(context_stack[-1]['writable_variables'])
 			
 			# Iterate over the while_prologue_critical_expressions
-			for el in while_prologue_critical_expressions:
+			for i, el in enumerate(while_prologue_critical_expressions):
 				
 				# Append the critical expression to the while_prologue
 				while_prologue += el['inti_exp']
@@ -767,8 +824,8 @@ def execute_gen_action(gen_action:str):
 				if el['identifier'] not in context_stack[-1]['readable_variables']:
 					context_stack[-1]['readable_variables'].append(el['identifier'])
 				
-				# Choose the number of intermediate expressions to put after this critical expression
-				nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions)
+				# Choose the number of intermediate expressions to put after this critical expression, if we are at the last critical expression, we finish all the remaining intermediate expressions
+				nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions) if i != len(while_prologue_critical_expressions)-1 else nb_max_intermediate_expressions
 				
 				# Make sure to decrease the number of possible intermediate expressions for next time
 				nb_max_intermediate_expressions -= nb_intermediate_expressions
@@ -833,8 +890,68 @@ def execute_gen_action(gen_action:str):
 		
 		case 'WHILE_UPDATE':
 
-			# Retrieve the while_update_expression
-			while_update_expression = context_stack[-1]['while_state']
+			# Calculate the number of tabs
+			tabs = '	' * (len(context_stack)-1)
+			
+			# Retrieve the default while_update_expression
+			default_while_update_expression = context_stack[-1]['while_state']
+			
+			# __Create the while_update_code__
+			
+			# Initialize the final_while_update_expression to an empty string by default
+			while_update_code = ''
+
+			# Choose if we update the control variable through an intermediate variable
+			if random.random() < 0.5:
+
+				# Choose the identifier for the intermediate variable
+				intermediate_control_variable_identifier = random.choice(context_stack[-1]['writable_variables'])
+				
+				# Create temporary writable variables which prevent writing to the intermediate_control_variable_identifier
+				tmp_writable_variables = [var for var in context_stack[-1]['writable_variables'] if var != intermediate_control_variable_identifier]
+				
+				# Create the expression for the intermediate update expression
+				default_while_update_expression_right_hand_side = default_while_update_expression.split('=')[-1].strip()
+				intermediate_update_expression = f'{tabs}{intermediate_control_variable_identifier} = {default_while_update_expression_right_hand_side}\n'
+
+				# Add the intermediate_update_expression to the while_update_code
+				while_update_code += intermediate_update_expression
+
+				# Create the new_while_update_expression
+				while_control_variable_identifier = default_while_update_expression.split('=')[0].strip()
+				new_while_update_expression = f'{tabs}{while_control_variable_identifier} = {intermediate_control_variable_identifier}\n'
+				
+				# Add the new_while_update_expression to the while_update_code
+				while_update_code += new_while_update_expression
+				
+				# Choose a number of intermediate expressions and loop over it
+				nb_intermediate_expression = random.randint(a=1, b=NB_MAX_WHILE_LOOP_UPDATE_INTERMEDIATE_EXPRESSIONS)
+				for _ in range(nb_intermediate_expression):
+					# Choose operand 1
+					operand1 = random.choice((
+						random.choice(context_stack[-1]['readable_variables']),
+						random.choice(DIGIT)
+						))
+					# Choose operand 2
+					operand2 = random.choice((
+						random.choice(context_stack[-1]['readable_variables']),
+						random.choice(DIGIT)
+						))
+					# Choose operator
+					operator = random.choice(ARITHMETIC_OPERATORS)
+					# Choose identifier from the tmp_writable_variables
+					identifier = random.choice(tmp_writable_variables)
+					# Add the identifier to the readable_variables of the current context if not already there
+					if identifier not in context_stack[-1]['readable_variables']:
+						context_stack[-1]['readable_variables'].append(identifier)
+					# Create the intermediate expression
+					intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+					# Add it the the while_update_code
+					while_update_code = while_update_code + intermediate_expression
+			
+			# Else we just use the default_while_update_expression
+			else:
+				while_update_code = f'{tabs}{default_while_update_expression}'
 
 			# Update the current context
 			context_stack[-1]['if_state'] = False
@@ -842,8 +959,7 @@ def execute_gen_action(gen_action:str):
 			context_stack[-1]['nb_lines_in_block'] += 1
 
 			# Append the code
-			tabs = '	' * (len(context_stack)-1)
-			code = code + f'{tabs}{while_update_expression}'
+			code = code + while_update_code
 
 			# Updating the line_counter
 			line_counter += 1
@@ -1169,6 +1285,7 @@ finally:
 		# Trying the execute the generated code
 		sio = StringIO()
 		try:
+			no_problem = 1
 			with redirect_stdout(sio):
 				# We execute the code in a controlled environment
 				exec(exec_env, {
@@ -1192,7 +1309,7 @@ finally:
 			nb_zero_divisions += 1
 		except VariableValueOverflowError as e:
 			nb_var_value_overflows += 1
-		except Exception as e:
+		except (Exception, KeyboardInterrupt) as e:
 			print(f'Code Snippet Execution Error at {nb_generated_programs}:', e)
 			with open('error_code.txt', 'w') as f:
 				f.write(f'PROGRAM PROBLEM#{nb_generated_programs}\n'+code)
