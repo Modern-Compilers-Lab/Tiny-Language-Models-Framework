@@ -12,16 +12,20 @@ from 	collections import deque
 # __PARAMETERS DASHBOARD__
 
 # GENERAL PARAMETERS
-MIN_INIT 					= 3
-MAX_DEPTH 					= 2
-MAX_SUB_BLOCKS 				= 2
-MIN_LENGTH 					= 5
-MAX_LENGTH 					= 20
-UNINDENTATION_SPEED 		= 0.5	# if <= 0, will never unindent after the first indentation encountered
-PRINT_NB_DECIMALS 			= 2
+MIN_INIT 				= 0
+MAX_DEPTH 				= 2
+MAX_SUB_BLOCKS 			= 2
+MIN_LENGTH 				= 5
+MAX_LENGTH 				= 20
+UNINDENTATION_SPEED 	= 0.5	# if <= 0, will never unindent after the first indentation encountered
+PRINT_NB_DECIMALS 		= 2
+
+# PRINT PARAMETERS
+FORCE_PRINT							= True
+PRINT_WEIGHTS_CONTROL_COEFFICIENT 	= 5
 
 # READ AND WRITE SECURITIES
-READ_SECURITY 				= True
+READ_SECURITY 				= False
 WRITE_SECURITY 				= True
 
 # WHILE LOOP PARAMETERS
@@ -179,11 +183,13 @@ def execute_gen_action(gen_action:str):
 			if not WRITE_SECURITY:
 				writable_variables = all_assigned_variables
 
-			# Operand 1
-			operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
-
-			# Operand 2
-			operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+			# Operand 1 & 2
+			if len(readable_variables) != 0:
+				operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+				operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+			else:
+				operand1 = random.choice(DIGIT)
+				operand2 = random.choice(DIGIT)
 
 			# Operator
 			operator = random.choice(ARITHMETIC_OPERATORS)
@@ -211,18 +217,19 @@ def execute_gen_action(gen_action:str):
 			line_counter += 1
 
 		case 'SIMPLE_IF_STATEMENT':
-
+			
+			# Select the readable variables to choose from
+			readable_variables = context_stack[-1]['readable_variables']
+			if not READ_SECURITY:
+				readable_variables = all_assigned_variables
+			
 			# Choose operand1 (either a variable or a digit)
-			operand1 = random.choice((
-				random.choice(context_stack[-1]['readable_variables']),
-				random.choice(DIGIT)
-				))
-
-			# Choose operand2 (either a variable or a digit)
-			operand2 = random.choice((
-				random.choice(context_stack[-1]['readable_variables']),
-				random.choice(DIGIT)
-				))
+			if len(readable_variables) != 0:
+				operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+				operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+			else:
+				operand1 = random.choice(DIGIT)
+				operand2 = random.choice(DIGIT)
 
 			# Choose relational operator
 			operator = random.choice(RELATIONAL_OPERATORS)
@@ -255,14 +262,21 @@ def execute_gen_action(gen_action:str):
 			})
 
 		case 'SIMPLE_ELIF_STATEMENT':
-			operand1 = random.choice((
-				random.choice(context_stack[-1]['readable_variables']),
-				random.choice(DIGIT)
-				))
-			operand2 = random.choice((
-				random.choice(context_stack[-1]['readable_variables']),
-				random.choice(DIGIT)
-				))
+			
+			# Select the readable variables to choose from
+			readable_variables = context_stack[-1]['readable_variables']
+			if not READ_SECURITY:
+				readable_variables = all_assigned_variables
+			
+			# Choose operand1 (either a variable or a digit)
+			if len(readable_variables) != 0:
+				operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+				operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+			else:
+				operand1 = random.choice(DIGIT)
+				operand2 = random.choice(DIGIT)
+			
+			# Choose the operator
 			operator = random.choice(RELATIONAL_OPERATORS)
 
 			# Append the code
@@ -869,11 +883,13 @@ def execute_gen_action(gen_action:str):
 					if not WRITE_SECURITY:
 						writable_variables = all_assigned_variables
 
-					# Choose operand 1
-					operand1 = random.choice((readable_variables, random.choice(DIGIT)))
-					
-					# Choose operand 2
-					operand2 = random.choice((readable_variables, random.choice(DIGIT)))
+					# Choose operand 1 and 2 (either a variable or a digit)
+					if len(readable_variables) != 0:
+						operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+						operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+					else:
+						operand1 = random.choice(DIGIT)
+						operand2 = random.choice(DIGIT)
 					
 					# Choose operator
 					operator = random.choice(ARITHMETIC_OPERATORS)
@@ -981,12 +997,14 @@ def execute_gen_action(gen_action:str):
 					writable_variables = tmp_writable_variables
 					if not WRITE_SECURITY:
 						writable_variables = all_assigned_variables
-					
-					# Choose operand 1
-					operand1 = random.choice((readable_variables, random.choice(DIGIT)))
-					
-					# Choose operand 2
-					operand2 = random.choice((readable_variables, random.choice(DIGIT)))
+			
+					# Choose operand1 and operand2 (either a variable or a digit)
+					if len(readable_variables) != 0:
+						operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+						operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+					else:
+						operand1 = random.choice(DIGIT)
+						operand2 = random.choice(DIGIT)
 					
 					# Choose operator
 					operator = random.choice(ARITHMETIC_OPERATORS)
@@ -1072,14 +1090,21 @@ def execute_gen_action(gen_action:str):
 			line_counter += 1
 		
 		case 'DISPLAY':
+			
 			# Select the readable_variables to choose from
 			readable_variables = context_stack[-1]['readable_variables']
 			if not READ_SECURITY:
 				readable_variables = all_assigned_variables
 			
+			# Choose the printed_term
+			if len(readable_variables) != 0:
+				printed_term = random.choices(population = (random.choice(readable_variables), random.choice(DIGIT)), weights = (0.95, 0.05), k = 1)[0]
+			else:
+				printed_term = random.choice(DIGIT)
+			
 			# Append the code
 			tabs = '	' * (len(context_stack)-1)
-			code = code + f'{tabs}print({random.choice(readable_variables)})\n'
+			code = code + f'{tabs}print({printed_term})\n'
 
 			# Update the current context
 			context_stack[-1]['nb_lines_in_block'] += 1
@@ -1208,6 +1233,10 @@ def generate_random_code():
 	# Initialize the code
 	global code
 	code = ''
+
+	# Initialize the all_assigned_variables
+	global all_assigned_variables
+	all_assigned_variables = list()
 	
 	# Enter the gen_loop
 	gen_action = 'START'
@@ -1229,7 +1258,6 @@ class VariableValueOverflowError(Exception):
 	def __init__(self, message):
 		super().__init__(message)
 
-import traceback
 
 # If the script is run as a standalone script
 if __name__ == "__main__":
@@ -1237,7 +1265,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state"			, default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs"				, default = 100000, help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs"				, default = 1000, help = "Number of programs to be generated")
 	parser.add_argument("--output_file"				, default = "./prg_testing/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout"					, default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file"				, default = "./log.txt", help = "The path to the logging file for monitoring progress")
@@ -1278,6 +1306,7 @@ if __name__ == "__main__":
 	# Launching the generation
 	nb_zero_divisions = 0
 	nb_var_value_overflows = 0
+	nb_name_errors = 0
 	nb_generated_programs = 0
 	hashes = set()
 	nb_deduplication_trials = 0
@@ -1362,10 +1391,42 @@ finally:
 					"VariableValueOverflowError" : VariableValueOverflowError
 				})
 
-			# Saving the code example with its output
+			# Getting the output
 			output = sio.getvalue()
+
+			# If we are force printing and the std output is empty
+			if FORCE_PRINT and output == '':
+				
+				# Select the readable_variables to choose from
+				readable_variables = context_stack[-1]['readable_variables']
+				if not READ_SECURITY:
+					readable_variables = all_assigned_variables
+				
+				# Choose the printed_term
+				if len(readable_variables) != 0:
+					printed_term = random.choices(population = (random.choice(readable_variables), random.choice(DIGIT)), weights = (0.95, 0.05), k = 1)[0]
+				else:
+					printed_term = random.choices(DIGIT)
+				
+				# Adding a print at the end of the code
+				final_print_expression = f'print({printed_term})'
+				code += f'\n{final_print_expression}'
+				
+				# Re-Create the execution environment
+				func += f'\n\t{final_print_expression}'
+				exec_env = func + exec_env_boilerplate
+				sio = StringIO()
+				with redirect_stdout(sio):
+					exec(exec_env, {
+						"VariableValueOverflowError" : VariableValueOverflowError
+					})
+				output = sio.getvalue()
+			
+			# Create the final results = code + formatted output
 			result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
 			# result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
+			
+			# Write the result to the destination file
 			f.write(result + "\n\n")
 
 			# Update the number of generated programs
@@ -1379,6 +1440,8 @@ finally:
 			nb_zero_divisions += 1
 		except VariableValueOverflowError as e:
 			nb_var_value_overflows += 1
+		except NameError as e:
+			nb_name_errors += 1
 		except (Exception, KeyboardInterrupt) as e:
 			print(f'Code Snippet Execution Error at {nb_generated_programs}:', e)
 			with open('error_code.txt', 'w') as f:
@@ -1386,11 +1449,11 @@ finally:
 			break
 
 		if use_tqdm:
-			pbar.set_description(f"ZeroDiv : {nb_zero_divisions:,} | Overflows : {nb_var_value_overflows:,} |")
+			pbar.set_description(f"ZeroDiv: {nb_zero_divisions:,} |Overflows: {nb_var_value_overflows:,} |NameErrors: {nb_name_errors:,}")
 	
-	print(f"percentage of zero divisions: {nb_zero_divisions/(nb_programs + nb_zero_divisions + nb_var_value_overflows) * 100:.2f}%")
-	print(f"percentage of overflows: {nb_var_value_overflows/(nb_programs + nb_zero_divisions + nb_var_value_overflows) * 100:.2f}%")
-
+	print(f"percentage of zero divisions: {nb_zero_divisions/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
+	print(f"percentage of overflows: {nb_var_value_overflows/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
+	print(f"percentage of name errors: {nb_name_errors/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
 	# Closing the logging and data output files
 	f_log_file.close()
 	f.close()
