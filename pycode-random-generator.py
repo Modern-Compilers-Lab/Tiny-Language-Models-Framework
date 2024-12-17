@@ -3,6 +3,7 @@ import 	pickle
 import 	argparse
 import 	datetime
 import 	hashlib
+import 	signal
 import 	math
 from 	io 			import StringIO
 from 	contextlib 	import redirect_stdout
@@ -25,8 +26,9 @@ FORCE_PRINT							= True
 PRINT_WEIGHTS_CONTROL_COEFFICIENT 	= 5
 
 # READ AND WRITE SECURITIES
-READ_SECURITY 				= False
+READ_SECURITY 				= True
 WRITE_SECURITY 				= True
+TIMEOUT						= 3
 
 # WHILE LOOP PARAMETERS
 
@@ -181,7 +183,7 @@ def execute_gen_action(gen_action:str):
 			# Select the writable variables to choose from
 			writable_variables = context_stack[-1]['writable_variables']
 			if not WRITE_SECURITY:
-				writable_variables = all_assigned_variables
+				writable_variables = VARIABLES
 
 			# Operand 1 & 2
 			if len(readable_variables) != 0:
@@ -881,7 +883,7 @@ def execute_gen_action(gen_action:str):
 					# Get the writable_variables to choose from
 					writable_variables = new_writable_variables
 					if not WRITE_SECURITY:
-						writable_variables = all_assigned_variables
+						writable_variables = VARIABLES
 
 					# Choose operand 1 and 2 (either a variable or a digit)
 					if len(readable_variables) != 0:
@@ -996,7 +998,7 @@ def execute_gen_action(gen_action:str):
 					# Select the writable variables to choose from
 					writable_variables = tmp_writable_variables
 					if not WRITE_SECURITY:
-						writable_variables = all_assigned_variables
+						writable_variables = VARIABLES
 			
 					# Choose operand1 and operand2 (either a variable or a digit)
 					if len(readable_variables) != 0:
@@ -1304,12 +1306,15 @@ if __name__ == "__main__":
 			random.setstate(random_state)
 			
 	# Launching the generation
-	nb_zero_divisions = 0
-	nb_var_value_overflows = 0
-	nb_name_errors = 0
-	nb_generated_programs = 0
+	nb_generated_programs 	= 0
+	nb_zero_divisions 		= 0
+	nb_var_value_overflows 	= 0
+	nb_name_errors 			= 0
+	nb_timeouts 			= 0
+	
 	hashes = set()
 	nb_deduplication_trials = 0
+	
 	exec_env_boilerplate = f"""
 from sys import settrace
 
@@ -1333,6 +1338,7 @@ try:
 	func()
 finally:
 	settrace(None)"""
+	
 	# Setting the starting_time and first checkpoint time
 	start_time = datetime.datetime.now()
 	checkpoint_time = start_time
@@ -1345,7 +1351,21 @@ finally:
 	if use_tqdm:
 		from tqdm import tqdm
 		pbar = tqdm(desc="Generation", total=nb_programs)
+	
+	# If we don't use WRITE_SECURITY:
+	if not WRITE_SECURITY:
 
+		# Define the TiemoutException to be raised at timeouts
+		class TimeoutException(Exception):
+			pass
+		
+		# Define the function called by the signal, it will raise TimeoutException
+		def timeout_handler(signum, frame):
+			raise TimeoutException()
+
+		# Set the signal SIGALARM to call timeout_handler
+		signal.signal(signal.SIGALRM, timeout_handler)
+	
 	# Launching the loop
 	while nb_generated_programs < nb_programs:
 		
@@ -1386,11 +1406,18 @@ finally:
 		sio = StringIO()
 		try:
 			with redirect_stdout(sio):
+				if not WRITE_SECURITY:
+					signal.alarm(TIMEOUT)
 				# We execute the code in a controlled environment
 				exec(exec_env, {
 					"VariableValueOverflowError" : VariableValueOverflowError
 				})
+			
+			# __If we are here, it means that the code has been executed successfully__
 
+			# Resetting the alarm to 0
+			signal.alarm(0)
+			
 			# Getting the output
 			output = sio.getvalue()
 
@@ -1442,6 +1469,8 @@ finally:
 			nb_var_value_overflows += 1
 		except NameError as e:
 			nb_name_errors += 1
+		except TimeoutException:
+			nb_timeouts += 1
 		except (Exception, KeyboardInterrupt) as e:
 			print(f'Code Snippet Execution Error at {nb_generated_programs}:', e)
 			with open('error_code.txt', 'w') as f:
@@ -1449,11 +1478,13 @@ finally:
 			break
 
 		if use_tqdm:
-			pbar.set_description(f"ZeroDiv: {nb_zero_divisions:,} |Overflows: {nb_var_value_overflows:,} |NameErrors: {nb_name_errors:,}")
+			pbar.set_description(f"ZeroDiv: {nb_zero_divisions:,} |Overflows: {nb_var_value_overflows:,} |NameErrors: {nb_name_errors:,}|Timeouts: {nb_timeouts:,}")
 	
 	print(f"percentage of zero divisions: {nb_zero_divisions/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
 	print(f"percentage of overflows: {nb_var_value_overflows/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
 	print(f"percentage of name errors: {nb_name_errors/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
+	print(f"percentage of timeouts: {nb_timeouts/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
+	
 	# Closing the logging and data output files
 	f_log_file.close()
 	f.close()
