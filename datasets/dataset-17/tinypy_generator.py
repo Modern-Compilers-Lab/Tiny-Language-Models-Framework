@@ -13,17 +13,17 @@ from 	collections import deque
 # __PARAMETERS DASHBOARD__
 
 # GENERAL PARAMETERS
-MIN_INIT 				= 0
+MIN_INIT 				= 1
 MAX_DEPTH 				= 2
 MAX_SUB_BLOCKS 			= 2
 MIN_LENGTH 				= 5
-MAX_LENGTH 				= 20
-UNINDENTATION_SPEED 	= 0.5	# if <= 0, will never unindent after the first indentation encountered
+MAX_LENGTH 				= 10
+UNINDENTATION_SPEED 	= 0.1	# if <= 0, will never unindent after the first indentation encountered
 PRINT_NB_DECIMALS 		= 2
 
 # PRINT PARAMETERS
 FORCE_PRINT							= True
-PRINT_WEIGHTS_CONTROL_COEFFICIENT 	= 5
+PRINT_WEIGHTS_CONTROL_COEFFICIENT 	= 0
 
 # READ AND WRITE SECURITIES
 READ_SECURITY 				= True
@@ -35,7 +35,7 @@ TIMEOUT						= 3
 # WHILE_LOOP GENERAL PARAMETERS
 WHILE_LOOP_UPDATE_OPERATORS 	= ['+', '-', '//', '/', '*']
 WHILE_LOOP_RELATIONAL_OPERATORS = ['>', '<', '>=', '<=']
-NB_MAX_WHILE_LOOP_PROLOGUE_INTERMEDIATE_EXPRESSIONS = 4
+NB_MAX_WHILE_LOOP_PROLOGUE_INTERMEDIATE_EXPRESSIONS = 3
 NB_MAX_WHILE_LOOP_UPDATE_INTERMEDIATE_EXPRESSIONS = 2
 
 # WHILE LOOP PARAMETERS FOR ADD UPDATE OPERATOR
@@ -56,7 +56,7 @@ WHILE_LOOP_SUB_UO_NB_ITERS									= [i for i in range(1, 20+1)]
 WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
 WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(1, 255+1)]
 WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 20+1)]
-WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
+WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 3 for i in range(2, 20+1)]
 WHILE_LOOP_DIV_UO_NB_ITERS									= [i for i in range(1, 10+1)]
 WHILE_LOOP_DIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
@@ -64,16 +64,16 @@ WHILE_LOOP_DIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
 WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(1, 255+1)]
 WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 20+1)]
-WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
+WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 3 for i in range(2, 20+1)]
 WHILE_LOOP_FDIV_UO_NB_ITERS									= [i for i in range(1, 20+1)]
 WHILE_LOOP_FDIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # WHILE LOOP PARAMETERS FOR MUL UPDATE OPERATOR
 WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
 WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS	= [1 for i in range(1, 255+1)]
-WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 10+1)]
-WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES_WEIGHTS				= [1 if i!= 10 else 5 for i in range(2, 10+1)]
-WHILE_LOOP_MUL_UO_NB_ITERS									= [i for i in range(1, 5+1)]
+WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 15+1)]
+WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES_WEIGHTS				= [1 if i!= 10 else 3 for i in range(2, 15+1)]
+WHILE_LOOP_MUL_UO_NB_ITERS									= [i for i in range(1, 10+1)]
 WHILE_LOOP_MUL_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # GLOBAL OPERATIONAL VARIABLES
@@ -335,7 +335,7 @@ def execute_gen_action(gen_action:str):
 			line_counter += 1
 
 		case 'WHILE_LOOP':
-
+			
 			# Choose the update operator
 			update_operator = random.choice(WHILE_LOOP_UPDATE_OPERATORS)
 			
@@ -350,6 +350,8 @@ def execute_gen_action(gen_action:str):
 			
 			# Create the required number of tabs for the current context
 			tabs = '	' * (len(context_stack)-1)
+
+			# Create the while_prologue_critical_expressions and while_prologue_critical_identifiers
 			while_prologue_critical_expressions = []
 			while_prologue_critical_identifiers = [control_variable_identifier]
 
@@ -470,7 +472,7 @@ def execute_gen_action(gen_action:str):
 
 				# __Create the update_operand__
 
-				# Create the update_operand_value
+				# Choose the update_operand_value
 				update_operand_value = random.choices(
 					population=WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES,
 					weights=WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES_WEIGHTS,
@@ -763,6 +765,7 @@ def execute_gen_action(gen_action:str):
 				})
 
 				# __Create the update_operand__
+
 				# Choosing the update operand value
 				update_operand_value = random.choices(
 					population = WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES,
@@ -865,6 +868,10 @@ def execute_gen_action(gen_action:str):
 				if el['identifier'] not in context_stack[-1]['readable_variables']:
 					context_stack[-1]['readable_variables'].append(el['identifier'])
 				
+				# Add the identifier to all_assigned_variables if not already there
+				if el['identifier'] not in all_assigned_variables:
+					all_assigned_variables.append(el['identifier'])
+
 				# Choose the number of intermediate expressions to put after this critical expression, if we are at the last critical expression, we finish all the remaining intermediate expressions
 				nb_intermediate_expressions = random.randint(0, nb_max_intermediate_expressions) if i != len(while_prologue_critical_expressions)-1 else nb_max_intermediate_expressions
 				
@@ -1205,7 +1212,7 @@ def queue_gen_actions():
 # __FUNCTION__: GENERATE_RANDOM_CODE
 def generate_random_code():
 	"""
-	Generates a random code snippet by orchestrating the use of the 'distribution_conroller' and 'develop_code_line' functions
+	Generates a random code snippet by orchestrating the use of the 'queue_gen_actions' and 'execute_gen_actions' functions
 	"""
 	
 	# Initialize the context_stack
@@ -1228,7 +1235,7 @@ def generate_random_code():
 		}
 	)
 
-	# Initialize the line_counter (might as well rename this to program_counter ...)
+	# Initialize the line_counter
 	global line_counter
 	line_counter = 1
 	
@@ -1247,7 +1254,7 @@ def generate_random_code():
 		# Call the queue_actions function
 		queue_gen_actions()
 
-		# Loop over the created actions for the current context
+		# Loop over the queued actions for the current context
 		while (len(context_stack[-1]['actions_queue']) != 0) and (gen_action := context_stack[-1]['actions_queue'].popleft()) != 'END':
 			execute_gen_action(gen_action)
 	
@@ -1260,15 +1267,18 @@ class VariableValueOverflowError(Exception):
 	def __init__(self, message):
 		super().__init__(message)
 
+# '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin'
 
 # If the script is run as a standalone script
 if __name__ == "__main__":
 
+	# __Parse the command line arguments__
+
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
-	parser.add_argument("--random_state"			, default = '/data/yb2618/Tiny-Language-Models-Framework/frcg-random-states/random_state_2024-12-12_08-08.bin', help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs"				, default = 1000, help = "Number of programs to be generated")
-	parser.add_argument("--output_file"				, default = "./prg_testing/data.txt", help = "Number of programs to be generated")
+	parser.add_argument("--random_state"			, default = None, help = "Path to python random state to be loaded if any")
+	parser.add_argument("--nb_programs"				, default = 6_000_000, help = "Number of programs to be generated")
+	parser.add_argument("--output_file"				, default = "./data-ds-17/data.txt", help = "Number of programs to be generated")
 	parser.add_argument("--timeout"					, default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file"				, default = "./log.txt", help = "The path to the logging file for monitoring progress")
 	parser.add_argument("--log_interval"			, default = 10000, help = "The number of code snippets generations before logging to the --log_file for monitoring progress")
@@ -1280,23 +1290,23 @@ if __name__ == "__main__":
 
 	args = parser.parse_args()
 
-	random_state =  args.random_state
-	nb_programs = int(args.nb_programs)
-	output_file = args.output_file
-	timeout = int(args.timeout)
-	log_file = args.log_file
-	log_interval = int(args.log_interval)
-	deduplicate = True if args.deduplicate in ("true", None) else False
-	max_deduplication_trials = int(args.max_deduplication_trials)
-	programs_separator = args.programs_separator + '\n' if args.programs_separator else ""
-	use_tqdm = True if args.use_tqdm  in ("true", None) else False 
-	max_var_value = args.max_var_value
+	random_state 				= args.random_state
+	nb_programs 				= int(args.nb_programs)
+	output_file 				= args.output_file
+	timeout 					= int(args.timeout)
+	log_file 					= args.log_file
+	log_interval 				= int(args.log_interval)
+	deduplicate 				= True if args.deduplicate in ("true", None) else False
+	max_deduplication_trials 	= int(args.max_deduplication_trials)
+	programs_separator 			= args.programs_separator + '\n' if args.programs_separator else ""
+	use_tqdm 					= True if args.use_tqdm  in ("true", None) else False 
+	max_var_value 				= args.max_var_value
 
-	# Saving or setting the random state
+	# Save or set the random state
 	if args.random_state is None:
 		random_state = random.getstate()
 		now = datetime.datetime.now()
-		date_hour = now.strftime("%Y-%m-%d_%H-%M")
+		date_hour = now.strftime("%Y-%m-%d_%H-%M-%S")
 		Path("./frcg-random-states").mkdir(parents = True, exist_ok = True)
 		with open(f"./frcg-random-states/random_state_{date_hour}.bin", "wb") as f:
 			pickle.dump(random_state, f)
@@ -1305,16 +1315,20 @@ if __name__ == "__main__":
 			random_state = pickle.load(f)
 			random.setstate(random_state)
 			
-	# Launching the generation
+	# Initialize nb_generated_programs
 	nb_generated_programs 	= 0
+
+	# Initialize the error counters
 	nb_zero_divisions 		= 0
 	nb_var_value_overflows 	= 0
 	nb_name_errors 			= 0
 	nb_timeouts 			= 0
 	
+	# Initialize the hashes set and nb_deduplication_trials
 	hashes = set()
 	nb_deduplication_trials = 0
 	
+	# Set up the execution environment boilerplate
 	exec_env_boilerplate = f"""
 from sys import settrace
 
@@ -1339,15 +1353,17 @@ try:
 finally:
 	settrace(None)"""
 	
-	# Setting the starting_time and first checkpoint time
+	# Set the starting_time and the first checkpoint_time (for logging)
 	start_time = datetime.datetime.now()
 	checkpoint_time = start_time
 
-	# Opening the logging file and the data output file
+	# Open the logging file
 	f_log_file = open(log_file, "w")
+	
+	# Open the data output file
 	f = open(output_file, "w")
 
-	# Checking if we use tqdm
+	# Check if we use tqdm
 	if use_tqdm:
 		from tqdm import tqdm
 		pbar = tqdm(desc="Generation", total=nb_programs)
@@ -1366,62 +1382,63 @@ finally:
 		# Set the signal SIGALARM to call timeout_handler
 		signal.signal(signal.SIGALRM, timeout_handler)
 	
-	# Launching the loop
+	# Launch the generation loop
 	while nb_generated_programs < nb_programs:
 		
-		# Checking if it's log interval
+		# Check if it's log interval
 		if nb_generated_programs % log_interval == 0:
 			now = datetime.datetime.now()
 			f_log_file.write(f"Generated {nb_generated_programs:<{len(str(nb_programs))}} programs,  absolute time: {now - start_time},  relative time: {now - checkpoint_time}\n")
 			f_log_file.flush()
 			checkpoint_time = now
 		
-		# Generating the code
+		# Generate the code
 		code = generate_random_code()
-		# code = 'a = 1.1234\nprint(a)'
 		code = code.strip('\n')
 
-		# In case of deduplicate
-		# if deduplicate:
-		# 	code_hash = hashlib.sha256(code.encode('utf-8')).hexdigest()
-		# 	if code_hash in hashes:
-		# 		nb_deduplication_trials += 1
-		# 		if nb_deduplication_trials == max_deduplication_trials:
-		# 			print("DEDUPLICATE PROBLEM ")
-		# 			break
-		# 		else:
-		# 			continue
-		# 	else:
-		# 		nb_deduplication_trials = 0
-		# 		hashes.add(code_hash)
+		# If we check for deduplicates
+		if deduplicate:
+			code_hash = hashlib.sha256(code.encode('utf-8')).hexdigest()
+			if code_hash in hashes:
+				nb_deduplication_trials += 1
+				if nb_deduplication_trials == max_deduplication_trials:
+					print("DEDUPLICATE PROBLEM ")
+					break
+				else:
+					continue
+			else:
+				nb_deduplication_trials = 0
+				hashes.add(code_hash)
 		
-		# preparing the execution environment
+		# Prepare the execution environment
 		indented = "\n".join([f"	{line}" for line in code.split("\n")])
 		func = "def func():\n" + indented
 		exec_env = func + exec_env_boilerplate
-
-		# nb_generated_programs += 1
 		
-		# Trying the execute the generated code
+		# Try to execute the generated code
 		sio = StringIO()
 		try:
 			with redirect_stdout(sio):
+
+				# Check if we are not using WRITE_SECURITY
 				if not WRITE_SECURITY:
 					signal.alarm(TIMEOUT)
-				# We execute the code in a controlled environment
+				
+				# Execute the code in a controlled environment
 				exec(exec_env, {
 					"VariableValueOverflowError" : VariableValueOverflowError
 				})
 			
 			# __If we are here, it means that the code has been executed successfully__
 
-			# Resetting the alarm to 0
-			signal.alarm(0)
+			# Resetting the alarm to 0 if not using the WRITE_SECURITY
+			if not WRITE_SECURITY:
+				signal.alarm(0)
 			
 			# Getting the output
 			output = sio.getvalue()
 
-			# If we are force printing and the std output is empty
+			# If we are force printing and the sio output is empty
 			if FORCE_PRINT and output == '':
 				
 				# Select the readable_variables to choose from
@@ -1451,7 +1468,6 @@ finally:
 			
 			# Create the final results = code + formatted output
 			result = programs_separator + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
-			# result = f'PROGRAM #{nb_generated_programs}\n' + code + "\n# output\n# " + "\n# ".join(output.split("\n")[:-1])
 			
 			# Write the result to the destination file
 			f.write(result + "\n\n")
@@ -1478,12 +1494,13 @@ finally:
 			break
 
 		if use_tqdm:
-			pbar.set_description(f"ZeroDiv: {nb_zero_divisions:,} |Overflows: {nb_var_value_overflows:,} |NameErrors: {nb_name_errors:,}|Timeouts: {nb_timeouts:,}")
+			pbar.set_description(f"ZeroDiv: {nb_zero_divisions:,} |Overflows: {nb_var_value_overflows:,} |NameErrors: {nb_name_errors:,} |Timeouts: {nb_timeouts:,}")
 	
-	print(f"percentage of zero divisions: {nb_zero_divisions/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
-	print(f"percentage of overflows: {nb_var_value_overflows/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
-	print(f"percentage of name errors: {nb_name_errors/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
-	print(f"percentage of timeouts: {nb_timeouts/(nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors) * 100:.2f}%")
+	nb_all_attempted_programs = nb_programs + nb_zero_divisions + nb_var_value_overflows + nb_name_errors + nb_timeouts
+	print(f"percentage of zero divisions: {nb_zero_divisions/nb_all_attempted_programs * 100:.2f}%")
+	print(f"percentage of overflows: {nb_var_value_overflows/nb_all_attempted_programs * 100:.2f}%")
+	print(f"percentage of name errors: {nb_name_errors/nb_all_attempted_programs * 100:.2f}%")
+	print(f"percentage of timeouts: {nb_timeouts/nb_all_attempted_programs * 100:.2f}%")
 	
 	# Closing the logging and data output files
 	f_log_file.close()
