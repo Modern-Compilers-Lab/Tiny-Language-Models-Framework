@@ -9,7 +9,7 @@ def pytracing_generator(input_file_path,
 	with open(input_file_path, "r") as f:
 		data = f.read()
 		
-	codes = data.split("\n\n")[:10]
+	codes = data.split("\n\n")[:None]
 
 	output_file = open(output_file_path, "w")
 
@@ -32,7 +32,7 @@ def line_tracer(frame, event, arg):
 		current_step[frame.f_lineno - 2] = "@" + current_step[frame.f_lineno - 2] + "$" + state_fill + "|" + sio_fill
 		trace.append("#STEP\\n" + "\\n".join(current_step))
 	elif event == 'return':
-		current_step.append("@\\\\" + "$" + state_fill + "|" + sio_fill)
+		current_step.append("@^" + "$" + state_fill + "|" + sio_fill)
 		trace.append("#STEP\\n" + "\\n".join(current_step))
 	return line_tracer
 
@@ -61,8 +61,8 @@ finally:
 		output_file.write(code+"\n"+"\n".join(trace)+sep)
 	output_file.close()
 
-pytracing_generator(None,
-					None
+pytracing_generator(input_file_path=None,
+					output_file_path=None
 					)
 
 # if __name__ == "__main__":

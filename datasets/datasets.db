@@ -1,4 +1,4 @@
-last-dataset-id: 17
+last-dataset-id: 20
 datasets:
   dataset-1: NoOverflowControl RandomGenerator 200MSnippets MaxDepth2 MaxSubBlocks2
     MinLength2 MaxLength10 WithHardArithmeticOps
@@ -25,4 +25,7 @@ datasets:
   dataset-14: 30M-Snippets ExtractFromDS-11
   dataset-15: 2.5MSnippets ExtractFromDataset7
   dataset-16: ExtractFromDS-11 SameNumberOfTokensAsTrainSplitOfDP-10-1
-  dataset-17: BiasedTowardsChatGPTBenchmark
+  dataset-17: BiasedTowardsChatGPTBenchmark DirectOutputPrediction+CoT 6MSnippets
+  dataset-18: CoT 3MSnippets FromDS-17
+  dataset-19: CoT 1MSnippets FromDS-17
+  dataset-20: 500KSnippets CoT ClassicalCodePattern

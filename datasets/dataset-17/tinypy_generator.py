@@ -90,19 +90,15 @@ RELATIONAL_OPERATORS 	= ["<", ">", "<=", ">=", "!=", "=="]
 pattern_vocabulary = [
 	"INITIALIZATION",
 	"SIMPLE_ASSIGNMENT",
-	# "ADVANCED_ASSIGNMENT",
 	"SIMPLE_IF_STATEMENT",
 	"SIMPLE_ELIF_STATEMENT",
     "ELSE_STATEMENT",
 	'WHILE_LOOP',
-    # "FOR_LOOP",
 	"DISPLAY",
-	# "ADVANCED_DISPLAY"
 ]
 
 loop_statements = [
 	'WHILE_LOOP',
-    # "FOR_LOOP",
 ]
 
 conditional_statements = [
@@ -112,7 +108,6 @@ conditional_statements = [
 
 indentation_statements = [
 	'WHILE_LOOP',
-	# "FOR_LOOP",
 	"SIMPLE_IF_STATEMENT",
 	"SIMPLE_ELIF_STATEMENT",
 	"ELSE_STATEMENT"
@@ -123,20 +118,18 @@ non_indentation_statements = [stm for stm in pattern_vocabulary if stm not in in
 variable_creation_statements = [
 	"INITIALIZATION",
     "SIMPLE_ASSIGNMENT",
-    # "ADVANCED_ASSIGNMENT",
 	'WHILE_LOOP',
-    # "FOR_LOOP",
 ]
 
 # CUSTOM_PRINT
-import builtins
-original_print = builtins.print
+# import builtins
+# original_print = builtins.print
 
-def custom_print(*args, **kwargs):
-	formatted_args = [f"{x:.{PRINT_NB_DECIMALS}f}" if isinstance(x, float) else x for x in args]
-	original_print(*formatted_args, **kwargs)
+# def custom_print(*args, **kwargs):
+# 	formatted_args = [f"{x:.{PRINT_NB_DECIMALS}f}" if isinstance(x, float) else x for x in args]
+# 	original_print(*formatted_args, **kwargs)
 
-builtins.print = custom_print
+# builtins.print = custom_print
 
 # __FUNCTION__: EXECUTE_GEN_ACTION
 def execute_gen_action(gen_action:str):
@@ -1286,7 +1279,7 @@ if __name__ == "__main__":
 	parser.add_argument("--max_deduplication_trials", default = 50, help = "The maximum number of consecutive trials when deduplication occurs")
 	parser.add_argument("--programs_separator"		, default = "# code", help = "String to put at the top of each code example (Defaults to empty string)")
 	parser.add_argument("--use_tqdm"				, default='true', help = "Whether or not to use tqdm for monitoring progress (set to True for true, False for anything else), defaults to True)")
-	parser.add_argument("--max_var_value"			, default = 100000, help = "The maximum value above which the absolute value of created variables must not go")
+	parser.add_argument("--max_var_value"			, default = 10000, help = "The maximum value above which the absolute value of created variables must not go")
 
 	args = parser.parse_args()
 
