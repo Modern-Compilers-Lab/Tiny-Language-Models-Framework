@@ -10,7 +10,7 @@ from 	torch.nn.parallel 	import DistributedDataParallel as DDP
 
 # Set some general constants
 DDIR 		= "/data/yb2618/Tiny-Language-Models-Framework/datasets/dataset-20/datapreps-20/dataprep-20-1/data-dp-20-1/"
-deviceids 	= [6,7]
+deviceids 	= [5]
 
 # Open the log file
 # log_file = open("train.log", "w")
@@ -268,6 +268,32 @@ def get_batch(split):
 	x, y = x.to(device), y.to(device)
 	return x, y
 
+
+# Prepare the data for sft
+with open(DDIR+'train.txt', 'r') as f:
+	data = f.read()
+code_trace_examples = data.split('\n\n')
+steps_pairs = []
+for code_trace_example in code_trace_examples:
+	steps = code_trace_example.split('\n#STEP\n')
+	for i in range(len(steps)-1):
+		steps_pairs.append((
+			steps[i] + '\n#STEP\n',
+			steps[i+1] + '\n#STEP\n' if i != len(steps)-2 else steps[i+1] + '\n\n'
+		))
+
+random.shuffle(steps_pairs)
+
+from tinypy_tokenizer import TinyPyTokenizer
+tpt = TinyPyTokenizer()
+
+def get_steps_pair():
+	steps_pair = steps_pairs[iter]
+	x = torch.tensor(tpt.encode(steps_pair[0]), dtype=torch.int64).view(1, -1)
+	y = torch.tensor(tpt.encode(steps_pair[1]), dtype=torch.int64).view(1, -1)
+	x, y = x.to(device), y.to(device)
+	return x, y
+
 # Def. estimate loss on train and val splits
 @torch.no_grad()
 def estimate_loss():
@@ -302,6 +328,10 @@ num_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
 num_parameters_hr = human_readable(num_parameters)
 # log(f'The model has {num_parameters_hr} trainable parameters')
 
+# If ddp then wrap the model in DDP
+if ddp:
+	train_model = DDP(model, device_ids=[deviceids[ddp_rank]])
+
 # If compile == True compile the model
 if compile:
 	print("compiling the model... (takes a ~minute)")
@@ -310,9 +340,6 @@ if compile:
 else:
 	train_model = model
 
-# If ddp then wrap the model in DDP
-if ddp:
-	train_model = DDP(model, device_ids=[deviceids[ddp_rank]])
 
 # Initialize the optimizer
 # log("initialiazing the optimizer")
