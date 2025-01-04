@@ -10,7 +10,7 @@ from 	torch.nn.parallel 	import DistributedDataParallel as DDP
 
 # Set some general constants
 DDIR 		= "/data/yb2618/Tiny-Language-Models-Framework/datasets/dataset-20/datapreps-20/dataprep-20-1/data-dp-20-1/"
-deviceids 	= [0, 1, 4, 5]
+deviceids 	= [0,1,4,5]
 
 # Open the log file
 # log_file = open("train.log", "w")
@@ -96,6 +96,9 @@ batch_nb_tokens = batch_size * block_size
 assert batch_size % len(deviceids) == 0 # for now just to make sure
 microbatch_size = batch_size // len(deviceids) # micro batch size == batch size per device
 microbatch_nb_tokens = microbatch_size * block_size # Number of tokens in a micro-batch
+acum_steps = 1
+assert microbatch_size % acum_steps == 0
+nano_batch_size = microbatch_size // acum_steps
 dropout = 0	   	# Dropout rate
 max_pseudo_epochs = 1.7	# Number of pseudo-epochs to train for
 learning_rate = 1e-3 	# Initial Learning rate value
@@ -266,7 +269,7 @@ def get_batch(split):
 		idx = 0
 	x = torch.from_numpy((data[idx:idx+microbatch_nb_tokens]).astype(np.int64)).view(microbatch_size, block_size)
 	y = torch.from_numpy((data[idx+1:idx+1+microbatch_nb_tokens]).astype(np.int64)).view(microbatch_size, block_size)
-	x, y = x.to(device), y.to(device)
+	# x, y = x.to(device), y.to(device)
 	return x, y
 
 # Def. estimate loss on train and val splits
@@ -315,11 +318,8 @@ if ddp:
 # If compile == True compile the model
 if compile:
 	print("compiling the model... (takes a ~minute)")
-	# train_model = torch.compile(model, mode='max-autotune')
-	train_model = torch.compile(model)
-else:
-	train_model = model
-
+	train_model = torch.compile(model, mode='max-autotune')
+	# train_model = torch.compile(train_model)
 
 # Initialize the optimizer
 # log("initialiazing the optimizer")
@@ -344,23 +344,40 @@ for iter in range(max_iters):
 	
 	# Do one forward backward pass
 	past = time.time()
-	xb, yb = get_batch('train')
-	# with torch.autocast(device_type=device, dtype=torch.bfloat16):
-	logits, loss = train_model(xb, yb)
-	local_loss = loss.detach()
+	
+	# Clear the gradients
 	optimizer.zero_grad(set_to_none=True)
-	loss.backward()
+	
+	xb, yb = get_batch('train')
+	
+	micro_loss = 0
+	for acum_step in range(acum_steps):
+		nano_xb = xb[acum_step*(nano_batch_size):(acum_step+1)*(nano_batch_size)]
+		nano_yb = yb[acum_step*(nano_batch_size):(acum_step+1)*(nano_batch_size)]
+		nano_xb, nano_yb = nano_xb.to(device), nano_yb.to(device)
+		with torch.autocast(device_type=device, dtype=torch.bfloat16):
+			logits, loss = train_model(nano_xb, nano_yb)
+		loss = loss / acum_steps
+		micro_loss += loss.detach()
+		if acum_step != (acum_steps - 1) and ddp:
+			with train_model.no_sync():
+				loss.backward()
+		else:
+			loss.backward()
+				
 	if ddp:
-		dist.all_reduce(local_loss, op=dist.ReduceOp.AVG)
+		dist.all_reduce(micro_loss, op=dist.ReduceOp.AVG)
+	
 	optimizer.step()
-	torch.cuda.synchronize()
+	
+	# torch.cuda.synchronize()
 	# scheduler.step()
 	present = time.time()
 
 	# Log the training progess bar
 	if master_process:
 		# log(f"|ITERS: {iter+1} / {max_iters} | EPOCHS: {(block_size * batch_size * (iter+1))/len(train_data):.2f} | COMP: {(iter+1)/max_iters * 100:.2f}% | RATE: {1/(present-past):.2f} it./s | SPD: {(present - past) * 1000 :.4f} ms/it.| ERT: {convert_seconds((max_iters-iter-1) * (present-past))} | ET: {convert_seconds(present-train_start_time)}", p_level = 1)
-		print(f"|TRAIN_LOSS: {local_loss:.5f} | TPS: {int(batch_size*block_size/(present-past)):10} tokens/sec. | ITERS: {iter+1:{len(str(max_iters))}} / {max_iters} | EPOCHS: {(block_size * batch_size * (iter+1))/len(train_data):.2f} | COMP: {(iter+1)/max_iters * 100:.2f}% | RATE: {1/(present-past):.2f} it./s | SPD: {(present - past) * 1000 :.4f} ms/it.| ERT: {str(convert_seconds((max_iters-iter-1) * (present-past))):20}")
+		print(f"|TRAIN_LOSS: {micro_loss:.5f} | TPS: {int(batch_size*block_size/(present-past)):10} tokens/sec. | ITERS: {iter+1:{len(str(max_iters))}} / {max_iters} | EPOCHS: {(block_size * batch_size * (iter+1))/len(train_data):.2f} | COMP: {(iter+1)/max_iters * 100:.2f}% | RATE: {1/(present-past):.2f} it./s | SPD: {(present - past) * 1000 :.4f} ms/it.| ERT: {str(convert_seconds((max_iters-iter-1) * (present-past))):20}")
 
 if ddp:
 	destroy_process_group()
