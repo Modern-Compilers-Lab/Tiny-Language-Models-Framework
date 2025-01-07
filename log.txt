@@ -1,0 +1,11 @@
+Generated 0      programs,  absolute time: 0:00:00.017833,  relative time: 0:00:00.017833
+Generated 10000  programs,  absolute time: 0:00:09.369938,  relative time: 0:00:09.352105
+Generated 20000  programs,  absolute time: 0:00:19.231156,  relative time: 0:00:09.861218
+Generated 30000  programs,  absolute time: 0:00:28.792155,  relative time: 0:00:09.560999
+Generated 30000  programs,  absolute time: 0:00:28.792674,  relative time: 0:00:00.000519
+Generated 40000  programs,  absolute time: 0:00:38.447796,  relative time: 0:00:09.655122
+Generated 50000  programs,  absolute time: 0:00:49.329758,  relative time: 0:00:10.881962
+Generated 60000  programs,  absolute time: 0:01:00.651004,  relative time: 0:00:11.321246
+Generated 70000  programs,  absolute time: 0:01:11.174225,  relative time: 0:00:10.523221
+Generated 80000  programs,  absolute time: 0:01:21.903387,  relative time: 0:00:10.729162
+Generated 90000  programs,  absolute time: 0:01:32.318538,  relative time: 0:00:10.415151

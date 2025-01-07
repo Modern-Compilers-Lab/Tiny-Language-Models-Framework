@@ -13,17 +13,17 @@ from 	collections import deque
 # __PARAMETERS DASHBOARD__
 
 # GENERAL PARAMETERS
-MIN_INIT 				= 0
+MIN_INIT 				= 2
 MAX_DEPTH 				= 2
 MAX_SUB_BLOCKS 			= 2
 MIN_LENGTH 				= 5
-MAX_LENGTH 				= 20
-UNINDENTATION_SPEED 	= 0.5	# if <= 0, will never unindent after the first indentation encountered
-PRINT_NB_DECIMALS 		= 2
+MAX_LENGTH 				= 10
+UNINDENTATION_SPEED 	= 0.1	# if <= 0, will never unindent after the first indentation encountered
+PRINT_NB_DECIMALS 		= 2		# Disabled in this code
 
 # PRINT PARAMETERS
 FORCE_PRINT							= True
-PRINT_WEIGHTS_CONTROL_COEFFICIENT 	= 5
+PRINT_WEIGHTS_CONTROL_COEFFICIENT 	= 0
 
 # READ AND WRITE SECURITIES
 READ_SECURITY 				= True
@@ -41,38 +41,38 @@ NB_MAX_WHILE_LOOP_UPDATE_INTERMEDIATE_EXPRESSIONS = 2
 # WHILE LOOP PARAMETERS FOR ADD UPDATE OPERATOR
 WHILE_LOOP_ADD_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(255+1)]
 WHILE_LOOP_ADD_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(255+1)]
-WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(1, 5+1)]
-WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 for i in range(1, 5+1)]
+WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(1, 20+1)]
+WHILE_LOOP_ADD_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 1 else 3 for i in range(1, 20+1)]
 WHILE_LOOP_ADD_UO_NB_ITERS									= [i for i in range(1, 20+1)]
 
 # WHILE LOOP PARAMETERS FOR SUB UPDATE OPERATOR
 WHILE_LOOP_SUB_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(255+1)]
 WHILE_LOOP_SUB_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(255+1)]
-WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(1, 5+1)]
-WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 for i in range(1, 5+1)]
+WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(1, 20+1)]
+WHILE_LOOP_SUB_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 1 else 3 for i in range(1, 20+1)]
 WHILE_LOOP_SUB_UO_NB_ITERS									= [i for i in range(1, 20+1)]
 
 # WHILE LOOP PARAMETERS FOR DIV UPDATE OPERATOR
 WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
 WHILE_LOOP_DIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(1, 255+1)]
 WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 20+1)]
-WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
-WHILE_LOOP_DIV_UO_NB_ITERS									= [i for i in range(1, 10+1)]
+WHILE_LOOP_DIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 3 for i in range(2, 20+1)]
+WHILE_LOOP_DIV_UO_NB_ITERS									= [i for i in range(1, 5+1)]
 WHILE_LOOP_DIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # WHILE LOOP PARAMETER FOR FLOORDIV UPDATE OPERATOR
 WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
 WHILE_LOOP_FDIV_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS 	= [1 for i in range(1, 255+1)]
 WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 20+1)]
-WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 5 for i in range(2, 20+1)]
-WHILE_LOOP_FDIV_UO_NB_ITERS									= [i for i in range(1, 20+1)]
+WHILE_LOOP_FDIV_UO_UPDATE_OPERAND_VALUES_WEIGHTS 			= [1 if i!= 10 else 3 for i in range(2, 20+1)]
+WHILE_LOOP_FDIV_UO_NB_ITERS									= [i for i in range(1, 15+1)]
 WHILE_LOOP_FDIV_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
 # WHILE LOOP PARAMETERS FOR MUL UPDATE OPERATOR
 WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES 			= [i for i in range(1, 255+1)]
 WHILE_LOOP_MUL_UO_CONTROL_VARIABLE_INITIAL_VALUES_WEIGHTS	= [1 for i in range(1, 255+1)]
-WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 10+1)]
-WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES_WEIGHTS				= [1 if i!= 10 else 5 for i in range(2, 10+1)]
+WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES 					= [i for i in range(2, 20+1)]
+WHILE_LOOP_MUL_UO_UPDATE_OPERAND_VALUES_WEIGHTS				= [1 if i!= 10 else 3 for i in range(2, 20+1)]
 WHILE_LOOP_MUL_UO_NB_ITERS									= [i for i in range(1, 5+1)]
 WHILE_LOOP_MUL_UO_NB_ITERS_WEIGHTS_CONTROL_COEFFICIENT		= 0.1
 
@@ -89,20 +89,17 @@ RELATIONAL_OPERATORS 	= ["<", ">", "<=", ">=", "!=", "=="]
 
 pattern_vocabulary = [
 	"INITIALIZATION",
+	'DIRECT_ASSIGNMENT',
 	"SIMPLE_ASSIGNMENT",
-	# "ADVANCED_ASSIGNMENT",
 	"SIMPLE_IF_STATEMENT",
 	"SIMPLE_ELIF_STATEMENT",
     "ELSE_STATEMENT",
 	'WHILE_LOOP',
-    # "FOR_LOOP",
 	"DISPLAY",
-	# "ADVANCED_DISPLAY"
 ]
 
 loop_statements = [
 	'WHILE_LOOP',
-    # "FOR_LOOP",
 ]
 
 conditional_statements = [
@@ -112,7 +109,6 @@ conditional_statements = [
 
 indentation_statements = [
 	'WHILE_LOOP',
-	# "FOR_LOOP",
 	"SIMPLE_IF_STATEMENT",
 	"SIMPLE_ELIF_STATEMENT",
 	"ELSE_STATEMENT"
@@ -122,21 +118,20 @@ non_indentation_statements = [stm for stm in pattern_vocabulary if stm not in in
 
 variable_creation_statements = [
 	"INITIALIZATION",
+	'DIRECT_ASSIGNMENT',
     "SIMPLE_ASSIGNMENT",
-    # "ADVANCED_ASSIGNMENT",
 	'WHILE_LOOP',
-    # "FOR_LOOP",
 ]
 
 # CUSTOM_PRINT
-import builtins
-original_print = builtins.print
+# import builtins
+# original_print = builtins.print
 
-def custom_print(*args, **kwargs):
-	formatted_args = [f"{x:.{PRINT_NB_DECIMALS}f}" if isinstance(x, float) else x for x in args]
-	original_print(*formatted_args, **kwargs)
+# def custom_print(*args, **kwargs):
+# 	formatted_args = [f"{x:.{PRINT_NB_DECIMALS}f}" if isinstance(x, float) else x for x in args]
+# 	original_print(*formatted_args, **kwargs)
 
-builtins.print = custom_print
+# builtins.print = custom_print
 
 # __FUNCTION__: EXECUTE_GEN_ACTION
 def execute_gen_action(gen_action:str):
@@ -169,6 +164,46 @@ def execute_gen_action(gen_action:str):
 			# Append the code
 			tabs = '	' * (len(context_stack)-1)
 			code = code + f'{tabs}{identifier} = {random.choice(DIGIT)}\n'
+
+			# Update the line_counter
+			line_counter += 1
+		
+		case 'DIRECT_ASSIGNMENT':
+
+			# Select the readable_variables to choose from
+			readable_variables = context_stack[-1]['readable_variables']
+			if not READ_SECURITY:
+				readable_variables = all_assigned_variables
+
+			# Select the writable variables to choose from
+			writable_variables = context_stack[-1]['writable_variables']
+			if not WRITE_SECURITY:
+				writable_variables = VARIABLES
+
+			# Choose the asigned identifier i.e. the name of the variable to assign
+			if len(readable_variables) != 0:
+				asgnd_id = random.choice(readable_variables)
+			else:
+				asgnd_id = random.choice(DIGIT)
+
+			# Choose the assignee identifier i.e. the name of the variable to assign to
+			assignee = random.choice(writable_variables)
+
+			# Add the assignee to the readable_variables of current context if not already present
+			if assignee not in context_stack[-1]['readable_variables']:
+				context_stack[-1]['readable_variables'].append(assignee)
+			
+			# Add the assignee to the all_assigned_variables if not already present
+			if assignee not in all_assigned_variables:
+				all_assigned_variables.append(assignee)
+			
+			# Append the code
+			tabs = '	' * (len(context_stack)-1)
+			code = code + f'{tabs}{assignee} = {asgnd_id}\n'
+
+			# Update the current context
+			context_stack[-1]['if_state'] = False
+			context_stack[-1]['nb_lines_in_block'] += 1
 
 			# Update the line_counter
 			line_counter += 1
@@ -251,6 +286,7 @@ def execute_gen_action(gen_action:str):
 
 			# Stack the new context
 			context_stack.append({
+				'current_block': 'IF_BLOCK',
 				'nb_if_blocks': 0,
 				'nb_while_loops': 0,
 				'nb_for_loops': 0,
@@ -293,6 +329,7 @@ def execute_gen_action(gen_action:str):
 
 			# Stack the new context
 			context_stack.append({
+				'current_block': 'IF_BLOCK',
 				'nb_if_blocks': 0,
 				'nb_while_loops': 0,
 				'nb_for_loops': 0,
@@ -319,6 +356,7 @@ def execute_gen_action(gen_action:str):
 
 			# Stack the new context
 			context_stack.append({
+				'current_block': 'IF_BLOCK',
 				'nb_if_blocks': 0,
 				'nb_while_loops': 0,
 				'nb_for_loops': 0,
@@ -892,16 +930,22 @@ def execute_gen_action(gen_action:str):
 					if not WRITE_SECURITY:
 						writable_variables = VARIABLES
 
-					# Choose operand 1 and 2 (either a variable or a digit)
+					# Choose default operand (either a variable or a digit)
 					if len(readable_variables) != 0:
 						operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
-						operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
 					else:
 						operand1 = random.choice(DIGIT)
-						operand2 = random.choice(DIGIT)
 					
-					# Choose operator
-					operator = random.choice(ARITHMETIC_OPERATORS)
+					# Choose if we add a second operand
+					if random.random() < 0.5:
+						if len(readable_variables) != 0:
+							operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+						else:
+							operand2 = random.choice(DIGIT)
+						operator = random.choice(ARITHMETIC_OPERATORS)
+						additional_expr = f' {operator} {operand2}'
+					else:
+						additional_expr = ''
 					
 					# Choose identifier from the new_writable_variables
 					identifier = random.choice(writable_variables)
@@ -915,7 +959,7 @@ def execute_gen_action(gen_action:str):
 						all_assigned_variables.append(identifier)
 					
 					# Create the intermediate expression
-					intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
+					intermediate_expression = f'{tabs}{identifier} = {operand1}{additional_expr}\n'
 					
 					# Append it to while_prologue
 					while_prologue += intermediate_expression
@@ -934,6 +978,7 @@ def execute_gen_action(gen_action:str):
 
 			# Stack the new context
 			context_stack.append({
+				'current_block': 'WHILE_BLOCK',
 				'nb_if_blocks': 0,
 				'nb_while_loops': 0,
 				'nb_for_loops': 0,
@@ -1007,31 +1052,37 @@ def execute_gen_action(gen_action:str):
 					if not WRITE_SECURITY:
 						writable_variables = VARIABLES
 			
-					# Choose operand1 and operand2 (either a variable or a digit)
+					# Choose default operand (either a variable or a digit)
 					if len(readable_variables) != 0:
 						operand1 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
-						operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
 					else:
 						operand1 = random.choice(DIGIT)
-						operand2 = random.choice(DIGIT)
 					
-					# Choose operator
-					operator = random.choice(ARITHMETIC_OPERATORS)
+					# Choose if we add a second operand
+					if random.random() < 0.5:
+						if len(readable_variables) != 0:
+							operand2 = random.choice((random.choice(readable_variables), random.choice(DIGIT)))
+						else:
+							operand2 = random.choice(DIGIT)
+						operator = random.choice(ARITHMETIC_OPERATORS)
+						additional_expr = f' {operator} {operand2}'
+					else:
+						additional_expr = ''
 					
-					# Choose identifier from the tmp_writable_variables
+					# Choose identifier from the new_writable_variables
 					identifier = random.choice(writable_variables)
 					
-					# Add the identifier to the readable_variables of the current context if not already there
+					# Add identifier to readable_variables of current context if not already there
 					if identifier not in context_stack[-1]['readable_variables']:
 						context_stack[-1]['readable_variables'].append(identifier)
 					
-					# Add the identifier to all assigned variables if not already there
+					# Add identifier to all assigned variables if not already there
 					if identifier not in all_assigned_variables:
 						all_assigned_variables.append(identifier)
-
-					# Create the intermediate expression
-					intermediate_expression = f'{tabs}{identifier} = {operand1} {operator} {operand2}\n'
 					
+					# Create the intermediate expression
+					intermediate_expression = f'{tabs}{identifier} = {operand1}{additional_expr}\n'
+
 					# Add it the the while_update_code
 					while_update_code = while_update_code + intermediate_expression
 				
@@ -1083,6 +1134,7 @@ def execute_gen_action(gen_action:str):
 			
 			# Stack the new context
 			context_stack.append({
+				'current_block': 'FOR_BLOCK',
 				'nb_if_blocks': 0,
 				'nb_while_loops': 0,
 				'nb_for_loops': 0,
@@ -1180,10 +1232,21 @@ def queue_gen_actions():
 	
 	# __In other cases__
 	if True:
-
+		
 		# We set the potential keywords
 		potential_keywords = list(pattern_vocabulary)
 
+		# Remove the print statements in the middle of the code
+		potential_keywords.remove('DISPLAY')
+		
+		# If we are in a while loop we remove the possibility to have an inner while loop
+		if context_stack[-1]['current_block'] == 'WHILE_BLOCK':
+			potential_keywords.remove('WHILE_LOOP')
+		
+		# If we are in an if block we remove all inner if statements and while loops
+		if context_stack[-1]['current_block'] == 'IF_BLOCK':
+			potential_keywords = [potential_keyword for potential_keyword in potential_keywords if potential_keyword not in indentation_statements]
+		
 		# Check for while_state
 		if context_stack[-1]['while_state']:
 			potential_keywords.append('WHILE_UPDATE')
@@ -1203,6 +1266,11 @@ def queue_gen_actions():
 
 		# We choose a keyword randomly and queue it
 		keyword = random.choice(potential_keywords)
+		
+		# If we end the code snippet, add a DISPLAY statement right before ending
+		if keyword == 'END':
+			context_stack[-1]['actions_queue'].append('DISPLAY')
+		
 		context_stack[-1]['actions_queue'].append(keyword)
 		
 		# Exit
@@ -1220,6 +1288,7 @@ def generate_random_code():
 	context_stack = list()
 	context_stack.append(
 		{
+			'current_block': 'ROOT',
 			'nb_if_blocks': 0,
 			'nb_while_loops': 0,
 			'nb_for_loops': 0,
@@ -1277,8 +1346,8 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = "Full Random TinyPy Generator")
 	
 	parser.add_argument("--random_state"			, default = None, help = "Path to python random state to be loaded if any")
-	parser.add_argument("--nb_programs"				, default = 10000, help = "Number of programs to be generated")
-	parser.add_argument("--output_file"				, default = "./prg_testing/data.txt", help = "Number of programs to be generated")
+	parser.add_argument("--nb_programs"				, default = 1000, help = "Number of programs to be generated")
+	parser.add_argument("--output_file"				, default = None, help = "Number of programs to be generated")
 	parser.add_argument("--timeout"					, default = 2, help = "Number of seconds to wait for a process to terminate")
 	parser.add_argument("--log_file"				, default = "./log.txt", help = "The path to the logging file for monitoring progress")
 	parser.add_argument("--log_interval"			, default = 10000, help = "The number of code snippets generations before logging to the --log_file for monitoring progress")
@@ -1286,7 +1355,7 @@ if __name__ == "__main__":
 	parser.add_argument("--max_deduplication_trials", default = 50, help = "The maximum number of consecutive trials when deduplication occurs")
 	parser.add_argument("--programs_separator"		, default = "# code", help = "String to put at the top of each code example (Defaults to empty string)")
 	parser.add_argument("--use_tqdm"				, default='true', help = "Whether or not to use tqdm for monitoring progress (set to True for true, False for anything else), defaults to True)")
-	parser.add_argument("--max_var_value"			, default = 100000, help = "The maximum value above which the absolute value of created variables must not go")
+	parser.add_argument("--max_var_value"			, default = 10000, help = "The maximum value above which the absolute value of created variables must not go")
 
 	args = parser.parse_args()
 

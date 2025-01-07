@@ -1,0 +1,15740 @@
+# code
+x = 44
+l = 88
+if 69 >= x:
+	j = x % l
+	w = 67
+m = 155
+v = x
+s = x
+while 1419 >= m:
+	t = m * 10
+	v = 82
+	i = 6
+	m = t
+print(v)
+# output
+# 82
+
+# code
+s = 41
+v = 84
+if 44 > 68:
+	z = 90
+c = 57
+while -233 <= c:
+	g = c - 15
+	s = 18
+	a = 15
+	c = g
+print(s)
+# output
+# 18
+
+# code
+o = 5
+t = 80
+c = o - 20
+if t <= 45:
+	d = 72
+g = c
+f = 18
+e = 57
+v = 49
+while f < 122:
+	x = f + 10
+	c = o // 67
+	m = 29
+	f = x
+print(f)
+# output
+# 128
+
+# code
+k = 17
+f = 9
+g = 168
+w = 0
+while w < g:
+	if 11 <= g:
+		h = 52
+	g = g // 13
+print(k)
+# output
+# 17
+
+# code
+q = 1
+x = 42
+if 9 >= x:
+	r = q
+b = 1
+v = b
+while 49 >= b:
+	c = b + 4
+	q = v
+	g = 51 * b
+	b = c
+print(b)
+# output
+# 53
+
+# code
+m = 57
+w = 34
+r = 108
+j = r * 31
+c = 90
+while r >= c:
+	if j >= r:
+		i = 89 % 90
+	e = c * 6
+	n = 52 * 93
+	c = e
+print(r)
+# output
+# 108
+
+# code
+p = 0
+u = 0
+j = u
+if j != 19:
+	s = j
+c = 211
+j = 13
+while 202 < c:
+	c = c - j
+print(p)
+# output
+# 0
+
+# code
+t = 39
+x = 60
+if x < t:
+	s = 39
+m = 180
+q = 1
+while m <= 181:
+	t = m + q
+	p = x
+	m = t
+print(t)
+# output
+# 182
+
+# code
+j = 12
+c = 52
+if 43 <= c:
+	e = 26 % c
+k = 11
+v = 34
+y = 209
+w = 13
+z = 33 // 18
+q = y // 82
+while 776 < y:
+	n = y * w
+	t = z
+	x = w
+	y = n
+print(w)
+# output
+# 13
+
+# code
+o = 76
+t = 4
+x = 71
+while 0 < x:
+	a = o
+	x = x // 9
+	if x >= 22:
+		s = 82
+print(x)
+# output
+# 0
+
+# code
+a = 0
+r = 35
+if 15 != 39:
+	x = 71
+n = 230
+b = 7 * r
+c = 159
+a = 10
+while n > c:
+	n = n - a
+print(n)
+# output
+# 150
+
+# code
+h = 39
+b = 90
+k = b
+f = 50
+l = 0
+while l < f:
+	if 20 > 14:
+		print(h)
+	f = f // 19
+# output
+# 39
+# 39
+
+# code
+z = 92
+j = 30
+if 46 <= j:
+	u = 3
+l = 173
+n = l
+while 470 <= l:
+	l = l * 6
+print(z)
+# output
+# 92
+
+# code
+v = 78
+b = 26
+q = b
+if b != 78:
+	d = 71
+v = 234
+n = b // 48
+while 721 > v:
+	l = v * 10
+	b = q
+	v = l
+print(v)
+# output
+# 2340
+
+# code
+s = 72
+v = 27
+g = -74
+k = 63 - v
+o = 27
+while g <= o:
+	if o < g:
+		i = 0
+	o = o - 20
+print(g)
+# output
+# -74
+
+# code
+a = 50
+x = 55
+l = x
+w = 116
+r = 2
+while 214 <= w:
+	if w != 96:
+		print(l)
+	w = w * r
+print(x)
+# output
+# 55
+
+# code
+d = 25
+h = 17
+j = h + d
+if h == h:
+	d = 1
+i = 0
+s = 39
+x = 19
+b = 145
+while b > i:
+	f = b // x
+	k = i % d
+	j = 77
+	b = f
+print(j)
+# output
+# 77
+
+# code
+y = 7
+w = 48
+z = w // 31
+if y > 97:
+	k = y // 25
+e = 237
+r = 136
+s = 15
+while e >= r:
+	e = e - 6
+print(y)
+# output
+# 7
+
+# code
+x = 59
+u = 90
+g = 2
+i = 36
+while 0 < g:
+	if 68 != i:
+		w = x * x
+	m = g // 8
+	b = 8 // 48
+	g = m
+print(u)
+# output
+# 90
+
+# code
+b = 22
+i = 69
+x = 146
+n = 18
+p = 222
+while p > x:
+	if b < n:
+		c = 73
+	y = p - 4
+	b = b - b
+	p = y
+print(b)
+# output
+# 0
+
+# code
+w = 70
+u = 90
+if 60 < 53:
+	s = 15
+n = 63
+b = u - 43
+p = u
+while n >= 24:
+	v = n - 12
+	g = 2 + 34
+	n = v
+print(n)
+# output
+# 15
+
+# code
+j = 74
+u = 62
+i = 42
+n = 34 - i
+z = 20
+while 65 > i:
+	if u > j:
+		u = u // 24
+	i = i + z
+print(u)
+# output
+# 62
+
+# code
+c = 20
+y = 44
+h = c * 70
+l = 235
+g = 220
+while l > g:
+	if h <= 13:
+		s = h
+	l = l - 1
+print(c)
+# output
+# 20
+
+# code
+d = 66
+l = 64
+s = 213
+u = 206
+l = 73
+while s >= u:
+	if 46 == s:
+		print(l)
+	s = s - 14
+print(u)
+# output
+# 206
+
+# code
+d = 47
+g = 98
+f = d - 87
+if f != g:
+	j = f
+	h = 73
+h = 232
+while 444 >= h:
+	n = h + 16
+	z = h
+	h = n
+print(g)
+# output
+# 98
+
+# code
+h = 76
+z = 23
+if z >= h:
+	n = 16
+	j = 3
+x = 2
+e = 205
+z = 243
+while z >= e:
+	e = e * x
+print(e)
+# output
+# 410
+
+# code
+i = 15
+o = 28
+p = 9
+l = 123
+e = 12
+while e <= l:
+	if 47 == o:
+		x = 59
+	z = e + p
+	q = 60
+	e = z
+print(e)
+# output
+# 129
+
+# code
+y = 7
+m = 93
+m = 17
+s = 90 * 80
+if m == 83:
+	d = 63
+k = 137
+r = s + 7
+while k > 0:
+	k = k // 3
+print(s)
+# output
+# 7200
+
+# code
+s = 70
+u = 65
+v = 160
+r = u + v
+i = 13
+while 483 >= v:
+	if 59 != v:
+		a = 72
+	v = v * i
+print(i)
+# output
+# 13
+
+# code
+p = 57
+s = 80
+if p <= 99:
+	g = s // s
+z = 0
+m = 253
+while z < m:
+	m = m // 13
+print(m)
+# output
+# 0
+
+# code
+k = 47
+i = 39
+w = 2
+d = 173
+while w < d:
+	if 8 == i:
+		k = 41 * 81
+	d = d // 7
+print(w)
+# output
+# 2
+
+# code
+n = 20
+s = 1
+u = s
+if 28 < 98:
+	h = 76
+q = n % 27
+c = 190
+while -170 <= c:
+	m = c - 19
+	a = c + u
+	q = 62
+	c = m
+print(u)
+# output
+# 1
+
+# code
+b = 2
+e = 28
+d = 49 // b
+n = 1
+if e != 21:
+	r = 29
+u = 1778
+c = e
+p = 124
+i = 20
+while u > p:
+	p = p * i
+print(b)
+# output
+# 2
+
+# code
+m = 53
+c = 66
+if m >= c:
+	d = 57
+o = c + m
+e = 165
+h = 13
+while 102 <= e:
+	e = e - h
+print(m)
+# output
+# 53
+
+# code
+z = 19
+d = 4
+c = d
+if 35 > 45:
+	d = 49
+	q = z
+s = 61
+l = 37
+j = 69
+while l <= s:
+	d = l + 16
+	h = 37 * 39
+	e = 59 * 43
+	l = d
+print(j)
+# output
+# 69
+
+# code
+f = 43
+z = 99
+y = f
+if y >= 36:
+	u = y
+m = 59 * y
+g = 180
+w = 297
+h = w
+while w > g:
+	x = g * 2
+	h = h - h
+	v = g % 88
+	g = x
+print(y)
+# output
+# 43
+
+# code
+y = 93
+b = 5
+d = 167
+a = 6
+while 441 > d:
+	if a > d:
+		h = y
+	d = d * a
+print(a)
+# output
+# 6
+
+# code
+f = 69
+w = 65
+p = w + w
+j = 91
+if j >= j:
+	q = w % w
+i = 154
+while i < 225:
+	s = i + 8
+	m = i
+	i = s
+print(f)
+# output
+# 69
+
+# code
+v = 15
+v = 90
+q = 21
+u = v
+if 13 > 38:
+	b = 3
+o = 132
+b = q
+while o > -105:
+	o = o - 13
+print(q)
+# output
+# 21
+
+# code
+y = 83
+r = 93
+if 47 == 22:
+	t = 87
+	t = 29
+a = 209
+k = 18
+x = k + k
+while a >= 41:
+	a = a - k
+print(x)
+# output
+# 36
+
+# code
+a = 44
+z = 42
+if z != 68:
+	g = a
+r = 137
+s = 101
+g = 8 * r
+f = r
+while r > s:
+	n = s * 5
+	p = 29
+	s = n
+print(g)
+# output
+# 1096
+
+# code
+f = 56
+o = 74
+k = 161
+s = 59
+while 168 < k:
+	if s <= 7:
+		z = s
+	k = k * 8
+print(o)
+# output
+# 74
+
+# code
+s = 94
+n = 32
+if n < n:
+	o = s
+	n = 44
+a = 74
+z = 209
+i = 7
+u = 31
+m = 88
+while z > 0:
+	z = z // i
+print(i)
+# output
+# 7
+
+# code
+i = 95
+s = 49
+y = 177
+m = i // s
+while 0 < y:
+	h = m * 30
+	if y >= 98:
+		h = 43
+	p = y // 9
+	w = 34 - 49
+	y = p
+print(s)
+# output
+# 49
+
+# code
+f = 60
+w = 46
+x = w
+x = 218
+g = 415
+while x < g:
+	if x != g:
+		v = w
+	e = x + 17
+	v = 41 // x
+	s = x
+	x = e
+print(g)
+# output
+# 415
+
+# code
+e = 99
+y = 7
+b = 36 % y
+e = y
+if 56 >= 2:
+	a = e
+h = 80
+z = 9
+l = z
+i = 46
+c = 223
+while c >= h:
+	h = h + z
+print(h)
+# output
+# 224
+
+# code
+f = 39
+a = 4
+z = a
+if 22 <= 73:
+	h = 33
+	q = 40
+s = 2
+q = 58 + f
+t = s
+d = 110
+while d > 0:
+	w = d // s
+	p = s % 66
+	r = d % 24
+	d = w
+print(f)
+# output
+# 39
+
+# code
+n = 73
+b = 9
+if b > 3:
+	x = b
+r = 0
+j = 69
+while r < j:
+	j = j // 3
+print(r)
+# output
+# 0
+
+# code
+w = 27
+b = 67
+c = b
+l = 75
+if l <= c:
+	j = 62
+q = 138
+while q > 0:
+	x = q // 19
+	o = 84
+	q = x
+print(c)
+# output
+# 67
+
+# code
+e = 78
+w = 39
+g = w * 6
+z = 54
+v = z - g
+while z >= 44:
+	if w != 38:
+		f = e
+	z = z - 1
+print(z)
+# output
+# 43
+
+# code
+b = 47
+i = 41
+o = 83
+v = 12
+while o > -21:
+	if 90 <= b:
+		m = i
+	h = o - v
+	b = o
+	o = h
+print(b)
+# output
+# -13
+
+# code
+p = 43
+s = 27
+g = 115
+j = 68
+r = 18
+while g < 434:
+	if 66 <= 57:
+		m = g
+	g = g + r
+print(s)
+# output
+# 27
+
+# code
+a = 72
+q = 33
+k = 66
+f = 135
+e = 15
+while f >= k:
+	if f >= 88:
+		d = q
+	q = k + e
+	a = 93
+	z = 7
+	k = q
+print(e)
+# output
+# 15
+
+# code
+y = 21
+g = 95
+c = 90 - 46
+g = 158
+while 384 >= g:
+	s = y % 33
+	if y >= 56:
+		q = g
+	q = g + 14
+	c = y - 18
+	g = q
+print(c)
+# output
+# 3
+
+# code
+g = 64
+b = 56
+if g > b:
+	f = b % b
+elif b != b:
+	x = g
+s = 32
+b = -225
+l = 57 // 44
+v = l
+while s >= b:
+	s = s - 15
+print(s)
+# output
+# -238
+
+# code
+o = 96
+f = 0
+p = f
+f = 66
+b = f // 33
+while 0 < f:
+	if p == b:
+		e = p
+	f = f // 19
+print(o)
+# output
+# 96
+
+# code
+d = 47
+d = 50
+if 98 > 72:
+	b = d
+elif d == d:
+	d = d // d
+j = 2
+q = 202
+o = 170
+l = d // q
+while o <= q:
+	o = o + j
+print(l)
+# output
+# 0
+
+# code
+m = 16
+w = 2
+k = 7
+l = 148
+f = 135
+while f <= l:
+	if l < 52:
+		print(w)
+	h = f + k
+	j = 45 * 22
+	f = h
+print(w)
+# output
+# 2
+
+# code
+z = 22
+c = 57
+r = 6
+l = 24
+while -40 < l:
+	i = 64
+	if l <= 23:
+		print(i)
+	h = l - r
+	d = 58
+	e = 50 - 17
+	l = h
+# output
+# 64
+# 64
+# 64
+# 64
+# 64
+# 64
+# 64
+# 64
+# 64
+# 64
+
+# code
+p = 83
+n = 44
+if n >= p:
+	h = n - n
+p = 0
+h = 13
+n = h
+f = 66
+while f > p:
+	x = f // h
+	k = n * n
+	f = n + p
+	f = x
+print(f)
+# output
+# 0
+
+# code
+e = 81
+n = 33
+if n != 99:
+	n = 43
+	z = e
+	x = 24
+w = 72
+while 113 <= w:
+	w = w * 11
+print(w)
+# output
+# 72
+
+# code
+e = 35
+h = 74
+n = 83
+y = n + 83
+while n >= 45:
+	n = n - 9
+	if 98 > 1:
+		l = 42
+print(h)
+# output
+# 74
+
+# code
+m = 37
+l = 74
+g = 247
+o = 21
+x = 0
+while x < g:
+	if 42 >= 47:
+		p = 51
+	y = g // 10
+	d = l + m
+	g = y
+print(o)
+# output
+# 21
+
+# code
+h = 76
+o = 22
+a = 18
+e = 127
+o = e // 42
+while e > -91:
+	if 15 < 66:
+		v = e + e
+	e = e - a
+print(e)
+# output
+# -107
+
+# code
+w = 85
+z = 81
+if 85 != z:
+	u = w
+f = z
+f = 41
+o = 19
+while f >= -187:
+	d = f - o
+	s = 41 * 30
+	f = d
+print(z)
+# output
+# 81
+
+# code
+p = 91
+m = 16
+if 99 < 26:
+	j = 80
+	j = 99 * 55
+	h = 78 // j
+r = 236
+v = 2
+i = v * 71
+while 234 <= r:
+	r = r - v
+print(r)
+# output
+# 232
+
+# code
+t = 16
+w = 54
+u = t
+if 28 <= 89:
+	j = 38
+q = 73
+y = 75
+while 361 >= y:
+	z = y + 15
+	u = 89 - t
+	f = 88 * q
+	y = z
+print(w)
+# output
+# 54
+
+# code
+h = 36
+d = 8
+c = 8
+k = 15
+d = 204
+while d > 0:
+	if 78 < k:
+		v = 38 % 11
+	d = d // k
+print(h)
+# output
+# 36
+
+# code
+v = 23
+u = 60
+if v > v:
+	d = 25
+c = 103
+y = 93 - 83
+f = 71 - 45
+while c <= 124:
+	w = c + 12
+	q = 88
+	c = w
+print(v)
+# output
+# 23
+
+# code
+d = 38
+g = 10
+if g != g:
+	t = 96
+	o = 48 // 68
+	g = 42 % 44
+l = 165
+s = 14
+f = 26 // s
+p = 57 // g
+j = 1558
+while j >= l:
+	l = l * s
+print(l)
+# output
+# 2310
+
+# code
+v = 63
+a = 26
+if 36 >= 65:
+	q = a
+w = 84
+d = 30
+l = v
+while 339 > w:
+	w = w + 18
+print(d)
+# output
+# 30
+
+# code
+l = 99
+f = 44
+o = 175
+a = 1521
+while a >= o:
+	if a != a:
+		h = f // l
+	o = o * 10
+print(a)
+# output
+# 1521
+
+# code
+c = 88
+x = 88
+b = 39
+k = 55
+if c <= k:
+	o = 58
+o = 1
+r = 51
+j = 57
+while r <= j:
+	d = r + o
+	s = c - k
+	r = d
+print(c)
+# output
+# 88
+
+# code
+p = 66
+t = 58
+q = 309
+u = 66
+while q >= u:
+	i = p
+	if 4 >= p:
+		print(q)
+	x = u + 13
+	l = p
+	b = p
+	u = x
+print(q)
+# output
+# 309
+
+# code
+w = 95
+h = 60
+c = 48
+q = 252
+while q > 0:
+	s = c
+	if 49 == w:
+		j = s
+	j = q // 17
+	n = h
+	x = q
+	q = j
+print(h)
+# output
+# 60
+
+# code
+l = 77
+r = 72
+if 52 != r:
+	x = 19
+q = l
+a = 63
+p = 91
+k = r - 0
+while -20 <= a:
+	m = a - 11
+	b = 39 // 79
+	a = m
+print(27)
+# output
+# 27
+
+# code
+b = 6
+g = 48
+g = 147
+while 195 >= g:
+	if 51 == 29:
+		r = 45
+	u = g + 16
+	x = g // 26
+	d = 8 // b
+	g = u
+print(g)
+# output
+# 211
+
+# code
+f = 15
+o = 56
+if 74 < 61:
+	j = o
+z = 22
+d = -139
+while z >= d:
+	w = z - 10
+	r = 28
+	n = r
+	z = w
+print(o)
+# output
+# 56
+
+# code
+t = 72
+r = 18
+i = 43
+l = i
+while i >= 14:
+	i = i - 7
+	if r <= t:
+		c = t
+print(r)
+# output
+# 18
+
+# code
+h = 95
+n = 23
+if 80 < 51:
+	w = h // n
+	j = 41
+h = 36
+n = 0
+while 380 > h:
+	h = h * 12
+print(n)
+# output
+# 0
+
+# code
+z = 53
+s = 93
+d = 6
+c = 57
+while 68 >= c:
+	c = c + d
+if 27 != s:
+	s = s
+print(s)
+# output
+# 93
+
+# code
+u = 23
+v = 61
+n = 253
+y = 15
+p = u // 47
+while 1944 <= n:
+	if 3 > v:
+		d = y
+	n = n * y
+print(p)
+# output
+# 0
+
+# code
+j = 18
+u = 72
+f = j
+k = 145
+while k > 70:
+	if u == k:
+		r = 60
+	m = k - 8
+	b = 53 - 24
+	j = 73
+	k = m
+print(j)
+# output
+# 73
+
+# code
+o = 71
+x = 25
+n = 68
+g = 2
+while n > g:
+	t = n // o
+	if 54 > o:
+		c = 85
+	f = n - 6
+	e = 57
+	n = f
+print(g)
+# output
+# 2
+
+# code
+y = 18
+m = 26
+if 39 < 47:
+	f = 50
+v = 173
+a = 10
+while 822 < v:
+	v = v * a
+print(a)
+# output
+# 10
+
+# code
+l = 48
+q = 97
+j = 165
+e = 10
+k = 158
+while j >= k:
+	if j <= j:
+		w = 83
+	k = k + 1
+print(j)
+# output
+# 165
+
+# code
+a = 26
+s = 26
+o = s * s
+a = 77
+r = 17
+while a > -13:
+	if r > 88:
+		n = a
+	a = a - r
+print(s)
+# output
+# 26
+
+# code
+y = 98
+v = 64
+if 74 <= y:
+	j = 41
+	x = v
+g = 160
+q = v
+j = 16
+u = j // 46
+while g > j:
+	w = g // 3
+	r = 98 * 67
+	g = w
+print(q)
+# output
+# 64
+
+# code
+i = 29
+s = 47
+r = 432
+b = 211
+while b < r:
+	x = 99 - b
+	if i > 81:
+		i = 6
+	b = b + 15
+print(b)
+# output
+# 436
+
+# code
+p = 19
+c = 84
+r = 13
+u = 40 - r
+g = 140
+while g > 0:
+	if 75 >= u:
+		l = 66 % 64
+	g = g // r
+print(c)
+# output
+# 84
+
+# code
+h = 11
+e = 65
+p = 205
+m = 61
+i = 68
+while 0 < p:
+	if h >= h:
+		o = 1
+	g = p // 19
+	e = 51 - 80
+	z = e % e
+	p = g
+print(h)
+# output
+# 11
+
+# code
+d = 70
+x = 80
+if x == d:
+	m = d
+	y = 69
+	o = d
+s = 375
+h = 223
+b = x
+while h < s:
+	h = h + 20
+print(h)
+# output
+# 383
+
+# code
+p = 20
+e = 63
+if 19 == e:
+	j = e
+	g = 50 - e
+	g = 65
+b = 72
+f = 16
+o = b
+n = 18
+while 771 >= b:
+	r = b * f
+	w = 80 + 28
+	l = b // 30
+	b = r
+print(e)
+# output
+# 63
+
+# code
+y = 95
+p = 79
+f = 32
+g = 594
+while g >= f:
+	if 42 < 54:
+		h = g // y
+	k = f * 20
+	u = 65 - 76
+	f = 58
+	f = k
+print(p)
+# output
+# 79
+
+# code
+l = 29
+k = 20
+l = k * k
+t = l
+if l <= 8:
+	n = 0
+w = 140
+h = 20
+while w > 55:
+	q = w - h
+	p = 68 + k
+	w = q
+print(k)
+# output
+# 20
+
+# code
+a = 45
+a = 26
+l = 16
+j = 243
+q = 439
+while j < q:
+	if l == l:
+		c = 45
+	j = j + l
+print(a)
+# output
+# 26
+
+# code
+f = 1
+r = 64
+t = 166
+v = 160
+while t >= v:
+	t = t - 8
+	if f == v:
+		o = 26
+print(t)
+# output
+# 158
+
+# code
+q = 89
+r = 33
+if 15 < r:
+	l = 86
+j = 11
+c = 139
+while 30 < c:
+	c = c - j
+print(q)
+# output
+# 89
+
+# code
+o = 70
+t = 70
+if 76 == 8:
+	u = t
+h = o
+b = 168
+f = 149
+n = 70 * 62
+h = 2
+while f <= b:
+	f = f + 4
+print(t)
+# output
+# 70
+
+# code
+n = 97
+x = 69
+if 48 != x:
+	q = 62
+j = 158
+x = 65
+n = n
+while j > x:
+	e = j - 11
+	l = 37
+	o = 84 // 9
+	j = e
+print(n)
+# output
+# 97
+
+# code
+p = 23
+d = 3
+if 36 >= d:
+	h = p
+	k = 99
+	q = 38
+j = 1
+d = 36
+u = 59 * d
+while -10 <= j:
+	j = j - 1
+print(37)
+# output
+# 37
+
+# code
+j = 50
+j = 67
+e = j % 83
+if j <= 9:
+	u = 18
+	i = 25
+m = 138
+q = m - e
+v = 13
+q = 288
+while q >= m:
+	m = m + v
+print(j)
+# output
+# 67
+
+# code
+z = 96
+v = 66
+n = 73
+i = 315
+while i < n:
+	if 76 <= 19:
+		l = v
+	n = n * 8
+print(z)
+# output
+# 96
+
+# code
+t = 85
+g = 66
+if t == t:
+	i = 50
+y = -8
+g = g
+o = 3
+f = 37
+d = g // y
+while y < f:
+	c = f - o
+	d = f * t
+	l = f - 55
+	f = c
+print(t)
+# output
+# 85
+
+# code
+l = 60
+o = 99
+if 27 <= o:
+	k = 24 - l
+w = 149
+while 1346 > w:
+	if 14 != 12:
+		b = 46
+	x = w * 13
+	w = o
+	w = x
+print(w)
+# output
+# 1937
+
+# code
+j = 21
+d = 66
+if 90 >= 41:
+	i = 83
+	g = i
+f = 18
+k = 238
+while k < 360:
+	t = k + f
+	b = 16
+	k = t
+print(84)
+# output
+# 84
+
+# code
+w = 5
+p = 54
+if 83 >= 32:
+	s = w
+	a = 58 * 79
+l = 0
+g = 23 * 28
+p = l
+f = 77
+x = 11
+while f > l:
+	q = f // x
+	z = 77 * 82
+	f = q
+print(f)
+# output
+# 0
+
+# code
+e = 18
+z = 53
+a = 69 * e
+if 96 == 8:
+	l = z * a
+u = z
+s = 186
+while s < 454:
+	v = s + 20
+	c = a
+	u = z * 85
+	s = v
+print(e)
+# output
+# 18
+
+# code
+s = 22
+j = 34
+if 3 > 6:
+	n = 70 // 73
+g = 10
+i = 18
+a = 90 + 61
+m = a % i
+while 199 >= i:
+	f = i + g
+	a = s
+	j = 32 * 82
+	i = f
+print(s)
+# output
+# 22
+
+# code
+c = 26
+b = 32
+if b > 98:
+	v = b
+j = 64
+x = b % c
+while j < 82:
+	j = j + 1
+print(c)
+# output
+# 26
+
+# code
+r = 29
+f = 71
+y = 139
+while y > 0:
+	if r >= y:
+		h = r
+		p = f * f
+	c = y // 5
+	k = y - 72
+	y = c
+print(y)
+# output
+# 0
+
+# code
+y = 94
+i = 38
+s = 118
+while 1049 >= s:
+	if s <= 86:
+		r = y * i
+	s = s * 11
+print(s)
+# output
+# 1298
+
+# code
+l = 7
+s = 89
+g = 224
+o = 2
+u = 7
+while 1016 < g:
+	if l <= o:
+		w = 35
+	g = g * 14
+print(s)
+# output
+# 89
+
+# code
+y = 98
+s = 77
+z = s
+if 21 > 18:
+	i = s
+	f = z % s
+y = 55
+u = 59 // z
+k = 99
+while y < 205:
+	y = y + 12
+print(k)
+# output
+# 99
+
+# code
+i = 90
+y = 9
+if y == i:
+	r = i
+	c = 33 - i
+v = 8
+j = 94
+k = 34 % 43
+w = i
+while 431 > j:
+	j = j * 16
+print(j)
+# output
+# 1504
+
+# code
+g = 38
+k = 52
+y = k
+f = 75 % 76
+h = 212
+while 1293 < h:
+	if f != 81:
+		b = 79
+	i = h * 8
+	y = k
+	r = 61 * f
+	h = i
+print(f)
+# output
+# 75
+
+# code
+n = 27
+v = 35
+l = 11
+q = 2
+while l > -13:
+	if 46 > 54:
+		u = 42
+	l = l - q
+print(l)
+# output
+# -13
+
+# code
+j = 38
+b = 45
+if 98 != j:
+	g = b
+	j = 7
+p = 40
+b = 17
+while -220 < p:
+	p = p - b
+print(j)
+# output
+# 7
+
+# code
+g = 15
+i = 22
+if 98 < i:
+	d = g % g
+	g = 58
+w = 74 % i
+u = 881
+d = 15
+k = 77
+while u >= k:
+	k = k * d
+print(g)
+# output
+# 15
+
+# code
+t = 6
+f = 84
+a = f
+m = 5
+if f != m:
+	o = a * f
+l = 162
+p = 2
+j = 196
+while l < j:
+	o = j - p
+	h = p
+	t = a - 6
+	j = o
+print(t)
+# output
+# 78
+
+# code
+m = 54
+i = 1
+s = -72
+r = 24
+while s <= r:
+	j = i
+	if r >= i:
+		k = s - m
+	j = r - 10
+	k = m // 56
+	g = m - 69
+	r = j
+print(s)
+# output
+# -72
+
+# code
+w = 58
+z = 77
+if z >= z:
+	t = w
+	i = 56
+b = w
+y = 9
+q = 6
+r = -83
+while q >= r:
+	q = q - y
+print(z)
+# output
+# 77
+
+# code
+e = 18
+v = 91
+if 36 <= e:
+	d = v
+q = 80 - e
+k = 44
+h = v
+q = 4
+n = q + 48
+while k > 1:
+	k = k // q
+print(58)
+# output
+# 58
+
+# code
+e = 1
+k = 33
+x = e
+if x != 55:
+	x = k
+	u = e * 83
+s = 4
+c = k
+f = 247
+b = c * 39
+while 745 <= f:
+	f = f * s
+print(f)
+# output
+# 247
+
+# code
+i = 52
+d = 74
+n = 37
+if 50 < 31:
+	q = 0
+x = i + 52
+p = 19
+u = 43
+n = i + d
+while u <= 307:
+	u = u + p
+print(43)
+# output
+# 43
+
+# code
+t = 15
+t = 57
+z = t
+if 19 > 83:
+	m = t
+	t = 43
+t = 130
+a = z
+u = z + z
+while t <= 278:
+	t = t + 10
+print(z)
+# output
+# 57
+
+# code
+i = 46
+s = 75
+z = 82
+while 0 < z:
+	x = 98 * 24
+	z = z // 10
+if i == 23:
+	print(s)
+print(z)
+# output
+# 0
+
+# code
+i = 2
+l = 48
+if 82 >= i:
+	d = 58
+	u = l * l
+	g = 51 - 72
+m = 9
+j = l + m
+d = 123
+x = m
+g = -33
+while g <= d:
+	n = d - m
+	o = m
+	t = g * d
+	d = n
+print(i)
+# output
+# 2
+
+# code
+d = 9
+q = 64
+if q == 12:
+	s = 48 * d
+z = 1
+m = z
+p = 226
+v = m
+while 227 >= p:
+	p = p + z
+print(v)
+# output
+# 1
+
+# code
+d = 65
+z = 94
+if 18 < 94:
+	h = 96
+j = z
+f = 221
+i = 15 // 41
+s = 8
+z = 186
+w = d - j
+while f <= z:
+	z = z * s
+print(i)
+# output
+# 0
+
+# code
+h = 20
+s = 53
+if s >= 71:
+	p = 2 % 38
+a = 34
+while a <= 82:
+	if s < 81:
+		z = 62
+	a = a + 3
+print(h)
+# output
+# 20
+
+# code
+g = 69
+q = 67
+m = 190
+k = 1739
+while k >= m:
+	m = m * 15
+	if 45 <= 27:
+		b = 3
+print(m)
+# output
+# 2850
+
+# code
+d = 95
+o = 68
+g = 55
+n = 165
+while 1316 >= n:
+	if n != 78:
+		m = 26 % 57
+	p = n * 10
+	e = 0 + n
+	d = o % 86
+	n = p
+print(n)
+# output
+# 1650
+
+# code
+z = 77
+w = 38
+if w > z:
+	r = 85
+	n = w // 29
+w = 6 - w
+j = 13
+b = 88
+p = 41
+while b >= p:
+	b = b // j
+print(p)
+# output
+# 41
+
+# code
+r = 86
+d = 9
+if 47 > 12:
+	h = d
+e = 18
+l = 11
+n = 37 + r
+g = 65
+while g <= 253:
+	g = g + l
+print(l)
+# output
+# 11
+
+# code
+o = 42
+z = 70
+v = 95
+b = v
+b = 218
+while b > 0:
+	if 32 > b:
+		s = 60
+	a = b // 9
+	c = 41 - b
+	b = 90 % 75
+	b = a
+print(z)
+# output
+# 70
+
+# code
+v = 90
+z = 81
+if 8 > z:
+	w = 17
+	o = w
+c = v
+a = 210
+h = 18
+r = 86
+while a < 564:
+	a = a + h
+print(z)
+# output
+# 81
+
+# code
+x = 36
+b = 92
+if 71 != 81:
+	l = 33 % x
+	j = 33 + 79
+e = b
+w = 78
+c = 33
+i = 11
+a = e
+while w >= i:
+	o = i + 6
+	q = i % c
+	i = o
+print(a)
+# output
+# 92
+
+# code
+z = 3
+v = 81
+if z < v:
+	i = z
+	y = z % i
+c = 97
+e = 84
+z = z + c
+l = 0
+while l < e:
+	j = e // 7
+	y = l
+	o = 19 * v
+	e = j
+print(c)
+# output
+# 97
+
+# code
+j = 99
+v = 89
+h = v // 10
+y = 87
+while y <= 279:
+	if 81 >= v:
+		q = 44
+	k = y + 17
+	x = j
+	o = 52 + 79
+	y = k
+print(74)
+# output
+# 74
+
+# code
+b = 2
+s = 72
+p = 154
+j = 11
+while 263 >= p:
+	c = 20 + b
+	if 9 >= 67:
+		d = 66
+	p = p * j
+print(p)
+# output
+# 1694
+
+# code
+r = 20
+s = 25
+u = s
+if 21 >= u:
+	b = r
+	w = r
+m = 13
+v = 46
+while 535 > v:
+	v = v * m
+print(r)
+# output
+# 20
+
+# code
+b = 23
+b = 78
+if 97 <= b:
+	e = b * b
+	r = e
+a = 43
+t = 103
+x = 65
+while 709 >= t:
+	t = t * 14
+print(a)
+# output
+# 43
+
+# code
+s = 22
+v = 34
+r = 219
+while r > 0:
+	if s <= 26:
+		a = 92 // 26
+		c = a
+	r = r // 10
+print(v)
+# output
+# 34
+
+# code
+o = 90
+g = 93
+l = o
+l = 253
+h = 18
+while l > 0:
+	if 40 <= 54:
+		c = 14
+	l = l // h
+print(o)
+# output
+# 90
+
+# code
+t = 91
+f = 21
+x = t // 46
+n = 147
+while n <= 245:
+	if 88 >= 72:
+		x = 60
+	z = n + 18
+	m = t - f
+	r = 58
+	n = z
+print(n)
+# output
+# 255
+
+# code
+q = 69
+n = 92
+t = n % 82
+if 98 != 8:
+	e = 5
+	x = n
+q = 15
+c = 18
+k = 166
+while 0 < k:
+	k = k // q
+print(t)
+# output
+# 10
+
+# code
+u = 76
+n = 41
+if n == 43:
+	n = 25
+g = 111
+l = 1813
+f = g
+while l <= g:
+	g = g * 18
+print(42)
+# output
+# 42
+
+# code
+s = 54
+c = 76
+if s == s:
+	b = 14
+	z = s
+e = 147
+while e > 0:
+	e = e // 16
+print(c)
+# output
+# 76
+
+# code
+q = 8
+p = 4
+d = q
+c = 174
+l = 16
+while c >= 123:
+	if d == d:
+		x = c
+	r = c - l
+	x = 78
+	t = 61 - q
+	c = r
+print(d)
+# output
+# 8
+
+# code
+j = 58
+y = 52
+if 57 >= j:
+	h = 66
+v = 3
+m = 73
+m = 101
+l = v
+while m > 56:
+	r = m - v
+	j = l - 26
+	m = r
+print(l)
+# output
+# 3
+
+# code
+k = 91
+c = 34
+e = 1684
+r = 134
+while e < r:
+	v = 27 + k
+	if 40 != v:
+		l = e % 19
+	r = r * 14
+print(r)
+# output
+# 134
+
+# code
+r = 28
+y = 93
+if 31 == r:
+	s = r + 53
+	l = 18
+	j = r % 79
+h = 8
+w = r
+u = 59
+while 19 <= u:
+	u = u - h
+print(w)
+# output
+# 28
+
+# code
+o = 37
+p = 41
+d = 248
+n = 79 * 43
+n = 161
+while n <= d:
+	if 85 != 92:
+		h = 10 % 50
+	f = d - 7
+	g = o - 40
+	j = g % g
+	d = f
+print(n)
+# output
+# 161
+
+# code
+h = 29
+e = 6
+if h >= 76:
+	c = e
+else:
+	c = 5
+s = 159
+while 769 < s:
+	s = s * 6
+print(s)
+# output
+# 159
+
+# code
+b = 51
+m = 23
+h = 78
+g = b
+b = 166
+while b >= h:
+	if 17 > b:
+		v = h + 20
+	h = h + 11
+print(m)
+# output
+# 23
+
+# code
+x = 75
+n = 91
+b = 70
+c = 84
+n = 1
+while c > b:
+	if 28 == 60:
+		m = x // n
+	b = b + n
+print(c)
+# output
+# 84
+
+# code
+j = 82
+r = 52
+e = r // j
+k = e * r
+if 81 < 11:
+	s = 47 % j
+i = 195
+s = 328
+z = e // 74
+while i <= s:
+	i = i + 10
+print(24)
+# output
+# 24
+
+# code
+p = 65
+b = 59
+if 99 < p:
+	s = p + 91
+	p = b
+	z = s
+i = 290
+s = 254
+while s < i:
+	s = s + 8
+print(i)
+# output
+# 290
+
+# code
+k = 80
+p = 41
+a = -249
+e = 29
+while a <= e:
+	if p <= e:
+		j = a
+	s = e - 17
+	g = e % e
+	e = s
+print(e)
+# output
+# -260
+
+# code
+f = 69
+c = 14
+s = 62
+a = 3
+while 91 >= s:
+	if 20 >= 69:
+		u = 69
+	w = s + a
+	l = 45
+	s = w
+print(s)
+# output
+# 92
+
+# code
+p = 85
+h = 96
+r = h
+y = 251
+d = 8
+while 338 >= y:
+	if 72 == 90:
+		print(h)
+	h = y + d
+	n = h % y
+	y = h
+print(y)
+# output
+# 339
+
+# code
+u = 64
+t = 4
+i = 9
+u = 8
+while -82 <= u:
+	if 0 <= u:
+		q = i * t
+	u = u - i
+print(t)
+# output
+# 4
+
+# code
+a = 21
+e = 43
+b = 128
+l = e
+o = 0
+while b > o:
+	if l == 79:
+		u = a * 75
+	l = b // 3
+	g = 43 + 39
+	c = g
+	b = l
+print(e)
+# output
+# 43
+
+# code
+w = 14
+q = 46
+d = w
+if 64 > d:
+	s = d
+l = 409
+g = 10
+i = 73
+f = 69
+while l > f:
+	i = f * g
+	x = 69
+	p = f
+	f = i
+print(l)
+# output
+# 409
+
+# code
+w = 20
+f = 36
+r = 168
+h = r
+while 1690 <= r:
+	if f >= r:
+		x = f
+	r = r * 18
+print(h)
+# output
+# 168
+
+# code
+n = 15
+y = 91
+if n >= 3:
+	p = 0
+u = 9
+b = 16
+s = 2 + 50
+h = 120
+e = 60
+s = 376
+while s < h:
+	h = h * b
+print(u)
+# output
+# 9
+
+# code
+i = 98
+o = 9
+f = 32
+v = i + 21
+while -24 <= f:
+	if 53 >= 42:
+		g = f + 75
+	f = f - 6
+print(f)
+# output
+# -28
+
+# code
+z = 98
+g = 51
+if z == 76:
+	x = g
+	y = 70
+	b = 5 % z
+g = 65
+m = g
+t = 47
+k = 8
+while g > t:
+	x = t + 1
+	t = g
+	m = z
+	t = x
+print(m)
+# output
+# 98
+
+# code
+l = 79
+t = 85
+s = t
+v = 23
+w = 17
+while v >= -128:
+	if l >= v:
+		m = 31
+	h = v - w
+	i = 47
+	f = 80 * t
+	v = h
+print(s)
+# output
+# 85
+
+# code
+d = 2
+i = 44
+z = 204
+while 2190 > z:
+	z = z * 13
+	if i != 28:
+		y = 1 - 91
+print(d)
+# output
+# 2
+
+# code
+o = 1
+e = 58
+if e != 89:
+	m = e * e
+	v = 27 % 89
+u = 1498
+v = 153
+p = 14
+m = 24
+j = e + 65
+while u < v:
+	t = v * p
+	e = j
+	v = t
+print(10)
+# output
+# 10
+
+# code
+f = 34
+n = 84
+h = 57 % 3
+if 76 != f:
+	n = f
+d = f + f
+i = 186
+u = 0 * h
+p = 75 // 26
+while 0 < i:
+	i = i // 2
+print(p)
+# output
+# 2
+
+# code
+f = 19
+j = 87
+n = 53 - 69
+if n != j:
+	f = 72
+	e = n
+u = 15
+z = 223
+o = 89
+while z > u:
+	z = z // 10
+print(j)
+# output
+# 87
+
+# code
+x = 32
+k = 91
+if 55 < x:
+	k = x
+	t = x
+k = 246
+e = 233
+h = 1
+while e < k:
+	k = k - h
+print(h)
+# output
+# 1
+
+# code
+o = 65
+k = 15
+j = 230
+while 267 > j:
+	if j <= 66:
+		g = j
+		h = g
+	j = j + 5
+print(k)
+# output
+# 15
+
+# code
+u = 98
+f = 75
+l = 16 - 51
+q = u * 32
+if 2 != l:
+	i = u % u
+m = 10
+g = 13
+while 80 >= g:
+	o = g * m
+	g = f
+	z = 41
+	g = o
+print(l)
+# output
+# -35
+
+# code
+o = 60
+o = 13
+if 20 != o:
+	z = 77
+	t = 55
+s = o
+e = 12
+u = 158
+t = 96 // s
+q = 0
+f = 46 // t
+while u > q:
+	u = u // e
+print(e)
+# output
+# 12
+
+# code
+q = 18
+e = 36
+j = 157
+u = q
+w = 0
+while j > w:
+	if w == u:
+		g = 88
+	j = j // 3
+print(q)
+# output
+# 18
+
+# code
+j = 99
+s = 85
+if j < 68:
+	v = s
+	j = j - 59
+s = j - 53
+y = 0
+h = 88
+p = 70
+t = h
+while y < p:
+	p = p // 3
+print(t)
+# output
+# 88
+
+# code
+u = 69
+x = 50
+if 84 != 44:
+	g = 67 * 97
+	m = x
+	l = 96 - 92
+u = 139
+a = 72
+n = 80 * 49
+k = 18
+while 453 >= u:
+	n = u + k
+	w = k
+	u = n
+print(k)
+# output
+# 18
+
+# code
+t = 97
+p = 2
+j = 2
+x = 5 - j
+if 55 <= j:
+	c = x % 40
+f = -55
+l = 19
+d = 65
+e = 171
+b = 21
+while e >= f:
+	e = e - l
+print(f)
+# output
+# -55
+
+# code
+x = 96
+l = 95
+if 22 != l:
+	q = 67
+	x = 72 % l
+o = 22
+z = 11
+k = 138
+a = 28 - 17
+while k <= 348:
+	d = k + z
+	q = 68
+	k = d
+print(k)
+# output
+# 358
+
+# code
+p = 46
+t = 7
+if 36 >= 95:
+	x = p
+	n = 69
+f = 44
+m = 3
+u = 94
+n = u
+while m <= f:
+	h = f // 14
+	c = m + m
+	g = n
+	f = h
+print(m)
+# output
+# 3
+
+# code
+w = 71
+g = 55
+l = w % 64
+k = 176
+while k < 263:
+	m = 81
+	if k > 6:
+		x = 60 + 46
+	k = k + 9
+print(w)
+# output
+# 71
+
+# code
+w = 1
+l = 20
+q = 236
+while 2300 > q:
+	if 92 <= 25:
+		c = w
+	elif 20 >= l:
+		print(q)
+	q = q * 10
+# output
+# 236
+
+# code
+h = 57
+j = 33
+if h >= h:
+	d = 79
+	f = h
+v = j - 13
+f = 1
+e = 158
+while e < 173:
+	t = e + f
+	y = h * 77
+	e = t
+print(j)
+# output
+# 33
+
+# code
+e = 85
+u = 63
+w = e
+if u <= 20:
+	h = w
+t = 146
+x = u % 37
+u = 0
+g = 10
+while t > u:
+	d = t // g
+	a = g * x
+	t = d
+print(g)
+# output
+# 10
+
+# code
+u = 55
+p = 97
+c = 4
+q = 212
+n = 28 // p
+while 0 < q:
+	if 2 < c:
+		print(q)
+	x = q // c
+	r = 7
+	b = q
+	q = x
+# output
+# 212
+# 53
+# 13
+# 3
+
+# code
+v = 71
+g = 12
+t = 16
+s = 84
+g = 137
+while 216 > g:
+	if 91 <= 66:
+		p = 22
+	k = g + t
+	o = s
+	d = g
+	g = k
+print(s)
+# output
+# 84
+
+# code
+r = 60
+j = 25
+if r != 25:
+	r = 7 + r
+x = 17
+t = 235
+d = j
+p = 86 + r
+b = 201
+while b < t:
+	w = t - x
+	l = p - 40
+	s = 21 + 30
+	t = w
+print(d)
+# output
+# 25
+
+# code
+s = 34
+m = 65
+n = 207
+h = 3
+while 151 <= n:
+	q = 95 % m
+	if q != m:
+		x = n + n
+	n = n - h
+print(n)
+# output
+# 150
+
+# code
+v = 24
+a = 68
+g = 1
+while g < 6:
+	g = g + 1
+	if 81 < 96:
+		h = 67
+print(a)
+# output
+# 68
+
+# code
+h = 63
+w = 47
+if 59 >= 43:
+	p = 98
+v = 139
+w = w
+u = 2254
+w = v // 18
+while u >= v:
+	o = v * 18
+	i = 57 - w
+	v = o
+print(h)
+# output
+# 63
+
+# code
+x = 1
+r = 90
+p = r
+w = x
+if w < r:
+	j = r
+j = 1
+e = 12
+u = 25
+g = 43
+while u > j:
+	m = u // e
+	w = e
+	l = 82
+	u = m
+print(j)
+# output
+# 1
+
+# code
+a = 75
+n = 35
+v = 28
+while v <= 49:
+	t = v - 27
+	if 92 <= 25:
+		o = 82 - 61
+	w = v + 20
+	k = 26 + 72
+	v = w
+print(a)
+# output
+# 75
+
+# code
+g = 94
+k = 51
+w = 20
+q = 253
+while 230 <= q:
+	if w > k:
+		g = 71
+	q = q - 8
+print(g)
+# output
+# 94
+
+# code
+s = 79
+v = 45
+i = v
+if 2 == 21:
+	h = v
+s = 11
+while -3 < s:
+	j = s - 8
+	k = s
+	p = s - 90
+	s = j
+print(s)
+# output
+# -5
+
+# code
+e = 22
+w = 10
+if e <= e:
+	v = w
+	n = v
+a = 45
+v = 0
+p = e // 31
+r = 177
+while v < r:
+	w = r // 6
+	g = 89
+	d = a // r
+	r = w
+print(r)
+# output
+# 0
+
+# code
+l = 92
+c = 27
+i = 216
+g = l - 82
+while 638 >= i:
+	i = i * 9
+	if l < i:
+		a = i - 25
+print(g)
+# output
+# 10
+
+# code
+n = 22
+n = 9
+k = 499
+m = 249
+while m < k:
+	if m <= 36:
+		c = 56
+	t = m + 14
+	y = 57 + n
+	f = m
+	m = t
+print(k)
+# output
+# 499
+
+# code
+c = 71
+h = 82
+if 40 == c:
+	s = h
+y = 7
+l = 49
+b = 246
+d = 24 % 24
+while 1329 >= b:
+	b = b * 7
+print(42)
+# output
+# 42
+
+# code
+q = 77
+g = 77
+if q <= q:
+	x = 95 % g
+e = 177
+x = 24 // 37
+l = e
+m = 1529
+while m >= e:
+	a = e * 16
+	z = 36
+	q = 30 * 54
+	e = a
+print(q)
+# output
+# 1620
+
+# code
+d = 78
+o = 58
+a = 64
+if d <= d:
+	h = d
+	e = 44
+e = 20
+t = 207
+v = 215
+while v >= t:
+	f = t + e
+	z = 58
+	u = v + 26
+	t = f
+print(a)
+# output
+# 64
+
+# code
+t = 43
+c = 92
+o = 68
+t = 19 // o
+while 0 < o:
+	if 10 > t:
+		a = 50
+	q = o // 17
+	t = 92 - c
+	k = 36
+	o = q
+print(o)
+# output
+# 0
+
+# code
+j = 55
+s = 79
+if 8 != 72:
+	u = s
+	l = s // 82
+	p = 26
+l = 133
+while l > -36:
+	l = l - 9
+print(s)
+# output
+# 79
+
+# code
+m = 0
+y = 34
+if y >= 73:
+	f = 32
+	m = 47
+a = y // y
+x = 133
+p = 46 % y
+p = 36 // a
+while x < 162:
+	x = x + 18
+print(a)
+# output
+# 1
+
+# code
+e = 84
+w = 61
+if 39 <= w:
+	s = 53 + w
+	e = 87 - 34
+x = 191
+h = 17
+while 0 < x:
+	x = x // h
+print(w)
+# output
+# 61
+
+# code
+b = 63
+f = 82
+if 32 <= 0:
+	z = 66
+q = f - 55
+p = 93 // q
+n = 98
+c = 87
+j = 17 // 14
+while n >= c:
+	c = c + 1
+print(p)
+# output
+# 3
+
+# code
+y = 29
+u = 47
+if y >= y:
+	q = y
+t = 64
+k = 96 * u
+a = 178
+while a >= t:
+	a = a - 7
+print(y)
+# output
+# 29
+
+# code
+s = 59
+a = 71
+u = 217
+x = 174
+while x < u:
+	r = s
+	if 27 <= 95:
+		o = a
+	x = x + 16
+print(x)
+# output
+# 222
+
+# code
+a = 1
+x = 22
+p = 118
+o = 77
+while p < 180:
+	if 11 > o:
+		w = 75 % 78
+	p = p + 4
+print(p)
+# output
+# 182
+
+# code
+z = 74
+f = 60
+if 27 == z:
+	y = 86
+	v = 20 - 65
+	e = z
+m = 209
+while 264 >= m:
+	p = m * 4
+	q = 78
+	e = m - 80
+	m = p
+print(z)
+# output
+# 74
+
+# code
+r = 61
+n = 48
+if n < r:
+	e = n + n
+p = r
+s = 6
+p = p % p
+v = 213
+q = v
+while v > 0:
+	v = v // s
+print(s)
+# output
+# 6
+
+# code
+c = 46
+d = 58
+if d == d:
+	x = d
+h = 5
+x = 0
+l = 89
+r = 17
+while x < l:
+	z = l // r
+	t = h % d
+	l = z
+print(c)
+# output
+# 46
+
+# code
+j = 23
+y = 57
+d = 251
+j = 20
+while 886 < d:
+	if y != y:
+		l = 96
+	w = d * j
+	d = 98
+	p = d - 22
+	d = w
+print(d)
+# output
+# 251
+
+# code
+j = 29
+q = 18
+if j == 18:
+	w = 75 * j
+	c = j
+	v = 82 // q
+e = 227
+while e > 49:
+	y = e - 9
+	x = 25
+	e = y
+print(j)
+# output
+# 29
+
+# code
+k = 49
+h = 4
+z = 251
+while z > 153:
+	g = 54
+	l = 78
+	if z == g:
+		q = 92 % 48
+	z = z - 12
+print(h)
+# output
+# 4
+
+# code
+q = 66
+b = 50
+if q <= 1:
+	u = 36
+	l = 65 // b
+v = q % q
+s = 15
+y = 54
+while y >= s:
+	y = y - 4
+print(q)
+# output
+# 66
+
+# code
+o = 74
+l = 83
+r = l
+r = 219
+while 0 < r:
+	c = 90
+	if c <= 29:
+		z = 66 + o
+	v = r // 20
+	x = c
+	r = v
+print(l)
+# output
+# 83
+
+# code
+m = 59
+x = 75
+if 51 < 96:
+	j = 25 + m
+i = 44
+k = 70
+a = 18
+l = 56
+while k > l:
+	w = l + 14
+	e = x
+	l = w
+print(i)
+# output
+# 44
+
+# code
+p = 27
+y = 38
+h = y
+p = 56
+while 217 >= p:
+	y = 58 // 9
+	if h >= 1:
+		x = y
+	p = p + 14
+print(y)
+# output
+# 6
+
+# code
+c = 73
+q = 57
+r = 236
+s = 8 % 84
+while 140 < r:
+	if 15 > s:
+		c = q
+	r = r - 6
+print(s)
+# output
+# 8
+
+# code
+m = 83
+x = 50
+r = 177
+l = m * x
+while 82 <= r:
+	if x <= l:
+		n = r % m
+	r = r - 15
+print(l)
+# output
+# 4150
+
+# code
+p = 4
+d = 31
+n = 154
+d = 9 * 31
+v = 210
+while v >= n:
+	if p >= n:
+		h = v
+	v = v - 3
+print(d)
+# output
+# 279
+
+# code
+n = 55
+p = 34
+d = 15
+e = 98
+while e > 0:
+	if 26 < d:
+		w = 1
+	s = e // 10
+	u = 14 // 92
+	u = d + n
+	e = s
+print(d)
+# output
+# 15
+
+# code
+k = 78
+m = 61
+if m <= 92:
+	c = m % k
+	h = m // 74
+	k = 95
+u = 147
+t = 15 % m
+while u > 73:
+	u = u - 8
+print(39)
+# output
+# 39
+
+# code
+k = 84
+z = 61
+c = 61
+v = k
+while c < 61:
+	if k < c:
+		k = v
+	c = c + 3
+print(k)
+# output
+# 84
+
+# code
+u = 44
+v = 84
+y = 30
+q = 208
+while q >= 9:
+	if u < 58:
+		b = v
+	w = q - 13
+	s = y
+	f = s * 15
+	q = w
+print(y)
+# output
+# 30
+
+# code
+r = 64
+b = 38
+if r == r:
+	c = r // r
+m = 9
+k = 41
+f = m * 74
+while 12 <= m:
+	m = m * 10
+print(r)
+# output
+# 64
+
+# code
+r = 43
+p = 69
+c = p
+if 91 != c:
+	o = c
+	a = p % p
+g = 16
+x = 105
+u = r % c
+while 1088 >= x:
+	x = x * g
+print(g)
+# output
+# 16
+
+# code
+m = 64
+s = 29
+s = 227
+j = 17
+while 0 < s:
+	if s != 44:
+		f = 69
+	s = s // j
+print(m)
+# output
+# 64
+
+# code
+m = 92
+u = 16
+z = 14
+x = 63
+k = z // 31
+while 657 >= x:
+	if 83 <= k:
+		print(z)
+	x = x * z
+print(x)
+# output
+# 882
+
+# code
+f = 87
+i = 53
+t = f
+t = 189
+b = f - 37
+while 184 < t:
+	if t > 54:
+		f = 29
+	b = t - 1
+	u = 51
+	t = b
+print(b)
+# output
+# 184
+
+# code
+f = 76
+t = 61
+v = 75
+p = 0
+while v > p:
+	if 29 > 90:
+		l = p % v
+	a = v // 19
+	k = 80
+	v = a
+print(v)
+# output
+# 0
+
+# code
+k = 76
+j = 35
+if j > 43:
+	o = k * j
+h = 122
+q = 11
+n = -84
+while n <= h:
+	h = h - q
+print(98)
+# output
+# 98
+
+# code
+d = 57
+r = 34
+f = r
+if 28 == d:
+	h = f - 59
+	a = r
+d = 0
+k = r - f
+p = 77
+j = r
+m = 18
+while d < p:
+	p = p // m
+print(m)
+# output
+# 18
+
+# code
+e = 92
+i = 95
+if e != i:
+	x = 73 % e
+	y = 31
+	j = 42
+p = 395
+x = 71 % i
+f = 216
+while f < p:
+	f = f + 19
+print(e)
+# output
+# 92
+
+# code
+y = 48
+k = 38
+if 91 <= 49:
+	a = 35
+m = 1055
+e = k % 1
+l = 18
+f = 74
+r = y // y
+while m < f:
+	j = f * l
+	r = 92 * y
+	k = m
+	f = j
+print(e)
+# output
+# 0
+
+# code
+h = 1
+e = 13
+if 2 < 36:
+	w = e
+o = 47
+i = 25
+while 0 < o:
+	w = o // 6
+	h = 70
+	o = w
+print(e)
+# output
+# 13
+
+# code
+v = 97
+k = 5
+k = 63
+e = 96 - v
+o = 605
+while o > k:
+	if k == 81:
+		m = 57
+	k = k * 13
+print(v)
+# output
+# 97
+
+# code
+c = 70
+f = 85
+if f < 76:
+	q = 9
+s = 1
+v = 24
+d = 83
+f = 77
+q = v % v
+while d > f:
+	d = d - s
+print(s)
+# output
+# 1
+
+# code
+x = 43
+h = 28
+u = h // 12
+o = 82
+if u <= u:
+	u = 92
+q = 0
+t = 32
+o = o
+while q < t:
+	t = t // 20
+print(q)
+# output
+# 0
+
+# code
+n = 20
+r = 10
+r = 56 + 40
+if r < 22:
+	n = 74 // 45
+w = 114
+m = 38
+d = r
+g = 7
+while w > 101:
+	w = w - g
+print(m)
+# output
+# 38
+
+# code
+b = 15
+r = 43
+n = 12
+r = 168
+while r <= 341:
+	if 34 > 61:
+		n = b
+	r = r + 20
+print(r)
+# output
+# 348
+
+# code
+w = 48
+y = 55
+if w == y:
+	q = w
+b = 26
+r = 22
+while -275 < r:
+	r = r - 18
+print(76)
+# output
+# 76
+
+# code
+c = 13
+j = 39
+s = j % 47
+a = s + j
+if a == c:
+	v = 54
+a = 76
+q = 25 - 0
+h = 1
+while a > 70:
+	v = a - h
+	p = 10 * j
+	a = v
+print(h)
+# output
+# 1
+
+# code
+z = 39
+o = 75
+c = o % o
+if o != o:
+	o = c % z
+w = 2
+v = 225
+h = 66 + 86
+x = 3
+while 802 > v:
+	o = v * 7
+	u = o // z
+	s = 38 % z
+	v = o
+print(x)
+# output
+# 3
+
+# code
+z = 93
+e = 25
+i = 140
+b = -59
+while b < i:
+	if 67 <= 71:
+		n = 3
+	t = i - 13
+	q = e * 91
+	r = i
+	i = t
+print(e)
+# output
+# 25
+
+# code
+e = 74
+h = 94
+r = 15
+w = 169
+k = 79
+while w > 100:
+	if 11 <= k:
+		x = 56
+	w = w - r
+print(r)
+# output
+# 15
+
+# code
+i = 22
+n = 6
+if 39 >= n:
+	v = 40 - 64
+s = 0
+z = 92
+e = 19
+while 527 > z:
+	z = z * e
+print(e)
+# output
+# 19
+
+# code
+q = 7
+o = 75
+p = 236
+t = o - 5
+a = 6
+while 0 < p:
+	if q != 93:
+		c = 94
+	p = p // 15
+print(q)
+# output
+# 7
+
+# code
+o = 34
+s = 39
+if o < 39:
+	i = 91 % 87
+w = 59
+q = 112
+t = w
+f = 75
+while 0 < q:
+	m = q // 8
+	w = w
+	d = 12
+	q = m
+print(o)
+# output
+# 34
+
+# code
+m = 40
+t = 22
+n = 232
+p = 90
+u = 0
+while n > u:
+	if u == u:
+		print(u)
+	n = n // 5
+# output
+# 0
+# 0
+# 0
+# 0
+
+# code
+h = 8
+s = 55
+f = 4 % s
+r = 164
+y = r // 67
+while 0 < r:
+	if f > 6:
+		i = 23 + h
+	r = r // 6
+print(h)
+# output
+# 8
+
+# code
+t = 75
+a = 39
+if 65 != t:
+	i = t
+r = a
+t = t
+v = -40
+n = 90 % v
+g = 74
+while g > v:
+	g = g - 16
+print(g)
+# output
+# -54
+
+# code
+v = 49
+y = 82
+b = v
+if 92 < b:
+	e = 40
+i = 11
+n = 23
+while n <= 195:
+	s = n + i
+	f = v
+	n = s
+print(y)
+# output
+# 82
+
+# code
+g = 77
+t = 67
+b = t
+q = 60
+while -198 <= q:
+	if b <= t:
+		l = 80
+	q = q - 15
+print(8)
+# output
+# 8
+
+# code
+o = 17
+j = 92
+d = 95
+if j != 59:
+	h = 36
+	l = 50
+o = 84
+while 197 > o:
+	q = o * 7
+	p = 69 // 47
+	z = d % 28
+	o = q
+print(d)
+# output
+# 95
+
+# code
+m = 52
+v = 10
+v = 68 * 70
+if 94 <= m:
+	d = m // v
+h = 76
+a = h % 27
+a = 59 // 89
+c = 0
+i = 5
+while h > c:
+	h = h // i
+print(m)
+# output
+# 52
+
+# code
+w = 84
+a = 75
+x = 196
+f = w % 40
+while 155 <= x:
+	if w != 56:
+		k = 29
+	x = x - 14
+print(a)
+# output
+# 75
+
+# code
+b = 72
+u = 61
+e = 9
+c = 99
+while 141 > c:
+	a = e - 74
+	if c <= e:
+		f = 27
+	c = c + e
+print(18)
+# output
+# 18
+
+# code
+s = 43
+q = 63
+if s != q:
+	r = q
+	p = s
+y = s // 79
+r = 510
+s = 242
+while r > s:
+	s = s + 14
+print(q)
+# output
+# 63
+
+# code
+o = 23
+n = 26
+m = n + n
+c = 11
+y = 33
+while y < 232:
+	if c != 18:
+		print(o)
+	e = y + c
+	h = c
+	y = e
+# output
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+# 23
+
+# code
+j = 34
+t = 5
+s = t - 35
+n = 201
+a = 62
+while 0 < n:
+	if 91 <= 60:
+		s = 37
+	f = n // 12
+	o = 89 * 11
+	n = f
+print(n)
+# output
+# 0
+
+# code
+a = 92
+y = 97
+e = 19
+c = 14 - e
+j = 14
+while j < 387:
+	if j != j:
+		s = a
+	y = j + e
+	k = 89
+	j = y
+print(e)
+# output
+# 19
+
+# code
+f = 77
+h = 52
+a = 48
+if 4 != 28:
+	b = h
+m = f - 14
+j = 19
+a = 595
+f = 56
+while a > f:
+	f = f * j
+print(h)
+# output
+# 52
+
+# code
+v = 96
+a = 99
+l = 113
+q = l
+while 1303 <= l:
+	s = l
+	if 1 == q:
+		print(v)
+	l = l * 17
+print(q)
+# output
+# 113
+
+# code
+e = 57
+p = 43
+n = 90
+h = 89 * n
+if p != 69:
+	h = 48 - h
+j = 123
+s = 60
+r = p
+while 223 > j:
+	v = j + 18
+	q = j
+	a = q
+	j = v
+print(r)
+# output
+# 43
+
+# code
+b = 26
+x = 18
+if 77 != 8:
+	b = b
+	r = 94
+	m = 2
+k = 164
+t = x // 52
+j = 184
+while k <= j:
+	a = k + 4
+	p = 92 + 65
+	k = a
+print(j)
+# output
+# 184
+
+# code
+l = 55
+w = 64
+m = 45
+if w != 32:
+	x = 29
+p = 6
+q = 85
+x = 6
+while q > p:
+	t = p + x
+	a = m * 21
+	z = a
+	p = t
+print(m)
+# output
+# 45
+
+# code
+m = 32
+x = 46
+j = m
+b = 176
+w = 2
+while 188 >= b:
+	if x <= 39:
+		z = 15 // 59
+	b = b * w
+print(w)
+# output
+# 2
+
+# code
+n = 93
+m = 46
+m = 170
+c = 15 % 77
+j = n % m
+while m >= 134:
+	if m <= n:
+		f = 56
+	m = m - 14
+print(c)
+# output
+# 15
+
+# code
+q = 43
+b = 85
+if b > 69:
+	q = 94
+	k = 95
+r = 197
+u = 8
+i = b % r
+while 193 < r:
+	t = r - 4
+	n = 85 % b
+	r = t
+print(b)
+# output
+# 85
+
+# code
+o = 43
+m = 61
+if 53 == o:
+	f = 26
+s = 77
+p = 163
+w = 45
+t = 9
+while 103 < p:
+	p = p - t
+print(m)
+# output
+# 61
+
+# code
+l = 80
+d = 50
+if l != d:
+	k = l
+d = 2
+l = 66
+m = 36
+w = m
+f = 55
+while l < f:
+	n = f * d
+	a = w * w
+	v = 5
+	f = n
+print(d)
+# output
+# 2
+
+# code
+n = 39
+a = 64
+if 62 < a:
+	i = n
+g = n
+i = 4
+u = g
+while 4 < i:
+	i = i // 15
+print(u)
+# output
+# 39
+
+# code
+z = 11
+w = 88
+if 13 != 50:
+	s = z % w
+g = 65
+w = g
+y = 0
+j = w
+while g > y:
+	g = g // 7
+print(w)
+# output
+# 65
+
+# code
+z = 7
+a = 32
+p = 7
+v = 80
+c = 255
+while 1636 > c:
+	if a == 27:
+		s = c
+	c = c * p
+print(z)
+# output
+# 7
+
+# code
+b = 97
+t = 58
+t = 3271
+n = 16
+y = 241
+while t > y:
+	if y > t:
+		m = n
+	l = y * n
+	b = y
+	y = l
+print(n)
+# output
+# 16
+
+# code
+d = 38
+y = 81
+j = 248
+d = j
+while j > 0:
+	if 60 == 86:
+		t = 13
+	j = j // 9
+print(d)
+# output
+# 248
+
+# code
+h = 80
+q = 20
+if h == 7:
+	y = 0
+	g = 94 * 63
+	b = 49 + h
+v = 13
+j = q
+g = 83
+c = j
+while -114 < g:
+	g = g - v
+print(j)
+# output
+# 20
+
+# code
+e = 33
+r = 69
+a = 135
+while 0 < a:
+	u = 26 - a
+	a = a // 9
+if e > r:
+	v = 10
+print(r)
+# output
+# 69
+
+# code
+v = 59
+g = 75
+z = 87
+f = 38 % z
+l = z * 62
+while z < 176:
+	if 3 == 75:
+		print(l)
+	z = z + 7
+print(g)
+# output
+# 75
+
+# code
+q = 28
+n = 62
+p = 137
+l = 163
+b = 19
+while l >= p:
+	if n >= 70:
+		z = p
+	p = p + 2
+print(b)
+# output
+# 19
+
+# code
+m = 84
+m = 73
+if m < m:
+	s = 11
+n = 20
+l = n
+b = 220
+while b >= 3:
+	o = b - n
+	k = b + 77
+	q = k * 9
+	b = o
+print(m)
+# output
+# 73
+
+# code
+h = 25
+p = 7
+if 86 > 47:
+	y = 91
+	b = 37
+	c = 47 * h
+f = 239
+while f > 0:
+	u = f // 10
+	y = 98 + p
+	r = y
+	f = u
+print(p)
+# output
+# 7
+
+# code
+x = 43
+j = 25
+if 14 > j:
+	n = j
+d = 62
+z = 14
+q = 11 - d
+while d > -101:
+	l = d - z
+	p = q % 90
+	d = l
+print(x)
+# output
+# 43
+
+# code
+c = 1
+u = 80
+if 32 > u:
+	s = 14
+i = 9
+h = 102
+while h <= 139:
+	h = h + i
+print(i)
+# output
+# 9
+
+# code
+k = 9
+u = 22
+if u != u:
+	h = u % 19
+u = 26 - k
+n = k % 79
+l = 19
+w = 4
+b = 149
+e = k
+while b < 412:
+	b = b + l
+print(w)
+# output
+# 4
+
+# code
+e = 8
+r = 82
+if e < e:
+	t = 45 * e
+c = e - 46
+z = r
+o = 654
+d = 42
+while o >= d:
+	n = d * 17
+	e = 14
+	r = c
+	d = n
+print(c)
+# output
+# -38
+
+# code
+l = 84
+y = 87
+if 3 < 68:
+	m = 33
+	t = 10 % 77
+p = l * l
+g = 4
+l = 36 + 31
+s = 226
+c = 94 // 74
+while 284 >= s:
+	q = s + g
+	s = 80 + 3
+	s = q
+print(g)
+# output
+# 4
+
+# code
+q = 55
+v = 6
+i = 52
+c = 146
+l = c - c
+while 96 < c:
+	if 68 == 88:
+		f = 54 * 71
+	k = c - 16
+	v = 44 // v
+	n = 24
+	c = k
+print(i)
+# output
+# 52
+
+# code
+f = 39
+q = 21
+if q != f:
+	v = 79
+l = 6
+h = 28 // f
+q = 184
+e = 303
+m = 27
+while e >= q:
+	b = q * l
+	f = h + 45
+	q = b
+print(q)
+# output
+# 1104
+
+# code
+d = 44
+n = 53
+k = 110
+b = 10
+while k <= b:
+	if 19 == n:
+		i = k
+	b = b * 20
+print(d)
+# output
+# 44
+
+# code
+z = 46
+y = 6
+if z >= z:
+	k = z
+	h = k * y
+t = 31
+o = 250
+p = 22
+r = 1
+while o >= 233:
+	o = o - r
+print(z)
+# output
+# 46
+
+# code
+i = 75
+j = 1
+if i > i:
+	x = j
+d = 171
+i = d + 35
+k = 13
+a = -12
+while d >= a:
+	d = d - k
+print(k)
+# output
+# 13
+
+# code
+b = 99
+z = 0
+i = 60
+z = 10
+r = 211
+while i < r:
+	if 0 > 33:
+		print(i)
+	r = r - z
+print(b)
+# output
+# 99
+
+# code
+e = 7
+d = 9
+if d != e:
+	h = 58 - e
+c = d * 38
+z = 62 * 68
+s = 9
+i = 153
+k = 203
+while k >= i:
+	i = i + s
+print(z)
+# output
+# 4216
+
+# code
+h = 15
+w = 11
+k = 225
+while 893 > k:
+	m = 0
+	if 35 < 82:
+		o = h
+	k = k * 5
+print(w)
+# output
+# 11
+
+# code
+x = 62
+p = 19
+x = x
+l = 163
+a = 12
+while -67 < l:
+	if 24 > 56:
+		i = x
+	l = l - a
+print(p)
+# output
+# 19
+
+# code
+x = 1
+v = 34
+y = -64
+i = 46
+while i > y:
+	if y == 75:
+		m = x
+	l = i - 7
+	f = y // v
+	i = l
+print(y)
+# output
+# -64
+
+# code
+r = 65
+s = 46
+if r >= r:
+	k = 41 * r
+c = r + s
+y = 200
+s = 16
+while 2489 <= y:
+	q = y * s
+	z = 7 % r
+	k = 72 // s
+	y = q
+print(c)
+# output
+# 111
+
+# code
+c = 71
+d = 28
+o = 87
+w = 49 + d
+i = w
+while -45 <= o:
+	if o >= 73:
+		print(o)
+	j = o - 8
+	h = w
+	i = 21 * 73
+	o = j
+# output
+# 87
+# 79
+
+# code
+d = 62
+j = 37
+y = 0
+i = 20
+while y < i:
+	if i != y:
+		k = 48
+	p = i // 18
+	q = 69
+	o = d - 20
+	i = p
+print(j)
+# output
+# 37
+
+# code
+k = 23
+l = 49
+n = 156
+while 0 < n:
+	if 29 >= k:
+		d = n + n
+		p = k - 8
+	n = n // 13
+print(k)
+# output
+# 23
+
+# code
+i = 2
+w = 96
+a = 91 - 70
+if 70 > 27:
+	u = a
+d = 7
+z = 4
+i = 11
+k = 0
+w = 81 * i
+while i > k:
+	o = i // d
+	p = 59
+	h = 18
+	i = o
+print(z)
+# output
+# 4
+
+# code
+x = 33
+n = 66
+if 86 == x:
+	b = 65 % x
+t = 162
+r = 4
+while 162 <= t:
+	i = t - r
+	j = t // x
+	t = i
+print(t)
+# output
+# 158
+
+# code
+p = 53
+l = 59
+z = 1
+t = 0
+q = 1
+while t <= q:
+	if 14 >= t:
+		print(l)
+	t = t + z
+# output
+# 59
+# 59
+
+# code
+d = 37
+t = 46
+d = d
+c = 201
+r = 19
+while 364 >= c:
+	if 11 >= 31:
+		x = r
+	c = c + r
+print(38)
+# output
+# 38
+
+# code
+e = 66
+n = 63
+j = 55
+if j >= 27:
+	g = e
+d = 20
+e = 61
+a = 88
+g = e % j
+while 598 <= a:
+	w = a * d
+	r = g - 93
+	n = 33 - 35
+	a = w
+print(a)
+# output
+# 88
+
+# code
+q = 71
+j = 83
+if q > q:
+	o = q * 20
+t = j * 51
+o = 1
+u = 34
+p = 10
+while u <= 54:
+	c = u + o
+	l = 41 // 18
+	y = q
+	u = c
+print(o)
+# output
+# 1
+
+# code
+o = 92
+h = 17
+h = 878
+i = 224
+while h < i:
+	if h > 76:
+		t = o
+	s = i * 4
+	m = 97
+	a = i
+	i = s
+print(o)
+# output
+# 92
+
+# code
+n = 53
+y = 45
+c = 85
+if 57 > 52:
+	i = 78
+f = 63
+p = 125
+d = 47 * n
+while p <= 287:
+	p = p + 18
+print(d)
+# output
+# 2491
+
+# code
+y = 23
+g = 60
+if g == 28:
+	a = y
+n = 230
+w = 14
+c = 52
+while n < c:
+	g = c * w
+	h = 90 % y
+	c = g
+print(n)
+# output
+# 230
+
+# code
+v = 12
+w = 66
+if 57 <= v:
+	a = 72
+elif v >= 88:
+	s = v
+z = 15
+v = 0
+o = 51
+g = 142
+while v < g:
+	g = g // z
+print(o)
+# output
+# 51
+
+# code
+c = 19
+l = 62
+if 98 != c:
+	m = 42
+	h = 98 - m
+x = 85
+c = 97
+while c >= x:
+	x = x + 11
+print(l)
+# output
+# 62
+
+# code
+g = 95
+u = 69
+if g > u:
+	v = g
+	c = u
+	n = 6
+v = 226
+t = 9
+while v >= t:
+	c = v // 7
+	n = u
+	e = u
+	v = c
+print(u)
+# output
+# 69
+
+# code
+f = 7
+m = 8
+g = f - f
+if m < 69:
+	h = g + 11
+a = 27
+w = 1
+c = 111
+d = a
+while 110 < c:
+	c = c - w
+print(w)
+# output
+# 1
+
+# code
+j = 90
+p = 10
+if 80 != 87:
+	s = 50
+k = 201
+t = 33 % k
+h = 162
+while k >= h:
+	a = h + 20
+	n = h
+	n = k % n
+	h = a
+print(p)
+# output
+# 10
+
+# code
+r = 54
+r = 97
+i = r
+d = 109
+a = r * 33
+while d >= 91:
+	if 61 == i:
+		i = a + 16
+	d = d - 7
+print(15)
+# output
+# 15
+
+# code
+b = 38
+w = 57
+d = b * w
+e = 5
+f = 171
+while f < 177:
+	if f < 52:
+		p = 29
+	r = f + e
+	q = e // w
+	k = w
+	f = r
+print(f)
+# output
+# 181
+
+# code
+c = 14
+c = 8
+if 37 != c:
+	t = c
+	q = 89
+d = 13
+g = 547
+d = 87 - 29
+u = 123
+v = 7
+while g <= u:
+	u = u * v
+print(u)
+# output
+# 123
+
+# code
+m = 41
+j = 1
+t = 230
+while t <= 323:
+	z = j + 56
+	if 41 >= m:
+		u = t
+	k = t + 7
+	p = z
+	t = k
+print(t)
+# output
+# 328
+
+# code
+r = 5
+k = 38
+d = 39 - 53
+l = 29
+if d == 51:
+	w = l
+h = 21
+j = 21
+k = 1
+while h <= j:
+	q = j - k
+	e = j * j
+	j = q
+print(j)
+# output
+# 20
+
+# code
+o = 25
+p = 74
+z = 16
+if p >= 35:
+	w = p
+	p = o - 93
+r = 122
+a = 95
+l = 3
+f = 46
+while r >= a:
+	u = r - l
+	k = o
+	r = u
+print(f)
+# output
+# 46
+
+# code
+m = 89
+r = 6
+x = 212
+k = 48 // 45
+z = 71 // 37
+while 0 < x:
+	if k <= 7:
+		k = r
+	e = x // 13
+	z = x
+	a = k * x
+	x = e
+print(m)
+# output
+# 89
+
+# code
+n = 38
+k = 62
+if 29 <= 97:
+	z = 11
+	g = z
+s = 38 + n
+k = 6
+o = 616
+w = 160
+v = 54 + 78
+while o < w:
+	r = w * k
+	i = k + o
+	w = r
+print(v)
+# output
+# 132
+
+# code
+x = 30
+i = 80
+p = 165
+while 835 <= p:
+	if 58 > x:
+		f = 1
+		a = 64 + x
+	p = p * 10
+print(i)
+# output
+# 80
+
+# code
+g = 16
+n = 9
+r = 44
+a = 131
+while 146 >= a:
+	if 86 == g:
+		d = 36
+	a = a + 3
+print(45)
+# output
+# 45
+
+# code
+w = 28
+j = 75
+k = 187
+t = 208
+while t >= k:
+	k = k + 7
+	if 46 < t:
+		x = 78 // j
+print(k)
+# output
+# 215
+
+# code
+a = 32
+w = 2
+p = 91
+if 85 > w:
+	z = 10
+c = 91
+while -120 < c:
+	c = c - 12
+print(p)
+# output
+# 91
+
+# code
+d = 33
+d = 43
+if 0 != 17:
+	o = 32 // 10
+	z = 40
+	m = z - z
+j = 238
+o = -66
+r = 16
+while o <= j:
+	j = j - r
+print(o)
+# output
+# -66
+
+# code
+j = 93
+a = 64
+n = 86
+if 57 != 76:
+	x = a
+	m = 7 + x
+w = 7
+p = 21
+while 148 > p:
+	c = p + w
+	r = 90
+	g = 61
+	p = c
+print(w)
+# output
+# 7
+
+# code
+e = 21
+v = 18
+a = e
+k = 238
+while 585 > k:
+	o = 78 % 66
+	if a < 49:
+		z = k - v
+	p = k * 5
+	n = 54
+	k = p
+print(e)
+# output
+# 21
+
+# code
+t = 28
+o = 56
+u = 12
+f = 31
+while f <= 83:
+	n = t * 82
+	if u == 44:
+		c = 14 + 74
+	b = f + u
+	a = o % f
+	f = b
+print(f)
+# output
+# 91
+
+# code
+n = 2
+l = 76
+if n != 52:
+	e = 54 // 27
+p = n - n
+o = 95
+e = 209
+while 38 <= e:
+	t = e - 14
+	a = p + o
+	e = t
+print(l)
+# output
+# 76
+
+# code
+q = 59
+p = 12
+if 91 >= 92:
+	v = 21 * 50
+	l = 98 % v
+	o = q
+b = 35
+k = b - p
+while 0 < b:
+	h = b // 4
+	k = 36 - q
+	w = p
+	b = h
+print(k)
+# output
+# -23
+
+# code
+c = 21
+p = 96
+s = 31
+e = 180
+d = 1601
+while d < e:
+	if s >= 26:
+		c = s
+	c = e * 11
+	y = 52 - 8
+	v = 44
+	e = c
+print(s)
+# output
+# 31
+
+# code
+e = 91
+s = 62
+r = 186
+while r >= 177:
+	if s != e:
+		m = 48
+		y = 82
+	f = r - 17
+	d = 96
+	r = f
+print(r)
+# output
+# 169
+
+# code
+r = 36
+e = 85
+d = 59
+j = 79
+y = 34
+while 72 > d:
+	if y > d:
+		f = 35
+	d = d + 5
+print(d)
+# output
+# 74
+
+# code
+n = 19
+m = 0
+if 47 >= 7:
+	w = 51
+	x = 56
+l = 218
+while l < 353:
+	l = l + 13
+print(l)
+# output
+# 361
+
+# code
+i = 48
+k = 96
+s = 102
+while 70 < s:
+	if s > k:
+		n = 0 % s
+	c = s - 6
+	l = 70 * k
+	s = c
+print(i)
+# output
+# 48
+
+# code
+y = 63
+k = 33
+k = 114
+while k < 241:
+	if y <= 19:
+		s = k
+		z = 97
+	k = k + 19
+print(k)
+# output
+# 247
+
+# code
+z = 49
+w = 42
+y = 54
+r = 61
+while r > y:
+	if y <= 98:
+		s = w
+	c = r - 1
+	b = 80
+	i = z
+	r = c
+print(z)
+# output
+# 49
+
+# code
+b = 69
+x = 57
+r = 314
+b = 87
+q = x + 88
+while r < b:
+	if 10 >= x:
+		h = 25
+	b = b * 15
+print(b)
+# output
+# 87
+
+# code
+u = 55
+j = 98
+if 53 == 33:
+	g = 19
+	k = g
+	r = 4
+v = 118
+w = j
+d = 202
+i = 60 // 80
+while v <= d:
+	v = v + 7
+print(v)
+# output
+# 209
+
+# code
+q = 70
+j = 98
+j = 70
+u = 20
+while j > 54:
+	if 76 == j:
+		z = 74
+	j = j - 1
+print(q)
+# output
+# 70
+
+# code
+n = 47
+p = 23
+if 69 >= p:
+	z = 86 - 61
+	h = 21 - z
+	v = h - n
+u = 207
+m = 44
+h = 61 * 54
+while 279 >= u:
+	u = u + 7
+print(h)
+# output
+# 3294
+
+# code
+x = 5
+a = 96
+z = 179
+u = 77 % 2
+n = x
+while z > 100:
+	if 69 > z:
+		c = 30
+	z = z - 5
+print(n)
+# output
+# 5
+
+# code
+c = 5
+s = 48
+p = 9
+o = 53
+while 46 <= o:
+	if 68 != 83:
+		r = c
+	o = o - p
+print(43)
+# output
+# 43
+
+# code
+x = 3
+g = 71
+s = 91
+x = g
+i = 77
+while s >= -81:
+	if 33 > 27:
+		print(g)
+	x = s - 9
+	f = 50 // i
+	s = x
+# output
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+# 71
+
+# code
+s = 45
+q = 24
+if 8 <= s:
+	t = 2 * 9
+x = 10
+t = 215
+b = s - 34
+b = t
+while 811 < t:
+	i = t * x
+	h = s
+	t = i
+print(t)
+# output
+# 215
+
+# code
+r = 30
+k = 10
+if r < 78:
+	k = r
+	f = 71 // k
+z = 2 - k
+k = 29
+l = 63
+while l <= k:
+	k = k * 10
+print(z)
+# output
+# -28
+
+# code
+k = 47
+a = 33
+if 10 >= a:
+	p = k
+g = 10 * a
+s = 9
+c = 91 + 81
+i = 69
+z = g // 79
+while i > -48:
+	i = i - s
+print(i)
+# output
+# -48
+
+# code
+t = 1
+x = 52
+r = 188
+p = t
+n = 182
+while r >= n:
+	if x > 42:
+		m = t
+	n = n + 3
+print(p)
+# output
+# 1
+
+# code
+p = 85
+r = 86
+if r != 25:
+	w = 32
+t = 218
+q = 82 % r
+while 252 >= t:
+	x = t * 2
+	r = p
+	t = x
+print(t)
+# output
+# 436
+
+# code
+s = 87
+s = 68
+h = 13
+d = h
+i = 28
+while 311 > i:
+	if h == h:
+		g = 8
+	i = i * h
+print(s)
+# output
+# 68
+
+# code
+h = 83
+x = 47
+if 42 > 17:
+	u = h
+	e = x % x
+b = 31
+x = 83 - x
+w = 0
+v = 11
+while w < b:
+	e = b // 9
+	y = 27 * x
+	s = w // 36
+	b = e
+print(x)
+# output
+# 36
+
+# code
+i = 10
+h = 59
+c = 58
+if 5 <= i:
+	i = i
+	a = h * 57
+p = 246
+g = 463
+i = 19
+t = p
+while p < g:
+	d = p + i
+	u = 7 + h
+	p = d
+print(p)
+# output
+# 474
+
+# code
+u = 46
+s = 71
+p = 5 % s
+if 97 < 44:
+	w = u // 81
+	i = p + 47
+u = 16
+a = 403
+i = 195
+while a > i:
+	i = i + u
+print(77)
+# output
+# 77
+
+# code
+r = 0
+e = 5
+e = 7 * r
+c = r
+if e == r:
+	r = 4
+a = 97
+m = 83
+n = 155
+o = 2
+h = r
+while n <= a:
+	t = a * o
+	w = a // c
+	u = 27
+	a = t
+print(c)
+# output
+# 0
+
+# code
+s = 50
+k = 96
+if s > 16:
+	p = s - 70
+d = 9
+k = 215
+r = 68
+t = k % 56
+while 1495 <= k:
+	k = k * d
+print(s)
+# output
+# 50
+
+# code
+p = 61
+y = 69
+g = 229
+while 428 >= g:
+	if 8 < 51:
+		b = y
+	g = g + 13
+print(g)
+# output
+# 437
+
+# code
+k = 48
+g = 95
+w = g
+if 63 < k:
+	u = 24 // k
+	y = 53 + w
+t = 239
+while t > 0:
+	z = t // 8
+	t = t + g
+	f = 11
+	t = z
+print(g)
+# output
+# 95
+
+# code
+s = 88
+g = 12
+if 51 > s:
+	u = s
+v = 206
+u = 162
+y = g
+while v >= u:
+	u = u + 6
+print(s)
+# output
+# 88
+
+# code
+k = 76
+f = 39
+if f >= k:
+	i = f
+	m = i * i
+r = 20
+o = 1797
+e = 120
+while o <= e:
+	t = e * r
+	i = f // 86
+	e = t
+print(e)
+# output
+# 120
+
+# code
+s = 18
+f = 86
+v = 44
+c = 10
+b = 72
+while 125 >= v:
+	if c != v:
+		l = b * 55
+	x = v * c
+	r = c
+	m = s // 19
+	v = x
+print(b)
+# output
+# 72
+
+# code
+j = 35
+i = 88
+d = 14
+v = 18
+while 96 < v:
+	if j <= v:
+		s = j
+	v = v * 7
+print(j)
+# output
+# 35
+
+# code
+h = 76
+d = 84
+u = 83
+g = 114
+while 1094 <= g:
+	if g > g:
+		k = 57
+	g = g * 17
+print(u)
+# output
+# 83
+
+# code
+y = 65
+y = 61
+if 93 < 1:
+	a = y
+	i = a
+	w = y
+w = 173
+while w > 149:
+	g = w - 8
+	q = y
+	w = g
+print(w)
+# output
+# 149
+
+# code
+q = 50
+q = 26
+a = 54
+while a <= 234:
+	if a != 65:
+		c = 2
+		r = q
+	a = a + 20
+print(a)
+# output
+# 254
+
+# code
+j = 62
+a = 36
+if 59 == 72:
+	z = a
+n = 59
+e = 109
+r = 134
+while e < r:
+	p = e + 2
+	k = n * 79
+	h = 97
+	e = p
+print(a)
+# output
+# 36
+
+# code
+h = 6
+y = 79
+q = h
+if q == 43:
+	w = q
+u = h - h
+f = 253
+while 336 > f:
+	f = f + 14
+print(u)
+# output
+# 0
+
+# code
+n = 75
+t = 39
+if 9 != t:
+	v = t % n
+else:
+	x = n + n
+p = 91
+while 0 < p:
+	f = p // 10
+	e = p
+	p = f
+print(55)
+# output
+# 55
+
+# code
+n = 36
+g = 41
+if 65 == g:
+	z = 17 - n
+v = 132
+w = 92
+h = 3
+f = h
+while w < v:
+	v = v - h
+print(g)
+# output
+# 41
+
+# code
+m = 86
+r = 48
+h = 40 // 83
+d = 1 + h
+if h < h:
+	m = r // 46
+z = 3
+t = 17 + 3
+i = 193
+o = 199
+while i <= o:
+	m = o - z
+	n = 73
+	a = 69
+	o = m
+print(t)
+# output
+# 20
+
+# code
+b = 16
+p = 71
+u = 158
+p = 50
+t = 17
+while 143 < u:
+	if t == b:
+		x = 66
+	u = u - t
+print(u)
+# output
+# 141
+
+# code
+g = 18
+s = 89
+r = 31 * 17
+if s > s:
+	v = g
+	k = s
+l = 378
+f = 235
+while l > f:
+	f = f + 17
+print(s)
+# output
+# 89
+
+# code
+t = 90
+f = 64
+w = 178
+v = 4
+d = 18
+while 0 < w:
+	if f == f:
+		print(v)
+	o = w // d
+	j = f
+	j = w % t
+	w = o
+# output
+# 4
+# 4
+
+# code
+x = 55
+z = 27
+if z >= x:
+	z = x
+	q = 26
+	j = q
+x = 232
+b = z - x
+while x > 153:
+	x = x - 18
+print(b)
+# output
+# -205
+
+# code
+w = 55
+w = 58
+if 6 > w:
+	k = w
+f = 208
+while 3116 >= f:
+	q = f * 15
+	l = w
+	f = q
+print(w)
+# output
+# 58
+
+# code
+a = 46
+p = 0
+r = 3
+c = 5
+s = 10
+while c < r:
+	if a == s:
+		f = 67 - c
+	r = r * s
+print(a)
+# output
+# 46
+
+# code
+z = 64
+t = 88
+v = 8
+y = 90 % z
+o = 67
+while -9 <= o:
+	if 69 >= 9:
+		print(v)
+	o = o - v
+# output
+# 8
+# 8
+# 8
+# 8
+# 8
+# 8
+# 8
+# 8
+# 8
+# 8
+
+# code
+e = 23
+v = 78
+if v < 7:
+	w = v
+q = 31
+i = 26
+n = e
+a = i
+while q > i:
+	i = i + 1
+print(a)
+# output
+# 26
+
+# code
+h = 81
+j = 27
+if j != j:
+	f = j
+	d = j
+c = 10
+d = c - h
+k = 200
+j = 1558
+while j < k:
+	k = k * c
+print(d)
+# output
+# -71
+
+# code
+p = 0
+p = 63
+a = 50
+l = 121
+o = 27 // l
+while 197 <= l:
+	if p <= 54:
+		print(a)
+	l = l * 15
+print(83)
+# output
+# 83
+
+# code
+c = 96
+r = 83
+z = c * r
+if 94 <= r:
+	x = r
+x = c - z
+g = 50
+n = 0
+j = 25 * 13
+w = 70
+while n < g:
+	u = g // 10
+	q = 13
+	g = n - n
+	g = u
+print(x)
+# output
+# -7872
+
+# code
+f = 59
+p = 30
+o = p
+if 20 == 43:
+	r = 1 + 77
+e = 270
+o = 253
+b = 1
+while e >= o:
+	x = o + b
+	u = o % b
+	o = x
+print(p)
+# output
+# 30
+
+# code
+k = 25
+d = 85
+l = 36
+if d <= k:
+	r = d
+p = 107
+while p > 0:
+	i = p // 10
+	m = d
+	p = i
+print(p)
+# output
+# 0
+
+# code
+q = 74
+x = 35
+y = 82
+j = 177
+t = y - 0
+while y <= j:
+	if 38 != q:
+		n = 49 - 56
+	y = y + 18
+print(x)
+# output
+# 35
+
+# code
+p = 88
+m = 60
+p = 93 * 82
+z = 90 + p
+if m >= m:
+	b = m - 29
+i = 3
+f = 218
+while 297 <= f:
+	f = f * i
+print(p)
+# output
+# 7626
+
+# code
+l = 53
+w = 15
+if 6 != l:
+	g = l
+	y = w % 69
+b = 161
+c = l
+j = l + w
+while 245 >= b:
+	m = b + 17
+	q = 8 // j
+	b = m
+print(b)
+# output
+# 246
+
+# code
+n = 14
+e = 74
+e = 204
+while 209 > e:
+	y = 19 - 9
+	if n == 78:
+		a = y
+	e = e + 1
+print(e)
+# output
+# 209
+
+# code
+v = 69
+o = 4
+s = o
+if 81 != 38:
+	g = v
+	w = g
+x = 9
+r = 46
+b = 17
+m = s % 71
+k = 138
+while r <= k:
+	q = k - x
+	a = o // 25
+	k = q
+print(r)
+# output
+# 46
+
+# code
+p = 56
+n = 31
+if n < n:
+	s = 60 * 12
+	i = 13
+	c = 26
+f = 17
+q = f
+y = 182
+while -33 <= y:
+	p = y - f
+	i = q % p
+	y = p
+print(n)
+# output
+# 31
+
+# code
+e = 65
+u = 70
+e = 95
+q = 30
+z = 5
+while q >= -1:
+	if 40 > u:
+		n = e
+	v = q - z
+	w = 54
+	r = 1 - w
+	q = v
+print(z)
+# output
+# 5
+
+# code
+g = 30
+c = 49
+if 92 <= 62:
+	i = c
+	o = g % i
+	e = o
+j = 132
+x = 59
+while j < 152:
+	j = j + 2
+print(g)
+# output
+# 30
+
+# code
+d = 63
+j = 37
+w = 15
+y = w % 94
+p = 253
+while 1113 < p:
+	if 57 == 56:
+		m = p - 87
+	k = p * w
+	z = 29
+	j = 72
+	p = k
+print(j)
+# output
+# 37
+
+# code
+u = 89
+z = 80
+if 92 < z:
+	f = 28 // z
+	w = u
+b = 1507
+u = 172
+while b >= u:
+	h = u * 9
+	z = u // z
+	e = z + b
+	u = h
+print(u)
+# output
+# 1548
+
+# code
+h = 71
+v = 89
+if h >= 32:
+	d = v - v
+b = 13
+d = v // v
+e = 190
+s = 0
+while e > s:
+	e = e // b
+print(v)
+# output
+# 89
+
+# code
+k = 32
+h = 67
+k = 146
+h = k
+w = k
+while 363 < k:
+	if 62 == 10:
+		n = h
+	w = k * 10
+	h = h + 77
+	j = 15
+	k = w
+print(h)
+# output
+# 146
+
+# code
+w = 6
+w = 52
+if w == w:
+	g = 96
+	c = g
+l = 228
+u = w
+z = 1050
+while z <= l:
+	n = l * 14
+	v = 34
+	f = w
+	l = n
+print(z)
+# output
+# 1050
+
+# code
+q = 9
+o = 74
+t = 35 % q
+if 32 <= 15:
+	y = t - 63
+x = 241
+q = 29
+while 414 >= x:
+	x = x + 20
+print(x)
+# output
+# 421
+
+# code
+y = 65
+r = 85
+l = 113
+n = l
+while l > 0:
+	b = n
+	if 65 > l:
+		k = y * r
+	m = l // 20
+	y = 46
+	l = 25 % 68
+	l = m
+print(y)
+# output
+# 46
+
+# code
+q = 43
+m = 14
+w = 38
+h = 1252
+s = 78
+while h < s:
+	if h != w:
+		print(s)
+	s = s * 18
+print(w)
+# output
+# 38
+
+# code
+p = 65
+u = 39
+f = 10
+z = 74
+while 536 >= z:
+	z = z * f
+	if f != f:
+		y = 93
+print(p)
+# output
+# 65
+
+# code
+r = 41
+v = 46
+if 11 <= r:
+	p = r
+m = 58
+l = 393
+while l <= m:
+	m = m * 10
+print(l)
+# output
+# 393
+
+# code
+h = 66
+n = 23
+p = h
+j = 81 * 35
+if j > 54:
+	n = 14 - 72
+b = 231
+while 96 <= b:
+	b = b // 2
+print(b)
+# output
+# 57
+
+# code
+k = 2
+k = 51
+k = 9
+t = 36
+while 0 < t:
+	if 25 < 0:
+		r = 74 + k
+	t = t // k
+print(k)
+# output
+# 9
+
+# code
+u = 24
+d = 30
+if 31 >= u:
+	i = u % 79
+d = 40
+y = u
+while 0 < d:
+	m = d // 14
+	q = 94
+	n = d * y
+	d = m
+print(d)
+# output
+# 0
+
+# code
+h = 17
+i = 81
+if i == i:
+	f = 25 + i
+	e = i
+h = 13
+z = 65
+x = 8 % 71
+while 246 > z:
+	z = z + h
+print(i)
+# output
+# 81
+
+# code
+t = 21
+x = 15
+u = 182
+g = 3
+while u >= 148:
+	if g <= t:
+		x = t - 88
+	o = u - g
+	b = 91
+	c = g
+	u = o
+print(t)
+# output
+# 21
+
+# code
+t = 77
+i = 87
+if i >= t:
+	q = 45
+	q = q - i
+	g = i // 87
+x = 4
+s = 61
+p = 71
+while 81 <= s:
+	y = s * x
+	o = 27 + s
+	t = 74 - 82
+	s = y
+print(t)
+# output
+# 77
+
+# code
+b = 78
+g = 75
+i = b
+q = 248
+u = 119
+while u < q:
+	if 15 <= u:
+		t = 65 + q
+	q = q - 18
+print(u)
+# output
+# 119
+
+# code
+e = 26
+i = 44
+if 30 > i:
+	y = i
+	v = e // e
+	w = i
+r = 166
+s = 174
+while r < s:
+	r = r + 1
+print(s)
+# output
+# 174
+
+# code
+b = 91
+h = 15
+x = 21
+c = 119
+k = x
+while c > x:
+	if k != b:
+		a = c
+	x = x * 15
+print(c)
+# output
+# 119
+
+# code
+z = 26
+p = 0
+if p != 51:
+	n = 74
+k = 93 + z
+p = 2
+u = 217
+h = 1
+r = 63 - 42
+while u > h:
+	u = u // p
+print(h)
+# output
+# 1
+
+# code
+w = 21
+z = 90
+k = 4
+u = 10
+while -169 <= k:
+	if 26 <= u:
+		p = 25 + 40
+	f = k - u
+	s = 28 - 53
+	i = 64 - 99
+	k = f
+print(z)
+# output
+# 90
+
+# code
+v = 41
+b = 93
+r = 226
+i = 8
+while r > 0:
+	if 96 == i:
+		f = 55 // r
+	n = r // i
+	p = b - b
+	t = i
+	r = n
+print(b)
+# output
+# 93
+
+# code
+x = 30
+j = 65
+l = 33 * j
+if l != l:
+	r = x
+y = j % j
+f = 26
+i = 48
+c = 10
+while i > f:
+	f = f * c
+print(l)
+# output
+# 2145
+
+# code
+g = 4
+k = 95
+o = 14
+while o < 43:
+	r = 89
+	if o < 35:
+		w = 45
+	k = o + 16
+	n = o
+	o = k
+print(k)
+# output
+# 46
+
+# code
+m = 2
+x = 55
+n = 97 // x
+if 49 == 0:
+	k = n
+	w = m
+k = 3
+a = 0
+i = 74
+while i > a:
+	b = i // k
+	e = 63
+	f = a - e
+	i = b
+print(a)
+# output
+# 0
+
+# code
+f = 90
+s = 68
+i = 70
+if 25 <= 70:
+	j = i
+	q = 46
+s = 192
+t = 17
+w = i
+y = 80 + 17
+while s >= 169:
+	s = s - t
+print(f)
+# output
+# 90
+
+# code
+g = 80
+b = 59
+f = b
+w = 168
+z = 251
+while w < z:
+	if 88 == 65:
+		k = 5
+	j = z - 5
+	r = z % 70
+	z = j
+print(w)
+# output
+# 168
+
+# code
+u = 96
+v = 33
+d = u // 24
+b = 115
+n = 132
+while b < n:
+	if 90 >= 27:
+		p = u // 63
+	b = b + 12
+print(b)
+# output
+# 139
+
+# code
+y = 50
+m = 95
+b = 174
+l = 33
+l = b
+while 8 < b:
+	if y < b:
+		h = m
+	w = b // 17
+	o = l + b
+	b = w
+print(l)
+# output
+# 174
+
+# code
+d = 54
+x = 31
+if x != d:
+	k = d
+p = d + d
+c = x
+f = 18
+u = 61
+h = 1572
+u = 235
+while h < u:
+	u = u * f
+print(h)
+# output
+# 1572
+
+# code
+b = 77
+w = 58
+if w >= 24:
+	t = b % 39
+b = 19
+i = 82
+while 204 >= i:
+	i = i + 8
+print(w)
+# output
+# 58
+
+# code
+p = 87
+c = 47
+l = 6
+m = 91
+while m > 0:
+	if c >= p:
+		w = 19
+	m = m // l
+print(l)
+# output
+# 6
+
+# code
+t = 74
+d = 15
+b = 57
+s = 10
+o = 147
+while 343 >= o:
+	if 58 >= o:
+		n = 42 + s
+	x = o * s
+	n = b % 56
+	o = x
+print(t)
+# output
+# 74
+
+# code
+w = 43
+t = 85
+n = 0
+v = 10
+s = 66
+while n < s:
+	if 39 < 39:
+		d = 28 + w
+	s = s // v
+print(t)
+# output
+# 85
+
+# code
+s = 75
+z = 15
+if z < z:
+	d = 13
+	x = d
+b = 8
+o = 62
+y = b
+while o > 61:
+	y = o - b
+	u = b % o
+	j = b
+	o = y
+print(b)
+# output
+# 8
+
+# code
+f = 81
+z = 96
+e = 65
+l = 111
+while l >= e:
+	if 30 <= 10:
+		k = 13
+	m = e * 5
+	h = z * 86
+	e = m
+print(e)
+# output
+# 325
+
+# code
+e = 46
+g = 86
+if e != 38:
+	m = 75
+e = 28
+r = 4
+while e > 0:
+	e = e // r
+print(e)
+# output
+# 0
+
+# code
+u = 10
+k = 69
+p = 62
+if u < 93:
+	c = 18 + k
+t = 49
+z = 67 % u
+w = 8
+i = 40
+while 0 < t:
+	k = t // w
+	b = k
+	i = b + 41
+	t = k
+print(w)
+# output
+# 8
+
+# code
+y = 12
+n = 32
+if 74 > 31:
+	p = n % 57
+	o = 15 * p
+g = n
+l = 0
+u = 46
+z = 119
+g = 74
+while z > l:
+	z = z // 19
+print(n)
+# output
+# 32
+
+# code
+d = 50
+l = 53
+k = d
+if l > l:
+	j = 22
+	j = 18 // k
+l = 7
+a = 2
+h = -6
+while l > h:
+	f = l - a
+	s = 5 // a
+	l = f
+print(k)
+# output
+# 50
+
+# code
+z = 55
+v = 36
+if z != z:
+	w = z // 82
+	z = 89
+h = v - v
+n = 244
+d = 0
+l = 10
+while d < n:
+	n = n // l
+print(d)
+# output
+# 0
+
+# code
+e = 43
+b = 94
+if 87 >= b:
+	f = 55
+	g = 30
+q = 60
+while q < 123:
+	t = q + 16
+	o = e - 22
+	r = 61
+	q = t
+print(q)
+# output
+# 124
+
+# code
+o = 39
+y = 27
+m = 246
+while 393 > m:
+	if y <= 44:
+		j = o
+		s = o
+	w = m * 6
+	m = 92 // y
+	i = 20 + o
+	m = w
+print(o)
+# output
+# 39
+
+# code
+z = 68
+y = 79
+d = y
+if y >= 76:
+	q = 18 - 26
+f = 0
+l = y * z
+t = 15
+w = 67
+while f < w:
+	o = w // t
+	v = f * d
+	w = o
+print(f)
+# output
+# 0
+
+# code
+v = 33
+s = 2
+if v >= 18:
+	w = 37
+	w = 77
+s = 70 - 86
+h = 20
+q = 209
+v = s + s
+while 0 < q:
+	q = q // h
+print(s)
+# output
+# -16
+
+# code
+w = 39
+l = 90
+l = w * w
+if w < w:
+	p = l // w
+	l = 36 % 67
+l = 250
+while l >= -102:
+	l = l - 18
+print(w)
+# output
+# 39
+
+# code
+z = 91
+n = 51
+h = 110
+g = 212
+while g > h:
+	if 12 <= 89:
+		q = g
+	h = h * 2
+print(z)
+# output
+# 91
+
+# code
+e = 35
+q = 44
+if 79 == e:
+	g = 28
+	h = e
+w = 17
+n = 441
+h = 126
+while h <= n:
+	d = h + w
+	b = 73
+	p = 58 + 32
+	h = d
+print(h)
+# output
+# 449
+
+# code
+h = 47
+k = 10
+if h == 46:
+	h = k
+h = h
+t = 81
+p = t - 4
+while t < 153:
+	t = t + 8
+print(h)
+# output
+# 47
+
+# code
+l = 26
+v = 21
+z = 193
+f = v
+y = 44 * 92
+while z < 260:
+	if z == 10:
+		t = v % 74
+	z = z + 4
+print(l)
+# output
+# 26
+
+# code
+i = 28
+p = 86
+if 51 >= i:
+	n = i + i
+	s = 85
+	m = 27
+s = 121
+m = 12
+while 321 >= s:
+	l = s * 9
+	n = i + 14
+	s = l
+print(s)
+# output
+# 1089
+
+# code
+g = 90
+g = 55
+if 17 != g:
+	h = g % g
+	a = g
+w = 152
+h = 6
+u = 77
+y = g - u
+while w >= 60:
+	n = w - h
+	p = 22 - w
+	c = g
+	w = n
+print(w)
+# output
+# 56
+
+# code
+j = 70
+y = 6
+if 26 < y:
+	f = 43
+	q = y + j
+	y = f
+x = 102
+p = 76
+b = 5
+while x > 0:
+	x = x // b
+print(x)
+# output
+# 0
+
+# code
+u = 65
+p = 31
+k = 46 // 63
+if 35 == k:
+	x = 22 * u
+y = 78
+o = 69
+while o < y:
+	y = y - 1
+print(y)
+# output
+# 69
+
+# code
+x = 72
+g = 44
+if x != 20:
+	c = 90 + x
+q = 12
+j = q + 62
+o = 149
+while 167 > o:
+	w = o + q
+	u = 47
+	o = w
+print(o)
+# output
+# 173
+
+# code
+x = 42
+o = 13
+if 67 < 13:
+	z = o
+	t = 1
+	q = t
+j = 15
+l = 148
+n = 52 * l
+while l > 0:
+	p = l // j
+	t = o % j
+	u = 33 // o
+	l = p
+print(n)
+# output
+# 7696
+
+# code
+d = 70
+s = 72
+n = 27
+if d >= n:
+	w = 69 * d
+	f = d
+q = 35
+e = s
+b = 30 % 63
+while 268 <= q:
+	q = q * 14
+print(d)
+# output
+# 70
+
+# code
+c = 94
+a = 99
+u = 249
+while 358 < u:
+	a = a
+	if 20 >= 33:
+		s = 31
+	u = u * 11
+print(u)
+# output
+# 249
+
+# code
+t = 29
+z = 92
+o = 33
+p = 11
+while 125 > o:
+	o = o + p
+if t == o:
+	print(o)
+print(o)
+# output
+# 132
+
+# code
+y = 0
+g = 35
+if y < g:
+	r = 38 * 59
+w = 16
+l = 51 // g
+m = 190
+while 1738 <= m:
+	l = m * w
+	z = y
+	m = l
+print(y)
+# output
+# 0
+
+# code
+o = 52
+w = 71
+y = 21
+c = 31
+while y < c:
+	h = w // o
+	if c < w:
+		b = 87
+	c = c - 1
+print(o)
+# output
+# 52
+
+# code
+j = 84
+q = 41
+if j > 2:
+	e = 11 - 38
+t = 200
+v = 43 * 54
+while 198 <= t:
+	t = t - 1
+print(t)
+# output
+# 197
+
+# code
+w = 58
+r = 78
+c = 200
+h = 48
+x = h + 29
+while 211 >= c:
+	if h <= 20:
+		print(r)
+	z = c + 11
+	w = x
+	h = r
+	c = z
+print(c)
+# output
+# 222
+
+# code
+t = 98
+s = 22
+o = t
+if o >= t:
+	t = o
+l = 151
+i = 106
+u = 9
+while l >= i:
+	i = i + u
+print(u)
+# output
+# 9
+
+# code
+u = 70
+d = 44
+if d == 14:
+	o = 73 * u
+o = d
+h = 79
+l = 54
+v = 38
+while h >= l:
+	l = l + 8
+print(u)
+# output
+# 70
+
+# code
+l = 42
+f = 66
+i = 198
+while 99 < i:
+	if 47 >= f:
+		y = f
+	i = i - 5
+print(l)
+# output
+# 42
+
+# code
+b = 75
+q = 31
+if 4 != q:
+	y = q
+l = b
+q = b * q
+j = 18
+x = q + b
+y = 39
+while 0 < y:
+	y = y // j
+print(l)
+# output
+# 75
+
+# code
+s = 38
+g = 25
+if 52 > s:
+	a = 31 + 79
+	j = 68 - g
+s = s
+g = 254
+h = 15
+while 1504 > g:
+	g = g * h
+print(s)
+# output
+# 38
+
+# code
+x = 27
+a = 62
+n = 251
+k = 43 % 84
+while 4246 <= n:
+	m = 8 - n
+	if 37 == 8:
+		q = 4 * 84
+	n = n * 20
+print(k)
+# output
+# 43
+
+# code
+s = 7
+l = 87
+if 30 == l:
+	p = l + 72
+	c = 25
+a = 190
+q = 10
+while 0 < a:
+	a = a // q
+print(a)
+# output
+# 0
+
+# code
+d = 2
+z = 3
+f = -138
+p = 6
+j = 77
+while f <= j:
+	if 65 <= 7:
+		a = j
+	j = j - 14
+print(z)
+# output
+# 3
+
+# code
+p = 91
+d = 45
+o = 91 // 43
+if p >= p:
+	r = 24 // p
+k = 76
+s = 2871
+g = 205
+j = 20
+while s < g:
+	g = g * j
+print(s)
+# output
+# 2871
+
+# code
+o = 50
+q = 22
+r = 196
+k = r
+k = 8
+while 366 >= r:
+	if o >= 73:
+		print(k)
+	x = r + 13
+	d = k
+	h = q * q
+	r = x
+print(q)
+# output
+# 22
+
+# code
+s = 96
+k = 39
+u = 152
+k = u
+while u > 136:
+	if 19 >= 50:
+		c = 18
+	m = u - 10
+	k = s
+	u = m
+print(65)
+# output
+# 65
+
+# code
+d = 39
+j = 92
+if 9 >= d:
+	i = 95 * 11
+	j = 67
+a = 68
+y = 33
+f = 4
+m = 16 - 71
+m = 2 // 64
+while a >= y:
+	q = a // f
+	o = d - 56
+	a = q
+print(m)
+# output
+# 0
+
+# code
+a = 56
+t = 53
+o = a - t
+if o <= 84:
+	w = 38
+m = 64
+while 1063 > m:
+	b = m * 18
+	n = m % o
+	m = b
+print(a)
+# output
+# 56
+
+# code
+g = 35
+k = 72
+i = g
+if 28 > 23:
+	r = 51 + g
+v = 7
+h = 61
+s = v
+while 424 >= h:
+	i = h * v
+	e = k
+	h = i
+print(s)
+# output
+# 7
+
+# code
+r = 60
+g = 9
+if g < r:
+	z = 15
+d = r
+r = 222
+while 1293 > r:
+	s = r * 17
+	o = 22 - r
+	r = s
+print(g)
+# output
+# 9
+
+# code
+i = 20
+f = 85
+s = 137
+u = 10
+p = 25 - s
+while 0 < s:
+	if u != 74:
+		print(s)
+	j = s // u
+	i = i
+	s = j
+# output
+# 137
+# 13
+# 1
+
+# code
+w = 47
+v = 94
+if w != 83:
+	m = w
+	y = 48
+c = 32
+u = 533
+while u >= c:
+	c = c * 19
+print(w)
+# output
+# 47
+
+# code
+q = 79
+h = 82
+f = h
+if 40 != q:
+	p = 86
+	b = 35 - p
+i = 89
+c = 7
+while i > 0:
+	a = i // c
+	v = i
+	i = a
+print(f)
+# output
+# 82
+
+# code
+r = 60
+r = 2
+n = 68
+r = 3
+while n > r:
+	if 21 >= 34:
+		w = 14
+	n = n - 5
+print(r)
+# output
+# 3
+
+# code
+i = 38
+m = 97
+if m >= 62:
+	q = m // m
+	g = i
+x = 14
+while 120 > x:
+	x = x * 10
+print(x)
+# output
+# 140
+
+# code
+v = 20
+a = 78
+f = 241
+while f >= 36:
+	k = 94 + f
+	if a == k:
+		q = a // v
+	d = f // 3
+	w = v // f
+	f = d
+print(f)
+# output
+# 26
+
+# code
+z = 40
+v = 52
+if 12 > 35:
+	l = v + 36
+	e = 22 + z
+	v = 46 + e
+x = 15
+d = 222
+while d <= 417:
+	d = d + x
+print(d)
+# output
+# 432
+
+# code
+o = 86
+k = 32
+if k >= 36:
+	v = 13
+a = 151
+m = 13
+i = 53 - k
+while a >= -52:
+	a = a - m
+print(k)
+# output
+# 32
+
+# code
+d = 92
+q = 16
+h = 78
+z = 38
+while 48 <= h:
+	if 20 != q:
+		f = 21
+	h = h // 10
+print(z)
+# output
+# 38
+
+# code
+v = 99
+i = 11
+l = i
+if 55 >= 25:
+	t = i - i
+t = 97
+x = 19
+i = 3
+while t >= i:
+	n = t // x
+	m = 30 % 32
+	e = l // t
+	t = n
+print(l)
+# output
+# 11
+
+# code
+u = 44
+v = 47
+if u <= 63:
+	m = 64
+y = 103
+q = v - u
+s = 6 + y
+while 116 >= y:
+	u = y + 1
+	z = 16 * 42
+	y = u
+print(y)
+# output
+# 117
+
+# code
+d = 9
+v = 59
+if d > 51:
+	e = 69
+	f = 51
+l = 14
+q = 12
+while 48 >= q:
+	q = q * l
+print(d)
+# output
+# 9
+
+# code
+r = 13
+x = 85
+z = 46
+o = x
+f = 12
+while -30 <= z:
+	if 4 != 9:
+		print(x)
+	q = z - 10
+	a = 0 * r
+	s = f // 30
+	z = q
+# output
+# 85
+# 85
+# 85
+# 85
+# 85
+# 85
+# 85
+# 85
+
+# code
+d = 32
+s = 12
+j = d
+if 5 >= 78:
+	b = j
+	c = 64
+e = 8
+z = 126
+y = s - e
+while 323 >= z:
+	y = z * e
+	i = 33 + 72
+	z = y
+print(59)
+# output
+# 59
+
+# code
+c = 83
+x = 86
+p = 226
+s = 432
+h = 2
+while s >= p:
+	if 37 > p:
+		print(x)
+	g = p * h
+	n = s % x
+	p = g
+print(x)
+# output
+# 86
+
+# code
+m = 20
+a = 62
+n = 234
+s = n
+while 358 > n:
+	if m > 20:
+		y = n
+	s = n * 9
+	i = s
+	n = s
+print(n)
+# output
+# 2106
+
+# code
+x = 40
+n = 52
+if n == n:
+	a = 58
+	h = 1
+	l = 31
+g = 69
+h = x
+l = x * 54
+while 0 < g:
+	s = g // 11
+	n = x * 52
+	g = s
+print(l)
+# output
+# 2160
+
+# code
+e = 95
+h = 22
+l = 5
+i = 2
+while l >= i:
+	if e != 81:
+		g = h * h
+	i = i * 10
+print(i)
+# output
+# 20
+
+# code
+f = 16
+g = 38
+l = 14
+n = 207
+r = 73
+while 2649 <= n:
+	if f == 13:
+		print(36)
+	n = n * l
+print(l)
+# output
+# 14
+
+# code
+j = 33
+i = 6
+d = 188
+while 0 < d:
+	q = d % j
+	if d < 32:
+		s = j
+	d = d // 10
+print(i)
+# output
+# 6
+
+# code
+a = 71
+h = 15
+if 27 == h:
+	h = 20
+t = h
+y = 1
+d = 86
+n = 82
+o = 82
+while n <= d:
+	n = n + y
+print(o)
+# output
+# 82
+
+# code
+w = 89
+y = 33
+if 18 > 31:
+	w = w * w
+elif 85 < 35:
+	m = 29 + 9
+r = 7
+k = w - r
+n = 187
+while 910 >= n:
+	n = n * r
+print(y)
+# output
+# 33
+
+# code
+a = 87
+y = 75
+if 35 == 38:
+	v = 9 - y
+	s = 55
+r = y
+r = 233
+z = a
+t = 263
+while r <= t:
+	x = r + 10
+	o = a - t
+	b = a - y
+	r = x
+print(t)
+# output
+# 263
+
+# code
+k = 78
+h = 96
+if k != k:
+	a = k
+	k = h * 2
+r = 102
+h = 6
+while -9 <= r:
+	r = r - h
+print(k)
+# output
+# 78
+
+# code
+d = 52
+j = 4
+if j != j:
+	u = 62 + d
+	b = j - 37
+y = 59
+w = 11
+e = j * 77
+while -97 <= w:
+	w = w - 6
+print(d)
+# output
+# 52
+
+# code
+j = 65
+j = 9
+if j < j:
+	e = 79
+m = j // 25
+w = 12
+x = 208
+while 732 >= x:
+	x = x * 7
+print(x)
+# output
+# 1456
+
+# code
+p = 22
+t = 8
+v = 209
+g = v
+g = 41 * p
+while 668 > v:
+	if 23 == 24:
+		n = 23
+	r = v * 4
+	b = 8
+	v = r
+print(v)
+# output
+# 836
+
+# code
+a = 2
+e = 41
+if 22 > e:
+	a = 45
+	p = a
+c = 28
+while 162 < c:
+	k = c * 12
+	a = 71 * e
+	w = e
+	c = k
+print(31)
+# output
+# 31
+
+# code
+u = 88
+p = 18
+c = 96
+if 68 != 58:
+	x = 81 // c
+j = u
+b = 103
+l = 5 + 39
+h = u
+while b > 48:
+	c = b // 7
+	i = h
+	b = c
+print(b)
+# output
+# 14
+
+# code
+i = 72
+e = 32
+u = 175
+k = 5 // i
+while 1290 >= u:
+	if 23 >= 91:
+		x = 81
+	u = u * 16
+print(i)
+# output
+# 72
+
+# code
+p = 85
+c = 49
+if c == 24:
+	r = 45 % 69
+r = 68
+p = 19 - c
+j = 349
+s = 160
+r = 73 + 23
+e = 14 * p
+while j < s:
+	s = s * 6
+print(r)
+# output
+# 96
+
+# code
+f = 44
+i = 98
+if 27 >= 63:
+	b = 28
+v = i * 0
+v = 21
+h = 1809
+r = 237
+while h > r:
+	p = r * 10
+	v = h // v
+	r = p
+print(h)
+# output
+# 1809
+
+# code
+u = 84
+x = 88
+c = u
+if c >= x:
+	t = 87 % u
+	a = 65 - 71
+d = 58
+u = 68
+k = u - u
+while d > 0:
+	d = d // 10
+print(c)
+# output
+# 84
+
+# code
+l = 45
+i = 38
+v = 70
+u = 305
+o = 37 % i
+while u > v:
+	if v < 39:
+		f = 46 + 12
+	v = v + 17
+print(i)
+# output
+# 38
+
+# code
+z = 13
+j = 94
+u = j * z
+if u == 54:
+	k = 4 * u
+a = 201
+s = 636
+g = a * 18
+j = 1
+while s < a:
+	b = a * 11
+	a = j % g
+	q = 77 * 99
+	a = b
+print(z)
+# output
+# 13
+
+# code
+f = 7
+a = 1
+if 5 < 58:
+	d = 65
+	z = 83
+c = 141
+l = 252
+w = a * f
+e = c + a
+while l > c:
+	c = c * 8
+print(c)
+# output
+# 1128
+
+# code
+j = 31
+r = 49
+if 33 > 21:
+	p = j
+	q = p * 31
+	x = p
+i = 354
+r = j
+l = 253
+z = 61
+m = 12
+while i > l:
+	l = l + m
+print(l)
+# output
+# 361
+
+# code
+c = 89
+p = 84
+r = 24 // 11
+if 43 < 31:
+	c = r
+f = c % c
+s = 168
+while s >= 0:
+	d = s - 19
+	q = 23
+	j = q % r
+	s = d
+print(p)
+# output
+# 84
+
+# code
+l = 20
+p = 70
+z = 21
+g = 15
+e = 1
+while z >= g:
+	if z < 1:
+		t = e
+	z = z - e
+print(e)
+# output
+# 1
+
+# code
+p = 71
+k = 31
+z = 42
+l = p
+h = 195
+while h >= 169:
+	if 61 >= 77:
+		print(h)
+	q = h - 4
+	i = 79
+	h = q
+print(l)
+# output
+# 71
+
+# code
+q = 94
+i = 34
+z = 58 - 24
+if z >= 24:
+	h = 15
+	s = 89
+r = 236
+w = q
+while 0 < r:
+	d = r // 19
+	u = 75
+	r = d
+print(w)
+# output
+# 94
+
+# code
+u = 45
+j = 49
+r = 42 + 47
+if 29 <= j:
+	z = u
+p = 77
+n = 90 * 27
+s = r
+f = 0
+while p > f:
+	p = p // 10
+print(j)
+# output
+# 49
+
+# code
+x = 95
+k = 21
+k = 8
+o = 228
+while 0 < o:
+	if k <= k:
+		i = 55 // 12
+	o = o // k
+print(k)
+# output
+# 8
+
+# code
+m = 19
+u = 91
+if 64 <= u:
+	t = u
+else:
+	t = u
+w = 250
+d = 182
+while w >= d:
+	n = w - 4
+	b = 31 % u
+	w = n
+print(u)
+# output
+# 91
+
+# code
+d = 35
+i = 7
+if 9 > i:
+	i = d
+n = 229
+t = 106
+a = 84
+while t <= n:
+	n = n - 17
+print(a)
+# output
+# 84
+
+# code
+s = 94
+s = 54
+if 41 >= 1:
+	w = s % 6
+	o = w * w
+w = 31
+z = 70
+while w < z:
+	z = z - 14
+print(z)
+# output
+# 28
+
+# code
+x = 35
+n = 33
+if x < 46:
+	s = 38 // 82
+	c = 80
+	c = x + n
+r = 76
+while r > 18:
+	r = r // 4
+print(n)
+# output
+# 33
+
+# code
+d = 84
+m = 57
+if d < d:
+	r = d
+o = m
+c = 148
+p = c
+while 359 > c:
+	c = c + 14
+print(d)
+# output
+# 84
+
+# code
+a = 36
+t = 0
+if 68 != 59:
+	u = t % 47
+	t = 86 - a
+	o = t
+c = 4
+z = 37
+q = 225
+r = 174
+while q > r:
+	r = r + c
+print(q)
+# output
+# 225
+
+# code
+w = 39
+k = 51
+b = 174
+while b >= 104:
+	if k <= 68:
+		w = b
+		z = w
+	f = b - 5
+	y = 1 * b
+	b = f
+print(k)
+# output
+# 51
+
+# code
+e = 72
+m = 23
+if 29 != e:
+	n = e
+	d = m
+a = 7
+v = 157
+while 138 < v:
+	i = v - a
+	o = 26 // v
+	v = i
+print(e)
+# output
+# 72
+
+# code
+p = 22
+f = 64
+if f <= 97:
+	t = 3 % 67
+	u = f
+	m = 95 + f
+o = 18
+n = 69
+q = n - 12
+while 978 <= n:
+	j = n * o
+	q = 98 - 4
+	n = j
+print(96)
+# output
+# 96
+
+# code
+f = 67
+i = 70
+h = 14
+t = 218
+while t >= 147:
+	a = 52
+	if i <= t:
+		d = 62
+	t = t - h
+print(t)
+# output
+# 134
+
+# code
+x = 87
+t = 11
+e = x
+n = 43
+p = 15
+while 275 >= n:
+	if e != 86:
+		c = 11 % 50
+	n = n * p
+print(p)
+# output
+# 15
+
+# code
+z = 46
+w = 7
+if z == z:
+	t = z
+t = 207
+u = 60
+z = 173
+while z <= t:
+	t = t - 19
+print(z)
+# output
+# 173
+
+# code
+c = 85
+a = 61
+i = 26
+y = 6
+h = 57 % a
+while y > 0:
+	if 33 > 31:
+		j = c + 95
+	t = y // 10
+	q = c * 57
+	y = t
+print(h)
+# output
+# 57
+
+# code
+x = 69
+i = 85
+k = 214
+while k <= 225:
+	k = k + 1
+	if 27 >= x:
+		u = 45
+print(x)
+# output
+# 69
+
+# code
+o = 41
+h = 62
+l = 206
+while l > 203:
+	o = 98
+	if o >= l:
+		f = 82
+	d = l - 1
+	z = 49 % 49
+	l = d
+print(l)
+# output
+# 203
+
+# code
+m = 69
+s = 65
+p = 191
+t = p % p
+c = 19
+while 548 >= p:
+	if m > 92:
+		t = t
+	p = p + c
+print(s)
+# output
+# 65
+
+# code
+g = 80
+k = 25
+b = 0
+m = 13
+k = 138
+while b < k:
+	if 33 == m:
+		x = m + 79
+	k = k // 9
+print(b)
+# output
+# 0
+
+# code
+c = 90
+t = 80
+if t >= t:
+	s = 0
+z = 225
+j = c
+u = 82 // t
+f = 2384
+while f < z:
+	z = z * 12
+print(u)
+# output
+# 1
+
+# code
+a = 87
+o = 50
+p = 228
+j = o * 86
+while 2099 <= p:
+	if 98 < 99:
+		j = p
+	x = p * 10
+	i = 71
+	p = x
+print(a)
+# output
+# 87
+
+# code
+l = 99
+h = 5
+if l == 8:
+	r = 32
+	z = 70 - 62
+d = 209
+while 2537 >= d:
+	d = d * 13
+print(85)
+# output
+# 85
+
+# code
+d = 58
+c = 70
+d = 6
+v = 56
+p = 69
+while v > d:
+	if 63 <= c:
+		h = p
+	p = d + 9
+	q = d - 24
+	u = p
+	d = p
+print(p)
+# output
+# 60
+
+# code
+x = 92
+j = 13
+n = 178
+while n > -145:
+	l = x
+	n = n - 17
+	if 34 > x:
+		print(n)
+print(n)
+# output
+# -145
+
+# code
+j = 95
+n = 85
+z = 66
+if 60 <= n:
+	b = 61
+	j = 56
+b = 194
+o = 21 - 65
+x = 14
+while 0 < b:
+	k = b // x
+	a = 33 - 2
+	z = z + x
+	b = k
+print(x)
+# output
+# 14
+
+# code
+b = 28
+h = 1
+i = 77 - b
+g = 36
+if h == b:
+	e = 40 - g
+m = 96
+s = 33
+u = 72 + m
+while m < s:
+	s = s * 11
+print(s)
+# output
+# 33
+
+# code
+m = 67
+m = 75
+g = 42 * 82
+d = 185
+n = 53
+while -176 <= d:
+	if 21 > d:
+		print(g)
+	d = d - 19
+# output
+# 3444
+# 3444
+# 3444
+# 3444
+# 3444
+# 3444
+# 3444
+# 3444
+# 3444
+# 3444
+# 3444
+
+# code
+n = 82
+o = 86
+if o > o:
+	v = 92
+h = 16
+c = 78
+while h <= c:
+	l = h + 11
+	t = o + 56
+	i = 46
+	h = l
+print(n)
+# output
+# 82
+
+# code
+q = 1
+f = 75
+if f <= 46:
+	i = q
+p = 408
+q = 42
+m = 128
+u = f
+while p >= m:
+	m = m * 7
+print(u)
+# output
+# 75
+
+# code
+n = 41
+v = 67
+if 23 == n:
+	f = 14
+d = n // 41
+w = 93
+s = 44
+while 355 >= w:
+	r = w * 4
+	o = s
+	b = 5 % 85
+	w = r
+print(n)
+# output
+# 41
+
+# code
+l = 92
+g = 18
+if g >= 35:
+	n = l
+	w = 56
+n = g
+j = 7
+l = 190
+while l <= 300:
+	w = l + j
+	p = 83
+	l = w
+print(g)
+# output
+# 18
+
+# code
+u = 50
+t = 84
+n = 73 + u
+f = t
+if 86 < 50:
+	o = f + 78
+c = 61
+n = n // 68
+while c < 336:
+	i = c + 14
+	u = 40 % n
+	c = i
+print(n)
+# output
+# 1
+
+# code
+q = 32
+t = 4
+u = 13
+while u > -9:
+	q = 8
+	if q > q:
+		z = u
+	w = u - 6
+	k = 14
+	u = w
+print(q)
+# output
+# 8
+
+# code
+v = 81
+b = 43
+if 38 != b:
+	f = 9
+	s = f - 94
+r = 188
+z = 15
+l = z % b
+h = 978
+while h >= r:
+	r = r * z
+print(h)
+# output
+# 978
+
+# code
+j = 15
+p = 33
+u = 49
+k = 28
+c = 26
+while c <= k:
+	if 14 > j:
+		e = p
+	y = c + 2
+	g = c % c
+	b = p
+	c = y
+print(c)
+# output
+# 30
+
+# code
+u = 90
+t = 87
+a = t
+if a == 49:
+	c = t
+	r = u * a
+p = 187
+k = p + a
+y = 9
+o = u // 40
+while p < 189:
+	x = p + y
+	z = 31
+	e = 70
+	p = x
+print(y)
+# output
+# 9
+
+# code
+q = 97
+h = 9
+if 11 >= q:
+	n = q
+n = q
+j = 47
+b = 121
+v = 244
+while b < v:
+	n = v - 13
+	g = 0
+	m = 28
+	v = n
+print(q)
+# output
+# 97
+
+# code
+d = 15
+y = 10
+r = 63
+y = 74
+while y > r:
+	if r >= d:
+		j = r
+	e = r + 1
+	u = 74 - d
+	o = d * 24
+	r = e
+print(r)
+# output
+# 74
+
+# code
+h = 32
+u = 71
+c = 2
+r = 240
+l = 68 - 86
+while 208 <= r:
+	if r > 37:
+		x = 0
+	h = r - c
+	q = 42
+	y = 34
+	r = h
+print(l)
+# output
+# -18
+
+# code
+z = 79
+g = 67
+q = 17
+m = 0
+while q > m:
+	a = 21 * m
+	if 14 == 84:
+		a = q
+	x = q // 9
+	z = q
+	q = x
+print(q)
+# output
+# 0
+
+# code
+y = 24
+m = 12
+o = 89 // 38
+if 11 != 38:
+	e = 75
+o = 205
+x = 35
+while 1381 < o:
+	o = o * 18
+print(o)
+# output
+# 205
+
+# code
+l = 30
+o = 76
+if 22 >= l:
+	e = 40 % o
+h = 38
+o = 9
+m = 9
+l = 55
+while m < h:
+	g = h - o
+	e = 53
+	e = 68 - e
+	h = g
+print(h)
+# output
+# 2
+
+# code
+q = 96
+u = 91
+if u != 49:
+	k = q
+	l = u
+i = 15
+f = 63 + 77
+k = q
+z = 44
+g = 294
+while g >= z:
+	o = z + i
+	q = z
+	p = q + k
+	z = o
+print(u)
+# output
+# 91
+
+# code
+f = 62
+a = 60
+r = 164
+p = 52 * 80
+while 1339 < r:
+	if p == a:
+		t = p + 44
+	r = r * 18
+print(a)
+# output
+# 60
+
+# code
+q = 5
+x = 20
+t = q - x
+if 77 >= 44:
+	t = 23 // 1
+	y = x
+x = 1
+w = 32
+while -4 < x:
+	x = x - 1
+print(q)
+# output
+# 5
+
+# code
+p = 57
+f = 38
+w = f
+f = 73
+s = p
+while f >= 58:
+	if 81 == p:
+		p = 19
+	f = f - 1
+print(w)
+# output
+# 38
+
+# code
+m = 99
+u = 3
+if 21 > u:
+	d = 67
+	m = m
+	f = 30
+t = 1963
+y = 186
+f = 17
+while t <= y:
+	y = y * f
+print(f)
+# output
+# 17
+
+# code
+c = 99
+c = 7
+r = 89
+o = 68
+while 29 <= r:
+	if o <= c:
+		h = 61
+	r = r - 15
+print(o)
+# output
+# 68
+
+# code
+w = 87
+i = 85
+s = 9
+z = 109
+q = z
+while z >= -69:
+	if 26 != 80:
+		f = 87
+	z = z - s
+print(w)
+# output
+# 87
+
+# code
+y = 32
+z = 35
+c = 70
+while c <= 75:
+	if y > 0:
+		z = z
+		d = c
+	d = c + 1
+	v = y
+	r = 77 * z
+	c = d
+print(z)
+# output
+# 35
+
+# code
+o = 10
+j = 66
+g = 59
+if 40 > 48:
+	b = 74
+j = 5
+v = 55
+a = 65 * g
+w = v % 8
+while v > j:
+	a = v // 9
+	p = 99 // 91
+	v = 81 // g
+	v = a
+print(j)
+# output
+# 5
+
+# code
+y = 29
+m = 89
+if 20 >= 86:
+	h = m - 52
+	r = y // m
+v = y + y
+z = 188
+j = z
+s = 1131
+j = z
+while s > z:
+	k = z * 14
+	d = j + y
+	l = j
+	z = k
+print(z)
+# output
+# 2632
+
+# code
+e = 36
+r = 7
+u = 112
+i = 58
+while u > i:
+	k = i * u
+	if k > k:
+		y = 94
+	w = u - 6
+	s = r
+	k = 45
+	u = w
+print(r)
+# output
+# 7
+
+# code
+o = 6
+v = 31
+q = 60
+v = 84
+y = 13
+while 0 < v:
+	if 81 < v:
+		m = 35
+	n = v // 7
+	a = 76 + 56
+	v = n
+print(y)
+# output
+# 13
+
+# code
+b = 2
+n = 60
+u = 122
+a = 16
+while 1743 <= u:
+	if 43 < 44:
+		n = u
+	u = u * a
+print(a)
+# output
+# 16
+
+# code
+c = 99
+p = 3
+f = 13
+y = 303
+z = 69
+while y >= z:
+	if 53 == f:
+		p = 30 * 59
+	z = z + f
+print(z)
+# output
+# 316
+
+# code
+z = 46
+n = 35
+e = n
+if e >= n:
+	f = 49
+	i = 69
+g = 59
+f = 34
+t = 61
+while g > 0:
+	g = g // 18
+print(e)
+# output
+# 35
+
+# code
+l = 7
+a = 17
+if a == 99:
+	x = 25
+r = 197
+n = 0
+l = l // a
+while n < r:
+	r = r // 17
+print(r)
+# output
+# 0
+
+# code
+q = 60
+h = 47
+if 24 != 97:
+	b = 22 * 29
+d = q
+r = 1
+q = 149
+y = d
+j = 165
+h = 17 + 41
+while j >= q:
+	q = q + r
+print(h)
+# output
+# 58
+
+# code
+v = 47
+p = 32
+l = 84
+y = l
+o = 645
+while o <= l:
+	if 77 == 76:
+		t = p // l
+	l = l * 14
+print(l)
+# output
+# 84
+
+# code
+x = 95
+g = 65
+j = x
+if j == j:
+	h = j
+o = j
+b = 54
+w = b % j
+t = 84 + b
+w = 173
+while w <= b:
+	b = b * 12
+print(t)
+# output
+# 138
+
+# code
+m = 76
+f = 80
+d = 1519
+r = 132
+y = f
+while d >= r:
+	if y == r:
+		t = f + y
+	e = r * 13
+	o = r
+	z = 70
+	r = e
+print(r)
+# output
+# 1716
+
+# code
+a = 84
+g = 65
+if a != g:
+	f = a
+	k = a
+	a = 96
+l = -23
+h = 22
+while h >= l:
+	h = h - 20
+print(h)
+# output
+# -38
+
+# code
+p = 62
+w = 99
+a = p
+if a == 26:
+	e = 63 + 70
+	t = a
+p = 212
+while p <= 319:
+	a = p + 7
+	x = a * 12
+	y = 53 // 63
+	p = a
+print(41)
+# output
+# 41
+
+# code
+j = 81
+o = 5
+x = 13
+m = o + 88
+r = 13
+while 132 >= x:
+	if 34 == 45:
+		print(o)
+	x = x * r
+print(m)
+# output
+# 93
+
+# code
+c = 97
+e = 27
+i = 48
+p = 112
+while p >= i:
+	if 89 == e:
+		o = i
+	k = p - 4
+	w = 37
+	p = k
+print(p)
+# output
+# 44
+
+# code
+h = 37
+f = 43
+if f > h:
+	h = f * 74
+	f = 20
+c = 9
+o = 14
+j = 0
+while j < o:
+	b = o // c
+	k = 8
+	o = b
+print(o)
+# output
+# 0
+
+# code
+c = 80
+m = 50
+if c >= 71:
+	l = c + c
+	r = 67
+a = m
+m = 3
+p = 31
+u = m
+o = 223
+b = 19
+while m <= o:
+	f = o // b
+	z = 96
+	o = f
+print(u)
+# output
+# 3
+
+# code
+n = 58
+y = 66
+a = 0
+e = 215
+while a < e:
+	if n > 8:
+		q = 55
+	l = e // 18
+	x = n
+	e = l
+print(n)
+# output
+# 58
+
+# code
+t = 26
+u = 65
+r = 80
+j = 314
+n = u
+while j > r:
+	if u == 93:
+		w = 65
+	r = r + 20
+print(t)
+# output
+# 26
+
+# code
+n = 6
+f = 74
+if n == f:
+	i = n
+y = 10
+q = y
+z = 226
+while 879 < z:
+	w = z * y
+	q = f - 6
+	z = w
+print(q)
+# output
+# 10
+
+# code
+h = 87
+p = 70
+if p <= 57:
+	h = 25
+	o = 60 % 5
+	y = o
+k = 0
+z = 81 % 73
+l = 18
+f = 172
+e = l - f
+while f > k:
+	f = f // l
+print(h)
+# output
+# 87
+
+# code
+c = 13
+t = 52
+k = 70 // 14
+i = 75
+b = 103
+while 0 < b:
+	if 12 <= c:
+		r = 33
+	b = b // 3
+print(b)
+# output
+# 0
+
+# code
+x = 21
+y = 75
+f = -117
+u = 130
+i = u
+while u > f:
+	if 2 > 27:
+		l = 58
+	u = u - 13
+print(y)
+# output
+# 75
+
+# code
+j = 95
+a = 88
+i = 81 // a
+if 43 >= 25:
+	f = j + i
+c = i % a
+l = 67
+u = 5
+while l > 0:
+	l = l // u
+print(a)
+# output
+# 88
+
+# code
+u = 64
+t = 27
+if t <= 87:
+	q = u % t
+	n = q
+	c = 94
+u = 124
+w = 603
+i = 20
+b = i + 87
+while w >= u:
+	h = u * i
+	s = u
+	u = h
+print(b)
+# output
+# 107
+
+# code
+h = 29
+a = 23
+v = 246
+while 788 > v:
+	w = 54 % 67
+	if a < v:
+		r = 95 // 34
+	v = v * 20
+print(v)
+# output
+# 4920
+
+# code
+h = 47
+l = 89
+h = 140
+v = 1
+f = 128
+while h >= f:
+	if l < l:
+		print(l)
+	e = f + v
+	y = 16 + 18
+	f = e
+print(v)
+# output
+# 1
+
+# code
+n = 29
+w = 67
+g = 229
+while 968 <= g:
+	if 58 != 37:
+		i = 64
+		n = n
+	z = g * 8
+	p = 61 // 1
+	g = z
+print(n)
+# output
+# 29
+
+# code
+w = 44
+x = 3
+w = 190
+while w <= 201:
+	if 74 == x:
+		d = 64
+	d = x + w
+	l = w + 1
+	m = w
+	f = 4 + x
+	w = l
+print(w)
+# output
+# 202
+
+# code
+v = 92
+y = 94
+g = 176
+while 177 >= g:
+	w = 65 * v
+	g = g * 2
+if 76 < v:
+	v = 57 % v
+print(v)
+# output
+# 57
+
+# code
+d = 5
+q = 48
+if d >= q:
+	f = q
+d = q + q
+m = 92
+r = 229
+f = 15
+while m < r:
+	r = r - f
+print(q)
+# output
+# 48
+
+# code
+s = 23
+s = 88
+o = 74
+if s < s:
+	z = o + s
+	b = z % o
+x = 0
+o = 122
+m = 87 * 95
+t = x - 94
+while x < o:
+	l = o // 6
+	z = 43 - 7
+	f = 89
+	o = l
+print(x)
+# output
+# 0
+
+# code
+f = 9
+l = 84
+x = f
+z = 138
+while z <= 358:
+	if 14 >= l:
+		a = f
+	w = z + 19
+	d = 49
+	z = w
+print(f)
+# output
+# 9
+
+# code
+z = 23
+p = 57
+if z == p:
+	h = p
+	h = 69
+n = 7
+m = 0
+r = 132
+while r > m:
+	u = r // n
+	h = m
+	r = u
+print(n)
+# output
+# 7
+
+# code
+d = 51
+j = 9
+if 19 != d:
+	y = 29 % d
+	t = y
+k = 229
+a = d - j
+q = 2895
+e = d
+while q > k:
+	o = k * 19
+	s = q - a
+	k = o
+print(j)
+# output
+# 9
+
+# code
+p = 81
+f = 18
+if 76 <= f:
+	f = 72 % p
+	t = 2
+n = 91
+while n < 229:
+	n = n + 7
+print(n)
+# output
+# 231
+
+# code
+q = 62
+d = 76
+if 12 != 33:
+	q = q
+	p = d
+	t = q
+f = 145
+a = 55
+while f <= 464:
+	f = f + 20
+print(q)
+# output
+# 62
+
+# code
+w = 33
+g = 53
+x = 213
+y = 24 // g
+n = 44 - 24
+while 0 < x:
+	if y >= g:
+		e = 91
+	w = x // 19
+	s = 2 * w
+	x = w
+print(w)
+# output
+# 0
+
+# code
+v = 70
+j = 99
+w = 81 - 87
+w = 86
+m = 163
+while 66 <= m:
+	if 39 > m:
+		z = v
+	p = m - 5
+	z = 45 // j
+	k = 3
+	m = p
+print(j)
+# output
+# 99
+
+# code
+d = 75
+y = 17
+if 35 >= 58:
+	b = 7
+	l = 14 // b
+j = 43
+d = 48
+z = 60 + d
+while 53 > j:
+	j = j + 1
+print(d)
+# output
+# 48
+
+# code
+w = 88
+c = 63
+o = 12
+g = w
+e = 10
+while 77 < e:
+	if w == 3:
+		d = e
+	e = e * 10
+print(c)
+# output
+# 63
+
+# code
+b = 74
+u = 98
+d = 132
+y = 40
+while d < 143:
+	if d <= 38:
+		f = b
+	g = d + 1
+	q = y
+	d = g
+print(y)
+# output
+# 40
+
+# code
+x = 17
+t = 27
+t = 143
+q = x * 60
+p = x
+while t < 306:
+	if p > q:
+		d = 80 * p
+	t = t + 9
+print(x)
+# output
+# 17
+
+# code
+o = 63
+y = 97
+if o == 92:
+	s = 86
+x = 10
+c = 21 * 98
+l = 65
+o = c
+while 350 <= l:
+	l = l * x
+print(y)
+# output
+# 97
+
+# code
+u = 24
+s = 22
+f = u + s
+b = 81
+while 330 > b:
+	if b > f:
+		u = u
+	r = b * 8
+	q = 26 // u
+	b = r
+print(b)
+# output
+# 648
+
+# code
+c = 76
+q = 54
+if c != 26:
+	k = 50
+e = q
+z = c
+f = 201
+b = f
+while 203 > f:
+	f = f * 5
+print(44)
+# output
+# 44
+
+# code
+t = 71
+v = 86
+c = 0 - v
+q = 64
+i = 245
+while 236 < i:
+	if v == 85:
+		y = i
+	b = i - 16
+	o = 76 // i
+	o = c + c
+	i = b
+print(t)
+# output
+# 71
+
+# code
+p = 22
+i = 8
+if 96 >= p:
+	g = p // i
+l = i
+e = 24
+e = 25
+l = p
+b = 64
+v = 14
+while e < 81:
+	e = e + v
+print(v)
+# output
+# 14
+
+# code
+x = 67
+j = 44
+if 49 > 6:
+	o = j // x
+l = 0
+r = 28
+m = 246
+n = 5
+y = 33 // r
+while m > l:
+	m = m // n
+print(m)
+# output
+# 0
+
+# code
+z = 39
+z = 44
+if z > 66:
+	m = 20
+s = 238
+c = 7
+while 280 >= s:
+	q = s + c
+	x = s
+	s = q
+print(s)
+# output
+# 287
+
+# code
+f = 27
+s = 45
+if f == s:
+	s = 26
+	a = s
+	a = s // 63
+a = 183
+s = 4
+q = 409
+while q < a:
+	d = a * s
+	k = f * a
+	e = 86
+	a = d
+print(f)
+# output
+# 27
+
+# code
+a = 36
+b = 8
+j = a // 98
+if j == j:
+	g = a
+o = b + 48
+z = 161
+e = 30
+p = o
+n = 12
+while e <= z:
+	b = z - n
+	z = 25 + o
+	r = 64
+	z = b
+print(z)
+# output
+# 29
+
+# code
+h = 26
+s = 58
+if 65 <= 93:
+	k = h
+m = 19
+e = m
+x = e % s
+s = 76
+e = 0
+while e < s:
+	s = s // m
+print(s)
+# output
+# 0
+
+# code
+y = 62
+g = 22
+if 91 == 86:
+	q = g
+	i = 33
+w = 37 % 84
+o = 189
+b = 3
+w = 454
+while w > o:
+	f = o * b
+	o = 35
+	o = f
+print(g)
+# output
+# 22
+
+# code
+i = 80
+u = 12
+e = i
+if 57 <= i:
+	j = 49 % 14
+x = 67 * 87
+s = 80
+f = 42
+h = x
+while 200 > s:
+	r = s * 4
+	p = s
+	w = e * u
+	s = r
+print(u)
+# output
+# 12
+
+# code
+u = 65
+j = 56
+if 38 < 90:
+	s = u
+	r = j
+	p = 32
+a = 29
+h = 19
+while 449 < a:
+	e = a * h
+	s = 98 % a
+	a = e
+print(j)
+# output
+# 56
+
+# code
+e = 70
+v = 82
+g = 26
+j = 21 // g
+while g >= -107:
+	if e <= j:
+		v = e
+	m = g - 9
+	u = v
+	t = 57 - 43
+	g = m
+print(g)
+# output
+# -109
+
+# code
+d = 22
+r = 85
+o = 200
+while 75 <= o:
+	y = 96
+	if 94 == d:
+		p = d
+	o = o - 14
+print(r)
+# output
+# 85
+
+# code
+q = 41
+z = 90
+c = 12
+s = 0
+while s < c:
+	if 16 < q:
+		k = q
+	y = c // 11
+	w = q - q
+	k = 76
+	c = y
+print(z)
+# output
+# 90
+
+# code
+o = 99
+r = 37
+f = 80
+h = 200
+while h >= f:
+	a = 72
+	if f == 26:
+		q = 73
+	x = h // 10
+	c = r
+	h = x
+print(r)
+# output
+# 37
+
+# code
+l = 19
+z = 98
+x = l
+if z >= 5:
+	f = 97 * z
+y = 186
+a = 141
+while y >= a:
+	a = a * 2
+print(a)
+# output
+# 282
+
+# code
+z = 65
+v = 54
+n = 94
+a = 1421
+b = 163
+while a <= b:
+	if 54 <= 19:
+		print(b)
+	s = b * 17
+	m = a
+	b = s
+print(v)
+# output
+# 54
+
+# code
+q = 10
+y = 76
+v = y
+if y == 36:
+	s = 48 + q
+i = -133
+t = v
+t = 12
+c = 103
+while c > i:
+	c = c - 16
+print(i)
+# output
+# -133
+
+# code
+i = 81
+j = 89
+r = 10
+if j < 40:
+	u = 26
+r = 27
+n = 18
+b = 84
+while 0 < b:
+	b = b // n
+print(n)
+# output
+# 18
+
+# code
+x = 6
+w = 69
+z = x
+d = 214
+while d < 372:
+	s = 86 + w
+	if s <= 84:
+		n = d
+	d = d + 20
+print(x)
+# output
+# 6
+
+# code
+k = 23
+g = 6
+if 68 == g:
+	d = g
+	i = 32
+w = g
+r = 7
+x = 10
+j = 0 % 47
+while 30 > r:
+	c = r + x
+	o = 9 % g
+	r = c
+print(x)
+# output
+# 10
+
+# code
+d = 33
+v = 17
+x = d
+c = 28
+while c < 139:
+	if 97 != c:
+		p = v
+	c = c + 8
+print(c)
+# output
+# 140
+
+# code
+i = 94
+b = 8
+b = 92 + i
+w = 109
+a = 53
+while 2062 < w:
+	if i == 86:
+		print(i)
+	t = w * 19
+	c = i // 37
+	j = 70 - w
+	w = t
+print(b)
+# output
+# 186
+
+# code
+a = 95
+i = 84
+if a != 0:
+	q = a - 55
+else:
+	s = i
+b = 16
+n = 71
+f = 259
+while f > n:
+	a = n + b
+	h = 69
+	n = a
+print(n)
+# output
+# 263
+
+# code
+m = 65
+i = 55
+if 53 != m:
+	o = 72
+	j = 36
+	k = 57 // i
+s = 17
+j = 32
+h = 21
+while j > s:
+	k = s * 11
+	o = j
+	p = 14
+	s = k
+print(m)
+# output
+# 65
+
+# code
+c = 85
+q = 95
+r = 66
+while 122 >= r:
+	w = 48
+	if c <= 96:
+		g = 95 * c
+	s = r + 9
+	y = 68 // 86
+	t = 13
+	r = s
+print(c)
+# output
+# 85
+
+# code
+d = 99
+v = 62
+if v < 51:
+	u = v
+n = 231
+m = 18
+while 511 >= n:
+	n = n + m
+print(n)
+# output
+# 519
+
+# code
+f = 31
+b = 89
+if f != 47:
+	h = 26
+s = 87 % 88
+a = 86
+q = 4
+s = 141
+while 0 < s:
+	s = s // q
+print(a)
+# output
+# 86
+
+# code
+j = 90
+d = 11
+if 91 == 47:
+	t = j
+t = 10
+p = 0
+w = 89
+f = d + d
+while w > p:
+	d = w // t
+	o = 89 * 22
+	x = 87
+	w = d
+print(f)
+# output
+# 22
+
+# code
+z = 5
+o = 52
+p = 7
+a = 73
+h = 23
+while 92 < h:
+	if a < a:
+		print(a)
+	h = h * p
+print(o)
+# output
+# 52
+
+# code
+l = 5
+r = 71
+if 60 != 74:
+	o = 95
+	l = 97
+k = 0
+z = 208
+while k < z:
+	z = z // 10
+print(z)
+# output
+# 0
+
+# code
+a = 5
+r = 59
+if r >= 43:
+	z = 43
+u = 25
+b = 28 + a
+i = 255
+while i > 0:
+	i = i // 14
+print(1)
+# output
+# 1
+
+# code
+i = 0
+a = 14
+i = 254
+j = 61 + a
+t = 25 + a
+while i > 0:
+	if 27 > 24:
+		h = 54
+	p = i // 13
+	j = 11 + j
+	i = p
+print(t)
+# output
+# 39
+
+# code
+m = 63
+a = 31
+if a != a:
+	a = 65 * a
+	f = 24
+i = a + 40
+m = 5
+c = 20
+b = 61 - i
+while 44 > m:
+	m = m * c
+print(c)
+# output
+# 20
+
+# code
+g = 63
+p = 34
+b = 76
+e = 32 + g
+h = p + 97
+while 151 >= b:
+	if e == p:
+		o = p * 15
+	f = b * 2
+	u = p
+	b = f
+print(h)
+# output
+# 131
+
+# code
+g = 23
+m = 12
+e = 105
+y = 88
+while y < e:
+	if 34 < y:
+		s = m % 38
+	y = y + 1
+print(g)
+# output
+# 23
+
+# code
+h = 27
+e = 47
+o = 169
+s = 19 // o
+h = 59
+while o >= h:
+	if 23 != e:
+		print(h)
+	h = h + 12
+# output
+# 59
+# 71
+# 83
+# 95
+# 107
+# 119
+# 131
+# 143
+# 155
+# 167
+
+# code
+u = 69
+q = 88
+s = 9
+p = q
+if 3 > 69:
+	z = u + u
+z = 9
+g = 144
+l = q
+r = 27 - s
+while g <= z:
+	z = z * 17
+print(z)
+# output
+# 9
+
+# code
+b = 94
+u = 68
+g = u * 41
+if b < 12:
+	y = g
+i = 179
+h = 69
+e = 4
+q = 0
+while q < i:
+	s = i // e
+	w = 36
+	m = q
+	i = s
+print(i)
+# output
+# 0
+
+# code
+x = 61
+q = 60
+if 65 == x:
+	n = 11 // x
+	q = n - 90
+	i = q - x
+r = 185
+g = q // q
+n = 20
+c = g % 51
+while 378 > r:
+	r = r + n
+print(23)
+# output
+# 23
+
+# code
+r = 34
+l = 49
+t = 80
+s = 22
+while 65 > s:
+	if 1 != 64:
+		i = s
+	s = s + 10
+print(t)
+# output
+# 80
+
+# code
+c = 24
+m = 57
+p = m
+if p < 62:
+	p = 65
+g = c
+s = 19
+a = 192
+while a < 239:
+	n = a + s
+	y = 95
+	z = 93 - y
+	a = n
+print(s)
+# output
+# 19
+
+# code
+k = 25
+h = 51
+s = 18
+n = 231
+y = 364
+while n <= y:
+	if s == s:
+		print(k)
+	r = n + s
+	u = s
+	n = r
+# output
+# 25
+# 25
+# 25
+# 25
+# 25
+# 25
+# 25
+# 25
+
+# code
+u = 69
+e = 87
+if e >= e:
+	b = 94
+	b = 98 - b
+	e = 81
+p = 35
+k = 0
+while p > k:
+	p = p // 18
+print(u)
+# output
+# 69
+
+# code
+o = 90
+z = 90
+s = z
+if 33 == s:
+	i = s // z
+	t = s
+i = 247
+l = 246
+while i >= l:
+	z = l + 1
+	w = l // 75
+	v = 15
+	l = z
+print(o)
+# output
+# 90
+
+# code
+d = 61
+w = 88
+if 87 <= d:
+	i = 96
+else:
+	v = w
+i = 333
+g = 10
+z = 88
+while i < z:
+	z = z * g
+print(z)
+# output
+# 88
+
+# code
+n = 94
+f = 94
+t = 99
+b = 3
+while 140 >= t:
+	if n <= t:
+		e = t
+	t = t * b
+print(b)
+# output
+# 3
+
+# code
+f = 70
+z = 11
+o = 88
+v = 0
+while o > v:
+	if f < 81:
+		b = 82
+	o = o // 7
+print(o)
+# output
+# 0
+
+# code
+b = 6
+n = 90
+if n != n:
+	x = 14 % n
+o = 191
+b = 238
+l = o - o
+while o < b:
+	o = o + 13
+print(b)
+# output
+# 238
+
+# code
+b = 50
+i = 49
+if 83 >= i:
+	x = 86 % b
+l = 13
+u = 20
+b = b
+q = 14
+while u <= q:
+	s = q * l
+	e = i - q
+	q = s
+print(u)
+# output
+# 20
+
+# code
+o = 85
+l = 79
+if o == 15:
+	p = o
+	a = 84 * 32
+z = 54
+h = 102
+s = 83
+while s <= h:
+	q = s + 1
+	o = s % 96
+	s = q
+print(h)
+# output
+# 102
+
+# code
+w = 36
+n = 11
+a = 74
+o = 169
+while 1020 > o:
+	c = 28 - n
+	if 23 == n:
+		j = 9
+	o = o * 12
+print(o)
+# output
+# 2028
+
+# code
+x = 0
+f = 12
+r = 2
+p = 58
+while p > 56:
+	if 36 > 50:
+		j = r
+	p = p - r
+print(x)
+# output
+# 0
+
+# code
+w = 54
+s = 75
+x = 16
+d = 341
+i = 252
+while d > i:
+	if i == 12:
+		u = 7 - 32
+	a = i + x
+	g = s + 58
+	n = 50 + s
+	i = a
+print(i)
+# output
+# 348
+
+# code
+h = 93
+a = 29
+n = 18
+q = 165
+while n < q:
+	if 43 > 23:
+		s = n
+	n = n + 8
+print(a)
+# output
+# 29
+
+# code
+f = 39
+p = 45
+f = 85
+while 151 >= f:
+	d = 75
+	if 27 > d:
+		b = 93 + 57
+	f = f + 15
+print(31)
+# output
+# 31
+
+# code
+x = 46
+n = 66
+w = x
+if 78 != 22:
+	u = x + 77
+	j = 26
+l = 993
+d = 84
+o = 116
+h = d
+while l > o:
+	t = o * 15
+	o = w // 6
+	c = l
+	o = t
+print(x)
+# output
+# 46
+
+# code
+l = 87
+v = 37
+if 71 == l:
+	z = v % v
+l = l // v
+u = 11
+p = 6
+w = 51
+o = 134
+while o >= w:
+	e = w + p
+	a = w + p
+	n = a
+	w = e
+print(w)
+# output
+# 135
+
+# code
+a = 16
+p = 15
+if 36 != a:
+	h = 36
+	g = 79
+	w = 19 + a
+n = 164
+while n >= 156:
+	n = n - 1
+print(p)
+# output
+# 15
+
+# code
+x = 58
+o = 4
+r = 172
+x = 164
+while r >= x:
+	if 56 < r:
+		y = x
+	r = r - 1
+print(x)
+# output
+# 164
+
+# code
+t = 31
+c = 42
+if 29 != 54:
+	j = 95
+	p = 48
+	g = p
+i = 90
+while 52 < i:
+	i = i - 8
+print(t)
+# output
+# 31
+
+# code
+x = 11
+h = 41
+e = x
+p = 153
+g = 164
+while g > p:
+	if e <= 8:
+		a = x - g
+	p = p * 6
+print(x)
+# output
+# 11
+
+# code
+a = 25
+o = 85
+if 98 < 64:
+	e = 26 % a
+h = 472
+k = 130
+while k <= h:
+	k = k + 19
+print(k)
+# output
+# 491
+
+# code
+f = 20
+c = 82
+u = 54
+while u > 0:
+	if 30 < u:
+		c = 92 * c
+		x = 85
+	u = u // 10
+print(66)
+# output
+# 66
+
+# code
+i = 55
+j = 74
+if 72 > 11:
+	h = 44
+	g = 75
+	p = 31
+m = 221
+d = 254
+w = 14
+while d >= m:
+	m = m + w
+print(j)
+# output
+# 74
+
+# code
+g = 54
+y = 91
+if y > g:
+	b = 88 // 51
+w = y
+n = 49
+z = g * n
+m = 46
+w = 9
+while n < m:
+	m = m * w
+print(n)
+# output
+# 49
+
+# code
+a = 52
+a = 5
+if a <= 41:
+	d = 69
+	m = 38
+i = 202
+s = a
+while 635 >= i:
+	j = i * 7
+	g = 93
+	i = j
+print(s)
+# output
+# 5
+
+# code
+t = 33
+i = 26
+c = i
+y = t
+if y != 15:
+	q = t
+g = 229
+k = 69 - 40
+v = 241
+while v >= g:
+	u = g + 2
+	a = 17 - 6
+	w = 54
+	g = u
+print(i)
+# output
+# 26
+
+# code
+f = 32
+f = 62
+if f == 12:
+	k = f
+z = 94
+t = 45
+u = z
+r = 18
+d = 41 * 30
+while 68 >= t:
+	t = t + r
+print(z)
+# output
+# 94
+
+# code
+e = 84
+p = 62
+v = 60 + 21
+if 53 != 76:
+	j = e
+d = 16
+p = d
+v = 255
+while 387 >= v:
+	v = v + d
+print(p)
+# output
+# 16
+
+# code
+i = 78
+q = 33
+if q >= i:
+	n = i * q
+t = i % q
+h = 15
+g = t
+u = 127
+v = u % g
+while 1773 > u:
+	u = u * h
+print(24)
+# output
+# 24
+
+# code
+j = 6
+v = 77
+u = 42 // v
+d = 161
+while 159 < d:
+	if v > d:
+		c = 55 + 67
+	d = d - 4
+print(u)
+# output
+# 0
+
+# code
+t = 74
+s = 27
+if 60 < s:
+	q = 9
+	p = q // t
+	m = 11
+a = 129
+e = 28
+b = 1220
+y = 66 * 4
+while b >= a:
+	a = a * 10
+print(b)
+# output
+# 1220
+
+# code
+a = 33
+q = 74
+if 93 < 63:
+	a = 87
+	w = 60
+	z = q
+k = 145
+a = 12
+while 236 >= k:
+	q = k * 3
+	l = 14
+	l = l
+	k = q
+print(q)
+# output
+# 435
+
+# code
+s = 65
+t = 33
+k = 47
+while 113 >= k:
+	if 78 <= 7:
+		e = s
+		h = 12 - 25
+	w = k + 19
+	s = t
+	k = w
+print(t)
+# output
+# 33
+
+# code
+p = 80
+z = 59
+g = z // z
+d = p
+if 38 <= 59:
+	v = 56
+j = 219
+c = 379
+while j <= c:
+	j = j + 9
+print(z)
+# output
+# 59
+
+# code
+k = 45
+v = 41
+r = 50
+a = 88
+w = 6
+while 503 >= a:
+	if w >= 16:
+		print(a)
+	a = a * w
+print(k)
+# output
+# 45
+
+# code
+p = 87
+x = 17
+if 61 == x:
+	v = 82
+y = 0
+u = 92 // x
+s = 26 * 64
+t = 252
+while y < t:
+	q = t // 13
+	x = t
+	t = q
+print(s)
+# output
+# 1664
+
+# code
+x = 83
+l = 84
+f = l
+if f < 11:
+	d = 69 % 23
+	r = 60
+r = 213
+n = 34
+g = x
+e = 1742
+while e > r:
+	r = r * 12
+print(x)
+# output
+# 83
+
+# code
+j = 13
+q = 47
+if 21 < j:
+	t = 17 + 74
+z = 119
+while z < 271:
+	a = q
+	z = z + 18
+print(j)
+# output
+# 13
+
+# code
+e = 9
+e = 61
+s = 0
+k = 6
+while s < k:
+	if e <= k:
+		f = e % s
+	k = k // 19
+print(s)
+# output
+# 0
+
+# code
+k = 37
+x = 29
+if x != k:
+	x = 82
+y = 122
+f = 76 - x
+c = x // x
+o = 91
+while y >= o:
+	o = o + 5
+print(y)
+# output
+# 122
+
+# code
+w = 11
+m = 68
+a = 142
+n = 127
+p = 64 * a
+while a > n:
+	if 94 >= p:
+		q = 19
+	a = a - 3
+print(m)
+# output
+# 68
+
+# code
+r = 15
+k = 15
+if 85 == 34:
+	t = r
+i = 7
+m = 178
+l = 34
+s = 14 + i
+while m > 0:
+	d = m // i
+	n = k - s
+	t = n % l
+	m = d
+print(s)
+# output
+# 21
+
+# code
+e = 38
+u = 5
+if 75 < e:
+	j = 71
+	h = 66
+p = u
+c = 17
+v = 172
+e = 88
+while 2411 <= v:
+	v = v * c
+print(p)
+# output
+# 5
+
+# code
+l = 59
+y = 21
+b = 225
+x = 238
+v = y
+while x > b:
+	if y > x:
+		q = 40 % b
+	x = x - 1
+print(b)
+# output
+# 225
+
+# code
+h = 96
+p = 94
+q = 42
+c = 20
+o = 87
+while c <= q:
+	if c <= q:
+		y = 83 - 28
+	q = q - 11
+print(o)
+# output
+# 87
+
+# code
+f = 8
+r = 5
+d = r
+if f >= 57:
+	w = r
+r = 11
+l = 180
+a = 189
+while a >= l:
+	a = a - r
+print(l)
+# output
+# 180
+
+# code
+g = 24
+i = 50
+if g != 57:
+	u = g
+p = 489
+b = 133
+j = 23
+while p >= b:
+	j = b * 5
+	i = 13 // 18
+	u = 10
+	b = j
+print(i)
+# output
+# 0
+
+# code
+e = 3
+q = 31
+if e >= e:
+	a = 9 * q
+	v = a
+e = e
+i = 89
+n = 0
+while n < i:
+	i = i // 4
+print(i)
+# output
+# 0
+
+# code
+w = 23
+c = 53
+y = 36
+if w >= w:
+	c = y
+i = w
+q = 249
+i = w
+d = 51
+while q > d:
+	d = d + 18
+print(i)
+# output
+# 23
+
+# code
+f = 98
+t = 85
+a = 17
+i = 217
+while 0 < i:
+	if a >= 80:
+		c = 41
+	d = i // a
+	q = t
+	y = q // a
+	i = d
+print(t)
+# output
+# 85
+
+# code
+m = 67
+d = 12
+if d > 36:
+	h = 42 * m
+	s = 86
+q = 60
+d = d
+w = 0
+while 422 <= q:
+	q = q * 10
+print(w)
+# output
+# 0
+
+# code
+b = 37
+o = 81
+v = 111
+y = v // 7
+while 1 < v:
+	if v != 55:
+		i = 78
+	v = v // 13
+print(b)
+# output
+# 37
+
+# code
+j = 77
+e = 47
+if 77 <= 25:
+	p = 81
+	w = 1
+t = e % j
+r = 200
+x = 60
+h = 18
+d = 355
+while d > r:
+	q = r + h
+	z = r
+	r = q
+print(t)
+# output
+# 47
+
+# code
+s = 84
+m = 28
+if s <= 55:
+	i = 40
+y = m // m
+r = 4
+w = 19 % 36
+k = 244
+while k < 300:
+	k = k + r
+print(r)
+# output
+# 4
+
+# code
+v = 82
+y = 28
+if 7 == 85:
+	h = v
+	c = 76 - 47
+	j = 69
+l = 9
+m = 240
+while 306 > m:
+	m = m + l
+print(v)
+# output
+# 82
+
+# code
+s = 88
+f = 99
+t = 20
+v = 16
+j = 15
+while v < 96:
+	if s <= 33:
+		print(v)
+	c = v + t
+	a = 57 + 43
+	v = c
+print(f)
+# output
+# 99
+
+# code
+z = 72
+c = 77
+if c >= 63:
+	h = z - 19
+t = z
+c = 216
+t = 5
+n = c
+q = 61
+while c <= 293:
+	j = c + t
+	a = 73
+	r = n // 78
+	c = j
+print(z)
+# output
+# 72
+
+# code
+b = 65
+l = 29
+s = 72 * 68
+a = 199
+while 1189 < a:
+	if s >= 44:
+		l = 78
+	a = a * 14
+print(l)
+# output
+# 29
+
+# code
+t = 48
+k = 97
+t = 52
+while 696 >= t:
+	t = t * 14
+	if 26 >= 58:
+		p = t
+print(t)
+# output
+# 728
+
+# code
+i = 4
+r = 47
+g = 2176
+y = 130
+while g >= y:
+	if 23 > r:
+		x = i
+	y = y * 19
+print(r)
+# output
+# 47
+
+# code
+x = 63
+k = 27
+if 37 < k:
+	j = x % 74
+r = 83
+h = 179
+while 191 > h:
+	h = h + 1
+print(x)
+# output
+# 63
+
+# code
+o = 95
+h = 74
+h = 49
+z = 28
+while z <= h:
+	if 73 <= 24:
+		p = 99 % o
+	h = h - 19
+print(z)
+# output
+# 28
+
+# code
+t = 83
+p = 61
+f = 33 // 13
+v = 162
+while v >= 40:
+	if p >= p:
+		l = p
+	o = v - 17
+	m = 78 % t
+	a = 76 - 13
+	v = o
+print(v)
+# output
+# 26
+
+# code
+t = 43
+f = 59
+p = 10
+w = 158
+while w <= 326:
+	if t < 85:
+		n = f
+	w = w + p
+print(p)
+# output
+# 10
+
+# code
+i = 38
+x = 19
+if i != x:
+	d = 36 % x
+	t = d
+k = 0
+while 133 >= k:
+	k = k + 7
+print(k)
+# output
+# 140
+
+# code
+k = 94
+p = 95
+k = 12
+if 7 >= p:
+	i = k
+	n = 83
+s = 1
+j = 30
+i = 15
+while j > s:
+	r = j // 17
+	x = j * j
+	f = 40 - 50
+	j = r
+print(s)
+# output
+# 1
+
+# code
+q = 51
+o = 38
+if q < 31:
+	q = 40 * 79
+	o = o + 60
+	g = 16 % 4
+k = 223
+m = 2
+while 326 >= k:
+	k = k * m
+print(k)
+# output
+# 446
+
+# code
+x = 92
+t = 88
+if t < x:
+	n = 16
+	c = t
+i = 160
+u = 2
+while i >= 5:
+	p = i // u
+	j = 82 - u
+	o = 21
+	i = p
+print(x)
+# output
+# 92
+
+# code
+h = 55
+y = 19
+if 59 != h:
+	k = 76 - 75
+	t = 99
+	u = h
+u = 117
+s = 63
+i = 0
+p = y
+while i < u:
+	u = u // 13
+print(i)
+# output
+# 0
+
+# code
+b = 38
+p = 71
+if 77 > p:
+	q = 19
+	l = p
+u = 41
+w = 6
+q = 11
+p = u % p
+while u < q:
+	l = q * 7
+	q = w
+	q = l
+print(u)
+# output
+# 41
+
+# code
+u = 30
+f = 51
+if f < f:
+	w = f
+v = f
+l = 134
+k = 61 % 82
+b = 13
+while 304 > l:
+	l = l + b
+print(k)
+# output
+# 61
+
+# code
+t = 13
+f = 49
+if 58 != t:
+	o = t
+	l = 62 % 56
+u = 109
+while 301 > u:
+	b = u * 10
+	n = 87
+	n = 30 + f
+	u = b
+print(f)
+# output
+# 49
+
+# code
+a = 37
+w = 91
+if 18 != 80:
+	e = 63 // a
+t = 153
+q = 20
+m = q - 11
+while 180 >= t:
+	t = t + q
+print(q)
+# output
+# 20
+
+# code
+w = 97
+k = 41
+w = 14 // k
+j = w
+if 89 == 19:
+	b = k // 82
+w = 121
+s = 70
+t = 10
+h = j
+while w >= s:
+	j = w - 5
+	u = k - 66
+	w = j
+print(w)
+# output
+# 66
+
+# code
+m = 82
+y = 93
+if 94 < m:
+	p = 34
+	s = p
+u = 3
+p = 169
+f = m
+while p < 192:
+	t = p + u
+	e = 33 + y
+	p = t
+print(p)
+# output
+# 193
+
+# code
+j = 9
+o = 97
+g = 189
+w = 0
+u = j // g
+while g > w:
+	if j < 42:
+		o = w
+	r = g // 18
+	v = 54
+	g = r
+print(g)
+# output
+# 0
+
+# code
+y = 70
+l = 86
+v = y + 41
+c = 107
+while c >= -217:
+	d = 87 // c
+	if l == 40:
+		print(c)
+	c = c - 18
+print(v)
+# output
+# 111
+
+# code
+w = 65
+j = 84
+e = 230
+k = 25
+j = 92
+while 23 <= e:
+	if 62 > j:
+		print(j)
+	j = e // 6
+	v = 34 * 19
+	e = j
+# output
+# 38
+
+# code
+y = 87
+s = 70
+c = 147
+while c <= 152:
+	if y > s:
+		h = 40 % 24
+	else:
+		b = s
+	x = c + 1
+	b = y
+	n = 48
+	c = x
+print(s)
+# output
+# 70
+
+# code
+b = 23
+p = 9
+if p > 8:
+	o = 47
+f = 30 * 95
+h = 19
+m = f
+a = 61
+u = a
+while 1097 <= a:
+	b = a * h
+	z = 44 + 60
+	k = 8
+	a = b
+print(m)
+# output
+# 2850
+
+# code
+a = 87
+n = 88
+if n >= 96:
+	z = 93
+elif n < 28:
+	n = 82
+p = 87
+h = 284
+while h < p:
+	v = p * 11
+	j = n
+	u = n
+	p = v
+print(h)
+# output
+# 284
+
+# code
+g = 56
+i = 61
+if 74 > 59:
+	z = 55
+	e = z * 59
+x = 90
+u = 164
+r = g
+e = 16
+while 0 < u:
+	u = u // e
+print(i)
+# output
+# 61
+
+# code
+u = 79
+m = 23
+y = 88
+while 179 >= y:
+	c = y % m
+	if u == 68:
+		v = y + 68
+	o = y * 7
+	p = c
+	y = o
+print(31)
+# output
+# 31
+
+# code
+s = 80
+i = 3
+j = 84
+p = 1
+if p == 84:
+	k = j + 12
+m = 132
+o = 39 * m
+b = 74
+while b <= m:
+	b = b + 5
+print(m)
+# output
+# 132
+
+# code
+i = 75
+m = 68
+t = 21
+e = 79 // m
+n = 4
+while t > -4:
+	if n == n:
+		print(t)
+	t = t - n
+# output
+# 21
+# 17
+# 13
+# 9
+# 5
+# 1
+# -3
+
+# code
+x = 57
+m = 64
+if 56 == 5:
+	f = 22 % 70
+h = 27
+r = 8
+e = r // m
+d = 226
+while 430 >= d:
+	d = d * r
+print(r)
+# output
+# 8
+
+# code
+v = 92
+z = 62
+p = 221
+while 445 < p:
+	if 13 > 66:
+		e = 21
+		l = p
+	h = p * 10
+	r = 99
+	p = h
+print(z)
+# output
+# 62
+
+# code
+r = 78
+b = 96
+if 37 <= r:
+	l = 8
+v = b
+x = v
+h = 258
+f = 16
+i = 16
+u = 112
+while u <= h:
+	u = u + i
+print(x)
+# output
+# 96
+
+# code
+o = 75
+h = 66
+c = 20 % 1
+l = 250
+z = 35
+while 620 < l:
+	if 11 > 95:
+		print(h)
+	c = l * 16
+	t = h
+	l = c
+print(29)
+# output
+# 29
+
+# code
+m = 51
+u = 80
+l = u
+if u == u:
+	n = 65
+x = 1
+i = 97
+while i >= x:
+	i = i // 7
+print(u)
+# output
+# 80
+
+# code
+r = 84
+k = 25
+if 48 > 72:
+	j = 62
+else:
+	d = k % r
+c = 0
+u = 33
+n = k
+while u > c:
+	u = u // 18
+print(k)
+# output
+# 25
+
+# code
+k = 51
+v = 83
+i = v
+g = 142
+while 0 < g:
+	if 19 <= v:
+		i = i // v
+	g = g // 7
+print(k)
+# output
+# 51
+
+# code
+w = 32
+e = 49
+b = 15
+f = 77
+while 376 <= f:
+	f = f * b
+	if 16 == 38:
+		a = 98
+print(b)
+# output
+# 15
+
+# code
+d = 72
+e = 78
+g = 252
+c = 74
+while c <= g:
+	if g <= 27:
+		v = 90
+	v = g - 9
+	f = 58
+	s = f
+	g = v
+print(g)
+# output
+# 72
+
+# code
+a = 71
+w = 61
+s = 17
+w = 181
+d = 98
+while d < w:
+	if a != a:
+		a = a
+	d = d + s
+print(a)
+# output
+# 71
+
+# code
+l = 64
+e = 40
+if 85 != e:
+	a = 18
+	h = 53 % 9
+v = l // 16
+v = 164
+i = 36
+a = i // 81
+while v <= 256:
+	v = v + 12
+print(e)
+# output
+# 40
+
+# code
+y = 27
+v = 86
+s = v
+if v <= 89:
+	l = y
+	j = 49
+f = 134
+k = f
+h = 25
+t = 11
+while f > 61:
+	r = f - t
+	n = y * y
+	c = 48
+	f = r
+print(t)
+# output
+# 11
+
+# code
+y = 69
+f = 4
+j = 67
+v = 93
+while 211 <= j:
+	if 28 >= f:
+		w = 72 * 90
+	i = j * 10
+	n = f
+	j = i
+print(v)
+# output
+# 93
+
+# code
+y = 20
+q = 9
+h = y // q
+if y != 26:
+	m = 7
+j = 62
+p = h
+g = 0
+p = 8
+while g < j:
+	h = j // p
+	b = p // y
+	j = h
+print(q)
+# output
+# 9
+
+# code
+k = 45
+n = 12
+if 92 != 73:
+	i = n % 1
+	z = 80
+d = 79
+m = 19
+while 606 < d:
+	h = d * m
+	b = n - d
+	e = 42 // 38
+	d = h
+print(d)
+# output
+# 79
+
+# code
+o = 45
+j = 94
+l = 82
+b = j
+i = b % 38
+while l > 58:
+	if 62 > b:
+		print(i)
+	l = l - 2
+print(l)
+# output
+# 58
+
+# code
+m = 89
+c = 43
+if 13 >= c:
+	g = 75
+w = 33
+t = 61
+m = 13
+i = c
+while t > 0:
+	t = t // m
+print(m)
+# output
+# 13
+
+# code
+h = 55
+m = 88
+h = 17
+u = -73
+while u < h:
+	if 65 > 19:
+		i = u
+	h = h - 5
+print(h)
+# output
+# -73
+
+# code
+o = 26
+m = 16
+if m < 42:
+	c = o * o
+	l = o
+n = 12 // o
+n = 245
+q = 5
+c = 265
+s = n
+while c >= n:
+	n = n + q
+print(c)
+# output
+# 265
+
+# code
+d = 46
+m = 42
+if 1 < 10:
+	t = 98
+	k = 38 // m
+	z = k // m
+v = 7
+y = 0
+while y < v:
+	v = v // 10
+print(70)
+# output
+# 70
+
+# code
+f = 86
+i = 76
+t = 8
+while 49 > t:
+	if 42 >= 62:
+		o = f
+	q = t * 7
+	k = f + i
+	t = q
+print(t)
+# output
+# 56
+
+# code
+k = 53
+g = 62
+v = 104
+f = 0
+q = 0
+while f < v:
+	if 31 > 65:
+		print(k)
+	d = v // 12
+	r = q
+	v = d
+print(q)
+# output
+# 0
+
+# code
+p = 55
+z = 75
+n = z
+z = 198
+while z > 119:
+	if 85 == 48:
+		b = n // p
+	y = z // 17
+	w = n - n
+	z = y
+print(z)
+# output
+# 11
+
+# code
+o = 5
+v = 87
+q = 222
+while q > -25:
+	if o != 64:
+		d = 64
+	q = q - 20
+print(q)
+# output
+# -38
+
+# code
+q = 97
+d = 22
+z = 9
+if d >= 26:
+	z = z + 27
+	l = 42 - z
+m = 1
+u = d
+v = 212
+c = 219
+q = 74 + 86
+while c > v:
+	v = v + m
+print(q)
+# output
+# 160
+
+# code
+a = 10
+u = 70
+if u >= 29:
+	z = 12
+	h = 43 - a
+e = 17
+u = 87
+b = e
+q = 28
+f = 99
+while u < f:
+	d = u + 8
+	q = f * 10
+	r = 83
+	u = d
+print(u)
+# output
+# 103
+
+# code
+r = 28
+a = 59
+if 85 == 74:
+	n = a
+d = r % 67
+y = 144
+p = 137
+a = 19
+while y < p:
+	d = p * 2
+	e = 18
+	p = d
+print(y)
+# output
+# 144
+
+# code
+v = 16
+j = 11
+if 53 == 59:
+	u = 99 - j
+x = v
+b = 250
+while 1792 > b:
+	b = b * 10
+print(x)
+# output
+# 16
+
+# code
+a = 61
+r = 22
+q = a * 83
+a = 134
+r = 22 * a
+while -229 < a:
+	if 86 < a:
+		q = a
+	a = a - 19
+print(a)
+# output
+# -246
+
+# code
+h = 64
+w = 6
+g = 18
+if 90 >= g:
+	w = 28
+g = 1
+h = 172
+while h < 184:
+	n = h + g
+	a = h
+	e = 41
+	h = n
+print(h)
+# output
+# 184
+
+# code
+k = 58
+a = 11
+if a <= 74:
+	l = 3 * k
+u = 284
+r = 39
+o = r
+while u < r:
+	s = r * 12
+	c = r
+	r = s
+print(a)
+# output
+# 11
+
+# code
+t = 88
+j = 76
+if t <= j:
+	k = t
+j = 176
+x = 19
+while 757 > j:
+	w = j * x
+	l = 90
+	c = x
+	j = w
+print(x)
+# output
+# 19
+
+# code
+w = 60
+o = 23
+u = 226
+x = 59 % u
+t = 52 + 11
+while 2858 > u:
+	if 87 < u:
+		i = 1
+	d = u * 18
+	v = w % t
+	u = d
+print(w)
+# output
+# 60
+
+# code
+n = 36
+n = 38
+i = 159
+j = 195
+while i < j:
+	if n > j:
+		w = 17 - i
+	i = i + 6
+print(n)
+# output
+# 38
+
+# code
+z = 61
+n = 6
+if n < 26:
+	t = 15
+u = 136
+d = 146
+e = z * 73
+while d < u:
+	z = u * 10
+	x = n + 95
+	u = z
+print(d)
+# output
+# 146
+
+# code
+h = 32
+t = 97
+z = 26
+z = 136
+r = 7
+while 364 < z:
+	if 21 <= z:
+		v = 23 - 95
+	z = z * r
+print(t)
+# output
+# 97
+
+# code
+a = 66
+t = 89
+d = 40
+o = a
+while 254 >= d:
+	if a >= 52:
+		e = t
+	h = d * 7
+	a = o
+	f = a
+	d = h
+print(t)
+# output
+# 89
+
+# code
+g = 93
+m = 20
+d = 96
+x = 88
+m = g
+while 295 <= d:
+	if 59 > 82:
+		a = 34 - m
+	d = d * 19
+print(d)
+# output
+# 96
+
+# code
+c = 37
+r = 19
+y = 13
+j = c
+if r > 47:
+	r = 25 // 90
+v = 0
+while v >= -23:
+	v = v - 3
+print(j)
+# output
+# 37
+
+# code
+m = 82
+d = 71
+if 39 == d:
+	z = 30 % m
+	f = m % 73
+	n = 46
+z = 6
+m = m + 66
+i = 37
+s = 24
+x = 25
+while i < s:
+	s = s * z
+print(z)
+# output
+# 6
+
+# code
+t = 9
+e = 70
+i = t + t
+if e == t:
+	n = 7
+	b = 9
+r = 11
+m = r
+l = 123
+z = 198
+while z >= l:
+	l = l + r
+print(r)
+# output
+# 11
+
+# code
+y = 3
+w = 25
+p = 136
+b = 0
+m = w + 3
+while p > b:
+	if y != 28:
+		print(m)
+	s = p // 10
+	k = w * 36
+	z = w
+	p = s
+# output
+# 28
+# 28
+# 28
+
+# code
+o = 17
+w = 43
+o = 199
+while 1726 < o:
+	if o == 92:
+		q = 22 // 98
+		j = 73
+	o = o * 10
+print(83)
+# output
+# 83
+
+# code
+h = 42
+f = 15
+if h != h:
+	s = h
+	i = h
+y = 85 // f
+y = 12
+m = y
+r = 19
+while y > 0:
+	k = y // r
+	v = 24 * 32
+	y = k
+print(f)
+# output
+# 15
+
+# code
+e = 91
+z = 79
+h = 37
+m = z
+while -301 < h:
+	if 73 < 54:
+		p = 37
+	f = h - 18
+	g = z * 70
+	u = g
+	h = f
+print(h)
+# output
+# -305
+
+# code
+a = 89
+q = 55
+if 58 < 43:
+	z = a // 93
+	g = q + 33
+	s = 58
+t = 34
+h = 34
+o = q
+while t < 104:
+	y = t + 5
+	e = q % h
+	n = 43
+	t = y
+print(t)
+# output
+# 104
+
+# code
+t = 6
+f = 86
+a = 134
+u = 27
+x = -53
+while a > x:
+	if t != a:
+		u = t - t
+	a = a - 10
+print(u)
+# output
+# 0
+
+# code
+q = 65
+u = 32
+z = 58
+if u >= 64:
+	b = q * q
+w = 183
+s = 121
+while w >= s:
+	s = s + 19
+print(q)
+# output
+# 65
+
+# code
+q = 56
+u = 62
+u = 309
+j = 217
+while j < u:
+	if 33 == j:
+		z = 79
+	l = j + 9
+	k = 28 - u
+	z = 51 * q
+	j = l
+print(j)
+# output
+# 316
+
+# code
+w = 51
+f = 42
+z = w
+d = 71
+if z <= d:
+	n = 74 - d
+h = 18
+b = 205
+e = h
+while -37 < b:
+	c = b - h
+	d = d % 5
+	y = 49
+	b = c
+print(d)
+# output
+# 1
+
+# code
+q = 6
+f = 78
+w = q
+n = 55 + q
+c = 205
+while 0 < c:
+	if 53 < 56:
+		w = 61
+	p = c // 20
+	f = 51 * 1
+	i = 68
+	c = p
+print(c)
+# output
+# 0
+
+# code
+v = 41
+m = 28
+if 2 <= v:
+	z = m
+	n = 31 // 80
+g = 70
+m = 114
+while g < m:
+	w = m - 7
+	y = 14
+	n = g + 84
+	m = w
+print(m)
+# output
+# 65
+
+# code
+t = 67
+x = 38
+p = t
+d = 170
+m = x
+while d > 0:
+	if x != d:
+		print(t)
+	q = d // 20
+	o = x // 50
+	d = q
+# output
+# 67
+# 67
+
+# code
+a = 84
+s = 78
+q = 160
+c = 50 % a
+r = 13
+while 1599 < q:
+	if r < 42:
+		t = c
+	f = q * r
+	y = 19
+	q = f
+print(s)
+# output
+# 78
+
+# code
+p = 77
+u = 88
+z = 214
+n = 134
+while z >= n:
+	if 20 == p:
+		v = 29
+	z = z - 10
+print(z)
+# output
+# 124
+
+# code
+f = 60
+d = 67
+d = 52
+d = 157
+while 228 > d:
+	d = d + 9
+	if 32 <= d:
+		print(52)
+# output
+# 52
+# 52
+# 52
+# 52
+# 52
+# 52
+# 52
+# 52
+
+# code
+h = 99
+q = 65
+if q <= q:
+	n = q
+	c = h - q
+j = 2300
+f = 134
+k = 20
+while j > f:
+	f = f * k
+print(98)
+# output
+# 98
+
+# code
+k = 95
+u = 21
+if 30 >= u:
+	d = 90
+	h = 6 // d
+t = 115
+n = 179
+while t <= n:
+	k = n - 4
+	y = 21 * 75
+	x = 41 - u
+	n = k
+print(u)
+# output
+# 21
+
+# code
+k = 43
+b = 8
+q = 139
+t = 37 + q
+while q > 1:
+	c = t
+	if 17 == q:
+		print(q)
+	q = q // 11
+print(q)
+# output
+# 1
+
+# code
+c = 31
+p = 76
+if p != 41:
+	z = p
+z = 80
+v = 248
+h = 1
+d = 65
+while v < 256:
+	c = v + h
+	n = 93 - 74
+	v = c
+print(d)
+# output
+# 65
+
+# code
+j = 42
+i = 70
+p = 12
+m = 55 - i
+while 21 >= p:
+	if 82 < j:
+		c = 48 - m
+	w = p * 20
+	v = 68
+	p = w
+print(p)
+# output
+# 240
+
+# code
+v = 78
+g = 48
+if v != v:
+	l = 56 - v
+k = 18
+t = 9
+while 196 >= t:
+	t = t + k
+print(53)
+# output
+# 53
+
+# code
+n = 35
+y = 0
+l = 61
+i = 10
+while 525 >= l:
+	k = l
+	if n != k:
+		k = 43 + 92
+	g = l * i
+	h = l - n
+	w = 14 // k
+	l = g
+print(l)
+# output
+# 610
+
+# code
+h = 36
+x = 6
+f = x // x
+s = 10
+w = 185
+while 137 < w:
+	if w >= 85:
+		r = f
+	w = w - s
+print(f)
+# output
+# 1
+
+# code
+t = 80
+w = 82
+c = 2
+o = 66
+f = 75
+while f < o:
+	if c > 22:
+		print(c)
+	i = o * c
+	t = c
+	o = i
+print(w)
+# output
+# 82
+
+# code
+y = 59
+q = 29
+if y < 4:
+	h = 45 - 38
+	v = q
+	k = 61
+c = 17
+m = y - c
+i = 55
+y = m
+while 55 < i:
+	i = i // c
+print(c)
+# output
+# 17
+
+# code
+h = 94
+r = 38
+r = 3
+d = 107
+while 115 > d:
+	if h >= r:
+		t = 90
+	d = d + r
+print(r)
+# output
+# 3
+
+# code
+a = 67
+n = 72
+if 86 == a:
+	c = n
+u = 94 + 3
+t = a
+o = 15
+a = 29
+while 134 <= a:
+	a = a * o
+print(a)
+# output
+# 29
+
+# code
+a = 1
+s = 56
+c = 56 // 58
+c = s
+if 87 != s:
+	n = c
+m = 134
+r = 0
+x = c // m
+while m > r:
+	j = m // 13
+	i = 57
+	m = j
+print(r)
+# output
+# 0
+
+# code
+u = 67
+r = 0
+z = 18
+v = 119
+d = r
+while v <= 416:
+	if d <= 14:
+		f = 42
+	v = v + z
+print(d)
+# output
+# 0
+
+# code
+r = 27
+d = 68
+y = 24
+x = 2
+l = y + 92
+while y > 0:
+	if d != 49:
+		z = y
+	y = y // x
+print(y)
+# output
+# 0
+
+# code
+o = 43
+i = 60
+s = 221
+y = 277
+while y > s:
+	p = y
+	if p < p:
+		print(s)
+	s = s * 2
+print(s)
+# output
+# 442
+
+# code
+x = 96
+r = 41
+a = 86
+while -106 < a:
+	if x <= x:
+		k = 91
+		v = r
+	a = a - 11
+print(x)
+# output
+# 96
+
+# code
+e = 40
+s = 25
+x = e
+c = 9
+s = 193
+while s > 0:
+	if 53 <= e:
+		h = x - c
+	y = s // c
+	e = e + c
+	s = y
+print(x)
+# output
+# 40
+
+# code
+i = 33
+m = 86
+if m < 42:
+	q = 20 - 80
+s = 94
+q = 0
+k = 10
+while q < s:
+	s = s // k
+print(q)
+# output
+# 0
+
+# code
+w = 11
+y = 32
+if y != 46:
+	l = w
+	f = y
+	x = 58 // f
+x = 116
+while 190 > x:
+	a = x + 9
+	n = 88 // 91
+	x = a
+print(x)
+# output
+# 197
+
+# code
+x = 61
+f = 39
+q = f // 8
+if f == q:
+	u = 80 // 19
+	q = 51
+t = 12
+v = 114
+while 248 >= v:
+	u = v * t
+	e = v
+	v = u
+print(x)
+# output
+# 61
+
+# code
+c = 28
+s = 28
+if s <= c:
+	v = 89
+	x = 77
+p = 221
+g = s // 82
+while 1792 > p:
+	t = p * 16
+	f = 73
+	n = f
+	p = t
+print(p)
+# output
+# 3536
+
+# code
+h = 36
+c = 72
+h = 7
+while -228 <= h:
+	if 53 > c:
+		a = c // 31
+		f = a
+	h = h - 12
+print(c)
+# output
+# 72
+
+# code
+s = 82
+j = 83
+u = 12
+if 79 != 57:
+	u = 3 // 86
+	n = 38
+e = 202
+a = 78
+while e > a:
+	f = e - 10
+	w = e - 21
+	c = s
+	e = f
+print(s)
+# output
+# 82
+
+# code
+i = 90
+o = 46
+if o >= 81:
+	l = i
+	b = 61
+d = o
+e = 213
+m = 30
+n = e % o
+while 173 < e:
+	k = e - 5
+	b = 97
+	n = n
+	e = k
+print(i)
+# output
+# 90
+
+# code
+d = 8
+d = 51
+x = 139
+o = 65
+while x > o:
+	if 7 > 71:
+		s = x
+	x = x - 16
+print(x)
+# output
+# 59
+
+# code
+c = 69
+g = 53
+w = c
+if g > c:
+	w = g
+	q = 6
+z = 241
+r = 93
+j = 2
+while z > 0:
+	z = z // j
+print(z)
+# output
+# 0
+
+# code
+d = 74
+o = 40
+if o < 32:
+	q = o
+v = 98
+j = d
+r = 76
+while 108 >= r:
+	r = r + 2
+print(r)
+# output
+# 110
+
+# code
+m = 58
+h = 40
+if h <= h:
+	c = 33
+s = m
+f = 55
+w = 33 + 0
+t = 0
+g = 8
+j = w // 28
+while f > t:
+	y = f // g
+	n = 67 - s
+	f = y
+print(t)
+# output
+# 0
+
+# code
+x = 25
+e = 66
+if 78 >= e:
+	p = 37 + x
+	l = 67
+l = 5
+s = l
+p = x * l
+i = 570
+y = 186
+while i <= y:
+	y = y * l
+print(x)
+# output
+# 25
+
+# code
+j = 85
+i = 49
+if 94 != i:
+	v = j
+	s = i
+i = 88 * j
+p = 0
+f = 14
+z = 188
+while p < z:
+	z = z // f
+print(z)
+# output
+# 0
+
+# code
+m = 39
+e = 69
+if 28 == m:
+	h = 36
+	m = 15
+l = 9
+a = 16
+x = 227
+p = 290
+m = 17 * 82
+while p >= x:
+	x = x + l
+print(e)
+# output
+# 69
+
+# code
+i = 91
+v = 10
+f = i - 38
+if v != 63:
+	f = 71
+w = 61
+n = 0
+e = w
+while n < w:
+	c = w // 13
+	s = 76
+	m = v
+	w = c
+print(n)
+# output
+# 0
+
+# code
+q = 24
+m = 78
+if q < 35:
+	w = q - 43
+	f = w * 35
+m = 136
+g = 314
+q = m
+while g > m:
+	m = m + 16
+print(g)
+# output
+# 314
+
+# code
+b = 25
+v = 20
+v = 111
+while v > 0:
+	y = 8
+	if b < y:
+		r = y
+	v = v // 13
+print(v)
+# output
+# 0
+
+# code
+g = 68
+t = 56
+j = 245
+g = 18
+while -88 <= j:
+	if t == 31:
+		f = g
+	h = j - g
+	s = j // j
+	u = t
+	j = h
+print(72)
+# output
+# 72
+
+# code
+j = 27
+p = 4
+e = 25
+k = 19
+while 25 < e:
+	e = e // k
+	if 12 > p:
+		print(e)
+print(p)
+# output
+# 4
+
+# code
+t = 37
+f = 10
+if 72 <= f:
+	k = 17
+m = t - t
+j = 233
+z = 68
+y = 9
+i = j
+while j >= z:
+	z = z + y
+print(m)
+# output
+# 0
+
+# code
+v = 30
+t = 55
+if 95 != t:
+	r = v
+z = 52
+q = 8
+z = 5
+o = 64
+while o > 27:
+	c = o // z
+	v = o
+	i = v % o
+	o = c
+print(z)
+# output
+# 5
+
+# code
+r = 4
+f = 99
+o = 57
+while o < 60:
+	if f < r:
+		t = 13
+		p = t
+	p = o + 1
+	x = 34 - 22
+	w = 66
+	o = p
+print(f)
+# output
+# 99
+
+# code
+t = 95
+b = 54
+e = 47
+r = b
+while 0 < e:
+	if r <= e:
+		d = 52
+	r = e // 5
+	i = e
+	e = r
+print(t)
+# output
+# 95
+
+# code
+f = 87
+a = 48
+d = 64
+while 365 > d:
+	if 44 <= a:
+		k = 99 // 95
+		s = a
+	d = d * 12
+print(74)
+# output
+# 74
+
+# code
+a = 44
+d = 45
+o = -117
+u = 224
+while u > o:
+	if 35 != 46:
+		n = 79 + u
+	u = u - 19
+print(a)
+# output
+# 44
+
+# code
+z = 38
+j = 89
+c = 35
+q = 73
+m = 34
+while 328 < q:
+	if 79 <= 13:
+		u = q // 81
+	q = q * 12
+print(z)
+# output
+# 38
+
+# code
+i = 66
+c = 51
+if i == 15:
+	n = c
+	w = 91
+v = 14
+u = 117
+l = -57
+while u >= l:
+	u = u - v
+print(u)
+# output
+# -65
+
+# code
+i = 61
+d = 66
+if i == 32:
+	e = i
+x = 216
+o = 56
+u = 189
+q = 4
+while x > u:
+	u = u + q
+print(d)
+# output
+# 66
+
+# code
+o = 79
+h = 7
+f = 44
+if 45 > 86:
+	x = 17 - f
+p = 87
+r = f
+while 231 > p:
+	p = p + 19
+print(p)
+# output
+# 239
+
+# code
+t = 22
+f = 52
+f = t
+if 17 > 20:
+	m = t % 76
+	m = 62
+r = 38
+d = 3
+k = t // 38
+s = 38
+n = s * 38
+while r > s:
+	g = s + d
+	k = 88 - 50
+	s = g
+print(r)
+# output
+# 38
+
+# code
+y = 9
+b = 62
+u = 38
+m = 63
+while 39 > u:
+	if 21 == 16:
+		f = 22 // 67
+	v = u * 3
+	p = m + b
+	u = v
+print(b)
+# output
+# 62
+
+# code
+k = 51
+w = 30
+z = 91
+o = -27
+while o <= z:
+	if 0 != o:
+		c = 44
+	z = z - 18
+print(w)
+# output
+# 30
+
+# code
+d = 43
+e = 1
+if d != e:
+	z = d % d
+	p = 18
+	h = p % p
+g = 121
+h = d % g
+n = 85
+while g > n:
+	g = g - 3
+print(d)
+# output
+# 43
+
+# code
+q = 37
+p = 67
+j = 29
+e = 0
+a = j % 90
+while j > e:
+	if 21 > 1:
+		b = q * e
+	i = j // 19
+	l = 90 - q
+	j = i
+print(j)
+# output
+# 0
+
+# code
+x = 47
+p = 56
+u = x % p
+c = 238
+r = 2783
+while r > c:
+	if 77 < 84:
+		print(c)
+	c = c * 12
+# output
+# 238
+
+# code
+b = 10
+c = 65
+b = 87 + 71
+a = b - c
+if 61 == b:
+	r = 27 % c
+x = 125
+e = 4
+r = a
+u = 9
+while x > u:
+	u = u * e
+print(u)
+# output
+# 144
+
+# code
+z = 87
+f = 35
+m = 8 - 5
+q = 13
+b = 192
+while b < 398:
+	if 58 == q:
+		i = q % f
+	x = b + 13
+	e = 17
+	b = x
+print(f)
+# output
+# 35
+
+# code
+q = 9
+d = 86
+w = 153
+c = d
+while w > -94:
+	c = c
+	if 24 != 71:
+		l = q
+	w = w - 13
+print(q)
+# output
+# 9
+
+# code
+z = 27
+j = 22
+i = -221
+s = 49
+e = 18
+while s > i:
+	if j < 11:
+		t = 11 // i
+	p = s - e
+	g = s
+	s = 40
+	s = p
+print(s)
+# output
+# -221
+
+# code
+u = 78
+n = 37
+if 40 >= 92:
+	y = 25
+h = 7
+m = 15
+i = 0
+t = 214
+while i < t:
+	s = t // 14
+	w = 82 + 90
+	u = m - n
+	t = s
+print(78)
+# output
+# 78
+
+# code
+g = 46
+v = 64
+u = 47
+if v > 65:
+	d = 90
+q = 150
+e = 2
+c = 168
+y = 29
+while q < c:
+	c = c - e
+print(y)
+# output
+# 29
+
+# code
+x = 73
+i = 64
+if 94 == 43:
+	e = i
+w = 226
+d = 5
+a = d
+while 0 < w:
+	w = w // 7
+print(d)
+# output
+# 5
+
+# code
+g = 8
+a = 75
+if g != 5:
+	r = 74
+e = g
+e = e
+n = 14
+f = 9
+while 31 <= n:
+	y = n * f
+	c = e
+	b = 10
+	n = y
+print(e)
+# output
+# 8
+
+# code
+h = 66
+m = 25
+c = 80
+c = 57
+n = h * 73
+while c >= 24:
+	if 46 > c:
+		g = h // 49
+	c = c - 2
+print(h)
+# output
+# 66
+
+# code
+s = 86
+p = 53
+c = 34 // 92
+x = 19
+b = 23
+while 303 >= b:
+	if 15 == c:
+		z = 91
+	b = b * x
+print(p)
+# output
+# 53
+
+# code
+l = 41
+j = 93
+if l >= l:
+	v = 93 * 13
+	f = 18
+d = j
+t = 229
+e = 114
+o = 6
+i = l - 83
+q = 50
+while e < t:
+	d = e + o
+	f = e
+	e = d
+print(d)
+# output
+# 234
+
+# code
+c = 22
+d = 57
+j = 249
+u = 263
+while j <= u:
+	j = j + 5
+	if 82 != d:
+		d = 13
+print(39)
+# output
+# 39
+
+# code
+e = 41
+e = 59
+d = e
+v = 112
+p = 19
+while 407 >= v:
+	if 30 <= 39:
+		print(d)
+	v = v + p
+# output
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+# 59
+
+# code
+t = 96
+l = 59
+if 99 <= l:
+	e = t
+p = t
+t = l
+h = 138
+a = l % 41
+a = 413
+p = t * 51
+e = 15
+while a >= h:
+	y = h + e
+	p = 74
+	h = y
+print(t)
+# output
+# 59
+
+# code
+f = 94
+z = 22
+s = f
+g = z // f
+e = 236
+while 154 <= e:
+	if f != 50:
+		d = g
+	e = e - 5
+print(e)
+# output
+# 151
+
+# code
+z = 20
+h = 59
+q = 37
+b = 18
+while 217 <= q:
+	if b < z:
+		j = z
+	q = q * b
+print(z)
+# output
+# 20
+
+# code
+n = 9
+x = 93
+if x >= x:
+	h = 90 - 89
+z = 7
+v = 254
+b = 150
+while b <= v:
+	s = b + z
+	w = v
+	b = s
+print(x)
+# output
+# 93
+
+# code
+g = 40
+d = 63
+r = d
+u = 125
+while 548 > u:
+	if g >= 28:
+		h = u
+	h = u * 13
+	f = 47
+	u = h
+print(g)
+# output
+# 40
+
+# code
+z = 31
+d = 97
+if d <= 99:
+	x = d + d
+e = 177
+w = z
+m = 139
+i = 84 // 64
+while m <= e:
+	e = e - 7
+print(e)
+# output
+# 135
+
+# code
+f = 98
+c = 79
+if f >= f:
+	o = f // 39
+	l = c
+d = 136
+v = 35
+a = 63 + v
+g = 18
+while d >= g:
+	u = g * 14
+	n = c
+	f = n - d
+	g = u
+print(a)
+# output
+# 98
+
+# code
+p = 43
+r = 32
+if 91 >= 46:
+	s = 16 % r
+	q = s
+c = 220
+g = 4
+y = 2
+while g <= c:
+	m = c // y
+	k = p % r
+	c = m
+print(g)
+# output
+# 4
+
+# code
+q = 85
+k = 29
+if q < q:
+	g = 4
+m = 16 % 41
+f = 16
+g = -54
+while g <= f:
+	o = f - 4
+	u = 1 * k
+	f = o
+print(48)
+# output
+# 48
+
+# code
+s = 2
+e = 34
+u = 27
+h = 10
+while 230 < u:
+	i = 46
+	if 28 < 37:
+		z = i
+	u = u * h
+print(e)
+# output
+# 34
+
+# code
+v = 32
+z = 17
+s = z
+if 60 == 13:
+	x = s
+	x = v * z
+a = 15
+w = 133
+c = 99 - v
+while 6 < w:
+	h = w - a
+	f = 22
+	n = 74
+	w = h
+print(1)
+# output
+# 1
+
+# code
+u = 66
+t = 49
+d = 33 - 70
+if t == t:
+	g = 82
+c = 80
+n = 14
+h = c + 95
+y = 84 // d
+while -76 < c:
+	v = c - n
+	x = n * t
+	c = v
+print(d)
+# output
+# -37
+
+# code
+k = 87
+b = 67
+b = 13
+w = 131
+c = -99
+while c < w:
+	if 7 > c:
+		e = 91 + w
+	x = w - b
+	d = 96
+	k = 7
+	w = x
+print(w)
+# output
+# -103
+
+# code
+m = 16
+q = 38
+if 72 > m:
+	k = m
+	o = m
+y = q
+n = 1
+t = 15
+y = 97 * t
+q = 25
+while 23 > t:
+	p = t + n
+	c = n + 69
+	c = q % 3
+	t = p
+print(q)
+# output
+# 25
+
+# code
+l = 84
+s = 29
+if 57 == s:
+	z = l
+k = 52
+s = 14
+while 285 > k:
+	z = k * s
+	u = 21
+	k = z
+print(k)
+# output
+# 728
+
+# code
+n = 91
+n = 91
+m = 294
+d = 175
+e = 7
+while m > d:
+	if 89 > 73:
+		i = e - 27
+	d = d + e
+print(m)
+# output
+# 294
+
+# code
+f = 60
+s = 10
+o = 143
+n = s % 40
+x = n - s
+while o < 199:
+	if f != 51:
+		q = 23 + f
+	b = o + 11
+	c = n
+	o = b
+print(f)
+# output
+# 60
+
+# code
+r = 66
+e = 38
+if 92 > 87:
+	d = 7 * 45
+	i = r
+g = 172
+j = g * 32
+i = 0
+while i < g:
+	g = g // 7
+print(e)
+# output
+# 38
+
+# code
+n = 81
+n = 88
+x = n
+if 29 < 55:
+	e = 15 % 28
+	n = n
+e = 211
+h = 199
+while e > h:
+	b = e - 1
+	t = 43 * 79
+	e = b
+print(13)
+# output
+# 13
+
+# code
+k = 67
+d = 60
+if 80 > d:
+	b = k
+q = k % 34
+e = 66
+s = 7
+d = 0
+while d < e:
+	e = e // s
+print(e)
+# output
+# 0
+
+# code
+n = 82
+t = 79
+h = 9 - 77
+if 53 <= h:
+	l = 98 + 61
+	t = n // n
+i = 223
+t = h * 71
+u = 1
+while 234 >= i:
+	c = i + u
+	b = 85 + 10
+	k = n // 59
+	i = c
+print(h)
+# output
+# -68
+
+# code
+c = 13
+b = 47
+p = 221
+o = 229
+b = 22
+while o > p:
+	if 50 < p:
+		v = 74
+	n = p * 18
+	r = 48
+	p = n
+print(c)
+# output
+# 13
+
+# code
+q = 62
+q = 40
+m = 4
+k = 20
+if 45 < 48:
+	p = 36
+d = 221
+while 1281 <= d:
+	o = d * 10
+	n = 42 - m
+	d = o
+print(q)
+# output
+# 40
+
+# code
+m = 19
+y = 5
+if m != y:
+	u = 32
+g = 203
+y = 47
+c = 1
+while c < g:
+	g = g // 10
+print(c)
+# output
+# 1
+
+# code
+h = 8
+b = 11
+j = 106
+while 1479 < j:
+	if j != h:
+		p = 40
+	if b == b:
+		m = 41
+	j = j * 19
+print(b)
+# output
+# 11
+
+# code
+b = 34
+h = 94
+n = 34
+k = 15
+y = 96
+while k <= n:
+	if 88 != k:
+		print(n)
+	n = n - 1
+# output
+# 34
+# 33
+# 32
+# 31
+# 30
+# 29
+# 28
+# 27
+# 26
+# 25
+# 24
+# 23
+# 22
+# 21
+# 20
+# 19
+# 18
+# 17
+# 16
+# 15
+
+# code
+q = 13
+z = 70
+q = 189
+n = 16
+while q > 46:
+	if 22 == q:
+		c = z
+	q = q // n
+print(n)
+# output
+# 16
+
+# code
+o = 15
+z = 37
+o = z
+w = o % 74
+if z <= 59:
+	y = 28
+x = 176
+s = 54
+u = x + z
+while 2563 > x:
+	x = x * 20
+print(s)
+# output
+# 54
+
+# code
+p = 20
+l = 43
+a = 51 // 50
+if 33 >= 8:
+	r = l
+v = a
+n = 228
+y = 126
+p = 55 + 72
+u = 19
+while y < n:
+	n = n - u
+print(p)
+# output
+# 127
+
+# code
+g = 49
+r = 11
+v = 58
+i = 11
+g = 16 // g
+while v > 0:
+	if i == v:
+		s = i
+	w = v // i
+	z = r
+	k = 68
+	v = w
+print(g)
+# output
+# 0
+
+# code
+f = 51
+k = 89
+if 96 > 15:
+	x = 42
+	g = 4
+a = k * k
+q = 195
+s = 66 - k
+v = 17
+j = 56
+while 0 < q:
+	c = q // v
+	f = 79
+	t = 21
+	q = c
+print(v)
+# output
+# 17
+
+# code
+s = 61
+w = 73
+n = 144
+k = s - 79
+while 430 < n:
+	if 83 > n:
+		p = 54 % s
+	a = n * 14
+	r = w
+	n = a
+print(n)
+# output
+# 144
+
+# code
+y = 47
+s = 84
+g = 12 // s
+d = g + g
+if 20 > y:
+	p = 87 + 12
+s = 44
+f = 14
+t = 359
+while t > s:
+	s = s * f
+print(t)
+# output
+# 359
+
+# code
+f = 52
+v = 7
+k = 174
+j = 18
+a = 89
+while 169 < k:
+	if j <= 50:
+		q = 67 % 37
+	t = k - j
+	x = v
+	g = 17 * 90
+	k = t
+print(k)
+# output
+# 156
+
+# code
+a = 60
+k = 16
+h = 36
+b = 36
+while h >= b:
+	g = b % b
+	if 84 >= 50:
+		print(g)
+	h = h - 8
+# output
+# 0
+
+# code
+j = 84
+a = 77
+t = 45
+v = -195
+while t >= v:
+	if 64 <= 60:
+		a = a
+	w = t - 12
+	d = j
+	t = w
+print(v)
+# output
+# -195
+
+# code
+d = 14
+e = 40
+if d >= 43:
+	g = 35
+else:
+	g = e
+z = 57
+o = 34
+v = 16 - 39
+b = 6
+while o <= z:
+	z = z - b
+print(b)
+# output
+# 6
+
+# code
+c = 49
+j = 34
+a = 37
+if c <= c:
+	n = c
+r = a // 55
+k = 329
+m = k
+w = 54
+while k <= w:
+	o = w * 15
+	h = k // k
+	w = o
+print(a)
+# output
+# 37
+
+# code
+m = 12
+x = 64
+if m <= m:
+	l = 60 % 66
+	i = l
+z = 137
+c = z - 0
+while z >= 114:
+	z = z - 9
+print(m)
+# output
+# 12
+
+# code
+w = 20
+r = 67
+b = 359
+v = 112
+y = 19
+while v < b:
+	if y >= 44:
+		print(v)
+	z = v + y
+	u = w * 63
+	v = z
+print(y)
+# output
+# 19
+
+# code
+b = 56
+d = 42
+w = 66
+l = b
+while 438 > w:
+	r = w
+	if l <= r:
+		d = w
+	m = w * 8
+	b = r
+	k = w - l
+	w = m
+print(l)
+# output
+# 56
+
+# code
+o = 50
+q = 69
+o = 2517
+m = 231
+while o < m:
+	if m > 57:
+		e = q
+	m = m * 19
+print(o)
+# output
+# 2517
+
+# code
+b = 84
+c = 91
+r = 11
+o = 147
+c = r
+while o > 0:
+	if 22 < c:
+		v = 24
+	o = o // r
+print(b)
+# output
+# 84
+
+# code
+l = 38
+m = 14
+o = 66
+i = 12
+while -70 < o:
+	if m >= 42:
+		a = i
+	o = o - i
+print(o)
+# output
+# -78
+
+# code
+g = 86
+u = 68
+if 41 < u:
+	r = 10
+t = 129
+x = 305
+while x >= t:
+	t = t + 17
+print(g)
+# output
+# 86
+
+# code
+z = 80
+b = 45
+if z >= z:
+	u = z
+	p = u - u
+	v = b
+m = 237
+n = b + z
+while 253 > m:
+	u = m + 8
+	b = 88
+	l = 73 % 26
+	m = u
+print(b)
+# output
+# 88
+
+# code
+w = 37
+k = 60
+y = 15
+m = 0
+a = 88 - w
+while y > m:
+	if w >= a:
+		r = 4
+	y = y // 18
+print(k)
+# output
+# 60
+
+# code
+s = 78
+c = 30
+if s == 92:
+	y = s
+w = 2
+t = 63
+while 38 < t:
+	t = t - w
+print(c)
+# output
+# 30
+
+# code
+h = 88
+w = 23
+if w == 14:
+	t = w
+e = 43
+k = 30
+i = 196
+while 0 < i:
+	r = i // 14
+	c = 62 + i
+	k = w - w
+	i = r
+print(e)
+# output
+# 43
+
+# code
+e = 29
+d = 98
+c = e
+y = c + 63
+m = 9
+while 2 <= m:
+	if 41 != d:
+		s = 11
+	j = m - 1
+	m = e * y
+	n = 46
+	m = j
+print(e)
+# output
+# 29
+
+# code
+w = 23
+j = 98
+w = w
+r = 75
+if r > 41:
+	s = 51 // 91
+k = 43
+w = r + k
+x = 15
+e = 31
+while 0 < k:
+	k = k // x
+print(e)
+# output
+# 31
+
+# code
+n = 46
+x = 80
+j = n
+k = 77
+f = 3
+while 2 <= k:
+	if 55 == 45:
+		u = 98
+	i = k // f
+	d = x - 62
+	w = d
+	k = i
+print(x)
+# output
+# 80
+
+# code
+j = 53
+b = 41
+i = 70
+p = j - b
+while i > -151:
+	u = 49
+	if j == j:
+		r = u
+	h = i - 19
+	b = p
+	j = b - b
+	i = h
+print(j)
+# output
+# 0
+
+# code
+d = 77
+e = 42
+if e > 73:
+	d = 88
+	i = e - 83
+y = e % 67
+m = 248
+while m > 155:
+	m = m - 16
+print(d)
+# output
+# 77
+
+# code
+u = 14
+l = 74
+if 60 < 30:
+	l = l - 89
+	u = l - u
+g = 60
+d = l + g
+while 476 >= g:
+	l = g * 14
+	o = l // g
+	i = 80 // u
+	g = l
+print(u)
+# output
+# 14
+
+# code
+x = 0
+d = 17
+l = -84
+z = l
+b = 182
+while l <= b:
+	if 65 >= d:
+		p = x
+	w = b - 14
+	u = 0
+	i = 83 * 57
+	b = w
+print(b)
+# output
+# -98
+
+# code
+g = 59
+x = 85
+if 56 >= 85:
+	y = 28 + 87
+	v = x
+	d = 21 + g
+b = 165
+e = 5
+u = x
+while 33 < b:
+	b = b // e
+print(e)
+# output
+# 5
+
+# code
+m = 65
+i = 12
+if 72 >= i:
+	h = i
+	m = m
+n = i
+p = 200
+d = m - p
+t = 319
+while p < t:
+	p = p + 20
+print(d)
+# output
+# -135
+
+# code
+x = 28
+g = 71
+d = 28
+v = d * g
+o = d
+while -244 <= d:
+	if g == 77:
+		m = d
+	d = d - 16
+print(o)
+# output
+# 28
+
+# code
+t = 16
+n = 25
+q = 232
+b = 260
+while q < b:
+	if 82 != 90:
+		n = 82 * 94
+	w = q + 4
+	a = b
+	q = w
+print(t)
+# output
+# 16
+
+# code
+d = 76
+b = 69
+r = 5
+b = 87 % 24
+x = 53
+while 0 < x:
+	if d > r:
+		d = 39
+	x = x // r
+print(r)
+# output
+# 5
+
+# code
+t = 45
+b = 55
+v = 223
+y = v % 77
+k = 31 * y
+while 94 < v:
+	if 75 != 15:
+		print(k)
+	v = v - 17
+# output
+# 2139
+# 2139
+# 2139
+# 2139
+# 2139
+# 2139
+# 2139
+# 2139
+
+# code
+p = 26
+m = 79
+if m != m:
+	b = p
+	u = m
+i = p % 79
+q = -14
+u = 56 // m
+y = 9
+t = q
+i = 24
+while q < i:
+	o = i - y
+	d = i
+	d = y + 46
+	i = o
+print(q)
+# output
+# -14
+
+# code
+h = 25
+n = 95
+if n <= n:
+	s = 43
+w = 91
+o = 89
+x = n
+while w >= 80:
+	w = w - 1
+print(n)
+# output
+# 95
+
+# code
+z = 53
+m = 48
+j = m
+c = 58 % z
+if m < 62:
+	c = 23
+j = 7
+t = 109
+y = 241
+while t < y:
+	h = y - j
+	f = z
+	c = 97
+	y = h
+print(y)
+# output
+# 108
+
+# code
+k = 2
+e = 67
+b = 14
+g = 237
+l = 55 + k
+while g > -25:
+	if b < 43:
+		f = k + 64
+	g = g - b
+print(b)
+# output
+# 14
+
+# code
+h = 74
+x = 48
+d = 243
+while d <= 521:
+	if 14 <= x:
+		y = d
+		h = 57 + 32
+	d = d + 14
+print(d)
+# output
+# 523
+
+# code
+g = 66
+o = 38
+t = 37
+while t > 0:
+	if g <= g:
+		g = g
+		s = 13
+	t = t // 18
+print(o)
+# output
+# 38
+
+# code
+r = 77
+j = 89
+if 27 != 90:
+	t = r - 33
+t = r
+q = 10
+b = t * 78
+e = 197
+a = j
+while 839 < e:
+	e = e * q
+print(q)
+# output
+# 10
+
+# code
+n = 88
+c = 46
+k = c
+if k == k:
+	a = 33
+	p = c
+p = 10
+y = k - 86
+y = 201
+while y > 0:
+	y = y // p
+print(c)
+# output
+# 46
+
+# code
+p = 10
+x = 73
+if 50 > p:
+	b = 14
+	i = p
+	t = 80
+g = 12
+u = p * x
+r = 8 // 65
+while 145 <= g:
+	m = g * 16
+	t = g + 22
+	g = m
+print(u)
+# output
+# 730
+
+# code
+f = 8
+h = 93
+v = 141
+j = 81
+s = 61
+while s < v:
+	if 78 == f:
+		o = 55
+	q = s + 4
+	d = f % j
+	b = 3
+	s = q
+print(h)
+# output
+# 93
+
+# code
+x = 85
+m = 49
+if x < 87:
+	f = 0
+w = 0
+i = 197
+s = i // i
+q = 68
+while i > w:
+	i = i // 6
+print(5)
+# output
+# 5
+
+# code
+g = 49
+z = 93
+q = z
+if g < 79:
+	c = g
+i = z
+h = 244
+x = z
+y = 98
+while h >= 48:
+	h = h - 15
+print(g)
+# output
+# 49
+
+# code
+w = 15
+e = 32
+e = 15
+f = 35
+if e < 41:
+	x = e
+p = 110
+f = 57 - f
+g = 6 * 32
+while 91 <= p:
+	p = p - 1
+print(f)
+# output
+# 22
+
+# code
+a = 54
+g = 72
+if 64 == a:
+	i = a % a
+	u = 23 - a
+	n = 2
+u = 82
+n = 203
+y = 86
+while u < n:
+	n = n - 16
+print(g)
+# output
+# 72
+
+# code
+l = 16
+z = 92
+h = 66
+c = 6
+m = c
+while 12 >= c:
+	if 52 > c:
+		a = l
+	c = c + 3
+print(m)
+# output
+# 6
+
+# code
+g = 93
+v = 85
+d = v
+v = g // 37
+h = 199
+while h > 156:
+	if 30 == v:
+		print(g)
+	b = h - 12
+	o = h
+	r = v
+	h = b
+print(75)
+# output
+# 75
+
+# code
+u = 6
+u = 35
+if u >= u:
+	q = 96
+q = 78 + 93
+b = 65
+x = -268
+while x <= b:
+	h = b - 19
+	s = 37
+	b = h
+print(u)
+# output
+# 35
+
+# code
+p = 64
+p = 41
+f = p
+b = 20
+if f == f:
+	i = p
+m = 338
+i = 138
+while m < i:
+	i = i * 3
+print(m)
+# output
+# 338
+
+# code
+n = 49
+p = 46
+if 74 == 56:
+	j = 6
+	e = n
+u = 86
+j = 18
+f = 75
+g = 162
+while f <= g:
+	f = f + j
+print(n)
+# output
+# 49
+
+# code
+q = 11
+k = 58
+x = 214
+b = 2
+while x > 197:
+	if k < 86:
+		c = k // 97
+	x = x - b
+print(k)
+# output
+# 58
+
+# code
+x = 70
+g = 17
+if g > 46:
+	v = g
+	o = v * x
+b = 130
+v = 12 - 89
+x = 86
+p = 92
+while p < b:
+	p = p + 13
+print(x)
+# output
+# 86
+
+# code
+f = 10
+l = 43
+k = 13
+while k <= 65:
+	a = 3 + k
+	k = k + 3
+	if 44 < k:
+		s = 73
+print(26)
+# output
+# 26
+
+# code
+v = 30
+x = 62
+p = 202
+b = p - 18
+l = 38 % 47
+while p >= 178:
+	if 45 <= b:
+		b = 97
+	p = p - 8
+print(p)
+# output
+# 170
+
+# code
+r = 34
+v = 92
+j = 185
+while j < 233:
+	j = j + 5
+	if j >= v:
+		d = j % 87
+print(v)
+# output
+# 92
+
+# code
+z = 85
+n = 7
+if 80 != z:
+	c = z
+	r = z
+	q = c
+q = 123
+t = 85 // 64
+while q <= 151:
+	q = q + 9
+print(q)
+# output
+# 159
+
+# code
+t = 93
+p = 90
+r = 134
+g = p
+b = 0
+while r > b:
+	if b >= t:
+		c = 35 + g
+	r = r // 18
+print(t)
+# output
+# 93
+
+# code
+a = 6
+w = 82
+z = a
+r = 30
+h = r // 57
+while 194 > r:
+	if 97 == 23:
+		h = w
+	r = r * 15
+print(r)
+# output
+# 450
+
+# code
+h = 8
+t = 53
+l = 134
+w = 94
+i = 92 * 67
+while l > 0:
+	if 16 == 54:
+		u = 42
+	g = l // 10
+	t = l + i
+	l = g
+print(w)
+# output
+# 94
+
+# code
+t = 67
+p = 66
+if t >= 29:
+	g = 63
+	w = g
+x = 186
+p = x
+h = 852
+f = x
+while h < x:
+	x = x * 6
+print(h)
+# output
+# 852
+
+# code
+h = 91
+t = 75
+if 19 == 46:
+	v = t
+	f = h
+t = 211
+while t > 73:
+	t = t - 16
+print(h)
+# output
+# 91
+
+# code
+k = 17
+m = 26
+y = 38
+d = 3
+o = 28
+while 0 < y:
+	if m == 65:
+		print(y)
+	l = y // d
+	h = 92 * o
+	y = l
+print(m)
+# output
+# 26
+
+# code
+t = 77
+t = 6
+if t == t:
+	o = t
+	g = 28
+g = 132
+while 153 > g:
+	z = g + 5
+	f = 94 // 98
+	g = z
+print(t)
+# output
+# 6
+
+# code
+e = 57
+j = 67
+a = 11
+g = 47 % j
+k = 83 - 18
+while 65 < a:
+	if 39 != 12:
+		print(g)
+	a = a * 7
+print(e)
+# output
+# 57
+
+# code
+e = 23
+k = 92
+v = 210
+t = 0
+while t < v:
+	if 76 == 59:
+		y = 62 * e
+	h = v // 8
+	x = 19
+	z = 12
+	v = h
+print(v)
+# output
+# 0
+
+# code
+y = 89
+j = 36
+m = 222
+z = 175
+o = 73
+while m >= z:
+	if 32 <= 62:
+		f = o
+	m = m - 6
+print(j)
+# output
+# 36
+
+# code
+h = 67
+u = 69
+i = 201
+o = 97
+p = 0 // h
+while 1623 > i:
+	if i != u:
+		print(i)
+	z = i * 18
+	v = o // i
+	b = 48
+	i = z
+# output
+# 201
+
+# code
+v = 73
+s = 72
+f = 15
+if v <= v:
+	n = f
+	e = 54
+a = 34
+v = 334
+r = 16
+while v > a:
+	z = a * r
+	d = a
+	a = z
+print(r)
+# output
+# 16
+
+# code
+q = 28
+b = 20
+k = 69 % 82
+l = 35
+while 0 < l:
+	if b == l:
+		p = b * q
+	l = l // 16
+print(b)
+# output
+# 20
+
+# code
+m = 86
+b = 25
+if 59 == 24:
+	n = 26
+else:
+	u = b * b
+o = 161
+r = 8
+while o >= 110:
+	o = o - r
+print(b)
+# output
+# 25
+
+# code
+a = 85
+o = 84
+k = 6
+d = 100
+a = 85
+while a < d:
+	if 92 < k:
+		b = 30
+	w = d - k
+	b = o // 30
+	d = w
+print(a)
+# output
+# 85
+
+# code
+s = 31
+r = 9
+if 0 < 36:
+	c = s
+i = 143
+s = 53
+o = s
+while s <= i:
+	z = i - 6
+	j = 82 % r
+	l = 35 - i
+	i = z
+print(s)
+# output
+# 53
+
+# code
+w = 22
+q = 35
+r = 8
+y = 211
+w = 25 * 40
+while y > 0:
+	if r == 70:
+		u = 39
+	d = y // r
+	k = 60
+	s = 39 % y
+	y = d
+print(y)
+# output
+# 0
+
+# code
+m = 50
+b = 62
+if 81 == 53:
+	f = 43
+u = 16
+f = m
+c = 184
+e = 218
+while e >= c:
+	c = c + 3
+print(e)
+# output
+# 218
+
+# code
+r = 68
+h = 57
+z = 110
+while 1276 > z:
+	z = z * 12
+	n = r
+	if 86 > h:
+		print(h)
+# output
+# 57
+
+# code
+e = 33
+i = 65
+i = 98 + i
+a = 241
+p = 63 + e
+while a >= 139:
+	if 87 <= i:
+		p = 97
+	a = a - 12
+print(i)
+# output
+# 163
+
+# code
+u = 23
+f = 69
+if 78 >= 78:
+	w = u
+	r = 93 % 76
+f = 72
+b = 15
+while 210 <= f:
+	f = f * b
+print(b)
+# output
+# 15
+
+# code
+f = 47
+p = 91
+v = 3
+w = 133
+m = v % p
+while w < 189:
+	if p >= 4:
+		print(v)
+	w = w + v
+# output
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+
+# code
+j = 79
+y = 88
+if y > j:
+	i = 56 + 70
+o = 83
+l = 1
+f = 74
+e = j
+while f < o:
+	q = f + l
+	c = l % 8
+	j = c
+	f = q
+print(o)
+# output
+# 83
+
+# code
+o = 47
+g = 80
+r = 178
+while 424 >= r:
+	p = g - g
+	if 13 == 13:
+		a = r + g
+	s = r * 11
+	t = o
+	a = r // g
+	r = s
+print(g)
+# output
+# 80
+
+# code
+q = 79
+g = 4
+a = 85
+p = 19
+while 0 < a:
+	a = a // p
+	if a != 37:
+		f = 21 + 38
+print(g)
+# output
+# 4
+
+# code
+m = 99
+z = 65
+if 24 > 75:
+	u = z
+y = 37
+m = 73
+w = 171
+m = 14
+h = 18 // y
+l = 370
+while w <= l:
+	f = w + m
+	s = 13 * 35
+	i = 37 * y
+	w = f
+print(m)
+# output
+# 14
+
+# code
+z = 97
+v = 20
+if z != z:
+	p = z
+m = 20
+h = 190
+while 2113 < h:
+	y = h * m
+	i = 22
+	u = i // 21
+	h = y
+print(h)
+# output
+# 190
+
+# code
+i = 74
+w = 81
+if i == 65:
+	x = 19
+	e = 4 + i
+j = 244
+w = j // j
+z = 3
+c = i + j
+s = 184
+while j <= s:
+	s = s * z
+print(i)
+# output
+# 74
+
+# code
+m = 42
+e = 20
+h = 140
+u = 20
+k = m
+while h > 121:
+	if e >= 95:
+		x = 59
+	h = h - u
+print(e)
+# output
+# 20
+
+# code
+p = 82
+e = 52
+v = 46 % 78
+g = p
+d = 98
+while d > 0:
+	if 41 != e:
+		a = 57 + v
+	w = d // 6
+	a = g
+	d = w
+print(p)
+# output
+# 82
+
+# code
+m = 56
+i = 96
+a = 15
+while 0 < a:
+	a = a // 19
+	g = 91 + 15
+if a == 9:
+	o = 4
+print(i)
+# output
+# 96
+
+# code
+q = 71
+q = 38
+q = q
+p = 10
+t = 159
+while 1071 >= t:
+	if t != t:
+		i = 93 % 93
+	h = t * p
+	j = t - 4
+	t = t // t
+	t = h
+print(q)
+# output
+# 38
+
+# code
+p = 34
+p = 66
+a = 61 * p
+if p == p:
+	g = a
+	a = a - 36
+r = 6
+d = 88 + r
+y = 78
+x = 43
+while y > -36:
+	y = y - r
+print(y)
+# output
+# -36
+
+# code
+q = 2
+g = 17
+if g >= 62:
+	r = q
+	h = 32 - g
+u = 54
+e = 19
+b = 31 - 40
+s = q
+while 0 < u:
+	u = u // e
+print(s)
+# output
+# 2
+
+# code
+b = 5
+l = 72
+u = b
+if l >= 72:
+	x = 71
+	h = 78
+d = 18
+s = d // b
+h = 48
+while 63 > h:
+	i = h + d
+	u = 14 - 96
+	h = i
+print(s)
+# output
+# 3
+
+# code
+h = 55
+p = 4
+t = 98 + p
+s = 87
+h = 8
+while s >= 37:
+	if 23 >= t:
+		m = h
+	s = s - h
+print(p)
+# output
+# 4
+
+# code
+j = 17
+b = 59
+if 23 == 0:
+	m = 51 % 51
+	p = 9
+l = 70
+i = 30
+p = 51 - 60
+while 40 <= l:
+	i = l - 6
+	w = p - l
+	f = 93
+	l = i
+print(i)
+# output
+# 34
+
+# code
+c = 32
+p = 84
+e = 16
+b = 165
+while 2062 >= b:
+	o = p
+	if b > 34:
+		a = b
+	b = b * e
+print(p)
+# output
+# 84
+
+# code
+s = 91
+r = 57
+c = 77
+z = 88 % 50
+q = s
+while c > 0:
+	if z < z:
+		o = 39
+	c = c // 10
+print(c)
+# output
+# 0
+
+# code
+a = 76
+l = 15
+r = 137
+f = 7
+while 46 < r:
+	p = 46
+	if p <= f:
+		print(l)
+	t = r - f
+	b = 70
+	r = t
+print(f)
+# output
+# 7
+
+# code
+w = 60
+c = 26
+if 83 >= 28:
+	j = c // 91
+l = 72
+d = 86
+while l <= 254:
+	l = l + 11
+print(w)
+# output
+# 60
+
+# code
+f = 81
+g = 41
+h = 17
+v = 97
+v = 1 - 30
+while 17 > h:
+	if 68 > v:
+		x = h - 24
+	h = h + 9
+print(g)
+# output
+# 41
+
+# code
+i = 6
+s = 46
+o = i - 11
+m = 79
+r = 163
+while r >= m:
+	if m <= o:
+		b = s + 89
+	m = m + 17
+print(r)
+# output
+# 163
+
+# code
+r = 52
+n = 18
+b = 217
+while 0 < b:
+	b = b // 11
+	if 83 > 23:
+		e = 15
+print(r)
+# output
+# 52
+
+# code
+f = 68
+y = 33
+p = 102
+n = 1266
+while n >= p:
+	p = p * 15
+	if f != 58:
+		x = 57
+print(y)
+# output
+# 33
+
+# code
+z = 26
+b = 86
+b = 82
+h = 17 // 4
+if 25 < 99:
+	w = b
+a = 13
+e = b
+h = b + e
+l = 193
+while 21 <= l:
+	l = l - a
+print(l)
+# output
+# 11
+
+# code
+r = 81
+o = 21
+if o != r:
+	x = r
+x = r
+k = 42
+i = 8
+p = 84
+y = 0
+while y < p:
+	o = p // i
+	v = i
+	x = k - k
+	p = o
+print(r)
+# output
+# 81
+
+# code
+p = 40
+p = 12
+a = 72
+if 5 < 86:
+	u = 71 // p
+	h = p
+x = 10
+s = 90
+while 0 < s:
+	s = s // x
+print(s)
+# output
+# 0
+
+# code
+h = 72
+w = 39
+g = 5
+while 383 >= g:
+	n = 27
+	d = 8 - h
+	if n > 19:
+		t = 16
+	i = g + 19
+	x = g + g
+	l = 17 + d
+	g = i
+print(g)
+# output
+# 385
+
+# code
+z = 75
+y = 3
+t = 117
+o = t
+while t > 0:
+	if 62 <= o:
+		v = 23 // o
+	m = t // 8
+	x = t % t
+	f = z
+	t = m
+print(o)
+# output
+# 117
+
+# code
+v = 7
+g = 81
+if 43 <= 20:
+	e = 10 // 89
+s = 10
+g = 171
+while 1524 < g:
+	w = g * s
+	k = 49 // 77
+	g = w
+print(s)
+# output
+# 10
+

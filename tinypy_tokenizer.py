@@ -6,12 +6,12 @@ class TinypyTokenizer():
 	def __init__(self):
 		# defining the keywords list
 		self.keywords = sorted([
-			'# output', '# code', '#',# ' ',
-			'\n', '\t',
+			'# output\n', '# code\n', '#',# ' ',
+			'\n', '\t', '\n\n',
 			'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 			'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
 			'for', 'in', 'range(', 'while',
-			'=', '+', '-', '/', '*', '%',
+			'=', '+', '-', '/', '*', '%', '//',
 			')', ':', ',', '.',
 			'if', 'elif', 'else',
 			'==', '<', '<=', '>', '>=', 'not', '!=',
@@ -30,6 +30,9 @@ class TinypyTokenizer():
 	def encode(self, input_string):
 		tokens  = self.tokenize(input_string)
 		return [self.encod_map[token] for token in tokens]
+	
+	def encode_tokens_list(self, tokens_list):
+		return [self.encod_map[token] for token in tokens_list]
 
 	def encode_test(self, input_string):
 		tokens = self.tokenize(input_string)

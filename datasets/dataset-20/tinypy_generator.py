@@ -1184,7 +1184,7 @@ def queue_gen_actions():
 
 		# Remove the print statements in the middle of the code
 		potential_keywords.remove('DISPLAY')
-
+		
 		# If we are in a while loop we remove the possibility to have an inner while loop
 		if context_stack[-1]['current_block'] == 'WHILE_BLOCK':
 			potential_keywords.remove('WHILE_LOOP')

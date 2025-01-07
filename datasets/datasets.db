@@ -1,4 +1,4 @@
-last-dataset-id: 21
+last-dataset-id: 22
 datasets:
   dataset-1: NoOverflowControl RandomGenerator 200MSnippets MaxDepth2 MaxSubBlocks2
     MinLength2 MaxLength10 WithHardArithmeticOps
@@ -29,4 +29,5 @@ datasets:
   dataset-18: CoT 3MSnippets FromDS-17
   dataset-19: CoT 1MSnippets FromDS-17
   dataset-20: 500KSnippets CoT ClassicalCodePattern
-  dataset-21: ClassicalCodePattern OneShot
+  dataset-21: ClassicalCodePattern OneShot+CoT
+  dataset-22: 50MSnippets InexistanceOfA=B_BiasRemoved DirectOutputSnippets

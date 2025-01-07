@@ -37,7 +37,13 @@ else:
 mm = MockModel()
 mm.to(device)
 
+print(f'INIT: ddp_rank {ddp_rank} \n {mm.state_dict()}\n=============================')
+
 train_mm = torch.nn.parallel.DistributedDataParallel(mm, device_ids=[deviceids[ddp_rank]])
+
+train_mm = torch.compile(train_mm)
+
+optimizer = torch.optim.AdamW(mm.parameters(), lr=1e-3)
 
 data = torch.tensor([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
 targets = torch.tensor([0, 1])
@@ -50,4 +56,6 @@ loss = torch.nn.functional.cross_entropy(logits, targets[ddp_rank].view(1).to(de
 
 loss.backward()
 
-print(f'ddp_rank {ddp_rank} \n {train_mm.module.layer.grad}')
+optimizer.step()
+
+print(f'AFTER: ddp_rank {ddp_rank} \n {mm.state_dict()}')
