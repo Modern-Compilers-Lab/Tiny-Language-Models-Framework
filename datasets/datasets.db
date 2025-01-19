@@ -1,4 +1,4 @@
-last-dataset-id: 22
+last-dataset-id: 31
 datasets:
   dataset-1: NoOverflowControl RandomGenerator 200MSnippets MaxDepth2 MaxSubBlocks2
     MinLength2 MaxLength10 WithHardArithmeticOps
@@ -29,5 +29,14 @@ datasets:
   dataset-18: CoT 3MSnippets FromDS-17
   dataset-19: CoT 1MSnippets FromDS-17
   dataset-20: 500KSnippets CoT ClassicalCodePattern
-  dataset-21: ClassicalCodePattern OneShot+CoT
+  dataset-21: ClassicalCodePattern OneShot+CoT InexistanceOfA=B_BiasRemoved 500KSnippets
   dataset-22: 50MSnippets InexistanceOfA=B_BiasRemoved DirectOutputSnippets
+  dataset-23: nightly
+  dataset-24: CoTOnFirst500kSnippetsOfDS-23
+  dataset-25: Extract6MSnippetsFromDS-23 CoT
+  dataset-26: 16BillionTokens DirectOutputSnippets
+  dataset-27: SameAsDS-23 ShorterWhileLoopsIterations SmallerNumbersForInitialization
+  dataset-28: ICML_Curriculum-Stage-1
+  dataset-29: ICML_Curiculum-Stage-2
+  dataset-30: ICML_Curriculum-Stage-3
+  dataset-31: ICML_Curiculum-Stage-4

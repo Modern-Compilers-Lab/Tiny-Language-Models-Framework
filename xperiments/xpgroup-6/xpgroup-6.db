@@ -1,3 +1,5 @@
-last-xp-id: 1
+last-xp-id: 3
 xps:
   xp-6-1: OptimizingXP-5-4 KarpathyGPT2
+  xp-6-2: SteppingThroughVanillaDDP
+  xp-6-3: StablizingOptimusTraining

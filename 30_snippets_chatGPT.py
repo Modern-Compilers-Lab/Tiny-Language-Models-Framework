@@ -65,8 +65,7 @@ b = 0
 while a > 0:
 	c = a % 10
 	b = b + c
-	e = a - c
-	a = e / 10
+	a = a // 10
 print(b)
 
 # Algorithm 8: Check if a number is an Armstrong number
@@ -78,8 +77,7 @@ while b > 0:
 	e = d * d
 	f = e * d
 	c = c + f
-	g = b - d
-	b = g / 10
+	b = b // 10
 if c == a:
 	print(1)
 else:
@@ -103,8 +101,7 @@ b = 0
 while a > 0:
 	b = b + 1
 	c = a % 10
-	e = a - c
-	a = e / 10
+	a = a // 10
 print(b)
 
 # Algorithm 11: Check if a number is a palindrome
@@ -115,8 +112,7 @@ while b > 0:
 	d = b % 10
 	e = c * 10
 	c = e + d
-	f = b - d
-	b = f / 10
+	b = b // 10
 if c == a:
 	print(1)
 else:
@@ -146,8 +142,7 @@ b = 1
 while a > 0:
 	c = a % 10
 	b = b * c
-	e = a - c
-	a = e / 10
+	a = a // 10
 print(b)
 
 # Algorithm 15: Find the largest digit in a number
@@ -157,8 +152,7 @@ while a > 0:
 	c = a % 10
 	if c > b:
 		b = c
-	d = a - c
-	a = d / 10
+	a = a // 10
 print(b)
 
 # Algorithm 16: Find the smallest digit in a number
@@ -168,8 +162,7 @@ while a > 0:
 	c = a % 10
 	if c < b:
 		b = c
-	d = a - c
-	a = d / 10
+	a = a // 10
 print(b)
 
 # Algorithm 17: Convert binary to decimal
@@ -185,8 +178,7 @@ while a > 0:
 		p = p - 1
 	f = d * e
 	b = b + f
-	g = a - d
-	a = g / 10
+	a = a // 10
 	c = c + 1
 print(b)
 
@@ -199,8 +191,7 @@ while a > 0:
 	e = d * c
 	b = b + e
 	c = c * 10
-	f = a - d
-	a = f / 2
+	a = f // 2
 print(b)
 
 # Algorithm 19: Check if a number is a perfect square

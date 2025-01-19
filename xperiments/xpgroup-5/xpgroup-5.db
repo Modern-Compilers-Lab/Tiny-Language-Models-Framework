@@ -1,4 +1,4 @@
-last-xp-id: 8
+last-xp-id: 12
 xps:
   xp-5-1: CoT 5MModel 16-Heads 24-Blocks SiLU RMSNorm DP-18-1
   xp-5-2: CoT 5MModel 12-Heads 12-Blocks SiLU RMSNorm DP-17-1
@@ -8,3 +8,7 @@ xps:
   xp-5-6: TestDDPOldData DataIsThatOfXP-2-25
   xp-5-7: XP-5-5ReproductionWithNoOptimus
   xp-5-8: Same-Experiment-As-XP-5-5 NoChange InDefaultTensorPrecision
+  xp-5-9: 30MModel CoT 500kSnippets DP-24-1
+  xp-5-10: 30MModel 512ContextWindow DP-25-1
+  xp-5-11: SameExperimentAsxp-10 DifferentGPUithTorchCudaSynchronize
+  xp-5-12: OneShotModel DP-23-1

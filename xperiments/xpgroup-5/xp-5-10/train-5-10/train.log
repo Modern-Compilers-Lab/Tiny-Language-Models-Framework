@@ -1,0 +1,194 @@
+|BATCH_LOSS: 0.00260 | TPS:  2428872 tokens/sec. | ITERS: 434547 / 504326 | EPOCHS: 1.72 | COMP: 86.16% | RATE: 37.06 it./s | SPD: 26.9821 ms/it.| ERT: (0, 0, 32, 28) | ET: (3, 2, 48, 5)              
+val>|ITERS: 250 / 250 | COMP: 100.00% | RATE: 2.07 it./s | SPD: 0.4840 s/it.| ERT: (0, 0, 0, 0) | ET: (0, 0, 4, 18)                                                                                     
+
+vocab_size: 77
+
+Loading train.bin
+
+took (0, 0, 0, 6)
+
+Loading val.bin
+
+took (0, 0, 0, 0)
+
+Compiling the model... (takes a ~minute)
+
+Evaluating initial loss
+
+INITIAL LOSS: train loss 4.496516704559326 | val loss 4.49496603012085
+
+INIT ITER TIME: 936.8258442878723
+
+INIT ITER TIME: 17.24756121635437
+
+INIT ITER TIME: 0.06872248649597168
+
+INIT ITER TIME: 0.02903437614440918
+
+INIT ITER TIME: 0.029129981994628906
+
+INIT ITER TIME: 0.02910327911376953
+
+INIT ITER TIME: 0.028803348541259766
+
+INIT ITER TIME: 0.029437541961669922
+
+INIT ITER TIME: 0.028880596160888672
+
+INIT ITER TIME: 0.031002044677734375
+
+INIT ITER TIME: 0.02869725227355957
+
+INIT ITER TIME: 0.029762983322143555
+
+INIT ITER TIME: 0.029674530029296875
+
+INIT ITER TIME: 0.03009939193725586
+
+INIT ITER TIME: 0.029242753982543945
+
+INIT ITER TIME: 0.030594587326049805
+
+INIT ITER TIME: 0.032704830169677734
+
+INIT ITER TIME: 0.032277822494506836
+
+INIT ITER TIME: 0.02885293960571289
+
+INIT ITER TIME: 0.029253482818603516
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-11_14-33 : iter      25216 | epoch 0.10 | train loss 0.4047171474 | val loss 0.4043199420
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-11_19-19 : iter      50432 | epoch 0.20 | train loss 0.3897708654 | val loss 0.3910846412
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-11_23-35 : iter      75648 | epoch 0.30 | train loss 0.3890914917 | val loss 0.3872844875
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-12_03-52 : iter     100864 | epoch 0.40 | train loss 0.3861098588 | val loss 0.3853692710
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-12_08-09 : iter     126080 | epoch 0.50 | train loss 0.3832122087 | val loss 0.3840988874
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-12_12-26 : iter     151296 | epoch 0.60 | train loss 0.3840001822 | val loss 0.3839558959
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-12_16-43 : iter     176512 | epoch 0.70 | train loss 0.3850947022 | val loss 0.3821945786
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-12_21-00 : iter     201728 | epoch 0.80 | train loss 0.3835282624 | val loss 0.3809949756
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-13_01-16 : iter     226944 | epoch 0.90 | train loss 0.3788142800 | val loss 0.3802281618
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-13_05-30 : iter     252160 | epoch 1.00 | train loss 0.3795754313 | val loss 0.3776456416
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-13_09-47 : iter     277376 | epoch 1.10 | train loss 5.1501507759 | val loss 5.1569299698
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-13_14-02 : iter     302592 | epoch 1.20 | train loss 6.3521170616 | val loss 6.3426980972
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-13_18-19 : iter     327808 | epoch 1.30 | train loss 5.2241592407 | val loss 5.2036013603
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-13_22-34 : iter     353024 | epoch 1.40 | train loss 4.2393965721 | val loss 4.2436833382
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-14_02-49 : iter     378240 | epoch 1.50 | train loss 5.4563236237 | val loss 5.4490704536
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-14_07-02 : iter     403456 | epoch 1.60 | train loss 3.9857382774 | val loss 3.9811122417
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-14_11-15 : iter     428672 | epoch 1.70 | train loss 3.8368818760 | val loss 3.8339612484
+

@@ -1,0 +1,339 @@
+# code
+a = 10
+b = 0
+c = 1
+while c <= 10:
+	d = c
+	b = b + d
+	c = c + 1
+print(b)
+
+# code
+a = 5
+b = 1
+c = 1
+while c <= 5:
+	d = c
+	b = b * d
+	c = c + 1
+print(b)
+
+# code
+a = 30
+b = 2
+c = 1
+while b < 29:
+	d = a % b
+	if d == 0:
+		c = 0
+	b = b + 1
+print(c)
+
+# code
+a = 48
+b = 18
+while b > 0:
+	c = a % b
+	a = b
+	b = c
+print(a)
+
+# code
+a = 123
+b = 0
+while a > 0:
+	c = a % 10
+	d = b * 10
+	b = d + c
+	a = a // 10
+print(b)
+
+# code
+a = 2
+b = 5
+c = 1
+d = 1
+while d <= 5:
+	c = c * a
+	d = d + 1
+print(c)
+
+# code
+a = 123
+b = 0
+while a > 0:
+	c = a % 10
+	b = b + c
+	a = a // 10
+print(b)
+
+# code
+a = 153
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	e = d * d
+	f = e * d
+	c = c + f
+	b = b // 10
+if c == a:
+	print(1)
+else:
+	print(0)
+
+# code
+a = 10
+b = 0
+c = 1
+d = 0
+while d < 10:
+	print(b)
+	e = b + c
+	b = c
+	c = e
+	d = d + 1
+
+# code
+a = 123
+b = 0
+while a > 0:
+	b = b + 1
+	c = a % 10
+	a = a // 10
+print(b)
+
+# code
+a = 121
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	e = c * 10
+	c = e + d
+	b = b // 10
+if c == a:
+	print(1)
+else:
+	print(0)
+
+# code
+a = 25
+b = a
+c = 0.1
+t = b * b
+while t > a:
+	b = b - c
+	t = b * b
+print(b)
+
+# code
+a = 5
+b = 0
+c = 1
+while c <= 5:
+	d = c * c
+	b = b + d
+	c = c + 1
+print(b)
+
+# code
+a = 123
+b = 1
+while a > 0:
+	c = a % 10
+	b = b * c
+	a = a // 10
+print(b)
+
+# code
+a = 187
+b = 0
+while a > 0:
+	c = a % 10
+	if c > b:
+		b = c
+	a = a // 10
+print(b)
+
+# code
+a = 187
+b = 9
+while a > 0:
+	c = a % 10
+	if c < b:
+		b = c
+	a = a // 10
+print(b)
+
+# code
+a = 101
+b = 0
+c = 0
+while a > 0:
+	d = a % 10
+	e = 1
+	p = c
+	while p > 0:
+		e = e * 2
+		p = p - 1
+	f = d * e
+	b = b + f
+	a = a // 10
+	c = c + 1
+print(b)
+
+# code
+a = 10
+b = 0
+c = 1
+while a > 0:
+	d = a % 2
+	e = d * c
+	b = b + e
+	c = c * 10
+	a = a // 2
+print(b)
+
+# code
+a = 16
+b = 1
+c = 0
+t = b * b
+while t <= a:
+	if t == a:
+		c = 1
+	b = b + 1
+	t = b * b
+print(c)
+
+# code
+a = 27
+b = 1
+c = 0
+t = b * b
+t = t * b
+while t <= a:
+	if t == a:
+		c = 1
+	b = b + 1
+	t = b * b
+	t = t * b
+print(c)
+
+# code
+a = 5
+b = 0
+c = 1
+while c <= 5:
+	d = c * c
+	e = d * c
+	b = b + e
+	c = c + 1
+print(b)
+
+# code
+a = 7
+b = 0
+c = 1
+while c <= 7:
+	b = b + c
+	c = c + 1
+print(b)
+
+# code
+a = 10
+b = 0
+c = 5
+while a >= c:
+	d = a // c
+	e = d % 10
+	e = d - e
+	b = b + e
+	c = c * 5
+print(b)
+
+# code
+a = 25
+b = a * a
+c = 1
+while a > 0:
+	d = a % 10
+	e = b % 10
+	if d != e:
+		c = 0
+	a = a // 10
+	b = b // 10
+print(c)
+
+# code
+a = 5
+b = 0
+c = 1
+while c <= 5:
+	d = 1 / c
+	b = b + d
+	c = c + 1
+print(b)
+
+# code
+a = 10
+b = 0
+c = 1
+d = 2
+while d <= 10:
+	e = b + c
+	b = c
+	c = e
+	d = d + 1
+print(c)
+
+# code
+a = 18
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	c = c + d
+	b = b // 10
+f = a % c
+if f == 0:
+	print(1)
+else:
+	print(0)
+
+# code
+a = 12
+b = 15
+c = a
+t = c % b
+while t != 0:
+	c = c + a
+	t = c % b
+print(c)
+
+# code
+a = 818
+b = 0
+c = a
+while c > 0:
+	d = c % 10
+	e = b * 10
+	b = e + d
+	c = c // 10
+if a == b:
+	print(1)
+else:
+	print(0)
+
+# code
+a = 987
+while a > 9:
+	b = 0
+	while a > 0:
+		c = a % 10
+		b = b + c
+		a = a // 10
+	a = b
+print(a)
+

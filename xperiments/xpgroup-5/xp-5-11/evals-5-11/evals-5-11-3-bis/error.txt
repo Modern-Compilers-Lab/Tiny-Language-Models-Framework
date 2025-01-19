@@ -1,0 +1,34 @@
+def func():
+	# code
+	a = 10
+	b = 0
+	c = 1
+	while c <= 10:
+		d = c
+		b = b + d
+		c = c + 1
+	print(b
+from sys import settrace
+
+code_lines = code.split("\n")
+
+def line_tracer(frame, event, arg):
+	current_step = list(code_lines)
+	state_fill = ";".join([f"{key}?{value:}" for key, value in frame.f_locals.items()])
+	sio_fill = "&".join(["# " + printed for printed in SIO.getvalue().split("\n")[:-1]])
+	if event == "line":
+		current_step[frame.f_lineno - 2] = "@" + current_step[frame.f_lineno - 2] + "$" + state_fill + "|" + sio_fill
+		trace.append("#STEP\n" + "\n".join(current_step))
+	elif event == 'return':
+		current_step.append("@^" + "$" + state_fill + "|" + sio_fill)
+		trace.append("#STEP\n" + "\n".join(current_step))
+	return line_tracer
+
+def global_tracer(frame, event, arg):
+	return line_tracer
+
+settrace(global_tracer)
+try:
+	func()
+finally:
+	settrace(None)

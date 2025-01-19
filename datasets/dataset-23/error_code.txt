@@ -1,0 +1,39 @@
+PROGRAM PROBLEM#10196
+def func():
+	z = 135
+	b = 217
+	i = 513 % 598
+	m = 20
+	u = 151
+	a = 251
+	while u >= b:
+		w = 915
+		u = u + m
+		l = u
+		if 585 > u:
+			d = 765
+			c = 861
+			d = 359
+			k = m - 509
+from sys import settrace
+
+def line_tracer(frame, event, arg):
+	if event == "exception" :
+		raise arg[0]
+	for var_value in frame.f_locals.values():
+		# if not(isinstance(var_value, (int, float))): continue
+		if var_value > 999 or var_value < -999:
+			raise VariableValueOverflowError("Variable Value Overflow")
+	return line_tracer
+
+def global_tracer(frame, event, arg):
+	func_name = frame.f_code.co_name
+	if func_name != 'func':
+		return None
+	return line_tracer
+
+settrace(global_tracer)
+try:
+	func()
+finally:
+	settrace(None)

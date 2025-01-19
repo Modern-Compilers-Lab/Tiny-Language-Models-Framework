@@ -1482,7 +1482,7 @@ finally:
 		# Set the signal SIGALARM to call timeout_handler
 		signal.signal(signal.SIGALRM, timeout_handler)
 	
-	# Launch the generation loop
+	# LANUCH THE GENERATION LOOP
 	while nb_generated_programs < nb_programs:
 		
 		# Check if it's log interval

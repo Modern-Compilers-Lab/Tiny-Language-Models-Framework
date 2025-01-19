@@ -1,0 +1,120 @@
+|ITERS: 129496 / 129496 | EPOCHS: 1.70 | COMP: 100.00% | RATE: 2.86 it./s | SPD: 0.3495 s/it.| ERT: (0, 0, 0, 0) | ET: (0, 14, 14, 3)                                                                   
+val>|ITERS: 500 / 500 | COMP: 100.00% | RATE: 5.85 it./s | SPD: 0.1708 s/it.| ERT: (0, 0, 0, 0) |                                                                                                       
+
+Finished setup:
+
+Initilizaing neptune:
+	--> neptune init
+	--> saving the neptune runid
+
+Set the random seed for reproducibility:
+
+Setting the device to GPU if available, otherwise CPU:
+	--> device set to cuda:0.
+
+Setting arch-hyperparams for the GPT model:
+
+Loading the training and evaluation data:
+	--> loading train.bin
+	--> took (0, 0, 0, 0)
+	--> loading val.bin
+	--> took (0, 0, 0, 0)
+
+Setting train-hyperparams and util variables:
+
+Defining the model and utilities:
+
+The model:
+	--> def human readable
+
+Creating the model:
+
+The model has 30M trainable parameters:
+	--> initialiazing the optimizer
+	--> initializing the learing rate scheduler
+	--> computing the initial loss
+	--> saving the last loss for early stopping
+	--> neptune logging the initial loss
+
+==========================================================================================:
+
+2025-01-08_19-46 : iter     0 <=> epoch 0 | train loss 4.5561 | val loss 4.5568:
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-08_20-44 : iter       5000 <=> epoch 0.06563873906716271 | train loss 0.7846534252 | val loss 0.7829549909
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-08_21-16 : iter      10000 <=> epoch 0.13127747813432541 | train loss 0.7390074134 | val loss 0.7384688258
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-08_21-48 : iter      15000 <=> epoch 0.1969162172014881 | train loss 0.7223280072 | val loss 0.7238155603
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-08_22-20 : iter      20000 <=> epoch 0.26255495626865083 | train loss 0.7103914022 | val loss 0.7115080953
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-08_22-52 : iter      25000 <=> epoch 0.3281936953358135 | train loss 0.7033321857 | val loss 0.7034575343
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-08_23-24 : iter      30000 <=> epoch 0.3938324344029762 | train loss 0.6986752748 | val loss 0.7011659145
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-08_23-56 : iter      35000 <=> epoch 0.45947117347013894 | train loss 0.6948550940 | val loss 0.6972854733
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_00-28 : iter      40000 <=> epoch 0.5251099125373017 | train loss 0.6937133670 | val loss 0.6972508430
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_01-01 : iter      45000 <=> epoch 0.5907486516044643 | train loss 0.6905875802 | val loss 0.6932297945
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_01-33 : iter      50000 <=> epoch 0.656387390671627 | train loss 0.6866422296 | val loss 0.6927924156
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_02-05 : iter      55000 <=> epoch 0.7220261297387898 | train loss 0.6838188767 | val loss 0.6924280524
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_02-37 : iter      60000 <=> epoch 0.7876648688059524 | train loss 0.6807705164 | val loss 0.6917496324
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_03-09 : iter      65000 <=> epoch 0.8533036078731152 | train loss 0.6783812046 | val loss 0.6954981685
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_03-41 : iter      70000 <=> epoch 0.9189423469402779 | train loss 0.6743734479 | val loss 0.6970446706
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_04-13 : iter      75000 <=> epoch 0.9845810860074405 | train loss 0.6684734821 | val loss 0.6982161403
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_04-45 : iter      80000 <=> epoch 1.0502198250746033 | train loss 0.6659131050 | val loss 0.7014444470
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_05-17 : iter      85000 <=> epoch 1.115858564141766 | train loss 0.6624599695 | val loss 0.7074520588
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_05-49 : iter      90000 <=> epoch 1.1814973032089287 | train loss 0.6599164009 | val loss 0.7070658207
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_06-21 : iter      95000 <=> epoch 1.2471360422760913 | train loss 0.6451599598 | val loss 0.7091683149
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_06-53 : iter     100000 <=> epoch 1.312774781343254 | train loss 0.6411335468 | val loss 0.7155590653
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_07-25 : iter     105000 <=> epoch 1.3784135204104169 | train loss 0.6372352242 | val loss 0.7159276605
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_07-58 : iter     110000 <=> epoch 1.4440522594775795 | train loss 0.6363750696 | val loss 0.7155490518
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_08-30 : iter     115000 <=> epoch 1.5096909985447422 | train loss 0.6368185282 | val loss 0.7179709077
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_09-02 : iter     120000 <=> epoch 1.5753297376119049 | train loss 0.6361500025 | val loss 0.7160777450
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_09-34 : iter     125000 <=> epoch 1.6409684766790675 | train loss 0.6365745068 | val loss 0.7182427645
+	--> training ...
+	--> checkpointing
+	--> checkpoint_2025-01-09_10-03 : iter     129496 <=> epoch 1.6999908308482603 | train loss 0.6365146637 | val loss 0.7173357010
+	--> training ...

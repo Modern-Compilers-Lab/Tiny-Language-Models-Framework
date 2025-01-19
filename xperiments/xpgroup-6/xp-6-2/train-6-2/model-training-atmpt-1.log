@@ -1,0 +1,43 @@
+|ITERS: 200 / 400858 | COMP: 0.05% | RATE: 2.53 it./s | SPD: 0.3957 s/it.| ERT: (1, 20, 2, 13)                                                                                                          
+                                                                                                                                                                                                        
+
+Importing ...:
+	--> took (0, 0, 0, 1)
+
+Set the random seed for reproducibility:
+
+Set the device to GPU if available, otherwise CPU:
+	--> device set to cuda:6.
+
+Setting arch-hyperparams for the GPT model:
+
+Loading the training and evaluation data:
+	--> train.bin
+	--> took (0, 0, 0, 1)
+	--> val.bin
+	--> took (0, 0, 0, 0)
+
+Setting train-hyperparams and util variables:
+	--> max_iters = 400858
+
+Defining the model and utilities:
+
+The model:
+	--> def get random batch of data
+	--> def estimate loss
+	--> def human readable
+	--> loading vocab_size
+
+Creating the model:
+
+The model has 5M trainable parameters:
+
+Preparing for the training loop:
+	--> initialiazing the optimizer
+	--> initializing the learing rate scheduler
+	--> neptune logging the initial loss
+
+Training loop:
+
+==========================================================================================:
+	--> training ...
