@@ -1,0 +1,5275 @@
+,example_input,example_output,all-generated-output
+0,"# code
+f = 15
+y = 114
+g = 775
+while f <= y:
+	g = 716
+	a = 832 % 696
+	u = y
+	m = 7
+	if u >= y:
+		t = f
+		l = 496 // 761
+		i = 783
+		k = 286
+	elif 901 > 541:
+		x = f % f
+	o = y - 15
+	n = a + u
+	y = o
+print(y)
+#STEP
+","# code
+ @ f = 1 5 $ | 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ @ y = 1 1 4 $ f ? 1 5 | 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ @ g = 7 7 5 $ f ? 1 5 ; y ? 1 1 4 | 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 7 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 7 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 5 0 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 3 5 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 2 0 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 2 0 5 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 9 0 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 7 5 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ @ print( y ) $ f ? 1 5 ; y ? 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+ @ ^ $ f ? 1 5 ; y ? 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | #  9","# code
+ @ f = 1 5 $ | 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ @ y = 1 1 4 $ f ? 1 5 | 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ @ g = 7 7 5 $ f ? 1 5 ; y ? 1 1 4 | 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 7 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 7 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 1 1 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 1 1 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 9 ; n ? 2 5 0 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 5 0 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 9 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 9 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 8 4 ; n ? 2 3 5 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 3 5 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 8 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 8 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 6 9 ; n ? 2 2 0 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 2 0 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 6 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 6 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 5 4 ; n ? 2 0 5 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 2 0 5 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 5 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 5 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 3 9 ; n ? 1 9 0 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 9 0 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 3 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ @ 	 g = 7 1 6 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ @ 	 a = 8 3 2 % 6 9 6 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ @ 	 u = y $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 3 9 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ @ 	 m = 7 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ @ 	 if u >= y : $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ @ 	 	 t = f $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ @ 	 	 l = 4 9 6 // 7 6 1 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ @ 	 	 i = 7 8 3 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ @ 	 	 k = 2 8 6 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ @ 	 o = y - 1 5 $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 2 4 ; n ? 1 7 5 | 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ @ 	 n = a + u $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 7 5 | 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ @ 	 y = o $ f ? 1 5 ; y ? 2 4 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ @ while f <= y : $ f ? 1 5 ; y ? 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ @ print( y ) $ f ? 1 5 ; y ? 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | 
+#STEP
+ # code
+ f = 1 5 
+ y = 1 1 4 
+ g = 7 7 5 
+ while f <= y : 
+ 	 g = 7 1 6 
+ 	 a = 8 3 2 % 6 9 6 
+ 	 u = y 
+ 	 m = 7 
+ 	 if u >= y : 
+ 	 	 t = f 
+ 	 	 l = 4 9 6 // 7 6 1 
+ 	 	 i = 7 8 3 
+ 	 	 k = 2 8 6 
+ 	 elif 9 0 1 > 5 4 1 : 
+ 	 	 x = f % f 
+ 	 o = y - 1 5 
+ 	 n = a + u 
+ 	 y = o 
+ print( y ) 
+ @ ^ $ f ? 1 5 ; y ? 9 ; g ? 7 1 6 ; a ? 1 3 6 ; u ? 2 4 ; m ? 7 ; t ? 1 5 ; l ? 0 ; i ? 7 8 3 ; k ? 2 8 6 ; o ? 9 ; n ? 1 6 0 | #  9@"
+1,"# code
+i = 350
+k = 482
+n = 528
+a = n
+l = 480
+v = n
+j = a - 678
+print(n)
+#STEP
+","# code
+ @ i = 3 5 0 $ | 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ @ k = 4 8 2 $ i ? 3 5 0 | 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ @ n = 5 2 8 $ i ? 3 5 0 ; k ? 4 8 2 | 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ @ a = n $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 | 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ @ l = 4 8 0 $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 | 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ @ v = n $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 | 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ @ j = a - 6 7 8 $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 ; v ? 5 2 8 | 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ @ print( n ) $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 ; v ? 5 2 8 ; j ? - 1 5 0 | 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+ @ ^ $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 ; v ? 5 2 8 ; j ? - 1 5 0 | #  5 2 8","# code
+ @ i = 3 5 0 $ | 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ @ k = 4 8 2 $ i ? 3 5 0 | 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ @ n = 5 2 8 $ i ? 3 5 0 ; k ? 4 8 2 | 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ @ a = n $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 | 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ @ l = 4 8 0 $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 | 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ @ v = n $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 | 
+ j = a - 6 7 8 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ @ j = a - 6 7 8 $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 ; v ? 5 2 8 | 
+ print( n ) 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ @ print( n ) $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 ; v ? 5 2 8 ; j ? - 1 5 0 | 
+#STEP
+ # code
+ i = 3 5 0 
+ k = 4 8 2 
+ n = 5 2 8 
+ a = n 
+ l = 4 8 0 
+ v = n 
+ j = a - 6 7 8 
+ print( n ) 
+ @ ^ $ i ? 3 5 0 ; k ? 4 8 2 ; n ? 5 2 8 ; a ? 5 2 8 ; l ? 4 8 0 ; v ? 5 2 8 ; j ? - 1 5 0 | #  5 2 8@"
+2,"# code
+y = 91
+x = 591 % 692
+h = y
+l = 20
+h = 168
+j = 232
+while h > j:
+	d = h
+	e = l % d
+	n = 221 * e
+	b = h + l
+	t = e
+	r = 595
+	h = b
+if j >= 292:
+	m = 872 - 645
+print(13)
+#STEP
+","# code
+ @ y = 9 1 $ | 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ @ x = 5 9 1 % 6 9 2 $ y ? 9 1 | 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ @ h = y $ y ? 9 1 ; x ? 5 9 1 | 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ @ l = 2 0 $ y ? 9 1 ; x ? 5 9 1 ; h ? 9 1 | 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ @ h = 1 6 8 $ y ? 9 1 ; x ? 5 9 1 ; h ? 9 1 ; l ? 2 0 | 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ @ j = 2 3 2 $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 | 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ @ while h > j : $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ @ if j >= 2 9 2 : $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ @ print( 1 3 ) $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+ @ ^ $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | #  1 3","# code
+ @ y = 9 1 $ | 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ @ x = 5 9 1 % 6 9 2 $ y ? 9 1 | 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ @ h = y $ y ? 9 1 ; x ? 5 9 1 | 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ @ l = 2 0 $ y ? 9 1 ; x ? 5 9 1 ; h ? 9 1 | 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ @ h = 1 6 8 $ y ? 9 1 ; x ? 5 9 1 ; h ? 9 1 ; l ? 2 0 | 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ @ j = 2 3 2 $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 | 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ @ while h > j : $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ @ if j >= 2 9 2 : $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ @ print( 1 3 ) $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | 
+#STEP
+ # code
+ y = 9 1 
+ x = 5 9 1 % 6 9 2 
+ h = y 
+ l = 2 0 
+ h = 1 6 8 
+ j = 2 3 2 
+ while h > j : 
+ 	 d = h 
+ 	 e = l % d 
+ 	 n = 2 2 1 * e 
+ 	 b = h + l 
+ 	 t = e 
+ 	 r = 5 9 5 
+ 	 h = b 
+ if j >= 2 9 2 : 
+ 	 m = 8 7 2 - 6 4 5 
+ print( 1 3 ) 
+ @ ^ $ y ? 9 1 ; x ? 5 9 1 ; h ? 1 6 8 ; l ? 2 0 ; j ? 2 3 2 | #  1 3@"
+3,"# code
+f = 146 % 841
+u = 531
+g = f
+t = 937 // g
+k = g
+print(887)
+#STEP
+","# code
+ @ f = 1 4 6 % 8 4 1 $ | 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ @ u = 5 3 1 $ f ? 1 4 6 | 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ @ g = f $ f ? 1 4 6 ; u ? 5 3 1 | 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ @ t = 9 3 7 // g $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 | 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ @ k = g $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 ; t ? 6 | 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ @ print( 8 8 7 ) $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 ; t ? 6 ; k ? 1 4 6 | 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+ @ ^ $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 ; t ? 6 ; k ? 1 4 6 | #  8 8 7","# code
+ @ f = 1 4 6 % 8 4 1 $ | 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ @ u = 5 3 1 $ f ? 1 4 6 | 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ @ g = f $ f ? 1 4 6 ; u ? 5 3 1 | 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ @ t = 9 3 7 // g $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 | 
+ k = g 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ @ k = g $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 ; t ? 6 | 
+ print( 8 8 7 ) 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ @ print( 8 8 7 ) $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 ; t ? 6 ; k ? 1 4 6 | 
+#STEP
+ # code
+ f = 1 4 6 % 8 4 1 
+ u = 5 3 1 
+ g = f 
+ t = 9 3 7 // g 
+ k = g 
+ print( 8 8 7 ) 
+ @ ^ $ f ? 1 4 6 ; u ? 5 3 1 ; g ? 1 4 6 ; t ? 6 ; k ? 1 4 6 | #  8 8 7@"
+4,"# code
+t = 69
+u = 53
+w = 4
+l = u // t
+i = 105
+while u >= i:
+	l = w
+	g = w // 537
+	u = u * w
+f = i
+v = f
+l = 172
+while l >= 297:
+	if i > v:
+		b = 541 + 828
+	l = l * 12
+print(w)
+#STEP
+","# code
+ @ t = 6 9 $ | 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ @ u = 5 3 $ t ? 6 9 | 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ @ w = 4 $ t ? 6 9 ; u ? 5 3 | 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ @ l = u // t $ t ? 6 9 ; u ? 5 3 ; w ? 4 | 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ @ i = 1 0 5 $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 | 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ @ while u >= i : $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 | 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ @ f = i $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 | 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ @ v = f $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 ; f ? 1 0 5 | 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ @ l = 1 7 2 $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ @ while l >= 2 9 7 : $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 1 7 2 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ @ print( w ) $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 1 7 2 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+ @ ^ $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 1 7 2 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | #  4","# code
+ @ t = 6 9 $ | 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ @ u = 5 3 $ t ? 6 9 | 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ @ w = 4 $ t ? 6 9 ; u ? 5 3 | 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ @ l = u // t $ t ? 6 9 ; u ? 5 3 ; w ? 4 | 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ @ i = 1 0 5 $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 | 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ @ while u >= i : $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 | 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ @ f = i $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 | 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ @ v = f $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 ; f ? 1 0 5 | 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ @ l = 1 7 2 $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 0 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ @ while l >= 2 9 7 : $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 1 7 2 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ @ print( w ) $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 1 7 2 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | 
+#STEP
+ # code
+ t = 6 9 
+ u = 5 3 
+ w = 4 
+ l = u // t 
+ i = 1 0 5 
+ while u >= i : 
+ 	 l = w 
+ 	 g = w // 5 3 7 
+ 	 u = u * w 
+ f = i 
+ v = f 
+ l = 1 7 2 
+ while l >= 2 9 7 : 
+ 	 if i > v : 
+ 	 	 b = 5 4 1 + 8 2 8 
+ 	 l = l * 1 2 
+ print( w ) 
+ @ ^ $ t ? 6 9 ; u ? 5 3 ; w ? 4 ; l ? 1 7 2 ; i ? 1 0 5 ; f ? 1 0 5 ; v ? 1 0 5 | #  4@"
