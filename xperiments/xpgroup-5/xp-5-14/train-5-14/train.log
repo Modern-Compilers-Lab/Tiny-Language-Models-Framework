@@ -1,0 +1,414 @@
+|BATCH LOSS: 0.37577 | DEPTH: 21 | TPS:   117748 tokens/sec. | LR: 0.000146 | ITERS: 438642 / 504326 | EPOCHS: 1.74 | COMP: 86.98% | RATE: 1.80 it./s | SPD: 556.5772 ms/it.| ITND: 23644 | TTND: (0, 2, 6, 21) | ITNE: 15246 | TTNE: (0, 1, 21, 28) | ERT: (0, 5, 51, 2) | ET: (1, 16, 20, 37)                                                                                                                                                                                                                     
+val>|ITERS: 250 / 250 | COMP: 100.00% | RATE: 2.28 it./s | SPD: 0.4393 s/it.| ERT: (0, 0, 0, 0) | ET: (0, 0, 3, 50)                                                                                                                                                                                                                                                                                                                                                                                                 
+
+vocab_size: 77
+
+Loading train.bin
+
+took (0, 0, 0, 0)
+
+Loading val.bin
+
+took (0, 0, 0, 0)
+
+max_iters: 504326
+
+epoch_iters: 252163
+
+deepening_intervals: [ 21013  42026  63039  84052 105065 126078 147091 168104 189117 210130
+ 231143 252156 273169 294182 315195 336208 357221 378234 399247 420260
+ 441273 462286 483299]
+
+Compiling the model... (takes a ~minute)
+
+Evaluating initial loss
+
+INITIAL LOSS: train loss 10 | val loss 10
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 1 to 2 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:      21013 | epoch: 0.08 | depth: 1 | train loss: 1.5139299631 | val loss: 1.5146673918
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 2 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:      25215 | epoch: 0.10 | depth: 2 | train loss: 0.5098034143 | val loss: 0.5081844330
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 2 to 3 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:      42026 | epoch: 0.17 | depth: 2 | train loss: 0.4434289634 | val loss: 0.4451976418
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 3 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:      50431 | epoch: 0.20 | depth: 3 | train loss: 0.4305742383 | val loss: 0.4291067421
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 3 to 4 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:      63039 | epoch: 0.25 | depth: 3 | train loss: 0.4203976691 | val loss: 0.4187777340
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 4 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:      75647 | epoch: 0.30 | depth: 4 | train loss: 0.4103582501 | val loss: 0.4111343622
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 4 to 5 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:      84052 | epoch: 0.33 | depth: 4 | train loss: 0.4094450176 | val loss: 0.4096330702
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 5 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     100863 | epoch: 0.40 | depth: 5 | train loss: 0.4052790105 | val loss: 0.4024379253
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 5 to 6 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     105065 | epoch: 0.42 | depth: 5 | train loss: 0.4029759467 | val loss: 0.3996748626
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 6 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 6 to 7 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     126078 | epoch: 0.50 | depth: 6 | train loss: 0.3967581987 | val loss: 0.3980898857
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 7 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     126079 | epoch: 0.50 | depth: 7 | train loss: 0.4049995244 | val loss: 0.4037511349
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 7 to 8 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     147091 | epoch: 0.58 | depth: 7 | train loss: 0.3950813413 | val loss: 0.3951103985
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 8 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     151295 | epoch: 0.60 | depth: 8 | train loss: 0.3935187161 | val loss: 0.3933641911
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 8 to 9 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     168104 | epoch: 0.67 | depth: 8 | train loss: 0.3935062885 | val loss: 0.3920805156
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 9 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     176511 | epoch: 0.70 | depth: 9 | train loss: 0.3931354284 | val loss: 0.3946734667
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 9 to 10 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     189117 | epoch: 0.75 | depth: 9 | train loss: 0.3920648098 | val loss: 0.3892990649
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 10 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     201727 | epoch: 0.80 | depth: 10 | train loss: 0.3888860047 | val loss: 0.3903163075
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 10 to 11 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     210130 | epoch: 0.83 | depth: 10 | train loss: 0.3890985548 | val loss: 0.3897572458
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 11 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     226943 | epoch: 0.90 | depth: 11 | train loss: 0.3875173926 | val loss: 0.3881224394
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 11 to 12 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     231143 | epoch: 0.92 | depth: 11 | train loss: 0.3878666759 | val loss: 0.3871982396
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 12 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 12 to 13 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     252156 | epoch: 1.00 | depth: 12 | train loss: 0.3872514963 | val loss: 0.3866588771
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 13 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     252159 | epoch: 1.00 | depth: 13 | train loss: 0.3917388618 | val loss: 0.3879527450
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 13 to 14 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     273169 | epoch: 1.08 | depth: 13 | train loss: 0.3856528103 | val loss: 0.3865381181
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 14 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     277375 | epoch: 1.10 | depth: 14 | train loss: 0.3849997222 | val loss: 0.3852707744
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 14 to 15 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     294182 | epoch: 1.17 | depth: 14 | train loss: 0.3835335970 | val loss: 0.3838668764
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 15 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     302591 | epoch: 1.20 | depth: 15 | train loss: 0.3837367594 | val loss: 0.3826809824
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 15 to 16 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     315195 | epoch: 1.25 | depth: 15 | train loss: 0.3841425776 | val loss: 0.3810028136
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 16 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     327807 | epoch: 1.30 | depth: 16 | train loss: 0.3823641539 | val loss: 0.3810280859
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 16 to 17 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     336208 | epoch: 1.33 | depth: 16 | train loss: 0.3819479644 | val loss: 0.3816305995
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 17 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     353023 | epoch: 1.40 | depth: 17 | train loss: 0.3802037239 | val loss: 0.3802985549
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 17 to 18 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     357221 | epoch: 1.42 | depth: 17 | train loss: 0.3782815337 | val loss: 0.3775909841
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 18 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 18 to 19 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     378234 | epoch: 1.50 | depth: 18 | train loss: 0.3784759641 | val loss: 0.3778066635
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 19 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     378239 | epoch: 1.50 | depth: 19 | train loss: 0.3800382018 | val loss: 0.3790609539
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 19 to 20 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     399247 | epoch: 1.58 | depth: 19 | train loss: 0.3765092492 | val loss: 0.3744344115
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 20 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     403455 | epoch: 1.60 | depth: 20 | train loss: 0.3763916790 | val loss: 0.3761392832
+
+------------------------------------------------------------------------------------------------------------------------
+
+Deepening the model from 20 to 21 blocks
+
+Checkpointing the model first
+
+checkpoint : iter:     420260 | epoch: 1.67 | depth: 20 | train loss: 0.3753638566 | val loss: 0.3751500249
+
+Adding the new block, ddp = False, compile = True
+
+Re-Compiling the model... (takes a ~minute)
+
+Model deepened to 21 blocks
+
+------------------------------------------------------------------------------------------------------------------------
+
+Evaluating and checkpointing ...
+
+checkpoint : iter:     428671 | epoch: 1.70 | depth: 21 | train loss: 0.3742045760 | val loss: 0.3761304021

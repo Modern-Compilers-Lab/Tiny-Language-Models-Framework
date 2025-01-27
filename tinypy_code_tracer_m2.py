@@ -9,7 +9,7 @@ def pytracing_generator(input_file_path,
 	with open(input_file_path, "r") as f:
 		data = f.read()
 		
-	codes = data.split("\n\n")[:None]
+	codes = data.split("\n\n")[:-1]
 
 	output_file = open(output_file_path, "w")
 
@@ -61,8 +61,8 @@ finally:
 		output_file.write(code+"\n"+"\n".join(trace)+sep)
 	output_file.close()
 
-pytracing_generator(input_file_path=None,
-					output_file_path=None
+pytracing_generator(input_file_path="/data/yb2618/Tiny-Language-Models-Framework/.test.txt",
+					output_file_path="./trace_example.txt"
 					)
 
 # if __name__ == "__main__":

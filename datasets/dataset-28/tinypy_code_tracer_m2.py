@@ -5,7 +5,9 @@ from contextlib import redirect_stdout
 def pytracing_generator(input_file_path,
 						output_file_path
 						):
-
+	print('input_path:', input_file_path)
+	print('output_path:', output_file_path)
+	
 	with open(input_file_path, "r") as f:
 		data = f.read()
 		
@@ -59,8 +61,8 @@ finally:
 		
 	output_file.close()
 
-pytracing_generator(input_file_path="./data-ds-28/arccp_direct_output_snippets.txt",
-					output_file_path="./data-ds-28/arccp_traced_snippets.txt"
+pytracing_generator(input_file_path="./data-ds-28/aronly_direct_output_snippets.txt",
+					output_file_path="./data-ds-28/aronly_traced_snippets.txt"
 					)
 
 # if __name__ == "__main__":

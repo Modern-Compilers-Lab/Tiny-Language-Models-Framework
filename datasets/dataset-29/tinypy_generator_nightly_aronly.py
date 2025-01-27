@@ -17,7 +17,7 @@ MIN_INIT_MAX			= 3
 MAX_DEPTH 				= 2
 MAX_SUB_BLOCKS 			= 2
 MIN_LENGTH 				= 5
-MAX_LENGTH 				= 15
+MAX_LENGTH 				= 10
 UNINDENTATION_SPEED 	= 0.09	# if <= 0, will never unindent after the first indentation encountered
 # PRINT_NB_DECIMALS 		= 2		# Disabled in this code
 
@@ -87,7 +87,7 @@ code 						= ''
 VARIABLES						= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ]
 DIGIT 							= [i for i in range(100+1)]
 ARITHMETIC_OPERATORS 			= ["+", "-", "*", "//", "%"]
-ARITHMETIC_OPERATORS_WEIGHTS 	= [3, 3, 5, 7, 13]
+ARITHMETIC_OPERATORS_WEIGHTS 	= [3, 3, 5, 7, 14]
 RELATIONAL_OPERATORS 			= ["<", ">", "<=", ">=", "!=", "=="]
 
 pattern_vocabulary = [
@@ -164,9 +164,12 @@ def execute_gen_action(gen_action:str):
 			if identifier not in context_stack[-1]['readable_variables']:
 				context_stack[-1]['readable_variables'].append(identifier)
 
+			sign = ''
+			if random.random() < 0.15:
+				sign = '-'
 			# Append the code
 			tabs = '	' * (len(context_stack)-1)
-			code = code + f'{tabs}{identifier} = {random.choice(DIGIT)}\n'
+			code = code + f'{tabs}{identifier} = {sign}{random.choice(DIGIT)}\n'
 
 			# Update the line_counter
 			line_counter += 1

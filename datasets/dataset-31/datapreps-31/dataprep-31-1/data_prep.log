@@ -6,14 +6,14 @@ Loading the dataset:
 Split by examples using \n\n:
 	--> splitting
 	--> freeing data memory
-	--> total number of examples: 14,500,000
+	--> total number of examples: 9,700,000
 
 
 Creating the train.txt, val.txt and test.txt:
 
 NOT shuffling examples:
 	--> creating the train_examples
-	--> train_examples has 14450000 examples
+	--> train_examples has 9650000 examples
 	--> creating the train_data
 	--> writing the train_data to train.txt
 	--> creating the val_examples
@@ -23,8 +23,10 @@ NOT shuffling examples:
 	--> creating the test_examples
 	--> test_examples has 25000 examples
 	--> creating the test_data
-	--> test_data has 114833910 tokens
+	--> test_data has 103085809 tokens
 	--> writing the test_data to test.txt
 	--> freeing examples memory
 
 We generate the tokenized file of train.txt:
+
+We generate the tokenized file of val.txt:

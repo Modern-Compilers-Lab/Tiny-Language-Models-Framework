@@ -1,0 +1,77 @@
+# code
+a = 1
+c = a + 1
+while c > 0:
+	if not c < 0:
+		c = c - 1
+#STEP
+# code
+@a = 1$|
+c = a + 1
+while c > 0:
+	if not c < 0:
+		c = c - 1
+#STEP
+# code
+a = 1
+@c = a + 1$a?1|
+while c > 0:
+	if not c < 0:
+		c = c - 1
+#STEP
+# code
+a = 1
+c = a + 1
+@while c > 0:$a?1;c?2|
+	if not c < 0:
+		c = c - 1
+#STEP
+# code
+a = 1
+c = a + 1
+while c > 0:
+@	if not c < 0:$a?1;c?2|
+		c = c - 1
+#STEP
+# code
+a = 1
+c = a + 1
+while c > 0:
+	if not c < 0:
+@		c = c - 1$a?1;c?2|
+#STEP
+# code
+a = 1
+c = a + 1
+@while c > 0:$a?1;c?1|
+	if not c < 0:
+		c = c - 1
+#STEP
+# code
+a = 1
+c = a + 1
+while c > 0:
+@	if not c < 0:$a?1;c?1|
+		c = c - 1
+#STEP
+# code
+a = 1
+c = a + 1
+while c > 0:
+	if not c < 0:
+@		c = c - 1$a?1;c?1|
+#STEP
+# code
+a = 1
+c = a + 1
+@while c > 0:$a?1;c?0|
+	if not c < 0:
+		c = c - 1
+#STEP
+# code
+a = 1
+c = a + 1
+while c > 0:
+	if not c < 0:
+		c = c - 1
+@^$a?1;c?0|

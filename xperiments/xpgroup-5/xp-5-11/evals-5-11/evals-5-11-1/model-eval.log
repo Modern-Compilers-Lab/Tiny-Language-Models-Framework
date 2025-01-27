@@ -1,5 +1,5 @@
-|ITERS: 614 / 25000 | COMP: 2.46% | RATE: 0.01 it./s | SPD: 99.7730 s/it.| ERT: (28, 3, 51, 4) | ET: (2, 13, 9, 34)                                                                                     
-|hard-accuracy: 538 = 87.62% | soft-accuracy: 17 = 2.77% |                                                                                                                                              
+|ITERS: 881 / 25000 | COMP: 3.52% | RATE: 0.00 it./s | SPD: 236.3549 s/it.| ERT: (65, 23, 30, 43) | ET: (3, 14, 21, 33)                                                                                 
+|hard-accuracy: 772 = 87.63% | soft-accuracy: 21 = 2.38% |                                                                                                                                              
 
 Imports:
 
@@ -18,6 +18,540 @@ Reading the test data:
 Splitting the test data into examples:
 
 Sequential Evaluation loop:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
 
  generating ...:
 

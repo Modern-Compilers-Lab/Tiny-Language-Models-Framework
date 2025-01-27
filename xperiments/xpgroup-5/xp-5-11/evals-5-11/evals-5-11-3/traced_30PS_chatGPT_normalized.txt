@@ -2850,10 +2850,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 @a = 153$|
@@ -2865,10 +2865,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2880,10 +2880,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2895,10 +2895,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2910,10 +2910,10 @@ c = 0
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2925,10 +2925,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2940,10 +2940,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2955,10 +2955,10 @@ while b > 0:
 @	f = e * d$a?153;b?153;c?0;d?3;e?9|
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2970,10 +2970,10 @@ while b > 0:
 	f = e * d
 @	c = c + f$a?153;b?153;c?0;d?3;e?9;f?27|
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -2985,10 +2985,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 @	b = b // 10$a?153;b?153;c?27;d?3;e?9;f?27|
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3000,10 +3000,10 @@ c = 0
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3015,10 +3015,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3030,10 +3030,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3045,10 +3045,10 @@ while b > 0:
 @	f = e * d$a?153;b?15;c?27;d?5;e?25;f?27|
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3060,10 +3060,10 @@ while b > 0:
 	f = e * d
 @	c = c + f$a?153;b?15;c?27;d?5;e?25;f?125|
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3075,10 +3075,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 @	b = b // 10$a?153;b?15;c?152;d?5;e?25;f?125|
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3090,10 +3090,10 @@ c = 0
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3105,10 +3105,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3120,10 +3120,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3135,10 +3135,10 @@ while b > 0:
 @	f = e * d$a?153;b?1;c?152;d?1;e?1;f?125|
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3150,10 +3150,10 @@ while b > 0:
 	f = e * d
 @	c = c + f$a?153;b?1;c?152;d?1;e?1;f?1|
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3165,10 +3165,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 @	b = b // 10$a?153;b?1;c?153;d?1;e?1;f?1|
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3180,10 +3180,10 @@ c = 0
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
+r = 0
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3195,10 +3195,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-@if c == a:$a?153;b?0;c?153;d?1;e?1;f?1|
-	print(1)
-else:
-	print(0)
+@r = 0$a?153;b?0;c?153;d?1;e?1;f?1|
+if r == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3210,10 +3210,10 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-@	print(1)$a?153;b?0;c?153;d?1;e?1;f?1|
-else:
-	print(0)
+r = 0
+@if r == 0:$a?153;b?0;c?153;d?1;e?1;f?1;r?0|
+	r = 1
+print(r)
 #STEP
 # code
 a = 153
@@ -3225,816 +3225,122 @@ while b > 0:
 	f = e * d
 	c = c + f
 	b = b // 10
-if c == a:
-	print(1)
-else:
-	print(0)
-@^$a?153;b?0;c?153;d?1;e?1;f?1|# 1
+r = 0
+if r == 0:
+@	r = 1$a?153;b?0;c?153;d?1;e?1;f?1;r?0|
+print(r)
+#STEP
+# code
+a = 153
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	e = d * d
+	f = e * d
+	c = c + f
+	b = b // 10
+r = 0
+if r == 0:
+	r = 1
+@print(r)$a?153;b?0;c?153;d?1;e?1;f?1;r?1|
+#STEP
+# code
+a = 153
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	e = d * d
+	f = e * d
+	c = c + f
+	b = b // 10
+r = 0
+if r == 0:
+	r = 1
+print(r)
+@^$a?153;b?0;c?153;d?1;e?1;f?1;r?1|# 1
 
 # code
+# code
 a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
+b = 20
+c = a
+x = b
+if x < c:
+	c = x
+print(c)
 #STEP
+# code
 # code
 @a = 10$|
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
+b = 20
+c = a
+x = b
+if x < c:
+	c = x
+print(c)
 #STEP
 # code
-a = 10
-@b = 0$a?10|
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-@c = 1$a?10;b?0|
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-@d = 0$a?10;b?0;c?1|
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?0;c?1;d?0|
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?0;c?1;d?0|
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?0;c?1;d?0|# 0
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?0;c?1;d?0;e?1|# 0
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?1;c?1;d?0;e?1|# 0
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?1;c?1;d?0;e?1|# 0
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?1;c?1;d?1;e?1|# 0
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?1;c?1;d?1;e?1|# 0
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?1;c?1;d?1;e?1|# 0&# 1
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?1;c?1;d?1;e?2|# 0&# 1
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?1;c?1;d?1;e?2|# 0&# 1
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?1;c?2;d?1;e?2|# 0&# 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?1;c?2;d?2;e?2|# 0&# 1
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?1;c?2;d?2;e?2|# 0&# 1
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?1;c?2;d?2;e?2|# 0&# 1&# 1
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?1;c?2;d?2;e?3|# 0&# 1&# 1
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?2;c?2;d?2;e?3|# 0&# 1&# 1
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?2;c?3;d?2;e?3|# 0&# 1&# 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?2;c?3;d?3;e?3|# 0&# 1&# 1
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?2;c?3;d?3;e?3|# 0&# 1&# 1
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?2;c?3;d?3;e?3|# 0&# 1&# 1&# 2
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?2;c?3;d?3;e?5|# 0&# 1&# 1&# 2
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?3;c?3;d?3;e?5|# 0&# 1&# 1&# 2
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?3;c?5;d?3;e?5|# 0&# 1&# 1&# 2
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?3;c?5;d?4;e?5|# 0&# 1&# 1&# 2
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?3;c?5;d?4;e?5|# 0&# 1&# 1&# 2
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?3;c?5;d?4;e?5|# 0&# 1&# 1&# 2&# 3
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?3;c?5;d?4;e?8|# 0&# 1&# 1&# 2&# 3
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?5;c?5;d?4;e?8|# 0&# 1&# 1&# 2&# 3
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?5;c?8;d?4;e?8|# 0&# 1&# 1&# 2&# 3
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?5;c?8;d?5;e?8|# 0&# 1&# 1&# 2&# 3
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?5;c?8;d?5;e?8|# 0&# 1&# 1&# 2&# 3
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?5;c?8;d?5;e?8|# 0&# 1&# 1&# 2&# 3&# 5
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?5;c?8;d?5;e?13|# 0&# 1&# 1&# 2&# 3&# 5
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?8;c?8;d?5;e?13|# 0&# 1&# 1&# 2&# 3&# 5
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?8;c?13;d?5;e?13|# 0&# 1&# 1&# 2&# 3&# 5
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?8;c?13;d?6;e?13|# 0&# 1&# 1&# 2&# 3&# 5
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?8;c?13;d?6;e?13|# 0&# 1&# 1&# 2&# 3&# 5
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?8;c?13;d?6;e?13|# 0&# 1&# 1&# 2&# 3&# 5&# 8
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?8;c?13;d?6;e?21|# 0&# 1&# 1&# 2&# 3&# 5&# 8
-	c = e
-	d = d + 1
-#STEP
 # code
 a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?13;c?13;d?6;e?21|# 0&# 1&# 1&# 2&# 3&# 5&# 8
-	d = d + 1
+@b = 20$a?10|
+c = a
+x = b
+if x < c:
+	c = x
+print(c)
 #STEP
 # code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?13;c?21;d?6;e?21|# 0&# 1&# 1&# 2&# 3&# 5&# 8
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?13;c?21;d?7;e?21|# 0&# 1&# 1&# 2&# 3&# 5&# 8
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?13;c?21;d?7;e?21|# 0&# 1&# 1&# 2&# 3&# 5&# 8
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?13;c?21;d?7;e?21|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?13;c?21;d?7;e?34|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?21;c?21;d?7;e?34|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?21;c?34;d?7;e?34|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?21;c?34;d?8;e?34|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?21;c?34;d?8;e?34|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?21;c?34;d?8;e?34|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21
-	b = c
-	c = e
-	d = d + 1
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?21;c?34;d?8;e?55|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21
-	c = e
-	d = d + 1
-#STEP
 # code
 a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?34;c?34;d?8;e?55|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21
-	d = d + 1
+b = 20
+@c = a$a?10;b?20|
+x = b
+if x < c:
+	c = x
+print(c)
 #STEP
 # code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?34;c?55;d?8;e?55|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?34;c?55;d?9;e?55|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
 # code
 a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-@	print(b)$a?10;b?34;c?55;d?9;e?55|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
+b = 20
+c = a
+@x = b$a?10;b?20;c?10|
+if x < c:
+	c = x
+print(c)
 #STEP
 # code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-@	e = b + c$a?10;b?34;c?55;d?9;e?55|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21&# 34
-	b = c
-	c = e
-	d = d + 1
-#STEP
 # code
 a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-@	b = c$a?10;b?34;c?55;d?9;e?89|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21&# 34
-	c = e
-	d = d + 1
+b = 20
+c = a
+x = b
+@if x < c:$a?10;b?20;c?10;x?20|
+	c = x
+print(c)
 #STEP
 # code
-a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-@	c = e$a?10;b?55;c?55;d?9;e?89|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21&# 34
-	d = d + 1
-#STEP
 # code
 a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-@	d = d + 1$a?10;b?55;c?89;d?9;e?89|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21&# 34
+b = 20
+c = a
+x = b
+if x < c:
+	c = x
+@print(c)$a?10;b?20;c?10;x?20|
 #STEP
 # code
-a = 10
-b = 0
-c = 1
-d = 0
-@while d < 10:$a?10;b?55;c?89;d?10;e?89|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21&# 34
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-#STEP
 # code
 a = 10
-b = 0
-c = 1
-d = 0
-while d < 10:
-	print(b)
-	e = b + c
-	b = c
-	c = e
-	d = d + 1
-@^$a?10;b?55;c?89;d?10;e?89|# 0&# 1&# 1&# 2&# 3&# 5&# 8&# 13&# 21&# 34
+b = 20
+c = a
+x = b
+if x < c:
+	c = x
+print(c)
+@^$a?10;b?20;c?10;x?20|# 10
 
 # code
 a = 123
@@ -4208,10 +3514,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 @a = 121$|
@@ -4222,10 +3528,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4236,10 +3542,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4250,10 +3556,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4264,10 +3570,10 @@ c = 0
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4278,10 +3584,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4292,10 +3598,10 @@ while b > 0:
 @	e = c * 10$a?121;b?121;c?0;d?1|
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4306,10 +3612,10 @@ while b > 0:
 	e = c * 10
 @	c = e + d$a?121;b?121;c?0;d?1;e?0|
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4320,10 +3626,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 @	b = b // 10$a?121;b?121;c?1;d?1;e?0|
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4334,10 +3640,10 @@ c = 0
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4348,10 +3654,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4362,10 +3668,10 @@ while b > 0:
 @	e = c * 10$a?121;b?12;c?1;d?2;e?0|
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4376,10 +3682,10 @@ while b > 0:
 	e = c * 10
 @	c = e + d$a?121;b?12;c?1;d?2;e?10|
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4390,10 +3696,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 @	b = b // 10$a?121;b?12;c?12;d?2;e?10|
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4404,10 +3710,10 @@ c = 0
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4418,10 +3724,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4432,10 +3738,10 @@ while b > 0:
 @	e = c * 10$a?121;b?1;c?12;d?1;e?10|
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4446,10 +3752,10 @@ while b > 0:
 	e = c * 10
 @	c = e + d$a?121;b?1;c?12;d?1;e?120|
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4460,10 +3766,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 @	b = b // 10$a?121;b?1;c?121;d?1;e?120|
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4474,10 +3780,10 @@ c = 0
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4488,10 +3794,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
-@if c == a:$a?121;b?0;c?121;d?1;e?120|
-	print(1)
-else:
-	print(0)
+@r = 0$a?121;b?0;c?121;d?1;e?120|
+if c == a:
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4502,10 +3808,10 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
-if c == a:
-@	print(1)$a?121;b?0;c?121;d?1;e?120|
-else:
-	print(0)
+r = 0
+@if c == a:$a?121;b?0;c?121;d?1;e?120;r?0|
+	r = 1
+print(r)
 #STEP
 # code
 a = 121
@@ -4516,6092 +3822,211 @@ while b > 0:
 	e = c * 10
 	c = e + d
 	b = b // 10
+r = 0
 if c == a:
-	print(1)
-else:
-	print(0)
-@^$a?121;b?0;c?121;d?1;e?120|# 1
+@	r = 1$a?121;b?0;c?121;d?1;e?120;r?0|
+print(r)
+#STEP
+# code
+a = 121
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	e = c * 10
+	c = e + d
+	b = b // 10
+r = 0
+if c == a:
+	r = 1
+@print(r)$a?121;b?0;c?121;d?1;e?120;r?1|
+#STEP
+# code
+a = 121
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	e = c * 10
+	c = e + d
+	b = b // 10
+r = 0
+if c == a:
+	r = 1
+print(r)
+@^$a?121;b?0;c?121;d?1;e?120;r?1|# 1
 
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-@a = 25$|
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-	t = b * b
+@a = 4$|
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-@b = a$a?25|
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-	t = b * b
+a = 4
+@b = 1$a?4|
+x = a
+while x > 0:
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-@c = 0.1$a?25;b?25|
-t = b * b
-while t > a:
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+@x = a$a?4;b?1|
+while x > 0:
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-@t = b * b$a?25;b?25;c?0.1|
-while t > a:
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+x = a
+@while x > 0:$a?4;b?1;x?4|
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?25;c?0.1;t?625|
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+@	b = b * 2$a?4;b?1;x?4|
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?25;c?0.1;t?625|
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+@	x = x - 1$a?4;b?2;x?4|
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.9;c?0.1;t?625|
+a = 4
+b = 1
+x = a
+@while x > 0:$a?4;b?2;x?3|
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.9;c?0.1;t?620.0099999999999|
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+@	b = b * 2$a?4;b?2;x?3|
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.9;c?0.1;t?620.0099999999999|
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+@	x = x - 1$a?4;b?4;x?3|
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.799999999999997;c?0.1;t?620.0099999999999|
+a = 4
+b = 1
+x = a
+@while x > 0:$a?4;b?4;x?2|
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.799999999999997;c?0.1;t?615.0399999999998|
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+@	b = b * 2$a?4;b?4;x?2|
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.799999999999997;c?0.1;t?615.0399999999998|
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+@	x = x - 1$a?4;b?8;x?2|
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.699999999999996;c?0.1;t?615.0399999999998|
+a = 4
+b = 1
+x = a
+@while x > 0:$a?4;b?8;x?1|
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.699999999999996;c?0.1;t?610.0899999999998|
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+@	b = b * 2$a?4;b?8;x?1|
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.699999999999996;c?0.1;t?610.0899999999998|
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+@	x = x - 1$a?4;b?16;x?1|
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.599999999999994;c?0.1;t?610.0899999999998|
+a = 4
+b = 1
+x = a
+@while x > 0:$a?4;b?16;x?0|
+	b = b * 2
+	x = x - 1
 print(b)
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.599999999999994;c?0.1;t?605.1599999999997|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.599999999999994;c?0.1;t?605.1599999999997|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.499999999999993;c?0.1;t?605.1599999999997|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.499999999999993;c?0.1;t?600.2499999999997|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.499999999999993;c?0.1;t?600.2499999999997|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.39999999999999;c?0.1;t?600.2499999999997|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.39999999999999;c?0.1;t?595.3599999999996|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.39999999999999;c?0.1;t?595.3599999999996|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.29999999999999;c?0.1;t?595.3599999999996|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.29999999999999;c?0.1;t?590.4899999999996|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.29999999999999;c?0.1;t?590.4899999999996|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.19999999999999;c?0.1;t?590.4899999999996|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.19999999999999;c?0.1;t?585.6399999999994|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.19999999999999;c?0.1;t?585.6399999999994|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?24.099999999999987;c?0.1;t?585.6399999999994|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?24.099999999999987;c?0.1;t?580.8099999999994|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?24.099999999999987;c?0.1;t?580.8099999999994|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.999999999999986;c?0.1;t?580.8099999999994|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.999999999999986;c?0.1;t?575.9999999999993|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.999999999999986;c?0.1;t?575.9999999999993|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.899999999999984;c?0.1;t?575.9999999999993|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.899999999999984;c?0.1;t?571.2099999999992|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.899999999999984;c?0.1;t?571.2099999999992|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.799999999999983;c?0.1;t?571.2099999999992|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.799999999999983;c?0.1;t?566.4399999999991|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.799999999999983;c?0.1;t?566.4399999999991|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.69999999999998;c?0.1;t?566.4399999999991|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.69999999999998;c?0.1;t?561.6899999999991|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.69999999999998;c?0.1;t?561.6899999999991|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.59999999999998;c?0.1;t?561.6899999999991|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.59999999999998;c?0.1;t?556.959999999999|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.59999999999998;c?0.1;t?556.959999999999|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.49999999999998;c?0.1;t?556.959999999999|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.49999999999998;c?0.1;t?552.249999999999|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.49999999999998;c?0.1;t?552.249999999999|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.399999999999977;c?0.1;t?552.249999999999|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.399999999999977;c?0.1;t?547.5599999999989|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.399999999999977;c?0.1;t?547.5599999999989|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.299999999999976;c?0.1;t?547.5599999999989|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.299999999999976;c?0.1;t?542.8899999999988|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.299999999999976;c?0.1;t?542.8899999999988|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.199999999999974;c?0.1;t?542.8899999999988|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.199999999999974;c?0.1;t?538.2399999999988|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.199999999999974;c?0.1;t?538.2399999999988|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?23.099999999999973;c?0.1;t?538.2399999999988|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?23.099999999999973;c?0.1;t?533.6099999999988|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?23.099999999999973;c?0.1;t?533.6099999999988|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.99999999999997;c?0.1;t?533.6099999999988|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.99999999999997;c?0.1;t?528.9999999999987|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.99999999999997;c?0.1;t?528.9999999999987|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.89999999999997;c?0.1;t?528.9999999999987|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.89999999999997;c?0.1;t?524.4099999999986|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.89999999999997;c?0.1;t?524.4099999999986|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.79999999999997;c?0.1;t?524.4099999999986|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.79999999999997;c?0.1;t?519.8399999999986|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.79999999999997;c?0.1;t?519.8399999999986|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.699999999999967;c?0.1;t?519.8399999999986|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.699999999999967;c?0.1;t?515.2899999999985|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.699999999999967;c?0.1;t?515.2899999999985|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.599999999999966;c?0.1;t?515.2899999999985|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.599999999999966;c?0.1;t?510.75999999999846|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.599999999999966;c?0.1;t?510.75999999999846|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.499999999999964;c?0.1;t?510.75999999999846|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.499999999999964;c?0.1;t?506.2499999999984|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.499999999999964;c?0.1;t?506.2499999999984|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.399999999999963;c?0.1;t?506.2499999999984|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.399999999999963;c?0.1;t?501.75999999999834|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.399999999999963;c?0.1;t?501.75999999999834|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.29999999999996;c?0.1;t?501.75999999999834|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.29999999999996;c?0.1;t?497.2899999999983|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.29999999999996;c?0.1;t?497.2899999999983|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.19999999999996;c?0.1;t?497.2899999999983|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.19999999999996;c?0.1;t?492.8399999999982|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.19999999999996;c?0.1;t?492.8399999999982|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?22.09999999999996;c?0.1;t?492.8399999999982|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?22.09999999999996;c?0.1;t?488.4099999999982|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?22.09999999999996;c?0.1;t?488.4099999999982|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.999999999999957;c?0.1;t?488.4099999999982|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.999999999999957;c?0.1;t?483.9999999999981|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.999999999999957;c?0.1;t?483.9999999999981|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.899999999999956;c?0.1;t?483.9999999999981|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.899999999999956;c?0.1;t?479.6099999999981|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.899999999999956;c?0.1;t?479.6099999999981|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.799999999999955;c?0.1;t?479.6099999999981|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.799999999999955;c?0.1;t?475.239999999998|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.799999999999955;c?0.1;t?475.239999999998|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.699999999999953;c?0.1;t?475.239999999998|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.699999999999953;c?0.1;t?470.88999999999794|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.699999999999953;c?0.1;t?470.88999999999794|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.59999999999995;c?0.1;t?470.88999999999794|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.59999999999995;c?0.1;t?466.5599999999979|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.59999999999995;c?0.1;t?466.5599999999979|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.49999999999995;c?0.1;t?466.5599999999979|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.49999999999995;c?0.1;t?462.24999999999784|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.49999999999995;c?0.1;t?462.24999999999784|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.39999999999995;c?0.1;t?462.24999999999784|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.39999999999995;c?0.1;t?457.9599999999978|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.39999999999995;c?0.1;t?457.9599999999978|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.299999999999947;c?0.1;t?457.9599999999978|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.299999999999947;c?0.1;t?453.6899999999978|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.299999999999947;c?0.1;t?453.6899999999978|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.199999999999946;c?0.1;t?453.6899999999978|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.199999999999946;c?0.1;t?449.4399999999977|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.199999999999946;c?0.1;t?449.4399999999977|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?21.099999999999945;c?0.1;t?449.4399999999977|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?21.099999999999945;c?0.1;t?445.20999999999765|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?21.099999999999945;c?0.1;t?445.20999999999765|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.999999999999943;c?0.1;t?445.20999999999765|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.999999999999943;c?0.1;t?440.9999999999976|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.999999999999943;c?0.1;t?440.9999999999976|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.89999999999994;c?0.1;t?440.9999999999976|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.89999999999994;c?0.1;t?436.80999999999756|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.89999999999994;c?0.1;t?436.80999999999756|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.79999999999994;c?0.1;t?436.80999999999756|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.79999999999994;c?0.1;t?432.63999999999754|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.79999999999994;c?0.1;t?432.63999999999754|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.69999999999994;c?0.1;t?432.63999999999754|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.69999999999994;c?0.1;t?428.48999999999745|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.69999999999994;c?0.1;t?428.48999999999745|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.599999999999937;c?0.1;t?428.48999999999745|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.599999999999937;c?0.1;t?424.3599999999974|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.599999999999937;c?0.1;t?424.3599999999974|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.499999999999936;c?0.1;t?424.3599999999974|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.499999999999936;c?0.1;t?420.2499999999974|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.499999999999936;c?0.1;t?420.2499999999974|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.399999999999935;c?0.1;t?420.2499999999974|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.399999999999935;c?0.1;t?416.15999999999735|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.399999999999935;c?0.1;t?416.15999999999735|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.299999999999933;c?0.1;t?416.15999999999735|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.299999999999933;c?0.1;t?412.0899999999973|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.299999999999933;c?0.1;t?412.0899999999973|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.199999999999932;c?0.1;t?412.0899999999973|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.199999999999932;c?0.1;t?408.03999999999724|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.199999999999932;c?0.1;t?408.03999999999724|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?20.09999999999993;c?0.1;t?408.03999999999724|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?20.09999999999993;c?0.1;t?404.0099999999972|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?20.09999999999993;c?0.1;t?404.0099999999972|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.99999999999993;c?0.1;t?404.0099999999972|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.99999999999993;c?0.1;t?399.99999999999716|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.99999999999993;c?0.1;t?399.99999999999716|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.899999999999928;c?0.1;t?399.99999999999716|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.899999999999928;c?0.1;t?396.0099999999971|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.899999999999928;c?0.1;t?396.0099999999971|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.799999999999926;c?0.1;t?396.0099999999971|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.799999999999926;c?0.1;t?392.03999999999706|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.799999999999926;c?0.1;t?392.03999999999706|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.699999999999925;c?0.1;t?392.03999999999706|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.699999999999925;c?0.1;t?388.089999999997|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.699999999999925;c?0.1;t?388.089999999997|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.599999999999923;c?0.1;t?388.089999999997|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.599999999999923;c?0.1;t?384.159999999997|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.599999999999923;c?0.1;t?384.159999999997|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.499999999999922;c?0.1;t?384.159999999997|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.499999999999922;c?0.1;t?380.24999999999693|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.499999999999922;c?0.1;t?380.24999999999693|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.39999999999992;c?0.1;t?380.24999999999693|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.39999999999992;c?0.1;t?376.3599999999969|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.39999999999992;c?0.1;t?376.3599999999969|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.29999999999992;c?0.1;t?376.3599999999969|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.29999999999992;c?0.1;t?372.4899999999969|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.29999999999992;c?0.1;t?372.4899999999969|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.199999999999918;c?0.1;t?372.4899999999969|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.199999999999918;c?0.1;t?368.63999999999686|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.199999999999918;c?0.1;t?368.63999999999686|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?19.099999999999916;c?0.1;t?368.63999999999686|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?19.099999999999916;c?0.1;t?364.8099999999968|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?19.099999999999916;c?0.1;t?364.8099999999968|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.999999999999915;c?0.1;t?364.8099999999968|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.999999999999915;c?0.1;t?360.99999999999676|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.999999999999915;c?0.1;t?360.99999999999676|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.899999999999913;c?0.1;t?360.99999999999676|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.899999999999913;c?0.1;t?357.20999999999674|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.899999999999913;c?0.1;t?357.20999999999674|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.799999999999912;c?0.1;t?357.20999999999674|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.799999999999912;c?0.1;t?353.4399999999967|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.799999999999912;c?0.1;t?353.4399999999967|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.69999999999991;c?0.1;t?353.4399999999967|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.69999999999991;c?0.1;t?349.68999999999664|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.69999999999991;c?0.1;t?349.68999999999664|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.59999999999991;c?0.1;t?349.68999999999664|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.59999999999991;c?0.1;t?345.9599999999966|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.59999999999991;c?0.1;t?345.9599999999966|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.499999999999908;c?0.1;t?345.9599999999966|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.499999999999908;c?0.1;t?342.2499999999966|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.499999999999908;c?0.1;t?342.2499999999966|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.399999999999906;c?0.1;t?342.2499999999966|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.399999999999906;c?0.1;t?338.55999999999653|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.399999999999906;c?0.1;t?338.55999999999653|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.299999999999905;c?0.1;t?338.55999999999653|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.299999999999905;c?0.1;t?334.8899999999965|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.299999999999905;c?0.1;t?334.8899999999965|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.199999999999903;c?0.1;t?334.8899999999965|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.199999999999903;c?0.1;t?331.2399999999965|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.199999999999903;c?0.1;t?331.2399999999965|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?18.099999999999902;c?0.1;t?331.2399999999965|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?18.099999999999902;c?0.1;t?327.60999999999643|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?18.099999999999902;c?0.1;t?327.60999999999643|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.9999999999999;c?0.1;t?327.60999999999643|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.9999999999999;c?0.1;t?323.9999999999964|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.9999999999999;c?0.1;t?323.9999999999964|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.8999999999999;c?0.1;t?323.9999999999964|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.8999999999999;c?0.1;t?320.4099999999964|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.8999999999999;c?0.1;t?320.4099999999964|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.799999999999898;c?0.1;t?320.4099999999964|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.799999999999898;c?0.1;t?316.83999999999634|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.799999999999898;c?0.1;t?316.83999999999634|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.699999999999896;c?0.1;t?316.83999999999634|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.699999999999896;c?0.1;t?313.2899999999963|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.699999999999896;c?0.1;t?313.2899999999963|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.599999999999895;c?0.1;t?313.2899999999963|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.599999999999895;c?0.1;t?309.7599999999963|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.599999999999895;c?0.1;t?309.7599999999963|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.499999999999893;c?0.1;t?309.7599999999963|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.499999999999893;c?0.1;t?306.24999999999625|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.499999999999893;c?0.1;t?306.24999999999625|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.399999999999892;c?0.1;t?306.24999999999625|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.399999999999892;c?0.1;t?302.75999999999624|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.399999999999892;c?0.1;t?302.75999999999624|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.29999999999989;c?0.1;t?302.75999999999624|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.29999999999989;c?0.1;t?299.2899999999962|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.29999999999989;c?0.1;t?299.2899999999962|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.19999999999989;c?0.1;t?299.2899999999962|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.19999999999989;c?0.1;t?295.83999999999617|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.19999999999989;c?0.1;t?295.83999999999617|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?17.099999999999888;c?0.1;t?295.83999999999617|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?17.099999999999888;c?0.1;t?292.40999999999616|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?17.099999999999888;c?0.1;t?292.40999999999616|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.999999999999886;c?0.1;t?292.40999999999616|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.999999999999886;c?0.1;t?288.99999999999613|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.999999999999886;c?0.1;t?288.99999999999613|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.899999999999885;c?0.1;t?288.99999999999613|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.899999999999885;c?0.1;t?285.6099999999961|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.899999999999885;c?0.1;t?285.6099999999961|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.799999999999883;c?0.1;t?285.6099999999961|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.799999999999883;c?0.1;t?282.2399999999961|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.799999999999883;c?0.1;t?282.2399999999961|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.699999999999882;c?0.1;t?282.2399999999961|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.699999999999882;c?0.1;t?278.88999999999606|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.699999999999882;c?0.1;t?278.88999999999606|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.59999999999988;c?0.1;t?278.88999999999606|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.59999999999988;c?0.1;t?275.559999999996|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.59999999999988;c?0.1;t?275.559999999996|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.49999999999988;c?0.1;t?275.559999999996|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.49999999999988;c?0.1;t?272.249999999996|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.49999999999988;c?0.1;t?272.249999999996|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.399999999999878;c?0.1;t?272.249999999996|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.399999999999878;c?0.1;t?268.959999999996|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.399999999999878;c?0.1;t?268.959999999996|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.299999999999876;c?0.1;t?268.959999999996|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.299999999999876;c?0.1;t?265.68999999999596|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.299999999999876;c?0.1;t?265.68999999999596|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.199999999999875;c?0.1;t?265.68999999999596|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.199999999999875;c?0.1;t?262.43999999999596|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.199999999999875;c?0.1;t?262.43999999999596|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?16.099999999999874;c?0.1;t?262.43999999999596|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?16.099999999999874;c?0.1;t?259.20999999999594|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?16.099999999999874;c?0.1;t?259.20999999999594|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.999999999999874;c?0.1;t?259.20999999999594|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.999999999999874;c?0.1;t?255.99999999999596|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.999999999999874;c?0.1;t?255.99999999999596|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.899999999999874;c?0.1;t?255.99999999999596|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.899999999999874;c?0.1;t?252.809999999996|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.899999999999874;c?0.1;t?252.809999999996|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.799999999999875;c?0.1;t?252.809999999996|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.799999999999875;c?0.1;t?249.63999999999604|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.799999999999875;c?0.1;t?249.63999999999604|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.699999999999875;c?0.1;t?249.63999999999604|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.699999999999875;c?0.1;t?246.4899999999961|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.699999999999875;c?0.1;t?246.4899999999961|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.599999999999875;c?0.1;t?246.4899999999961|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.599999999999875;c?0.1;t?243.35999999999612|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.599999999999875;c?0.1;t?243.35999999999612|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.499999999999876;c?0.1;t?243.35999999999612|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.499999999999876;c?0.1;t?240.24999999999613|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.499999999999876;c?0.1;t?240.24999999999613|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.399999999999876;c?0.1;t?240.24999999999613|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.399999999999876;c?0.1;t?237.1599999999962|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.399999999999876;c?0.1;t?237.1599999999962|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.299999999999876;c?0.1;t?237.1599999999962|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.299999999999876;c?0.1;t?234.08999999999622|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.299999999999876;c?0.1;t?234.08999999999622|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.199999999999877;c?0.1;t?234.08999999999622|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.199999999999877;c?0.1;t?231.03999999999624|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.199999999999877;c?0.1;t?231.03999999999624|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?15.099999999999877;c?0.1;t?231.03999999999624|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?15.099999999999877;c?0.1;t?228.0099999999963|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?15.099999999999877;c?0.1;t?228.0099999999963|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.999999999999877;c?0.1;t?228.0099999999963|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.999999999999877;c?0.1;t?224.99999999999633|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.999999999999877;c?0.1;t?224.99999999999633|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.899999999999878;c?0.1;t?224.99999999999633|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.899999999999878;c?0.1;t?222.00999999999635|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.899999999999878;c?0.1;t?222.00999999999635|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.799999999999878;c?0.1;t?222.00999999999635|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.799999999999878;c?0.1;t?219.03999999999638|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.799999999999878;c?0.1;t?219.03999999999638|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.699999999999878;c?0.1;t?219.03999999999638|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.699999999999878;c?0.1;t?216.08999999999642|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.699999999999878;c?0.1;t?216.08999999999642|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.599999999999879;c?0.1;t?216.08999999999642|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.599999999999879;c?0.1;t?213.15999999999647|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.599999999999879;c?0.1;t?213.15999999999647|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.49999999999988;c?0.1;t?213.15999999999647|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.49999999999988;c?0.1;t?210.2499999999965|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.49999999999988;c?0.1;t?210.2499999999965|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.39999999999988;c?0.1;t?210.2499999999965|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.39999999999988;c?0.1;t?207.35999999999652|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.39999999999988;c?0.1;t?207.35999999999652|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.29999999999988;c?0.1;t?207.35999999999652|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.29999999999988;c?0.1;t?204.48999999999657|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.29999999999988;c?0.1;t?204.48999999999657|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.19999999999988;c?0.1;t?204.48999999999657|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.19999999999988;c?0.1;t?201.6399999999966|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.19999999999988;c?0.1;t?201.6399999999966|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?14.09999999999988;c?0.1;t?201.6399999999966|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?14.09999999999988;c?0.1;t?198.80999999999662|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?14.09999999999988;c?0.1;t?198.80999999999662|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.999999999999881;c?0.1;t?198.80999999999662|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.999999999999881;c?0.1;t?195.99999999999667|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.999999999999881;c?0.1;t?195.99999999999667|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.899999999999881;c?0.1;t?195.99999999999667|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.899999999999881;c?0.1;t?193.2099999999967|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.899999999999881;c?0.1;t?193.2099999999967|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.799999999999882;c?0.1;t?193.2099999999967|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.799999999999882;c?0.1;t?190.43999999999673|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.799999999999882;c?0.1;t?190.43999999999673|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.699999999999882;c?0.1;t?190.43999999999673|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.699999999999882;c?0.1;t?187.68999999999676|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.699999999999882;c?0.1;t?187.68999999999676|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.599999999999882;c?0.1;t?187.68999999999676|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.599999999999882;c?0.1;t?184.9599999999968|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.599999999999882;c?0.1;t?184.9599999999968|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.499999999999883;c?0.1;t?184.9599999999968|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.499999999999883;c?0.1;t?182.24999999999685|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.499999999999883;c?0.1;t?182.24999999999685|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.399999999999883;c?0.1;t?182.24999999999685|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.399999999999883;c?0.1;t?179.55999999999688|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.399999999999883;c?0.1;t?179.55999999999688|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.299999999999883;c?0.1;t?179.55999999999688|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.299999999999883;c?0.1;t?176.8899999999969|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.299999999999883;c?0.1;t?176.8899999999969|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.199999999999884;c?0.1;t?176.8899999999969|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.199999999999884;c?0.1;t?174.23999999999694|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.199999999999884;c?0.1;t?174.23999999999694|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?13.099999999999884;c?0.1;t?174.23999999999694|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?13.099999999999884;c?0.1;t?171.60999999999697|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?13.099999999999884;c?0.1;t?171.60999999999697|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.999999999999885;c?0.1;t?171.60999999999697|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.999999999999885;c?0.1;t?168.999999999997|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.999999999999885;c?0.1;t?168.999999999997|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.899999999999885;c?0.1;t?168.999999999997|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.899999999999885;c?0.1;t?166.40999999999704|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.899999999999885;c?0.1;t?166.40999999999704|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.799999999999885;c?0.1;t?166.40999999999704|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.799999999999885;c?0.1;t?163.83999999999708|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.799999999999885;c?0.1;t?163.83999999999708|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.699999999999886;c?0.1;t?163.83999999999708|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.699999999999886;c?0.1;t?161.2899999999971|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.699999999999886;c?0.1;t?161.2899999999971|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.599999999999886;c?0.1;t?161.2899999999971|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.599999999999886;c?0.1;t?158.75999999999712|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.599999999999886;c?0.1;t?158.75999999999712|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.499999999999886;c?0.1;t?158.75999999999712|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.499999999999886;c?0.1;t?156.24999999999716|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.499999999999886;c?0.1;t?156.24999999999716|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.399999999999887;c?0.1;t?156.24999999999716|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.399999999999887;c?0.1;t?153.75999999999718|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.399999999999887;c?0.1;t?153.75999999999718|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.299999999999887;c?0.1;t?153.75999999999718|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.299999999999887;c?0.1;t?151.2899999999972|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.299999999999887;c?0.1;t?151.2899999999972|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.199999999999887;c?0.1;t?151.2899999999972|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.199999999999887;c?0.1;t?148.83999999999725|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.199999999999887;c?0.1;t?148.83999999999725|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?12.099999999999888;c?0.1;t?148.83999999999725|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?12.099999999999888;c?0.1;t?146.4099999999973|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?12.099999999999888;c?0.1;t?146.4099999999973|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.999999999999888;c?0.1;t?146.4099999999973|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.999999999999888;c?0.1;t?143.99999999999733|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.999999999999888;c?0.1;t?143.99999999999733|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.899999999999888;c?0.1;t?143.99999999999733|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.899999999999888;c?0.1;t?141.60999999999734|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.899999999999888;c?0.1;t?141.60999999999734|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.799999999999889;c?0.1;t?141.60999999999734|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.799999999999889;c?0.1;t?139.23999999999737|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.799999999999889;c?0.1;t?139.23999999999737|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.69999999999989;c?0.1;t?139.23999999999737|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.69999999999989;c?0.1;t?136.8899999999974|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.69999999999989;c?0.1;t?136.8899999999974|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.59999999999989;c?0.1;t?136.8899999999974|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.59999999999989;c?0.1;t?134.55999999999744|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.59999999999989;c?0.1;t?134.55999999999744|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.49999999999989;c?0.1;t?134.55999999999744|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.49999999999989;c?0.1;t?132.24999999999747|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.49999999999989;c?0.1;t?132.24999999999747|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.39999999999989;c?0.1;t?132.24999999999747|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.39999999999989;c?0.1;t?129.9599999999975|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.39999999999989;c?0.1;t?129.9599999999975|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.29999999999989;c?0.1;t?129.9599999999975|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.29999999999989;c?0.1;t?127.68999999999753|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.29999999999989;c?0.1;t?127.68999999999753|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.199999999999891;c?0.1;t?127.68999999999753|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.199999999999891;c?0.1;t?125.43999999999755|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.199999999999891;c?0.1;t?125.43999999999755|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?11.099999999999891;c?0.1;t?125.43999999999755|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?11.099999999999891;c?0.1;t?123.20999999999759|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?11.099999999999891;c?0.1;t?123.20999999999759|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.999999999999892;c?0.1;t?123.20999999999759|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.999999999999892;c?0.1;t?120.99999999999761|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.999999999999892;c?0.1;t?120.99999999999761|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.899999999999892;c?0.1;t?120.99999999999761|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.899999999999892;c?0.1;t?118.80999999999764|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.899999999999892;c?0.1;t?118.80999999999764|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.799999999999892;c?0.1;t?118.80999999999764|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.799999999999892;c?0.1;t?116.63999999999767|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.799999999999892;c?0.1;t?116.63999999999767|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.699999999999893;c?0.1;t?116.63999999999767|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.699999999999893;c?0.1;t?114.4899999999977|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.699999999999893;c?0.1;t?114.4899999999977|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.599999999999893;c?0.1;t?114.4899999999977|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.599999999999893;c?0.1;t?112.35999999999774|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.599999999999893;c?0.1;t?112.35999999999774|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.499999999999893;c?0.1;t?112.35999999999774|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.499999999999893;c?0.1;t?110.24999999999777|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.499999999999893;c?0.1;t?110.24999999999777|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.399999999999894;c?0.1;t?110.24999999999777|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.399999999999894;c?0.1;t?108.1599999999978|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.399999999999894;c?0.1;t?108.1599999999978|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.299999999999894;c?0.1;t?108.1599999999978|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.299999999999894;c?0.1;t?106.08999999999781|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.299999999999894;c?0.1;t?106.08999999999781|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.199999999999894;c?0.1;t?106.08999999999781|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.199999999999894;c?0.1;t?104.03999999999785|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.199999999999894;c?0.1;t?104.03999999999785|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?10.099999999999895;c?0.1;t?104.03999999999785|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?10.099999999999895;c?0.1;t?102.00999999999787|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?10.099999999999895;c?0.1;t?102.00999999999787|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.999999999999895;c?0.1;t?102.00999999999787|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.999999999999895;c?0.1;t?99.99999999999791|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.999999999999895;c?0.1;t?99.99999999999791|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.899999999999896;c?0.1;t?99.99999999999791|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.899999999999896;c?0.1;t?98.00999999999793|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.899999999999896;c?0.1;t?98.00999999999793|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.799999999999896;c?0.1;t?98.00999999999793|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.799999999999896;c?0.1;t?96.03999999999796|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.799999999999896;c?0.1;t?96.03999999999796|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.699999999999896;c?0.1;t?96.03999999999796|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.699999999999896;c?0.1;t?94.08999999999799|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.699999999999896;c?0.1;t?94.08999999999799|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.599999999999897;c?0.1;t?94.08999999999799|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.599999999999897;c?0.1;t?92.15999999999802|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.599999999999897;c?0.1;t?92.15999999999802|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.499999999999897;c?0.1;t?92.15999999999802|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.499999999999897;c?0.1;t?90.24999999999804|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.499999999999897;c?0.1;t?90.24999999999804|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.399999999999897;c?0.1;t?90.24999999999804|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.399999999999897;c?0.1;t?88.35999999999807|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.399999999999897;c?0.1;t?88.35999999999807|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.299999999999898;c?0.1;t?88.35999999999807|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.299999999999898;c?0.1;t?86.48999999999809|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.299999999999898;c?0.1;t?86.48999999999809|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.199999999999898;c?0.1;t?86.48999999999809|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.199999999999898;c?0.1;t?84.63999999999812|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.199999999999898;c?0.1;t?84.63999999999812|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?9.099999999999898;c?0.1;t?84.63999999999812|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?9.099999999999898;c?0.1;t?82.80999999999815|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?9.099999999999898;c?0.1;t?82.80999999999815|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.999999999999899;c?0.1;t?82.80999999999815|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.999999999999899;c?0.1;t?80.99999999999818|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.999999999999899;c?0.1;t?80.99999999999818|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.899999999999899;c?0.1;t?80.99999999999818|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.899999999999899;c?0.1;t?79.2099999999982|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.899999999999899;c?0.1;t?79.2099999999982|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.7999999999999;c?0.1;t?79.2099999999982|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.7999999999999;c?0.1;t?77.43999999999824|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.7999999999999;c?0.1;t?77.43999999999824|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.6999999999999;c?0.1;t?77.43999999999824|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.6999999999999;c?0.1;t?75.68999999999825|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.6999999999999;c?0.1;t?75.68999999999825|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.5999999999999;c?0.1;t?75.68999999999825|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.5999999999999;c?0.1;t?73.95999999999829|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.5999999999999;c?0.1;t?73.95999999999829|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.4999999999999;c?0.1;t?73.95999999999829|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.4999999999999;c?0.1;t?72.24999999999831|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.4999999999999;c?0.1;t?72.24999999999831|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.3999999999999;c?0.1;t?72.24999999999831|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.3999999999999;c?0.1;t?70.55999999999834|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.3999999999999;c?0.1;t?70.55999999999834|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.299999999999901;c?0.1;t?70.55999999999834|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.299999999999901;c?0.1;t?68.88999999999837|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.299999999999901;c?0.1;t?68.88999999999837|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.199999999999902;c?0.1;t?68.88999999999837|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.199999999999902;c?0.1;t?67.23999999999839|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.199999999999902;c?0.1;t?67.23999999999839|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?8.099999999999902;c?0.1;t?67.23999999999839|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?8.099999999999902;c?0.1;t?65.60999999999841|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?8.099999999999902;c?0.1;t?65.60999999999841|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.999999999999902;c?0.1;t?65.60999999999841|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.999999999999902;c?0.1;t?63.99999999999844|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.999999999999902;c?0.1;t?63.99999999999844|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.899999999999903;c?0.1;t?63.99999999999844|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.899999999999903;c?0.1;t?62.40999999999846|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.899999999999903;c?0.1;t?62.40999999999846|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.799999999999903;c?0.1;t?62.40999999999846|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.799999999999903;c?0.1;t?60.83999999999849|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.799999999999903;c?0.1;t?60.83999999999849|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.699999999999903;c?0.1;t?60.83999999999849|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.699999999999903;c?0.1;t?59.289999999998514|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.699999999999903;c?0.1;t?59.289999999998514|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.599999999999904;c?0.1;t?59.289999999998514|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.599999999999904;c?0.1;t?57.759999999998534|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.599999999999904;c?0.1;t?57.759999999998534|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.499999999999904;c?0.1;t?57.759999999998534|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.499999999999904;c?0.1;t?56.249999999998565|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.499999999999904;c?0.1;t?56.249999999998565|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.399999999999904;c?0.1;t?56.249999999998565|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.399999999999904;c?0.1;t?54.759999999998584|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.399999999999904;c?0.1;t?54.759999999998584|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.299999999999905;c?0.1;t?54.759999999998584|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.299999999999905;c?0.1;t?53.28999999999861|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.299999999999905;c?0.1;t?53.28999999999861|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.199999999999905;c?0.1;t?53.28999999999861|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.199999999999905;c?0.1;t?51.83999999999863|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.199999999999905;c?0.1;t?51.83999999999863|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?7.0999999999999055;c?0.1;t?51.83999999999863|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?7.0999999999999055;c?0.1;t?50.40999999999866|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?7.0999999999999055;c?0.1;t?50.40999999999866|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.999999999999906;c?0.1;t?50.40999999999866|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.999999999999906;c?0.1;t?48.999999999998685|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.999999999999906;c?0.1;t?48.999999999998685|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.899999999999906;c?0.1;t?48.999999999998685|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.899999999999906;c?0.1;t?47.609999999998706|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.899999999999906;c?0.1;t?47.609999999998706|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.799999999999907;c?0.1;t?47.609999999998706|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.799999999999907;c?0.1;t?46.23999999999873|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.799999999999907;c?0.1;t?46.23999999999873|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.699999999999907;c?0.1;t?46.23999999999873|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.699999999999907;c?0.1;t?44.88999999999875|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.699999999999907;c?0.1;t?44.88999999999875|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.599999999999907;c?0.1;t?44.88999999999875|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.599999999999907;c?0.1;t?43.55999999999877|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.599999999999907;c?0.1;t?43.55999999999877|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.499999999999908;c?0.1;t?43.55999999999877|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.499999999999908;c?0.1;t?42.2499999999988|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.499999999999908;c?0.1;t?42.2499999999988|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.399999999999908;c?0.1;t?42.2499999999988|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.399999999999908;c?0.1;t?40.95999999999882|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.399999999999908;c?0.1;t?40.95999999999882|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.299999999999908;c?0.1;t?40.95999999999882|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.299999999999908;c?0.1;t?39.68999999999885|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.299999999999908;c?0.1;t?39.68999999999885|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.199999999999909;c?0.1;t?39.68999999999885|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.199999999999909;c?0.1;t?38.43999999999887|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.199999999999909;c?0.1;t?38.43999999999887|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?6.099999999999909;c?0.1;t?38.43999999999887|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?6.099999999999909;c?0.1;t?37.20999999999889|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?6.099999999999909;c?0.1;t?37.20999999999889|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.999999999999909;c?0.1;t?37.20999999999889|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.999999999999909;c?0.1;t?35.99999999999891|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.999999999999909;c?0.1;t?35.99999999999891|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.89999999999991;c?0.1;t?35.99999999999891|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.89999999999991;c?0.1;t?34.80999999999894|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.89999999999991;c?0.1;t?34.80999999999894|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.79999999999991;c?0.1;t?34.80999999999894|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.79999999999991;c?0.1;t?33.639999999998956|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.79999999999991;c?0.1;t?33.639999999998956|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.6999999999999105;c?0.1;t?33.639999999998956|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.6999999999999105;c?0.1;t?32.48999999999898|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.6999999999999105;c?0.1;t?32.48999999999898|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.599999999999911;c?0.1;t?32.48999999999898|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.599999999999911;c?0.1;t?31.359999999999|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.599999999999911;c?0.1;t?31.359999999999|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.499999999999911;c?0.1;t?31.359999999999|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.499999999999911;c?0.1;t?30.249999999999023|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.499999999999911;c?0.1;t?30.249999999999023|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.3999999999999115;c?0.1;t?30.249999999999023|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.3999999999999115;c?0.1;t?29.159999999999044|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.3999999999999115;c?0.1;t?29.159999999999044|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.299999999999912;c?0.1;t?29.159999999999044|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.299999999999912;c?0.1;t?28.089999999999065|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.299999999999912;c?0.1;t?28.089999999999065|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.199999999999912;c?0.1;t?28.089999999999065|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.199999999999912;c?0.1;t?27.039999999999086|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.199999999999912;c?0.1;t?27.039999999999086|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?5.099999999999913;c?0.1;t?27.039999999999086|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?5.099999999999913;c?0.1;t?26.00999999999911|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-@	b = b - c$a?25;b?5.099999999999913;c?0.1;t?26.00999999999911|
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-@	t = b * b$a?25;b?4.999999999999913;c?0.1;t?26.00999999999911|
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-@while t > a:$a?25;b?4.999999999999913;c?0.1;t?24.99999999999913|
-	b = b - c
-	t = b * b
-print(b)
-#STEP
-# code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-	t = b * b
-@print(b)$a?25;b?4.999999999999913;c?0.1;t?24.99999999999913|
+a = 4
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+	x = x - 1
+@print(b)$a?4;b?16;x?0|
 #STEP
 # code
-a = 25
-b = a
-c = 0.1
-t = b * b
-while t > a:
-	b = b - c
-	t = b * b
+a = 4
+b = 1
+x = a
+while x > 0:
+	b = b * 2
+	x = x - 1
 print(b)
-@^$a?25;b?4.999999999999913;c?0.1;t?24.99999999999913|# 4.999999999999913
+@^$a?4;b?16;x?0|# 16
 
 # code
 a = 5
@@ -11440,739 +4865,470 @@ print(b)
 @^$a?0;b?1;c?1|# 1
 
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-@a = 101$|
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+@n = 6$|
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-@b = 0$a?101|
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+@a = 0$n?6|
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-@c = 0$a?101;b?0|
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+@s = 0$n?6;a?0|
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-@while a > 0:$a?101;b?0;c?0|
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+@x = 1$n?6;a?0;s?0|
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-@	d = a % 10$a?101;b?0;c?0|
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+@while x < n:$n?6;a?0;s?0;x?1|
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-@	e = 1$a?101;b?0;c?0;d?1|
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+@	y = n % x$n?6;a?0;s?0;x?1|
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-@	p = c$a?101;b?0;c?0;d?1;e?1|
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+@	if y == 0:$n?6;a?0;s?0;x?1;y?0|
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-@	while p > 0:$a?101;b?0;c?0;d?1;e?1;p?0|
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+@		s = s + x$n?6;a?0;s?0;x?1;y?0|
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-@	f = d * e$a?101;b?0;c?0;d?1;e?1;p?0|
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+@	x = x + 1$n?6;a?0;s?1;x?1;y?0|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-@	b = b + f$a?101;b?0;c?0;d?1;e?1;p?0;f?1|
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+@while x < n:$n?6;a?0;s?1;x?2;y?0|
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-@	a = a // 10$a?101;b?1;c?0;d?1;e?1;p?0;f?1|
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+@	y = n % x$n?6;a?0;s?1;x?2;y?0|
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-@	c = c + 1$a?10;b?1;c?0;d?1;e?1;p?0;f?1|
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+@	if y == 0:$n?6;a?0;s?1;x?2;y?0|
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-@while a > 0:$a?10;b?1;c?1;d?1;e?1;p?0;f?1|
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+@		s = s + x$n?6;a?0;s?1;x?2;y?0|
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-@	d = a % 10$a?10;b?1;c?1;d?1;e?1;p?0;f?1|
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+@	x = x + 1$n?6;a?0;s?3;x?2;y?0|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-@	e = 1$a?10;b?1;c?1;d?0;e?1;p?0;f?1|
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+@while x < n:$n?6;a?0;s?3;x?3;y?0|
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-@	p = c$a?10;b?1;c?1;d?0;e?1;p?0;f?1|
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+@	y = n % x$n?6;a?0;s?3;x?3;y?0|
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-@	while p > 0:$a?10;b?1;c?1;d?0;e?1;p?1;f?1|
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+@	if y == 0:$n?6;a?0;s?3;x?3;y?0|
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-@		e = e * 2$a?10;b?1;c?1;d?0;e?1;p?1;f?1|
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+@		s = s + x$n?6;a?0;s?3;x?3;y?0|
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-@		p = p - 1$a?10;b?1;c?1;d?0;e?2;p?1;f?1|
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+@	x = x + 1$n?6;a?0;s?6;x?3;y?0|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-@	while p > 0:$a?10;b?1;c?1;d?0;e?2;p?0;f?1|
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+@while x < n:$n?6;a?0;s?6;x?4;y?0|
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-@	f = d * e$a?10;b?1;c?1;d?0;e?2;p?0;f?1|
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+@	y = n % x$n?6;a?0;s?6;x?4;y?0|
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-@	b = b + f$a?10;b?1;c?1;d?0;e?2;p?0;f?0|
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+@	if y == 0:$n?6;a?0;s?6;x?4;y?2|
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-@	a = a // 10$a?10;b?1;c?1;d?0;e?2;p?0;f?0|
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+@	x = x + 1$n?6;a?0;s?6;x?4;y?2|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-@	c = c + 1$a?1;b?1;c?1;d?0;e?2;p?0;f?0|
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+@while x < n:$n?6;a?0;s?6;x?5;y?2|
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-@while a > 0:$a?1;b?1;c?2;d?0;e?2;p?0;f?0|
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+@	y = n % x$n?6;a?0;s?6;x?5;y?2|
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-@	d = a % 10$a?1;b?1;c?2;d?0;e?2;p?0;f?0|
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+@	if y == 0:$n?6;a?0;s?6;x?5;y?1|
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-@	e = 1$a?1;b?1;c?2;d?1;e?2;p?0;f?0|
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+@	x = x + 1$n?6;a?0;s?6;x?5;y?1|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-@	p = c$a?1;b?1;c?2;d?1;e?1;p?0;f?0|
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+@while x < n:$n?6;a?0;s?6;x?6;y?1|
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-@	while p > 0:$a?1;b?1;c?2;d?1;e?1;p?2;f?0|
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+@if s == n:$n?6;a?0;s?6;x?6;y?1|
+	a = 1
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-@		e = e * 2$a?1;b?1;c?2;d?1;e?1;p?2;f?0|
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+@	a = 1$n?6;a?0;s?6;x?6;y?1|
+print(a)
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-@		p = p - 1$a?1;b?1;c?2;d?1;e?2;p?2;f?0|
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+@print(a)$n?6;a?1;s?6;x?6;y?1|
 #STEP
 # code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-@	while p > 0:$a?1;b?1;c?2;d?1;e?2;p?1;f?0|
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-@		e = e * 2$a?1;b?1;c?2;d?1;e?2;p?1;f?0|
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-@		p = p - 1$a?1;b?1;c?2;d?1;e?4;p?1;f?0|
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-@	while p > 0:$a?1;b?1;c?2;d?1;e?4;p?0;f?0|
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-@	f = d * e$a?1;b?1;c?2;d?1;e?4;p?0;f?0|
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-@	b = b + f$a?1;b?1;c?2;d?1;e?4;p?0;f?4|
-	a = a // 10
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-@	a = a // 10$a?1;b?5;c?2;d?1;e?4;p?0;f?4|
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-@	c = c + 1$a?0;b?5;c?2;d?1;e?4;p?0;f?4|
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-@while a > 0:$a?0;b?5;c?3;d?1;e?4;p?0;f?4|
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-@print(b)$a?0;b?5;c?3;d?1;e?4;p?0;f?4|
-#STEP
-# code
-a = 101
-b = 0
-c = 0
-while a > 0:
-	d = a % 10
-	e = 1
-	p = c
-	while p > 0:
-		e = e * 2
-		p = p - 1
-	f = d * e
-	b = b + f
-	a = a // 10
-	c = c + 1
-print(b)
-@^$a?0;b?5;c?3;d?1;e?4;p?0;f?4|# 5
+n = 6
+a = 0
+s = 0
+x = 1
+while x < n:
+	y = n % x
+	if y == 0:
+		s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
+@^$n?6;a?1;s?6;x?6;y?1|# 1
 
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
@@ -12184,7 +5340,7 @@ while a > 0:
 print(b)
 #STEP
 # code
-@a = 10$|
+@a = 5$|
 b = 0
 c = 1
 while a > 0:
@@ -12196,8 +5352,8 @@ while a > 0:
 print(b)
 #STEP
 # code
-a = 10
-@b = 0$a?10|
+a = 5
+@b = 0$a?5|
 c = 1
 while a > 0:
 	d = a % 2
@@ -12208,9 +5364,9 @@ while a > 0:
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
-@c = 1$a?10;b?0|
+@c = 1$a?5;b?0|
 while a > 0:
 	d = a % 2
 	e = d * c
@@ -12220,10 +5376,10 @@ while a > 0:
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
-@while a > 0:$a?10;b?0;c?1|
+@while a > 0:$a?5;b?0;c?1|
 	d = a % 2
 	e = d * c
 	b = b + e
@@ -12232,11 +5388,11 @@ c = 1
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
-@	d = a % 2$a?10;b?0;c?1|
+@	d = a % 2$a?5;b?0;c?1|
 	e = d * c
 	b = b + e
 	c = c * 10
@@ -12244,115 +5400,43 @@ while a > 0:
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
 	d = a % 2
-@	e = d * c$a?10;b?0;c?1;d?0|
+@	e = d * c$a?5;b?0;c?1;d?1|
 	b = b + e
 	c = c * 10
 	a = a // 2
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
 	d = a % 2
 	e = d * c
-@	b = b + e$a?10;b?0;c?1;d?0;e?0|
+@	b = b + e$a?5;b?0;c?1;d?1;e?1|
 	c = c * 10
 	a = a // 2
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
 	d = a % 2
 	e = d * c
 	b = b + e
-@	c = c * 10$a?10;b?0;c?1;d?0;e?0|
+@	c = c * 10$a?5;b?1;c?1;d?1;e?1|
 	a = a // 2
 print(b)
 #STEP
 # code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-	e = d * c
-	b = b + e
-	c = c * 10
-@	a = a // 2$a?10;b?0;c?10;d?0;e?0|
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-@while a > 0:$a?5;b?0;c?10;d?0;e?0|
-	d = a % 2
-	e = d * c
-	b = b + e
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-@	d = a % 2$a?5;b?0;c?10;d?0;e?0|
-	e = d * c
-	b = b + e
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-@	e = d * c$a?5;b?0;c?10;d?1;e?0|
-	b = b + e
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-	e = d * c
-@	b = b + e$a?5;b?0;c?10;d?1;e?10|
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-	e = d * c
-	b = b + e
-@	c = c * 10$a?5;b?10;c?10;d?1;e?10|
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
@@ -12360,14 +5444,14 @@ while a > 0:
 	e = d * c
 	b = b + e
 	c = c * 10
-@	a = a // 2$a?5;b?10;c?100;d?1;e?10|
+@	a = a // 2$a?5;b?1;c?10;d?1;e?1|
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
-@while a > 0:$a?2;b?10;c?100;d?1;e?10|
+@while a > 0:$a?2;b?1;c?10;d?1;e?1|
 	d = a % 2
 	e = d * c
 	b = b + e
@@ -12376,11 +5460,11 @@ c = 1
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
-@	d = a % 2$a?2;b?10;c?100;d?1;e?10|
+@	d = a % 2$a?2;b?1;c?10;d?1;e?1|
 	e = d * c
 	b = b + e
 	c = c * 10
@@ -12388,115 +5472,43 @@ while a > 0:
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
 	d = a % 2
-@	e = d * c$a?2;b?10;c?100;d?0;e?10|
+@	e = d * c$a?2;b?1;c?10;d?0;e?1|
 	b = b + e
 	c = c * 10
 	a = a // 2
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
 	d = a % 2
 	e = d * c
-@	b = b + e$a?2;b?10;c?100;d?0;e?0|
+@	b = b + e$a?2;b?1;c?10;d?0;e?0|
 	c = c * 10
 	a = a // 2
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
 	d = a % 2
 	e = d * c
 	b = b + e
-@	c = c * 10$a?2;b?10;c?100;d?0;e?0|
+@	c = c * 10$a?2;b?1;c?10;d?0;e?0|
 	a = a // 2
 print(b)
 #STEP
 # code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-	e = d * c
-	b = b + e
-	c = c * 10
-@	a = a // 2$a?2;b?10;c?1000;d?0;e?0|
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-@while a > 0:$a?1;b?10;c?1000;d?0;e?0|
-	d = a % 2
-	e = d * c
-	b = b + e
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-@	d = a % 2$a?1;b?10;c?1000;d?0;e?0|
-	e = d * c
-	b = b + e
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-@	e = d * c$a?1;b?10;c?1000;d?1;e?0|
-	b = b + e
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-	e = d * c
-@	b = b + e$a?1;b?10;c?1000;d?1;e?1000|
-	c = c * 10
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
-b = 0
-c = 1
-while a > 0:
-	d = a % 2
-	e = d * c
-	b = b + e
-@	c = c * 10$a?1;b?1010;c?1000;d?1;e?1000|
-	a = a // 2
-print(b)
-#STEP
-# code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
@@ -12504,14 +5516,14 @@ while a > 0:
 	e = d * c
 	b = b + e
 	c = c * 10
-@	a = a // 2$a?1;b?1010;c?10000;d?1;e?1000|
+@	a = a // 2$a?2;b?1;c?100;d?0;e?0|
 print(b)
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
-@while a > 0:$a?0;b?1010;c?10000;d?1;e?1000|
+@while a > 0:$a?1;b?1;c?100;d?0;e?0|
 	d = a % 2
 	e = d * c
 	b = b + e
@@ -12520,7 +5532,79 @@ c = 1
 print(b)
 #STEP
 # code
-a = 10
+a = 5
+b = 0
+c = 1
+while a > 0:
+@	d = a % 2$a?1;b?1;c?100;d?0;e?0|
+	e = d * c
+	b = b + e
+	c = c * 10
+	a = a // 2
+print(b)
+#STEP
+# code
+a = 5
+b = 0
+c = 1
+while a > 0:
+	d = a % 2
+@	e = d * c$a?1;b?1;c?100;d?1;e?0|
+	b = b + e
+	c = c * 10
+	a = a // 2
+print(b)
+#STEP
+# code
+a = 5
+b = 0
+c = 1
+while a > 0:
+	d = a % 2
+	e = d * c
+@	b = b + e$a?1;b?1;c?100;d?1;e?100|
+	c = c * 10
+	a = a // 2
+print(b)
+#STEP
+# code
+a = 5
+b = 0
+c = 1
+while a > 0:
+	d = a % 2
+	e = d * c
+	b = b + e
+@	c = c * 10$a?1;b?101;c?100;d?1;e?100|
+	a = a // 2
+print(b)
+#STEP
+# code
+a = 5
+b = 0
+c = 1
+while a > 0:
+	d = a % 2
+	e = d * c
+	b = b + e
+	c = c * 10
+@	a = a // 2$a?1;b?101;c?1000;d?1;e?100|
+print(b)
+#STEP
+# code
+a = 5
+b = 0
+c = 1
+@while a > 0:$a?0;b?101;c?1000;d?1;e?100|
+	d = a % 2
+	e = d * c
+	b = b + e
+	c = c * 10
+	a = a // 2
+print(b)
+#STEP
+# code
+a = 5
 b = 0
 c = 1
 while a > 0:
@@ -12529,10 +5613,10 @@ while a > 0:
 	b = b + e
 	c = c * 10
 	a = a // 2
-@print(b)$a?0;b?1010;c?10000;d?1;e?1000|
+@print(b)$a?0;b?101;c?1000;d?1;e?100|
 #STEP
 # code
-a = 10
+a = 5
 b = 0
 c = 1
 while a > 0:
@@ -12542,7 +5626,7 @@ while a > 0:
 	c = c * 10
 	a = a // 2
 print(b)
-@^$a?0;b?1010;c?10000;d?1;e?1000|# 1010
+@^$a?0;b?101;c?1000;d?1;e?100|# 101
 
 # code
 a = 16
@@ -14208,275 +7292,269 @@ print(c)
 @^$a?0;b?6;c?1;d?2;e?2|# 1
 
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-@a = 5$|
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+@n = 10$|
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-@b = 0$a?5|
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+@a = 0$n?10|
+x = 1
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-@c = 1$a?5;b?0|
-while c <= 5:
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+@x = 1$n?10;a?0|
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-@while c <= 5:$a?5;b?0;c?1|
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+@s = 0$n?10;a?0;x?1|
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-@	d = 1 / c$a?5;b?0;c?1|
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+@while s < n:$n?10;a?0;x?1;s?0|
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-@	b = b + d$a?5;b?0;c?1;d?1.0|
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+@	s = s + x$n?10;a?0;x?1;s?0|
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-@	c = c + 1$a?5;b?1.0;c?1;d?1.0|
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+@	x = x + 1$n?10;a?0;x?1;s?1|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-@while c <= 5:$a?5;b?1.0;c?2;d?1.0|
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+@while s < n:$n?10;a?0;x?2;s?1|
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-@	d = 1 / c$a?5;b?1.0;c?2;d?1.0|
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+@	s = s + x$n?10;a?0;x?2;s?1|
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-@	b = b + d$a?5;b?1.0;c?2;d?0.5|
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+@	x = x + 1$n?10;a?0;x?2;s?3|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-@	c = c + 1$a?5;b?1.5;c?2;d?0.5|
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+@while s < n:$n?10;a?0;x?3;s?3|
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-@while c <= 5:$a?5;b?1.5;c?3;d?0.5|
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+@	s = s + x$n?10;a?0;x?3;s?3|
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-@	d = 1 / c$a?5;b?1.5;c?3;d?0.5|
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+@	x = x + 1$n?10;a?0;x?3;s?6|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-@	b = b + d$a?5;b?1.5;c?3;d?0.3333333333333333|
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+@while s < n:$n?10;a?0;x?4;s?6|
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-@	c = c + 1$a?5;b?1.8333333333333333;c?3;d?0.3333333333333333|
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+@	s = s + x$n?10;a?0;x?4;s?6|
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-@while c <= 5:$a?5;b?1.8333333333333333;c?4;d?0.3333333333333333|
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+@	x = x + 1$n?10;a?0;x?4;s?10|
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-@	d = 1 / c$a?5;b?1.8333333333333333;c?4;d?0.3333333333333333|
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+@while s < n:$n?10;a?0;x?5;s?10|
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-@	b = b + d$a?5;b?1.8333333333333333;c?4;d?0.25|
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+@if s == n:$n?10;a?0;x?5;s?10|
+	a = 1
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-@	c = c + 1$a?5;b?2.083333333333333;c?4;d?0.25|
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+@	a = 1$n?10;a?0;x?5;s?10|
+print(a)
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-@while c <= 5:$a?5;b?2.083333333333333;c?5;d?0.25|
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+@print(a)$n?10;a?1;x?5;s?10|
 #STEP
 # code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-@	d = 1 / c$a?5;b?2.083333333333333;c?5;d?0.25|
-	b = b + d
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-@	b = b + d$a?5;b?2.083333333333333;c?5;d?0.2|
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-@	c = c + 1$a?5;b?2.283333333333333;c?5;d?0.2|
-print(b)
-#STEP
-# code
-a = 5
-b = 0
-c = 1
-@while c <= 5:$a?5;b?2.283333333333333;c?6;d?0.2|
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
-#STEP
-# code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-	c = c + 1
-@print(b)$a?5;b?2.283333333333333;c?6;d?0.2|
-#STEP
-# code
-a = 5
-b = 0
-c = 1
-while c <= 5:
-	d = 1 / c
-	b = b + d
-	c = c + 1
-print(b)
-@^$a?5;b?2.283333333333333;c?6;d?0.2|# 2.283333333333333
+n = 10
+a = 0
+x = 1
+s = 0
+while s < n:
+	s = s + x
+	x = x + 1
+if s == n:
+	a = 1
+print(a)
+@^$n?10;a?1;x?5;s?10|# 1
 
 # code
 a = 10
@@ -15123,11 +8201,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 @a = 18$|
@@ -15137,11 +8215,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15151,11 +8229,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15165,11 +8243,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15179,11 +8257,11 @@ c = 0
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15193,11 +8271,11 @@ while b > 0:
 @	d = b % 10$a?18;b?18;c?0|
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15207,11 +8285,11 @@ while b > 0:
 	d = b % 10
 @	c = c + d$a?18;b?18;c?0;d?8|
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15221,11 +8299,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 @	b = b // 10$a?18;b?18;c?8;d?8|
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15235,11 +8313,11 @@ c = 0
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15249,11 +8327,11 @@ while b > 0:
 @	d = b % 10$a?18;b?1;c?8;d?8|
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15263,11 +8341,11 @@ while b > 0:
 	d = b % 10
 @	c = c + d$a?18;b?1;c?8;d?1|
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15277,11 +8355,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 @	b = b // 10$a?18;b?1;c?9;d?1|
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15291,11 +8369,11 @@ c = 0
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15305,11 +8383,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
-@f = a % c$a?18;b?0;c?9;d?1|
+@r = 0$a?18;b?0;c?9;d?1|
+f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15319,11 +8397,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
-f = a % c
-@if f == 0:$a?18;b?0;c?9;d?1;f?0|
-	print(1)
-else:
-	print(0)
+r = 0
+@f = a % c$a?18;b?0;c?9;d?1;r?0|
+if f == 0:
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15333,11 +8411,11 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
-if f == 0:
-@	print(1)$a?18;b?0;c?9;d?1;f?0|
-else:
-	print(0)
+@if f == 0:$a?18;b?0;c?9;d?1;r?0;f?0|
+	r = 1
+print(r)
 #STEP
 # code
 a = 18
@@ -15347,12 +8425,40 @@ while b > 0:
 	d = b % 10
 	c = c + d
 	b = b // 10
+r = 0
 f = a % c
 if f == 0:
-	print(1)
-else:
-	print(0)
-@^$a?18;b?0;c?9;d?1;f?0|# 1
+@	r = 1$a?18;b?0;c?9;d?1;r?0;f?0|
+print(r)
+#STEP
+# code
+a = 18
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	c = c + d
+	b = b // 10
+r = 0
+f = a % c
+if f == 0:
+	r = 1
+@print(r)$a?18;b?0;c?9;d?1;r?1;f?0|
+#STEP
+# code
+a = 18
+b = a
+c = 0
+while b > 0:
+	d = b % 10
+	c = c + d
+	b = b // 10
+r = 0
+f = a % c
+if f == 0:
+	r = 1
+print(r)
+@^$a?18;b?0;c?9;d?1;r?1;f?0|# 1
 
 # code
 a = 12
@@ -15564,10 +8670,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 @a = 818$|
@@ -15578,10 +8684,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15592,10 +8698,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15606,10 +8712,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15620,10 +8726,10 @@ c = a
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15634,10 +8740,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15648,10 +8754,10 @@ while c > 0:
 @	e = b * 10$a?818;b?0;c?818;d?8|
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15662,10 +8768,10 @@ while c > 0:
 	e = b * 10
 @	b = e + d$a?818;b?0;c?818;d?8;e?0|
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15676,10 +8782,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 @	c = c // 10$a?818;b?8;c?818;d?8;e?0|
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15690,10 +8796,10 @@ c = a
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15704,10 +8810,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15718,10 +8824,10 @@ while c > 0:
 @	e = b * 10$a?818;b?8;c?81;d?1;e?0|
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15732,10 +8838,10 @@ while c > 0:
 	e = b * 10
 @	b = e + d$a?818;b?8;c?81;d?1;e?80|
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15746,10 +8852,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 @	c = c // 10$a?818;b?81;c?81;d?1;e?80|
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15760,10 +8866,10 @@ c = a
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15774,10 +8880,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15788,10 +8894,10 @@ while c > 0:
 @	e = b * 10$a?818;b?81;c?8;d?8;e?80|
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15802,10 +8908,10 @@ while c > 0:
 	e = b * 10
 @	b = e + d$a?818;b?81;c?8;d?8;e?810|
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15816,10 +8922,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 @	c = c // 10$a?818;b?818;c?8;d?8;e?810|
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15830,10 +8936,10 @@ c = a
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15844,10 +8950,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
-@if a == b:$a?818;b?818;c?0;d?8;e?810|
-	print(1)
-else:
-	print(0)
+@r = 0$a?818;b?818;c?0;d?8;e?810|
+if a == b:
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15858,10 +8964,10 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
-if a == b:
-@	print(1)$a?818;b?818;c?0;d?8;e?810|
-else:
-	print(0)
+r = 0
+@if a == b:$a?818;b?818;c?0;d?8;e?810;r?0|
+	r = 1
+print(r)
 #STEP
 # code
 a = 818
@@ -15872,373 +8978,36 @@ while c > 0:
 	e = b * 10
 	b = e + d
 	c = c // 10
+r = 0
 if a == b:
-	print(1)
-else:
-	print(0)
-@^$a?818;b?818;c?0;d?8;e?810|# 1
-
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
+@	r = 1$a?818;b?818;c?0;d?8;e?810;r?0|
+print(r)
 #STEP
 # code
-@a = 987$|
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
+a = 818
+b = 0
+c = a
+while c > 0:
+	d = c % 10
+	e = b * 10
+	b = e + d
+	c = c // 10
+r = 0
+if a == b:
+	r = 1
+@print(r)$a?818;b?818;c?0;d?8;e?810;r?1|
 #STEP
 # code
-a = 987
-@while a > 9:$a?987|
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-@	b = 0$a?987|
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-@	while a > 0:$a?987;b?0|
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-@		c = a % 10$a?987;b?0|
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-@		b = b + c$a?987;b?0;c?7|
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-@		a = a // 10$a?987;b?7;c?7|
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-@	while a > 0:$a?98;b?7;c?7|
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-@		c = a % 10$a?98;b?7;c?7|
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-@		b = b + c$a?98;b?7;c?8|
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-@		a = a // 10$a?98;b?15;c?8|
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-@	while a > 0:$a?9;b?15;c?8|
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-@		c = a % 10$a?9;b?15;c?8|
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-@		b = b + c$a?9;b?15;c?9|
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-@		a = a // 10$a?9;b?24;c?9|
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-@	while a > 0:$a?0;b?24;c?9|
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-@	a = b$a?0;b?24;c?9|
-print(a)
-#STEP
-# code
-a = 987
-@while a > 9:$a?24;b?24;c?9|
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-@	b = 0$a?24;b?24;c?9|
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-@	while a > 0:$a?24;b?0;c?9|
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-@		c = a % 10$a?24;b?0;c?9|
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-@		b = b + c$a?24;b?0;c?4|
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-@		a = a // 10$a?24;b?4;c?4|
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-@	while a > 0:$a?2;b?4;c?4|
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-@		c = a % 10$a?2;b?4;c?4|
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-@		b = b + c$a?2;b?4;c?2|
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-@		a = a // 10$a?2;b?6;c?2|
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-@	while a > 0:$a?0;b?6;c?2|
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-@	a = b$a?0;b?6;c?2|
-print(a)
-#STEP
-# code
-a = 987
-@while a > 9:$a?6;b?6;c?2|
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-@print(a)$a?6;b?6;c?2|
-#STEP
-# code
-a = 987
-while a > 9:
-	b = 0
-	while a > 0:
-		c = a % 10
-		b = b + c
-		a = a // 10
-	a = b
-print(a)
-@^$a?6;b?6;c?2|# 6
-
+a = 818
+b = 0
+c = a
+while c > 0:
+	d = c % 10
+	e = b * 10
+	b = e + d
+	c = c // 10
+r = 0
+if a == b:
+	r = 1
+print(r)
+@^$a?818;b?818;c?0;d?8;e?810;r?1|# 1

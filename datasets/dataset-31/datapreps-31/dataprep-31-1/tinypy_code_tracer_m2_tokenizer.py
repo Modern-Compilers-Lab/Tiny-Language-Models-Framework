@@ -50,8 +50,10 @@ class TinypyTokenizer():
 		return [self.decod_map[id] for id in tokens_ids]
 
 	def encode_to_file(self, input_file_path:str, output_file_path:str):
+		print('loading', input_file_path, '...')
 		with open(input_file_path, 'r') as f:
 			examples_string  = f.read()
+		print('splitting the examples ...')
 		examples = examples_string.split('\n\n')[:-1] # We remove the last element of the list because it is an emtpy string
 		output_file = open(output_file_path, 'wb')
 		for example in tqdm(examples):
@@ -68,10 +70,10 @@ class TinypyTokenizer():
 			try:
 				for token in tokenized_example:
 					token_id = self.encod_map[token]
-					output_file.write(struct.pack('H', token_id))
+					output_file.write(struct.pack('B', token_id))
 			except Exception:
 				return(f"error token:{token}")
-			
+		output_file.close()
 		return None
 
 		# for now cannot use the following method as loading in chunks doesn't guarentee that

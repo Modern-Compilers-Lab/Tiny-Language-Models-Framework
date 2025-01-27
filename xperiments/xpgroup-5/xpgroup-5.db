@@ -1,4 +1,4 @@
-last-xp-id: 12
+last-xp-id: 18
 xps:
   xp-5-1: CoT 5MModel 16-Heads 24-Blocks SiLU RMSNorm DP-18-1
   xp-5-2: CoT 5MModel 12-Heads 12-Blocks SiLU RMSNorm DP-17-1
@@ -12,3 +12,9 @@ xps:
   xp-5-10: 30MModel 512ContextWindow DP-25-1
   xp-5-11: SameExperimentAsxp-10 DifferentGPUithTorchCudaSynchronize
   xp-5-12: OneShotModel DP-23-1
+  xp-5-13: CurriculumDS-31
+  xp-5-14: TILDe-Attemtpt-1
+  xp-5-15: TILDE Reset-LMHead UnifromIntervals
+  xp-5-16: TILDe Non-Uniform-Data No-Reset
+  xp-5-17: TILDe Non-Uniform-Data Reset
+  xp-5-18: SameAsXP-13 NoCurriculum

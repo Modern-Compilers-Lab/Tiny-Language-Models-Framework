@@ -87,7 +87,7 @@ code 						= ''
 VARIABLES						= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ]
 DIGIT 							= [i for i in range(10+1)]
 ARITHMETIC_OPERATORS 			= ["+", "-", "*", "//", "%"]
-ARITHMETIC_OPERATORS_WEIGHTS 	= [3, 3, 5, 7, 13]
+ARITHMETIC_OPERATORS_WEIGHTS 	= [3, 3, 5, 7, 14]
 RELATIONAL_OPERATORS 			= ["<", ">", "<=", ">=", "!=", "=="]
 
 pattern_vocabulary = [
@@ -163,10 +163,12 @@ def execute_gen_action(gen_action:str):
 			context_stack[-1]['nb_lines_in_block'] += 1
 			if identifier not in context_stack[-1]['readable_variables']:
 				context_stack[-1]['readable_variables'].append(identifier)
-
+			sign = ''
+			if random.random() < 0.15:
+				sign = '-'
 			# Append the code
 			tabs = '	' * (len(context_stack)-1)
-			code = code + f'{tabs}{identifier} = {random.choice(DIGIT)}\n'
+			code = code + f'{tabs}{identifier} = {sign}{random.choice(DIGIT)}\n'
 
 			# Update the line_counter
 			line_counter += 1
