@@ -1,0 +1,20 @@
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+
+Loading the dataset:
+
+Split by examples using \n\n:
+	--> splitting
+	--> freeing data memory
+	--> total number of examples: 100
+
+
+Creating the train.txt, val.txt and test.txt:
+
+NOT shuffling examples:
+	--> creating the test_examples
+	--> test_examples has 100 examples
+	--> creating the test_data
+	--> test_data has 1055371 tokens
+	--> writing the test_data to test.txt
+	--> freeing examples memory
