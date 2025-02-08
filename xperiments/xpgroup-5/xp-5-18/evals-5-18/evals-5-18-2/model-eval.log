@@ -1,0 +1,80 @@
+|ITERS: 30 / 30 | COMP: 100.00% | RATE: 0.01 it./s | SPD: 81.9926 s/it.| ERT: (0, 0, 0, 0) | ET: (0, 0, 47, 22)                                                                                         
+|hard-accuracy: 26 = 86.67% | soft-accuracy: 1 = 3.33% |                                                                                                                                                
+
+Imports:
+
+Set the device to GPU if available, otherwise CPU:
+
+Loading the vocab_size:
+
+Redefining the model of the training:
+
+Loading the model:
+
+Creating and loading the model:
+
+Reading the test data:
+
+Splitting the test data into examples:
+
+Sequential Evaluation loop:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:
+
+ generating ...:

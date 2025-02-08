@@ -1,0 +1,388 @@
+|BATCH_LOSS: 0.36687 | TPS:   369957 tokens/sec. | ITERS: 263388 / 263388 | EPOCHS: 2.00 | COMP: 100.00% | LR: 0.0000 it./s | SPD: 708.5795 ms/it.| ERT: (0, 0, 0, 0) | ET: (2, 8, 10, 27)              
+val>|ITERS: 250 / 250 | COMP: 100.00% | RATE: 1.69 it./s | SPD: 0.5904 s/it.| ERT: (0, 0, 0, 0) | ET: (0, 0, 4, 55)                                                                                     
+
+vocab_size: 77
+
+Loading train.bin
+
+took (0, 0, 0, 0)
+
+Loading val.bin
+
+took (0, 0, 0, 0)
+
+Compiling the model... (takes a ~minute)
+
+Evaluating initial loss
+
+INITIAL LOSS: train loss 0.3672725558280945 | val loss 0.3708484470844269
+
+INIT ITER TIME: 477.9101209640503
+
+INIT ITER TIME: 0.723355770111084
+
+INIT ITER TIME: 0.7035067081451416
+
+INIT ITER TIME: 0.7035481929779053
+
+INIT ITER TIME: 0.7036890983581543
+
+INIT ITER TIME: 0.703493595123291
+
+INIT ITER TIME: 0.7036290168762207
+
+INIT ITER TIME: 0.7034978866577148
+
+INIT ITER TIME: 0.7036166191101074
+
+INIT ITER TIME: 0.7035930156707764
+
+INIT ITER TIME: 0.7035307884216309
+
+INIT ITER TIME: 0.7036936283111572
+
+INIT ITER TIME: 0.7034323215484619
+
+INIT ITER TIME: 0.7032651901245117
+
+INIT ITER TIME: 0.7033805847167969
+
+INIT ITER TIME: 0.7035977840423584
+
+INIT ITER TIME: 0.7034063339233398
+
+INIT ITER TIME: 0.7047512531280518
+
+INIT ITER TIME: 0.7044167518615723
+
+INIT ITER TIME: 0.7036020755767822
+
+INIT ITER TIME: 0.7035439014434814
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-31_21-07 : iter       6584 | epoch 0.05 | train loss 0.3698264062 | val loss 0.3698455095
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-31_22-31 : iter      13168 | epoch 0.10 | train loss 0.3705327809 | val loss 0.3703061044
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-01-31_23-55 : iter      19752 | epoch 0.15 | train loss 0.3674097955 | val loss 0.3699434698
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_01-18 : iter      26336 | epoch 0.20 | train loss 0.3670410216 | val loss 0.3701181710
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_02-42 : iter      32920 | epoch 0.25 | train loss 0.3712806702 | val loss 0.3702881038
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_04-06 : iter      39504 | epoch 0.30 | train loss 0.3693094552 | val loss 0.3726815879
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_05-30 : iter      46088 | epoch 0.35 | train loss 0.3715921938 | val loss 0.3701245785
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_06-54 : iter      52672 | epoch 0.40 | train loss 0.3683272004 | val loss 0.3698315620
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_08-18 : iter      59256 | epoch 0.45 | train loss 0.3673801720 | val loss 0.3713936210
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_09-42 : iter      65840 | epoch 0.50 | train loss 0.3670879006 | val loss 0.3755158484
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_11-06 : iter      72424 | epoch 0.55 | train loss 0.3700032830 | val loss 0.3714982867
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_12-30 : iter      79008 | epoch 0.60 | train loss 0.3679982722 | val loss 0.3709560633
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_13-54 : iter      85592 | epoch 0.65 | train loss 0.3648923635 | val loss 0.3719352484
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_15-18 : iter      92176 | epoch 0.70 | train loss 0.3708524108 | val loss 0.3727894425
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_16-42 : iter      98760 | epoch 0.75 | train loss 0.3680863380 | val loss 0.3727573752
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_18-06 : iter     105344 | epoch 0.80 | train loss 0.3689083159 | val loss 0.3717928827
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_19-30 : iter     111928 | epoch 0.85 | train loss 0.3667014837 | val loss 0.3700124621
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_20-54 : iter     118512 | epoch 0.90 | train loss 0.3651669621 | val loss 0.3706015050
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_22-18 : iter     125096 | epoch 0.95 | train loss 0.3667007983 | val loss 0.3705757558
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-01_23-42 : iter     131680 | epoch 1.00 | train loss 0.3685740829 | val loss 0.3723842204
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_01-06 : iter     138264 | epoch 1.05 | train loss 0.3650419414 | val loss 0.3700591326
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_02-30 : iter     144848 | epoch 1.10 | train loss 0.3665815294 | val loss 0.3700339198
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_03-54 : iter     151432 | epoch 1.15 | train loss 0.3706083298 | val loss 0.3709380925
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_05-18 : iter     158016 | epoch 1.20 | train loss 0.3692476153 | val loss 0.3698039651
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_06-42 : iter     164600 | epoch 1.25 | train loss 0.3700212240 | val loss 0.3727198541
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_08-05 : iter     171184 | epoch 1.30 | train loss 0.3667697012 | val loss 0.3700772524
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_09-29 : iter     177768 | epoch 1.35 | train loss 0.3651915789 | val loss 0.3705365658
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_10-53 : iter     184352 | epoch 1.40 | train loss 0.3676505387 | val loss 0.3705787957
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_12-17 : iter     190936 | epoch 1.45 | train loss 0.3654190302 | val loss 0.3704249859
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_13-41 : iter     197520 | epoch 1.50 | train loss 0.3660368323 | val loss 0.3695451915
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_15-05 : iter     204104 | epoch 1.55 | train loss 0.3633750081 | val loss 0.3724557459
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_16-28 : iter     210688 | epoch 1.60 | train loss 0.3668514192 | val loss 0.3687821627
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_17-52 : iter     217272 | epoch 1.65 | train loss 0.3684203923 | val loss 0.3704665899
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_19-16 : iter     223856 | epoch 1.70 | train loss 0.3625984788 | val loss 0.3691447079
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_20-40 : iter     230440 | epoch 1.75 | train loss 0.3685458601 | val loss 0.3688157201
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_22-04 : iter     237024 | epoch 1.80 | train loss 0.3639167547 | val loss 0.3695604205
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-02_23-28 : iter     243608 | epoch 1.85 | train loss 0.3666270375 | val loss 0.3706990778
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-03_00-52 : iter     250192 | epoch 1.90 | train loss 0.3666942120 | val loss 0.3700683415
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-03_02-16 : iter     256776 | epoch 1.95 | train loss 0.3635998964 | val loss 0.3709504604
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-03_03-40 : iter     263360 | epoch 2.00 | train loss 0.3709006310 | val loss 0.3694378138
+
+
+
+Evaluation and checkpointing ...
+
+
+
+checkpoint_2025-02-03_03-45 : iter     263388 | epoch 2.00 | train loss 0.3665235043 | val loss 0.3683862090
+
