@@ -1,0 +1,4870 @@
+c = 3
+a = 7
+b = 3 * 9
+print(a + 6)
+# output
+# 13
+
+e = 2
+print(e - 3)
+# output
+# -1
+
+e = 2
+b = 4
+c = e + 0
+print(b * 1)
+# output
+# 4
+
+d = 8
+d = 1 + 6
+print(d - 2)
+# output
+# 5
+
+a = 2
+print(a / a)
+# output
+# 1.0
+
+c = 8
+e = c + c
+print(e)
+# output
+# 16
+
+d = 3
+d = 5
+print(d + d)
+# output
+# 10
+
+e = 1
+print(e / e)
+# output
+# 1.0
+
+c = 8
+c = 5 / c
+print(c + c)
+# output
+# 1.25
+
+a = 9
+d = a + 1
+print(a * a)
+# output
+# 81
+
+a = 0
+b = 4
+b = a / 2
+print(b)
+# output
+# 0.0
+
+c = 8
+b = c / 7
+print(c - c)
+# output
+# 0
+
+e = 5
+c = 8
+print(c)
+# output
+# 8
+
+e = 6
+d = 9
+print(d)
+# output
+# 9
+
+e = 2
+c = 3
+e = 1 * 5
+print(e * c)
+# output
+# 15
+
+d = 5
+d = 3
+a = d * d
+print(d - 8)
+# output
+# -5
+
+e = 8
+c = 9
+c = 5 - 3
+print(c)
+# output
+# 2
+
+a = 5
+a = 6
+c = 1 + 9
+print(a * 3)
+# output
+# 18
+
+d = 0
+e = d + 4
+print(d * d)
+# output
+# 0
+
+b = 8
+b = 2 / 5
+print(b / b)
+# output
+# 1.0
+
+b = 4
+d = 4
+e = 3 / 9
+print(d + 6)
+# output
+# 10
+
+a = 2
+c = 1
+b = 7 * c
+print(b)
+# output
+# 7
+
+a = 9
+print(a / a)
+# output
+# 1.0
+
+d = 6
+b = d / 4
+print(d - 3)
+# output
+# 3
+
+e = 3
+d = 8
+a = d / d
+print(d - e)
+# output
+# 5
+
+e = 7
+print(e * 9)
+# output
+# 63
+
+b = 7
+d = 1
+print(d - b)
+# output
+# -6
+
+d = 9
+c = d / d
+print(c)
+# output
+# 1.0
+
+d = 5
+c = d * d
+print(d / d)
+# output
+# 1.0
+
+d = 7
+print(d * d)
+# output
+# 49
+
+b = 5
+d = 8
+print(b - 0)
+# output
+# 5
+
+d = 2
+a = 6
+e = 2 - 6
+print(e)
+# output
+# -4
+
+a = 2
+e = 0
+b = 5 - 4
+print(b)
+# output
+# 1
+
+d = 2
+b = 2 * 8
+print(d - d)
+# output
+# 0
+
+d = 0
+a = 1 * d
+print(d + 6)
+# output
+# 6
+
+a = 8
+c = 4
+b = c / a
+print(b)
+# output
+# 0.5
+
+b = 0
+print(b + b)
+# output
+# 0
+
+d = 0
+e = d * 1
+print(e)
+# output
+# 0
+
+d = 5
+b = 6
+print(d)
+# output
+# 5
+
+b = 1
+a = 1 + b
+print(a)
+# output
+# 2
+
+d = 3
+c = 7 / 2
+print(d - d)
+# output
+# 0
+
+e = 5
+a = 0 - e
+print(a)
+# output
+# -5
+
+d = 7
+e = 5 + d
+print(e)
+# output
+# 12
+
+a = 1
+b = 4
+e = 2 + 7
+print(a * b)
+# output
+# 4
+
+a = 1
+print(a * a)
+# output
+# 1
+
+b = 1
+b = 9
+print(b)
+# output
+# 9
+
+e = 9
+print(e / 3)
+# output
+# 3.0
+
+a = 8
+a = a / 8
+print(a * a)
+# output
+# 1.0
+
+b = 4
+d = 9
+print(d + 6)
+# output
+# 15
+
+e = 2
+d = e / e
+print(d)
+# output
+# 1.0
+
+b = 2
+b = 3
+print(b * 7)
+# output
+# 21
+
+a = 5
+d = 7
+print(d)
+# output
+# 7
+
+c = 3
+e = 4
+print(e)
+# output
+# 4
+
+c = 0
+b = 3
+a = 0 + 4
+print(b * 6)
+# output
+# 18
+
+d = 1
+print(d)
+# output
+# 1
+
+c = 6
+a = 0
+d = a - a
+print(c / 2)
+# output
+# 3.0
+
+e = 7
+a = 2
+d = e / 3
+print(d)
+# output
+# 2.3333333333333335
+
+b = 3
+d = 5
+d = b - 7
+print(b - b)
+# output
+# 0
+
+c = 6
+print(c - c)
+# output
+# 0
+
+a = 8
+b = 6 / a
+print(b)
+# output
+# 0.75
+
+e = 4
+c = 5
+print(c * e)
+# output
+# 20
+
+e = 9
+c = 0
+print(e)
+# output
+# 9
+
+a = 2
+e = a + a
+print(a * 5)
+# output
+# 10
+
+d = 3
+d = 8 - d
+print(d + d)
+# output
+# 10
+
+b = 7
+b = 7
+print(b)
+# output
+# 7
+
+b = 7
+d = 4
+print(d)
+# output
+# 4
+
+e = 9
+print(e / 1)
+# output
+# 9.0
+
+a = 7
+d = 5
+b = 3 / 3
+print(b)
+# output
+# 1.0
+
+c = 2
+b = c * c
+print(c / 1)
+# output
+# 2.0
+
+e = 3
+b = 7
+print(b)
+# output
+# 7
+
+a = 8
+print(a + a)
+# output
+# 16
+
+d = 2
+b = 4
+c = d * 9
+print(c)
+# output
+# 18
+
+e = 9
+print(e)
+# output
+# 9
+
+a = 4
+b = a / a
+print(b)
+# output
+# 1.0
+
+b = 8
+b = 1
+d = b - 6
+print(d)
+# output
+# -5
+
+a = 5
+print(a)
+# output
+# 5
+
+d = 4
+d = 3
+e = d * d
+print(e)
+# output
+# 9
+
+a = 3
+c = a / a
+print(c)
+# output
+# 1.0
+
+e = 2
+d = e + e
+print(e * e)
+# output
+# 4
+
+d = 8
+print(d)
+# output
+# 8
+
+b = 9
+print(b * 1)
+# output
+# 9
+
+c = 3
+a = 2 * 7
+print(c - c)
+# output
+# 0
+
+e = 4
+b = 0 + e
+print(e + 1)
+# output
+# 5
+
+c = 8
+print(c - 2)
+# output
+# 6
+
+c = 2
+e = 8
+print(e)
+# output
+# 8
+
+d = 6
+b = 5
+print(d - d)
+# output
+# 0
+
+c = 5
+a = c + 9
+print(a)
+# output
+# 14
+
+c = 9
+print(c * c)
+# output
+# 81
+
+a = 3
+c = 0
+print(c)
+# output
+# 0
+
+e = 5
+print(e)
+# output
+# 5
+
+d = 7
+e = 7
+a = 3 - d
+print(a)
+# output
+# -4
+
+d = 3
+a = 4
+a = d * d
+print(a * 4)
+# output
+# 36
+
+e = 1
+print(e)
+# output
+# 1
+
+c = 2
+d = 6
+print(c / d)
+# output
+# 0.3333333333333333
+
+b = 1
+c = 3
+print(c)
+# output
+# 3
+
+e = 1
+a = 3
+e = e / a
+print(e)
+# output
+# 0.3333333333333333
+
+a = 8
+a = 8
+print(a)
+# output
+# 8
+
+e = 4
+e = 5
+print(e)
+# output
+# 5
+
+a = 3
+b = 7
+d = a + a
+print(d)
+# output
+# 6
+
+d = 9
+d = 6
+b = d - 0
+print(b)
+# output
+# 6
+
+c = 9
+d = 5
+print(d)
+# output
+# 5
+
+e = 5
+print(e + e)
+# output
+# 10
+
+a = 1
+d = 3
+print(a * 2)
+# output
+# 2
+
+d = 7
+b = 9 / d
+print(d - d)
+# output
+# 0
+
+b = 8
+d = 6
+print(b / d)
+# output
+# 1.3333333333333333
+
+d = 7
+a = 4 * d
+print(d - 3)
+# output
+# 4
+
+d = 9
+c = 2
+print(c)
+# output
+# 2
+
+d = 1
+b = 4
+print(b)
+# output
+# 4
+
+d = 8
+b = 0 * d
+print(d - 7)
+# output
+# 1
+
+b = 1
+print(b - 9)
+# output
+# -8
+
+b = 0
+d = 7
+e = b + b
+print(d + b)
+# output
+# 7
+
+c = 8
+b = 3
+print(b)
+# output
+# 3
+
+c = 3
+print(c + 3)
+# output
+# 6
+
+c = 0
+d = 4
+e = c + 6
+print(e)
+# output
+# 6
+
+e = 1
+b = 8
+print(b)
+# output
+# 8
+
+e = 7
+print(e + e)
+# output
+# 14
+
+a = 9
+a = 2 + 7
+print(a)
+# output
+# 9
+
+d = 2
+print(d / 6)
+# output
+# 0.3333333333333333
+
+d = 9
+b = 4
+a = d + 3
+print(a)
+# output
+# 12
+
+c = 5
+b = c * c
+print(b)
+# output
+# 25
+
+d = 0
+c = 7
+print(d - d)
+# output
+# 0
+
+a = 9
+d = a * a
+print(d)
+# output
+# 81
+
+a = 0
+c = 8
+print(a)
+# output
+# 0
+
+e = 5
+b = 6
+print(e)
+# output
+# 5
+
+d = 8
+b = 2 + d
+print(b)
+# output
+# 10
+
+b = 7
+c = b * 6
+print(b * 9)
+# output
+# 63
+
+e = 6
+a = 4 - e
+print(a)
+# output
+# -2
+
+b = 8
+c = 3
+print(b)
+# output
+# 8
+
+e = 4
+a = e + 9
+print(a)
+# output
+# 13
+
+b = 3
+e = 1
+d = e * 6
+print(d)
+# output
+# 6
+
+a = 2
+e = 4
+a = a / 7
+print(a + a)
+# output
+# 0.5714285714285714
+
+c = 1
+a = 4 / 3
+print(c - 5)
+# output
+# -4
+
+a = 8
+print(a * a)
+# output
+# 64
+
+b = 9
+c = 6
+a = c * 6
+print(c / 6)
+# output
+# 1.0
+
+a = 1
+e = 6 + a
+print(a * 4)
+# output
+# 4
+
+a = 7
+e = 0
+d = 5 * e
+print(a * a)
+# output
+# 49
+
+a = 5
+d = 5
+print(d)
+# output
+# 5
+
+a = 7
+e = 4
+d = a / e
+print(d)
+# output
+# 1.75
+
+a = 5
+b = 5
+e = 9 - 2
+print(a * a)
+# output
+# 25
+
+d = 1
+d = d * 2
+print(d)
+# output
+# 2
+
+a = 3
+d = a - a
+print(d)
+# output
+# 0
+
+d = 1
+b = 2
+print(b)
+# output
+# 2
+
+d = 7
+e = 5
+e = e + d
+print(e)
+# output
+# 12
+
+d = 8
+b = 2
+e = 2 + b
+print(e)
+# output
+# 4
+
+a = 9
+e = 7
+print(e - e)
+# output
+# 0
+
+b = 8
+a = 8
+print(b - 4)
+# output
+# 4
+
+a = 2
+d = 8 * 2
+print(a * a)
+# output
+# 4
+
+c = 5
+c = 0
+print(c)
+# output
+# 0
+
+e = 3
+a = 9
+a = 8 - a
+print(a)
+# output
+# -1
+
+c = 0
+d = 2
+b = 0 / d
+print(b)
+# output
+# 0.0
+
+e = 2
+d = 9
+a = e - 2
+print(a)
+# output
+# 0
+
+b = 5
+b = 8
+c = b - b
+print(c)
+# output
+# 0
+
+b = 2
+a = b / b
+print(a)
+# output
+# 1.0
+
+a = 0
+b = a + a
+print(a / 9)
+# output
+# 0.0
+
+e = 8
+print(e)
+# output
+# 8
+
+b = 7
+c = 1
+print(c + 7)
+# output
+# 8
+
+b = 4
+a = 1
+a = 2 / b
+print(a)
+# output
+# 0.5
+
+e = 3
+e = e + 5
+print(e)
+# output
+# 8
+
+a = 4
+d = 7 + a
+print(a - 9)
+# output
+# -5
+
+b = 6
+c = 3
+b = 3 - 3
+print(c - c)
+# output
+# 0
+
+d = 5
+a = 0 * d
+print(a)
+# output
+# 0
+
+a = 7
+e = 1
+print(a + 3)
+# output
+# 10
+
+b = 9
+b = 1 / b
+print(b * 0)
+# output
+# 0.0
+
+d = 2
+e = 4
+a = d / 2
+print(e / 2)
+# output
+# 2.0
+
+b = 8
+d = 3
+a = 4 - 9
+print(d + b)
+# output
+# 11
+
+e = 8
+d = 6
+print(e + d)
+# output
+# 14
+
+b = 1
+e = b * b
+print(e)
+# output
+# 1
+
+e = 8
+a = 1
+d = 1 - 9
+print(e * e)
+# output
+# 64
+
+b = 5
+c = 4
+print(b)
+# output
+# 5
+
+d = 6
+a = 6
+print(a)
+# output
+# 6
+
+a = 0
+b = 7
+print(b)
+# output
+# 7
+
+c = 8
+b = 6
+print(c)
+# output
+# 8
+
+e = 1
+print(e - e)
+# output
+# 0
+
+b = 7
+c = 9
+print(b)
+# output
+# 7
+
+e = 6
+c = 1 / e
+print(e + e)
+# output
+# 12
+
+a = 4
+b = 4
+print(b * b)
+# output
+# 16
+
+d = 9
+d = 8 * d
+print(d * d)
+# output
+# 5184
+
+a = 8
+c = 2 / 7
+print(a * a)
+# output
+# 64
+
+b = 5
+e = 7 - 8
+print(e)
+# output
+# -1
+
+d = 2
+a = 4
+c = d * 0
+print(c)
+# output
+# 0
+
+d = 9
+c = 3
+e = d - 5
+print(d + c)
+# output
+# 12
+
+a = 2
+print(a / 4)
+# output
+# 0.5
+
+e = 2
+b = 3
+e = 1 - e
+print(b + 6)
+# output
+# 9
+
+d = 7
+a = d * d
+print(a)
+# output
+# 49
+
+d = 7
+print(d)
+# output
+# 7
+
+d = 5
+print(d * d)
+# output
+# 25
+
+e = 7
+b = 0
+c = b - b
+print(e * 4)
+# output
+# 28
+
+d = 0
+b = 2
+print(d * d)
+# output
+# 0
+
+d = 2
+b = 4 * d
+print(b)
+# output
+# 8
+
+d = 0
+c = 6
+e = 7 * c
+print(e)
+# output
+# 42
+
+b = 4
+print(b)
+# output
+# 4
+
+d = 9
+c = 7
+print(c + c)
+# output
+# 14
+
+e = 7
+print(e)
+# output
+# 7
+
+c = 6
+d = 1
+print(d)
+# output
+# 1
+
+a = 2
+c = 3 * 5
+print(c)
+# output
+# 15
+
+d = 7
+d = 8
+e = 7 * 5
+print(e)
+# output
+# 35
+
+b = 7
+d = b - 4
+print(b + 8)
+# output
+# 15
+
+e = 6
+print(e - 6)
+# output
+# 0
+
+a = 6
+a = 6
+c = 9 - 7
+print(a * 4)
+# output
+# 24
+
+d = 7
+d = 3
+e = d - d
+print(d * 0)
+# output
+# 0
+
+d = 7
+c = 9
+a = 0 + 9
+print(c * 4)
+# output
+# 36
+
+e = 8
+d = e - 9
+print(d)
+# output
+# -1
+
+b = 3
+a = 0
+print(a)
+# output
+# 0
+
+c = 8
+print(c)
+# output
+# 8
+
+c = 2
+c = c * c
+print(c - 5)
+# output
+# -1
+
+d = 6
+a = d - 2
+print(a)
+# output
+# 4
+
+b = 4
+b = 4
+b = b / 8
+print(b + 3)
+# output
+# 3.5
+
+e = 4
+d = 2 / e
+print(d)
+# output
+# 0.5
+
+a = 7
+print(a * a)
+# output
+# 49
+
+d = 8
+print(d / d)
+# output
+# 1.0
+
+c = 9
+d = c / 3
+print(d)
+# output
+# 3.0
+
+c = 5
+print(c / c)
+# output
+# 1.0
+
+e = 0
+b = 8
+c = b * b
+print(c)
+# output
+# 64
+
+e = 0
+e = e + e
+print(e)
+# output
+# 0
+
+b = 4
+c = 4
+print(b + 5)
+# output
+# 9
+
+e = 9
+b = 8
+a = 8 + 3
+print(b * 4)
+# output
+# 32
+
+d = 8
+d = 1
+e = d + d
+print(d / 5)
+# output
+# 0.2
+
+c = 3
+b = 7
+b = c + c
+print(b / 1)
+# output
+# 6.0
+
+e = 4
+e = 8 * 8
+print(e)
+# output
+# 64
+
+e = 9
+b = 1
+print(b)
+# output
+# 1
+
+d = 9
+b = 6
+a = 6 + 5
+print(a)
+# output
+# 11
+
+e = 7
+b = 1
+print(b)
+# output
+# 1
+
+d = 8
+a = 5
+print(d)
+# output
+# 8
+
+c = 4
+print(c - c)
+# output
+# 0
+
+c = 6
+print(c / 4)
+# output
+# 1.5
+
+a = 7
+b = 8
+e = 9 - 5
+print(a * a)
+# output
+# 49
+
+a = 9
+d = 9 + 5
+print(d)
+# output
+# 14
+
+b = 8
+b = 2
+a = 3 / b
+print(a)
+# output
+# 1.5
+
+d = 6
+d = 6
+d = d + d
+print(d)
+# output
+# 12
+
+b = 5
+d = b - b
+print(d)
+# output
+# 0
+
+b = 9
+c = 6 / b
+print(b * 2)
+# output
+# 18
+
+d = 8
+print(d - d)
+# output
+# 0
+
+d = 0
+e = 7
+c = d / 1
+print(e / e)
+# output
+# 1.0
+
+a = 4
+e = a / 2
+print(a + 1)
+# output
+# 5
+
+d = 2
+b = 5
+print(b)
+# output
+# 5
+
+b = 6
+c = 4
+print(b / b)
+# output
+# 1.0
+
+d = 8
+e = 8 * d
+print(d + d)
+# output
+# 16
+
+c = 4
+print(c * 4)
+# output
+# 16
+
+c = 6
+e = 2
+d = 6 + 1
+print(c * 1)
+# output
+# 6
+
+b = 0
+d = 8
+print(b * b)
+# output
+# 0
+
+c = 8
+print(c * c)
+# output
+# 64
+
+a = 6
+print(a)
+# output
+# 6
+
+b = 1
+c = 5
+print(c)
+# output
+# 5
+
+c = 6
+a = 4
+print(c)
+# output
+# 6
+
+b = 4
+b = 8
+d = b - 0
+print(d)
+# output
+# 8
+
+b = 4
+e = 8 - b
+print(e)
+# output
+# 4
+
+c = 4
+print(c * 8)
+# output
+# 32
+
+d = 4
+c = 0 + 1
+print(c)
+# output
+# 1
+
+d = 1
+c = 0
+d = d / 7
+print(d * 2)
+# output
+# 0.2857142857142857
+
+d = 6
+d = 3 / 7
+print(d * 7)
+# output
+# 3.0
+
+c = 4
+d = 8
+c = 7 + 6
+print(c)
+# output
+# 13
+
+d = 8
+d = 5
+e = 9 - d
+print(e)
+# output
+# 4
+
+d = 9
+b = 1
+d = d / 9
+print(b * b)
+# output
+# 1
+
+c = 1
+a = 2
+c = 2 * 3
+print(c)
+# output
+# 6
+
+b = 9
+c = 4
+print(b)
+# output
+# 9
+
+a = 4
+c = 0
+print(c - c)
+# output
+# 0
+
+e = 1
+c = 3
+print(e - 3)
+# output
+# -2
+
+d = 2
+b = 4
+e = 8 + 3
+print(d / 5)
+# output
+# 0.4
+
+c = 3
+a = c - 9
+print(a)
+# output
+# -6
+
+e = 8
+c = 7
+print(c)
+# output
+# 7
+
+e = 4
+b = 6 + e
+print(b)
+# output
+# 10
+
+e = 9
+d = 6
+print(e)
+# output
+# 9
+
+c = 1
+print(c - c)
+# output
+# 0
+
+d = 6
+a = 5
+a = 2 + a
+print(d - a)
+# output
+# -1
+
+b = 8
+c = 7
+print(b)
+# output
+# 8
+
+c = 8
+d = 4
+print(d / 9)
+# output
+# 0.4444444444444444
+
+d = 6
+b = d / d
+print(b)
+# output
+# 1.0
+
+c = 6
+e = 9
+d = 4 * c
+print(c - 8)
+# output
+# -2
+
+e = 1
+a = e + 8
+print(a)
+# output
+# 9
+
+c = 1
+b = 9 + 5
+print(c / 4)
+# output
+# 0.25
+
+b = 9
+d = b - b
+print(b - b)
+# output
+# 0
+
+d = 8
+a = 7
+print(d)
+# output
+# 8
+
+e = 5
+c = 4
+c = c - e
+print(e / c)
+# output
+# -5.0
+
+a = 3
+e = 4 * 7
+print(a - a)
+# output
+# 0
+
+c = 6
+c = 2
+print(c + c)
+# output
+# 4
+
+d = 2
+c = 5
+print(d * d)
+# output
+# 4
+
+d = 2
+e = d + 1
+print(e)
+# output
+# 3
+
+c = 4
+e = 3
+print(c * e)
+# output
+# 12
+
+c = 7
+a = 3
+a = 2 / c
+print(a)
+# output
+# 0.2857142857142857
+
+e = 7
+print(e / 7)
+# output
+# 1.0
+
+d = 7
+a = 6
+print(a)
+# output
+# 6
+
+b = 8
+b = 5 * 4
+print(b)
+# output
+# 20
+
+b = 5
+b = 0 - 7
+print(b)
+# output
+# -7
+
+c = 2
+print(c - c)
+# output
+# 0
+
+d = 1
+b = 6
+print(d)
+# output
+# 1
+
+e = 0
+d = e - 4
+print(d)
+# output
+# -4
+
+a = 5
+e = 5 * 9
+print(e)
+# output
+# 45
+
+d = 8
+a = d + d
+print(d - 3)
+# output
+# 5
+
+b = 4
+b = 9
+b = b + 4
+print(b)
+# output
+# 13
+
+b = 3
+e = 6
+print(b / 3)
+# output
+# 1.0
+
+e = 5
+c = 1
+print(c - e)
+# output
+# -4
+
+a = 2
+a = 4 + a
+print(a)
+# output
+# 6
+
+e = 4
+a = 5 - e
+print(e - 7)
+# output
+# -3
+
+d = 7
+b = 7 + d
+print(b)
+# output
+# 14
+
+e = 3
+e = e / e
+print(e / e)
+# output
+# 1.0
+
+e = 6
+print(e * 4)
+# output
+# 24
+
+d = 8
+print(d - 5)
+# output
+# 3
+
+d = 9
+c = 4
+e = d / c
+print(e)
+# output
+# 2.25
+
+c = 6
+a = 5
+d = c + 1
+print(d)
+# output
+# 7
+
+e = 0
+b = 2
+print(b * b)
+# output
+# 4
+
+c = 0
+b = 3 * 6
+print(c - 1)
+# output
+# -1
+
+a = 9
+e = 9
+d = 8 + 1
+print(a * 0)
+# output
+# 0
+
+e = 1
+a = 7
+print(a * 3)
+# output
+# 21
+
+d = 5
+print(d + 6)
+# output
+# 11
+
+a = 9
+b = 7
+print(b / 5)
+# output
+# 1.4
+
+a = 7
+print(a / 2)
+# output
+# 3.5
+
+a = 2
+a = 4
+print(a)
+# output
+# 4
+
+a = 9
+d = 2
+d = a + d
+print(d)
+# output
+# 11
+
+d = 4
+a = 2 * d
+print(a)
+# output
+# 8
+
+b = 6
+a = 4 / 9
+print(b - b)
+# output
+# 0
+
+a = 5
+b = 2
+print(b / a)
+# output
+# 0.4
+
+e = 8
+a = 9
+print(e)
+# output
+# 8
+
+d = 3
+b = 6 + 3
+print(b)
+# output
+# 9
+
+e = 6
+b = e * e
+print(e / 8)
+# output
+# 0.75
+
+b = 9
+c = 4 + 6
+print(c)
+# output
+# 10
+
+d = 4
+print(d * 6)
+# output
+# 24
+
+a = 6
+e = 7
+b = e + a
+print(a / 2)
+# output
+# 3.0
+
+b = 3
+print(b - b)
+# output
+# 0
+
+b = 2
+a = 0
+print(a * 2)
+# output
+# 0
+
+a = 1
+print(a)
+# output
+# 1
+
+e = 7
+c = 4
+print(e)
+# output
+# 7
+
+d = 8
+e = d + d
+print(e)
+# output
+# 16
+
+a = 0
+print(a + a)
+# output
+# 0
+
+a = 2
+c = a * 6
+print(a / a)
+# output
+# 1.0
+
+a = 9
+c = 7 / 9
+print(c)
+# output
+# 0.7777777777777778
+
+a = 4
+print(a * a)
+# output
+# 16
+
+b = 0
+c = 3
+print(b)
+# output
+# 0
+
+d = 7
+d = 9
+e = 3 * d
+print(d - 9)
+# output
+# 0
+
+a = 9
+e = 3
+print(a + 1)
+# output
+# 10
+
+b = 9
+print(b / 6)
+# output
+# 1.5
+
+d = 9
+c = 5
+e = c / 7
+print(e)
+# output
+# 0.7142857142857143
+
+d = 6
+e = 0
+print(d * d)
+# output
+# 36
+
+e = 2
+b = 7
+print(e)
+# output
+# 2
+
+c = 7
+c = 4
+d = 6 * c
+print(c / c)
+# output
+# 1.0
+
+b = 8
+b = 5
+print(b)
+# output
+# 5
+
+d = 3
+a = 2
+print(d - a)
+# output
+# 1
+
+b = 8
+d = 3
+print(d / d)
+# output
+# 1.0
+
+a = 9
+b = 7
+print(b - b)
+# output
+# 0
+
+e = 5
+print(e - 0)
+# output
+# 5
+
+a = 7
+c = 1
+a = a / 1
+print(a * c)
+# output
+# 7.0
+
+e = 6
+c = e + e
+print(e + e)
+# output
+# 12
+
+a = 3
+d = 4
+print(a)
+# output
+# 3
+
+d = 9
+print(d * 9)
+# output
+# 81
+
+a = 5
+e = 1
+print(a)
+# output
+# 5
+
+d = 7
+c = 0 + 7
+print(c)
+# output
+# 7
+
+e = 9
+a = 1
+c = 9 * a
+print(e + 9)
+# output
+# 18
+
+b = 6
+print(b)
+# output
+# 6
+
+b = 6
+e = b + b
+print(b + 1)
+# output
+# 7
+
+c = 5
+e = 8 + c
+print(e)
+# output
+# 13
+
+c = 4
+d = 3
+print(c)
+# output
+# 4
+
+a = 6
+b = 6
+a = 3 - 3
+print(a)
+# output
+# 0
+
+e = 6
+b = 1
+d = e / e
+print(d)
+# output
+# 1.0
+
+d = 4
+b = 6
+a = 0 / d
+print(a)
+# output
+# 0.0
+
+d = 9
+d = 7
+print(d)
+# output
+# 7
+
+d = 0
+print(d * d)
+# output
+# 0
+
+e = 7
+a = 7
+a = 7 - e
+print(a * 0)
+# output
+# 0
+
+b = 7
+e = b - b
+print(b - 5)
+# output
+# 2
+
+b = 6
+b = 4
+b = b / b
+print(b - 4)
+# output
+# -3.0
+
+d = 3
+d = d / d
+print(d - 8)
+# output
+# -7.0
+
+d = 5
+c = 9 + d
+print(c)
+# output
+# 14
+
+b = 9
+a = 3
+d = b / 7
+print(d)
+# output
+# 1.2857142857142858
+
+e = 7
+b = 6
+print(b * 6)
+# output
+# 36
+
+e = 4
+print(e + e)
+# output
+# 8
+
+a = 7
+b = a / a
+print(a * a)
+# output
+# 49
+
+e = 8
+b = 6 / e
+print(e / 2)
+# output
+# 4.0
+
+d = 2
+a = 6
+print(d)
+# output
+# 2
+
+b = 2
+a = 8
+d = b / 6
+print(a / 5)
+# output
+# 1.6
+
+b = 9
+e = 1
+print(e)
+# output
+# 1
+
+d = 4
+e = 0
+b = e * 0
+print(b)
+# output
+# 0
+
+e = 9
+e = e - 7
+print(e)
+# output
+# 2
+
+c = 9
+a = 4
+a = 8 - 5
+print(a + 8)
+# output
+# 11
+
+d = 1
+b = 1
+a = 2 / b
+print(d + 9)
+# output
+# 10
+
+d = 9
+a = 2
+b = 7 - d
+print(a / d)
+# output
+# 0.2222222222222222
+
+d = 8
+b = d * d
+print(d * d)
+# output
+# 64
+
+c = 3
+a = 0
+e = c / 3
+print(a + c)
+# output
+# 3
+
+c = 6
+a = 4
+print(c / c)
+# output
+# 1.0
+
+b = 8
+a = 5 - b
+print(a)
+# output
+# -3
+
+e = 8
+e = 0
+print(e + e)
+# output
+# 0
+
+b = 5
+a = 1
+print(b)
+# output
+# 5
+
+e = 2
+c = 2
+print(c * 6)
+# output
+# 12
+
+e = 3
+print(e / 6)
+# output
+# 0.5
+
+a = 6
+d = 8
+print(a)
+# output
+# 6
+
+e = 4
+c = 9
+e = 8 - e
+print(e / 3)
+# output
+# 1.3333333333333333
+
+e = 7
+d = 0
+e = 9 - 1
+print(e - 7)
+# output
+# 1
+
+d = 6
+print(d + d)
+# output
+# 12
+
+c = 0
+d = 5
+print(c)
+# output
+# 0
+
+d = 2
+print(d)
+# output
+# 2
+
+b = 8
+d = 9
+a = d + 5
+print(a)
+# output
+# 14
+
+b = 1
+a = b + b
+print(b / b)
+# output
+# 1.0
+
+b = 5
+print(b + b)
+# output
+# 10
+
+b = 3
+b = 5
+d = b * 2
+print(d)
+# output
+# 10
+
+e = 8
+a = 1
+c = 5 * 9
+print(a * 9)
+# output
+# 9
+
+c = 3
+a = 3
+print(c / 7)
+# output
+# 0.42857142857142855
+
+c = 6
+a = 0 / 5
+print(a)
+# output
+# 0.0
+
+c = 0
+a = 3
+print(c + a)
+# output
+# 3
+
+d = 0
+a = 4
+print(a)
+# output
+# 4
+
+e = 3
+print(e)
+# output
+# 3
+
+a = 5
+print(a / 5)
+# output
+# 1.0
+
+c = 4
+e = 1
+e = 4 / e
+print(e)
+# output
+# 4.0
+
+a = 7
+c = a / a
+print(c)
+# output
+# 1.0
+
+a = 3
+c = 6
+d = c / 7
+print(c - 1)
+# output
+# 5
+
+b = 8
+a = 2 + b
+print(a)
+# output
+# 10
+
+b = 6
+a = 5
+print(a)
+# output
+# 5
+
+b = 7
+b = 8
+print(b)
+# output
+# 8
+
+c = 5
+d = 2
+print(d + 4)
+# output
+# 6
+
+b = 1
+print(b)
+# output
+# 1
+
+e = 1
+b = 0
+print(b)
+# output
+# 0
+
+d = 3
+b = 5
+print(d)
+# output
+# 3
+
+a = 1
+print(a * 0)
+# output
+# 0
+
+a = 2
+print(a + a)
+# output
+# 4
+
+d = 0
+b = 4
+print(b)
+# output
+# 4
+
+d = 0
+a = 9
+print(a * 7)
+# output
+# 63
+
+c = 9
+print(c / c)
+# output
+# 1.0
+
+c = 5
+e = 1
+print(c)
+# output
+# 5
+
+d = 4
+d = 3
+b = d + 7
+print(b)
+# output
+# 10
+
+e = 9
+e = 3
+b = e / 8
+print(e + e)
+# output
+# 6
+
+c = 6
+e = 0
+print(e + 1)
+# output
+# 1
+
+b = 1
+e = 7
+e = b * 4
+print(e + e)
+# output
+# 8
+
+b = 3
+e = 8
+print(e)
+# output
+# 8
+
+d = 3
+print(d)
+# output
+# 3
+
+d = 8
+e = 2
+print(d + 2)
+# output
+# 10
+
+e = 5
+d = 2 - e
+print(d)
+# output
+# -3
+
+e = 6
+b = 9
+print(e)
+# output
+# 6
+
+c = 4
+b = 2
+d = 6 + 3
+print(b + 9)
+# output
+# 11
+
+d = 0
+print(d)
+# output
+# 0
+
+b = 1
+c = b + 3
+print(c)
+# output
+# 4
+
+c = 5
+print(c - c)
+# output
+# 0
+
+e = 3
+e = 4
+c = 6 - e
+print(e + 3)
+# output
+# 7
+
+d = 4
+e = 3
+a = 9 - 9
+print(d * 4)
+# output
+# 16
+
+d = 4
+a = 1
+print(d)
+# output
+# 4
+
+d = 6
+print(d)
+# output
+# 6
+
+e = 2
+a = 6
+print(a)
+# output
+# 6
+
+b = 0
+d = 0
+print(d)
+# output
+# 0
+
+b = 2
+print(b - b)
+# output
+# 0
+
+e = 8
+a = 6 / e
+print(e * e)
+# output
+# 64
+
+b = 2
+c = 1
+print(b + 2)
+# output
+# 4
+
+e = 7
+a = e + e
+print(a)
+# output
+# 14
+
+c = 5
+e = 0
+print(c)
+# output
+# 5
+
+a = 3
+b = 2
+c = b * 7
+print(c)
+# output
+# 14
+
+c = 6
+a = 6
+print(a)
+# output
+# 6
+
+a = 2
+b = 2 / 8
+print(a / 8)
+# output
+# 0.25
+
+e = 3
+a = 4
+print(e)
+# output
+# 3
+
+c = 4
+d = 3
+print(d + 6)
+# output
+# 9
+
+e = 6
+b = 5
+c = 4 / 9
+print(e * 6)
+# output
+# 36
+
+d = 2
+a = 0
+e = 7 / 8
+print(d + a)
+# output
+# 2
+
+e = 4
+b = e * e
+print(e * 7)
+# output
+# 28
+
+a = 4
+e = 9
+print(e + a)
+# output
+# 13
+
+b = 8
+a = 4
+d = 5 - b
+print(b * 3)
+# output
+# 24
+
+b = 1
+d = 5 * b
+print(d)
+# output
+# 5
+
+a = 1
+a = a + a
+print(a + a)
+# output
+# 4
+
+a = 1
+d = a / 4
+print(d)
+# output
+# 0.25
+
+a = 9
+a = 5
+e = a / 7
+print(e)
+# output
+# 0.7142857142857143
+
+d = 2
+d = 2 + d
+print(d)
+# output
+# 4
+
+e = 0
+a = 2
+c = e + e
+print(c)
+# output
+# 0
+
+e = 3
+print(e + 8)
+# output
+# 11
+
+c = 0
+d = c + 6
+print(c * c)
+# output
+# 0
+
+c = 7
+b = 9 / c
+print(b)
+# output
+# 1.2857142857142858
+
+a = 6
+e = 6
+a = e * a
+print(a)
+# output
+# 36
+
+e = 3
+c = e + e
+print(e - e)
+# output
+# 0
+
+a = 2
+a = 5
+d = a + a
+print(d)
+# output
+# 10
+
+e = 8
+a = 0
+c = a + a
+print(a * 7)
+# output
+# 0
+
+d = 1
+b = 3
+b = b / 8
+print(b / d)
+# output
+# 0.375
+
+b = 1
+c = 1
+d = c / 5
+print(b - 0)
+# output
+# 1
+
+b = 8
+a = 6
+print(b)
+# output
+# 8
+
+c = 1
+print(c + c)
+# output
+# 2
+
+a = 4
+a = 5
+a = a * 7
+print(a / a)
+# output
+# 1.0
+
+c = 9
+a = c * 1
+print(c / 1)
+# output
+# 9.0
+
+e = 6
+b = 1
+print(b - 2)
+# output
+# -1
+
+b = 6
+c = 4
+e = c + c
+print(e)
+# output
+# 8
+
+b = 9
+b = 9
+d = 7 + b
+print(d)
+# output
+# 16
+
+d = 9
+c = 7 - d
+print(d - d)
+# output
+# 0
+
+b = 3
+e = 6
+print(b)
+# output
+# 3
+
+c = 6
+c = 1 * 4
+print(c)
+# output
+# 4
+
+a = 9
+print(a - a)
+# output
+# 0
+
+d = 3
+b = 2
+a = d * b
+print(d / 6)
+# output
+# 0.5
+
+e = 1
+d = 5
+c = d * d
+print(d / 2)
+# output
+# 2.5
+
+d = 9
+print(d * 6)
+# output
+# 54
+
+b = 8
+d = 5
+e = 8 - b
+print(d / 3)
+# output
+# 1.6666666666666667
+
+e = 8
+d = 5
+a = e - d
+print(e / e)
+# output
+# 1.0
+
+d = 3
+d = 7
+print(d)
+# output
+# 7
+
+a = 0
+print(a)
+# output
+# 0
+
+a = 5
+a = 2
+print(a * a)
+# output
+# 4
+
+e = 2
+print(e * e)
+# output
+# 4
+
+b = 3
+c = 7
+print(c / 3)
+# output
+# 2.3333333333333335
+
+c = 3
+b = 0
+d = c + b
+print(d)
+# output
+# 3
+
+a = 3
+print(a)
+# output
+# 3
+
+d = 3
+c = 0
+a = c * 5
+print(c / 5)
+# output
+# 0.0
+
+d = 6
+c = d - d
+print(c)
+# output
+# 0
+
+c = 3
+a = 8
+e = a + a
+print(a - a)
+# output
+# 0
+
+c = 5
+a = 9 / c
+print(a)
+# output
+# 1.8
+
+e = 5
+print(e * 5)
+# output
+# 25
+
+d = 2
+d = d - d
+print(d)
+# output
+# 0
+
+c = 4
+d = 9
+b = 6 + 9
+print(b)
+# output
+# 15
+
+e = 6
+c = 4
+b = c + c
+print(e / e)
+# output
+# 1.0
+
+c = 1
+print(c)
+# output
+# 1
+
+d = 0
+e = 3
+print(e)
+# output
+# 3
+
+a = 4
+c = 7
+print(a)
+# output
+# 4
+
+e = 9
+e = e / e
+print(e - 0)
+# output
+# 1.0
+
+c = 7
+print(c * 4)
+# output
+# 28
+
+a = 9
+e = 1 - a
+print(a - 1)
+# output
+# 8
+
+e = 0
+a = 3
+print(a)
+# output
+# 3
+
+c = 6
+d = 8
+print(d / 4)
+# output
+# 2.0
+
+a = 7
+b = 0
+e = 7 - a
+print(b / 7)
+# output
+# 0.0
+
+d = 9
+print(d)
+# output
+# 9
+
+c = 3
+e = 0
+d = e + e
+print(d)
+# output
+# 0
+
+b = 6
+e = 1
+e = 5 / 1
+print(e - 2)
+# output
+# 3.0
+
+e = 6
+a = 8 - e
+print(e + 3)
+# output
+# 9
+
+b = 8
+b = 9 - 6
+print(b)
+# output
+# 3
+
+d = 1
+d = 0
+b = 2 * d
+print(b)
+# output
+# 0
+
+c = 5
+e = 6
+e = e + 2
+print(e)
+# output
+# 8
+
+e = 1
+c = 8
+print(c * 2)
+# output
+# 16
+
+b = 8
+print(b)
+# output
+# 8
+
+c = 2
+b = 0 * c
+print(c + c)
+# output
+# 4
+
+a = 0
+print(a - 9)
+# output
+# -9
+
+e = 9
+e = e * 2
+print(e)
+# output
+# 18
+
+b = 6
+b = 5
+print(b)
+# output
+# 5
+
+a = 1
+b = 3
+print(a)
+# output
+# 1
+
+a = 2
+d = 1
+print(d)
+# output
+# 1
+
+d = 4
+print(d - d)
+# output
+# 0
+
+a = 9
+b = a * 0
+print(a / a)
+# output
+# 1.0
+
+e = 4
+c = 2
+e = e - 0
+print(c * c)
+# output
+# 4
+
+b = 7
+print(b)
+# output
+# 7
+
+c = 7
+print(c)
+# output
+# 7
+
+d = 3
+print(d * 7)
+# output
+# 21
+
+c = 2
+d = 9
+print(d)
+# output
+# 9
+
+b = 0
+e = 1
+print(b)
+# output
+# 0
+
+b = 2
+e = b - 5
+print(e)
+# output
+# -3
+
+e = 9
+print(e + 9)
+# output
+# 18
+
+a = 6
+e = a / 7
+print(a + 4)
+# output
+# 10
+
+e = 0
+print(e)
+# output
+# 0
+
+a = 5
+c = 8
+print(a)
+# output
+# 5
+
+b = 9
+print(b)
+# output
+# 9
+
+e = 8
+d = 2 - 0
+print(d)
+# output
+# 2
+
+c = 6
+d = 9 - 5
+print(c / 1)
+# output
+# 6.0
+
+c = 6
+print(c / c)
+# output
+# 1.0
+
+b = 1
+c = 0
+print(c / 2)
+# output
+# 0.0
+
+a = 0
+c = 5
+print(c * 0)
+# output
+# 0
+
+b = 6
+c = 1
+print(c / 3)
+# output
+# 0.3333333333333333
+
+e = 8
+b = e / 6
+print(b)
+# output
+# 1.3333333333333333
+
+b = 3
+print(b - 6)
+# output
+# -3
+
+c = 9
+e = 3 - 8
+print(c + 9)
+# output
+# 18
+
+e = 7
+b = 2
+print(e)
+# output
+# 7
+
+a = 2
+d = 1
+b = a / d
+print(b)
+# output
+# 2.0
+
+e = 4
+b = 8
+d = 4 + b
+print(d)
+# output
+# 12
+
+b = 9
+c = 6
+print(c)
+# output
+# 6
+
+c = 5
+d = 3
+e = 2 + 6
+print(d / 8)
+# output
+# 0.375
+
+b = 8
+print(b * 1)
+# output
+# 8
+
+b = 7
+a = b - 9
+print(b - 6)
+# output
+# 1
+
+d = 0
+b = d * d
+print(b)
+# output
+# 0
+
+c = 0
+c = 1 * c
+print(c - c)
+# output
+# 0
+
+b = 6
+a = 2
+d = 9 - b
+print(b - 0)
+# output
+# 6
+
+c = 1
+c = c * 8
+print(c)
+# output
+# 8
+
+c = 1
+e = 6
+print(e / 7)
+# output
+# 0.8571428571428571
+
+b = 2
+b = 6
+print(b - 6)
+# output
+# 0
+
+a = 5
+e = 8
+b = a / a
+print(e - e)
+# output
+# 0
+
+e = 4
+b = 3
+print(b)
+# output
+# 3
+
+a = 5
+print(a / 3)
+# output
+# 1.6666666666666667
+
+a = 8
+b = 5
+print(b / 2)
+# output
+# 2.5
+
+c = 6
+b = 2
+c = b - 4
+print(b + c)
+# output
+# 0
+
+e = 1
+c = e + 5
+print(e + 7)
+# output
+# 8
+
+e = 8
+print(e * e)
+# output
+# 64
+
+b = 3
+a = 0
+c = 6 - 1
+print(c)
+# output
+# 5
+
+a = 9
+a = a - 6
+print(a - a)
+# output
+# 0
+
+e = 1
+a = 0 - 8
+print(a)
+# output
+# -8
+
+d = 6
+d = 2
+c = d - 0
+print(c)
+# output
+# 2
+
+e = 7
+c = e + e
+print(c)
+# output
+# 14
+
+b = 2
+print(b * 6)
+# output
+# 12
+
+d = 5
+c = 8
+b = c + c
+print(c + 6)
+# output
+# 14
+
+a = 9
+b = 0
+d = a + a
+print(d)
+# output
+# 18
+
+d = 4
+c = 6
+d = 1 - 6
+print(d)
+# output
+# -5
+
+c = 4
+a = 7
+a = c + a
+print(a + 5)
+# output
+# 16
+
+e = 2
+b = e / e
+print(e + 8)
+# output
+# 10
+
+c = 6
+b = 3 + 1
+print(b)
+# output
+# 4
+
+d = 9
+b = 2
+c = 3 / d
+print(b - b)
+# output
+# 0
+
+e = 3
+print(e - e)
+# output
+# 0
+
+a = 1
+print(a / 2)
+# output
+# 0.5
+
+e = 5
+print(e / e)
+# output
+# 1.0
+
+a = 6
+e = a + a
+print(a + a)
+# output
+# 12
+
+a = 5
+b = 7
+print(b / 2)
+# output
+# 3.5
+
+d = 9
+b = 9
+a = b - d
+print(a)
+# output
+# 0
+
+a = 2
+print(a)
+# output
+# 2
+
+a = 2
+e = 0
+a = a * a
+print(a)
+# output
+# 4
+
+c = 7
+a = 9
+print(a - 2)
+# output
+# 7
+
+b = 6
+c = 5
+print(b / b)
+# output
+# 1.0
+
+d = 8
+e = 3
+a = d / d
+print(e / e)
+# output
+# 1.0
+
+d = 6
+a = 6
+print(a / a)
+# output
+# 1.0
+
+a = 9
+d = 1
+d = 5 + 5
+print(a / 9)
+# output
+# 1.0
+
+b = 2
+a = 7
+print(a)
+# output
+# 7
+
+e = 5
+a = 5
+a = e / 4
+print(a)
+# output
+# 1.25
+
+b = 0
+print(b)
+# output
+# 0
+
+e = 6
+print(e - e)
+# output
+# 0
+
+c = 9
+d = 7 * c
+print(d)
+# output
+# 63
+
+a = 3
+c = 5
+e = 2 + a
+print(e)
+# output
+# 5
+
+e = 8
+e = 4
+print(e)
+# output
+# 4
+
+a = 6
+c = 3
+a = 4 / 7
+print(a)
+# output
+# 0.5714285714285714
+
+a = 9
+d = 8
+print(a)
+# output
+# 9
+
+d = 7
+d = 5
+print(d)
+# output
+# 5
+
+d = 9
+b = 6
+print(b - b)
+# output
+# 0
+
+e = 9
+print(e / e)
+# output
+# 1.0
+
+e = 3
+a = e * e
+print(e * 0)
+# output
+# 0
+
+c = 1
+e = 9
+d = 6 * 8
+print(e - e)
+# output
+# 0
+
+b = 3
+print(b)
+# output
+# 3
+
+b = 8
+a = 2
+c = b + 1
+print(b * a)
+# output
+# 16
+
+b = 3
+a = 6
+a = 8 - 0
+print(a)
+# output
+# 8
+
+d = 2
+e = 6
+print(e - 2)
+# output
+# 4
+
+c = 0
+b = 8
+print(c)
+# output
+# 0
+
+e = 1
+b = 7
+print(b - 0)
+# output
+# 7
+
+d = 4
+d = d / d
+print(d / 3)
+# output
+# 0.3333333333333333
+
+d = 5
+print(d - d)
+# output
+# 0
+
+a = 4
+a = 4
+print(a)
+# output
+# 4
+
+c = 2
+e = 2
+print(c - 1)
+# output
+# 1
+
+d = 3
+b = 4
+print(b)
+# output
+# 4
+
+e = 5
+e = e - e
+print(e - e)
+# output
+# 0
+
+e = 4
+b = 8
+e = e - 6
+print(b / 6)
+# output
+# 1.3333333333333333
+
+e = 7
+b = 7
+c = 7 - e
+print(b + 2)
+# output
+# 9
+
+e = 2
+print(e)
+# output
+# 2
+
+c = 9
+b = 8 / c
+print(b)
+# output
+# 0.8888888888888888
+
+d = 9
+print(d / d)
+# output
+# 1.0
+
+d = 1
+c = 7
+print(d)
+# output
+# 1
+
+b = 3
+d = 8
+a = d - 6
+print(a)
+# output
+# 2
+
+b = 7
+e = 4
+d = 0 - b
+print(b - e)
+# output
+# 3
+
+b = 7
+a = 1
+print(a)
+# output
+# 1
+
+c = 1
+a = 7
+print(a)
+# output
+# 7
+
+a = 4
+d = 2
+print(a)
+# output
+# 4
+
+d = 2
+d = 6 * d
+print(d)
+# output
+# 12
+
+b = 5
+e = 8
+b = e / e
+print(b * 0)
+# output
+# 0.0
+
+e = 7
+e = 6
+b = e * 5
+print(e * e)
+# output
+# 36
+
+d = 6
+a = d / d
+print(a)
+# output
+# 1.0
+
+b = 8
+c = 7 / 7
+print(b + b)
+# output
+# 16
+
+e = 4
+d = 1
+print(e)
+# output
+# 4
+
+d = 0
+e = 8
+print(e * e)
+# output
+# 64
+
+d = 1
+b = 8
+print(d * 1)
+# output
+# 1
+
+e = 8
+e = 4
+d = 5 * 3
+print(d)
+# output
+# 15
+
+e = 3
+e = e / 1
+print(e)
+# output
+# 3.0
+
+d = 1
+d = 5 / 7
+print(d / d)
+# output
+# 1.0
+
+b = 0
+a = b * b
+print(b + b)
+# output
+# 0
+
+d = 3
+d = 6
+print(d + d)
+# output
+# 12
+
+e = 9
+e = 9
+print(e + e)
+# output
+# 18
+
+a = 7
+print(a)
+# output
+# 7
+
+b = 5
+d = 1
+e = d - 7
+print(d + b)
+# output
+# 6
+
+e = 0
+c = e / 4
+print(e + 6)
+# output
+# 6
+
+c = 8
+print(c / 1)
+# output
+# 8.0
+
+c = 5
+c = 8
+print(c / 5)
+# output
+# 1.6
+
+b = 2
+print(b)
+# output
+# 2
+
+e = 7
+e = 9
+print(e)
+# output
+# 9
+
+d = 3
+d = 8
+print(d)
+# output
+# 8
+
+a = 4
+e = 4
+print(e)
+# output
+# 4
+
+b = 6
+b = 4 - b
+print(b + 0)
+# output
+# -2
+
+e = 4
+b = e + e
+print(e / e)
+# output
+# 1.0
+
+d = 2
+e = 2
+print(e)
+# output
+# 2
+
+e = 0
+e = 3
+print(e / 6)
+# output
+# 0.5
+
+d = 4
+b = 8 * d
+print(d * d)
+# output
+# 16
+
+d = 9
+e = 9
+b = e + 2
+print(e - e)
+# output
+# 0
+
+a = 0
+b = a + a
+print(b)
+# output
+# 0
+
+d = 4
+print(d)
+# output
+# 4
+
+d = 4
+print(d + 4)
+# output
+# 8
+
+c = 7
+print(c / c)
+# output
+# 1.0
+
+d = 7
+e = 8
+print(e / d)
+# output
+# 1.1428571428571428
+
+d = 7
+d = 2
+print(d)
+# output
+# 2
+
+c = 7
+e = 3
+e = 0 + 0
+print(e)
+# output
+# 0
+
+b = 7
+print(b / 4)
+# output
+# 1.75
+
+b = 5
+b = 5
+print(b + b)
+# output
+# 10
+
+c = 4
+b = 5
+print(c + c)
+# output
+# 8
+
+c = 4
+e = 4
+print(c * c)
+# output
+# 16
+
+e = 3
+b = e * 6
+print(e / e)
+# output
+# 1.0
+
+c = 8
+b = 7
+c = c + c
+print(c - c)
+# output
+# 0
+
+d = 4
+e = 3
+b = 0 + 8
+print(b)
+# output
+# 8
+
+d = 5
+d = d - d
+print(d)
+# output
+# 0
+
+e = 6
+d = 3 + e
+print(d)
+# output
+# 9
+
+e = 2
+c = 5
+a = e / 3
+print(e / e)
+# output
+# 1.0
+
+a = 3
+a = a * a
+print(a)
+# output
+# 9
+
+b = 2
+a = b - b
+print(b - 6)
+# output
+# -4
+
+b = 8
+b = b / 8
+print(b)
+# output
+# 1.0
+
+d = 1
+b = 2 / d
+print(b)
+# output
+# 2.0
+
+d = 2
+print(d - 0)
+# output
+# 2
+
+a = 7
+a = 7
+print(a + a)
+# output
+# 14
+
+a = 4
+print(a - a)
+# output
+# 0
+
+c = 6
+a = 4
+print(a)
+# output
+# 4
+
+d = 5
+b = 2
+b = d * d
+print(b)
+# output
+# 25
+
+d = 6
+b = 2
+print(d)
+# output
+# 6
+
+d = 2
+a = 3
+e = 1 + a
+print(e)
+# output
+# 4
+
+d = 6
+d = 0
+b = d * 5
+print(d * d)
+# output
+# 0
+
+b = 1
+print(b * 6)
+# output
+# 6
+
+e = 9
+d = 2 - e
+print(e - 1)
+# output
+# 8
+
+b = 3
+c = 2 / b
+print(b * 8)
+# output
+# 24
+
+c = 0
+a = 7
+print(a * a)
+# output
+# 49
+
+c = 6
+b = 6
+print(b)
+# output
+# 6
+
+e = 5
+e = 6
+print(e)
+# output
+# 6
+
+b = 6
+c = 1
+print(b)
+# output
+# 6
+
+c = 0
+a = 1
+print(a)
+# output
+# 1
+
+b = 0
+a = 4
+print(a * 1)
+# output
+# 4
+
+a = 7
+e = a + 9
+print(a * 9)
+# output
+# 63
+
+e = 1
+e = 6 / 6
+print(e)
+# output
+# 1.0
+
+d = 7
+a = 0
+print(a)
+# output
+# 0
+
+a = 1
+e = 7 - a
+print(e)
+# output
+# 6
+
+b = 4
+print(b + b)
+# output
+# 8
+
+e = 6
+b = 5
+a = 4 / b
+print(a)
+# output
+# 0.8
+
+c = 4
+d = 4
+e = c - c
+print(e)
+# output
+# 0
+
+c = 8
+e = 7
+print(e * 3)
+# output
+# 21
+
+d = 1
+a = 3
+d = 7 - a
+print(d / d)
+# output
+# 1.0
+
+c = 8
+print(c / 3)
+# output
+# 2.6666666666666665
+
+e = 3
+d = 5
+print(e - 1)
+# output
+# 2
+
+d = 0
+b = 4
+print(d)
+# output
+# 0
+
+a = 8
+d = 2
+a = d - 8
+print(a)
+# output
+# -6
+
+c = 7
+c = 7
+print(c / 8)
+# output
+# 0.875
+
+c = 9
+e = 9
+print(c / c)
+# output
+# 1.0
+
+c = 4
+d = 5
+d = c / 1
+print(d + c)
+# output
+# 8.0
+
+e = 1
+d = 0
+d = 4 - d
+print(d - 7)
+# output
+# -3
+
+e = 2
+e = 6
+a = e - e
+print(e + e)
+# output
+# 12
+
+c = 9
+e = 8
+b = 9 * e
+print(b)
+# output
+# 72
+
+a = 4
+a = 4
+a = 7 / a
+print(a)
+# output
+# 1.75
+
+b = 8
+b = 8
+print(b)
+# output
+# 8
+
+a = 8
+print(a - a)
+# output
+# 0
+
+e = 4
+d = 7
+d = e * 8
+print(e / 1)
+# output
+# 4.0
+
+e = 7
+d = e + e
+print(d)
+# output
+# 14
+
+b = 6
+a = 5
+d = b + 9
+print(d)
+# output
+# 15
+
+b = 2
+d = 5 * b
+print(b * 0)
+# output
+# 0
+
+c = 1
+e = c / c
+print(c + 5)
+# output
+# 6
+
+d = 2
+d = 7
+d = 7 + 4
+print(d / 9)
+# output
+# 1.2222222222222223
+
+a = 0
+c = 3
+c = 2 + 5
+print(c)
+# output
+# 7
+
+c = 4
+d = 6
+e = d / d
+print(c / c)
+# output
+# 1.0
+
+d = 6
+d = 8
+e = d - 9
+print(d / 4)
+# output
+# 2.0
+
+c = 0
+b = 1
+c = 4 - 0
+print(b + b)
+# output
+# 2
+
+a = 3
+c = a * a
+print(c)
+# output
+# 9
+
+a = 8
+c = 3
+e = 4 + 1
+print(a / a)
+# output
+# 1.0
+
+a = 3
+b = 7 - a
+print(b)
+# output
+# 4
+
+b = 0
+e = 2 / 1
+print(b - 2)
+# output
+# -2
+
+a = 8
+a = 4 - a
+print(a)
+# output
+# -4
+
+a = 9
+d = a / a
+print(a + 6)
+# output
+# 15
+
+a = 2
+print(a * 6)
+# output
+# 12
+
+b = 7
+d = 6
+a = 0 / d
+print(b - 3)
+# output
+# 4
+
+e = 3
+d = e - 2
+print(e / e)
+# output
+# 1.0
+
+b = 9
+a = 8
+c = b + a
+print(b / 4)
+# output
+# 2.25
+
+b = 0
+b = 1
+a = 1 + b
+print(b - 7)
+# output
+# -6
+
+c = 8
+e = 8
+print(e * c)
+# output
+# 64
+
+b = 3
+d = b * b
+print(d)
+# output
+# 9
+
+b = 2
+c = 7
+c = c + c
+print(c)
+# output
+# 14
+
+d = 9
+e = 5
+print(d)
+# output
+# 9
+
+d = 5
+d = d / d
+print(d - 4)
+# output
+# -3.0
+
+a = 3
+print(a + 3)
+# output
+# 6
+
+c = 4
+b = 5
+c = 0 / c
+print(c)
+# output
+# 0.0
+
+b = 3
+a = 5
+print(a + a)
+# output
+# 10
+
+d = 1
+a = 6
+print(d)
+# output
+# 1
+
+c = 3
+d = 5
+a = c - c
+print(c / d)
+# output
+# 0.6
+
+b = 6
+e = 5
+print(b)
+# output
+# 6
+
+c = 0
+a = c - c
+print(a)
+# output
+# 0
+
+c = 7
+c = c + 2
+print(c - 1)
+# output
+# 8
+
+c = 3
+d = 9
+print(c * 3)
+# output
+# 9
+
+a = 5
+a = 9
+print(a)
+# output
+# 9
+
+b = 4
+e = b - 0
+print(b - 9)
+# output
+# -5
+
+b = 1
+c = 5
+e = c * b
+print(c - b)
+# output
+# 4
+
+d = 0
+d = d + 7
+print(d)
+# output
+# 7
+
+c = 9
+c = 9
+print(c - 4)
+# output
+# 5
+
+e = 8
+c = 7
+e = e - c
+print(e)
+# output
+# 1
+
+b = 9
+c = 6
+a = c + c
+print(c * 5)
+# output
+# 30
+
+e = 6
+d = 1 - 3
+print(d)
+# output
+# -2
+
+b = 9
+c = b - 8
+print(c)
+# output
+# 1
+
+c = 0
+print(c / 2)
+# output
+# 0.0
+
+d = 2
+b = 1 / 8
+print(d - d)
+# output
+# 0
+
+d = 5
+print(d)
+# output
+# 5
+
+d = 2
+print(d / d)
+# output
+# 1.0
+
+c = 1
+b = 1
+print(c)
+# output
+# 1
+
+d = 4
+b = 6 / 2
+print(b)
+# output
+# 3.0
+
+c = 2
+print(c)
+# output
+# 2
+
+d = 4
+a = 2 * 5
+print(d / 6)
+# output
+# 0.6666666666666666
+
+e = 2
+c = 7
+d = 7 + 4
+print(d)
+# output
+# 11
+
+d = 0
+a = 1
+print(a)
+# output
+# 1
+
+b = 0
+a = 0 / 5
+print(a)
+# output
+# 0.0
+
+d = 4
+d = 1
+a = 1 - d
+print(d / d)
+# output
+# 1.0
+
+b = 9
+b = 9
+print(b / 9)
+# output
+# 1.0
+
+d = 8
+print(d + 9)
+# output
+# 17
+
+a = 6
+c = 8
+c = 6 + a
+print(c)
+# output
+# 12
+
+a = 2
+e = 7
+print(e)
+# output
+# 7
+
+c = 7
+print(c - c)
+# output
+# 0
+
+d = 2
+print(d + d)
+# output
+# 4
+
+b = 3
+c = 1
+e = 6 - c
+print(e)
+# output
+# 5
+
+b = 6
+d = 6
+c = 5 - 4
+print(c)
+# output
+# 1
+
+e = 2
+a = 6
+print(e)
+# output
+# 2
+
+c = 9
+print(c)
+# output
+# 9
+
+d = 7
+d = 9
+print(d + 5)
+# output
+# 14
+
+a = 6
+b = 0
+e = 5 / a
+print(b * b)
+# output
+# 0
+
+a = 3
+c = a / 3
+print(c)
+# output
+# 1.0
+
+c = 4
+b = 1
+print(c + c)
+# output
+# 8
+
+b = 2
+d = 4
+print(b / 1)
+# output
+# 2.0
+
+a = 6
+print(a - 3)
+# output
+# 3
+
+e = 8
+d = 0 - e
+print(e / e)
+# output
+# 1.0
+
+c = 1
+b = 1 + 4
+print(b)
+# output
+# 5
+
+e = 5
+c = 0
+print(e + 1)
+# output
+# 6
+
+c = 0
+d = 8
+d = d - 9
+print(d)
+# output
+# -1
+
+c = 3
+print(c)
+# output
+# 3
+
+e = 2
+b = 0 + e
+print(e - 4)
+# output
+# -2
+
+a = 6
+print(a - 9)
+# output
+# -3
+
+a = 6
+e = a - 9
+print(e)
+# output
+# -3
+
+c = 2
+e = 6
+b = c * 6
+print(b)
+# output
+# 12
+
+d = 6
+a = 1 + d
+print(a)
+# output
+# 7
+
+c = 8
+print(c / 4)
+# output
+# 2.0
+
+b = 4
+print(b * b)
+# output
+# 16
+
+d = 2
+print(d + 9)
+# output
+# 11
+
+d = 2
+e = d - d
+print(d - d)
+# output
+# 0
+
+d = 1
+a = 4 + 6
+print(a)
+# output
+# 10
