@@ -1,0 +1,6 @@
+ddp is set to False
+Traceback (most recent call last):
+  File "/scratch/yb2618/Tiny-Language-Models-Framework/xperiments/xpgroup-7/xp-7-7/train-7-7/sft.py", line 110, in <module>
+    with open(DDIR+"vocab_size.txt", "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data/yb2618/Tiny-Language-Models-Framework/datasets/dataset-31/datapreps-31/dataprep-31-1/data-dp-31-1/vocab_size.txt'

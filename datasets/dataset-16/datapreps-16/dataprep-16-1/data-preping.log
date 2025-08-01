@@ -1,8 +1,0 @@
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-
-Saving the data-preping-numpy-random state:
-	--> saving it
-	--> freeing its memory
-
-We generate the tokenized file of data.txt directly to train.bin:

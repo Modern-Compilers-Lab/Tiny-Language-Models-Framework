@@ -1,4 +1,0 @@
-last-dataprep-id: 2
-datapreps:
-  dataprep-11-1: KeyworTokenization 80%Train10%Val10%Test
-  dataprep-11-2: CharacterLevelTokenization 80%Train10%Val10%Test

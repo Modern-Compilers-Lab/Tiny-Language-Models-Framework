@@ -1537,7 +1537,7 @@ finally:
 		func = "def func():\n" + indented
 		exec_env = func + exec_env_boilerplate
 		
-		# # Try to execute the generated code
+		# Try to execute the generated code
 		sio = StringIO()
 		try:
 			with redirect_stdout(sio):

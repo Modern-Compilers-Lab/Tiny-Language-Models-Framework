@@ -1,0 +1,11 @@
+ddp is set to False
+Traceback (most recent call last):
+  File "/scratch/yb2618/Tiny-Language-Models-Framework/xperiments/xpgroup-7/xp-7-7/train-7-7/sft.py", line 50, in <module>
+    torch.cuda.set_device(device)
+  File "/home/yb2618/.conda/envs/tinylm/lib/python3.11/site-packages/torch/cuda/__init__.py", line 476, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
