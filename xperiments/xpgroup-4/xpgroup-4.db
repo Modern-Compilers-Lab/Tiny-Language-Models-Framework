@@ -1,8 +1,0 @@
-last-xp-id: 3
-xps:
-  xp-4-1: 12-Heads 12-Blocks 30M-Model RMS SiLU DP-10-1 CoT-Model-2 2.5MSnippets ClassicCodePattern
-    ShortArithmetics
-  xp-4-2: 12-Heads 12-Blocks 30M-Model RMS SiLU DP-15-1 2.5MSnippets ClassicCodePattern
-    ShortArithmetics
-  xp-4-3: 12-Heads 12-Blocks 30M-Model RMS SiLU DP-16-1 SameAmountOfTokensForTrainingAsDP-10-1/XP-4-1 ClassicCodePattern
-    ShortArithmetics

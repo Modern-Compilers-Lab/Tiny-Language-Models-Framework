@@ -1,1 +1,0 @@
-evals-5-3-3 test xp-5-3 model on the chatGPT test set using the latest model checkpoint i.e. after it finished training after 1.7 pseudo-epoch

@@ -1,6 +1,0 @@
-last-xp-id: 5
-xps:
-  xp-6-1: OptimizingXP-5-4 KarpathyGPT2
-  xp-6-2: SteppingThroughVanillaDDP
-  xp-6-3: StablizingOptimusTraining
-  xp-6-4: CompiledModelInInference

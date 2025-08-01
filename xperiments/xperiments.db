@@ -1,8 +1,0 @@
-last-xpgroup-id: 6
-xpgroups:
-  xpgroup-1: CodeExecution OutputPrediction XG-1
-  xpgroup-2: BaseModel ArchitectureChanges XG-2
-  xpgroup-3: DataChanges XG-3
-  xpgroup-4: CoT XG-4
-  xpgroup-5: OODTackling XG-5
-  xpgroup-6: OptimizeTraining XG-6

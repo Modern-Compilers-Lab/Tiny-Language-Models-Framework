@@ -1,6 +1,0 @@
-last-xp-id: 4
-xps:
-  xp-5-1: CoT 30MModel 16-Heads 24-Blocks SiLU RMSNorm DP-18-1
-  xp-5-2: CoT 5MModel 12-Heads 12-Blocks SiLU RMSNorm DP-17-1
-  xp-5-3: CoT 5MModel 16-Heads 24-Blocks SiLU RMSNorm DP-19-1
-  xp-5-4: CoT 5MModel 16-Heads 24-Blocks SiLU RMSNorm DP-20-1

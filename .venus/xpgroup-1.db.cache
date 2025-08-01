@@ -1,5 +1,0 @@
-last-xp-id: 3
-xps:
-  xp-1-1: 60MModel 120MSimplifiedSnippets Dataset3 8AttentionHeads 8Blocks
-  xp-1-2: 30MModel 30MSnippets Dataset2
-  xp-1-3: 30Model 6Blocks 6AttentionHeads Dataset3
