@@ -1,140 +1,42 @@
 # Tiny Language Models Framework
 
-This repository contains the implementation and resources for the Tiny Language Models Framework project. In this project, we developed small-scale language models to facilitate detailed research into various aspects of large language models (LLMs), particularly in the domain of code. 
+This repository contains the implementation and resources for the Tiny Language Models Framework project. This project's aim is to develop small-scale language models to facilitate detailed research into various aspects of transformer-based language models in the perspective of enveiling properties that may arise within larger language models (LLMs).
 
 <p align="center">
   <img src="https://github.com/Modern-Compilers-Lab/Tiny-Language-Models-Framework/assets/86785811/946011ac-90ca-454f-baeb-d74b09a1721c" width="500" >
 </p>
 
-We've also prepared a [TinyLM Starter Notebook on Kaggle](https://www.kaggle.com/code/nairmarwa/tinylm-starter-notebook). This notebook is designed to help you get started quickly with our project. It guides you through training a tiny language model from scratch using our dataset and evaluating its performance on code execution tasks.
-
 ## Project Structure
+- The project is structured into research projects (RPs). Each RP is self-contained in its respective top-level folder `research_project_X`.
+- Additionally, a top-level `datasets` folder is available for the different research projects to share.
 
-- `data/`
-  - `meta.pkl` : Metadata for the dataset.
-  - `prepare.py` : Script to prepare data for training.
-  - `sample_data.txt` : Sample data used for testing and demonstration.
-  - `test.bin` : Binary file containing test data.
-  - `test.txt` : Text file containing test data.
-  - `tinypy_generator.py` : Script to generate TinyPy data.
-  - `train.bin` : Binary file containing training data.
-  - `train.txt` : Text file containing training data.
-  - `val.bin` : Binary file containing validation data.
-  - `val.txt` : Text file containing validation data.
+## 2025 Release
+- This reformative edition has delivered the research projects (RP) `research_project_1` to `research_project_4`. For all these RPs, we have studied small transformer models trained to perform a custom task named TinyPy-CodeTracing, where a language model takes a python snippet as input, and produces its execution trace by duplicating the code snippet at each execution step, and annotating relevant execution information, like represented by the following figure:
+
+<p align="center">
+<img width="750" alt="tinypy_code_tracing_super_detailed" src="https://github.com/user-attachments/assets/65751d06-3185-4f20-82a0-ed28deb85862" />
+</p>
+
+- The input python snippets and their corresponding execution traces were synthetically generated using an original tool named TinyPy-CodeTracing Generator, illustrated by the figure below:
+<p align="center">
+<img width="750" height="2623" alt="data_gen_pipeline_5" src="https://github.com/user-attachments/assets/84259211-c271-4caf-997a-f5df6d4966d8" />
+</p>
+
+- More details can be found in the dedicated manuscript of this release.
+
+- The top-level `tinypy_code_tracing_demo` contains a demonstration of the base research pipeline used during this release:
+
+  - `1_data_generation/`
  
-- `generalization/`
-  - `data/` : Contains tokenized data to fine-tune and evaluate Code LLaMa model.
-  - `models/` : Stores fine-tuned Code LLaMa models.
-  - `results/` : Holds results from the evaluation.
-  - `demonstration.ipynb` : Jupyter notebook demonstrating fine-tuned Code LLaMa capabilities.
-  - `evaluate.py` : Script to evaluate fine-tuned Code LLaMa.
-  - `finetune.py` : Script for fine-tuning Code LLaMa model.
-  - `tokenizing.py` : Handles tokenization for Code LLaMa model.
-
-- `models/`
-  - `arithmetics_level1_696K.pth` : Pretrained model for arithmetic operations at level 1 with 696K parameters.
-
-- `results/`
-  - Directory to store results of model evaluations and tests.
-
-- `demonstration.ipynb` : Jupyter notebook demonstrating the usage of the models and scripts.
-
-- `code_execution.py` : Script to evaluate the trained models on the code execution task.
-  
-- `token-level_code_completion.py` : Script to evaluate the trained models on the token-level code completion task.
-
-- `line-level_code_completion.py` : Script to evaluate the trained models on the line-level code completion task.
-
-- `model.py` : Contains the model architecture and related functions.
-
-- `README.md` : This file.
-
-- `train.py` : Script to train the models.
-
-## Requirements
-We've used Python 3.11.7.
-
-To install the required packages, you can use the following:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Data Generation
-Generate the data using TinyPy Generator by running : 
-
-```bash
-cd data/
-python tinypy_generator.py --num_programs 1000 --level 1.1 --filename sample_data.txt --deduplicate
-```
-
-This generation command is just an example to get you started. If you want to train your own model, you'll likely need to generate significantly more data. 
-
-### Data Preparation
-Prepare (tokenize and split) the data by running:
-
-```bash
-python prepare.py
-```
-
-### Training
-Train the model using the following command:
-
-bash
-```bash
-cd ..
-python train.py --batch_size 64 --max_iters 35000 --learning_rate 0.01 --miles 0.7 0.8 0.9 --eval_interval 10000 --eval_iters 500 --data_dir data
-```
-
-### Evaluation
-Evaluate the trained model on code execution by running:
-
-```bash
-python code_execution.py --dataset_dir data --model_name arithmetics_level1_696K
-```
-
-Evaluate the trained model on token-level code completion by running:
-
-```bash
-python token-level_code_completion.py --dataset_dir data --model_name arithmetics_level1_696K
-```
-
-Evaluate the trained model on line-level code completion by running:
-
-```bash
-python line-level_code_completion.py --dataset_dir data --model_name arithmetics_level1_696K
-```
-
-### Demonstration
-To see a demonstration of the model's capabilities, open the demonstration.ipynb notebook and follow the instructions within.
-
-### Generalization
-This section aims to generalize the results obtained from training tiny language models to large language models. This can be achieved through fine-tuning Code LLaMa.
-
-#### Fine-tuning
-Fine-tune Code LLaMa model using the following command:
-
-```bash
-cd generalization/
-python finetune.py  --train_dataset_path data/tokenized_train --val_dataset_path data/tokenized_val --output_dir models/code-llama-finetuned-demo
-```
-
-#### Evaluation
-Evaluate the fine-tuned Code LLaMa model by running:
-
-```bash
-python evaluate.py --checkpoint_dir models/code-llama-finetuned-level1 --test_file data/test.txt --output_file results/result_llama.txt --csv_file results/results_llama.csv 
-```
-
-#### Demonstration
-To see a demonstration of the model's capabilities, open the generalization/demonstration.ipynb notebook and follow the instructions within.
+    - `1_tinypy_generator_2.0.py`: First stage of TinyPy-CodeTracing Generator. Used to synthesize python snippets with user defined properties.
+    - `2_tinypy_code_tracer.py`: Second stage of TinyPy-CodeTracing Generator. Used to create the execution trace of python snippet.
+    - `3_determinism_filtering`: Third stage of TinyPy-CodeTracing Generator. Used to fitler our code snippets that do not meet a certain condition that can impact determinism during model inference (check manuscript for details).
+    - 
 
 # Contact
 
-- **Kamel Yamani**: [mky2023@nyu.edu](mailto:mky2023@nyu.edu)
-- **Marwa Naïr**: [mn3620@nyu.edu](mailto:mn3620@nyu.edu)
+- **Younes Boukacem**: [yb2618@nyu.edu](mailto:yb2618@nyu.edu)
+- **Hodhaifa Benouaklil**: [hb3020@nyu.edu](mailto:hb3020@nyu.edu)
 
 
 # License
