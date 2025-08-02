@@ -11,7 +11,8 @@ This repository contains the implementation and resources for the Tiny Language 
 - Additionally, a top-level `datasets` folder is available for the different research projects to share.
 
 ## 2025 Release
-- This reformative edition has delivered the research projects (RP) `research_project_1` to `research_project_4`. For all these RPs, we have studied small transformer models trained to perform a custom task named TinyPy-CodeTracing, where a language model takes a python snippet as input, and produces its execution trace by duplicating the code snippet at each execution step, and annotating relevant execution information, like represented by the following figure:
+- This reformative edition has delivered the research projects (RP) `research_project_1` to `research_project_4`.
+- For all these RPs, we have studied small transformer models trained to perform a custom task named TinyPy-CodeTracing, where a language model takes a python snippet as input, and produces its execution trace by duplicating the code snippet at each execution step, and annotating relevant execution information, like represented by the following figure:
 
 <p align="center">
 <img width="750" alt="tinypy_code_tracing_super_detailed" src="https://github.com/user-attachments/assets/65751d06-3185-4f20-82a0-ed28deb85862" />
