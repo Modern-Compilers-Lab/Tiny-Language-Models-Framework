@@ -26,12 +26,19 @@ This repository contains the implementation and resources for the Tiny Language 
 
 - The top-level `tinypy_code_tracing_demo` contains a demonstration of the base research pipeline used during this release:
 
-  - `1_data_generation/`
+  - `1_data_generation/`: Contains the scripts used for generating data and preparing it for training:
  
     - `1_tinypy_generator_2.0.py`: First stage of TinyPy-CodeTracing Generator. Used to synthesize python snippets with user defined properties.
     - `2_tinypy_code_tracer.py`: Second stage of TinyPy-CodeTracing Generator. Used to create the execution trace of python snippet.
-    - `3_determinism_filtering`: Third stage of TinyPy-CodeTracing Generator. Used to fitler our code snippets that do not meet a certain condition that can impact determinism during model inference (check manuscript for details).
-    - 
+    - `3_determinism_filtering.py`: Third stage of TinyPy-CodeTracing Generator. Used to fitler our code snippets that do not meet a certain condition that can impact determinism during model inference (check manuscript for details).
+    - `4_data_preparation.py`: Script to split the data into train-test-validation and tokenize the data.
+    - `tinypy_code_tracer_tokenizer.py`: A custom tokenizer for our data. Used by `4_data_preparation.py`.
+
+  - `2_model_training/train.py`: Our Pytorch training script with support for Multi-GPU data parallelism.
+
+  - `3_inference/`:
+    - `eval.py`: Script for evaluating a trained model with support for multi-inference parallelism.
+    - `tinypy_code_tracer_tokenizer.py`: The same custom tokenizer used for data preparation. Required by `eval.py`.
 
 # Contact
 
