@@ -1,0 +1,13 @@
+torch>=2.0
+transformers>=4.30
+datasets
+numpy
+tqdm
+tree-sitter
+tree-sitter-python
+tree-sitter-java
+tree-sitter-javascript
+tree-sitter-go
+tree-sitter-ruby
+tree-sitter-php
+safetensors
