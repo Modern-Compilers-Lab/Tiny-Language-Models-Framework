@@ -43,7 +43,7 @@ This repository contains the implementation and resources for the Tiny Language 
 
 ## 2026 Release
 
-- all necessary details can be found in `2026_release` folder
+- all necessary details can be found in `release_2026` folder
 
 # Contact
 
