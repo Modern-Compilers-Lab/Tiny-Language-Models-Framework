@@ -1,0 +1,15 @@
+name: torch_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.4.1
+  - pytorch-cuda=11.8
+  - torchvision=0.19.1
+  - torchaudio=2.4.1
+  - pandas=2.2.3
+  - numpy=2.1.1
+  - tqdm=4.66.5
+  - matplotlib=3.10.0
+  - gpustat
+prefix: /home/ia2921/anaconda3/envs/torch_env
