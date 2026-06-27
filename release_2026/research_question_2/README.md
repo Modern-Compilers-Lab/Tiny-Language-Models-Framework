@@ -29,7 +29,7 @@
 ## Evaluation folder : 
 - ok, in this one we have a lot of evaluations so let's go step by step
 - so we have $V$ variable diversity values, each one generated $C$ saved checkpoints, and then for the evalution, we have indistribution testing, the different out-of-distirubtion tasks, and finally, the renamed variable testing, where we take sucessful examples of indistirubiton testing, modify the snippets, and reevalute to see if perfromance holds, lets say we have in total $T$ tasks.
-- so the total number of evaluations that we have to do is $V.C.T$, the $results_archive$ and $results_extended$ folders contain every single evaluation of these combinations, the naming follows this nomeclature : 
+- so the total number of evaluations that we have to do is $V.C.T$, the `results_archive` and `results_extended` folders contain every single evaluation of these combinations, the naming follows this nomeclature : 
     - `eval_jobs1_checkpoint_c.pth_t_p_v` where c is the checkpoint number, t is the task name, and v is the percentage value
 - let's break it down step by step to see how we managed to schedule all of these evaluations
 - so in `scheduler.py`, we have `checkpoints` where we include all checkpoint names, `percentages` where we include all variable diversity values we generated and `tasks` where we specify all tasks 'in addition to indisturbtion' that we want to evaluate.
