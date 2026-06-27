@@ -10,6 +10,10 @@ This repository contains the implementation and resources for the Tiny Language 
 - The project is structured into research projects (RPs). Each RP is self-contained in its respective top-level folder `research_project_X`.
 - Additionally, a top-level `datasets` folder is available for the different research projects to share.
 
+## 2026 Release
+
+- all necessary details can be found in `release_2026` folder
+
 ## 2025 Release
 - This reformative edition has delivered the research projects (RP) `research_project_1` to `research_project_4`.
 - For all these RPs, we have studied small transformer models trained to perform a custom task named TinyPy-CodeTracing, where a language model takes a python snippet as input, and produces its execution trace by duplicating the code snippet at each execution step, and annotating relevant execution information, like represented by the following figure:
@@ -41,12 +45,11 @@ This repository contains the implementation and resources for the Tiny Language 
     - `eval.py`: Script for evaluating a trained model with support for multi-inference parallelism.
     - `tinypy_code_tracer_tokenizer.py`: The same custom tokenizer used for data preparation. Required by `eval.py`.
 
-## 2026 Release
 
-- all necessary details can be found in `release_2026` folder
 
 # Contact
 
+- **Aboud Ibrahim**: [ia2921@nyu.edu](mailto:ia2921@nyu.edu)
 - **Younes Boukacem**: [yb2618@nyu.edu](mailto:yb2618@nyu.edu)
 - **Hodhaifa Benouaklil**: [hb3020@nyu.edu](mailto:hb3020@nyu.edu)
 
