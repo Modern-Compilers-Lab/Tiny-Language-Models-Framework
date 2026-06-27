@@ -10,8 +10,7 @@
 
 - This file clarifies new files that did not exist in the `dry_framework`.
 
-- You will see a lot of empty 'results' or 'datasets' folders, they are displayed on purpose to show the architecture of the project, content is deleted so that the project is light enough to be shared on github (everything is reproducible)
-
+- You will see a lot of empty 'results' or 'datasets' folders, they are displayed on purpose to show the architecture of the project, content is deleted so that the project is light enough to be shared on github (everything is reproducible) - "update: you will not be able to see those empty folders in github because git does not track empty repositories, you will find some README.md files talking about repos that you cannot find, this is because they are not tracked, the full version with the empty repos can be found in the .zip file provided in `release_2026`
 ## Data generation folder :
 
 - `data_X_p` : any folder following this naming (with X being a value from $0.1$ to $80$) reflects a regular tiny-alpha dataset surrounding 20 million examples, the only difference that separates each folder (which, spoiler alert, is in the name itself) is this X value that varies across the datasets, this value is called 'variable diversity' and this in a nutshell tells how many unique patterns of variable names does the model see, this value is a percentage (so from 0 to 100). more details are provided in the mansucript, but in general, smaller percentages means less variable name patterns and combinations that the models sees, so more repeating names in the dataset, bigger percentages means more unique combinations that 'enrich' the dataset's variable name diversity. a value of 100 means that basically every single possible variable name combination is present in the dataset:
