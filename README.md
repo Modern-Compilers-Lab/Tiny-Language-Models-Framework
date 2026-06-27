@@ -41,6 +41,10 @@ This repository contains the implementation and resources for the Tiny Language 
     - `eval.py`: Script for evaluating a trained model with support for multi-inference parallelism.
     - `tinypy_code_tracer_tokenizer.py`: The same custom tokenizer used for data preparation. Required by `eval.py`.
 
+## 2026 Release
+
+- all necessary details can be found in `2026_release` folder
+
 # Contact
 
 - **Younes Boukacem**: [yb2618@nyu.edu](mailto:yb2618@nyu.edu)
