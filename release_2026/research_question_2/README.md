@@ -39,7 +39,7 @@
 
 ## large_scale_validation
 
-- In the manuscript it has been shown that at a small scale, variable diversity is shown be a determining factor to the model's performance over snippets with replaced variables.
+- Through this framework 'as reported in the mansucript' it has been shown that at a small scale, variable diversity is shown be a determining factor to the model's performance over snippets with replaced variables.
 - So to validate this result at a larger scale, the `large_scale_validation` project enables us to do the following (in a nutshell):
     - train codebert architecture from scratch on an ALTERED version of Codesearchnet dataset (all variable names are replaced with a random sequence of characters)
     - evaluate the saved checkpoints + codebert baseline + contrabert model (from the litterature) on POJ-104 dataset (zero-shot) to measure regular performance
