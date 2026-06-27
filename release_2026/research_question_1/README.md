@@ -10,7 +10,7 @@
 
 - This file clarifies new files that did not exist in the `dry_framework`.
 
-- You will see a lot of empty 'results' or 'datasets' folders, they are displayed on purpose to show the architecture of the project, content is deleted so that the project is light enough to be shared on github (everything is reproducible) - "update: you will not be able to see those empty folders in github because git does not track empty repositories, you will find some README.md files talking about repos that you cannot find, this is because they are not tracked, the full version with the empty repos can be found in the .zip file provided in `release_2026`
+- You will see a lot of empty 'results' or 'datasets' folders, they are displayed on purpose to show the architecture of the project, content is deleted so that the project is light enough to be shared on github (everything is reproducible) - "update: you will not be able to see those empty folders in github because git does not track empty repositories, you will find some README.md files talking about repos that you cannot find, this is because they are not tracked, the full version with the empty repos can be found in the .zip file provided in `release_2026`"
 
 ## Data generation folder :
 
