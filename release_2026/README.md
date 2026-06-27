@@ -7,4 +7,4 @@ This folder contains the source code that produced the results reported in the m
 - every folder contains a `README.md` file explaining the scripts at a lower level, `dry_framework` scripts are commented with the most important hyperparameters, most used commands, etc.
 
 
-Contact: `ia2921@nyu.edu`
+Contact: [ia2921@nyu.edu](mailto:ia2921@nyu.edu)
