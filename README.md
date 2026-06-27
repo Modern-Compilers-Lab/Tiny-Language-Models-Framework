@@ -12,7 +12,7 @@ This repository contains the implementation and resources for the Tiny Language 
 
 ## 2026 Release
 
-- all necessary details can be found in `release_2026` folder
+- All necessary details can be found in `release_2026` folder
 
 ## 2025 Release
 - This reformative edition has delivered the research projects (RP) `research_project_1` to `research_project_4`.
