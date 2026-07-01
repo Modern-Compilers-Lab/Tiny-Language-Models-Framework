@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+*:Zone.Identifier
+*.swp
+
+# Logs
+*.log
+
+# Regenerable framework outputs (recreated at runtime via os.makedirs(exist_ok=True))
+infers/
+eval_jobs*/
+temp_shards/
+checkpoints/
+checkpoints[0-9]*/
+
+# Regenerable dataset outputs under release_2026 (scoped to avoid the tracked
+# data_generation/ and data_preparation_*.py collisions elsewhere)
+release_2026/**/data/
+release_2026/**/data_*_p/
+release_2026/**/20m/
+release_2026/**/20mSP/
+release_2026/**/20mBPE/
+release_2026/**/300m/
+
+# Structure is documented, not archived
+# release_2026/release_2026.rar
+
+#UV files
+uv.lock
+.python-version
+pyproject.toml
