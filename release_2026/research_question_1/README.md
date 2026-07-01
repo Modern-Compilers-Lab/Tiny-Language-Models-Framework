@@ -10,7 +10,7 @@
 
 - This file clarifies new files that did not exist in the `dry_framework`.
 
-- The 'results' and 'datasets' folders are not shipped with the repository: they are recreated automatically when you run the scripts (everything is reproducible), and are ignored through the root `.gitignore` to keep the project light enough to share on github
+- The 'results' and 'datasets' folders are not shipped with the repository: they are recreated automatically when you run the scripts (everything is reproducible), and are ignored through the root `.gitignore` to keep the project light enough to share on github. However, an archived version of this project `release_2026.rar` contains the 'empty' folders; This is to let the user explore the different repositories prior to running the scripts.
 
 ## Data generation folder :
 
