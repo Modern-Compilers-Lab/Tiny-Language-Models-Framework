@@ -567,6 +567,8 @@ def test_actual_checkpoint_finetune_and_cli_evaluation(tmp_path, capsys):
             str(tmp_path / "eval"),
             "--finetune-config",
             str(recipe),
+            "--device",
+            "cpu",
             "--max-len",
             "32",
             "--max-new-tokens",

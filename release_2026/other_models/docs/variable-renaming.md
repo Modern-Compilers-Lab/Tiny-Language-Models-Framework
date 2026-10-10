@@ -1,20 +1,19 @@
-# Codelab experiments
+# Variable-renaming experiment
 
-Codelab currently contains one experiment family, `robustness_to_variable_renaming`.
-It is integrated here, together with its reusable data preparation, token cache,
-diversity measurement, campaign, freezing and reporting utilities. It works with
-Llama, StarCoder (`gpt_bigcode`) and GPT-NeoX checkpoints, at either configured size.
-The transformations, task adapters, registry, vendor code, tests and this guide are
-contained in `experiments/robustness_to_variable_renaming/`. Shared models, training,
-runtime and benchmark services remain in their existing framework modules.
-No import from a sibling codelab checkout or dependency on ORX is required.
+The experiment compares models trained on the same documents with different local
+variable names. It has three training conditions and paired evaluation views at
+rename caps 0, 1, 2, 4 and 8.
 
-Install this folder's `requirements.txt` in your chosen Python environment. Run
-commands from the repository root using `python release_2026/other_models/run.py`.
-The absolute path to `run.py` also works from another directory. Each experiment
-command accepts `--help`.
+The implementation is in
+[`experiments/robustness_to_variable_renaming/`](../experiments/robustness_to_variable_renaming/).
+It uses the shared model adapter, trainer, dataset readers and benchmark cache.
+The ten-file scoring library remains unchanged and is checked against its
+`SHA256SUMS`. Llama, StarCoder and GPT-NeoX checkpoints use the same workflow.
 
-## What is included
+Run the commands from the repository root. See [setup](environment.md) for the
+Python environment and [command reference](commands.md#experiment-commands) for options.
+
+## Training conditions
 
 Training conditions preserve document order, IDs, metadata and non-code fields:
 
@@ -71,7 +70,7 @@ Dataset defaults follow the selected model; `--dataset` overrides them.
 `prepare-training` defaults to all three conditions and seeds `2,3,4`, 20,000
 updates, global batch 16 and context 320. Optional `--steps`, `--batch-size`,
 `--micro-batch`, `--max-len`, `--warmup`, `--device`, `--scale`, `--modes`, `--seeds`
-and `--workers` make laptop pilots practical. `--pretrained` starts every condition
+and `--workers` make pilots practical. `--pretrained` starts every condition
 from the same existing checkpoint; omit it for training from scratch. Every cell
 saves its own **new** `model/` checkpoint and refuses to overwrite trained outputs.
 Always choose a fresh run root when changing a recipe.
@@ -109,7 +108,7 @@ the CodeSearchNet reference for the identifier and localization tasks.
 comparisons; it is not the default source.
 
 Both view preparation and evaluation default to `--limit 0` (all prepared rows).
-Use `--limit 2` for a laptop pilot. Use the same comma-separated `--tasks` selection
+Use `--limit 2` for a small pilot. Use the same comma-separated `--tasks` selection
 for `prepare-views`, `evaluate` and `score`. Evaluation accepts `--batch`,
 `--max-len`, `--dtype` and `--device`. An existing checkpoint can be evaluated
 directly; controlled-condition training is optional.
@@ -134,8 +133,7 @@ it are detected by the integrity test. Project-specific wrappers sit outside it.
 ## Shared benchmark data
 
 CodeXGLUE preparation delegates to `benchmark_suite.workflow.ensure_data`, the
-existing download, preparation and manifest validation services. The experiment
-contains no separate CodeXGLUE download URLs or label-recovery pipeline. Its task
+existing download, preparation and manifest validation services. CodeXGLUE downloads and label recovery belong to the shared benchmark services. Its task
 adapters retain the shared TEST IDs, gold labels and official candidate vocabulary.
 It records the source manifest and TEST hashes in the experiment manifest.
 Sampling follows the shared source-order prefix, replacing codelab's historical
@@ -168,20 +166,30 @@ with no raw source lack the original token boundaries; such rows require a raw
 benchmark source via `--benchmark-source` (use a fresh `--benchmark-run`). They are
 rejected rather than silently renamed with guessed boundaries.
 
-## Verified offline laptop rerun
+## Token cache and diversity check
 
-`runs/laptop-shared-benchmarks-20261010-v2/` in this experiment folder contains the
-rerun, source hashes, logs, new checkpoints and verified reports. It uses 16 genuine
-CodeSearchNet training documents, two updates for each of three Llama conditions,
-two cached PY150 examples, one compatible cached Cloze max/min example and two
-CodeSearchNet reference functions. The halfvar checkpoint is evaluated on PY150,
-Cloze max/min, identifier reproduction and variable-misuse localization at all five
-rename levels. Preparation prohibits HTTP requests; workers use Hugging Face offline
-mode. Existing benchmark files and the initial checkpoint remain unchanged.
-This is a pipeline check, not evidence of a training-condition effect.
+`prepare-training --token-cache` stores token IDs beside each condition's JSONL.
+The cache metadata checks the data hash, tokenizer hash, context length, binary
+contents and offsets. Cached training uses the same bounded shuffle as the ordinary
+trainer. It accepts code-only TRAIN rows.
 
-Run both test directories to check shared services and the relocated experiment:
+For an existing recipe, the two cache commands are:
 
 ```powershell
-python -m pytest release_2026/other_models/tests release_2026/other_models/experiments/robustness_to_variable_renaming/tests -q
+python release_2026/other_models/run.py experiment token-cache prepare --config TRAINING_CONFIG --run TRAINING_RUN --cache TOKEN_PREFIX
+python release_2026/other_models/run.py experiment token-cache train --config TRAINING_CONFIG --run NEW_TRAINING_RUN --cache TOKEN_PREFIX
 ```
+
+`TOKEN_PREFIX` names the cache without an extension. It produces `.bin`,
+`.offsets.npy` and `.json` files. Use a fresh output run for training.
+
+To check how much of a treatment survives truncation:
+
+```powershell
+python release_2026/other_models/run.py experiment diversity --config HALFVAR_CONFIG --run DIVERSITY_RUN --cache HALFVAR_TOKEN_PREFIX --baseline-cache PLAIN_TOKEN_PREFIX --n 2000
+```
+
+The visible identifier counts use the requested document sample. The changed-token
+fraction compares every row in the two caches. Match row order, tokenizer and context
+across them. The output is `results/diversity_visible.json`; it is a check of the
+intervention, not a statistical test of model performance.

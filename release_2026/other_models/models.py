@@ -328,7 +328,6 @@ class HFModel:
         if temperature > 0:
             options.update(temperature=temperature, top_p=top_p)
         outputs = []
-        # Sequential generation avoids multiplying laptop activation memory by n.
         for _ in range(n):
             with torch.inference_mode():
                 out = self.causal_lm.generate(

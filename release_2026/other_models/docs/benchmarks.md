@@ -1,7 +1,7 @@
 # Standard benchmarks
 
-Standard benchmark commands.
-See [metric implementation](benchmark_suite/metrics.py) for the definitions behind every result field.
+Use `benchmark` to prepare official releases and evaluate a saved checkpoint.
+Results are written alongside the predictions used to compute them. See [metric implementation](../benchmark_suite/metrics.py) for the definitions behind every result field.
 
 ## Available routes
 
@@ -18,6 +18,18 @@ See [metric implementation](benchmark_suite/metrics.py) for the definitions behi
 ```powershell
 python release_2026/other_models/run.py benchmark list
 ```
+
+## Prepare all benchmarks
+
+```powershell
+python release_2026/other_models/run.py benchmark download --benchmark all --run release_2026/other_models/runs/bench-raw
+python release_2026/other_models/run.py benchmark prepare --benchmark all --run release_2026/other_models/runs/bench-data
+```
+
+These are separate workflows; use different run directories. `--source` applies to
+one benchmark at a time. To prepare from the download above, select a benchmark and
+pass its `bench-raw/sources/<name>/` directory. The two CRUXEval routes read the same
+release for different tasks.
 
 ## Download and prepare full data
 
@@ -55,7 +67,7 @@ python release_2026/other_models/run.py benchmark download --benchmark bifi --ru
 python release_2026/other_models/run.py benchmark prepare --benchmark bifi --source release_2026/other_models/runs/bifi-raw/sources/bifi --run release_2026/other_models/runs/bifi-full
 ```
 
-See [release downloader](benchmark_suite/sources.py) for inventories, hashes and offline reuse.
+See [release downloader](../benchmark_suite/sources.py) for inventories, hashes and offline reuse.
 
 ## Local data
 
@@ -81,7 +93,7 @@ All normalized rows have `id` and `split`, plus these fields:
 | Benchmark    | Required task fields                                                           |
 | ------------ | ------------------------------------------------------------------------------ |
 | PY150        | `code`: lexical token list                                                     |
-| Cloze        | `prefix`, `gold`, `choices`; optional audit `suffix`                           |
+| Cloze        | `prefix`, `gold`, `choices`; `suffix`, `pl_tokens`, `mask_index` retained by the raw reader                           |
 | BIFI         | `buggy_tokens`; TRAIN/DEV also `fixed_tokens`; TEST also `chunk`, `error_type` |
 | ManyTypes4Py | Untyped `code`, `scope`, `target`, `kind`, `gold`                              |
 | CRUXEval     | `code`, argument-expression `input`, literal-expression `output`               |
@@ -91,6 +103,10 @@ Fine-tuning checks TRAIN against heldout IDs and exact inputs again.
 Official splits are retained; the framework does not randomly resplit benchmarks.
 
 ## Evaluate one checkpoint
+
+Evaluation defaults to `--device auto`: CUDA when available, otherwise CPU.
+Use `--device cpu` or `--device cuda` to select a device explicitly. The examples
+below use automatic selection.
 
 Evaluation scores every prepared TEST example by default, including when
 fine-tuning is enabled. Omit `--limit` or use `--limit 0` for complete evaluation.
@@ -131,6 +147,9 @@ Use the supplied `configs/finetune-example.json`, or save a recipe such as `rele
 ```
 
 These budgets are examples, not tuned benchmark recipes.
+The recipe's `device` field selects the fine-tuning device; if omitted, fine-tuning
+uses CPU. Evaluation's `--device` option does not override that setting. The supplied
+`configs/finetune-example.json` uses `"device": "auto"`.
 To fine-tune and evaluate in one command:
 
 ```powershell
@@ -183,7 +202,7 @@ Add sampling flags when reporting CRUXEval pass@5.
 | Route        | Details that affect comparisons                                                                                            |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------- |
 | PY150        | Official 95k TRAIN, final 5k original train files as DEV, 50k TEST; complete lexical alignment and overlapping windows     |
-| Cloze        | Causal left-context likelihood; recovered gold; official candidates; no bidirectional CodeBERT claim                       |
+| Cloze        | Causal left-context likelihood, recovered gold and official candidates; scores differ from bidirectional baselines                       |
 | BIFI         | Released token representation and original critic/edit rule; original round0 training pairs; no iterative breaker training |
 | ManyTypes4Py | Released file-level splits; untyped code only; candidate vocabulary from TRAIN or a frozen external file                   |
 | CRUXEval     | Compact causal prompts, literal predictions, any correct input accepted; invalid samples stay in the denominator           |
@@ -223,56 +242,5 @@ python -m pytest release_2026/other_models/tests -q
 ```
 
 These tests use local fixtures and tiny checkpoints. They do not download full releases.
-
-## Integration behavior
-
-Run commands from the framework repository root. All integration code and the
-examples' generated outputs live in `release_2026/other_models/`; codelab is not a
-runtime dependency. Install this directory's `requirements.txt`, including `ijson`.
-
-Prepare or download every registered route with `--benchmark all`:
-
-```powershell
-python release_2026/other_models/run.py benchmark download --benchmark all --run release_2026/other_models/runs/bench-raw
-python release_2026/other_models/run.py benchmark prepare --benchmark all --run release_2026/other_models/runs/bench-data
-```
-
-Each route keeps its own `sources/<name>/` and `data/<name>/` directories.
-The two CRUXEval routes intentionally read the same release with different tasks.
-Use separate raw/preparation/evaluation run directories because their recorded
-recipes differ. `--source` accepts one benchmark at a time.
-
-Raw-only `download` retains complete release files; `--max-download-mb` is an
-optional hard transfer budget. To download and prepare a prefix without fetching
-complete releases, use `prepare --limit N`. The subset readers use HTTP ranges
-or stop streaming once the requested rows are collected. Some formats still
-need supporting files or substantial archive prefixes before the requested
-rows are reachable. A byte cap fails explicitly if that prefix is too large.
-
-Every default preparation includes all official splits available for that route.
-ManyTypes4Py downloads the entire release archive and prepares all eligible clean
-variant rows by default; `--version complete` selects that variant instead.
-
-Fine-tuning always creates a distinct final checkpoint. Standalone `finetune`
-saves `<run>/model/`; `evaluate --finetune-config` saves `<run>/finetune/model/`
-and evaluates that checkpoint. Writing inside the source checkpoint, reusing
-its output location, or replacing an existing final tuned checkpoint is rejected.
-The tokenizer is saved with each new checkpoint. TRAIN/heldout overlap checks,
-training, and prediction output use disk or bounded buffers for full corpora.
-Source-checkpoint hashes are recorded with fine-tuning metadata.
-
-All three integrated architectures can use the trainable routes. Zero-shot
-benchmark evaluation performs no gradient updates and creates no tuned model.
-Cloze and CRUXEval support evaluation only. Exact optimizer-state resume is not
-implemented; continued training from an existing checkpoint starts a new optimizer.
-
-The supplied fine-tuning recipe is an example, not a calibrated benchmark budget.
-Use `--max-len` and `--max-new-tokens` appropriate to your checkpoint and prompts.
-CRUXEval input workers retain the upstream timeout/import restrictions; they do
-not provide an operating-system sandbox for arbitrary code.
-# Renaming experiments
-
-The original codelab ten-task renaming study and its campaign utilities are now
-available through `experiment`. See [renaming experiment guide](experiments/robustness_to_variable_renaming/README.md) for the
-training conditions, paired evaluation protocol and commands.
+For the renaming tests as well, see [development](development.md#tests).
 

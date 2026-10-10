@@ -508,7 +508,9 @@ def add_cli(sub):
         "--finetune-config",
         help="optional fine-tuning recipe JSON; default evaluates supplied checkpoint",
     )
-    ev.add_argument("--device", default="cpu")
+    ev.add_argument(
+        "--device", default="auto", help="Evaluation device (default: auto selects CUDA when available, otherwise CPU)"
+    )
     ev.add_argument("--dtype", default="float32")
     ev.add_argument(
         "--limit",
