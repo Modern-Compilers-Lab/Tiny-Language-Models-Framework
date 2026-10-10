@@ -270,3 +270,9 @@ The supplied fine-tuning recipe is an example, not a calibrated benchmark budget
 Use `--max-len` and `--max-new-tokens` appropriate to your checkpoint and prompts.
 CRUXEval input workers retain the upstream timeout/import restrictions; they do
 not provide an operating-system sandbox for arbitrary code.
+# Renaming experiments
+
+The original codelab ten-task renaming study and its campaign utilities are now
+available through `experiment`. See [renaming experiment guide](experiments/robustness_to_variable_renaming/README.md) for the
+training conditions, paired evaluation protocol and commands.
+

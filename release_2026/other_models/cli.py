@@ -16,6 +16,8 @@ def main(argv=None):
     from .benchmark_suite.workflow import add_cli
 
     add_cli(commands)
+    sub = commands.add_parser("experiment", help="Codelab renaming experiments and campaign utilities")
+    sub.add_argument("experiment_args", nargs=argparse.REMAINDER)
     commands.add_parser("list", help="Show model presets and training corpora")
     for command in ("download", "prepare"):
         sub = commands.add_parser(command)
@@ -90,7 +92,11 @@ def main(argv=None):
     sub.add_argument("--local-files-only", action="store_true")
     args = parser.parse_args(argv)
     try:
-        if args.command == "benchmark":
+        if args.command == "experiment":
+            from .experiments.workflow import main as experiment_main
+
+            return experiment_main(args.experiment_args)
+        elif args.command == "benchmark":
             from .benchmark_suite.workflow import cli
 
             return cli(args)

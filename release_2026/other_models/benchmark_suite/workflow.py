@@ -61,6 +61,80 @@ def manifest(data):
     return meta
 
 
+def ensure_data(name, run, limit=0, prepared=None, source=None, search_root=None):
+    """Reuse validated prepared/raw releases before downloading through shared readers.
+
+    Explicit paths fail on invalid data. Automatic discovery never serves a sampled
+    preparation for an all-example request, or a smaller sample for a larger request.
+    """
+    if name not in BENCHMARKS or limit < 0:
+        raise ValueError("Invalid benchmark or limit")
+    run = Path(run).resolve()
+
+    def eligible(path, explicit=False):
+        meta = manifest(path)
+        if meta["benchmark"] != name or not meta["splits"].get("test", {}).get("count"):
+            raise ValueError(f"Prepared data does not contain {name} TEST rows")
+        if limit == 0 and (meta.get("subset", True) or not meta.get("full", False)):
+            if explicit:
+                raise ValueError("Full evaluation cannot reuse a prepared subset; set a positive limit or supply full data")
+            return False
+        return explicit or limit == 0 or meta["splits"]["test"]["count"] >= limit
+
+    if prepared:
+        path = Path(prepared).resolve()
+        eligible(path, explicit=True)
+        return path
+    search = Path(search_root).resolve() if search_root else run
+    candidates = [] if source else [run / "data" / name]
+    if search.exists() and not source:
+        candidates.extend(p.parent for p in sorted(search.glob(f"**/data/{name}/manifest.json")))
+    for path in dict.fromkeys(candidates):
+        if not (path / "manifest.json").exists():
+            continue
+        try:
+            if eligible(path):
+                return path.resolve()
+        except (ValueError, KeyError, FileNotFoundError):
+            # An automatic cache candidate is optional; explicit inputs fail above.
+            continue
+    raw = Path(source).resolve() if source else None
+    if raw is None:
+        from ..source_downloads import MANIFEST, verify_source
+
+        sources = [run / "sources" / name]
+        if search.exists():
+            sources.extend(p.parent for p in sorted(search.glob(f"**/sources/{name}/{MANIFEST}")))
+        for path in dict.fromkeys(sources):
+            if not (path / MANIFEST).exists():
+                continue
+            try:
+                verify_source(path, name, "http_files")
+                raw = path.resolve()
+                break
+            except (ValueError, KeyError, FileNotFoundError):
+                continue
+    if raw is None and limit == 0:
+        from .sources import download
+
+        raw = download(name, run)
+    from .data import prepare
+
+    # Separate preparation sizes while sharing one raw source store.
+    target = run / "prepared" / ("full" if limit == 0 else f"subset-{limit}")
+    path = target / "data" / name
+    if (path / "manifest.json").exists():
+        cached = manifest(path)
+        if source and (cached.get("raw_source") or cached.get("source")) != str(raw):
+            raise ValueError("Benchmark source changed; choose a fresh benchmark run")
+        if not eligible(path):
+            raise ValueError("Cached preparation has insufficient rows")
+        return path
+    path = prepare(name, target, source=str(raw) if raw else None, limit=limit)
+    eligible(path, explicit=True)
+    return path
+
+
 def training_data(name, rows):
     from .utils import render
 

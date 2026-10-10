@@ -133,6 +133,33 @@ def recover_cloze(rows, budget, source=None):
     return found
 
 
+def restore_cloze_tokens(rows, source):
+    """Annotate older prepared rows from a local raw release, keeping verified labels."""
+    rows = [dict(row) for row in rows]
+    pending = {str(row["id"]): row for row in rows if "pl_tokens" not in row}
+    if not pending:
+        return rows
+    with stream(str(Path(source) / "clozeTest.json"), Budget(0)) as handle:
+        for raw in json_items(handle):
+            key = str(raw["idx"])
+            if key not in pending:
+                continue
+            row = pending[key]
+            tokens = list(raw["pl_tokens"])
+            if tokens.count("<mask>") != 1:
+                raise ValueError("Invalid raw cloze mask")
+            mask = tokens.index("<mask>")
+            if " ".join(tokens[:mask]) + " " != row["prefix"] or " ".join(tokens[mask + 1:]) != row.get("suffix"):
+                raise ValueError("Raw cloze tokens differ from the prepared row")
+            row.update(pl_tokens=tokens, mask_index=mask)
+            del pending[key]
+            if not pending:
+                break
+    if pending:
+        raise ValueError("Prepared cloze IDs are missing from the raw source")
+    return rows
+
+
 def cloze_rows(name, budget, limit, source=None):
     variant = "all" if name.endswith("_all") else "maxmin"
     root = (
@@ -165,6 +192,8 @@ def cloze_rows(name, budget, limit, source=None):
             raise ValueError("gold outside official candidate vocabulary")
         yield dict(
             id=r["id"],
+            pl_tokens=list(r["pl_tokens"]),
+            mask_index=m,
             prefix=" ".join(r["pl_tokens"][:m]) + " ",
             suffix=" ".join(r["pl_tokens"][m + 1 :]),
             gold=gold[r["id"]],
