@@ -1,0 +1,16 @@
+{
+  "arch": "llama",
+  "scale": "small",
+  "dataset": "codesearchnet",
+  "tokenizer": "bigcode/tiny_starcoder_py",
+  "seed": 2,
+  "batch_size": 16,
+  "micro_batch": 1,
+  "max_len": 320,
+  "lr": 0.0003,
+  "warmup": 2000,
+  "steps": 20000,
+  "device": "auto",
+  "precision": "float32",
+  "threads": 4
+}
