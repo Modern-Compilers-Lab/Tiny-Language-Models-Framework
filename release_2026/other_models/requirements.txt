@@ -1,0 +1,11 @@
+# Install independently of the original framework's environment.
+torch>=2.6,<3
+transformers>=5.2,<6
+datasets>=4.6,<5
+pyarrow>=14
+huggingface-hub>=1,<2
+safetensors>=0.4
+ijson>=3.3
+numpy>=1.26
+tree-sitter>=0.25,<0.26
+tree-sitter-python>=0.25,<0.26

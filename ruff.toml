@@ -1,0 +1,29 @@
+# Manual use only. No hook, test, or automatic task invokes this formatter.
+required-version = "==0.17.0"
+target-version = "py310"
+line-length = 88
+indent-width = 4
+preview = false
+include = ["*.py", "*.pyi", "*.ipynb"]
+respect-gitignore = true
+force-exclude = true
+extend-exclude = [
+    ".venv*",
+    "venv",
+    "env",
+    "node_modules",
+    "build",
+    "dist",
+    "runs",
+    "cache",
+    "checkpoints*",
+    "infers",
+    "eval_jobs*",
+    "temp_shards",
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+docstring-code-format = false

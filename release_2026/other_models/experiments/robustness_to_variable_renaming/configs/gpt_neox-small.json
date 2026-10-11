@@ -1,0 +1,16 @@
+{
+  "data": "runs/prepared/thevault/data/transformed.jsonl",
+  "dataset": "thevault",
+  "tokenizer": "bigcode/tiny_starcoder_py",
+  "seed": 2,
+  "batch_size": 16,
+  "max_len": 320,
+  "lr": 0.0003,
+  "warmup": 2000,
+  "steps": 20000,
+  "device": "cuda",
+  "precision": "float32",
+  "threads": 4,
+  "arch": "gpt_neox",
+  "scale": "small"
+}

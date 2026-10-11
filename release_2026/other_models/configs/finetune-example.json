@@ -1,0 +1,12 @@
+{
+  "steps": 100,
+  "lr": 0.00005,
+  "warmup": 0,
+  "batch_size": 2,
+  "micro_batch": 1,
+  "max_len": 1024,
+  "save_every": 50,
+  "seed": 2,
+  "device": "auto",
+  "threads": 4
+}
