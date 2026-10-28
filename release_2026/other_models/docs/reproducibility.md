@@ -15,9 +15,9 @@ examples use `other_models/runs/` for shared work and the experiment's own
 | Benchmark evaluation | `config.json`, `results/metrics.json`, `results/<name>.predictions.jsonl` |
 | Standalone fine-tune | `model/`, training config/report and generated `data/finetune.jsonl` |
 | Evaluation with fine-tuning | New checkpoint and training records under `finetune/`, evaluation records under `results/` |
-| Renaming views | Task JSONL files and `manifest.json` with hashes and achieved rename counts |
-| Renaming evaluation | `results/prediction_manifest.json`, raw predictions, paper result JSON and worker logs, `results/curves.json` after scoring |
-| Campaign/report | Cell specs, driver logs, cell status JSON; verified `report.json` and `curves.csv` |
+| Renaming corpus | `real6_corpus.json`, optional `cloze_all_items_n<N>.json`, `manifest.json` with hashes |
+| Renaming analyses | `config.json` with corpus, checkpoint and source hashes, `logs/run.log`, result JSON under `results/` |
+| Renaming report | `summary.json`, `summary.csv` and `curves.csv` |
 
 Temporary files and caches are separate from these records. A cache helps avoid
 repeated work; the manifests establish which inputs and outputs were used.
@@ -37,19 +37,8 @@ manifests record file URLs, sizes and hashes. Prepared benchmark manifests recor
 split counts and hashes; evaluation checks those hashes. Fine-tuning also records
 source checkpoint hashes and checks TRAIN against heldout IDs and exact inputs.
 
-The renaming experiment checks raw prediction hashes before scoring. Reports
-recompute scores from the saved predictions. Paper scorers run in separate
-processes so their library globals do not affect another task.
-
-## Freeze a campaign
-
-```powershell
-python release_2026/other_models/run.py experiment freeze --data BENCHMARK_DATA --out CAMPAIGN_ROOT/frozen.json
-python release_2026/other_models/run.py experiment freeze --data BENCHMARK_DATA --out CAMPAIGN_ROOT/frozen.json --verify
-```
-
-The default snapshot covers Python code under `other_models`, prepared JSON/JSONL
-inputs and the adjacent `eval_corpus` JSON files. It excludes generated run code.
-It does not freeze the Python environment or every external dataset file; retain
-source manifests and record dependency versions separately. A campaign checks
-`frozen.json` beside its cell list when that file is present.
+The renaming analyses refuse a run directory that already has a different
+`config.json`; `--resume` continues only when the options and the corpus,
+checkpoint and source hashes all match. Summary metrics are recomputed from the
+saved result files. Each entry point runs in its own process so that the scoring
+library's process-wide settings do not affect another task.

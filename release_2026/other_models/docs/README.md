@@ -11,7 +11,7 @@ checkpoints.
 | [Models and training](models-training.md) | Architecture presets, JSON recipes, loading and continuation |
 | [Benchmarks](benchmarks.md) | The seven benchmarks, data preparation and optional fine-tuning |
 | [Metrics](metrics.md) | Score definitions, denominators and undefined results |
-| [Variable renaming](variable-renaming.md) | The variable renaming tasks and evaluation methods |
+| [Variable renaming](variable-renaming.md) | Full robustness to variable renaming experiments |
 | [Commands](commands.md) | CLI actions and where to find their options |
 | [Runs and reproducibility](reproducibility.md) | Output files, hashes, run reuse and recorded results |
 | [Development](development.md) | Source layout, tests and extension points |

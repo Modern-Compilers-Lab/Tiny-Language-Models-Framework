@@ -17,7 +17,7 @@ TinyTracer is a controlled testbed for studying how small decoder-only transform
 </p>
 
 1. **Define a research question.** For example, can a model trace programs longer than those seen during training?
-2. **Define the language and distributions.** Choose the allowed statements and generation rules, then specify the difference between training and testing. A length experiment might train on 5–11 statements and test on 12–17.
+2. **Define the language and distributions.** Choose the allowed statements and generation rules, then specify the difference between training and testing. A length experiment might train on 5 to 11 statements and test on 12 to 17.
 3. **Generate the data.** Synthesize programs, execute them to obtain reference traces, filter examples, and prepare training, validation, and test sets.
 4. **Train a model.** Start a new model instance on the generated training set and save checkpoints throughout training.
 5. **Evaluate the checkpoints.** Compare predicted traces with reference traces on both in-distribution and out-of-distribution test sets.
@@ -79,7 +79,7 @@ Use the baseline to learn the workflow, then use these folders to reproduce or a
 
 ## Other Models
 
-[`release_2026/other_models/`](release_2026/other_models/) extends the experiments to small causal language models trained on real Python code. It includes dataset download and preparation, model training and loading, standard benchmark evaluation, and controlled variable-renaming experiments.
+[`release_2026/other_models/`](release_2026/other_models/) extends the experiments to small causal language models trained on real Python code. It includes dataset download and preparation, model training and loading, standard benchmark evaluation, and variable-renaming experiments with mechanistic interpretability analyses.
 
 Start with the [documentation index](release_2026/other_models/docs/README.md), [environment setup](release_2026/other_models/docs/environment.md), and [quick start](release_2026/other_models/docs/quickstart.md). The quick start trains a small Llama checkpoint and evaluates a small PY150 sample.
 
@@ -129,11 +129,20 @@ Runs retain predictions, metrics, example counts, source manifests, and checkpoi
 
 ### Variable-renaming experiments
 
-The [variable-renaming experiment](release_2026/other_models/docs/variable-renaming.md) compares three training conditions on the same documents: original code (`plain`), partial local-variable renaming (`halfvar`), and renaming with fresh names across the corpus (`highdiv`). Paired evaluation views use rename caps of 0, 1, 2, 4, and 8 to measure accuracy and retention of previously correct predictions.
+The [variable-renaming experiment](release_2026/other_models/docs/variable-renaming.md) studies why code models fail when local variables are renamed, following the *Understanding Brittleness to Variable Renaming in Decoder-Only Code Models* paper. It runs on any checkpoint of the three model families above, and has one entry point per result of the paper.
 
-Its ten tasks cover identifier reproduction, variable misuse, token completion, cloze prediction, and CuBERT code-error detection. The experiment reuses the shared model, dataset, and benchmark services, including existing CodeXGLUE downloads and prepared data. Existing checkpoints can be evaluated directly, or each controlled training condition can produce a separate checkpoint.
+Training conditions are built from the same documents: original code (`plain`), about half of the local variables renamed (`halfvar`), or all of them renamed with fresh names across the corpus (`highdiv`). The framework's `train` command trains each condition.
 
-See the [experiment guide](release_2026/other_models/docs/variable-renaming.md) for training campaigns, paired evaluation, scoring, and reports, and the [command reference](release_2026/other_models/docs/commands.md) for CLI options.
+| Group | Experiments | What they measure |
+| --- | --- | --- |
+| Behavioural | Identifier reproduction, variable-misuse localization, ClozeTest, and the two pilot measures | Accuracy, and retention of correct answers after renaming 1, 2, 4 or 8 variables |
+| Correlational | Copy score | How much attention heads look at earlier occurrences of the variable to reproduce |
+| Causal | Zero and mean ablation of the top copy heads, forced attention | Accuracy lost when the heads are removed, and failures repaired when they are pointed at the right name, against random-head controls |
+| Localisation | Paired first error | Where in a renamed name the first wrong token falls |
+
+Heads are ranked on one half of the evaluation functions and measured on the other. Every entry point records the hashes of its corpus, checkpoint and code. A test suite and a random-model check cover the five attention layouts of the three families.
+
+See the [experiment guide](release_2026/other_models/docs/variable-renaming.md) for the protocols and commands, and the [command reference](release_2026/other_models/docs/commands.md) for CLI options.
 
 ## Repository layout
 

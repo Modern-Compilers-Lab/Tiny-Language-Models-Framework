@@ -1,0 +1,15 @@
+{
+  "experiments": "copyscore,meanablate,force,firsterror",
+  "n": 2000,
+  "max_len": 320,
+  "limit": 0,
+  "batch": 16,
+  "threads": 4,
+  "kmax": 15,
+  "n_random": 10,
+  "n_random_k3": 50,
+  "ks": "3,12",
+  "seed": 0,
+  "rename_seed": 564,
+  "split_seed": 0
+}
