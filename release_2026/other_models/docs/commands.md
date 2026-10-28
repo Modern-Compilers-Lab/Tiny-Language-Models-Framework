@@ -50,38 +50,32 @@ was not built from TRAIN. See [benchmarks](benchmarks.md).
 
 ## Experiment commands
 
-Each action below follows `experiment`. The current family is variable renaming.
+Each action below follows `experiment` and runs one script of the
+variable-renaming experiment in a new process with `PYTHONHASHSEED=0`. Options
+after the action go to the script; `experiment ACTION --help` lists them.
 
 | Action | Required arguments | Purpose |
 | --- | --- | --- |
-| `list` | None | List treatments, rename levels and ten task names |
-| `prepare-data` | `--run`, plus `--arch` or `--dataset` | Shared training-corpus preparation, optionally `--transform` |
-| `transform` | `--input`, `--run` | Apply `--transform plain`, `halfvar` or `highdiv`; default halfvar |
-| `prepare-training` | `--source`, `--tokenizer`, `--run-root` | Write condition/seed recipes and a campaign cell list |
-| `token-cache prepare` | `--config`, `--run`, `--cache` | Tokenize a code-only training corpus to a verified cache |
-| `token-cache train` | `--config`, `--run`, `--cache` | Train from cached IDs with the shared trainer |
-| `campaign` | `--cells` | Run explicit cells sequentially; optional `--status` output |
-| `prepare` | `--run` | Prepare selected experiment tasks, reusing shared benchmark data |
-| `prepare-views` | `--data`, `--run` | Build paired inputs; `--tasks` and `--limit` select a subset |
-| `evaluate` | `--data`, `--run`, `--model` | Save predictions; non-paper tasks also require `--views` |
-| `score` | `--data`, `--run` | Score saved predictions for the selected `--tasks` |
-| `diversity` | `--config`, `--run`, `--cache`, `--baseline-cache` | Check identifiers and changed training IDs; optional `--n` |
-| `freeze` | `--data`, `--out` | Hash code/inputs; `--verify` checks the saved snapshot |
-| `report` | `--run`, `--out` | Verify saved scores and export JSON/CSV |
+| `list` | None | List the actions and their scripts |
+| `prepare` | `--out` | Evaluation corpus (`--n`) and optional ClozeTest cache (`--cloze`) |
+| `transform` | `--input`, `--output` | Training set for `--mode plain`, `halfvar` or `highdiv` |
+| `tasks` | `--model`, `--corpus`, `--run`, `--group` | Identifier reproduction (`idrep`) or misuse localization and ClozeTest (`bench`) |
+| `nonidentifier` | `--model`, `--corpus`, `--run` | Appendix D.5 non-identifier accuracy and retention |
+| `misuse-detection` | `--model`, `--corpus`, `--run` | Appendix D.5 two-way misuse detection |
+| `copy-score` | `--model`, `--corpus`, `--run` | Figure 7A copy score |
+| `zero-ablation` | `--model`, `--corpus`, `--run` | Zero ablation of k = 1..`--kmax` heads |
+| `mean-ablation` | `--model`, `--corpus`, `--run` | Figure 7B mean ablation |
+| `forced-attention` | `--model`, `--corpus`, `--run` | Table 6 forced attention for `--ks` |
+| `first-error` | `--model`, `--corpus`, `--run` | Appendix E.2 paired first-error positions |
+| `mechanistic` | `--model`, `--corpus`, `--run` | The four mechanistic protocols in one run |
+| `suite` | `--model`, `--corpus`, `--run` | Every entry point above, each in its own process |
+| `report` | `--runs`, `--out` | Mean and sample SD over seeds of `mechanistic` runs, by `--arm` |
+| `toy` | `--run` | All mechanistic protocols on small random models |
 
-`prepare --n N` caps source rows. `--benchmark-data NAME=PATH` selects prepared
-CodeXGLUE inputs; `--benchmark-source NAME=PATH` selects their existing raw files.
-Both are repeatable. `--benchmark-run` chooses shared benchmark storage.
-`--corpus-only`, `--cache` and `--pinned-eval` control the reference corpus.
-
-`prepare-training` accepts architecture, dataset, scale, treatments, seeds,
-workers and training budgets. It defaults to three treatments, seeds `2,3,4`,
-20,000 updates and `--device auto`. `--pretrained` gives each cell the same
-starting weights; `--token-cache` creates caches during preparation.
-
-`evaluate` defaults to context 320, batch 16, float32 and CUDA. Set `--device cpu`
-or `auto` when needed. Preparation and evaluation are uncapped by default; use
-positive `--n` and `--limit` for a pilot. Keep the `--tasks` selection consistent
-across view preparation, prediction and scoring.
+`--model` accepts a training run directory or a Hugging Face model directory.
+The analyses default to 2,000 functions, context 320, batch 16 and `--device cpu`;
+`--device auto` or `cuda` selects a GPU. `--limit N` keeps the first N functions,
+and `--config` reads defaults from a JSON file such as the experiment's
+`paper.json`. The tasks default to `--device auto`.
 
 See [variable renaming](variable-renaming.md) for complete command sequences.

@@ -1,1 +1,1 @@
-"""Codelab experiments integrated with the other_models package."""
+"""Variable-renaming robustness and its attention mechanisms (behavioural tasks and interventions)."""

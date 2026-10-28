@@ -16,7 +16,9 @@ def main(argv=None):
     from .benchmark_suite.workflow import add_cli
 
     add_cli(commands)
-    sub = commands.add_parser("experiment", help="Codelab renaming experiments and campaign utilities")
+    sub = commands.add_parser(
+        "experiment", help="Variable-renaming experiments and their attention analyses"
+    )
     sub.add_argument("experiment_args", nargs=argparse.REMAINDER)
     commands.add_parser("list", help="Show model presets and training corpora")
     for command in ("download", "prepare"):

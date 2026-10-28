@@ -46,30 +46,26 @@ valid call yielding the expected output; output evaluation parses literals.
 
 ## Renaming curves
 
-For the [variable renaming experiment](../experiments/robustness_to_variable_renaming), each rename level has its own accuracy. Retention asks whether targets that were
-correct before renaming remain correct after renaming, using shared target IDs.
+For the [variable renaming experiment](variable-renaming.md), each rename level
+N = 0, 1, 2, 4, 8 has its own accuracy. Retention asks whether items that were
+correct before renaming remain correct after renaming the same function.
 
 ```text
-accuracy(N) = correct targets at N / scored targets at N
-retention(N) = still-correct baseline targets / baseline-correct paired targets
+accuracy(N) = correct items at N / scored items at N
+retention(N) = items correct at both 0 and N / items correct at 0
 ```
 
-For the seven non-paper task adapters, curve fields include `count`, `correct`,
-`paired_count`, `retained` and `baseline_correct_paired`. The paper adapters keep
-their original scoring protocol and raw results. The experiment's multi-token
-Cloze adapter treats a tied gold score as incorrect; this differs from the
-standard route's first-candidate tie rule.
+Rates are stored as `{k, n, rate}`. If no item was correct at N = 0, retention is
+`null`; the misuse-detection scorer also returns `null` below 30 such items.
+Misuse localization and ClozeTest count ties as wrong. Non-finite diagnostic
+values are exported as `null` and their field paths are recorded.
 
-If no paired baseline target was correct, retention is `null`, including at N=0.
-Changed BPE lengths can change how many complete targets fit inside the context,
-so accuracy counts need not be identical across levels. Requested rename caps
-and achieved counts are separate; view manifests record the latter.
-
-CuBERT detection thresholds are fitted on DEV and held fixed across the renamed
-TEST views. TEST labels do not select a threshold. The DEV sample must contain
-both classes. Paper diagnostic values that are nonfinite are exported as `null`
-with their field paths recorded.
+The mechanistic analyses report first-token accuracy on half B of the evaluation
+functions, copy scores as attention mass, and forced-attention repairs as a rate
+among the failures (correct in the original, wrong after renaming). Random-head
+controls are summarised by their mean and standard deviation over draws; `report`
+gives the sample standard deviation over training seeds separately.
 
 The implementations are in [standard metrics](../benchmark_suite/metrics.py),
-[renaming curves](../experiments/robustness_to_variable_renaming/curves.py) and
-[experiment task scoring](../experiments/robustness_to_variable_renaming/tasks/scoring.py).
+[renaming summaries](../experiments/robustness_to_variable_renaming/score.py) and
+the experiment's [scoring library](../experiments/robustness_to_variable_renaming/lib/).
